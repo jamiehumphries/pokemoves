@@ -5,15 +5,19 @@
   "private": true,
   "scripts": {
     "build": "node src/build.js",
-    "start": "echo Hello world!"
+    "start": "serve docs --config ../serve.json"
   },
   "author": "Jamie Humphries",
   "license": "ISC",
+  "dependencies": {
+    "serve": "12.0.0"
+  },
   "devDependencies": {
     "axios": "0.21.1",
     "cheerio": "1.0.0-rc.10",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
+    "nunjucks": "3.2.3",
     "prettier": "2.3.2",
     "rimraf": "3.0.2"
   }

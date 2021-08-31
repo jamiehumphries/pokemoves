@@ -63,9 +63,15 @@ async function getHtml(format, moves) {
 
 async function getList(cup, cpLimit, moves) {
   const url = `https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/${cup}/overall/rankings-${cpLimit}.json`;
-  const list = await axios.get(url).then((res) => res.data);
+  const unfilteredList = await axios.get(url).then((res) => res.data);
+  const getId = ({ speciesId }) => speciesId.replace(/(_shadow|_xs)/g, "");
+  const list = unfilteredList.filter((pkm, idx, arr) => {
+    const id = getId(pkm);
+    return arr.findIndex((p) => getId(p) === id) === idx;
+  });
   const getMove = ({ moveId }) => moves[moveId];
   for (const pokemon of list) {
+    pokemon.speciesName = pokemon.speciesName.replace(" (Shadow)", "");
     pokemon.moves.fastMoves = pokemon.moves.fastMoves.map(getMove);
     pokemon.moves.chargedMoves = pokemon.moves.chargedMoves.map(getMove);
   }

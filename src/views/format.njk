@@ -4,7 +4,32 @@
   <h1>{{ title }}</h1>
   <ol>
     {% for pokemon in list %}
-      <li>{{ pokemon.speciesName }}</li>
+      <li>
+        {{ pokemon.speciesName }}
+        <ul>
+          {% for fastMove in pokemon.moves.fastMoves %}
+            <li>
+              {{ fastMove.name }} (+{{ fastMove.energyGain }})
+            </li>
+            <ul>
+              {% for chargedMove in pokemon.moves.chargedMoves %}
+                <li>
+                  {% set turns = (chargedMove.energy / fastMove.energyGain) | round(0, "ceil") %}
+                  {{ chargedMove.name }} (-{{ chargedMove.energy }})
+                  {{ turns }}
+                  {% if ((turns * 2 - 1) * fastMove.energyGain) >= (chargedMove.energy * 2) %}
+                    / {{ turns - 1 }}
+                  {% elif ((turns * 3 - 1) * fastMove.energyGain) >= (chargedMove.energy * 3) %}
+                    / {{ turns }} / {{ turns - 1 }}
+                  {% elif ((turns * 4 - 1) * fastMove.energyGain) >= (chargedMove.energy * 4) %}
+                    / {{ turns }} / {{ turns }} / {{ turns - 1 }}
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endfor %}
+        </ul>
+      </li>
     {% endfor %}
   </ol>
 {% endblock %}

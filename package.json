@@ -4,13 +4,17 @@
   "description": "Move counts for Pokémon GO battles.",
   "private": true,
   "scripts": {
+    "build": "node src/build.js",
     "start": "echo Hello world!"
   },
   "author": "Jamie Humphries",
   "license": "ISC",
   "devDependencies": {
+    "axios": "0.21.1",
+    "cheerio": "1.0.0-rc.10",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
-    "prettier": "2.3.2"
+    "prettier": "2.3.2",
+    "rimraf": "3.0.2"
   }
 }

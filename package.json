@@ -1,0 +1,11 @@
+{
+  "name": "pokemoves",
+  "version": "1.0.0",
+  "description": "Move counts for Pokémon GO battles.",
+  "private": true,
+  "scripts": {
+    "start": "echo Hello world!"
+  },
+  "author": "Jamie Humphries",
+  "license": "ISC"
+}

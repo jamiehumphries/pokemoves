@@ -4,7 +4,7 @@
     {
       "type": "pwa-node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "Build",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\src\\build.js"
     }

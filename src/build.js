@@ -4,6 +4,7 @@ const { join } = require("path");
 const rimraf = require("rimraf");
 
 const { fetchGameMaster } = require("./data/client");
+const { setEq } = require("./helpers/collections");
 const { getPokemonName, getMoveName } = require("./helpers/names");
 
 const root = "docs";
@@ -55,14 +56,36 @@ function buildMove(template) {
 
 function buildList(pokemon, moves) {
   const getMove = (id) => moves.find((m) => m.id === id);
-  return pokemon.map((p) => {
-    const name = p.name;
-    const fastMoves = p.fastMoveIds.map(getMove);
-    const chargedMoves = p.chargedMoveIds.map(getMove);
-    const counts = fastMoves.map((fastMove) =>
-      buildCounts(fastMove, chargedMoves)
+  return deduplicate(pokemon)
+    .map((p) => {
+      const name = p.name;
+      const fastMoves = p.fastMoveIds
+        .map(getMove)
+        .sort((m1, m2) => m1.name.localeCompare(m2.name));
+      const chargedMoves = p.chargedMoveIds
+        .map(getMove)
+        .sort(
+          (m1, m2) => m2.energy - m1.energy || m1.name.localeCompare(m2.name)
+        );
+      const counts = fastMoves.map((fastMove) =>
+        buildCounts(fastMove, chargedMoves)
+      );
+      return { name, counts };
+    })
+    .sort((p1, p2) => p1.name.localeCompare(p2.name));
+}
+
+function deduplicate(pokemon) {
+  return pokemon.filter((pkm, i, arr) => {
+    return (
+      arr.findIndex(({ id, fastMoveIds, chargedMoveIds }) => {
+        return (
+          id === pkm.id &&
+          setEq(fastMoveIds, pkm.fastMoveIds) &&
+          setEq(chargedMoveIds, pkm.chargedMoveIds)
+        );
+      }) === i
     );
-    return { name, counts };
   });
 }
 

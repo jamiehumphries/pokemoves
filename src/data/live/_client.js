@@ -1,5 +1,4 @@
 const axios = require("axios").default;
-const cheerio = require("cheerio");
 
 const GAME_MASTER =
   "https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json";

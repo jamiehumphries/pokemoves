@@ -51,6 +51,7 @@ function buildMove(template) {
     name: getMoveName(template),
     type: getMoveType(template),
     energy: getMoveEnergy(template),
+    turns: getMoveTurns(template),
   };
 }
 
@@ -61,7 +62,9 @@ function buildList(pokemon, moves) {
       const name = p.name;
       const fastMoves = p.fastMoveIds
         .map(getMove)
-        .sort((m1, m2) => m1.name.localeCompare(m2.name));
+        .sort(
+          (m1, m2) => m1.turns - m2.turns || m1.name.localeCompare(m2.name)
+        );
       const chargedMoves = p.chargedMoveIds
         .map(getMove)
         .sort(
@@ -119,6 +122,13 @@ function getMoveType(template) {
 
 function getMoveEnergy(template) {
   return template.energyDelta;
+}
+
+function getMoveTurns(template) {
+  if (!template.uniqueId.endsWith("_FAST")) {
+    return undefined;
+  }
+  return (template.durationTurns || 0) + 1;
 }
 
 function getCounts(fastMove, chargedMove) {

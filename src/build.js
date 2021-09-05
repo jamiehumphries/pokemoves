@@ -86,6 +86,7 @@ function getPokemonChargedMoves(template) {
   return [
     ...(template.cinematicMoves || []),
     ...(template.eliteCinematicMove || []),
+    "RETURN",
   ];
 }
 

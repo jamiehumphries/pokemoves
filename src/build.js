@@ -4,7 +4,7 @@ const { join } = require("path");
 const rimraf = require("rimraf");
 
 const { fetchGameMaster } = require("./data/client");
-const { getPokemonName, getMoveName } = require("./data/names");
+const { getPokemonName, getMoveName } = require("./helpers/names");
 
 const root = "docs";
 rimraf.sync(root);

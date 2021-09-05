@@ -3,7 +3,8 @@ const nunjucks = require("nunjucks");
 const { join } = require("path");
 const rimraf = require("rimraf");
 
-const { getGameMaster } = require("./data/client");
+const { fetchGameMaster } = require("./data/client");
+const { getPokemonName, getMoveName } = require("./data/names");
 
 const root = "docs";
 rimraf.sync(root);
@@ -16,14 +17,14 @@ fs.writeFileSync(join(root, ".nojekyll"), "");
 fs.writeFileSync(join(root, "CNAME"), "www.pokemoves.com");
 
 async function build() {
-  const gameMaster = await getGameMaster();
-  const html = await getHtml(gameMaster);
+  const gameMaster = await fetchGameMaster();
+  const html = await buildHtml(gameMaster);
   fs.writeFileSync(join(root, "index.html"), html);
 }
 
-async function getHtml(gameMaster) {
-  const pokemon = getTemplates(gameMaster, "pokemonSettings");
-  const moves = getTemplates(gameMaster, "combatMove");
+async function buildHtml(gameMaster) {
+  const pokemon = getTemplates(gameMaster, "pokemonSettings").map(buildPokemon);
+  const moves = getTemplates(gameMaster, "combatMove").map(buildMove);
   const list = buildList(pokemon, moves);
   return nunjucks.render("list.njk", { list });
 }
@@ -34,25 +35,30 @@ function getTemplates(gameMaster, property) {
     .map(({ data }) => data[property]);
 }
 
-function buildList(pokemon, moves) {
-  const getMove = (id) => {
-    const move = moves.find((m) => m.uniqueId === id);
-    return {
-      name: getMoveName(move),
-      type: getMoveType(move),
-      energy: getMoveEnergy(move),
-    };
+function buildPokemon(template) {
+  return {
+    id: template.pokemonId,
+    name: getPokemonName(template),
+    fastMoveIds: getPokemonFastMoves(template),
+    chargedMoveIds: getPokemonChargedMoves(template),
   };
+}
+
+function buildMove(template) {
+  return {
+    id: template.uniqueId,
+    name: getMoveName(template),
+    type: getMoveType(template),
+    energy: getMoveEnergy(template),
+  };
+}
+
+function buildList(pokemon, moves) {
+  const getMove = (id) => moves.find((m) => m.id === id);
   return pokemon.map((p) => {
-    const name = p.form || p.pokemonId;
-    const fastMoves = [
-      ...(p.quickMoves || []),
-      ...(p.eliteQuickMove || []),
-    ].map(getMove);
-    const chargedMoves = [
-      ...(p.cinematicMoves || []),
-      ...(p.eliteCinematicMove || []),
-    ].map(getMove);
+    const name = p.name;
+    const fastMoves = p.fastMoveIds.map(getMove);
+    const chargedMoves = p.chargedMoveIds.map(getMove);
     const counts = fastMoves.map((fastMove) =>
       buildCounts(fastMove, chargedMoves)
     );
@@ -72,16 +78,23 @@ function buildCounts(fastMove, chargedMoves) {
   };
 }
 
-function getMoveName(move) {
-  return toSentenceCase(move.uniqueId.replace(/_FAST$/, ""));
+function getPokemonFastMoves(template) {
+  return [...(template.quickMoves || []), ...(template.eliteQuickMove || [])];
 }
 
-function getMoveType(move) {
-  return move.type.replace(/^POKEMON_TYPE_/, "").toLowerCase();
+function getPokemonChargedMoves(template) {
+  return [
+    ...(template.cinematicMoves || []),
+    ...(template.eliteCinematicMove || []),
+  ];
 }
 
-function getMoveEnergy(move) {
-  return move.energyDelta;
+function getMoveType(template) {
+  return template.type.replace(/^POKEMON_TYPE_/, "").toLowerCase();
+}
+
+function getMoveEnergy(template) {
+  return template.energyDelta;
 }
 
 function getCounts(fastMove, chargedMove) {
@@ -97,15 +110,6 @@ function getCounts(fastMove, chargedMove) {
     }
   }
   return [turns];
-}
-
-function toSentenceCase(id) {
-  return id
-    .split("_")
-    .map((word) => {
-      return word[0].toUpperCase() + word.substring(1).toLowerCase();
-    })
-    .join(" ");
 }
 
 build();

@@ -1,0 +1,31 @@
+{% extends 'layout.njk' %}
+
+{% block content %}
+  <ol>
+    {% for pokemon in list %}
+      <li>
+        {{ pokemon.name }}
+        <ol>
+          {% for count in pokemon.counts %}
+            {% set fastMove = count.fastMove %}
+            <li>
+              [{{ fastMove.type }}]
+              {{ fastMove.name }}
+              (+{{ fastMove.energy }})
+              <ol>
+                {% for chargedMove in count.chargedMoves %}
+                  <li>
+                    [{{ chargedMove.type }}]
+                    [{{ chargedMove.counts }}]
+                    {{ chargedMove.name }}
+                    ({{ chargedMove.energy }})
+                  </li>
+                {% endfor %}
+              </ol>
+            </li>
+          {% endfor %}
+        </ol>
+      </li>
+    {% endfor %}
+  </ol>
+{% endblock %}

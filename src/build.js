@@ -1,14 +1,9 @@
-const axios = require("axios").default;
-const cheerio = require("cheerio");
 const fs = require("fs");
 const nunjucks = require("nunjucks");
 const { join } = require("path");
 const rimraf = require("rimraf");
 
-const PVPOKE_FORMAT_SELECT =
-  "https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/modules/formatselect.php";
-const GAME_MASTER =
-  "https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/gamemaster.json";
+const { getGameMaster } = require("./data/client");
 
 const root = "docs";
 rimraf.sync(root);
@@ -22,60 +17,95 @@ fs.writeFileSync(join(root, "CNAME"), "www.pokemoves.com");
 
 async function build() {
   const gameMaster = await getGameMaster();
-  const moves = parseMoves(gameMaster);
-  const formats = await getFormats();
-  for (const format of formats) {
-    const { cup, cpLimit } = format;
-    const html = await getHtml(format, moves);
-    const dir = join(root, cup, cpLimit);
-    fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(join(dir, "index.html"), html);
-  }
+  const html = await getHtml(gameMaster);
+  fs.writeFileSync(join(root, "index.html"), html);
 }
 
-async function getGameMaster() {
-  return await axios.get(GAME_MASTER).then((res) => res.data);
+async function getHtml(gameMaster) {
+  const pokemon = getTemplates(gameMaster, "pokemonSettings");
+  const moves = getTemplates(gameMaster, "combatMove");
+  const list = buildList(pokemon, moves);
+  return nunjucks.render("list.njk", { list });
 }
 
-function parseMoves(gameMaster) {
-  const entries = gameMaster.moves.map((move) => [move.moveId, move]);
-  return Object.fromEntries(entries);
+function getTemplates(gameMaster, property) {
+  return gameMaster
+    .filter(({ data }) => data[property])
+    .map(({ data }) => data[property]);
 }
 
-async function getFormats() {
-  const data = await axios.get(PVPOKE_FORMAT_SELECT).then((res) => res.data);
-  const $ = cheerio.load(data);
-  return $("option")
-    .map((_, el) => {
-      const { cup, value: cpLimit } = el.attribs;
-      const title = el.children[0].data;
-      return { cup, cpLimit, title };
-    })
-    .get()
-    .filter((format) => format.cup !== "custom");
-}
-
-async function getHtml(format, moves) {
-  const { cup, cpLimit, title } = format;
-  const list = await getList(cup, cpLimit, moves);
-  return nunjucks.render("format.njk", { title, list });
-}
-
-async function getList(cup, cpLimit, moves) {
-  const url = `https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/${cup}/overall/rankings-${cpLimit}.json`;
-  const unfilteredList = await axios.get(url).then((res) => res.data);
-  const getId = ({ speciesId }) => speciesId.replace(/(_shadow|_xs)/g, "");
-  const list = unfilteredList.filter((pkm, idx, arr) => {
-    const id = getId(pkm);
-    return arr.findIndex((p) => getId(p) === id) === idx;
+function buildList(pokemon, moves) {
+  const getMove = (id) => {
+    const move = moves.find((m) => m.uniqueId === id);
+    return {
+      name: getMoveName(move),
+      type: getMoveType(move),
+      energy: getMoveEnergy(move),
+    };
+  };
+  return pokemon.map((p) => {
+    const name = p.form || p.pokemonId;
+    const fastMoves = [
+      ...(p.quickMoves || []),
+      ...(p.eliteQuickMove || []),
+    ].map(getMove);
+    const chargedMoves = [
+      ...(p.cinematicMoves || []),
+      ...(p.eliteCinematicMove || []),
+    ].map(getMove);
+    const counts = fastMoves.map((fastMove) =>
+      buildCounts(fastMove, chargedMoves)
+    );
+    return { name, counts };
   });
-  const getMove = ({ moveId }) => moves[moveId];
-  for (const pokemon of list) {
-    pokemon.speciesName = pokemon.speciesName.replace(" (Shadow)", "");
-    pokemon.moves.fastMoves = pokemon.moves.fastMoves.map(getMove);
-    pokemon.moves.chargedMoves = pokemon.moves.chargedMoves.map(getMove);
+}
+
+function buildCounts(fastMove, chargedMoves) {
+  return {
+    fastMove,
+    chargedMoves: chargedMoves.map((chargedMove) => {
+      return {
+        ...chargedMove,
+        counts: getCounts(fastMove, chargedMove),
+      };
+    }),
+  };
+}
+
+function getMoveName(move) {
+  return toSentenceCase(move.uniqueId.replace(/_FAST$/, ""));
+}
+
+function getMoveType(move) {
+  return move.type.replace(/^POKEMON_TYPE_/, "").toLowerCase();
+}
+
+function getMoveEnergy(move) {
+  return move.energyDelta;
+}
+
+function getCounts(fastMove, chargedMove) {
+  const energy = fastMove.energy;
+  const cost = -chargedMove.energy;
+  const turns = Math.ceil(cost / energy);
+  const savesTurn = (n) => (turns * n - 1) * energy >= cost * n;
+  for (let n = 2; n <= 4; n++) {
+    if (savesTurn(n)) {
+      return Array(n - 1)
+        .fill(turns)
+        .concat([turns - 1]);
+    }
   }
-  return list;
+  return [turns];
+}
+
+function toSentenceCase(id) {
+  return id
+    .split("_")
+    .map((word) => {
+      return word[0].toUpperCase() + word.substring(1).toLowerCase();
+    })
+    .join(" ");
 }
 
 build();

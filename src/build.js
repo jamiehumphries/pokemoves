@@ -132,18 +132,16 @@ function getMoveTurns(template) {
 }
 
 function getCounts(fastMove, chargedMove) {
-  const energy = fastMove.energy;
+  const gain = fastMove.energy;
   const cost = -chargedMove.energy;
-  const turns = Math.ceil(cost / energy);
-  const savesTurn = (n) => (turns * n - 1) * energy >= cost * n;
-  for (let n = 2; n <= 4; n++) {
-    if (savesTurn(n)) {
-      return Array(n - 1)
-        .fill(turns)
-        .concat([turns - 1]);
-    }
+  const counts = [];
+  let energy = 0;
+  for (let n = 1; n <= 4; n++) {
+    const count = Math.ceil((cost - energy) / gain);
+    counts.push(count);
+    energy += count * gain - cost;
   }
-  return [turns];
+  return counts;
 }
 
 build();

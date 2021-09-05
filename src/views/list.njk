@@ -1,7 +1,7 @@
 {% extends 'layout.njk' %}
 
 {% block content %}
-  <ol>
+  <ul>
     {% for pokemon in list %}
       <li>
         {{ pokemon.name }}
@@ -28,5 +28,5 @@
         </ul>
       </li>
     {% endfor %}
-  </ol>
+  </ul>
 {% endblock %}

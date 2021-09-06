@@ -48,14 +48,12 @@
       }
       clearTimeout(resetTimeout);
       search += e.key.toLowerCase();
-      console.log(search);
       const i = names.findIndex(name => name >= search);
       const target = i === -1 ? names[names.length - 1] : names[i];
       const element = document.querySelectorAll(`[data-name='${target}']`)[0];
       element.scrollIntoView();
       resetTimeout = setTimeout(function () {
         search = "";
-        console.log("**CLEAR**");
       }, 2000);
     });
   </script>

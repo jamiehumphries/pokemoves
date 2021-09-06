@@ -10,13 +10,10 @@ const specialBaseNames = {
 };
 
 function getPokemonName(template) {
-  const baseName = getPokemonBaseName(template.pokemonId);
-  const formName = getPokemonFormName(template.pokemonId, template.form);
+  const { pokemonId: id, form } = template;
+  const baseName = getPokemonBaseName(id);
+  const formName = getPokemonFormName(id, form);
   return formName ? `${baseName} (${formName})` : baseName;
-}
-
-function getMoveName(template) {
-  return toSentenceCase(template.uniqueId.replace(/_FAST$/, ""));
 }
 
 function getPokemonBaseName(id) {
@@ -51,6 +48,22 @@ function getDefaultPokemonFormName(id, form) {
     return "Alolan";
   }
   return toSentenceCase(formPart);
+}
+
+function getMoveName(template) {
+  const { uniqueId: id } = template;
+  return getSpecialMoveName(id) || getDefaultMoveName(id);
+}
+
+function getSpecialMoveName(id) {
+  if (id.startsWith("WEATHER_BALL")) {
+    return "Weather Ball";
+  }
+  return undefined;
+}
+
+function getDefaultMoveName(id) {
+  return toSentenceCase(id.replace(/_FAST$/, ""));
 }
 
 function toSentenceCase(id) {

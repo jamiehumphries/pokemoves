@@ -1,4 +1,4 @@
-const specialBaseNames = {
+const specialPokemonBaseNames = {
   FARFETCHD: "Farfetch’d",
   FLABEBE: "Flabébé",
   HO_OH: "Ho-Oh",
@@ -9,11 +9,15 @@ const specialBaseNames = {
   PORYGON_Z: "Porygon-Z",
 };
 
-const specialFormNames = {
+const specialPokemonFormNames = {
   DARMANITAN_GALARIAN_STANDARD: "Galarian",
   MEWTWO_A: "Armoured",
   PIKACHU_FLYING_5TH_ANNIV: "Flying",
   PIKACHU_VS_2019: "Libre",
+};
+
+const specialMoveNames = {
+  POWER_UP_PUNCH: "Power-Up Punch",
 };
 
 function getPokemonName(template) {
@@ -28,7 +32,7 @@ function getPokemonBaseName(id) {
 }
 
 function getPokemonSpecialBaseName(id) {
-  return specialBaseNames[id];
+  return specialPokemonBaseNames[id];
 }
 
 function getPokemonDefaultBaseName(id) {
@@ -48,7 +52,7 @@ function getSpecialPokemonFormName(id, form) {
   if (["MEOWSTIC", "INDEEDEE"].includes(id) && form === undefined) {
     return "Male";
   }
-  return specialFormNames[form];
+  return specialPokemonFormNames[form];
 }
 
 function getDefaultPokemonFormName(id, form) {
@@ -71,7 +75,7 @@ function getSpecialMoveName(id) {
   if (id.startsWith("WEATHER_BALL")) {
     return "Weather Ball";
   }
-  return undefined;
+  return specialMoveNames[id];
 }
 
 function getDefaultMoveName(id) {

@@ -26,8 +26,8 @@
           </th>
         {% endfor %}
       </tr>
-      {% for count in pokemon.counts %}
-        {% set chargedMove = count.chargedMove %}
+      {% for row in pokemon.counts %}
+        {% set chargedMove = row.chargedMove %}
         <tr>
           <th>
             <div>
@@ -39,9 +39,19 @@
               </small>
             </div>
           </th>
-          {% for fastMove in count.fastMoves %}
+          {% for fastMove in row.fastMoves %}
             <td>
-              {{ fastMove.counts }}
+              {% set firstCount = (fastMove.counts | first) %}
+              {% for count in fastMove.counts %}
+                {% if count === firstCount %}
+                  {{ count }}
+                {%- else %}
+                  <span style="color: red;">
+                    {{- count -}}
+                  </span>
+                {%- endif %}
+                {{- "," if not loop.last -}}
+              {% endfor %}
             </td>
           {% endfor %}
         </tr>

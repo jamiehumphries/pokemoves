@@ -66,8 +66,10 @@
     let search = "";
     let resetTimeout;
     window.addEventListener("keydown", function (e) {
+      if (e.ctrlKey || e.metaKey) {
+        return;
+      }
       if (e.key.length > 1) {
-        console.log(e);
         return;
       }
       clearTimeout(resetTimeout);

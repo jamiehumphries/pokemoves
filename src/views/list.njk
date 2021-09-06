@@ -14,8 +14,15 @@
         <th></th>
         {% for fastMove in pokemon.counts[0].fastMoves %}
           <th>
-            {{ fastMove.name }}
-            (+{{ fastMove.energy }})
+            <div>
+              {{ fastMove.name }}
+            </div>
+            <div>
+              <small>
+                +{{ fastMove.energy }} energy
+                / {{ fastMove.turns }} turn{{ "s" if fastMove.turns > 1 }}
+              </small>
+            </div>
           </th>
         {% endfor %}
       </tr>
@@ -23,8 +30,14 @@
         {% set chargedMove = count.chargedMove %}
         <tr>
           <th>
-            {{ chargedMove.name }}
-            ({{ -chargedMove.energy }})
+            <div>
+              {{ chargedMove.name }}
+            </div>
+            <div>
+              <small>
+                {{ chargedMove.energy }} energy
+              </small>
+            </div>
           </th>
           {% for fastMove in count.fastMoves %}
             <td>

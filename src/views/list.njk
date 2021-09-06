@@ -22,9 +22,13 @@
     {% endif %}
     <table>
       <tr>
-        <th></th>
+        <th class="{{ pokemon.types | first }}">
+          {% for type in pokemon.types %}
+            {{ typeIcon(type) }} {{ "/" if not loop.last }}
+          {% endfor %}
+        </th>
         {% for fastMove in pokemon.counts[0].fastMoves %}
-          <th>
+          <th class="{{ fastMove.type }}">
             <div>
               {{ typeIcon(fastMove.type) }}
               {{ fastMove.name }}
@@ -40,7 +44,7 @@
       </tr>
       {% for row in pokemon.counts %}
         {% set chargedMove = row.chargedMove %}
-        <tr>
+        <tr class="{{ chargedMove.type }}">
           <th>
             <div>
               {{ typeIcon(chargedMove.type) }}

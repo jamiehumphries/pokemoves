@@ -1,3 +1,26 @@
+$border-color: grey;
+
+$type-colors: (
+  bug: #6fb90050,
+  dark: #4a445550,
+  dragon: #1870b950,
+  electric: #ffce2b50,
+  fairy: #f28cd650,
+  fighting: #d14b5f50,
+  fire: #fa8e2150,
+  flying: #6b86d550,
+  ghost: #7a71c350,
+  grass: #3ab55850,
+  ground: #cd672650,
+  ice: #7cdfda50,
+  normal: #95958f50,
+  poison: #d747c250,
+  psychic: #fc595550,
+  rock: #c6b36550,
+  steel: #26798d50,
+  water: #58a7db50,
+);
+
 body {
   font-family: "Lato", sans-serif;
   padding: 2rem;
@@ -21,11 +44,37 @@ table {
 
   th,
   td {
-    padding: 3px 10px;
+    padding: 4px 10px;
     text-align: center;
     img.type {
       height: 1.2em;
       margin-bottom: -0.2em;
+    }
+  }
+
+  tr:first-child {
+    th {
+      &:first-child {
+        font-size: 1.2rem;
+      }
+    }
+
+    @each $type, $color in $type-colors {
+      th.#{$type} {
+        background-color: $color;
+        border-bottom: 1px solid opacify($color, 1);
+      }
+    }
+  }
+
+  tr:not(:first-child) {
+    @each $type, $color in $type-colors {
+      &.#{$type} {
+        th,
+        td {
+          background-color: $color;
+        }
+      }
     }
   }
 }

@@ -69,11 +69,11 @@ function buildList(pokemon, moves) {
       return !exclusions.includes(p.name);
     })
     .map((p) => {
-      const name = p.name;
-      const fastMoves = p.fastMoveIds
+      const { name, types, fastMoveIds, chargedMoveIds } = p;
+      const fastMoves = fastMoveIds
         .map(getMove)
         .sort((m1, m2) => m1.name.localeCompare(m2.name));
-      const chargedMoves = p.chargedMoveIds
+      const chargedMoves = chargedMoveIds
         .map(getMove)
         .sort(
           (m1, m2) => m2.energy - m1.energy || m1.name.localeCompare(m2.name)
@@ -81,7 +81,7 @@ function buildList(pokemon, moves) {
       const counts = chargedMoves.map((chargedMove) =>
         buildCounts(chargedMove, fastMoves)
       );
-      return { name, counts };
+      return { name, types, counts };
     })
     .sort((p1, p2) => p1.name.localeCompare(p2.name));
 }

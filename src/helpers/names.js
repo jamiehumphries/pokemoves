@@ -1,5 +1,5 @@
 const specialBaseNames = {
-  FARFETCHD: "Farfetch'd",
+  FARFETCHD: "Farfetch’d",
   FLABEBE: "Flabébé",
   HO_OH: "Ho-Oh",
   MIME_JR: "Mime Jr.",

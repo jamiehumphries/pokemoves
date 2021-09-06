@@ -58,6 +58,10 @@ function buildMove(template) {
 function buildList(pokemon, moves) {
   const getMove = (id) => moves.find((m) => m.id === id);
   return deduplicate(pokemon)
+    .filter((p) => {
+      const exclusions = ["DITTO", "SMEARGLE", "SHEDINJA"];
+      return !exclusions.includes(p.id);
+    })
     .map((p) => {
       const name = p.name;
       const fastMoves = p.fastMoveIds

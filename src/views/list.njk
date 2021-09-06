@@ -3,7 +3,7 @@
 {% block content %}
   <ul>
     {% for pokemon in list %}
-      <li>
+      <li data-name="{{ pokemon.name | lower }}">
         {{ pokemon.name }}
         <ul>
           {% for count in pokemon.counts %}
@@ -29,4 +29,28 @@
       </li>
     {% endfor %}
   </ul>
+  <script>
+    const elements = Array.from(document.querySelectorAll("[data-name]"));
+    const names = elements.map(el => el.dataset.name);
+
+    let search = "";
+    let resetTimeout;
+    window.addEventListener("keydown", function (e) {
+      if (e.key.length > 1) {
+        console.log(e);
+        return;
+      }
+      clearTimeout(resetTimeout);
+      search += e.key.toLowerCase();
+      console.log(search);
+      const i = names.findIndex(name => name >= search);
+      const target = i === -1 ? names[names.length - 1] : names[i];
+      const element = document.querySelectorAll(`[data-name='${target}']`)[0];
+      element.scrollIntoView();
+      resetTimeout = setTimeout(function () {
+        search = "";
+        console.log("**CLEAR**");
+      }, 2000);
+    });
+  </script>
 {% endblock %}

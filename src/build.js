@@ -40,6 +40,7 @@ function buildPokemon(template) {
   return {
     id: template.pokemonId,
     name: getPokemonName(template),
+    types: getTypes(template),
     fastMoveIds: getPokemonFastMoveIds(template),
     chargedMoveIds: getPokemonChargedMoveIds(template),
   };
@@ -49,7 +50,7 @@ function buildMove(template) {
   return {
     id: template.uniqueId,
     name: getMoveName(template),
-    type: getMoveType(template),
+    type: getTypes(template)[0],
     energy: getMoveEnergy(template),
     turns: getMoveTurns(template),
   };
@@ -128,8 +129,10 @@ function getPokemonChargedMoveIds(template) {
   ];
 }
 
-function getMoveType(template) {
-  return template.type.replace(/^POKEMON_TYPE_/, "").toLowerCase();
+function getTypes(template) {
+  return [template.type, template.type2]
+    .filter((t) => !!t)
+    .map((t) => t.replace(/^POKEMON_TYPE_/, "").toLowerCase());
 }
 
 function getMoveEnergy(template) {

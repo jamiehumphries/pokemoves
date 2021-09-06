@@ -81,12 +81,8 @@ function getDefaultMoveName(id) {
 function toSentenceCase(id) {
   return id
     .split("_")
-    .map((word) => {
-      if (!word) {
-        return "";
-      }
-      return word[0].toUpperCase() + word.substring(1).toLowerCase();
-    })
+    .filter((word) => !!word)
+    .map((word) => word[0].toUpperCase() + word.substring(1).toLowerCase())
     .join(" ");
 }
 

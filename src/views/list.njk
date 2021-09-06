@@ -1,6 +1,7 @@
 {% extends 'layout.njk' %}
 
 {% block content %}
+  <h1>Pokémoves</h1>
   {% for pokemon in list %}
     {% set isMew = pokemon.name === "Mew" %}
     <h2 data-name="{{ pokemon.name | lower }}">

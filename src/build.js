@@ -1,7 +1,7 @@
 const fs = require("fs");
+const sass = require("node-sass");
 const nunjucks = require("nunjucks");
 const { join } = require("path");
-const rimraf = require("rimraf");
 
 const gameMaster = require("./data/latest.json");
 
@@ -17,6 +17,8 @@ nunjucks.configure(views);
 function build() {
   const html = buildHtml();
   fs.writeFileSync(join(root, "index.html"), html);
+  const css = buildCss();
+  fs.writeFileSync(join(root, "css", "main.css"), css);
 }
 
 function buildHtml() {
@@ -24,6 +26,14 @@ function buildHtml() {
   const moves = getTemplates("combatMove").map(buildMove);
   const list = buildList(pokemon, moves);
   return nunjucks.render("list.njk", { list });
+}
+
+function buildCss() {
+  const { css } = sass.renderSync({
+    file: join(__dirname, "styles", "main.scss"),
+    outputStyle: "compressed",
+  });
+  return css;
 }
 
 function getTemplates(property) {

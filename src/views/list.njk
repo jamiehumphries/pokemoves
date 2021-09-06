@@ -1,7 +1,13 @@
 {% extends 'layout.njk' %}
 
 {% block content %}
-  <h1>Pokémoves</h1>
+  <h1>
+    Pokémoves
+    <img src="/icons/gbl.png" alt="">
+  </h1>
+  <p>
+    Move counts for Pokémon GO battles.
+  </p>
   {% for pokemon in list %}
     {% set isMew = pokemon.name === "Mew" %}
     <h2 data-name="{{ pokemon.name | lower }}">
@@ -47,9 +53,9 @@
                 {% if count === firstCount %}
                   {{ count }}
                 {%- else %}
-                  <span style="color: red;">
+                  <em>
                     {{ count -}}
-                  </span>
+                  </em>
                 {%- endif %}
                 {{- "," if not loop.last }}
               {% endfor %}

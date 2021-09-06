@@ -10,14 +10,9 @@ const { exclusions } = require("./helpers/exclusions");
 const { getPokemonName, getMoveName } = require("./helpers/names");
 
 const root = "docs";
-rimraf.sync(root);
 
 const views = join(__dirname, "views");
 nunjucks.configure(views);
-
-fs.mkdirSync(root);
-fs.writeFileSync(join(root, ".nojekyll"), "");
-fs.writeFileSync(join(root, "CNAME"), "www.pokemoves.com");
 
 function build() {
   const html = buildHtml();

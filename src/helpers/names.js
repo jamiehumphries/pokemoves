@@ -9,6 +9,13 @@ const specialBaseNames = {
   PORYGON_Z: "Porygon-Z",
 };
 
+const specialFormNames = {
+  DARMANITAN_GALARIAN_STANDARD: "Galarian",
+  MEWTWO_A: "Armoured",
+  PIKACHU_FLYING_5TH_ANNIV: "Flying",
+  PIKACHU_VS_2019: "Libre",
+};
+
 function getPokemonName(template) {
   const { pokemonId: id, form } = template;
   const baseName = getPokemonBaseName(id);
@@ -29,20 +36,25 @@ function getPokemonDefaultBaseName(id) {
 }
 
 function getPokemonFormName(id, form) {
-  if (!form) {
-    return undefined;
-  }
-  return getSpecialPokemonFormName(form) || getDefaultPokemonFormName(id, form);
+  return (
+    getSpecialPokemonFormName(id, form) || getDefaultPokemonFormName(id, form)
+  );
 }
 
-function getSpecialPokemonFormName(form) {
+function getSpecialPokemonFormName(id, form) {
   if (form && form.startsWith("NIDORAN_")) {
     return getDefaultPokemonFormName("NIDORAN", form);
   }
-  return undefined;
+  if (["MEOWSTIC", "INDEEDEE"].includes(id) && form === undefined) {
+    return "Male";
+  }
+  return specialFormNames[form];
 }
 
 function getDefaultPokemonFormName(id, form) {
+  if (!form) {
+    return undefined;
+  }
   const formPart = form.replace(`${id}_`, "");
   if (formPart === "ALOLA") {
     return "Alolan";

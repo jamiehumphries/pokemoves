@@ -5,6 +5,7 @@ const rimraf = require("rimraf");
 
 const { fetchGameMaster } = require("./data/client");
 const { setEq } = require("./helpers/collections");
+const { exclusions } = require("./helpers/exclusions");
 const { getPokemonName, getMoveName } = require("./helpers/names");
 
 const root = "docs";
@@ -60,8 +61,7 @@ function buildList(pokemon, moves) {
   const getMove = (id) => moves.find((m) => m.id === id);
   return deduplicate(pokemon)
     .filter((p) => {
-      const exclusions = ["DITTO", "SMEARGLE", "SHEDINJA"];
-      return !exclusions.includes(p.id);
+      return !exclusions.includes(p.name);
     })
     .map((p) => {
       const name = p.name;

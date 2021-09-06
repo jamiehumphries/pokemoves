@@ -1,34 +1,40 @@
 {% extends 'layout.njk' %}
 
 {% block content %}
-  <ul>
-    {% for pokemon in list %}
-      <li data-name="{{ pokemon.name | lower }}">
-        {{ pokemon.name }}
-        <ul>
-          {% for count in pokemon.counts %}
-            {% set fastMove = count.fastMove %}
-            <li>
-              [{{ fastMove.type }}]
-              [{{ fastMove.turns }}]
-              {{ fastMove.name }}
-              (+{{ fastMove.energy }})
-              <ul>
-                {% for chargedMove in count.chargedMoves %}
-                  <li>
-                    [{{ chargedMove.type }}]
-                    [{{ chargedMove.counts }}]
-                    {{ chargedMove.name }}
-                    ({{ chargedMove.energy }})
-                  </li>
-                {% endfor %}
-              </ul>
-            </li>
+  {% for pokemon in list %}
+    {% set isMew = pokemon.name === "Mew" %}
+    <h2 data-name="{{ pokemon.name | lower }}">
+      {{ pokemon.name }}{{ "*" if isMew }}
+    </h2>
+    {% if isMew %}
+      <p>* This only shows Mew’s most popular fast moves.</p>
+    {% endif %}
+    <table>
+      <tr>
+        <th></th>
+        {% for fastMove in pokemon.counts[0].fastMoves %}
+          <th>
+            {{ fastMove.name }}
+            (+{{ fastMove.energy }})
+          </th>
+        {% endfor %}
+      </tr>
+      {% for count in pokemon.counts %}
+        {% set chargedMove = count.chargedMove %}
+        <tr>
+          <th>
+            {{ chargedMove.name }}
+            ({{ -chargedMove.energy }})
+          </th>
+          {% for fastMove in count.fastMoves %}
+            <td>
+              {{ fastMove.counts }}
+            </td>
           {% endfor %}
-        </ul>
-      </li>
-    {% endfor %}
-  </ul>
+        </tr>
+      {% endfor %}
+    </table>
+  {% endfor %}
   <script>
     const elements = Array.from(document.querySelectorAll("[data-name]"));
     const names = elements.map(el => el.dataset.name);

@@ -40,8 +40,8 @@ function buildPokemon(template) {
   return {
     id: template.pokemonId,
     name: getPokemonName(template),
-    fastMoveIds: getPokemonFastMoves(template),
-    chargedMoveIds: getPokemonChargedMoves(template),
+    fastMoveIds: getPokemonFastMoveIds(template),
+    chargedMoveIds: getPokemonChargedMoveIds(template),
   };
 }
 
@@ -62,16 +62,14 @@ function buildList(pokemon, moves) {
       const name = p.name;
       const fastMoves = p.fastMoveIds
         .map(getMove)
-        .sort(
-          (m1, m2) => m1.turns - m2.turns || m1.name.localeCompare(m2.name)
-        );
+        .sort((m1, m2) => m1.name.localeCompare(m2.name));
       const chargedMoves = p.chargedMoveIds
         .map(getMove)
         .sort(
           (m1, m2) => m2.energy - m1.energy || m1.name.localeCompare(m2.name)
         );
-      const counts = fastMoves.map((fastMove) =>
-        buildCounts(fastMove, chargedMoves)
+      const counts = chargedMoves.map((chargedMove) =>
+        buildCounts(chargedMove, fastMoves)
       );
       return { name, counts };
     })
@@ -92,23 +90,33 @@ function deduplicate(pokemon) {
   });
 }
 
-function buildCounts(fastMove, chargedMoves) {
+function buildCounts(chargedMove, fastMoves) {
   return {
-    fastMove,
-    chargedMoves: chargedMoves.map((chargedMove) => {
+    chargedMove,
+    fastMoves: fastMoves.map((fastMove) => {
       return {
-        ...chargedMove,
-        counts: getCounts(fastMove, chargedMove),
+        ...fastMove,
+        counts: getCounts(chargedMove, fastMove),
       };
     }),
   };
 }
 
-function getPokemonFastMoves(template) {
+function getPokemonFastMoveIds(template) {
+  if (template.pokemonId === "MEW") {
+    return [
+      "SHADOW_CLAW_FAST",
+      "VOLT_SWITCH_FAST",
+      "SNARL_FAST",
+      "POISON_JAB_FAST",
+      "INFESTATION_FAST",
+      "DRAGON_TAIL_FAST",
+    ];
+  }
   return [...(template.quickMoves || []), ...(template.eliteQuickMove || [])];
 }
 
-function getPokemonChargedMoves(template) {
+function getPokemonChargedMoveIds(template) {
   return [
     ...(template.cinematicMoves || []),
     ...(template.eliteCinematicMove || []),
@@ -131,9 +139,9 @@ function getMoveTurns(template) {
   return (template.durationTurns || 0) + 1;
 }
 
-function getCounts(fastMove, chargedMove) {
-  const gain = fastMove.energy;
+function getCounts(chargedMove, fastMove) {
   const cost = -chargedMove.energy;
+  const gain = fastMove.energy;
   const counts = [];
   let energy = 0;
   for (let n = 1; n <= 4; n++) {

@@ -1,5 +1,9 @@
 {% extends 'layout.njk' %}
 
+{% macro typeIcon(type) -%}
+  <img class="type" src="/icons/types/{{ type }}.png" alt="">
+{%- endmacro %}
+
 {% block content %}
   <h1>
     Pokémoves
@@ -22,6 +26,7 @@
         {% for fastMove in pokemon.counts[0].fastMoves %}
           <th>
             <div>
+              {{ typeIcon(fastMove.type) }}
               {{ fastMove.name }}
             </div>
             <div>
@@ -38,6 +43,7 @@
         <tr>
           <th>
             <div>
+              {{ typeIcon(chargedMove.type) }}
               {{ chargedMove.name }}
             </div>
             <div>

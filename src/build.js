@@ -3,7 +3,8 @@ const nunjucks = require("nunjucks");
 const { join } = require("path");
 const rimraf = require("rimraf");
 
-const { fetchGameMaster } = require("./data/client");
+const gameMaster = require("./data/latest.json");
+
 const { setEq } = require("./helpers/collections");
 const { exclusions } = require("./helpers/exclusions");
 const { getPokemonName, getMoveName } = require("./helpers/names");
@@ -18,20 +19,19 @@ fs.mkdirSync(root);
 fs.writeFileSync(join(root, ".nojekyll"), "");
 fs.writeFileSync(join(root, "CNAME"), "www.pokemoves.com");
 
-async function build() {
-  const gameMaster = await fetchGameMaster();
-  const html = await buildHtml(gameMaster);
+function build() {
+  const html = buildHtml();
   fs.writeFileSync(join(root, "index.html"), html);
 }
 
-async function buildHtml(gameMaster) {
-  const pokemon = getTemplates(gameMaster, "pokemonSettings").map(buildPokemon);
-  const moves = getTemplates(gameMaster, "combatMove").map(buildMove);
+function buildHtml() {
+  const pokemon = getTemplates("pokemonSettings").map(buildPokemon);
+  const moves = getTemplates("combatMove").map(buildMove);
   const list = buildList(pokemon, moves);
   return nunjucks.render("list.njk", { list });
 }
 
-function getTemplates(gameMaster, property) {
+function getTemplates(property) {
   return gameMaster
     .filter(({ data }) => data[property])
     .map(({ data }) => data[property]);

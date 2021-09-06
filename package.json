@@ -4,9 +4,9 @@
   "description": "Move counts for Pokémon GO battles.",
   "private": true,
   "scripts": {
-    "build": "cross-env NODE_ENV=development node src/build.js",
-    "publish": "node src/build.js",
-    "start": "static docs"
+    "build": "node src/build.js",
+    "start": "static docs",
+    "update": "node src/data/update.js"
   },
   "author": "Jamie Humphries",
   "license": "ISC",
@@ -14,8 +14,6 @@
     "node-static": "0.7.11"
   },
   "devDependencies": {
-    "axios": "0.21.1",
-    "cross-env": "7.0.3",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
     "nunjucks": "3.2.3",

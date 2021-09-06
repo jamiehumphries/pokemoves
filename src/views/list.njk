@@ -47,10 +47,10 @@
                   {{ count }}
                 {%- else %}
                   <span style="color: red;">
-                    {{- count -}}
+                    {{ count -}}
                   </span>
                 {%- endif %}
-                {{- "," if not loop.last -}}
+                {{- "," if not loop.last }}
               {% endfor %}
             </td>
           {% endfor %}

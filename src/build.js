@@ -7,7 +7,7 @@ const { join } = require("path");
 const gameMaster = require("./data/latest.json");
 
 const { setEq } = require("./helpers/collections");
-const { exclusions } = require("./helpers/exclusions");
+const { exclusions } = require("./data/adjustments/exclusions");
 const { getPokemonName, getMoveName } = require("./helpers/names");
 
 const root = "docs";

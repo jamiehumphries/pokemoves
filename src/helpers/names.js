@@ -16,6 +16,13 @@ const specialPokemonFormNames = {
   PIKACHU_VS_2019: "Libre",
 };
 
+const defaultPokemonFormNames = {
+  CHERRIM: "Overcast",
+  GIRATINA: "Altered",
+  INDEEDEE: "Male",
+  MEOWSTIC: "Male",
+};
+
 const specialMoveNames = {
   LOCK_ON_FAST: "Lock-On",
   POWER_UP_PUNCH: "Power-Up Punch",
@@ -62,10 +69,7 @@ function getSpecialPokemonFormName(id, form) {
   if (form?.startsWith("NIDORAN_")) {
     return getDefaultPokemonFormName("NIDORAN", form);
   }
-  if (["MEOWSTIC", "INDEEDEE"].includes(id) && form === undefined) {
-    return "Male";
-  }
-  return specialPokemonFormNames[form];
+  return form ? specialPokemonFormNames[form] : defaultPokemonFormNames[id];
 }
 
 function getDefaultPokemonFormName(id, form) {

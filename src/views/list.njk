@@ -12,6 +12,9 @@
   <p>
     Move counts for Pokémon GO battles.
   </p>
+  <p>
+    <small><em>Last updated: {{ lastUpdated }}</em></small>
+  </p>
   {% for pokemon in list %}
     {% set isMew = pokemon.name === "Mew" %}
     <h2 data-name="{{ pokemon.name | lower }}">

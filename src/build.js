@@ -4,11 +4,14 @@ const sass = require("node-sass");
 const nunjucks = require("nunjucks");
 const { join } = require("path");
 
-const gameMaster = require("./data/latest.json");
-
 const { setEq } = require("./helpers/collections");
 const { exclusions } = require("./data/adjustments/exclusions");
 const { getPokemonName, getMoveName } = require("./helpers/names");
+
+const gameMaster = require("./data/pokeminers/latest.json");
+const timestamp = parseInt(
+  fs.readFileSync(join(__dirname, "data/pokeminers/timestamp.txt"))
+);
 
 const root = "docs";
 
@@ -19,14 +22,15 @@ function build() {
   const html = buildHtml();
   fs.writeFileSync(join(root, "index.html"), html);
   const css = buildCss();
-  fs.writeFileSync(join(root, "css", "main.css"), css);
+  fs.writeFileSync(join(root, "css/main.css"), css);
 }
 
 function buildHtml() {
   const pokemon = getTemplates("pokemonSettings").map(buildPokemon);
   const moves = getTemplates("combatMove").map(buildMove);
   const list = buildList(pokemon, moves);
-  const html = nunjucks.render("list.njk", { list });
+  const lastUpdated = new Date(timestamp).toUTCString();
+  const html = nunjucks.render("list.njk", { list, lastUpdated });
   return minify(html, {
     collapseWhitespace: true,
     removeAttributeQuotes: true,

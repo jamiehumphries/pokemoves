@@ -17,8 +17,21 @@ const specialPokemonFormNames = {
 };
 
 const specialMoveNames = {
+  LOCK_ON_FAST: "Lock-On",
   POWER_UP_PUNCH: "Power-Up Punch",
+  V_CREATE: "V-create",
+  VICE_GRIP: "Vise Grip",
+  X_SCISSOR: "X-Scissor",
 };
+
+const multipleVersionMoveIds = [
+  "HYDRO_PUMP",
+  "SCALD",
+  "TECHNO_BLAST",
+  "WATER_GUN_FAST",
+  "WEATHER_BALL",
+  "WRAP",
+];
 
 function getPokemonName(template) {
   const { pokemonId: id, form } = template;
@@ -72,8 +85,11 @@ function getMoveName(template) {
 }
 
 function getSpecialMoveName(id) {
-  if (id.startsWith("WEATHER_BALL")) {
-    return "Weather Ball";
+  const multipleVersionMoveId = multipleVersionMoveIds.find((moveId) =>
+    id.startsWith(`${moveId}_`)
+  );
+  if (multipleVersionMoveId) {
+    return getDefaultMoveName(multipleVersionMoveId);
   }
   return specialMoveNames[id];
 }

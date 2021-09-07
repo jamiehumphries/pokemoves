@@ -37,9 +37,7 @@ function buildCss() {
 }
 
 function getTemplates(property) {
-  return gameMaster
-    .filter(({ data }) => data[property])
-    .map(({ data }) => data[property]);
+  return gameMaster.map(({ data }) => data[property]).filter((t) => !!t);
 }
 
 function buildPokemon(template) {

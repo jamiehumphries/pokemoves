@@ -28,9 +28,10 @@
           {% endfor %}
         </th>
         {% for fastMove in pokemon.counts[0].fastMoves %}
-          <th class="{{ fastMove.type }}">
+          {% set type = "hidden" if fastMove.name === "Hidden Power" else fastMove.type %}
+          <th class="{{ type }}">
             <div>
-              {{ typeIcon(fastMove.type) }}
+              {{ typeIcon(type) }}
               {{ fastMove.name }}
             </div>
             <div>
@@ -44,10 +45,11 @@
       </tr>
       {% for row in pokemon.counts %}
         {% set chargedMove = row.chargedMove %}
-        <tr class="{{ chargedMove.type }}">
+        {% set type = chargedMove.type %}
+        <tr class="{{ type }}">
           <th>
             <div>
-              {{ typeIcon(chargedMove.type) }}
+              {{ typeIcon(type) }}
               {{ chargedMove.name }}
             </div>
             <div>

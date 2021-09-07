@@ -15,6 +15,7 @@
   <p>
     <small><em>Last updated: {{ lastUpdated }}</em></small>
   </p>
+  <input id="search" type="text" placeholder="Search" style="visibility: hidden;">
   {% for pokemon in list %}
     {% set isMew = pokemon.name === "Mew" %}
     <h2 data-name="{{ pokemon.name | lower }}">
@@ -84,24 +85,37 @@
     const elements = Array.from(document.querySelectorAll("[data-name]"));
     const names = elements.map(el => el.dataset.name);
 
-    let search = "";
-    let resetTimeout;
+    const search = document.getElementById("search");
+
     window.addEventListener("keydown", function (e) {
-      if (e.ctrlKey || e.metaKey) {
+      if (e.ctrlKey || e.metaKey || e.key.length > 1) {
         return;
       }
-      if (e.key.length > 1) {
-        return;
-      }
+      search.focus();
+    });
+
+    let resetTimeout;
+    search.addEventListener("input", function () {
       clearTimeout(resetTimeout);
-      search += e.key.toLowerCase();
-      const i = names.findIndex(name => name >= search);
-      const target = i === -1 ? names[names.length - 1] : names[i];
-      const element = document.querySelectorAll(`[data-name='${target}']`)[0];
-      element.scrollIntoView();
+      const i = names.findIndex(name => name >= search.value.toLowerCase());
+      const targetName = i === -1 ? names[names.length - 1] : names[i];
+      const targetElement = document.querySelectorAll(`[data-name='${targetName}']`)[0];
+      targetElement.scrollIntoView();
       resetTimeout = setTimeout(function () {
-        search = "";
+        search.blur();
       }, 2000);
     });
+
+    search.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") {
+        search.blur();
+      }
+    });
+
+    search.addEventListener("blur", function () {
+      search.value = "";
+    });
+
+    search.style.visibility = "visible";
   </script>
 {% endblock %}

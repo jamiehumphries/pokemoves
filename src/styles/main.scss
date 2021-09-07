@@ -40,6 +40,24 @@ h1 {
   }
 }
 
+input#search {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 20px;
+
+  border: 2px solid #a9a9a9;
+  outline: none;
+  box-shadow: none;
+
+  &:focus {
+    border-color: #808080;
+  }
+}
+
 h2 {
   margin: 1rem 0 0.5rem 0;
   padding-top: 1rem;

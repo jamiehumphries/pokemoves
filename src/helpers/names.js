@@ -4,6 +4,7 @@ const specialPokemonBaseNames = {
   HO_OH: "Ho-Oh",
   MIME_JR: "Mime Jr.",
   MR_MIME: "Mr. Mime",
+  MR_RIME: "Mr. Rime",
   NIDORAN_FEMALE: "Nidoran♀",
   NIDORAN_MALE: "Nidoran♂",
   PORYGON_Z: "Porygon-Z",

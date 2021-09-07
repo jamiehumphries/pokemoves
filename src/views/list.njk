@@ -1,7 +1,7 @@
 {% extends 'layout.njk' %}
 
 {% macro typeIcon(type) -%}
-  <img class="type" src="/icons/types/{{ type }}.png" alt="">
+  <img class="type" src="/icons/types/{{ type }}.png" alt="{{ type | capitalize }}-type">
 {%- endmacro %}
 
 {% block content %}

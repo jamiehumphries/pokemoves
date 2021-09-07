@@ -25,6 +25,7 @@ const defaultPokemonFormNames = {
 };
 
 const specialMoveNames = {
+  FUTURESIGHT: "Future Sight",
   LOCK_ON_FAST: "Lock-On",
   POWER_UP_PUNCH: "Power-Up Punch",
   V_CREATE: "V-create",

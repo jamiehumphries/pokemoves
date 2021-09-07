@@ -15,7 +15,7 @@
   <p>
     <small><em>Last updated: {{ lastUpdated }}</em></small>
   </p>
-  <input id="search" type="text" placeholder="Search" style="visibility: hidden;">
+  <input id="search" type="text" placeholder="Search"  style="visibility: hidden;" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
   {% for pokemon in list %}
     {% set isMew = pokemon.name === "Mew" %}
     <h2 data-name="{{ pokemon.name | lower }}">

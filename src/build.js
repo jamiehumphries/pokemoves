@@ -1,4 +1,5 @@
 const fs = require("fs");
+const { minify } = require("html-minifier");
 const sass = require("node-sass");
 const nunjucks = require("nunjucks");
 const { join } = require("path");
@@ -25,7 +26,13 @@ function buildHtml() {
   const pokemon = getTemplates("pokemonSettings").map(buildPokemon);
   const moves = getTemplates("combatMove").map(buildMove);
   const list = buildList(pokemon, moves);
-  return nunjucks.render("list.njk", { list });
+  const html = nunjucks.render("list.njk", { list });
+  return minify(html, {
+    collapseWhitespace: true,
+    removeAttributeQuotes: true,
+    removeOptionalTags: true,
+    minifyJS: true,
+  });
 }
 
 function buildCss() {

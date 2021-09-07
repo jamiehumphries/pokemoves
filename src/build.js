@@ -64,7 +64,9 @@ function buildMove(template) {
 
 function buildList(pokemon, moves) {
   const getMove = (id) => moves.find((m) => m.id === id);
-  return deduplicate(pokemon)
+  const deduplicatedPokemon = deduplicate(pokemon);
+  addReturnToPurifiablePokemon(deduplicatedPokemon, pokemon);
+  return deduplicatedPokemon
     .filter((p) => {
       return !exclusions.includes(p.name);
     })
@@ -100,6 +102,23 @@ function deduplicate(pokemon) {
   });
 }
 
+function addReturnToPurifiablePokemon(deduplicatedPokemon, allPokemonForms) {
+  const shadows = allPokemonForms
+    .filter((p) => p.name.endsWith(" (Shadow)"))
+    .map((p) => p.name.replace(/ \(Shadow\)$/, ""));
+  let found = 0;
+  for (const p of deduplicatedPokemon) {
+    const nonShadowName = p.name.replace(/ \((Normal|Shadow|Purified)\)$/, "");
+    if (shadows.includes(nonShadowName)) {
+      p.chargedMoveIds.push("RETURN");
+      found++;
+    }
+  }
+  if (found !== shadows.length) {
+    throw new Error(`Expected ${shadows.length} shadows, but found ${found}.`);
+  }
+}
+
 function buildCounts(chargedMove, fastMoves) {
   return {
     chargedMove,
@@ -130,7 +149,6 @@ function getPokemonChargedMoveIds(template) {
   return [
     ...(template.cinematicMoves || []),
     ...(template.eliteCinematicMove || []),
-    "RETURN",
   ];
 }
 

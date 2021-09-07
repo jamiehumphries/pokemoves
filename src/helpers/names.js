@@ -46,7 +46,7 @@ function getPokemonFormName(id, form) {
 }
 
 function getSpecialPokemonFormName(id, form) {
-  if (form && form.startsWith("NIDORAN_")) {
+  if (form?.startsWith("NIDORAN_")) {
     return getDefaultPokemonFormName("NIDORAN", form);
   }
   if (["MEOWSTIC", "INDEEDEE"].includes(id) && form === undefined) {

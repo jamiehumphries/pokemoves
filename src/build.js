@@ -6,6 +6,7 @@ const { join } = require("path");
 
 const { setEq } = require("./helpers/collections");
 const { exclusions } = require("./data/adjustments/exclusions");
+const { movesetChanges } = require("./data/adjustments/moveset-changes");
 const { getPokemonName, getMoveName } = require("./helpers/names");
 
 const gameMaster = require("./data/pokeminers/latest.json");
@@ -74,7 +75,7 @@ function buildMove(template) {
 function buildList(pokemon, moves) {
   const getMove = (id) => moves.find((m) => m.id === id);
   const deduplicatedPokemon = deduplicate(pokemon);
-  addReturnToPurifiablePokemon(deduplicatedPokemon, pokemon);
+  applyMovesetChanges(deduplicatedPokemon, pokemon);
   return deduplicatedPokemon
     .filter((p) => {
       return !exclusions.includes(p.name);
@@ -111,6 +112,24 @@ function deduplicate(pokemon) {
   });
 }
 
+function applyMovesetChanges(deduplicatedPokemon, allPokemonForms) {
+  addReturnToPurifiablePokemon(deduplicatedPokemon, allPokemonForms);
+  for (const changeset of movesetChanges) {
+    const pokemon = deduplicatedPokemon.find(
+      (p) => p.name === changeset.pokemonName
+    );
+    for (const movesKey of ["fastMoveIds", "chargedMoveIds"]) {
+      const changes = changeset[movesKey];
+      if (!changes) {
+        continue;
+      }
+      pokemon[movesKey] = pokemon[movesKey]
+        .concat(changes.add || [])
+        .filter((m) => !(changes.remove || []).includes(m));
+    }
+  }
+}
+
 function addReturnToPurifiablePokemon(deduplicatedPokemon, allPokemonForms) {
   const shadows = allPokemonForms
     .filter((p) => p.name.endsWith(" (Shadow)"))
@@ -142,6 +161,7 @@ function buildCounts(chargedMove, fastMoves) {
 
 function getPokemonFastMoveIds(template) {
   if (template.pokemonId === "MEW") {
+    // Only show some of Mew’s fast moves.
     return [
       "SHADOW_CLAW_FAST",
       "VOLT_SWITCH_FAST",

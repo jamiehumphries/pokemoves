@@ -123,9 +123,10 @@ function applyMovesetChanges(deduplicatedPokemon, allPokemonForms) {
       if (!changes) {
         continue;
       }
-      pokemon[movesKey] = pokemon[movesKey]
-        .concat(changes.add || [])
-        .filter((m) => !(changes.remove || []).includes(m));
+      const moves = new Set(pokemon[movesKey]);
+      changes.add?.forEach((m) => moves.add(m));
+      changes.remove?.forEach((m) => moves.delete(m));
+      pokemon[movesKey] = [...moves];
     }
   }
 }

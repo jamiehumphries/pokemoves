@@ -20,18 +20,22 @@ const views = join(__dirname, "views");
 nunjucks.configure(views);
 
 function build() {
-  const html = buildHtml();
+  const { css, cacheBuster } = buildCss();
+  const cssRoot = join(root, "css");
+  fs.rmdirSync(cssRoot, { recursive: true, force: true });
+  fs.mkdirSync(cssRoot);
+  fs.writeFileSync(join(cssRoot, `main.${cacheBuster}.css`), css);
+
+  const html = buildHtml(cacheBuster);
   fs.writeFileSync(join(root, "index.html"), html);
-  const css = buildCss();
-  fs.writeFileSync(join(root, "css/main.css"), css);
 }
 
-function buildHtml() {
+function buildHtml(cacheBuster) {
   const pokemon = getTemplates("pokemonSettings").map(buildPokemon);
   const moves = getTemplates("combatMove").map(buildMove);
   const list = buildList(pokemon, moves);
   const lastUpdated = new Date(timestamp).toUTCString();
-  const html = nunjucks.render("list.njk", { list, lastUpdated });
+  const html = nunjucks.render("list.njk", { list, lastUpdated, cacheBuster });
   return minify(html, {
     collapseWhitespace: true,
     removeAttributeQuotes: true,
@@ -41,11 +45,13 @@ function buildHtml() {
 }
 
 function buildCss() {
+  const file = join(__dirname, "styles", "main.scss");
+  const cacheBuster = Math.floor(fs.statSync(file).mtimeMs);
   const { css } = sass.renderSync({
-    file: join(__dirname, "styles", "main.scss"),
+    file: file,
     outputStyle: "compressed",
   });
-  return css;
+  return { css, cacheBuster };
 }
 
 function getTemplates(property) {

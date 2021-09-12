@@ -1,5 +1,6 @@
 const fs = require("fs");
 const { minify } = require("html-minifier");
+const md5File = require("md5-file");
 const sass = require("node-sass");
 const nunjucks = require("nunjucks");
 const { join } = require("path");
@@ -46,7 +47,7 @@ function buildHtml(cacheBuster) {
 
 function buildCss() {
   const file = join(__dirname, "styles", "main.scss");
-  const cacheBuster = Math.floor(fs.statSync(file).mtimeMs);
+  const cacheBuster = md5File.sync(file);
   const { css } = sass.renderSync({
     file: file,
     outputStyle: "compressed",

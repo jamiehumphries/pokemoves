@@ -75,9 +75,24 @@ h1 {
   display: flex;
   align-items: center;
   padding: 8px;
+
+  background: #eee;
+  border: 1px solid #a9a9a9;
+  outline: none;
+  box-shadow: none;
+
+  cursor: pointer;
+
+  &:focus,
+  &:hover,
+  &:active {
+    background-color: #ddd;
+    border-color: #808080;
+  }
+
   img {
     height: 1em;
-    margin-left: 8px;
+    margin-right: 8px;
   }
 }
 
@@ -111,6 +126,7 @@ table {
   td {
     padding: 4px 10px;
     text-align: center;
+
     img.type {
       height: 1.2em;
       margin-bottom: -0.2em;

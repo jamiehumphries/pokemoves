@@ -1,4 +1,4 @@
-{% extends 'layout.njk' %}
+{% extends "layout.njk" %}
 
 {% macro typeIcon(type) -%}
   <img class="type" src="/icons/types/{{ type }}.png" alt="{{ type | capitalize }}-type">
@@ -15,6 +15,31 @@
   <p>
     <small><em>Last updated: {{ lastUpdated }}</em></small>
   </p>
+  <button id="use-dark-theme" class="theme-button">
+    Switch to Dark theme
+    <img src="/icons/themes/dark.png" alt="">
+  </button>
+  <button id="use-light-theme" class="theme-button">
+    Switch to Light theme
+    <img src="/icons/themes/light.png" alt="">
+  </button>
+  <script>
+    function useTheme(theme) {
+      localStorage.setItem("THEME", theme);
+      document.body.classList.forEach(c => document.body.classList.remove(c));
+      document.body.classList.add(theme);
+    }
+
+    const savedTheme = localStorage.getItem("THEME");
+    if (savedTheme) {
+      useTheme(savedTheme);
+    }
+
+    ["dark", "light"].forEach(theme => {
+      const button = document.getElementById(`use-${theme}-theme`);
+      button.addEventListener("click", () => useTheme(theme));
+    })
+  </script>
   <input id="search" type="text" placeholder="Search"  style="visibility: hidden;" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
   {% for pokemon in list %}
     {% set isMew = pokemon.name === "Mew" %}

@@ -22,9 +22,40 @@ $type-colors: (
   hidden: #9c47ef50,
 );
 
+@mixin dark-theme {
+  background-color: #222;
+  color: #eee;
+
+  #use-light-theme {
+    display: flex;
+  }
+
+  #use-dark-theme {
+    display: none;
+  }
+}
+
 body {
   font-family: "Lato", sans-serif;
   padding: 2rem;
+
+  #use-light-theme {
+    display: none;
+  }
+
+  #use-dark-theme {
+    display: flex;
+  }
+
+  &:not(.light) {
+    @media (prefers-color-scheme: dark) {
+      @include dark-theme;
+    }
+  }
+
+  &.dark {
+    @include dark-theme;
+  }
 }
 
 .container {
@@ -37,6 +68,16 @@ h1 {
   font-size: 2rem;
   img {
     height: 2rem;
+  }
+}
+
+.theme-button {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  img {
+    height: 1em;
+    margin-left: 8px;
   }
 }
 

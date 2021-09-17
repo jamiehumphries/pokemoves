@@ -8,6 +8,7 @@ const specialPokemonBaseNames = {
   NIDORAN_FEMALE: "Nidoran♀",
   NIDORAN_MALE: "Nidoran♂",
   PORYGON_Z: "Porygon-Z",
+  SIRFETCHD: "Sirfetch’d",
 };
 
 const specialPokemonFormNames = {

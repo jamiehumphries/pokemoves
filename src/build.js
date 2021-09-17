@@ -21,38 +21,47 @@ const views = join(__dirname, "views");
 nunjucks.configure(views);
 
 function build() {
+  const list = buildList();
+  const moves = getSimplifiedMoves(list);
+  const json = JSON.stringify(moves, null, 2);
+  fs.writeFileSync(join(root, "moves.json"), json);
+
   const { css, cacheBuster } = buildCss();
   const cssRoot = join(root, "css");
   fs.rmdirSync(cssRoot, { recursive: true, force: true });
   fs.mkdirSync(cssRoot);
   fs.writeFileSync(join(cssRoot, `main.${cacheBuster}.css`), css);
 
-  const html = buildHtml(cacheBuster);
+  const html = buildHtml(list, cacheBuster);
   fs.writeFileSync(join(root, "index.html"), html);
 }
 
-function buildHtml(cacheBuster) {
+function buildList() {
   const pokemon = getTemplates("pokemonSettings").map(buildPokemon);
   const moves = getTemplates("combatMove").map(buildMove);
-  const list = buildList(pokemon, moves);
-  const lastUpdated = new Date(timestamp).toUTCString();
-  const html = nunjucks.render("list.njk", { list, lastUpdated, cacheBuster });
-  return minify(html, {
-    collapseWhitespace: true,
-    removeAttributeQuotes: true,
-    removeOptionalTags: true,
-    minifyJS: true,
-  });
-}
-
-function buildCss() {
-  const file = join(__dirname, "styles", "main.scss");
-  const cacheBuster = md5File.sync(file);
-  const { css } = sass.renderSync({
-    file: file,
-    outputStyle: "compressed",
-  });
-  return { css, cacheBuster };
+  const getMove = (id) => moves.find((m) => m.id === id);
+  const deduplicatedPokemon = deduplicate(pokemon);
+  applyMovesetChanges(deduplicatedPokemon, pokemon);
+  return deduplicatedPokemon
+    .filter((p) => {
+      return !exclusions.includes(p.name);
+    })
+    .map((p) => {
+      const { name, types, fastMoveIds, chargedMoveIds } = p;
+      const fastMoves = fastMoveIds
+        .map(getMove)
+        .sort((m1, m2) => m1.name.localeCompare(m2.name));
+      const chargedMoves = chargedMoveIds
+        .map(getMove)
+        .sort(
+          (m1, m2) => m2.energy - m1.energy || m1.name.localeCompare(m2.name)
+        );
+      const counts = chargedMoves.map((chargedMove) =>
+        buildCounts(chargedMove, fastMoves)
+      );
+      return { name, types, counts };
+    })
+    .sort((p1, p2) => p1.name.localeCompare(p2.name));
 }
 
 function getTemplates(property) {
@@ -77,32 +86,6 @@ function buildMove(template) {
     energy: getMoveEnergy(template),
     turns: getMoveTurns(template),
   };
-}
-
-function buildList(pokemon, moves) {
-  const getMove = (id) => moves.find((m) => m.id === id);
-  const deduplicatedPokemon = deduplicate(pokemon);
-  applyMovesetChanges(deduplicatedPokemon, pokemon);
-  return deduplicatedPokemon
-    .filter((p) => {
-      return !exclusions.includes(p.name);
-    })
-    .map((p) => {
-      const { name, types, fastMoveIds, chargedMoveIds } = p;
-      const fastMoves = fastMoveIds
-        .map(getMove)
-        .sort((m1, m2) => m1.name.localeCompare(m2.name));
-      const chargedMoves = chargedMoveIds
-        .map(getMove)
-        .sort(
-          (m1, m2) => m2.energy - m1.energy || m1.name.localeCompare(m2.name)
-        );
-      const counts = chargedMoves.map((chargedMove) =>
-        buildCounts(chargedMove, fastMoves)
-      );
-      return { name, types, counts };
-    })
-    .sort((p1, p2) => p1.name.localeCompare(p2.name));
 }
 
 function deduplicate(pokemon) {
@@ -217,6 +200,39 @@ function getCounts(chargedMove, fastMove) {
     energy += count * gain - cost;
   }
   return counts;
+}
+
+function getSimplifiedMoves(list) {
+  return Object.fromEntries(
+    list.map(({ name, counts }) => {
+      const moves = [
+        ...counts[0].fastMoves.map((f) => f.name),
+        ...counts.map((c) => c.chargedMove.name),
+      ];
+      return [name, moves];
+    })
+  );
+}
+
+function buildCss() {
+  const file = join(__dirname, "styles", "main.scss");
+  const cacheBuster = md5File.sync(file);
+  const { css } = sass.renderSync({
+    file: file,
+    outputStyle: "compressed",
+  });
+  return { css, cacheBuster };
+}
+
+function buildHtml(list, cacheBuster) {
+  const lastUpdated = new Date(timestamp).toUTCString();
+  const html = nunjucks.render("list.njk", { list, lastUpdated, cacheBuster });
+  return minify(html, {
+    collapseWhitespace: true,
+    removeAttributeQuotes: true,
+    removeOptionalTags: true,
+    minifyJS: true,
+  });
 }
 
 build();

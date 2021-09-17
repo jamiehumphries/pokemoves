@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node src/build.js",
     "start": "static docs",
-    "update": "node src/data/update.js"
+    "update": "node src/data/update.js && npm run build"
   },
   "author": "Jamie Humphries",
   "license": "ISC",

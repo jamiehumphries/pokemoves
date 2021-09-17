@@ -1,9 +1,10 @@
+const crypto = require("crypto");
 const fs = require("fs");
 const { minify } = require("html-minifier");
-const md5File = require("md5-file");
 const sass = require("node-sass");
 const nunjucks = require("nunjucks");
-const { join } = require("path");
+const { join, parse } = require("path");
+const UglifyJs = require("uglify-js");
 
 const { setEq } = require("./helpers/collections");
 const { exclusions } = require("./data/adjustments/exclusions");
@@ -26,13 +27,15 @@ function build() {
   const json = JSON.stringify(moves, null, 2);
   fs.writeFileSync(join(root, "moves.json"), json);
 
-  const { css, cacheBuster } = buildCss();
-  const cssRoot = join(root, "css");
-  fs.rmdirSync(cssRoot, { recursive: true, force: true });
-  fs.mkdirSync(cssRoot);
-  fs.writeFileSync(join(cssRoot, `main.${cacheBuster}.css`), css);
+  const css = buildCss();
+  const js = buildJs();
 
-  const html = buildHtml(list, cacheBuster);
+  const resources = {
+    ...writeCacheBustedFiles("css", css),
+    ...writeCacheBustedFiles("js", js),
+  };
+
+  const html = buildHtml(list, resources);
   fs.writeFileSync(join(root, "index.html"), html);
 }
 
@@ -215,18 +218,45 @@ function getSimplifiedMoves(list) {
 }
 
 function buildCss() {
-  const file = join(__dirname, "styles", "main.scss");
-  const cacheBuster = md5File.sync(file);
-  const { css } = sass.renderSync({
-    file: file,
-    outputStyle: "compressed",
-  });
-  return { css, cacheBuster };
+  const outputStyle = "compressed";
+  const transform = (data) => sass.renderSync({ data, outputStyle }).css;
+  return buildResources("styles", transform, ".css");
 }
 
-function buildHtml(list, cacheBuster) {
+function buildJs() {
+  const transform = (data) => UglifyJs.minify(data).code;
+  return buildResources("scripts", transform);
+}
+
+function buildResources(sourceDirName, transform, ext) {
+  const sourceDir = join(__dirname, sourceDirName);
+  return fs.readdirSync(sourceDir).map((file) => {
+    const path = join(sourceDir, file);
+    const data = transform(fs.readFileSync(path).toString());
+    const newFile = ext ? parse(file).name + ext : file;
+    return { file: newFile, data };
+  });
+}
+
+function writeCacheBustedFiles(destDirName, files) {
+  const destDir = join(root, destDirName);
+  fs.rmdirSync(destDir, { recursive: true, force: true });
+  fs.mkdirSync(destDir);
+  const fileMap = {};
+  const webPath = (file) => `/${destDirName}/${file}`;
+  for (const { file, data } of files) {
+    const { name, ext } = parse(file);
+    const hash = crypto.createHash("md5").update(data).digest("hex");
+    const cacheBustedFile = `${name}.${hash}${ext}`;
+    fs.writeFileSync(join(destDir, cacheBustedFile), data);
+    fileMap[webPath(file)] = webPath(cacheBustedFile);
+  }
+  return fileMap;
+}
+
+function buildHtml(list, resources) {
   const lastUpdated = new Date(timestamp).toUTCString();
-  const html = nunjucks.render("list.njk", { list, lastUpdated, cacheBuster });
+  const html = nunjucks.render("list.njk", { list, lastUpdated, resources });
   return minify(html, {
     collapseWhitespace: true,
     removeAttributeQuotes: true,

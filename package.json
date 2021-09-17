@@ -17,9 +17,9 @@
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
     "html-minifier": "4.0.0",
-    "md5-file": "5.0.0",
     "node-sass": "6.0.1",
     "nunjucks": "3.2.3",
-    "prettier": "2.3.2"
+    "prettier": "2.3.2",
+    "uglify-js": "3.14.2"
   }
 }

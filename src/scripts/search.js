@@ -3,6 +3,7 @@
   const names = elements.map((el) => el.dataset.name);
 
   const search = document.getElementById("search");
+  const SEARCH_RESET_MS = 10000;
 
   window.addEventListener("keydown", function (e) {
     if (e.ctrlKey || e.metaKey || e.key.length > 1) {
@@ -22,7 +23,7 @@
     targetElement.scrollIntoView();
     resetTimeout = setTimeout(function () {
       search.blur();
-    }, 2000);
+    }, SEARCH_RESET_MS);
   });
 
   search.addEventListener("keydown", function (e) {

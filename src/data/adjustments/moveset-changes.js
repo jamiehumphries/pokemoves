@@ -99,12 +99,6 @@ module.exports = {
       },
     },
     {
-      pokemonName: "Samurott",
-      chargedMoveIds: {
-        add: ["HYDRO_CANNON"],
-      },
-    },
-    {
       pokemonName: "Starmie",
       fastMoveIds: {
         add: ["QUICK_ATTACK_FAST"],

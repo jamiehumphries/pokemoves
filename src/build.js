@@ -261,7 +261,6 @@ function buildHtml(list, resources) {
     collapseWhitespace: true,
     removeAttributeQuotes: true,
     removeOptionalTags: true,
-    minifyJS: true,
   });
 }
 

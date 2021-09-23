@@ -3,7 +3,7 @@
   const names = elements.map((el) => el.dataset.name);
 
   const search = document.getElementById("search");
-  const SEARCH_RESET_MS = 10000;
+  const SEARCH_RESET_MS = 3000;
 
   window.addEventListener("keydown", function (e) {
     if (e.ctrlKey || e.metaKey || e.key.length > 1) {

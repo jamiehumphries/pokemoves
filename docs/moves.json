@@ -2162,13 +2162,15 @@
     "Metal Claw",
     "X-Scissor",
     "Magnet Bomb",
-    "Ice Beam"
+    "Ice Beam",
+    "Techno Blast"
   ],
   "Genesect (Douse)": [
     "Fury Cutter",
     "Metal Claw",
     "X-Scissor",
     "Magnet Bomb",
+    "Techno Blast",
     "Gunk Shot"
   ],
   "Genesect (Shock)": [
@@ -2176,6 +2178,7 @@
     "Metal Claw",
     "X-Scissor",
     "Magnet Bomb",
+    "Techno Blast",
     "Zap Cannon"
   ],
   "Gengar": [

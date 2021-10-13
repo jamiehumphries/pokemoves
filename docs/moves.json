@@ -1236,7 +1236,8 @@
     "Ice Fang",
     "Tackle",
     "Ice Punch",
-    "Ice Beam"
+    "Ice Beam",
+    "Return"
   ],
   "Dedenne": [
     "Tackle",
@@ -1365,6 +1366,7 @@
     "Mud Slap",
     "Mud Bomb",
     "Rock Tomb",
+    "Return",
     "Dig"
   ],
   "Dodrio": [
@@ -1562,7 +1564,8 @@
     "Mud Slap",
     "Mud Bomb",
     "Iron Head",
-    "Earthquake"
+    "Earthquake",
+    "Return"
   ],
   "Dunsparce": [
     "Astonish",
@@ -1606,6 +1609,7 @@
     "Ominous Wind",
     "Dark Pulse",
     "Psychic",
+    "Shadow Ball",
     "Return"
   ],
   "Duskull": [
@@ -1830,6 +1834,7 @@
     "Dragon Tail",
     "Seed Bomb",
     "Dragon Pulse",
+    "Return",
     "Solar Beam"
   ],
   "Exploud": [
@@ -1860,7 +1865,8 @@
     "Rock Smash",
     "Brick Break",
     "Leaf Blade",
-    "Brave Bird"
+    "Brave Bird",
+    "Return"
   ],
   "Fearow": [
     "Peck",
@@ -2207,7 +2213,8 @@
     "Volt Switch",
     "Rock Slide",
     "Thunderbolt",
-    "Rock Tomb"
+    "Rock Tomb",
+    "Return"
   ],
   "Gible": [
     "Mud Shot",
@@ -2352,7 +2359,8 @@
     "Volt Switch",
     "Rock Blast",
     "Wild Charge",
-    "Stone Edge"
+    "Stone Edge",
+    "Return"
   ],
   "Golett": [
     "Astonish",
@@ -2457,7 +2465,8 @@
     "Volt Switch",
     "Rock Blast",
     "Stone Edge",
-    "Thunderbolt"
+    "Thunderbolt",
+    "Return"
   ],
   "Greedent": [
     "Bite",
@@ -2488,6 +2497,7 @@
     "Poison Jab",
     "Crunch",
     "Sludge Bomb",
+    "Return",
     "Gunk Shot"
   ],
   "Grimmsnarl": [
@@ -3337,6 +3347,7 @@
     "Lick",
     "Snarl",
     "Body Slam",
+    "Return",
     "Gunk Shot",
     "Dig"
   ],
@@ -3653,6 +3664,7 @@
     "Shadow Bone",
     "Flame Wheel",
     "Shadow Ball",
+    "Return",
     "Fire Blast"
   ],
   "Marshtomp": [
@@ -3763,13 +3775,15 @@
     "Scratch",
     "Night Slash",
     "Foul Play",
-    "Dark Pulse"
+    "Dark Pulse",
+    "Return"
   ],
   "Meowth (Galarian)": [
     "Metal Claw",
     "Scratch",
     "Night Slash",
     "Gyro Ball",
+    "Return",
     "Dig"
   ],
   "Mesprit": [
@@ -3854,7 +3868,8 @@
     "Rock Slide",
     "Dynamic Punch",
     "Earthquake",
-    "Future Sight"
+    "Future Sight",
+    "Return"
   ],
   "Mienfoo": [
     "Low Kick",
@@ -3992,7 +4007,8 @@
     "Zen Headbutt",
     "Ice Punch",
     "Psychic",
-    "Psybeam"
+    "Psybeam",
+    "Return"
   ],
   "Mr. Rime": [
     "Confusion",
@@ -4031,6 +4047,7 @@
     "Acid Spray",
     "Dark Pulse",
     "Sludge Wave",
+    "Return",
     "Gunk Shot"
   ],
   "Munchlax": [
@@ -4156,6 +4173,7 @@
     "Psyshock",
     "Ice Beam",
     "Dazzling Gleam",
+    "Return",
     "Blizzard"
   ],
   "Ninjask": [
@@ -4400,7 +4418,8 @@
     "Foul Play",
     "Dark Pulse",
     "Payback",
-    "Play Rough"
+    "Play Rough",
+    "Return"
   ],
   "Petilil": [
     "Charm",
@@ -4626,7 +4645,8 @@
     "Psycho Cut",
     "Swift",
     "Play Rough",
-    "Psybeam"
+    "Psybeam",
+    "Return"
   ],
   "Poochyena": [
     "Snarl",
@@ -4841,7 +4861,8 @@
     "Body Slam",
     "Megahorn",
     "Psychic",
-    "Play Rough"
+    "Play Rough",
+    "Return"
   ],
   "Raticate": [
     "Bite",
@@ -4856,6 +4877,7 @@
     "Quick Attack",
     "Crunch",
     "Hyper Fang",
+    "Return",
     "Hyper Beam"
   ],
   "Rattata": [
@@ -4871,7 +4893,8 @@
     "Tackle",
     "Crunch",
     "Hyper Fang",
-    "Shadow Ball"
+    "Shadow Ball",
+    "Return"
   ],
   "Rayquaza": [
     "Air Slash",
@@ -5137,6 +5160,7 @@
     "Powder Snow",
     "Night Slash",
     "Gyro Ball",
+    "Return",
     "Blizzard"
   ],
   "Sandslash": [
@@ -5153,6 +5177,7 @@
     "Ice Punch",
     "Bulldoze",
     "Gyro Ball",
+    "Return",
     "Blizzard"
   ],
   "Sawk": [
@@ -5569,6 +5594,7 @@
     "Poison Jab",
     "Sludge Bomb",
     "Psychic",
+    "Return",
     "Focus Blast"
   ],
   "Slowking": [
@@ -5585,7 +5611,8 @@
     "Hex",
     "Shadow Ball",
     "Future Sight",
-    "Sludge Wave"
+    "Sludge Wave",
+    "Return"
   ],
   "Slowpoke": [
     "Confusion",
@@ -5600,7 +5627,8 @@
     "Iron Tail",
     "Surf",
     "Psyshock",
-    "Psychic"
+    "Psychic",
+    "Return"
   ],
   "Slugma": [
     "Ember",
@@ -5860,7 +5888,8 @@
     "Muddy Water",
     "Rock Slide",
     "Earthquake",
-    "Flash Cannon"
+    "Flash Cannon",
+    "Return"
   ],
   "Stunky": [
     "Bite",
@@ -6549,6 +6578,7 @@
     "Weather Ball",
     "Dark Pulse",
     "Ice Beam",
+    "Return",
     "Blizzard"
   ],
   "Wailmer": [
@@ -6627,6 +6657,7 @@
     "Sludge",
     "Overheat",
     "Play Rough",
+    "Return",
     "Hyper Beam",
     "Hyper Beam"
   ],
@@ -6761,7 +6792,8 @@
   "Yamask (Galarian)": [
     "Astonish",
     "Night Shade",
-    "Rock Tomb"
+    "Rock Tomb",
+    "Return"
   ],
   "Yamper": [
     "Bite",
@@ -6865,6 +6897,7 @@
     "Take Down",
     "Body Slam",
     "Swift",
+    "Return",
     "Dig"
   ],
   "Zoroark": [

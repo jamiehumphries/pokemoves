@@ -106,7 +106,6 @@ function deduplicate(pokemon) {
 }
 
 function applyMovesetChanges(deduplicatedPokemon, allPokemonForms) {
-  addReturnToPurifiablePokemon(deduplicatedPokemon, allPokemonForms);
   for (const changeset of movesetChanges) {
     const pokemon = deduplicatedPokemon.find(
       (p) => p.name === changeset.pokemonName
@@ -121,23 +120,6 @@ function applyMovesetChanges(deduplicatedPokemon, allPokemonForms) {
       changes.remove?.forEach((m) => moves.delete(m));
       pokemon[movesKey] = [...moves];
     }
-  }
-}
-
-function addReturnToPurifiablePokemon(deduplicatedPokemon, allPokemonForms) {
-  const shadows = allPokemonForms
-    .filter((p) => p.name.endsWith(" (Shadow)"))
-    .map((p) => p.name.replace(/ \(Shadow\)$/, ""));
-  let found = 0;
-  for (const p of deduplicatedPokemon) {
-    const nonShadowName = p.name.replace(/ \((Normal|Shadow|Purified)\)$/, "");
-    if (shadows.includes(nonShadowName)) {
-      p.chargedMoveIds.push("RETURN");
-      found++;
-    }
-  }
-  if (found !== shadows.length) {
-    throw new Error(`Expected ${shadows.length} shadows, but found ${found}.`);
   }
 }
 
@@ -169,10 +151,14 @@ function getPokemonFastMoveIds(template) {
 }
 
 function getPokemonChargedMoveIds(template) {
-  return [
+  const moves = [
     ...(template.cinematicMoves || []),
     ...(template.eliteCinematicMove || []),
   ];
+  if (template.shadow) {
+    moves.push(template.shadow.purifiedChargeMove);
+  }
+  return moves;
 }
 
 function getTypes(template) {

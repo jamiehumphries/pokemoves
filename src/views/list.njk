@@ -15,11 +15,19 @@
   <p>
     <small><em>Last updated: {{ lastUpdated }}</em></small>
   </p>
-  <button id="use-dark-theme" class="theme-button">
+  <h2>
+    Settings
+  </h2>
+  <input type="checkbox" id="show-deltas" name="show-deltas" class="setting">
+  <label for="show-deltas">
+    Show advanced energy deltas
+  </label>
+  <script src="{{ resources['/js/deltas.js'] }}"></script>
+  <button id="use-dark-theme" class="theme-button setting">
     <img src="/icons/themes/dark.png" alt="">
     Switch to Dark theme
   </button>
-  <button id="use-light-theme" class="theme-button">
+  <button id="use-light-theme" class="theme-button setting">
     <img src="/icons/themes/light.png" alt="">
     Switch to Light theme
   </button>
@@ -73,17 +81,25 @@
           </th>
           {% for fastMove in row.fastMoves %}
             <td>
-              {% set firstCount = (fastMove.counts | first) %}
-              {% for count in fastMove.counts %}
-                {% if count === firstCount %}
-                  {{ count }}
-                {%- else %}
-                  <em>
-                    {{ count -}}
-                  </em>
-                {%- endif %}
-                {{- "," if not loop.last }}
-              {% endfor %}
+              <div>
+                {% set firstCount = (fastMove.counts | first) %}
+                {% for count in fastMove.counts %}
+                  {% if count === firstCount %}
+                    {{ count }}
+                  {%- else %}
+                    <em>
+                      {{ count -}}
+                    </em>
+                  {%- endif %}
+                  {{- "," if not loop.last }}
+                {% endfor %}
+              </div>
+              <div>
+                {% set remainder = -chargedMove.energy % fastMove.energy %}
+                <small class="delta">
+                  Δ +{{ 0 if remainder === 0 else fastMove.energy - remainder }} / -{{ remainder }}
+                </small>
+              </div>
             </td>
           {% endfor %}
         </tr>

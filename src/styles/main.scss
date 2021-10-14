@@ -56,6 +56,12 @@ body {
   &.dark {
     @include dark-theme;
   }
+
+  &:not(.show-deltas) {
+    .delta {
+      display: none;
+    }
+  }
 }
 
 .container {
@@ -96,6 +102,10 @@ h1 {
   }
 }
 
+.setting {
+  margin-bottom: 1rem;
+}
+
 input#search {
   position: fixed;
   bottom: 40px;
@@ -130,6 +140,10 @@ table {
     img.type {
       height: 1.2em;
       margin-bottom: -0.2em;
+    }
+
+    .delta {
+      font-size: 0.7rem;
     }
   }
 

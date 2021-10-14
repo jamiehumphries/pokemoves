@@ -1,9 +1,10 @@
 (function () {
   const THEME_KEY = "THEME";
+  const themes = ["dark", "light"];
 
   function useTheme(theme) {
     localStorage.setItem(THEME_KEY, theme);
-    document.body.classList.forEach((c) => document.body.classList.remove(c));
+    themes.forEach((t) => document.body.classList.remove(t));
     document.body.classList.add(theme);
   }
 
@@ -12,7 +13,7 @@
     useTheme(savedTheme);
   }
 
-  ["dark", "light"].forEach((theme) => {
+  themes.forEach((theme) => {
     const button = document.getElementById(`use-${theme}-theme`);
     button.addEventListener("click", () => useTheme(theme));
   });

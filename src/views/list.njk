@@ -81,8 +81,8 @@
           </th>
           {% for fastMove in row.fastMoves %}
             <td>
+              {% set firstCount = (fastMove.counts | first) %}
               <div>
-                {% set firstCount = (fastMove.counts | first) %}
                 {% for count in fastMove.counts %}
                   {% if count === firstCount %}
                     {{ count }}
@@ -95,9 +95,9 @@
                 {% endfor %}
               </div>
               <div>
-                {% set remainder = -chargedMove.energy % fastMove.energy %}
+                {% set extraEnergy = firstCount * fastMove.energy + chargedMove.energy %}
                 <small class="delta">
-                  Δ +{{ 0 if remainder === 0 else fastMove.energy - remainder }} / -{{ remainder }}
+                  Δ +{{ extraEnergy }} / -{{ fastMove.energy - extraEnergy }}
                 </small>
               </div>
             </td>

@@ -226,7 +226,7 @@ function buildResources(sourceDirName, transform, ext) {
 
 function writeCacheBustedFiles(destDirName, files) {
   const destDir = join(root, destDirName);
-  fs.rmdirSync(destDir, { recursive: true, force: true });
+  fs.rmSync(destDir, { recursive: true, force: true });
   fs.mkdirSync(destDir);
   const fileMap = {};
   const webPath = (file) => `/${destDirName}/${file}`;

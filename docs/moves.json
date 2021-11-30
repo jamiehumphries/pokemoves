@@ -57,6 +57,7 @@
     "Smack Down",
     "Heavy Slam",
     "Stone Edge",
+    "Rock Tomb",
     "Thunder",
     "Return"
   ],
@@ -956,6 +957,7 @@
     "Psychic",
     "Shadow Ball",
     "Gyro Ball",
+    "Rock Tomb",
     "Earthquake"
   ],
   "Clefable": [
@@ -1389,6 +1391,7 @@
     "Counter",
     "Mud Slap",
     "Tackle",
+    "Body Slam",
     "Heavy Slam",
     "Play Rough",
     "Earthquake"
@@ -3180,6 +3183,7 @@
     "Body Slam",
     "Rock Slide",
     "Heavy Slam",
+    "Rock Tomb",
     "Return"
   ],
   "Lampent": [
@@ -3499,9 +3503,11 @@
   ],
   "Magcargo": [
     "Ember",
+    "Incinerate",
     "Rock Throw",
     "Overheat",
     "Stone Edge",
+    "Rock Tomb",
     "Heat Wave"
   ],
   "Magikarp": [
@@ -4189,7 +4195,8 @@
     "Wing Attack",
     "Sky Attack",
     "Night Shade",
-    "Psychic"
+    "Psychic",
+    "Shadow Ball"
   ],
   "Noibat": [
     "Bite",
@@ -4239,6 +4246,7 @@
     "Hyper Beam"
   ],
   "Octillery": [
+    "Lock-On",
     "Mud Shot",
     "Water Gun",
     "Acid Spray",
@@ -5904,6 +5912,7 @@
     "Rock Throw",
     "Rock Slide",
     "Stone Edge",
+    "Rock Tomb",
     "Earthquake"
   ],
   "Suicune": [

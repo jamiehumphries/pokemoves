@@ -132,6 +132,15 @@ module.exports = {
       },
     },
     {
+      pokemonName: "Walrein",
+      fastMoveIds: {
+        add: ["POWDER_SNOW_FAST"],
+      },
+      chargedMoveIds: {
+        add: ["ICICLE_SPEAR"],
+      },
+    },
+    {
       pokemonName: "Weezing",
       fastMoveIds: {
         add: ["ACID_FAST"],

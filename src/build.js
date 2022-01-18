@@ -37,6 +37,9 @@ function build() {
 
   const html = buildHtml(list, resources);
   fs.writeFileSync(join(root, "index.html"), html);
+
+  console.log();
+  console.log("Build complete.");
 }
 
 function buildList() {
@@ -105,7 +108,7 @@ function deduplicate(pokemon) {
   });
 }
 
-function applyMovesetChanges(deduplicatedPokemon, allPokemonForms) {
+function applyMovesetChanges(deduplicatedPokemon) {
   for (const changeset of movesetChanges) {
     const pokemon = deduplicatedPokemon.find(
       (p) => p.name === changeset.pokemonName
@@ -116,7 +119,16 @@ function applyMovesetChanges(deduplicatedPokemon, allPokemonForms) {
         continue;
       }
       const moves = new Set(pokemon[movesKey]);
-      changes.add?.forEach((m) => moves.add(m));
+      changes.add?.forEach((m) => {
+        if (moves.has(m)) {
+          console.warn(
+            "\x1b[33m%s\x1b[0m", // Yellow text.
+            `${pokemon.name} already knows ${m}.`
+          );
+        } else {
+          moves.add(m);
+        }
+      });
       changes.remove?.forEach((m) => moves.delete(m));
       pokemon[movesKey] = [...moves];
     }

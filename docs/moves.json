@@ -384,7 +384,8 @@
     "Tackle",
     "Ancient Power",
     "Grass Knot",
-    "Energy Ball"
+    "Energy Ball",
+    "Return"
   ],
   "Beartic": [
     "Charm",
@@ -881,7 +882,8 @@
     "Vine Whip",
     "Body Slam",
     "Grass Knot",
-    "Energy Ball"
+    "Energy Ball",
+    "Return"
   ],
   "Chimchar": [
     "Ember",
@@ -1148,7 +1150,8 @@
     "Water Gun",
     "Ice Punch",
     "Crunch",
-    "Water Pulse"
+    "Water Pulse",
+    "Return"
   ],
   "Crustle": [
     "Fury Cutter",
@@ -1201,7 +1204,8 @@
     "Tackle",
     "Flame Charge",
     "Flamethrower",
-    "Swift"
+    "Swift",
+    "Return"
   ],
   "Darkrai": [
     "Feint Attack",
@@ -1713,6 +1717,7 @@
     "Discharge",
     "Foul Play",
     "Thunderbolt",
+    "Return",
     "Hyper Beam"
   ],
   "Elekid": [
@@ -1844,6 +1849,7 @@
     "Bite",
     "Crunch",
     "Disarming Voice",
+    "Return",
     "Fire Blast"
   ],
   "Falinks": [
@@ -1898,6 +1904,7 @@
     "Hydro Cannon",
     "Crunch",
     "Ice Beam",
+    "Return",
     "Hydro Pump"
   ],
   "Ferroseed": [
@@ -2672,8 +2679,8 @@
   "Helioptile": [
     "Quick Attack",
     "Thunder Shock",
-    "Discharge",
     "Parabolic Charge",
+    "Thunderbolt",
     "Bulldoze"
   ],
   "Heracross": [
@@ -3394,7 +3401,8 @@
     "Rock Smash",
     "Stomp",
     "Disarming Voice",
-    "Flamethrower"
+    "Flamethrower",
+    "Return"
   ],
   "Lucario": [
     "Bullet Punch",
@@ -3723,6 +3731,7 @@
     "Frenzy Plant",
     "Earthquake",
     "Petal Blizzard",
+    "Return",
     "Solar Beam"
   ],
   "Melmetal": [
@@ -4784,6 +4793,7 @@
     "Tackle",
     "Flame Charge",
     "Flamethrower",
+    "Return",
     "Dig"
   ],
   "Quilladin": [
@@ -6223,7 +6233,8 @@
     "Water Gun",
     "Aqua Jet",
     "Crunch",
-    "Water Pulse"
+    "Water Pulse",
+    "Return"
   ],
   "Toxel": [
     "Acid",
@@ -6314,6 +6325,7 @@
     "Shadow Claw",
     "Blast Burn",
     "Overheat",
+    "Return",
     "Fire Blast",
     "Solar Beam"
   ],
@@ -6565,7 +6577,8 @@
     "Discharge",
     "Signal Beam",
     "Thunderbolt",
-    "Gyro Ball"
+    "Gyro Ball",
+    "Return"
   ],
   "Vullaby": [
     "Air Slash",
@@ -6700,7 +6713,8 @@
     "Pound",
     "Stomp",
     "Disarming Voice",
-    "Flamethrower"
+    "Flamethrower",
+    "Return"
   ],
   "Wigglytuff": [
     "Charm",

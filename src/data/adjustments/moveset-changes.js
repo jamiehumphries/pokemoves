@@ -69,6 +69,12 @@ module.exports = {
       },
     },
     {
+      pokemonName: "Jumpluff",
+      chargedMoveIds: {
+        add: ["ACROBATICS"],
+      },
+    },
+    {
       pokemonName: "Kirlia",
       chargedMoveIds: {
         add: ["DRAINING_KISS"],

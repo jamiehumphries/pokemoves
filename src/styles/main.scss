@@ -57,11 +57,16 @@ body {
     @include dark-theme;
   }
 
-  &:not(.show-deltas) {
-    .delta {
-      display: none;
+  @mixin feature-toggle($feature) {
+    &:not(.show-#{$feature}) {
+      .#{$feature} {
+        display: none;
+      }
     }
   }
+
+  @include feature-toggle(deltas);
+  @include feature-toggle(damage);
 }
 
 .container {

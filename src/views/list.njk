@@ -18,19 +18,29 @@
   <h2>
     Settings
   </h2>
-  <input type="checkbox" id="show-deltas" name="show-deltas" class="setting">
-  <label for="show-deltas">
-    Show advanced energy deltas
-  </label>
-  <script src="{{ resources['/js/deltas.js'] }}"></script>
-  <button id="use-dark-theme" class="theme-button setting">
-    <img src="/icons/themes/dark.png" alt="">
-    Switch to Dark theme
-  </button>
-  <button id="use-light-theme" class="theme-button setting">
-    <img src="/icons/themes/light.png" alt="">
-    Switch to Light theme
-  </button>
+  <div>
+    <input type="checkbox" id="show-deltas" name="show-deltas" class="setting">
+    <label for="show-deltas">
+      Show advanced energy deltas
+    </label>
+  </div>
+  <div>
+    <input type="checkbox" id="show-damage" name="show-damage" class="setting">
+    <label for="show-damage">
+      Show base damage (including STAB)
+    </label>
+  </div>
+  <script src="{{ resources['/js/features.js'] }}"></script>
+  <div>
+    <button id="use-dark-theme" class="theme-button setting">
+      <img src="/icons/themes/dark.png" alt="">
+      Switch to Dark theme
+    </button>
+    <button id="use-light-theme" class="theme-button setting">
+      <img src="/icons/themes/light.png" alt="">
+      Switch to Light theme
+    </button>
+  </div>
   <script src="{{ resources['/js/theme.js'] }}"></script>
   <input id="search" type="text" placeholder="Search"  style="visibility: hidden;" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
   {% for pokemon in list %}
@@ -61,6 +71,13 @@
                 / {{ fastMove.turns }} turn{{ "s" if fastMove.turns > 1 }}
               </small>
             </div>
+            <div class="damage">
+              <small>
+                {% set damage = (fastMove | adjustedDamage(pokemon)) %}
+                💥{{ damage | round(2) }}
+                ({{ (damage / fastMove.turns) | round(2) }} dpt)
+              </small>
+            </div>
           </th>
         {% endfor %}
       </tr>
@@ -76,6 +93,13 @@
             <div>
               <small>
                 {{ chargedMove.energy }} energy
+              </small>
+            </div>
+            <div class="damage">
+              <small>
+                {% set damage = (chargedMove | adjustedDamage(pokemon)) %}
+                💥{{ damage | round(2) }}
+                ({{ (damage / -chargedMove.energy) | round(2) }} dpe)
               </small>
             </div>
           </th>
@@ -96,7 +120,7 @@
               </div>
               <div>
                 {% set extraEnergy = firstCount * fastMove.energy + chargedMove.energy %}
-                <small class="delta">
+                <small class="deltas">
                   Δ +{{ extraEnergy }} / -{{ fastMove.energy - extraEnergy }}
                 </small>
               </div>

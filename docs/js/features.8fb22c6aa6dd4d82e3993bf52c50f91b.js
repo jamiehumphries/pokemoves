@@ -1,0 +1,1 @@
+!function(){function e(e){const t="SHOW_"+e.toUpperCase(),c="show-"+e,o=document.getElementById("show-"+e);function d(){o.checked?document.body.classList.add(c):document.body.classList.remove(c)}o.checked="true"===localStorage.getItem(t),d(),o.addEventListener("change",()=>{localStorage.setItem(t,o.checked),d()})}e("deltas"),e("damage")}();

@@ -19,7 +19,7 @@ const timestamp = parseInt(
 const root = "docs";
 
 const views = join(__dirname, "views");
-nunjucks.configure(views);
+const env = nunjucks.configure(views);
 
 function build() {
   const list = buildList();
@@ -90,6 +90,7 @@ function buildMove(template) {
     name: getMoveName(template),
     type: getTypes(template)[0],
     energy: getMoveEnergy(template),
+    damage: getMoveDamage(template),
     turns: getMoveTurns(template),
   };
 }
@@ -183,6 +184,10 @@ function getMoveEnergy(template) {
   return template.energyDelta;
 }
 
+function getMoveDamage(template) {
+  return template.power;
+}
+
 function getMoveTurns(template) {
   if (!template.uniqueId.endsWith("_FAST")) {
     return undefined;
@@ -261,5 +266,10 @@ function buildHtml(list, resources) {
     removeOptionalTags: true,
   });
 }
+
+env.addFilter("adjustedDamage", (move, pokemon) => {
+  const stabMultiplier = pokemon.types.includes(move.type) ? 1.2 : 1;
+  return move.damage * stabMultiplier;
+});
 
 build();

@@ -1,1 +1,0 @@
-!function(){const e="SHOW_DELTAS",t="show-deltas",c=document.getElementById("show-deltas");function d(){c.checked?document.body.classList.add(t):document.body.classList.remove(t)}c.checked="true"===localStorage.getItem(e),d(),c.addEventListener("change",()=>{localStorage.setItem(e,c.checked),d()})}();

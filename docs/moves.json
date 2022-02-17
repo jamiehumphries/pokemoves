@@ -765,6 +765,7 @@
   "Celebi": [
     "Charge Beam",
     "Confusion",
+    "Magical Leaf",
     "Seed Bomb",
     "Leaf Storm",
     "Psychic",
@@ -1719,6 +1720,14 @@
     "Thunderbolt",
     "Return",
     "Hyper Beam"
+  ],
+  "Electrode (Hisuian)": [
+    "Tackle",
+    "Thunder Shock",
+    "Wild Charge",
+    "Energy Ball",
+    "Swift",
+    "Return"
   ],
   "Elekid": [
     "Low Kick",
@@ -2754,6 +2763,7 @@
     "Steel Wing",
     "Brave Bird",
     "Earthquake",
+    "Sacred Fire",
     "Return",
     "Fire Blast",
     "Solar Beam"
@@ -4927,6 +4937,7 @@
     "Frost Breath",
     "Lock-On",
     "Rock Smash",
+    "Thunder",
     "Earthquake",
     "Blizzard",
     "Focus Blast"
@@ -4956,6 +4967,7 @@
     "Rock Smash",
     "Rock Throw",
     "Stone Edge",
+    "Earthquake",
     "Focus Blast",
     "Zap Cannon"
   ],
@@ -4965,7 +4977,8 @@
     "Rock Smash",
     "Flash Cannon",
     "Focus Blast",
-    "Hyper Beam"
+    "Hyper Beam",
+    "Zap Cannon"
   ],
   "Relicanth": [
     "Water Gun",

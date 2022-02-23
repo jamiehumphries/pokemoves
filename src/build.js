@@ -185,7 +185,7 @@ function getMoveEnergy(template) {
 }
 
 function getMoveDamage(template) {
-  return template.power;
+  return template.power || 0;
 }
 
 function getMoveTurns(template) {

@@ -49,11 +49,9 @@ function buildList() {
   const deduplicatedPokemon = deduplicate(pokemon);
   applyMovesetChanges(deduplicatedPokemon, pokemon);
   return deduplicatedPokemon
-    .filter((p) => {
-      return !exclusions.includes(p.name);
-    })
-    .map((p) => {
-      const { name, types, fastMoveIds, chargedMoveIds } = p;
+    .filter(({ name }) => !exclusions.includes(name))
+    .filter(({ fastMoveIds }) => !fastMoveIds.includes("STRUGGLE"))
+    .map(({ name, types, fastMoveIds, chargedMoveIds }) => {
       const fastMoves = fastMoveIds
         .map(getMove)
         .sort((m1, m2) => m1.name.localeCompare(m2.name));

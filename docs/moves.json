@@ -573,6 +573,13 @@
     "Grass Knot",
     "Sludge Bomb"
   ],
+  "Brionne": [
+    "Charm",
+    "Water Gun",
+    "Aqua Jet",
+    "Disarming Voice",
+    "Water Pulse"
+  ],
   "Bronzong": [
     "Confusion",
     "Feint Attack",
@@ -1041,6 +1048,13 @@
     "Flamethrower",
     "Return"
   ],
+  "Comfey": [
+    "Hidden Power",
+    "Vine Whip",
+    "Grass Knot",
+    "Draining Kiss",
+    "Petal Blizzard"
+  ],
   "Conkeldurr": [
     "Counter",
     "Poison Jab",
@@ -1233,6 +1247,13 @@
     "Avalanche",
     "Overheat"
   ],
+  "Dartrix": [
+    "Peck",
+    "Razor Leaf",
+    "Seed Bomb",
+    "Brave Bird",
+    "Energy Ball"
+  ],
   "Darumaka": [
     "Fire Fang",
     "Tackle",
@@ -1246,6 +1267,13 @@
     "Ice Punch",
     "Ice Beam",
     "Return"
+  ],
+  "Decidueye": [
+    "Astonish",
+    "Razor Leaf",
+    "Shadow Sneak",
+    "Brave Bird",
+    "Energy Ball"
   ],
   "Dedenne": [
     "Tackle",
@@ -2578,6 +2606,13 @@
     "Ice Beam",
     "Gunk Shot"
   ],
+  "Gumshoos": [
+    "Bite",
+    "Take Down",
+    "Crunch",
+    "Hyper Fang",
+    "Rock Tomb"
+  ],
   "Gurdurr": [
     "Low Kick",
     "Poison Jab",
@@ -2597,6 +2632,13 @@
     "Outrage",
     "Return",
     "Hydro Pump"
+  ],
+  "Hakamo O": [
+    "Dragon Tail",
+    "Tackle",
+    "Brick Break",
+    "Dragon Claw",
+    "Dragon Pulse"
   ],
   "Happiny": [
     "Pound",
@@ -2886,6 +2928,13 @@
     "Dark Pulse",
     "Play Rough"
   ],
+  "Incineroar": [
+    "Fire Fang",
+    "Snarl",
+    "Dark Pulse",
+    "Flame Charge",
+    "Fire Blast"
+  ],
   "Indeedee (Female)": [
     "Extrasensory",
     "Energy Ball",
@@ -2927,6 +2976,13 @@
     "Sludge Bomb",
     "Return",
     "Solar Beam"
+  ],
+  "Jangmo O": [
+    "Dragon Tail",
+    "Tackle",
+    "Brick Break",
+    "Dragon Claw",
+    "Dragon Pulse"
   ],
   "Jellicent": [
     "Bubble",
@@ -3123,6 +3179,13 @@
     "Dark Pulse",
     "Sludge Bomb",
     "Return"
+  ],
+  "Kommo O": [
+    "Dragon Tail",
+    "Poison Jab",
+    "Dragon Claw",
+    "Close Combat",
+    "Flamethrower"
   ],
   "Krabby": [
     "Bubble",
@@ -3380,6 +3443,13 @@
     "Flame Charge",
     "Flamethrower"
   ],
+  "Litten": [
+    "Ember",
+    "Scratch",
+    "Crunch",
+    "Flame Charge",
+    "Flamethrower"
+  ],
   "Litwick": [
     "Astonish",
     "Ember",
@@ -3479,6 +3549,20 @@
     "Crunch",
     "Wild Charge",
     "Hyper Beam"
+  ],
+  "Lycanroc": [
+    "Rock Throw",
+    "Sucker Punch",
+    "Crunch",
+    "Drill Run",
+    "Stone Edge"
+  ],
+  "Lycanroc (Midnight)": [
+    "Counter",
+    "Rock Throw",
+    "Psychic Fangs",
+    "Crunch",
+    "Stone Edge"
   ],
   "Machamp": [
     "Bullet Punch",
@@ -4563,6 +4647,13 @@
     "Meteor Mash",
     "Play Rough"
   ],
+  "Pikipek": [
+    "Peck",
+    "Rock Smash",
+    "Drill Peck",
+    "Aerial Ace",
+    "Sky Attack"
+  ],
   "Piloswine": [
     "Ice Shard",
     "Powder Snow",
@@ -4685,6 +4776,13 @@
     "Return",
     "Dig"
   ],
+  "Popplio": [
+    "Pound",
+    "Water Gun",
+    "Aqua Tail",
+    "Aqua Jet",
+    "Water Pulse"
+  ],
   "Porygon": [
     "Charge Beam",
     "Hidden Power",
@@ -4719,6 +4817,13 @@
     "Hyper Beam",
     "Solar Beam",
     "Zap Cannon"
+  ],
+  "Primarina": [
+    "Charm",
+    "Waterfall",
+    "Psychic",
+    "Moonblast",
+    "Hydro Pump"
   ],
   "Primeape": [
     "Counter",
@@ -5051,6 +5156,13 @@
     "Cross Chop",
     "Low Sweep"
   ],
+  "Rockruff": [
+    "Rock Throw",
+    "Tackle",
+    "Crunch",
+    "Stone Edge",
+    "Rock Tomb"
+  ],
   "Roggenrola": [
     "Smack Down",
     "Tackle",
@@ -5122,6 +5234,12 @@
     "Thunderbolt",
     "Thunder",
     "Hydro Pump"
+  ],
+  "Rowlet": [
+    "Razor Leaf",
+    "Tackle",
+    "Seed Bomb",
+    "Energy Ball"
   ],
   "Rufflet": [
     "Peck",
@@ -6081,6 +6199,14 @@
     "Return",
     "Solar Beam"
   ],
+  "Tapu Koko": [
+    "Quick Attack",
+    "Volt Switch",
+    "Brave Bird",
+    "Thunderbolt",
+    "Thunder",
+    "Dazzling Gleam"
+  ],
   "Tauros": [
     "Tackle",
     "Zen Headbutt",
@@ -6232,6 +6358,13 @@
     "Focus Blast",
     "Heat Wave"
   ],
+  "Torracat": [
+    "Bite",
+    "Ember",
+    "Crunch",
+    "Flame Charge",
+    "Flamethrower"
+  ],
   "Torterra": [
     "Bite",
     "Razor Leaf",
@@ -6249,6 +6382,14 @@
     "Crunch",
     "Water Pulse",
     "Return"
+  ],
+  "Toucannon": [
+    "Bullet Seed",
+    "Peck",
+    "Rock Smash",
+    "Drill Peck",
+    "Rock Blast",
+    "Flash Cannon"
   ],
   "Toxel": [
     "Acid",
@@ -6312,6 +6453,13 @@
     "Seed Bomb",
     "Gunk Shot",
     "Gunk Shot"
+  ],
+  "Trumbeak": [
+    "Peck",
+    "Rock Smash",
+    "Drill Peck",
+    "Rock Blast",
+    "Sky Attack"
   ],
   "Turtwig": [
     "Razor Leaf",
@@ -6863,6 +7011,13 @@
     "Aerial Ace",
     "Ancient Power",
     "Bug Buzz"
+  ],
+  "Yungoos": [
+    "Bite",
+    "Tackle",
+    "Crunch",
+    "Hyper Fang",
+    "Rock Tomb"
   ],
   "Yveltal": [
     "Gust",

@@ -3,12 +3,6 @@
 module.exports = {
   movesetChanges: [
     {
-      pokemonName: "Celebi",
-      fastMoveIds: {
-        add: ["MAGICAL_LEAF_FAST"],
-      },
-    },
-    {
       pokemonName: "Chansey",
       chargedMoveIds: {
         add: ["PSYBEAM"],
@@ -72,12 +66,6 @@ module.exports = {
       pokemonName: "Grimer",
       fastMoveIds: {
         add: ["ACID_FAST"],
-      },
-    },
-    {
-      pokemonName: "Ho-Oh",
-      chargedMoveIds: {
-        add: ["SACRED_FIRE"],
       },
     },
     {

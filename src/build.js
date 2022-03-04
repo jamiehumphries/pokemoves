@@ -270,4 +270,23 @@ env.addFilter("adjustedDamage", (move, pokemon) => {
   return move.damage * stabMultiplier;
 });
 
+env.addFilter("effectivenessSummary", (damage) => {
+  let summary = "| ";
+  for (let n = -3; n <= 2; n++) {
+    if (n < 0) {
+      summary += "↓".repeat(-n);
+    } else if (n === 0) {
+      summary += "↔";
+    } else {
+      summary += "↑".repeat(n);
+    }
+    const multiplier = 1.6 ** n;
+    const effectiveDamage = damage * multiplier;
+    const roundedDamage = +effectiveDamage.toFixed(1);
+    summary += ` ${roundedDamage} | `;
+  }
+
+  return summary.trimEnd();
+});
+
 build();

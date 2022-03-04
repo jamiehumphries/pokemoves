@@ -4,6 +4,15 @@
   <img class="type" src="/icons/types/{{ type }}.png" alt="{{ type | capitalize }}-type">
 {%- endmacro %}
 
+{% macro damageSummary(damage) -%}
+  <div class="damage" title="{{ damage | effectivenessSummary }}">
+    <small>
+      💥{{ damage | round(2) }}
+      {{ caller() }}
+    </small>
+  </div>
+{%- endmacro %}
+
 {% block content %}
   <h1>
     Pokémoves
@@ -27,7 +36,8 @@
   <div>
     <input type="checkbox" id="show-damage" name="show-damage" class="setting">
     <label for="show-damage">
-      Show base damage (including STAB)
+      Show base damage (includes STAB)
+    </label>
     </label>
   </div>
   <script src="{{ resources['/js/features.js'] }}"></script>
@@ -71,13 +81,10 @@
                 / {{ fastMove.turns }} turn{{ "s" if fastMove.turns > 1 }}
               </small>
             </div>
-            <div class="damage">
-              <small>
-                {% set damage = (fastMove | adjustedDamage(pokemon)) %}
-                💥{{ damage | round(2) }}
-                ({{ (damage / fastMove.turns) | round(2) }} dpt)
-              </small>
-            </div>
+            {% set damage = (fastMove | adjustedDamage(pokemon)) %}
+            {% call damageSummary(damage) %}
+              ({{ (damage / fastMove.turns) | round(2) }} dpt)
+            {% endcall %}
           </th>
         {% endfor %}
       </tr>
@@ -95,13 +102,10 @@
                 {{ chargedMove.energy }} energy
               </small>
             </div>
-            <div class="damage">
-              <small>
-                {% set damage = (chargedMove | adjustedDamage(pokemon)) %}
-                💥{{ damage | round(2) }}
-                ({{ (damage / -chargedMove.energy) | round(2) }} dpe)
-              </small>
-            </div>
+            {% set damage = (chargedMove | adjustedDamage(pokemon)) %}
+            {% call damageSummary(damage) %}
+              ({{ (damage / -chargedMove.energy) | round(2) }} dpe)
+            {% endcall %}
           </th>
           {% for fastMove in row.fastMoves %}
             <td>

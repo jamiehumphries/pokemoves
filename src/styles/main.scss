@@ -67,6 +67,7 @@ body {
 
   @include feature-toggle(deltas);
   @include feature-toggle(damage);
+  @include feature-toggle(leagues);
 }
 
 .container {
@@ -133,6 +134,29 @@ input#search {
 h2 {
   margin: 1rem 0 0.5rem 0;
   padding-top: 1rem;
+}
+
+.leagues {
+  display: flex;
+  margin-bottom: 1rem;
+  .league {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    img {
+      margin-right: 0.5rem;
+      width: 2.5rem;
+    }
+    .cmp {
+      text-align: center;
+      .league-name {
+        font-weight: bold;
+      }
+      .rank-one-cmp {
+        font-size: 1.2rem;
+      }
+    }
+  }
 }
 
 table {

@@ -23,4 +23,5 @@
 
   setUpFeatureToggle("deltas");
   setUpFeatureToggle("damage");
+  setUpFeatureToggle("leagues");
 })();

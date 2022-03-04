@@ -38,6 +38,11 @@
     <label for="show-damage">
       Show base damage (includes STAB)
     </label>
+  </div>
+  <div>
+    <input type="checkbox" id="show-leagues" name="show-leagues" class="setting">
+    <label for="show-leagues">
+      Show attack stats (rank #1 and max)
     </label>
   </div>
   <script src="{{ resources['/js/features.js'] }}"></script>
@@ -61,6 +66,26 @@
     {% if isMew %}
       <p>* Only some of Mew’s fast moves are shown.</p>
     {% endif %}
+    <div class="leagues">
+      {% for league in ["little", "great", "ultra", "master"] %}
+        <div class="league">
+          <img src="/icons/leagues/{{ league }}.png" alt="">
+          <div class="cmp">
+            <div class="league-name">
+              {{ league | capitalize }}
+            </div>
+            <div class="rank-one-cmp">
+              {{ pokemon.cmp[league].rankOne | round(1, "floor") }}
+            </div>
+            <div>
+              <small>
+                <strong>Max:</strong> {{ pokemon.cmp[league].max | round(1, "floor") }}
+              </small>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
     <table>
       <tr>
         <th class="{{ pokemon.types | first }}">

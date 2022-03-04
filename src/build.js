@@ -6,9 +6,10 @@ const nunjucks = require("nunjucks");
 const { join, parse } = require("path");
 const UglifyJs = require("uglify-js");
 
-const { setEq } = require("./helpers/collections");
 const { exclusions } = require("./data/adjustments/exclusions");
 const { movesetChanges } = require("./data/adjustments/moveset-changes");
+const { computeCmp } = require("./helpers/cmp");
+const { setEq } = require("./helpers/collections");
 const { getPokemonName, getMoveName } = require("./helpers/names");
 
 const gameMaster = require("./data/pokeminers/latest.json");
@@ -51,7 +52,7 @@ function buildList() {
   return deduplicatedPokemon
     .filter(({ name }) => !exclusions.includes(name))
     .filter(({ fastMoveIds }) => !fastMoveIds.includes("STRUGGLE"))
-    .map(({ name, types, fastMoveIds, chargedMoveIds }) => {
+    .map(({ name, types, fastMoveIds, chargedMoveIds, stats }) => {
       const fastMoves = fastMoveIds
         .map(getMove)
         .sort((m1, m2) => m1.name.localeCompare(m2.name));
@@ -63,7 +64,8 @@ function buildList() {
       const counts = chargedMoves.map((chargedMove) =>
         buildCounts(chargedMove, fastMoves)
       );
-      return { name, types, counts };
+      const cmp = computeCmp(stats);
+      return { name, types, counts, cmp };
     })
     .sort((p1, p2) => p1.name.localeCompare(p2.name));
 }
@@ -79,6 +81,7 @@ function buildPokemon(template) {
     types: getTypes(template),
     fastMoveIds: getPokemonFastMoveIds(template),
     chargedMoveIds: getPokemonChargedMoveIds(template),
+    stats: template.stats,
   };
 }
 

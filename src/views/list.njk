@@ -7,7 +7,7 @@
 {% macro damageSummary(damage) -%}
   <div class="damage" title="{{ damage | effectivenessSummary }}">
     <small>
-      💥{{ damage | round(2) }}
+      💥{{ damage | round(1) }}
       {{ caller() }}
     </small>
   </div>
@@ -75,11 +75,11 @@
               {{ league | capitalize }}
             </div>
             <div class="rank-one-cmp">
-              {{ pokemon.cmp[league].rankOne | round(1, "floor") }}
+              {{ pokemon.cmp[league].rankOne | fixed(1) }}
             </div>
             <div>
               <small>
-                <strong>Max:</strong> {{ pokemon.cmp[league].max | round(1, "floor") }}
+                <strong>Max:</strong> {{ pokemon.cmp[league].max | fixed(1) }}
               </small>
             </div>
           </div>

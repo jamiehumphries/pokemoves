@@ -268,6 +268,10 @@ function buildHtml(list, resources) {
   });
 }
 
+env.addFilter("fixed", (number, digits) => {
+  return (+number).toFixed(digits);
+});
+
 env.addFilter("adjustedDamage", (move, pokemon) => {
   const stabMultiplier = pokemon.types.includes(move.type) ? 1.2 : 1;
   return move.damage * stabMultiplier;

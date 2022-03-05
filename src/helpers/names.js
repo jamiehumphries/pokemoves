@@ -22,6 +22,7 @@ const defaultPokemonFormNames = {
   CHERRIM: "Overcast",
   GIRATINA: "Altered",
   INDEEDEE: "Male",
+  LYCANROC: "Midday",
   MEOWSTIC: "Male",
 };
 

@@ -4403,6 +4403,13 @@
     "Psychic",
     "Bug Buzz"
   ],
+  "Oricorio": [
+    "Air Slash",
+    "Pound",
+    "Aerial Ace",
+    "Air Cutter",
+    "Hurricane"
+  ],
   "Oshawott": [
     "Tackle",
     "Water Gun",
@@ -6206,6 +6213,14 @@
     "Thunderbolt",
     "Thunder",
     "Dazzling Gleam"
+  ],
+  "Tapu Lele": [
+    "Astonish",
+    "Confusion",
+    "Psyshock",
+    "Moonblast",
+    "Future Sight",
+    "Focus Blast"
   ],
   "Tauros": [
     "Tackle",

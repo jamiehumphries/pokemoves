@@ -111,6 +111,18 @@ module.exports = {
       },
     },
     {
+      pokemonName: "Sandslash",
+      chargedMoveIds: {
+        add: ["NIGHT_SLASH"],
+      },
+    },
+    {
+      pokemonName: "Sandslash (Alolan)",
+      fastMoveIds: {
+        add: ["SHADOW_CLAW_FAST"],
+      },
+    },
+    {
       pokemonName: "Starmie",
       fastMoveIds: {
         add: ["QUICK_ATTACK_FAST"],

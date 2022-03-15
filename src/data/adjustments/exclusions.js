@@ -1,16 +1,25 @@
 module.exports = {
   exclusions: [
+    // Unavailable.
+    "Ditto",
+    "Shedinja",
+    // Duplicated base forms.
     "Castform",
     "Deoxys",
-    "Ditto",
+    "Meloetta",
+    "Urshifu",
+    "Wormadam",
+    "Zacian",
+    "Zamazenta",
+    // Unknown moveset.
+    "Smeargle",
+    // Other variants.
+    "Darmanitan (Galarian Zen)",
+    "Darmanitan (Zen)",
     "Ho-Oh (S)",
     "Lugia (S)",
     "Pikachu (Costume 2020)",
     "Pikachu (Kariyushi)",
     "Pyroar (Female)",
-    "Shedinja",
-    "Smeargle",
-    "Urshifu",
-    "Wormadam",
   ],
 };

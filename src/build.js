@@ -99,9 +99,10 @@ function buildMove(template) {
 function deduplicate(pokemon) {
   return pokemon.filter((pkm, i, arr) => {
     return (
-      arr.findIndex(({ id, fastMoveIds, chargedMoveIds }) => {
+      arr.findIndex(({ id, types, fastMoveIds, chargedMoveIds }) => {
         return (
           id === pkm.id &&
+          setEq(types, pkm.types) &&
           setEq(fastMoveIds, pkm.fastMoveIds) &&
           setEq(chargedMoveIds, pkm.chargedMoveIds)
         );

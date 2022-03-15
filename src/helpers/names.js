@@ -1,7 +1,10 @@
 const specialPokemonBaseNames = {
   FARFETCHD: "Farfetch’d",
   FLABEBE: "Flabébé",
+  HAKAMO_O: "Hakamo-o",
   HO_OH: "Ho-Oh",
+  JANGMO_O: "Jangmo-o",
+  KOMMO_O: "Kommo-o",
   MIME_JR: "Mime Jr.",
   MR_MIME: "Mr. Mime",
   MR_RIME: "Mr. Rime",
@@ -14,16 +17,26 @@ const specialPokemonBaseNames = {
 const specialPokemonFormNames = {
   DARMANITAN_GALARIAN_STANDARD: "Galarian",
   MEWTWO_A: "Armoured",
+  ORICORIO_PAU: "Pa’u",
+  ORICORIO_POMPOM: "Pom-Pom",
   PIKACHU_FLYING_5TH_ANNIV: "Flying",
   PIKACHU_VS_2019: "Libre",
+  ZACIAN_HERO: "Hero of Many Battles",
+  ZAMAZENTA_HERO: "Hero of Many Battles",
 };
 
 const defaultPokemonFormNames = {
   CHERRIM: "Overcast",
   GIRATINA: "Altered",
+  HOOPA: "Confined",
   INDEEDEE: "Male",
+  LANDORUS: "Incarnate",
   LYCANROC: "Midday",
   MEOWSTIC: "Male",
+  ORICORIO: "Baile",
+  SHAYMIN: "Land",
+  TORNADUS: "Incarnate",
+  THUNDURUS: "Incarnate",
 };
 
 const specialMoveNames = {

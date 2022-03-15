@@ -186,6 +186,125 @@
     "Future Sight",
     "Hyper Beam"
   ],
+  "Arceus (Bug)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
+  "Arceus (Dark)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
+  "Arceus (Dragon)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
+  "Arceus (Electric)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
+  "Arceus (Fairy)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
+  "Arceus (Fighting)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
+  "Arceus (Fire)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
+  "Arceus (Flying)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
+  "Arceus (Ghost)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
+  "Arceus (Grass)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
+  "Arceus (Ground)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
+  "Arceus (Ice)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
+  "Arceus (Poison)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
+  "Arceus (Psychic)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
+  "Arceus (Rock)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
+  "Arceus (Steel)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
+  "Arceus (Water)": [
+    "Iron Tail",
+    "Shadow Claw",
+    "Outrage",
+    "Future Sight",
+    "Hyper Beam"
+  ],
   "Archen": [
     "Quick Attack",
     "Wing Attack",
@@ -2633,7 +2752,7 @@
     "Return",
     "Hydro Pump"
   ],
-  "Hakamo O": [
+  "Hakamo-o": [
     "Dragon Tail",
     "Tackle",
     "Brick Break",
@@ -2825,7 +2944,7 @@
     "Iron Head",
     "Gyro Ball"
   ],
-  "Hoopa": [
+  "Hoopa (Confined)": [
     "Astonish",
     "Confusion",
     "Psychic",
@@ -2977,7 +3096,7 @@
     "Return",
     "Solar Beam"
   ],
-  "Jangmo O": [
+  "Jangmo-o": [
     "Dragon Tail",
     "Tackle",
     "Brick Break",
@@ -3180,7 +3299,7 @@
     "Sludge Bomb",
     "Return"
   ],
-  "Kommo O": [
+  "Kommo-o": [
     "Dragon Tail",
     "Poison Jab",
     "Dragon Claw",
@@ -3274,7 +3393,7 @@
     "Flame Burst",
     "Heat Wave"
   ],
-  "Landorus": [
+  "Landorus (Incarnate)": [
     "Mud Shot",
     "Rock Throw",
     "Rock Slide",
@@ -3837,20 +3956,20 @@
     "Flash Cannon",
     "Hyper Beam"
   ],
-  "Meloetta": [
-    "Low Kick",
-    "Quick Attack",
-    "Fire Punch",
-    "Ice Punch",
-    "Close Combat",
-    "Hyper Beam"
-  ],
   "Meloetta (Aria)": [
     "Confusion",
     "Quick Attack",
     "Psyshock",
     "Thunderbolt",
     "Dazzling Gleam",
+    "Hyper Beam"
+  ],
+  "Meloetta (Pirouette)": [
+    "Low Kick",
+    "Quick Attack",
+    "Fire Punch",
+    "Ice Punch",
+    "Close Combat",
     "Hyper Beam"
   ],
   "Meltan": [
@@ -4403,7 +4522,28 @@
     "Psychic",
     "Bug Buzz"
   ],
-  "Oricorio": [
+  "Oricorio (Baile)": [
+    "Air Slash",
+    "Pound",
+    "Aerial Ace",
+    "Air Cutter",
+    "Hurricane"
+  ],
+  "Oricorio (Pa’u)": [
+    "Air Slash",
+    "Pound",
+    "Aerial Ace",
+    "Air Cutter",
+    "Hurricane"
+  ],
+  "Oricorio (Pom-Pom)": [
+    "Air Slash",
+    "Pound",
+    "Aerial Ace",
+    "Air Cutter",
+    "Hurricane"
+  ],
+  "Oricorio (Sensu)": [
     "Air Slash",
     "Pound",
     "Aerial Ace",
@@ -5235,6 +5375,13 @@
     "Thunderbolt",
     "Thunder"
   ],
+  "Rotom (Mow)": [
+    "Astonish",
+    "Thunder Shock",
+    "Ominous Wind",
+    "Thunderbolt",
+    "Thunder"
+  ],
   "Rotom (Wash)": [
     "Astonish",
     "Thunder Shock",
@@ -5509,7 +5656,14 @@
     "Return",
     "Hydro Pump"
   ],
-  "Shaymin": [
+  "Shaymin (Land)": [
+    "Hidden Power",
+    "Zen Headbutt",
+    "Grass Knot",
+    "Energy Ball",
+    "Solar Beam"
+  ],
+  "Shaymin (Sky)": [
     "Hidden Power",
     "Zen Headbutt",
     "Grass Knot",
@@ -6282,7 +6436,7 @@
     "Low Sweep",
     "Focus Blast"
   ],
-  "Thundurus": [
+  "Thundurus (Incarnate)": [
     "Astonish",
     "Thunder Shock",
     "Brick Break",
@@ -6359,7 +6513,7 @@
     "Earthquake",
     "Solar Beam"
   ],
-  "Tornadus": [
+  "Tornadus (Incarnate)": [
     "Air Slash",
     "Bite",
     "Dark Pulse",
@@ -7046,7 +7200,7 @@
     "Focus Blast",
     "Hyper Beam"
   ],
-  "Zacian": [
+  "Zacian (Hero of Many Battles)": [
     "Fire Fang",
     "Metal Claw",
     "Quick Attack",
@@ -7056,7 +7210,7 @@
     "Iron Head",
     "Play Rough"
   ],
-  "Zamazenta": [
+  "Zamazenta (Hero of Many Battles)": [
     "Ice Fang",
     "Metal Claw",
     "Quick Attack",

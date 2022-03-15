@@ -8,6 +8,15 @@
     "Return",
     "Blizzard"
   ],
+  "Abomasnow (Mega)": [
+    "Powder Snow",
+    "Razor Leaf",
+    "Weather Ball",
+    "Energy Ball",
+    "Outrage",
+    "Return",
+    "Blizzard"
+  ],
   "Abra": [
     "Charge Beam",
     "Zen Headbutt",
@@ -17,6 +26,15 @@
     "Return"
   ],
   "Absol": [
+    "Psycho Cut",
+    "Snarl",
+    "Dark Pulse",
+    "Megahorn",
+    "Payback",
+    "Thunder",
+    "Return"
+  ],
+  "Absol (Mega)": [
     "Psycho Cut",
     "Snarl",
     "Dark Pulse",
@@ -41,6 +59,17 @@
     "Flash Cannon"
   ],
   "Aerodactyl": [
+    "Bite",
+    "Rock Throw",
+    "Steel Wing",
+    "Ancient Power",
+    "Rock Slide",
+    "Iron Head",
+    "Earth Power",
+    "Return",
+    "Hyper Beam"
+  ],
+  "Aerodactyl (Mega)": [
     "Bite",
     "Rock Throw",
     "Steel Wing",
@@ -103,6 +132,14 @@
     "Moonblast",
     "Dazzling Gleam"
   ],
+  "Altaria (Mega)": [
+    "Dragon Breath",
+    "Peck",
+    "Sky Attack",
+    "Dragon Pulse",
+    "Moonblast",
+    "Dazzling Gleam"
+  ],
   "Amaura": [
     "Frost Breath",
     "Powder Snow",
@@ -127,6 +164,17 @@
     "Sludge Bomb"
   ],
   "Ampharos": [
+    "Charge Beam",
+    "Volt Switch",
+    "Thunder Punch",
+    "Dragon Pulse",
+    "Power Gem",
+    "Thunder",
+    "Return",
+    "Focus Blast",
+    "Zap Cannon"
+  ],
+  "Ampharos (Mega)": [
     "Charge Beam",
     "Volt Switch",
     "Thunder Punch",
@@ -531,6 +579,17 @@
     "Sludge Bomb",
     "Return"
   ],
+  "Beedrill (Mega)": [
+    "Bug Bite",
+    "Infestation",
+    "Poison Jab",
+    "Fell Stinger",
+    "X-Scissor",
+    "Aerial Ace",
+    "Drill Run",
+    "Sludge Bomb",
+    "Return"
+  ],
   "Beheeyem": [
     "Astonish",
     "Confusion",
@@ -603,6 +662,16 @@
     "Focus Blast"
   ],
   "Blastoise": [
+    "Bite",
+    "Water Gun",
+    "Hydro Cannon",
+    "Ice Beam",
+    "Flash Cannon",
+    "Return",
+    "Hydro Pump",
+    "Skull Bash"
+  ],
+  "Blastoise (Mega)": [
     "Bite",
     "Water Gun",
     "Hydro Cannon",
@@ -924,6 +993,32 @@
     "Hyper Beam"
   ],
   "Charizard": [
+    "Air Slash",
+    "Dragon Breath",
+    "Ember",
+    "Fire Spin",
+    "Wing Attack",
+    "Dragon Claw",
+    "Blast Burn",
+    "Flamethrower",
+    "Overheat",
+    "Return",
+    "Fire Blast"
+  ],
+  "Charizard (Mega X)": [
+    "Air Slash",
+    "Dragon Breath",
+    "Ember",
+    "Fire Spin",
+    "Wing Attack",
+    "Dragon Claw",
+    "Blast Burn",
+    "Flamethrower",
+    "Overheat",
+    "Return",
+    "Fire Blast"
+  ],
+  "Charizard (Mega Y)": [
     "Air Slash",
     "Dragon Breath",
     "Ember",
@@ -2371,6 +2466,19 @@
     "Sludge Wave",
     "Focus Blast"
   ],
+  "Gengar (Mega)": [
+    "Hex",
+    "Lick",
+    "Shadow Claw",
+    "Sucker Punch",
+    "Shadow Punch",
+    "Dark Pulse",
+    "Sludge Bomb",
+    "Psychic",
+    "Shadow Ball",
+    "Sludge Wave",
+    "Focus Blast"
+  ],
   "Geodude": [
     "Rock Throw",
     "Tackle",
@@ -2782,6 +2890,19 @@
     "Return",
     "Hydro Pump"
   ],
+  "Gyarados (Mega)": [
+    "Bite",
+    "Dragon Breath",
+    "Dragon Tail",
+    "Waterfall",
+    "Aqua Tail",
+    "Crunch",
+    "Twister",
+    "Dragon Pulse",
+    "Outrage",
+    "Return",
+    "Hydro Pump"
+  ],
   "Hakamo-o": [
     "Dragon Tail",
     "Tackle",
@@ -3012,6 +3133,15 @@
     "Return"
   ],
   "Houndoom": [
+    "Fire Fang",
+    "Snarl",
+    "Crunch",
+    "Foul Play",
+    "Flamethrower",
+    "Return",
+    "Fire Blast"
+  ],
+  "Houndoom (Mega)": [
     "Fire Fang",
     "Snarl",
     "Crunch",
@@ -3620,6 +3750,13 @@
     "Focus Blast",
     "Hyper Beam"
   ],
+  "Lopunny (Mega)": [
+    "Low Kick",
+    "Pound",
+    "Fire Punch",
+    "Focus Blast",
+    "Hyper Beam"
+  ],
   "Lotad": [
     "Razor Leaf",
     "Water Gun",
@@ -3853,6 +3990,16 @@
     "Shadow Ball"
   ],
   "Manectric": [
+    "Charge Beam",
+    "Snarl",
+    "Thunder Fang",
+    "Wild Charge",
+    "Flame Burst",
+    "Overheat",
+    "Thunder",
+    "Return"
+  ],
+  "Manectric (Mega)": [
     "Charge Beam",
     "Snarl",
     "Thunder Fang",
@@ -4746,6 +4893,17 @@
     "Thunderbolt"
   ],
   "Pidgeot": [
+    "Air Slash",
+    "Gust",
+    "Steel Wing",
+    "Wing Attack",
+    "Aerial Ace",
+    "Feather Dance",
+    "Air Cutter",
+    "Brave Bird",
+    "Hurricane"
+  ],
+  "Pidgeot (Mega)": [
     "Air Slash",
     "Gust",
     "Steel Wing",
@@ -5961,6 +6119,14 @@
     "Return",
     "Focus Blast"
   ],
+  "Slowbro (Mega)": [
+    "Confusion",
+    "Water Gun",
+    "Ice Beam",
+    "Psychic",
+    "Water Pulse",
+    "Return"
+  ],
   "Slowking": [
     "Confusion",
     "Water Gun",
@@ -6216,6 +6382,15 @@
     "Power Gem"
   ],
   "Steelix": [
+    "Dragon Tail",
+    "Iron Tail",
+    "Thunder Fang",
+    "Crunch",
+    "Heavy Slam",
+    "Earthquake",
+    "Return"
+  ],
+  "Steelix (Mega)": [
     "Dragon Tail",
     "Iron Tail",
     "Thunder Fang",
@@ -6853,6 +7028,15 @@
     "Return"
   ],
   "Venusaur": [
+    "Razor Leaf",
+    "Vine Whip",
+    "Frenzy Plant",
+    "Sludge Bomb",
+    "Petal Blizzard",
+    "Return",
+    "Solar Beam"
+  ],
+  "Venusaur (Mega)": [
     "Razor Leaf",
     "Vine Whip",
     "Frenzy Plant",

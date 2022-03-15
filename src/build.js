@@ -10,7 +10,11 @@ const { exclusions } = require("./data/adjustments/exclusions");
 const { movesetChanges } = require("./data/adjustments/moveset-changes");
 const { computeCmp } = require("./helpers/cmp");
 const { setEq } = require("./helpers/collections");
-const { getPokemonName, getMoveName } = require("./helpers/names");
+const {
+  getPokemonName,
+  getMoveName,
+  getTempEvoName,
+} = require("./helpers/names");
 
 const gameMaster = require("./data/pokeminers/latest.json");
 const timestamp = parseInt(
@@ -44,7 +48,7 @@ function build() {
 }
 
 function buildList() {
-  const pokemon = getTemplates("pokemonSettings").map(buildPokemon);
+  const pokemon = getTemplates("pokemonSettings").flatMap(buildPokemon);
   const moves = getTemplates("combatMove").map(buildMove);
   const getMove = (id) => moves.find((m) => m.id === id);
   const deduplicatedPokemon = deduplicate(pokemon);
@@ -75,7 +79,7 @@ function getTemplates(property) {
 }
 
 function buildPokemon(template) {
-  return {
+  const basePokemon = {
     id: template.pokemonId,
     name: getPokemonName(template),
     types: getTypes(template),
@@ -83,6 +87,17 @@ function buildPokemon(template) {
     chargedMoveIds: getPokemonChargedMoveIds(template),
     stats: template.stats,
   };
+  const tempEvoTemplates = template.tempEvoOverrides || [];
+  return [
+    basePokemon,
+    ...tempEvoTemplates.map((tempEvoTemplate) => {
+      return Object.assign({}, basePokemon, {
+        name: getTempEvoName(template, tempEvoTemplate),
+        types: getTypes(tempEvoTemplate),
+        stats: tempEvoTemplate.stats,
+      });
+    }),
+  ];
 }
 
 function buildMove(template) {
@@ -180,7 +195,12 @@ function getPokemonChargedMoveIds(template) {
 }
 
 function getTypes(template) {
-  return [template.type, template.type2]
+  return [
+    template.type,
+    template.type2,
+    template.typeOverride1,
+    template.typeOverride2,
+  ]
     .filter((t) => !!t)
     .map((t) => t.replace(/^POKEMON_TYPE_/, "").toLowerCase());
 }

@@ -127,6 +127,14 @@ function getDefaultMoveName(id) {
   return toSentenceCase(id.replace(/_FAST$/, ""));
 }
 
+function getTempEvoName(template, tempEvoTemplate) {
+  const pokemonName = getPokemonName(template);
+  const evoName = toSentenceCase(
+    tempEvoTemplate.tempEvoId.replace(/^TEMP_EVOLUTION_/, "")
+  );
+  return `${pokemonName} (${evoName})`;
+}
+
 function toSentenceCase(id) {
   return id
     .split("_")
@@ -138,4 +146,5 @@ function toSentenceCase(id) {
 module.exports = {
   getPokemonName,
   getMoveName,
+  getTempEvoName,
 };

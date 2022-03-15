@@ -1817,6 +1817,12 @@
     "Surf",
     "Icy Wind"
   ],
+  "Eiscue (Noice)": [
+    "Powder Snow",
+    "Weather Ball",
+    "Surf",
+    "Icy Wind"
+  ],
   "Ekans": [
     "Acid",
     "Poison Sting",
@@ -2590,7 +2596,31 @@
     "Psybeam",
     "Future Sight"
   ],
-  "Gourgeist": [
+  "Gourgeist (Average Size)": [
+    "Hex",
+    "Razor Leaf",
+    "Seed Bomb",
+    "Foul Play",
+    "Shadow Ball",
+    "Fire Blast"
+  ],
+  "Gourgeist (Large Size)": [
+    "Hex",
+    "Razor Leaf",
+    "Seed Bomb",
+    "Foul Play",
+    "Shadow Ball",
+    "Fire Blast"
+  ],
+  "Gourgeist (Small Size)": [
+    "Hex",
+    "Razor Leaf",
+    "Seed Bomb",
+    "Foul Play",
+    "Shadow Ball",
+    "Fire Blast"
+  ],
+  "Gourgeist (Super Size)": [
     "Hex",
     "Razor Leaf",
     "Seed Bomb",
@@ -5005,7 +5035,28 @@
     "Psybeam",
     "Return"
   ],
-  "Pumpkaboo": [
+  "Pumpkaboo (Average Size)": [
+    "Astonish",
+    "Razor Leaf",
+    "Foul Play",
+    "Shadow Sneak",
+    "Grass Knot"
+  ],
+  "Pumpkaboo (Large Size)": [
+    "Astonish",
+    "Razor Leaf",
+    "Foul Play",
+    "Shadow Sneak",
+    "Grass Knot"
+  ],
+  "Pumpkaboo (Small Size)": [
+    "Astonish",
+    "Razor Leaf",
+    "Foul Play",
+    "Shadow Sneak",
+    "Grass Knot"
+  ],
+  "Pumpkaboo (Super Size)": [
     "Astonish",
     "Razor Leaf",
     "Foul Play",
@@ -7200,6 +7251,16 @@
     "Focus Blast",
     "Hyper Beam"
   ],
+  "Zacian (Crowned Sword)": [
+    "Fire Fang",
+    "Metal Claw",
+    "Quick Attack",
+    "Snarl",
+    "Close Combat",
+    "Wild Charge",
+    "Iron Head",
+    "Play Rough"
+  ],
   "Zacian (Hero of Many Battles)": [
     "Fire Fang",
     "Metal Claw",
@@ -7209,6 +7270,16 @@
     "Wild Charge",
     "Iron Head",
     "Play Rough"
+  ],
+  "Zamazenta (Crowned Shield)": [
+    "Ice Fang",
+    "Metal Claw",
+    "Quick Attack",
+    "Snarl",
+    "Close Combat",
+    "Crunch",
+    "Iron Head",
+    "Moonblast"
   ],
   "Zamazenta (Hero of Many Battles)": [
     "Ice Fang",

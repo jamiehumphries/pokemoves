@@ -16,6 +16,7 @@ module.exports = {
     // Other variants.
     "Darmanitan (Galarian Zen)",
     "Darmanitan (Zen)",
+    "Dugtrio (Normal)",
     "Ho-Oh (S)",
     "Lugia (S)",
     "Pikachu (Costume 2020)",

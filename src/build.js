@@ -99,12 +99,15 @@ function buildMove(template) {
 function deduplicate(pokemon) {
   return pokemon.filter((pkm, i, arr) => {
     return (
-      arr.findIndex(({ id, types, fastMoveIds, chargedMoveIds }) => {
+      arr.findIndex(({ id, types, fastMoveIds, chargedMoveIds, stats }) => {
         return (
           id === pkm.id &&
           setEq(types, pkm.types) &&
           setEq(fastMoveIds, pkm.fastMoveIds) &&
-          setEq(chargedMoveIds, pkm.chargedMoveIds)
+          setEq(chargedMoveIds, pkm.chargedMoveIds) &&
+          stats.baseStamina === pkm.stats.baseStamina &&
+          stats.baseAttack === pkm.stats.baseAttack &&
+          stats.baseDefense === pkm.stats.baseDefense
         );
       }) === i
     );

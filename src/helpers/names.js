@@ -16,11 +16,17 @@ const specialPokemonBaseNames = {
 
 const specialPokemonFormNames = {
   DARMANITAN_GALARIAN_STANDARD: "Galarian",
+  GOURGEIST_AVERAGE: "Average Size",
+  GOURGEIST_LARGE: "Large Size",
+  GOURGEIST_SUPER: "Super Size",
   MEWTWO_A: "Armoured",
   ORICORIO_PAU: "Pa’u",
   ORICORIO_POMPOM: "Pom-Pom",
   PIKACHU_FLYING_5TH_ANNIV: "Flying",
   PIKACHU_VS_2019: "Libre",
+  PUMPKABOO_AVERAGE: "Average Size",
+  PUMPKABOO_LARGE: "Large Size",
+  PUMPKABOO_SUPER: "Super Size",
   ZACIAN_HERO: "Hero of Many Battles",
   ZAMAZENTA_HERO: "Hero of Many Battles",
 };
@@ -28,12 +34,14 @@ const specialPokemonFormNames = {
 const defaultPokemonFormNames = {
   CHERRIM: "Overcast",
   GIRATINA: "Altered",
+  GOURGEIST: "Small Size",
   HOOPA: "Confined",
   INDEEDEE: "Male",
   LANDORUS: "Incarnate",
   LYCANROC: "Midday",
   MEOWSTIC: "Male",
   ORICORIO: "Baile",
+  PUMPKABOO: "Small Size",
   SHAYMIN: "Land",
   TORNADUS: "Incarnate",
   THUNDURUS: "Incarnate",

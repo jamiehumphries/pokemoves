@@ -1,5 +1,15 @@
 {% extends "layout.njk" %}
 
+{% macro featureToggle(feature) -%}
+  {% set id = "show-" + feature %}
+  <div>
+    <input type="checkbox" id="{{ id }}" name="{{ id }}" class="setting">
+    <label for="{{ id }}">
+      {{ caller() }}
+    </label>
+  </div>
+{%- endmacro %}
+
 {% macro typeIcon(type) -%}
   <img class="type" src="/icons/types/{{ type }}.png" alt="{{ type | capitalize }}-type">
 {%- endmacro %}
@@ -27,34 +37,23 @@
   <h2>
     Settings
   </h2>
-  <div>
-    <input type="checkbox" id="show-deltas" name="show-deltas" class="setting">
-    <label for="show-deltas">
-      Show advanced energy deltas
-    </label>
-  </div>
-  <div>
-    <input type="checkbox" id="show-damage" name="show-damage" class="setting">
-    <label for="show-damage">
-      Show base damage (includes STAB)
-    </label>
-  </div>
-  <div>
-    <input type="checkbox" id="show-leagues" name="show-leagues" class="setting">
-    <label for="show-leagues">
-      Show attack stats (rank #1 and max)
-    </label>
-  </div>
+  {% call featureToggle("deltas") %}
+    Show advanced energy deltas
+  {% endcall %}
+  {% call featureToggle("damage") %}
+    Show base damage (includes STAB)
+  {% endcall %}
+  {% call featureToggle("leagues") %}
+    Show attack stats (rank #1 and max)
+  {% endcall %}
   <script src="{{ resources['/js/features.js'] }}"></script>
   <div>
-    <button id="use-dark-theme" class="theme-button setting">
-      <img src="/icons/themes/dark.png" alt="">
-      Switch to Dark theme
-    </button>
-    <button id="use-light-theme" class="theme-button setting">
-      <img src="/icons/themes/light.png" alt="">
-      Switch to Light theme
-    </button>
+    {% for theme in ["dark", "light"] %}
+      <button id="use-{{ theme }}-theme" class="theme-button setting">
+        <img src="/icons/themes/{{ theme }}.png" alt="">
+        Switch to {{ theme | capitalize }} theme
+      </button>
+    {% endfor %}
   </div>
   <script src="{{ resources['/js/theme.js'] }}"></script>
   <input id="search" type="text" placeholder="Search"  style="visibility: hidden;" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
@@ -74,12 +73,13 @@
             <div class="league-name">
               {{ league | capitalize }}
             </div>
+            {% set cmp = pokemon.cmp[league] %}
             <div class="rank-one-cmp">
-              {{ pokemon.cmp[league].rankOne | fixed(1) }}
+              {{ cmp.rankOne | fixed(1) }}
             </div>
             <div>
               <small>
-                <strong>Max:</strong> {{ pokemon.cmp[league].max | fixed(1) }}
+                <strong>Max:</strong> {{ cmp.max | fixed(1) }}
               </small>
             </div>
           </div>

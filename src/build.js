@@ -52,7 +52,7 @@ function buildList() {
   const moves = getTemplates("combatMove").map(buildMove);
   const getMove = (id) => moves.find((m) => m.id === id);
   const deduplicatedPokemon = deduplicate(pokemon);
-  applyMovesetChanges(deduplicatedPokemon, pokemon);
+  applyMovesetChanges(deduplicatedPokemon);
   return deduplicatedPokemon
     .filter(({ name }) => !exclusions.includes(name))
     .filter(({ fastMoveIds }) => !fastMoveIds.includes("STRUGGLE"))

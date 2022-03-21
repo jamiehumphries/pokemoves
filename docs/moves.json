@@ -2267,6 +2267,12 @@
     "Earthquake",
     "Return"
   ],
+  "Fomantis": [
+    "Bullet Seed",
+    "Razor Leaf",
+    "Grass Knot",
+    "Energy Ball"
+  ],
   "Foongus": [
     "Astonish",
     "Feint Attack",
@@ -3812,6 +3818,12 @@
     "Rock Slide",
     "Psychic",
     "Moonblast"
+  ],
+  "Lurantis": [
+    "Bullet Seed",
+    "Razor Leaf",
+    "Grass Knot",
+    "Energy Ball"
   ],
   "Luvdisc": [
     "Splash",

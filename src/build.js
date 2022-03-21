@@ -302,22 +302,25 @@ env.addFilter("adjustedDamage", (move, pokemon) => {
 });
 
 env.addFilter("effectivenessSummary", (damage) => {
-  let summary = "| ";
-  for (let n = -3; n <= 2; n++) {
-    if (n < 0) {
-      summary += "↓".repeat(-n);
-    } else if (n === 0) {
-      summary += "↔";
-    } else {
-      summary += "↑".repeat(n);
-    }
-    const multiplier = 1.6 ** n;
-    const effectiveDamage = damage * multiplier;
-    const roundedDamage = +effectiveDamage.toFixed(1);
-    summary += ` ${roundedDamage} | `;
-  }
-
-  return summary.trimEnd();
+  return [-3, -2, -1, 0, 1, 2]
+    .map((n) => {
+      const arrows = effectivenessArrows(n);
+      const multiplier = 1.6 ** n;
+      const effectiveDamage = damage * multiplier;
+      const roundedDamage = +effectiveDamage.toFixed(1);
+      return `${arrows} ${roundedDamage}`;
+    })
+    .join(" | ");
 });
+
+function effectivenessArrows(n) {
+  if (n < 0) {
+    return "↓".repeat(-n);
+  }
+  if (n === 0) {
+    return "↔";
+  }
+  return "↑".repeat(n);
+}
 
 build();

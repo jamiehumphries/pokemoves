@@ -147,9 +147,9 @@
                   {{- "," if not loop.last }}
                 {% endfor %}
               </div>
-              <div>
+              <div class="deltas">
                 {% set extraEnergy = firstCount * fastMove.energy + chargedMove.energy %}
-                <small class="deltas">
+                <small>
                   Δ +{{ extraEnergy }} / -{{ fastMove.energy - extraEnergy }}
                 </small>
               </div>

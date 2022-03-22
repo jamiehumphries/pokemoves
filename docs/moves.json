@@ -2268,8 +2268,9 @@
     "Return"
   ],
   "Fomantis": [
-    "Bullet Seed",
+    "Fury Cutter",
     "Razor Leaf",
+    "Leaf Blade",
     "Grass Knot",
     "Energy Ball"
   ],
@@ -3820,10 +3821,12 @@
     "Moonblast"
   ],
   "Lurantis": [
-    "Bullet Seed",
+    "Fury Cutter",
     "Razor Leaf",
-    "Grass Knot",
-    "Energy Ball"
+    "Leaf Blade",
+    "X-Scissor",
+    "Super Power",
+    "Leaf Storm"
   ],
   "Luvdisc": [
     "Splash",

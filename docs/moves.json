@@ -205,6 +205,14 @@
     "Astonish",
     "Struggle"
   ],
+  "Araquanid": [
+    "Bubble",
+    "Infestation",
+    "Mirror Coat",
+    "Bubble Beam",
+    "Crunch",
+    "Lunge"
+  ],
   "Arbok": [
     "Acid",
     "Bite",
@@ -626,6 +634,14 @@
     "Icy Wind",
     "Mirror Coat"
   ],
+  "Bewear": [
+    "Low Kick",
+    "Shadow Claw",
+    "Tackle",
+    "Stomp",
+    "Super Power",
+    "Payback"
+  ],
   "Bibarel": [
     "Take Down",
     "Water Gun",
@@ -880,6 +896,7 @@
     "Earth Power",
     "Overheat",
     "Earthquake",
+    "Return",
     "Solar Beam"
   ],
   "Carbink": [
@@ -1576,6 +1593,13 @@
     "Water Gun",
     "Aqua Tail",
     "X-Scissor",
+    "Water Pulse"
+  ],
+  "Dewpider": [
+    "Bubble",
+    "Water Gun",
+    "Bubble Beam",
+    "Crunch",
     "Water Pulse"
   ],
   "Dialga": [
@@ -2523,7 +2547,8 @@
     "Tackle",
     "Mirror Coat",
     "Psychic",
-    "Thunderbolt"
+    "Thunderbolt",
+    "Return"
   ],
   "Giratina (Altered)": [
     "Dragon Breath",
@@ -3617,7 +3642,8 @@
     "Zen Headbutt",
     "Psychic",
     "Outrage",
-    "Thunder"
+    "Thunder",
+    "Return"
   ],
   "Latios": [
     "Dragon Breath",
@@ -3840,7 +3866,8 @@
     "Spark",
     "Crunch",
     "Wild Charge",
-    "Thunderbolt"
+    "Thunderbolt",
+    "Return"
   ],
   "Luxray": [
     "Hidden Power",
@@ -3849,6 +3876,7 @@
     "Psychic Fangs",
     "Crunch",
     "Wild Charge",
+    "Return",
     "Hyper Beam"
   ],
   "Lycanroc (Midday)": [
@@ -4641,6 +4669,7 @@
     "Tackle",
     "Stomp",
     "Bulldoze",
+    "Return",
     "Heat Wave"
   ],
   "Nuzleaf": [
@@ -4707,6 +4736,14 @@
     "Iron Head",
     "Stone Edge",
     "Return"
+  ],
+  "Oranguru": [
+    "Confusion",
+    "Yawn",
+    "Zen Headbutt",
+    "Foul Play",
+    "Psychic",
+    "Future Sight"
   ],
   "Orbeetle": [
     "Confusion",
@@ -5651,6 +5688,21 @@
     "Hydro Pump",
     "Fire Blast"
   ],
+  "Salandit": [
+    "Ember",
+    "Poison Jab",
+    "Poison Fang",
+    "Flamethrower",
+    "Dragon Pulse"
+  ],
+  "Salazzle": [
+    "Incinerate",
+    "Poison Jab",
+    "Poison Fang",
+    "Dragon Pulse",
+    "Sludge Wave",
+    "Fire Blast"
+  ],
   "Samurott": [
     "Fury Cutter",
     "Waterfall",
@@ -5947,7 +5999,8 @@
     "Tackle",
     "Discharge",
     "Swift",
-    "Thunderbolt"
+    "Thunderbolt",
+    "Return"
   ],
   "Shroomish": [
     "Bullet Seed",
@@ -6428,6 +6481,13 @@
     "Wild Charge",
     "Play Rough"
   ],
+  "Stufful": [
+    "Tackle",
+    "Take Down",
+    "Brick Break",
+    "Stomp",
+    "Super Power"
+  ],
   "Stunfisk": [
     "Mud Shot",
     "Thunder Shock",
@@ -6459,7 +6519,8 @@
     "Rock Slide",
     "Stone Edge",
     "Rock Tomb",
-    "Earthquake"
+    "Earthquake",
+    "Return"
   ],
   "Suicune": [
     "Extrasensory",
@@ -6602,6 +6663,22 @@
     "Sludge Bomb",
     "Return",
     "Solar Beam"
+  ],
+  "Tapu Bulu": [
+    "Bullet Seed",
+    "Rock Smash",
+    "Grass Knot",
+    "Megahorn",
+    "Dazzling Gleam",
+    "Solar Beam"
+  ],
+  "Tapu Fini": [
+    "Hidden Power",
+    "Water Gun",
+    "Surf",
+    "Ice Beam",
+    "Moonblast",
+    "Hydro Pump"
   ],
   "Tapu Koko": [
     "Quick Attack",

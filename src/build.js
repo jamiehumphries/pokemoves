@@ -8,6 +8,7 @@ const UglifyJs = require("uglify-js");
 
 const { exclusions } = require("./data/adjustments/exclusions");
 const { movesetChanges } = require("./data/adjustments/moveset-changes");
+const { getEffectivenessStages } = require("./data/type-effectivess");
 const { computeCmp } = require("./helpers/cmp");
 const { setEq } = require("./helpers/collections");
 const {
@@ -301,8 +302,8 @@ env.addFilter("adjustedDamage", (move, pokemon) => {
   return move.damage * stabMultiplier;
 });
 
-env.addFilter("effectivenessSummary", (damage) => {
-  return [-3, -2, -1, 0, 1, 2]
+env.addFilter("effectivenessSummary", (damage, type) => {
+  return getEffectivenessStages(type)
     .map((n) => {
       const arrows = effectivenessArrows(n);
       const multiplier = 1.6 ** n;

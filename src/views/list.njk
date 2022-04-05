@@ -14,8 +14,8 @@
   <img class="type" src="/icons/types/{{ type }}.png" alt="{{ type | capitalize }}-type">
 {%- endmacro %}
 
-{% macro damageSummary(damage) -%}
-  <div class="damage" title="{{ damage | effectivenessSummary }}">
+{% macro damageSummary(damage, type) -%}
+  <div class="damage" title="{{ damage | effectivenessSummary(type) }}">
     <small>
       💥{{ damage | round(1) }}
       {{ caller() }}
@@ -107,7 +107,7 @@
               </small>
             </div>
             {% set damage = (fastMove | adjustedDamage(pokemon)) %}
-            {% call damageSummary(damage) %}
+            {% call damageSummary(damage, fastMove.type) %}
               ({{ (damage / fastMove.turns) | round(2) }} dpt)
             {% endcall %}
           </th>
@@ -128,7 +128,7 @@
               </small>
             </div>
             {% set damage = (chargedMove | adjustedDamage(pokemon)) %}
-            {% call damageSummary(damage) %}
+            {% call damageSummary(damage, chargedMove.type) %}
               ({{ (damage / -chargedMove.energy) | round(2) }} dpe)
             {% endcall %}
           </th>

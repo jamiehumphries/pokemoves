@@ -114,9 +114,9 @@ const cpmsByHalfLevel = [
   0.865299999713897,
 ];
 
-const getCpmForLevel = function (level) {
+function getCpmForLevel(level) {
   return cpmsByHalfLevel[level * 2];
-};
+}
 
 module.exports = {
   getCpmForLevel,

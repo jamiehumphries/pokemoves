@@ -206,12 +206,11 @@
     "Struggle"
   ],
   "Araquanid": [
-    "Bubble",
+    "Bug Bite",
     "Infestation",
-    "Mirror Coat",
     "Bubble Beam",
-    "Crunch",
-    "Lunge"
+    "Mirror Coat",
+    "Bug Buzz"
   ],
   "Arbok": [
     "Acid",
@@ -1596,10 +1595,10 @@
     "Water Pulse"
   ],
   "Dewpider": [
-    "Bubble",
-    "Water Gun",
+    "Bug Bite",
+    "Infestation",
     "Bubble Beam",
-    "Crunch",
+    "Mirror Coat",
     "Water Pulse"
   ],
   "Dialga": [

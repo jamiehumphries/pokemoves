@@ -237,10 +237,10 @@ function getCounts(chargedMove, fastMove) {
 function getSimplifiedMoves(list) {
   return Object.fromEntries(
     list.map(({ name, counts }) => {
-      const moves = [
-        ...counts[0].fastMoves.map((f) => f.name),
-        ...counts.map((c) => c.chargedMove.name),
-      ];
+      const moves = {
+        fastMoves: counts[0].fastMoves.map((f) => f.name),
+        chargedMoves: counts.map((c) => c.chargedMove.name),
+      };
       return [name, moves];
     })
   );

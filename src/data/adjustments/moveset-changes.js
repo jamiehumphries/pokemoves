@@ -21,6 +21,12 @@ module.exports = {
       },
     },
     {
+      pokemonName: "Exeggutor (Alolan)",
+      chargedMoveIds: {
+        add: ["DRACO_METEOR"],
+      },
+    },
+    {
       pokemonName: "Gastrodon",
       chargedMoveIds: {
         add: ["EARTHQUAKE"],

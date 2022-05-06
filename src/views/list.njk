@@ -57,7 +57,7 @@
   </div>
   <script src="{{ resources['/js/theme.js'] }}"></script>
   <input id="search" type="text" placeholder="Search"  style="visibility: hidden;" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
-  {% for pokemon in list %}
+  {% for pokemon in data.pokemon %}
     {% set isMew = pokemon.name === "Mew" %}
     <h2 data-name="{{ pokemon.name | lower }}">
       {{ pokemon.name }}{{ "*" if isMew }}
@@ -93,7 +93,8 @@
             {{ typeIcon(type) }} {{ "/" if not loop.last }}
           {% endfor %}
         </th>
-        {% for fastMove in pokemon.counts[0].fastMoves %}
+        {% for fastMoveId in pokemon.fastMoveIds %}
+          {% set fastMove = data.moves[fastMoveId] %}
           {% set type = "hidden" if fastMove.name === "Hidden Power" else fastMove.type %}
           <th class="{{ type }}">
             <div>
@@ -113,8 +114,8 @@
           </th>
         {% endfor %}
       </tr>
-      {% for row in pokemon.counts %}
-        {% set chargedMove = row.chargedMove %}
+      {% for chargedMoveId in pokemon.chargedMoveIds %}
+        {% set chargedMove = data.moves[chargedMoveId] %}
         {% set type = chargedMove.type %}
         <tr class="{{ type }}">
           <th>
@@ -132,11 +133,13 @@
               ({{ (damage / -chargedMove.energy) | round(2) }} dpe)
             {% endcall %}
           </th>
-          {% for fastMove in row.fastMoves %}
+          {% for fastMoveId in pokemon.fastMoveIds %}
+            {% set fastMove = data.moves[fastMoveId] %}
+            {% set counts = data.counts[fastMoveId][chargedMoveId] %}
             <td>
-              {% set firstCount = (fastMove.counts | first) %}
+              {% set firstCount = (counts | first) %}
               <div>
-                {% for count in fastMove.counts %}
+                {% for count in counts %}
                   {% if count === firstCount %}
                     {{ count }}
                   {%- else %}

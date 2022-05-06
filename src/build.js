@@ -28,10 +28,9 @@ const views = join(__dirname, "views");
 const env = nunjucks.configure(views);
 
 function build() {
-  const list = buildList();
-  const moves = getSimplifiedMoves(list);
-  const json = JSON.stringify(moves, null, 2);
-  fs.writeFileSync(join(root, "moves.json"), json);
+  const data = buildData();
+  const json = JSON.stringify(data, null, 2);
+  fs.writeFileSync(join(root, "data.json"), json);
 
   const css = buildCss();
   const js = buildJs();
@@ -41,38 +40,44 @@ function build() {
     ...writeCacheBustedFiles("js", js),
   };
 
-  const html = buildHtml(list, resources);
+  const html = buildHtml(data, resources);
   fs.writeFileSync(join(root, "index.html"), html);
 
   console.log();
   console.log("Build complete.");
 }
 
-function buildList() {
+function buildData() {
+  const moves = Object.fromEntries(
+    getTemplates("combatMove")
+      .map(buildMoveEntry)
+      .sort(([m1], [m2]) => m1.localeCompare(m2))
+  );
   const pokemon = getTemplates("pokemonSettings").flatMap(buildPokemon);
-  const moves = getTemplates("combatMove").map(buildMove);
-  const getMove = (id) => moves.find((m) => m.id === id);
   const deduplicatedPokemon = deduplicate(pokemon);
   applyMovesetChanges(deduplicatedPokemon);
-  return deduplicatedPokemon
+  const list = deduplicatedPokemon
     .filter(({ name }) => !exclusions.includes(name))
     .filter(({ fastMoveIds }) => !fastMoveIds.includes("STRUGGLE"))
     .map(({ name, types, fastMoveIds, chargedMoveIds, stats }) => {
-      const fastMoves = fastMoveIds
-        .map(getMove)
-        .sort((m1, m2) => m1.name.localeCompare(m2.name));
-      const chargedMoves = chargedMoveIds
-        .map(getMove)
-        .sort(
-          (m1, m2) => m2.energy - m1.energy || m1.name.localeCompare(m2.name)
+      fastMoveIds.sort((m1, m2) => {
+        const move1 = moves[m1];
+        const move2 = moves[m2];
+        return move1.name.localeCompare(move2.name);
+      });
+      chargedMoveIds.sort((m1, m2) => {
+        const move1 = moves[m1];
+        const move2 = moves[m2];
+        return (
+          move2.energy - move1.energy || move1.name.localeCompare(move2.name)
         );
-      const counts = chargedMoves.map((chargedMove) =>
-        buildCounts(chargedMove, fastMoves)
-      );
+      });
       const cmp = computeCmp(stats);
-      return { name, types, counts, cmp };
+      return { name, types, fastMoveIds, chargedMoveIds, cmp };
     })
     .sort((p1, p2) => p1.name.localeCompare(p2.name));
+  const counts = buildCounts(pokemon, moves);
+  return { pokemon: list, moves, counts };
 }
 
 function getTemplates(property) {
@@ -101,15 +106,16 @@ function buildPokemon(template) {
   ];
 }
 
-function buildMove(template) {
-  return {
-    id: template.uniqueId,
+function buildMoveEntry(template) {
+  const id = template.uniqueId;
+  const move = {
     name: getMoveName(template),
     type: getTypes(template)[0],
     energy: getMoveEnergy(template),
     damage: getMoveDamage(template),
     turns: getMoveTurns(template),
   };
+  return [id, move];
 }
 
 function deduplicate(pokemon) {
@@ -157,16 +163,24 @@ function applyMovesetChanges(deduplicatedPokemon) {
   }
 }
 
-function buildCounts(chargedMove, fastMoves) {
-  return {
-    chargedMove,
-    fastMoves: fastMoves.map((fastMove) => {
-      return {
-        ...fastMove,
-        counts: getCounts(chargedMove, fastMove),
-      };
-    }),
-  };
+function buildCounts(pokemon, moves) {
+  const counts = {};
+  for (const p of pokemon) {
+    for (const fastMoveId of p.fastMoveIds) {
+      const fastMove = moves[fastMoveId];
+      if (!counts[fastMoveId]) {
+        counts[fastMoveId] = {};
+      }
+      for (const chargedMoveId of p.chargedMoveIds) {
+        if (counts[fastMoveId][chargedMoveId]) {
+          continue;
+        }
+        const chargedMove = moves[chargedMoveId];
+        counts[fastMoveId][chargedMoveId] = getCounts(fastMove, chargedMove);
+      }
+    }
+  }
+  return counts;
 }
 
 function getPokemonFastMoveIds(template) {
@@ -221,7 +235,7 @@ function getMoveTurns(template) {
   return (template.durationTurns || 0) + 1;
 }
 
-function getCounts(chargedMove, fastMove) {
+function getCounts(fastMove, chargedMove) {
   const cost = -chargedMove.energy;
   const gain = fastMove.energy;
   const counts = [];
@@ -232,18 +246,6 @@ function getCounts(chargedMove, fastMove) {
     energy += count * gain - cost;
   }
   return counts;
-}
-
-function getSimplifiedMoves(list) {
-  return Object.fromEntries(
-    list.map(({ name, counts }) => {
-      const moves = {
-        fastMoves: counts[0].fastMoves.map((f) => f.name),
-        chargedMoves: counts.map((c) => c.chargedMove.name),
-      };
-      return [name, moves];
-    })
-  );
 }
 
 function buildCss() {
@@ -283,9 +285,9 @@ function writeCacheBustedFiles(destDirName, files) {
   return fileMap;
 }
 
-function buildHtml(list, resources) {
+function buildHtml(data, resources) {
   const lastUpdated = new Date(timestamp).toUTCString();
-  const html = nunjucks.render("list.njk", { list, lastUpdated, resources });
+  const html = nunjucks.render("list.njk", { data, resources, lastUpdated });
   return minify(html, {
     collapseWhitespace: true,
     removeAttributeQuotes: true,

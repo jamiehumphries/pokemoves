@@ -87,6 +87,30 @@ module.exports = {
       },
     },
     {
+      pokemonName: "Latias",
+      chargedMoveIds: {
+        add: ["MIST_BALL"],
+      },
+    },
+    {
+      pokemonName: "Latias (Mega)",
+      chargedMoveIds: {
+        add: ["MIST_BALL"],
+      },
+    },
+    {
+      pokemonName: "Latios",
+      chargedMoveIds: {
+        add: ["LUSTER_PURGE"],
+      },
+    },
+    {
+      pokemonName: "Latios (Mega)",
+      chargedMoveIds: {
+        add: ["LUSTER_PURGE"],
+      },
+    },
+    {
       pokemonName: "Lileep",
       fastMoveIds: {
         add: ["BULLET_SEED_FAST"],

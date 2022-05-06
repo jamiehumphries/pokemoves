@@ -14767,6 +14767,43 @@
       }
     },
     {
+      "name": "Kangaskhan (Mega)",
+      "types": [
+        "normal"
+      ],
+      "fastMoveIds": [
+        "LOW_KICK_FAST",
+        "MUD_SLAP_FAST"
+      ],
+      "chargedMoveIds": [
+        "BRICK_BREAK",
+        "POWER_UP_PUNCH",
+        "STOMP",
+        "CRUNCH",
+        "OUTRAGE",
+        "EARTHQUAKE",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 73.43322068452821,
+          "max": 75.75521975755677
+        },
+        "great": {
+          "rankOne": 125.14063220822203,
+          "max": 132.7711585623819
+        },
+        "ultra": {
+          "rankOne": 161.64560174942014,
+          "max": 170.80770063400266
+        },
+        "master": {
+          "rankOne": 220.62330490350723,
+          "max": 220.62330490350723
+        }
+      }
+    },
+    {
       "name": "Karrablast",
       "types": [
         "bug"
@@ -15816,6 +15853,7 @@
       ],
       "chargedMoveIds": [
         "PSYCHIC",
+        "MIST_BALL",
         "OUTRAGE",
         "THUNDER",
         "RETURN"
@@ -15840,6 +15878,43 @@
       }
     },
     {
+      "name": "Latias (Mega)",
+      "types": [
+        "dragon",
+        "psychic"
+      ],
+      "fastMoveIds": [
+        "CHARM_FAST",
+        "DRAGON_BREATH_FAST",
+        "ZEN_HEADBUTT_FAST"
+      ],
+      "chargedMoveIds": [
+        "PSYCHIC",
+        "MIST_BALL",
+        "OUTRAGE",
+        "THUNDER",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 77.73889493942245,
+          "max": 77.73889493942245
+        },
+        "great": {
+          "rankOne": 131.38738662287565,
+          "max": 137.73022597708345
+        },
+        "ultra": {
+          "rankOne": 170.02544093131996,
+          "max": 178.14614941713614
+        },
+        "master": {
+          "rankOne": 256.97120571136475,
+          "max": 256.97120571136475
+        }
+      }
+    },
+    {
       "name": "Latios",
       "types": [
         "dragon",
@@ -15852,6 +15927,8 @@
       "chargedMoveIds": [
         "DRAGON_CLAW",
         "PSYCHIC",
+        "LUSTER_PURGE",
+        "RETURN",
         "SOLAR_BEAM"
       ],
       "cmp": {
@@ -15870,6 +15947,42 @@
         "master": {
           "rankOne": 239.21990531682968,
           "max": 239.21990531682968
+        }
+      }
+    },
+    {
+      "name": "Latios (Mega)",
+      "types": [
+        "dragon",
+        "psychic"
+      ],
+      "fastMoveIds": [
+        "DRAGON_BREATH_FAST",
+        "ZEN_HEADBUTT_FAST"
+      ],
+      "chargedMoveIds": [
+        "DRAGON_CLAW",
+        "PSYCHIC",
+        "LUSTER_PURGE",
+        "RETURN",
+        "SOLAR_BEAM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 85.6662164628504,
+          "max": 89.50201719999296
+        },
+        "great": {
+          "rankOne": 148.44102770090103,
+          "max": 155.0876408815384
+        },
+        "ultra": {
+          "rankOne": 192.48066459315342,
+          "max": 201.09920181374238
+        },
+        "master": {
+          "rankOne": 295.8550065755844,
+          "max": 295.8550065755844
         }
       }
     },
@@ -33980,6 +34093,12 @@
       "energy": -45,
       "damage": 60
     },
+    "LUSTER_PURGE": {
+      "name": "Luster Purge",
+      "type": "psychic",
+      "energy": -60,
+      "damage": 120
+    },
     "MAGICAL_LEAF_FAST": {
       "name": "Magical Leaf",
       "type": "grass",
@@ -34029,6 +34148,12 @@
       "type": "steel",
       "energy": -35,
       "damage": 35
+    },
+    "MIST_BALL": {
+      "name": "Mist Ball",
+      "type": "psychic",
+      "energy": -60,
+      "damage": 120
     },
     "MOONBLAST": {
       "name": "Moonblast",
@@ -36960,7 +37085,19 @@
         18,
         19
       ],
+      "MIST_BALL": [
+        20,
+        20,
+        20,
+        20
+      ],
       "THUNDER": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "LUSTER_PURGE": [
         20,
         20,
         20,
@@ -42748,6 +42885,12 @@
         8,
         7
       ],
+      "MIST_BALL": [
+        10,
+        10,
+        10,
+        10
+      ],
       "OUTRAGE": [
         10,
         10,
@@ -45786,6 +45929,12 @@
         11,
         12
       ],
+      "MIST_BALL": [
+        10,
+        10,
+        10,
+        10
+      ],
       "THUNDER": [
         10,
         10,
@@ -45797,6 +45946,12 @@
         6,
         6,
         6
+      ],
+      "LUSTER_PURGE": [
+        10,
+        10,
+        10,
+        10
       ],
       "PSYCHO_BOOST": [
         6,

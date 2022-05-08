@@ -24,9 +24,10 @@
       const { top } = el.getBoundingClientRect();
       if (top > THRESHOLD_PIXELS) {
         window.scrollBy(0, top);
-        break;
+        return;
       }
     }
+    window.scrollTo(0, document.body.scrollHeight);
   }
 
   function previous() {
@@ -34,8 +35,9 @@
       const { top } = el.getBoundingClientRect();
       if (top < -THRESHOLD_PIXELS) {
         window.scrollBy(0, top);
-        break;
+        return;
       }
     }
+    window.scrollTo(0, 0);
   }
 })();

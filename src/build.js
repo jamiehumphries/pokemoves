@@ -48,11 +48,7 @@ function build() {
 }
 
 function buildData() {
-  const moves = Object.fromEntries(
-    getTemplates("combatMove")
-      .map(buildMoveEntry)
-      .sort(([m1], [m2]) => m1.localeCompare(m2))
-  );
+  const moves = fromEntries(getTemplates("combatMove").map(buildMoveEntry));
   const pokemon = getTemplates("pokemonSettings").flatMap(buildPokemon);
   const deduplicatedPokemon = deduplicate(pokemon);
   applyMovesetChanges(deduplicatedPokemon);
@@ -180,7 +176,12 @@ function buildCounts(pokemon, moves) {
       }
     }
   }
-  return counts;
+  return fromEntries(
+    Object.entries(counts).map(([key, value]) => [
+      key,
+      fromEntries(Object.entries(value)),
+    ])
+  );
 }
 
 function getPokemonFastMoveIds(template) {
@@ -293,6 +294,10 @@ function buildHtml(data, resources) {
     removeAttributeQuotes: true,
     removeOptionalTags: true,
   });
+}
+
+function fromEntries(entries) {
+  return Object.fromEntries(entries.sort(([m1], [m2]) => m1.localeCompare(m2)));
 }
 
 env.addFilter("fixed", (number, digits) => {

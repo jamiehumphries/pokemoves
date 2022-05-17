@@ -14,8 +14,12 @@ jobs:
           node-version: 16
       - name: Install Node dependencies
         run: npm ci
+      - name: Set change tracking checkpoint
+        run: test -f tracking/checkpoint || mkdir tracking && git rev-parse HEAD > tracking/checkpoint
       - name: Update data from Game Master
         run: npm run update
+      - name: Track changes
+        run: "cat tracking/checkpoint | xargs -I {} git diff {}:docs/data.json docs/data.json > tracking/changes.diff"
       - name: Commit changes
         run: |
           git config --global user.name "Pokémoves Bot"

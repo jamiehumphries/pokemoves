@@ -9,13 +9,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
           node-version: 16
       - name: Install Node dependencies
         run: npm ci
       - name: Set change tracking checkpoint
-        run: test -f tracking/checkpoint || mkdir tracking && git rev-parse HEAD > tracking/checkpoint
+        run: test -f tracking/checkpoint || (mkdir tracking && git rev-parse HEAD > tracking/checkpoint)
       - name: Update data from Game Master
         run: npm run update
       - name: Track changes

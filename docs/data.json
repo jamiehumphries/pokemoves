@@ -11626,6 +11626,7 @@
       ],
       "fastMoveIds": [
         "ROCK_THROW_FAST",
+        "ROLLOUT_FAST",
         "VOLT_SWITCH_FAST"
       ],
       "chargedMoveIds": [
@@ -34438,6 +34439,13 @@
       "energy": -50,
       "damage": 110
     },
+    "ROLLOUT_FAST": {
+      "name": "Rollout",
+      "type": "rock",
+      "energy": 14,
+      "damage": 4,
+      "turns": 3
+    },
     "SACRED_FIRE": {
       "name": "Sacred Fire",
       "type": "fire",
@@ -47576,6 +47584,32 @@
         16,
         16,
         16
+      ]
+    },
+    "ROLLOUT_FAST": {
+      "RETURN": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "ROCK_BLAST": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "STONE_EDGE": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "WILD_CHARGE": [
+        4,
+        3,
+        3,
+        3
       ]
     },
     "SCRATCH_FAST": {

@@ -57,6 +57,12 @@ module.exports = {
       },
     },
     {
+      pokemonName: "Golem (Alolan)",
+      fastMoveIds: {
+        add: ["ROLLOUT_FAST"],
+      },
+    },
+    {
       pokemonName: "Graveler",
       fastMoveIds: {
         add: ["MUD_SHOT_FAST"],

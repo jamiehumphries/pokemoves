@@ -5,13 +5,13 @@
   "private": true,
   "scripts": {
     "build": "node src/build.js",
-    "start": "static docs",
+    "start": "ws --directory docs",
     "update": "node src/data/update.js && npm run build"
   },
   "author": "Jamie Humphries",
   "license": "ISC",
   "dependencies": {
-    "node-static": "0.7.11"
+    "local-web-server": "5.2.0"
   },
   "devDependencies": {
     "eslint": "8.15.0",

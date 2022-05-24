@@ -29,7 +29,7 @@ const env = nunjucks.configure(views);
 
 function build() {
   const data = buildData();
-  const json = JSON.stringify(data, null, 2);
+  const json = JSON.stringify({ timestamp, ...data }, null, 2);
   fs.writeFileSync(join(root, "data.json"), json);
 
   const css = buildCss();

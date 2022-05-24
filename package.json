@@ -5,8 +5,9 @@
   "private": true,
   "scripts": {
     "build": "node src/build.js",
+    "install": "node src/data/update.js",
     "start": "ws --directory docs",
-    "update": "node src/data/update.js && npm run build"
+    "update": "npm run install && npm run build"
   },
   "author": "Jamie Humphries",
   "license": "ISC",

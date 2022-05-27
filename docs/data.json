@@ -1,5 +1,5 @@
 {
-  "timestamp": 1653443711714,
+  "timestamp": 1653609017446,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -19918,6 +19918,41 @@
       }
     },
     {
+      "name": "Nihilego",
+      "types": [
+        "rock",
+        "poison"
+      ],
+      "fastMoveIds": [
+        "ACID_FAST",
+        "POUND_FAST"
+      ],
+      "chargedMoveIds": [
+        "ROCK_SLIDE",
+        "SLUDGE_BOMB",
+        "POWER_GEM",
+        "GUNK_SHOT"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 72.27222114801393,
+          "max": 76.62596940994248
+        },
+        "great": {
+          "rankOne": 124.9646097421645,
+          "max": 131.96262788772572
+        },
+        "ultra": {
+          "rankOne": 161.24765986211236,
+          "max": 170.9613743116372
+        },
+        "master": {
+          "rankOne": 223.15920495986938,
+          "max": 223.15920495986938
+        }
+      }
+    },
+    {
       "name": "Nincada",
       "types": [
         "bug",
@@ -25693,6 +25728,7 @@
       "chargedMoveIds": [
         "GRASS_KNOT",
         "ENERGY_BALL",
+        "SEED_FLARE",
         "SOLAR_BEAM"
       ],
       "cmp": {
@@ -25727,6 +25763,7 @@
       "chargedMoveIds": [
         "GRASS_KNOT",
         "ENERGY_BALL",
+        "SEED_FLARE",
         "SOLAR_BEAM"
       ],
       "cmp": {
@@ -34502,6 +34539,12 @@
       "energy": -40,
       "damage": 55
     },
+    "SEED_FLARE": {
+      "name": "Seed Flare",
+      "type": "grass",
+      "energy": -75,
+      "damage": 130
+    },
     "SHADOW_BALL": {
       "name": "Shadow Ball",
       "type": "ghost",
@@ -35064,6 +35107,12 @@
         7,
         7
       ],
+      "POWER_GEM": [
+        12,
+        12,
+        12,
+        12
+      ],
       "POWER_UP_PUNCH": [
         7,
         7,
@@ -35081,6 +35130,12 @@
         14,
         14,
         14
+      ],
+      "ROCK_SLIDE": [
+        9,
+        9,
+        9,
+        9
       ],
       "SEED_BOMB": [
         8,
@@ -41622,6 +41677,12 @@
         5,
         5
       ],
+      "SEED_FLARE": [
+        10,
+        9,
+        10,
+        9
+      ],
       "SHADOW_BALL": [
         7,
         7,
@@ -45670,6 +45731,12 @@
         15,
         15
       ],
+      "POWER_GEM": [
+        15,
+        15,
+        15,
+        15
+      ],
       "PSYBEAM": [
         15,
         15,
@@ -45693,6 +45760,12 @@
         17,
         18,
         17
+      ],
+      "ROCK_SLIDE": [
+        12,
+        11,
+        11,
+        11
       ],
       "ROCK_TOMB": [
         15,
@@ -45729,6 +45802,12 @@
         10,
         10,
         10
+      ],
+      "SLUDGE_BOMB": [
+        13,
+        12,
+        13,
+        12
       ],
       "STOMP": [
         10,
@@ -52827,6 +52906,12 @@
         7,
         6,
         7
+      ],
+      "SEED_FLARE": [
+        13,
+        12,
+        13,
+        12
       ],
       "SHADOW_BALL": [
         10,

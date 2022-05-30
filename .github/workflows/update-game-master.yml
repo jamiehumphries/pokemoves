@@ -2,7 +2,7 @@ name: update-game-master
 
 on:
   schedule:
-    - cron: "51 1 * * *"
+    - cron: 51 1 * * *
 
 jobs:
   update:
@@ -21,7 +21,7 @@ jobs:
       - name: Update data from Game Master
         run: npm run build
       - name: Track changes
-        run: "cat tracking/checkpoint | xargs -I {} git diff {}:docs/data.json docs/data.json > tracking/changes.diff"
+        run: cat tracking/checkpoint | xargs -I {} git diff -U20 {}:docs/data.json docs/data.json > tracking/changes.diff
       - name: Commit changes
         run: |
           git config --global user.name "Pokémoves Bot"

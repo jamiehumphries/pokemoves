@@ -6,6 +6,7 @@
   "scripts": {
     "build": "node src/build.js",
     "install": "node src/data/update.js",
+    "lint": "eslint . && prettier --write .",
     "start": "ws --directory docs",
     "update": "npm run install && npm run build"
   },

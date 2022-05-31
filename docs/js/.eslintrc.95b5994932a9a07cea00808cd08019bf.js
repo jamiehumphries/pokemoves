@@ -1,0 +1,1 @@
+module.exports={env:{browser:!0,es2022:!0,node:!1},extends:["eslint:recommended","prettier"],rules:{}};

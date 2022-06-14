@@ -49,12 +49,13 @@ function build() {
 
 function buildData() {
   const moves = fromEntries(getTemplates("combatMove").map(buildMoveEntry));
-  const pokemon = getTemplates("pokemonSettings").flatMap(buildPokemon);
+  const pokemon = getTemplates("pokemonSettings").flatMap((t) =>
+    buildPokemon(t, moves)
+  );
   const deduplicatedPokemon = deduplicate(pokemon);
   applyMovesetChanges(deduplicatedPokemon);
   const list = deduplicatedPokemon
     .filter(({ name }) => !exclusions.includes(name))
-    .filter(({ fastMoveIds }) => !fastMoveIds.includes("STRUGGLE"))
     .map(({ name, types, fastMoveIds, chargedMoveIds, stats }) => {
       fastMoveIds.sort((m1, m2) => {
         const move1 = moves[m1];
@@ -80,16 +81,21 @@ function getTemplates(property) {
   return gameMaster.map(({ data }) => data[property]).filter((t) => !!t);
 }
 
-function buildPokemon(template) {
+function buildPokemon(template, moves) {
   const basePokemon = {
     id: template.pokemonId,
     name: getPokemonName(template),
     types: getTypes(template),
-    fastMoveIds: getPokemonFastMoveIds(template),
-    chargedMoveIds: getPokemonChargedMoveIds(template),
+    fastMoveIds: getPokemonFastMoveIds(template).filter((id) => {
+      return !!moves[id] && id.endsWith("_FAST");
+    }),
+    chargedMoveIds: getPokemonChargedMoveIds(template).filter((id) => {
+      return !!moves[id] && !id.endsWith("_FAST");
+    }),
     stats: template.stats,
   };
-  const tempEvoTemplates = template.tempEvoOverrides || [];
+  const tempEvoTemplates =
+    template.tempEvoOverrides?.filter((t) => !!t.tempEvoId) || [];
   return [
     basePokemon,
     ...tempEvoTemplates.map((tempEvoTemplate) => {

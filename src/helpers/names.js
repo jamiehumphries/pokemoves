@@ -12,6 +12,7 @@ const specialPokemonBaseNames = {
   NIDORAN_MALE: "Nidoran♂",
   PORYGON_Z: "Porygon-Z",
   SIRFETCHD: "Sirfetch’d",
+  TYPE_NULL: "Type: Null",
 };
 
 const specialPokemonFormNames = {
@@ -20,6 +21,7 @@ const specialPokemonFormNames = {
   GOURGEIST_LARGE: "Large Size",
   GOURGEIST_SUPER: "Super Size",
   MEWTWO_A: "Armoured",
+  MINIOR_BLUE: "Core",
   ORICORIO_PAU: "Pa’u",
   ORICORIO_POMPOM: "Pom-Pom",
   PIKACHU_FLYING_5TH_ANNIV: "Flying",
@@ -43,8 +45,10 @@ const defaultPokemonFormNames = {
   ORICORIO: "Baile",
   PUMPKABOO: "Small Size",
   SHAYMIN: "Land",
+  SILVALLY: "Normal",
   TORNADUS: "Incarnate",
   THUNDURUS: "Incarnate",
+  WISHIWASHI: "Solo",
 };
 
 const specialMoveNames = {

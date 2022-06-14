@@ -19810,7 +19810,7 @@
       }
     },
     {
-      "name": "Minior (Blue)",
+      "name": "Minior (Core)",
       "types": [
         "rock",
         "flying"
@@ -27562,41 +27562,6 @@
       }
     },
     {
-      "name": "Silvally",
-      "types": [
-        "normal"
-      ],
-      "fastMoveIds": [
-        "BITE_FAST",
-        "TACKLE_FAST",
-        "TAKE_DOWN_FAST"
-      ],
-      "chargedMoveIds": [
-        "X_SCISSOR",
-        "AERIAL_ACE",
-        "IRON_HEAD",
-        "TRI_ATTACK"
-      ],
-      "cmp": {
-        "little": {
-          "rankOne": 67.42445149131048,
-          "max": 71.4497918788514
-        },
-        "great": {
-          "rankOne": 116.4557814598082,
-          "max": 124.02540725469572
-        },
-        "ultra": {
-          "rankOne": 149.6257306337356,
-          "max": 160.3312994301399
-        },
-        "master": {
-          "rankOne": 180.0489040017128,
-          "max": 180.0489040017128
-        }
-      }
-    },
-    {
       "name": "Silvally (Bug)",
       "types": [
         "bug"
@@ -27985,6 +27950,41 @@
       "name": "Silvally (Ice)",
       "types": [
         "ice"
+      ],
+      "fastMoveIds": [
+        "BITE_FAST",
+        "TACKLE_FAST",
+        "TAKE_DOWN_FAST"
+      ],
+      "chargedMoveIds": [
+        "X_SCISSOR",
+        "AERIAL_ACE",
+        "IRON_HEAD",
+        "TRI_ATTACK"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 67.42445149131048,
+          "max": 71.4497918788514
+        },
+        "great": {
+          "rankOne": 116.4557814598082,
+          "max": 124.02540725469572
+        },
+        "ultra": {
+          "rankOne": 149.6257306337356,
+          "max": 160.3312994301399
+        },
+        "master": {
+          "rankOne": 180.0489040017128,
+          "max": 180.0489040017128
+        }
+      }
+    },
+    {
+      "name": "Silvally (Normal)",
+      "types": [
+        "normal"
       ],
       "fastMoveIds": [
         "BITE_FAST",
@@ -32553,7 +32553,7 @@
       }
     },
     {
-      "name": "Type Null",
+      "name": "Type: Null",
       "types": [
         "normal"
       ],
@@ -34492,40 +34492,6 @@
       }
     },
     {
-      "name": "Wishiwashi",
-      "types": [
-        "water"
-      ],
-      "fastMoveIds": [
-        "IRON_TAIL_FAST",
-        "WATER_GUN_FAST",
-        "WATERFALL_FAST"
-      ],
-      "chargedMoveIds": [
-        "AQUA_TAIL",
-        "SURF",
-        "BRINE"
-      ],
-      "cmp": {
-        "little": {
-          "rankOne": 51.563301146030426,
-          "max": 51.563301146030426
-        },
-        "great": {
-          "rankOne": 51.563301146030426,
-          "max": 51.563301146030426
-        },
-        "ultra": {
-          "rankOne": 51.563301146030426,
-          "max": 51.563301146030426
-        },
-        "master": {
-          "rankOne": 51.563301146030426,
-          "max": 51.563301146030426
-        }
-      }
-    },
-    {
       "name": "Wishiwashi (School)",
       "types": [
         "water"
@@ -34556,6 +34522,40 @@
         "master": {
           "rankOne": 228.2310050725937,
           "max": 228.2310050725937
+        }
+      }
+    },
+    {
+      "name": "Wishiwashi (Solo)",
+      "types": [
+        "water"
+      ],
+      "fastMoveIds": [
+        "IRON_TAIL_FAST",
+        "WATER_GUN_FAST",
+        "WATERFALL_FAST"
+      ],
+      "chargedMoveIds": [
+        "AQUA_TAIL",
+        "SURF",
+        "BRINE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 51.563301146030426,
+          "max": 51.563301146030426
+        },
+        "great": {
+          "rankOne": 51.563301146030426,
+          "max": 51.563301146030426
+        },
+        "ultra": {
+          "rankOne": 51.563301146030426,
+          "max": 51.563301146030426
+        },
+        "master": {
+          "rankOne": 51.563301146030426,
+          "max": 51.563301146030426
         }
       }
     },

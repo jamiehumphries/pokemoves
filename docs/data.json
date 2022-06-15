@@ -1,5 +1,5 @@
 {
-  "timestamp": 1655156991094,
+  "timestamp": 1655253201067,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -6088,6 +6088,7 @@
         "ice"
       ],
       "fastMoveIds": [
+        "BUBBLE_FAST",
         "ROCK_SMASH_FAST"
       ],
       "chargedMoveIds": [
@@ -6121,6 +6122,7 @@
         "fighting"
       ],
       "fastMoveIds": [
+        "BUBBLE_FAST",
         "ROCK_SMASH_FAST"
       ],
       "chargedMoveIds": [
@@ -17593,7 +17595,9 @@
         "rock"
       ],
       "fastMoveIds": [
-        "ROCK_THROW_FAST"
+        "COUNTER_FAST",
+        "ROCK_THROW_FAST",
+        "SUCKER_PUNCH_FAST"
       ],
       "chargedMoveIds": [
         "CRUNCH",
@@ -38959,6 +38963,12 @@
         4,
         4
       ],
+      "PAYBACK": [
+        6,
+        5,
+        6,
+        5
+      ],
       "PLAY_ROUGH": [
         6,
         5,
@@ -41096,6 +41106,12 @@
         6,
         6,
         5
+      ],
+      "IRON_HEAD": [
+        8,
+        7,
+        7,
+        7
       ],
       "LEAF_BLADE": [
         5,
@@ -52440,6 +52456,12 @@
         6,
         7,
         6
+      ],
+      "IRON_HEAD": [
+        8,
+        7,
+        7,
+        7
       ],
       "MUD_BOMB": [
         6,

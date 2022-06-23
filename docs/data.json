@@ -1,5 +1,5 @@
 {
-  "timestamp": 1655860956797,
+  "timestamp": 1655937174441,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -35945,6 +35945,12 @@
       "type": "water",
       "energy": -50,
       "damage": 60
+    },
+    "BRUTAL_SWING": {
+      "name": "Brutal Swing",
+      "type": "dark",
+      "energy": -40,
+      "damage": 65
     },
     "BUBBLE_BEAM": {
       "name": "Bubble Beam",

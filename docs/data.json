@@ -14426,6 +14426,7 @@
         "DRAGON_BREATH_FAST"
       ],
       "chargedMoveIds": [
+        "BRUTAL_SWING",
         "DARK_PULSE",
         "DRAGON_PULSE",
         "FLASH_CANNON"
@@ -38403,6 +38404,12 @@
         18,
         17
       ],
+      "BRUTAL_SWING": [
+        20,
+        20,
+        20,
+        20
+      ],
       "BULLDOZE": [
         30,
         30,
@@ -41386,6 +41393,12 @@
         17,
         16,
         17
+      ],
+      "BRUTAL_SWING": [
+        14,
+        13,
+        13,
+        14
       ],
       "BUG_BUZZ": [
         20,

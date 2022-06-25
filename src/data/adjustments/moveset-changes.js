@@ -69,6 +69,12 @@ module.exports = {
       },
     },
     {
+      pokemonName: "Hydreigon",
+      chargedMoveIds: {
+        add: ["BRUTAL_SWING"],
+      },
+    },
+    {
       pokemonName: "Kirlia",
       chargedMoveIds: {
         add: ["DRAINING_KISS"],

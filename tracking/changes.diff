@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 510c3e1..3eb4889 100644
+index 510c3e1..5be638c 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1656096102199,
-+  "timestamp": 1656542007211,
++  "timestamp": 1656696958553,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,3 +26,351 @@ index 510c3e1..3eb4889 100644
        ],
        "cmp": {
          "little": {
+@@ -631,41 +631,42 @@
+         },
+         "master": {
+           "rankOne": 185.9660041332245,
+           "max": 185.9660041332245
+         }
+       }
+     },
+     {
+       "name": "Amoonguss",
+       "types": [
+         "grass",
+         "poison"
+       ],
+       "fastMoveIds": [
+         "ASTONISH_FAST",
+         "FEINT_ATTACK_FAST"
+       ],
+       "chargedMoveIds": [
+         "FOUL_PLAY",
+         "GRASS_KNOT",
+-        "SLUDGE_BOMB"
++        "SLUDGE_BOMB",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 61.93292781710622,
+           "max": 67.12730240821836
+         },
+         "great": {
+           "rankOne": 107.59226620197288,
+           "max": 116.90643400092107
+         },
+         "ultra": {
+           "rankOne": 143.70100319385529,
+           "max": 143.70100319385529
+         },
+         "master": {
+           "rankOne": 143.70100319385529,
+           "max": 143.70100319385529
+         }
+       }
+     },
+@@ -8398,41 +8399,42 @@
+         },
+         "master": {
+           "rankOne": 147.08220326900482,
+           "max": 147.08220326900482
+         }
+       }
+     },
+     {
+       "name": "Ducklett",
+       "types": [
+         "water",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "WATER_GUN_FAST",
+         "WING_ATTACK_FAST"
+       ],
+       "chargedMoveIds": [
+         "BUBBLE_BEAM",
+         "AERIAL_ACE",
+-        "BRAVE_BIRD"
++        "BRAVE_BIRD",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 54.97259330749511,
+           "max": 63.4246425032615
+         },
+         "great": {
+           "rankOne": 83.68470185995102,
+           "max": 83.68470185995102
+         },
+         "ultra": {
+           "rankOne": 83.68470185995102,
+           "max": 83.68470185995102
+         },
+         "master": {
+           "rankOne": 83.68470185995102,
+           "max": 83.68470185995102
+         }
+       }
+     },
+@@ -10492,41 +10494,42 @@
+         },
+         "master": {
+           "rankOne": 97.20950216054916,
+           "max": 97.20950216054916
+         }
+       }
+     },
+     {
+       "name": "Foongus",
+       "types": [
+         "grass",
+         "poison"
+       ],
+       "fastMoveIds": [
+         "ASTONISH_FAST",
+         "FEINT_ATTACK_FAST"
+       ],
+       "chargedMoveIds": [
+         "BODY_SLAM",
+         "GRASS_KNOT",
+-        "ENERGY_BALL"
++        "ENERGY_BALL",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 59.27271843520315,
+           "max": 66.90880107879633
+         },
+         "great": {
+           "rankOne": 94.67360210418701,
+           "max": 94.67360210418701
+         },
+         "ultra": {
+           "rankOne": 94.67360210418701,
+           "max": 94.67360210418701
+         },
+         "master": {
+           "rankOne": 94.67360210418701,
+           "max": 94.67360210418701
+         }
+       }
+     },
+@@ -16769,40 +16772,41 @@
+         },
+         "master": {
+           "rankOne": 103.97190231084824,
+           "max": 103.97190231084824
+         }
+       }
+     },
+     {
+       "name": "Liepard",
+       "types": [
+         "dark"
+       ],
+       "fastMoveIds": [
+         "CHARM_FAST",
+         "SNARL_FAST"
+       ],
+       "chargedMoveIds": [
+         "DARK_PULSE",
+         "PAYBACK",
+         "PLAY_ROUGH",
++        "RETURN",
+         "GUNK_SHOT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 80.95723930774741,
+           "max": 87.45113550890363
+         },
+         "great": {
+           "rankOne": 138.52690244969995,
+           "max": 152.05127927177585
+         },
+         "ultra": {
+           "rankOne": 170.75060379505157,
+           "max": 170.75060379505157
+         },
+         "master": {
+           "rankOne": 170.75060379505157,
+           "max": 170.75060379505157
+         }
+       }
+@@ -22241,40 +22245,41 @@
+           "max": 176.27809596061695
+         },
+         "master": {
+           "rankOne": 200.33610445261002,
+           "max": 200.33610445261002
+         }
+       }
+     },
+     {
+       "name": "Patrat",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
+         "BITE_FAST",
+         "TACKLE_FAST"
+       ],
+       "chargedMoveIds": [
+         "GRASS_KNOT",
+         "HYPER_FANG",
++        "RETURN",
+         "DIG"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 66.10902613050017,
+           "max": 76.22775461986244
+         },
+         "great": {
+           "rankOne": 95.5189021229744,
+           "max": 95.5189021229744
+         },
+         "ultra": {
+           "rankOne": 95.5189021229744,
+           "max": 95.5189021229744
+         },
+         "master": {
+           "rankOne": 95.5189021229744,
+           "max": 95.5189021229744
+         }
+       }
+@@ -24070,41 +24075,42 @@
+           "max": 143.70100319385529
+         },
+         "master": {
+           "rankOne": 143.70100319385529,
+           "max": 143.70100319385529
+         }
+       }
+     },
+     {
+       "name": "Purrloin",
+       "types": [
+         "dark"
+       ],
+       "fastMoveIds": [
+         "SCRATCH_FAST",
+         "SUCKER_PUNCH_FAST"
+       ],
+       "chargedMoveIds": [
+         "NIGHT_SLASH",
+         "DARK_PULSE",
+-        "PLAY_ROUGH"
++        "PLAY_ROUGH",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 67.39312077700156,
+           "max": 77.02070945943035
+         },
+         "great": {
+           "rankOne": 95.5189021229744,
+           "max": 95.5189021229744
+         },
+         "ultra": {
+           "rankOne": 95.5189021229744,
+           "max": 95.5189021229744
+         },
+         "master": {
+           "rankOne": 95.5189021229744,
+           "max": 95.5189021229744
+         }
+       }
+     },
+@@ -30680,41 +30686,42 @@
+         },
+         "master": {
+           "rankOne": 188.50190418958664,
+           "max": 188.50190418958664
+         }
+       }
+     },
+     {
+       "name": "Swanna",
+       "types": [
+         "water",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "AIR_SLASH_FAST",
+         "WATER_GUN_FAST"
+       ],
+       "chargedMoveIds": [
+         "BUBBLE_BEAM",
+         "ICE_BEAM",
+-        "HURRICANE"
++        "HURRICANE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 73.52037882804868,
+           "max": 78.71475341916081
+         },
+         "great": {
+           "rankOne": 127.02828848361959,
+           "max": 138.00694997576167
+         },
+         "ultra": {
+           "rankOne": 166.52410370111465,
+           "max": 166.52410370111465
+         },
+         "master": {
+           "rankOne": 166.52410370111465,
+           "max": 166.52410370111465
+         }
+       }
+     },
+@@ -34044,41 +34051,42 @@
+           "max": 119.18730264902115
+         },
+         "master": {
+           "rankOne": 119.18730264902115,
+           "max": 119.18730264902115
+         }
+       }
+     },
+     {
+       "name": "Watchog",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
+         "BITE_FAST",
+         "LOW_KICK_FAST"
+       ],
+       "chargedMoveIds": [
+         "CRUNCH",
+         "GRASS_KNOT",
+-        "HYPER_FANG"
++        "HYPER_FANG",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 71.43285821271832,
+           "max": 77.92675441387452
+         },
+         "great": {
+           "rankOne": 123.71057242155068,
+           "max": 135.49123895504778
+         },
+         "ultra": {
+           "rankOne": 152.15400338172913,
+           "max": 152.15400338172913
+         },
+         "master": {
+           "rankOne": 152.15400338172913,
+           "max": 152.15400338172913
+         }
+       }
+     },

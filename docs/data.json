@@ -1,5 +1,5 @@
 {
-  "timestamp": 1656542007211,
+  "timestamp": 1656696958553,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -648,7 +648,8 @@
       "chargedMoveIds": [
         "FOUL_PLAY",
         "GRASS_KNOT",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -8415,7 +8416,8 @@
       "chargedMoveIds": [
         "BUBBLE_BEAM",
         "AERIAL_ACE",
-        "BRAVE_BIRD"
+        "BRAVE_BIRD",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -10509,7 +10511,8 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "GRASS_KNOT",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -16786,6 +16789,7 @@
         "DARK_PULSE",
         "PAYBACK",
         "PLAY_ROUGH",
+        "RETURN",
         "GUNK_SHOT"
       ],
       "cmp": {
@@ -22258,6 +22262,7 @@
       "chargedMoveIds": [
         "GRASS_KNOT",
         "HYPER_FANG",
+        "RETURN",
         "DIG"
       ],
       "cmp": {
@@ -24087,7 +24092,8 @@
       "chargedMoveIds": [
         "NIGHT_SLASH",
         "DARK_PULSE",
-        "PLAY_ROUGH"
+        "PLAY_ROUGH",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -30697,7 +30703,8 @@
       "chargedMoveIds": [
         "BUBBLE_BEAM",
         "ICE_BEAM",
-        "HURRICANE"
+        "HURRICANE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -34061,7 +34068,8 @@
       "chargedMoveIds": [
         "CRUNCH",
         "GRASS_KNOT",
-        "HYPER_FANG"
+        "HYPER_FANG",
+        "RETURN"
       ],
       "cmp": {
         "little": {

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1657666600548,
+  "timestamp": 1658279301032,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -29897,6 +29897,7 @@
         "flying"
       ],
       "fastMoveIds": [
+        "GUST_FAST",
         "QUICK_ATTACK_FAST",
         "WING_ATTACK_FAST"
       ],
@@ -43796,6 +43797,12 @@
         5,
         5
       ],
+      "CLOSE_COMBAT": [
+        4,
+        4,
+        4,
+        3
+      ],
       "DARK_PULSE": [
         5,
         4,
@@ -43843,6 +43850,12 @@
         5,
         4,
         5
+      ],
+      "RETURN": [
+        6,
+        6,
+        6,
+        6
       ]
     },
     "HEX_FAST": {

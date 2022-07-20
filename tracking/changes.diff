@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index b8b7989..96aaa66 100644
+index b8b7989..dda92f2 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1657077332835,
-+  "timestamp": 1657666600548,
++  "timestamp": 1658279301032,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,3 +26,139 @@ index b8b7989..96aaa66 100644
        ],
        "cmp": {
          "little": {
+@@ -29880,40 +29880,41 @@
+           "rankOne": 132.03550193045203,
+           "max": 142.3507755187686
+         },
+         "ultra": {
+           "rankOne": 174.9771038889885,
+           "max": 174.9771038889885
+         },
+         "master": {
+           "rankOne": 174.9771038889885,
+           "max": 174.9771038889885
+         }
+       }
+     },
+     {
+       "name": "Staraptor",
+       "types": [
+         "normal",
+         "flying"
+       ],
+       "fastMoveIds": [
++        "GUST_FAST",
+         "QUICK_ATTACK_FAST",
+         "WING_ATTACK_FAST"
+       ],
+       "chargedMoveIds": [
+         "CLOSE_COMBAT",
+         "BRAVE_BIRD",
+         "RETURN",
+         "HEAT_WAVE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 81.7157662510871,
+           "max": 85.90631836652746
+         },
+         "great": {
+           "rankOne": 139.79160225391374,
+           "max": 148.78661974550997
+         },
+         "ultra": {
+           "rankOne": 180.41871140023335,
+@@ -43779,40 +43780,46 @@
+         3
+       ],
+       "AIR_CUTTER": [
+         5,
+         5,
+         4,
+         5
+       ],
+       "BRAVE_BIRD": [
+         5,
+         5,
+         4,
+         5
+       ],
+       "BUG_BUZZ": [
+         5,
+         5,
+         5,
+         5
+       ],
++      "CLOSE_COMBAT": [
++        4,
++        4,
++        4,
++        3
++      ],
+       "DARK_PULSE": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "ENERGY_BALL": [
+         5,
+         5,
+         4,
+         5
+       ],
+       "FEATHER_DANCE": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "FOCUS_BLAST": [
+         7,
+@@ -43826,40 +43833,46 @@
+         6,
+         6
+       ],
+       "HURRICANE": [
+         6,
+         5,
+         6,
+         5
+       ],
+       "HYPER_BEAM": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "PSYCHIC": [
+         5,
+         5,
+         4,
+         5
++      ],
++      "RETURN": [
++        6,
++        6,
++        6,
++        6
+       ]
+     },
+     "HEX_FAST": {
+       "AVALANCHE": [
+         4,
+         4,
+         4,
+         3
+       ],
+       "BONE_CLUB": [
+         3,
+         3,
+         3,
+         3
+       ],
+       "BRINE": [
+         5,
+         4,
+         4,
+         4

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1658279301032,
+  "timestamp": 1658448245309,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -1891,6 +1891,41 @@
         "master": {
           "rankOne": 174.9771038889885,
           "max": 174.9771038889885
+        }
+      }
+    },
+    {
+      "name": "Articuno (Galarian)",
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "fastMoveIds": [
+        "CONFUSION_FAST",
+        "PSYCHO_CUT_FAST"
+      ],
+      "chargedMoveIds": [
+        "ANCIENT_POWER",
+        "BRAVE_BIRD",
+        "FUTURESIGHT",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 76.51434533394324,
+          "max": 80.79914867264407
+        },
+        "great": {
+          "rankOne": 131.48562719283225,
+          "max": 139.37476482440218
+        },
+        "ultra": {
+          "rankOne": 170.29123008251176,
+          "max": 180.50870388746247
+        },
+        "master": {
+          "rankOne": 224.00450497865677,
+          "max": 224.00450497865677
         }
       }
     },
@@ -19992,6 +20027,41 @@
       }
     },
     {
+      "name": "Moltres (Galarian)",
+      "types": [
+        "dark",
+        "flying"
+      ],
+      "fastMoveIds": [
+        "SUCKER_PUNCH_FAST",
+        "WING_ATTACK_FAST"
+      ],
+      "chargedMoveIds": [
+        "ANCIENT_POWER",
+        "BRAVE_BIRD",
+        "PAYBACK",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 66.78622055053708,
+          "max": 69.676008939743
+        },
+        "great": {
+          "rankOne": 114.48441302776325,
+          "max": 121.26624007806488
+        },
+        "ultra": {
+          "rankOne": 147.2918502454374,
+          "max": 157.44990888305375
+        },
+        "master": {
+          "rankOne": 183.43010407686234,
+          "max": 183.43010407686234
+        }
+      }
+    },
+    {
       "name": "Monferno",
       "types": [
         "fire",
@@ -35429,6 +35499,40 @@
       }
     },
     {
+      "name": "Zapdos (Galarian)",
+      "types": [
+        "fighting",
+        "flying"
+      ],
+      "fastMoveIds": [
+        "COUNTER_FAST"
+      ],
+      "chargedMoveIds": [
+        "ANCIENT_POWER",
+        "CLOSE_COMBAT",
+        "BRAVE_BIRD",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 77.43251747795057,
+          "max": 81.71732081665138
+        },
+        "great": {
+          "rankOne": 134.1153397366889,
+          "max": 141.60389721393562
+        },
+        "ultra": {
+          "rankOne": 172.3347248435019,
+          "max": 183.61186987203484
+        },
+        "master": {
+          "rankOne": 225.69510501623154,
+          "max": 225.69510501623154
+        }
+      }
+    },
+    {
       "name": "Zarude",
       "types": [
         "dark",
@@ -40551,6 +40655,12 @@
         6,
         6
       ],
+      "BRAVE_BIRD": [
+        5,
+        5,
+        4,
+        5
+      ],
       "BUBBLE_BEAM": [
         4,
         3,
@@ -40956,6 +41066,12 @@
         6
       ],
       "AERIAL_ACE": [
+        7,
+        6,
+        7,
+        6
+      ],
+      "ANCIENT_POWER": [
         7,
         6,
         7,
@@ -48827,6 +48943,12 @@
       ]
     },
     "PSYCHO_CUT_FAST": {
+      "ANCIENT_POWER": [
+        5,
+        5,
+        5,
+        5
+      ],
       "AURORA_BEAM": [
         7,
         7,
@@ -48838,6 +48960,12 @@
         4,
         4,
         4
+      ],
+      "BRAVE_BIRD": [
+        7,
+        6,
+        6,
+        6
       ],
       "DARK_PULSE": [
         6,
@@ -52371,6 +52499,18 @@
         7,
         6
       ],
+      "ANCIENT_POWER": [
+        7,
+        6,
+        7,
+        6
+      ],
+      "BRAVE_BIRD": [
+        8,
+        8,
+        8,
+        8
+      ],
       "BRICK_BREAK": [
         5,
         5,
@@ -55276,6 +55416,12 @@
         8,
         8,
         8
+      ],
+      "PAYBACK": [
+        9,
+        9,
+        8,
+        9
       ],
       "POISON_FANG": [
         5,

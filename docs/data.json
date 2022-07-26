@@ -1,5 +1,5 @@
 {
-  "timestamp": 1658469848826,
+  "timestamp": 1658781980900,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -951,6 +951,43 @@
         "master": {
           "rankOne": 204.56260454654694,
           "max": 204.56260454654694
+        }
+      }
+    },
+    {
+      "name": "Arcanine (Hisuian)",
+      "types": [
+        "fire",
+        "rock"
+      ],
+      "fastMoveIds": [
+        "FIRE_FANG_FAST",
+        "ROCK_SMASH_FAST",
+        "SNARL_FAST"
+      ],
+      "chargedMoveIds": [
+        "CRUNCH",
+        "ROCK_SLIDE",
+        "WILD_CHARGE",
+        "FLAMETHROWER",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 76.41884851455684,
+          "max": 79.30863690376277
+        },
+        "great": {
+          "rankOne": 131.4870486259459,
+          "max": 139.98836642503724
+        },
+        "ultra": {
+          "rankOne": 169.754400730133,
+          "max": 180.72990077733988
+        },
+        "master": {
+          "rankOne": 208.78910464048386,
+          "max": 208.78910464048386
         }
       }
     },
@@ -3428,6 +3465,41 @@
         "master": {
           "rankOne": 208.78910464048386,
           "max": 208.78910464048386
+        }
+      }
+    },
+    {
+      "name": "Braviary (Hisuian)",
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "fastMoveIds": [
+        "AIR_SLASH_FAST",
+        "ZEN_HEADBUTT_FAST"
+      ],
+      "chargedMoveIds": [
+        "OMINOUS_WIND",
+        "BRAVE_BIRD",
+        "PSYCHIC",
+        "DAZZLING_GLEAM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 74.38230004906646,
+          "max": 78.57285216450683
+        },
+        "great": {
+          "rankOne": 127.24620205163944,
+          "max": 136.2072021961211
+        },
+        "ultra": {
+          "rankOne": 164.68872553110106,
+          "max": 176.94280767486995
+        },
+        "master": {
+          "rankOne": 192.72840428352356,
+          "max": 192.72840428352356
         }
       }
     },
@@ -13068,6 +13140,41 @@
       }
     },
     {
+      "name": "Growlithe (Hisuian)",
+      "types": [
+        "fire",
+        "rock"
+      ],
+      "fastMoveIds": [
+        "BITE_FAST",
+        "EMBER_FAST"
+      ],
+      "chargedMoveIds": [
+        "CRUNCH",
+        "ROCK_SLIDE",
+        "FLAMETHROWER",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 72.74435124299086,
+          "max": 80.71345567703247
+        },
+        "great": {
+          "rankOne": 131.4773817294207,
+          "max": 132.7121029496193
+        },
+        "ultra": {
+          "rankOne": 132.7121029496193,
+          "max": 132.7121029496193
+        },
+        "master": {
+          "rankOne": 132.7121029496193,
+          "max": 132.7121029496193
+        }
+      }
+    },
+    {
       "name": "Grubbin",
       "types": [
         "bug"
@@ -21914,6 +22021,42 @@
       }
     },
     {
+      "name": "Overqwil",
+      "types": [
+        "dark",
+        "poison"
+      ],
+      "fastMoveIds": [
+        "POISON_JAB_FAST",
+        "POISON_STING_FAST"
+      ],
+      "chargedMoveIds": [
+        "AQUA_TAIL",
+        "DARK_PULSE",
+        "SLUDGE_BOMB",
+        "ICE_BEAM",
+        "SHADOW_BALL"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 75.13968723409725,
+          "max": 79.50047265393324
+        },
+        "great": {
+          "rankOne": 129.2659174203871,
+          "max": 138.03377140268165
+        },
+        "ultra": {
+          "rankOne": 167.10586137789227,
+          "max": 179.09746545553202
+        },
+        "master": {
+          "rankOne": 200.33610445261002,
+          "max": 200.33610445261002
+        }
+      }
+    },
+    {
       "name": "Pachirisu",
       "types": [
         "electric"
@@ -24410,6 +24553,42 @@
         "great": {
           "rankOne": 130.06669378280637,
           "max": 140.66995686292645
+        },
+        "ultra": {
+          "rankOne": 168.21470373868942,
+          "max": 168.21470373868942
+        },
+        "master": {
+          "rankOne": 168.21470373868942,
+          "max": 168.21470373868942
+        }
+      }
+    },
+    {
+      "name": "Qwilfish (Hisuian)",
+      "types": [
+        "dark",
+        "poison"
+      ],
+      "fastMoveIds": [
+        "POISON_JAB_FAST",
+        "POISON_STING_FAST"
+      ],
+      "chargedMoveIds": [
+        "AQUA_TAIL",
+        "DARK_PULSE",
+        "SLUDGE_BOMB",
+        "ICE_BEAM",
+        "SHADOW_BALL"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 73.52037882804868,
+          "max": 79.5138879716396
+        },
+        "great": {
+          "rankOne": 126.53402268334986,
+          "max": 137.4404432773589
         },
         "ultra": {
           "rankOne": 168.21470373868942,
@@ -29225,6 +29404,76 @@
         "master": {
           "rankOne": 172.44120383262634,
           "max": 172.44120383262634
+        }
+      }
+    },
+    {
+      "name": "Sneasel (Hisuian)",
+      "types": [
+        "fighting",
+        "poison"
+      ],
+      "fastMoveIds": [
+        "POISON_JAB_FAST",
+        "ROCK_SMASH_FAST"
+      ],
+      "chargedMoveIds": [
+        "X_SCISSOR",
+        "AERIAL_ACE",
+        "CLOSE_COMBAT",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 77.71558085876025,
+          "max": 83.0610970024845
+        },
+        "great": {
+          "rankOne": 133.10314972281583,
+          "max": 144.20437788963315
+        },
+        "ultra": {
+          "rankOne": 172.44120383262634,
+          "max": 172.44120383262634
+        },
+        "master": {
+          "rankOne": 172.44120383262634,
+          "max": 172.44120383262634
+        }
+      }
+    },
+    {
+      "name": "Sneasler",
+      "types": [
+        "fighting",
+        "poison"
+      ],
+      "fastMoveIds": [
+        "POISON_JAB_FAST",
+        "ROCK_SMASH_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "chargedMoveIds": [
+        "X_SCISSOR",
+        "AERIAL_ACE",
+        "CLOSE_COMBAT"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 83.16168808937068,
+          "max": 87.97800207138057
+        },
+        "great": {
+          "rankOne": 144.73712525446453,
+          "max": 153.11958424603583
+        },
+        "ultra": {
+          "rankOne": 186.137135709002,
+          "max": 198.80771905049184
+        },
+        "master": {
+          "rankOne": 231.61220514774323,
+          "max": 231.61220514774323
         }
       }
     },
@@ -47769,6 +48018,12 @@
         7,
         6
       ],
+      "AQUA_TAIL": [
+        5,
+        5,
+        5,
+        5
+      ],
       "BLIZZARD": [
         11,
         11,
@@ -48075,6 +48330,12 @@
         6,
         5
       ],
+      "SHADOW_BALL": [
+        8,
+        8,
+        8,
+        8
+      ],
       "SKY_ATTACK": [
         7,
         6,
@@ -48227,6 +48488,12 @@
         5,
         5
       ],
+      "DARK_PULSE": [
+        6,
+        6,
+        5,
+        6
+      ],
       "DIG": [
         9,
         9,
@@ -48328,6 +48595,12 @@
         4,
         5,
         4
+      ],
+      "SHADOW_BALL": [
+        7,
+        6,
+        6,
+        6
       ],
       "SHADOW_SNEAK": [
         5,
@@ -50275,6 +50548,12 @@
         8,
         9
       ],
+      "WILD_CHARGE": [
+        7,
+        6,
+        7,
+        6
+      ],
       "X_SCISSOR": [
         5,
         5,
@@ -51200,6 +51479,12 @@
         6,
         5,
         6
+      ],
+      "X_SCISSOR": [
+        5,
+        4,
+        5,
+        4
       ]
     },
     "SMACK_DOWN_FAST": {
@@ -55636,6 +55921,12 @@
         6,
         6,
         6
+      ],
+      "BRAVE_BIRD": [
+        10,
+        9,
+        9,
+        9
       ],
       "BRICK_BREAK": [
         6,

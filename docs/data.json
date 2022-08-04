@@ -1,5 +1,5 @@
 {
-  "timestamp": 1659049408536,
+  "timestamp": 1659562333990,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -26691,6 +26691,41 @@
         "master": {
           "rankOne": 212.1703047156334,
           "max": 212.1703047156334
+        }
+      }
+    },
+    {
+      "name": "Scizor (Mega)",
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "fastMoveIds": [
+        "BULLET_PUNCH_FAST",
+        "FURY_CUTTER_FAST"
+      ],
+      "chargedMoveIds": [
+        "NIGHT_SLASH",
+        "X_SCISSOR",
+        "IRON_HEAD",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 80.97971767187103,
+          "max": 83.01146686077102
+        },
+        "great": {
+          "rankOne": 137.43962687252224,
+          "max": 144.45908886194215
+        },
+        "ultra": {
+          "rankOne": 176.7881216727453,
+          "max": 187.7113156914709
+        },
+        "master": {
+          "rankOne": 248.5182055234909,
+          "max": 248.5182055234909
         }
       }
     },

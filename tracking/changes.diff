@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index de02a90..148c317 100644
+index de02a90..e7331a3 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1659735606286,
-+  "timestamp": 1659837162905,
++  "timestamp": 1660260984376,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,3 +26,50 @@ index de02a90..148c317 100644
        ],
        "cmp": {
          "little": {
+@@ -37051,40 +37051,46 @@
+       "turns": 3
+     },
+     "MUDDY_WATER": {
+       "name": "Muddy Water",
+       "type": "water",
+       "energy": -35,
+       "damage": 35
+     },
+     "NIGHT_SHADE": {
+       "name": "Night Shade",
+       "type": "ghost",
+       "energy": -55,
+       "damage": 60
+     },
+     "NIGHT_SLASH": {
+       "name": "Night Slash",
+       "type": "dark",
+       "energy": -35,
+       "damage": 50
+     },
++    "OBSTRUCT": {
++      "name": "Obstruct",
++      "type": "dark",
++      "energy": -40,
++      "damage": 15
++    },
+     "OCTAZOOKA": {
+       "name": "Octazooka",
+       "type": "water",
+       "energy": -50,
+       "damage": 50
+     },
+     "OMINOUS_WIND": {
+       "name": "Ominous Wind",
+       "type": "ghost",
+       "energy": -45,
+       "damage": 45
+     },
+     "ORIGIN_PULSE": {
+       "name": "Origin Pulse",
+       "type": "water",
+       "energy": -60,
+       "damage": 130
+     },
+     "OUTRAGE": {
+       "name": "Outrage",

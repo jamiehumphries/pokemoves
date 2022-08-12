@@ -1,5 +1,5 @@
 {
-  "timestamp": 1659837162905,
+  "timestamp": 1660260984376,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -37067,6 +37067,12 @@
       "type": "dark",
       "energy": -35,
       "damage": 50
+    },
+    "OBSTRUCT": {
+      "name": "Obstruct",
+      "type": "dark",
+      "energy": -40,
+      "damage": 15
     },
     "OCTAZOOKA": {
       "name": "Octazooka",

@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index de02a90..9057f11 100644
+index de02a90..8bff668 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1659735606286,
-+  "timestamp": 1660583986364,
++  "timestamp": 1660684275448,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,7 +26,125 @@ index de02a90..9057f11 100644
        ],
        "cmp": {
          "little": {
-@@ -37051,40 +37051,46 @@
+@@ -11355,40 +11355,75 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 80.91407489776607,
+           "max": 83.803863286972
+         },
+         "great": {
+           "rankOne": 137.82948360650968,
+           "max": 145.96006393432594
+         },
+         "ultra": {
+           "rankOne": 177.23735199932844,
+           "max": 188.73808282613751
+         },
+         "master": {
+           "rankOne": 225.69510501623154,
+           "max": 225.69510501623154
+         }
+       }
+     },
++    {
++      "name": "Genesect (Normal)",
++      "types": [
++        "bug",
++        "steel"
++      ],
++      "fastMoveIds": [
++        "FURY_CUTTER_FAST",
++        "METAL_CLAW_FAST"
++      ],
++      "chargedMoveIds": [
++        "X_SCISSOR",
++        "MAGNET_BOMB",
++        "TECHNO_BLAST_NORMAL",
++        "HYPER_BEAM"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 80.91407489776607,
++          "max": 83.803863286972
++        },
++        "great": {
++          "rankOne": 137.82948360650968,
++          "max": 145.96006393432594
++        },
++        "ultra": {
++          "rankOne": 177.23735199932844,
++          "max": 188.73808282613751
++        },
++        "master": {
++          "rankOne": 225.69510501623154,
++          "max": 225.69510501623154
++        }
++      }
++    },
+     {
+       "name": "Genesect (Shock)",
+       "types": [
+         "bug",
+         "steel"
+       ],
+       "fastMoveIds": [
+         "FURY_CUTTER_FAST",
+         "METAL_CLAW_FAST"
+       ],
+       "chargedMoveIds": [
+         "X_SCISSOR",
+         "MAGNET_BOMB",
+         "TECHNO_BLAST_SHOCK",
+         "ZAP_CANNON"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 80.91407489776607,
+           "max": 83.803863286972
+@@ -21561,40 +21596,41 @@
+         },
+         "master": {
+           "rankOne": 125.94970279932022,
+           "max": 125.94970279932022
+         }
+       }
+     },
+     {
+       "name": "Obstagoon",
+       "types": [
+         "dark",
+         "normal"
+       ],
+       "fastMoveIds": [
+         "COUNTER_FAST",
+         "LICK_FAST"
+       ],
+       "chargedMoveIds": [
+         "CROSS_CHOP",
+         "NIGHT_SLASH",
++        "OBSTRUCT",
+         "RETURN",
+         "GUNK_SHOT",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 65.2423947801822,
+           "max": 68.14205677041252
+         },
+         "great": {
+           "rankOne": 111.49273990188901,
+           "max": 119.37067061662665
+         },
+         "ultra": {
+           "rankOne": 144.05400037765494,
+           "max": 154.59677043696735
+         },
+         "master": {
+           "rankOne": 164.8335036635399,
+           "max": 164.8335036635399
+@@ -37051,40 +37087,46 @@
        "turns": 3
      },
      "MUDDY_WATER": {
@@ -73,3 +191,191 @@ index de02a90..9057f11 100644
      },
      "OUTRAGE": {
        "name": "Outrage",
+@@ -41560,40 +41602,46 @@
+         8
+       ],
+       "MIRROR_COAT": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "MUD_BOMB": [
+         6,
+         6,
+         6,
+         5
+       ],
+       "NIGHT_SLASH": [
+         5,
+         5,
+         5,
+         5
+       ],
++      "OBSTRUCT": [
++        6,
++        6,
++        6,
++        5
++      ],
+       "OVERHEAT": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "PAYBACK": [
+         9,
+         9,
+         8,
+         9
+       ],
+       "PLAY_ROUGH": [
+         9,
+         9,
+         8,
+         9
+       ],
+       "POWER_UP_PUNCH": [
+         5,
+@@ -44118,40 +44166,46 @@
+         12
+       ],
+       "SUPER_POWER": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "TECHNO_BLAST_BURN": [
+         14,
+         14,
+         14,
+         13
+       ],
+       "TECHNO_BLAST_CHILL": [
+         14,
+         14,
+         14,
+         13
+       ],
++      "TECHNO_BLAST_NORMAL": [
++        14,
++        14,
++        14,
++        13
++      ],
+       "TECHNO_BLAST_SHOCK": [
+         14,
+         14,
+         14,
+         13
+       ],
+       "TECHNO_BLAST_WATER": [
+         14,
+         14,
+         14,
+         13
+       ],
+       "VICE_GRIP": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "WATER_PULSE": [
+         15,
+@@ -46100,40 +46154,46 @@
+         19
+       ],
+       "ICY_WIND": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "NIGHT_SHADE": [
+         19,
+         18,
+         18,
+         19
+       ],
+       "NIGHT_SLASH": [
+         12,
+         12,
+         11,
+         12
+       ],
++      "OBSTRUCT": [
++        14,
++        13,
++        13,
++        14
++      ],
+       "OMINOUS_WIND": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "OUTRAGE": [
+         20,
+         20,
+         20,
+         20
+       ],
+       "PLAY_ROUGH": [
+         20,
+         20,
+         20,
+         20
+       ],
+       "POWER_UP_PUNCH": [
+         12,
+@@ -47020,40 +47080,46 @@
+         9
+       ],
+       "STONE_EDGE": [
+         10,
+         9,
+         9,
+         9
+       ],
+       "TECHNO_BLAST_BURN": [
+         10,
+         9,
+         9,
+         9
+       ],
+       "TECHNO_BLAST_CHILL": [
+         10,
+         9,
+         9,
+         9
+       ],
++      "TECHNO_BLAST_NORMAL": [
++        10,
++        9,
++        9,
++        9
++      ],
+       "TECHNO_BLAST_SHOCK": [
+         10,
+         9,
+         9,
+         9
+       ],
+       "TECHNO_BLAST_WATER": [
+         10,
+         9,
+         9,
+         9
+       ],
+       "THUNDER": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "VICE_GRIP": [
+         7,

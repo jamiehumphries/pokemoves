@@ -11246,6 +11246,7 @@
       "chargedMoveIds": [
         "X_SCISSOR",
         "MAGNET_BOMB",
+        "TECHNO_BLAST_NORMAL",
         "HYPER_BEAM"
       ],
       "cmp": {
@@ -11352,41 +11353,6 @@
         "MAGNET_BOMB",
         "TECHNO_BLAST_WATER",
         "GUNK_SHOT"
-      ],
-      "cmp": {
-        "little": {
-          "rankOne": 80.91407489776607,
-          "max": 83.803863286972
-        },
-        "great": {
-          "rankOne": 137.82948360650968,
-          "max": 145.96006393432594
-        },
-        "ultra": {
-          "rankOne": 177.23735199932844,
-          "max": 188.73808282613751
-        },
-        "master": {
-          "rankOne": 225.69510501623154,
-          "max": 225.69510501623154
-        }
-      }
-    },
-    {
-      "name": "Genesect (Normal)",
-      "types": [
-        "bug",
-        "steel"
-      ],
-      "fastMoveIds": [
-        "FURY_CUTTER_FAST",
-        "METAL_CLAW_FAST"
-      ],
-      "chargedMoveIds": [
-        "X_SCISSOR",
-        "MAGNET_BOMB",
-        "TECHNO_BLAST_NORMAL",
-        "HYPER_BEAM"
       ],
       "cmp": {
         "little": {

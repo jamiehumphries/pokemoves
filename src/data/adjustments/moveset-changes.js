@@ -27,27 +27,9 @@ module.exports = {
       },
     },
     {
-      pokemonName: "Genesect (Shock)",
+      pokemonName: "Genesect",
       chargedMoveIds: {
-        add: ["TECHNO_BLAST_SHOCK"],
-      },
-    },
-    {
-      pokemonName: "Genesect (Burn)",
-      chargedMoveIds: {
-        add: ["TECHNO_BLAST_BURN"],
-      },
-    },
-    {
-      pokemonName: "Genesect (Chill)",
-      chargedMoveIds: {
-        add: ["TECHNO_BLAST_CHILL"],
-      },
-    },
-    {
-      pokemonName: "Genesect (Douse)",
-      chargedMoveIds: {
-        add: ["TECHNO_BLAST_WATER"],
+        add: ["TECHNO_BLAST_NORMAL"],
       },
     },
     {

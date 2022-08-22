@@ -6,6 +6,7 @@ module.exports = {
     // Duplicated base forms.
     "Castform",
     "Deoxys",
+    "Genesect (Normal)",
     "Meloetta",
     "Urshifu",
     "Wormadam",

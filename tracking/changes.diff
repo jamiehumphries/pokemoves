@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 336c5c1..5ae9aa4 100644
+index 336c5c1..1d976f9 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1660935766647,
-+  "timestamp": 1661617545597,
++  "timestamp": 1661815578898,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,3 +26,238 @@ index 336c5c1..5ae9aa4 100644
        ],
        "cmp": {
          "little": {
+@@ -6727,40 +6727,41 @@
+           "rankOne": 144.52240258455262,
+           "max": 153.98453167452274
+         },
+         "ultra": {
+           "rankOne": 186.6556795835494,
+           "max": 199.3905827235627
+         },
+         "master": {
+           "rankOne": 226.54040503501892,
+           "max": 226.54040503501892
+         }
+       }
+     },
+     {
+       "name": "Cutiefly",
+       "types": [
+         "bug",
+         "fairy"
+       ],
+       "fastMoveIds": [
++        "FAIRY_WIND_FAST",
+         "STRUGGLE_BUG_FAST"
+       ],
+       "chargedMoveIds": [
+         "BUG_BUZZ",
+         "DAZZLING_GLEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.70140997850173,
+           "max": 79.20614770284287
+         },
+         "great": {
+           "rankOne": 105.662502348423,
+           "max": 105.662502348423
+         },
+         "ultra": {
+           "rankOne": 105.662502348423,
+           "max": 105.662502348423
+         },
+         "master": {
+@@ -25493,40 +25494,41 @@
+           "rankOne": 124.69194114208221,
+           "max": 132.45285034179688
+         },
+         "ultra": {
+           "rankOne": 160.97209411859512,
+           "max": 170.99110412597656
+         },
+         "master": {
+           "rankOne": 216.3968048095703,
+           "max": 216.3968048095703
+         }
+       }
+     },
+     {
+       "name": "Ribombee",
+       "types": [
+         "bug",
+         "fairy"
+       ],
+       "fastMoveIds": [
++        "FAIRY_WIND_FAST",
+         "STRUGGLE_BUG_FAST"
+       ],
+       "chargedMoveIds": [
+         "BUG_BUZZ",
+         "DAZZLING_GLEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 78.29366703920394,
+           "max": 83.10999345779416
+         },
+         "great": {
+           "rankOne": 134.24179795887278,
+           "max": 145.08812803030003
+         },
+         "ultra": {
+           "rankOne": 178.35830396413803,
+           "max": 180.0489040017128
+         },
+         "master": {
+@@ -36482,40 +36484,47 @@
+       "damage": 100
+     },
+     "DISARMING_VOICE": {
+       "name": "Disarming Voice",
+       "type": "fairy",
+       "energy": -45,
+       "damage": 70
+     },
+     "DISCHARGE": {
+       "name": "Discharge",
+       "type": "electric",
+       "energy": -45,
+       "damage": 65
+     },
+     "DOOM_DESIRE": {
+       "name": "Doom Desire",
+       "type": "steel",
+       "energy": -40,
+       "damage": 75
+     },
++    "DOUBLE_KICK_FAST": {
++      "name": "Double Kick",
++      "type": "fighting",
++      "energy": 12,
++      "damage": 8,
++      "turns": 3
++    },
+     "DRACO_METEOR": {
+       "name": "Draco Meteor",
+       "type": "dragon",
+       "energy": -65,
+       "damage": 150
+     },
+     "DRAGON_BREATH_FAST": {
+       "name": "Dragon Breath",
+       "type": "dragon",
+       "energy": 3,
+       "damage": 4,
+       "turns": 1
+     },
+     "DRAGON_CLAW": {
+       "name": "Dragon Claw",
+       "type": "dragon",
+       "energy": -35,
+       "damage": 50
+     },
+     "DRAGON_PULSE": {
+@@ -36576,40 +36585,47 @@
+     "EMBER_FAST": {
+       "name": "Ember",
+       "type": "fire",
+       "energy": 6,
+       "damage": 7,
+       "turns": 2
+     },
+     "ENERGY_BALL": {
+       "name": "Energy Ball",
+       "type": "grass",
+       "energy": -55,
+       "damage": 90
+     },
+     "EXTRASENSORY_FAST": {
+       "name": "Extrasensory",
+       "type": "psychic",
+       "energy": 10,
+       "damage": 8,
+       "turns": 3
+     },
++    "FAIRY_WIND_FAST": {
++      "name": "Fairy Wind",
++      "type": "fairy",
++      "energy": 9,
++      "damage": 3,
++      "turns": 2
++    },
+     "FEATHER_DANCE": {
+       "name": "Feather Dance",
+       "type": "flying",
+       "energy": -50,
+       "damage": 35
+     },
+     "FEINT_ATTACK_FAST": {
+       "name": "Feint Attack",
+       "type": "dark",
+       "energy": 6,
+       "damage": 6,
+       "turns": 2
+     },
+     "FELL_STINGER": {
+       "name": "Fell Stinger",
+       "type": "bug",
+       "energy": -35,
+       "damage": 20
+     },
+     "FIRE_BLAST": {
+@@ -42869,40 +42885,54 @@
+       ],
+       "SWIFT": [
+         6,
+         5,
+         6,
+         5
+       ],
+       "THUNDER": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "WATER_PULSE": [
+         6,
+         6,
+         6,
+         6
+       ]
+     },
++    "FAIRY_WIND_FAST": {
++      "BUG_BUZZ": [
++        7,
++        7,
++        6,
++        7
++      ],
++      "DAZZLING_GLEAM": [
++        8,
++        8,
++        8,
++        8
++      ]
++    },
+     "FEINT_ATTACK_FAST": {
+       "ACID_SPRAY": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "AERIAL_ACE": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "AIR_CUTTER": [
+         10,
+         9,
+         9,
+         9
+       ],
+       "AVALANCHE": [

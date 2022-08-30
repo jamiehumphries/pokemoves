@@ -1,5 +1,5 @@
 {
-  "timestamp": 1661617545597,
+  "timestamp": 1661815578898,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -6744,6 +6744,7 @@
         "fairy"
       ],
       "fastMoveIds": [
+        "FAIRY_WIND_FAST",
         "STRUGGLE_BUG_FAST"
       ],
       "chargedMoveIds": [
@@ -25510,6 +25511,7 @@
         "fairy"
       ],
       "fastMoveIds": [
+        "FAIRY_WIND_FAST",
         "STRUGGLE_BUG_FAST"
       ],
       "chargedMoveIds": [
@@ -36499,6 +36501,13 @@
       "energy": -40,
       "damage": 75
     },
+    "DOUBLE_KICK_FAST": {
+      "name": "Double Kick",
+      "type": "fighting",
+      "energy": 12,
+      "damage": 8,
+      "turns": 3
+    },
     "DRACO_METEOR": {
       "name": "Draco Meteor",
       "type": "dragon",
@@ -36592,6 +36601,13 @@
       "energy": 10,
       "damage": 8,
       "turns": 3
+    },
+    "FAIRY_WIND_FAST": {
+      "name": "Fairy Wind",
+      "type": "fairy",
+      "energy": 9,
+      "damage": 3,
+      "turns": 2
     },
     "FEATHER_DANCE": {
       "name": "Feather Dance",
@@ -42884,6 +42900,20 @@
         6,
         6,
         6
+      ]
+    },
+    "FAIRY_WIND_FAST": {
+      "BUG_BUZZ": [
+        7,
+        7,
+        6,
+        7
+      ],
+      "DAZZLING_GLEAM": [
+        8,
+        8,
+        8,
+        8
       ]
     },
     "FEINT_ATTACK_FAST": {

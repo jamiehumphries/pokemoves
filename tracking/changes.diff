@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 336c5c1..1d976f9 100644
+index 336c5c1..37fead8 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1660935766647,
-+  "timestamp": 1661815578898,
++  "timestamp": 1661909883261,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,7 +26,314 @@ index 336c5c1..1d976f9 100644
        ],
        "cmp": {
          "little": {
-@@ -6727,40 +6727,41 @@
+@@ -341,40 +341,76 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 66.41811639442524,
+           "max": 70.77890181426125
+         },
+         "great": {
+           "rankOne": 115.29122364521011,
+           "max": 122.38322853236322
+         },
+         "ultra": {
+           "rankOne": 148.45268690586082,
+           "max": 159.06439745362866
+         },
+         "master": {
+           "rankOne": 180.0489040017128,
+           "max": 180.0489040017128
+         }
+       }
+     },
++    {
++      "name": "Aggron (Mega)",
++      "types": [
++        "steel"
++      ],
++      "fastMoveIds": [
++        "DRAGON_TAIL_FAST",
++        "IRON_TAIL_FAST",
++        "SMACK_DOWN_FAST"
++      ],
++      "chargedMoveIds": [
++        "HEAVY_SLAM",
++        "STONE_EDGE",
++        "ROCK_TOMB",
++        "THUNDER",
++        "RETURN"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 71.69172137975679,
++          "max": 72.27222114801393
++        },
++        "great": {
++          "rankOne": 121.24138513397497,
++          "max": 128.1133664776011
++        },
++        "ultra": {
++          "rankOne": 156.51134786081752,
++          "max": 165.3824364035359
++        },
++        "master": {
++          "rankOne": 221.46860492229462,
++          "max": 221.46860492229462
++        }
++      }
++    },
+     {
+       "name": "Aipom",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
+         "ASTONISH_FAST",
+         "SCRATCH_FAST"
+       ],
+       "chargedMoveIds": [
+         "LOW_SWEEP",
+         "AERIAL_ACE",
+         "SWIFT",
+         "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.18343894438291,
+           "max": 76.8139652985428
+         },
+@@ -413,40 +449,78 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 90.90560375196587,
+           "max": 95.60183420409695
+         },
+         "great": {
+           "rankOne": 154.1572294235228,
+           "max": 164.7849307656286
+         },
+         "ultra": {
+           "rankOne": 199.11481401822888,
+           "max": 213.57942568890985
+         },
+         "master": {
+           "rankOne": 241.75580537319183,
+           "max": 241.75580537319183
+         }
+       }
+     },
++    {
++      "name": "Alakazam (Mega)",
++      "types": [
++        "psychic"
++      ],
++      "fastMoveIds": [
++        "CONFUSION_FAST",
++        "COUNTER_FAST",
++        "PSYCHO_CUT_FAST"
++      ],
++      "chargedMoveIds": [
++        "FIRE_PUNCH",
++        "PSYCHIC",
++        "SHADOW_BALL",
++        "FUTURESIGHT",
++        "DAZZLING_GLEAM",
++        "RETURN",
++        "FOCUS_BLAST"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 100.38564986398222,
++          "max": 104.48860558049375
++        },
++        "great": {
++          "rankOne": 171.6982015073299,
++          "max": 180.43238171452091
++        },
++        "ultra": {
++          "rankOne": 221.03800356388072,
++          "max": 233.84408295154554
++        },
++        "master": {
++          "rankOne": 322.9046071767807,
++          "max": 322.9046071767807
++        }
++      }
++    },
+     {
+       "name": "Alcremie",
+       "types": [
+         "fairy"
+       ],
+       "fastMoveIds": [
+         "CHARM_FAST",
+         "TACKLE_FAST"
+       ],
+       "chargedMoveIds": [
+         "PSYSHOCK",
+         "ENERGY_BALL",
+         "DAZZLING_GLEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 72.98544934391967,
+           "max": 76.12836343049995
+         },
+         "great": {
+@@ -2290,40 +2364,74 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 84.49514561656663,
+           "max": 90.30903178284414
+         },
+         "great": {
+           "rankOne": 144.14579944446538,
+           "max": 155.62862211465836
+         },
+         "ultra": {
+           "rankOne": 186.81130415201187,
+           "max": 196.95490437746048
+         },
+         "master": {
+           "rankOne": 196.95490437746048,
+           "max": 196.95490437746048
+         }
+       }
+     },
++    {
++      "name": "Banette (Mega)",
++      "types": [
++        "ghost"
++      ],
++      "fastMoveIds": [
++        "HEX_FAST",
++        "SHADOW_CLAW_FAST"
++      ],
++      "chargedMoveIds": [
++        "SHADOW_BALL",
++        "THUNDER",
++        "DAZZLING_GLEAM",
++        "RETURN"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 95.48990297676117,
++          "max": 100.08076369679776
++        },
++        "great": {
++          "rankOne": 164.09406273665465,
++          "max": 174.19951128959627
++        },
++        "ultra": {
++          "rankOne": 210.46955257873523,
++          "max": 224.8729642253011
++        },
++        "master": {
++          "rankOne": 276.4131061434746,
++          "max": 276.4131061434746
++        }
++      }
++    },
+     {
+       "name": "Barbaracle",
+       "types": [
+         "rock",
+         "water"
+       ],
+       "fastMoveIds": [
+         "FURY_CUTTER_FAST",
+         "MUD_SLAP_FAST",
+         "WATER_GUN_FAST"
+       ],
+       "chargedMoveIds": [
+         "CROSS_CHOP",
+         "GRASS_KNOT",
+         "STONE_EDGE",
+         "SKULL_BASH"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 70.1917479336261,
+@@ -6087,69 +6195,73 @@
+         },
+         "great": {
+           "rankOne": 117.14971833582997,
+           "max": 121.7232027053833
+         },
+         "ultra": {
+           "rankOne": 121.7232027053833,
+           "max": 121.7232027053833
+         },
+         "master": {
+           "rankOne": 121.7232027053833,
+           "max": 121.7232027053833
+         }
+       }
+     },
+     {
+       "name": "Cosmoem",
+       "types": [
+         "psychic"
+       ],
+-      "fastMoveIds": [],
++      "fastMoveIds": [
++        "SPLASH_FAST"
++      ],
+       "chargedMoveIds": [
+         "STRUGGLE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 37.829316237010815,
+           "max": 44.205053865909534
+         },
+         "great": {
+           "rankOne": 58.3257012963295,
+           "max": 58.3257012963295
+         },
+         "ultra": {
+           "rankOne": 58.3257012963295,
+           "max": 58.3257012963295
+         },
+         "master": {
+           "rankOne": 58.3257012963295,
+           "max": 58.3257012963295
+         }
+       }
+     },
+     {
+       "name": "Cosmog",
+       "types": [
+         "psychic"
+       ],
+-      "fastMoveIds": [],
++      "fastMoveIds": [
++        "SPLASH_FAST"
++      ],
+       "chargedMoveIds": [
+         "STRUGGLE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 58.3257012963295,
+           "max": 58.3257012963295
+         },
+         "great": {
+           "rankOne": 58.3257012963295,
+           "max": 58.3257012963295
+         },
+         "ultra": {
+           "rankOne": 58.3257012963295,
+           "max": 58.3257012963295
+         },
+         "master": {
+           "rankOne": 58.3257012963295,
+           "max": 58.3257012963295
+         }
+@@ -6727,40 +6839,41 @@
            "rankOne": 144.52240258455262,
            "max": 153.98453167452274
          },
@@ -68,7 +375,59 @@ index 336c5c1..1d976f9 100644
            "max": 105.662502348423
          },
          "master": {
-@@ -25493,40 +25494,41 @@
+@@ -17526,43 +17639,49 @@
+         "great": {
+           "rankOne": 107.72551204579513,
+           "max": 117.71248406171792
+         },
+         "ultra": {
+           "rankOne": 132.7121029496193,
+           "max": 132.7121029496193
+         },
+         "master": {
+           "rankOne": 132.7121029496193,
+           "max": 132.7121029496193
+         }
+       }
+     },
+     {
+       "name": "Lunala",
+       "types": [
+         "psychic",
+         "ghost"
+       ],
+-      "fastMoveIds": [],
++      "fastMoveIds": [
++        "AIR_SLASH_FAST",
++        "CONFUSION_FAST"
++      ],
+       "chargedMoveIds": [
+-        "STRUGGLE"
++        "PSYCHIC",
++        "SHADOW_BALL",
++        "MOONBLAST",
++        "FUTURESIGHT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 74.01372045278535,
+           "max": 76.62596940994248
+         },
+         "great": {
+           "rankOne": 127.46390193700779,
+           "max": 133.4622032046317
+         },
+         "ultra": {
+           "rankOne": 163.36650341749174,
+           "max": 172.97629773616774
+         },
+         "master": {
+           "rankOne": 228.2310050725937,
+           "max": 228.2310050725937
+         }
+       }
+     },
+@@ -25493,40 +25612,41 @@
            "rankOne": 124.69194114208221,
            "max": 132.45285034179688
          },
@@ -110,7 +469,59 @@ index 336c5c1..1d976f9 100644
            "max": 180.0489040017128
          },
          "master": {
-@@ -36482,40 +36484,47 @@
+@@ -29742,43 +29862,49 @@
+         "great": {
+           "rankOne": 124.25910276174545,
+           "max": 124.25910276174545
+         },
+         "ultra": {
+           "rankOne": 124.25910276174545,
+           "max": 124.25910276174545
+         },
+         "master": {
+           "rankOne": 124.25910276174545,
+           "max": 124.25910276174545
+         }
+       }
+     },
+     {
+       "name": "Solgaleo",
+       "types": [
+         "psychic",
+         "steel"
+       ],
+-      "fastMoveIds": [],
++      "fastMoveIds": [
++        "FIRE_SPIN_FAST",
++        "ZEN_HEADBUTT_FAST"
++      ],
+       "chargedMoveIds": [
+-        "STRUGGLE"
++        "PSYCHIC_FANGS",
++        "IRON_HEAD",
++        "FLAMETHROWER",
++        "SOLAR_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 74.01372045278535,
+           "max": 76.62596940994248
+         },
+         "great": {
+           "rankOne": 127.46390193700779,
+           "max": 133.4622032046317
+         },
+         "ultra": {
+           "rankOne": 163.36650341749174,
+           "max": 172.97629773616774
+         },
+         "master": {
+           "rankOne": 228.2310050725937,
+           "max": 228.2310050725937
+         }
+       }
+     },
+@@ -36482,40 +36608,47 @@
        "damage": 100
      },
      "DISARMING_VOICE": {
@@ -158,7 +569,7 @@ index 336c5c1..1d976f9 100644
        "damage": 50
      },
      "DRAGON_PULSE": {
-@@ -36576,40 +36585,47 @@
+@@ -36576,40 +36709,47 @@
      "EMBER_FAST": {
        "name": "Ember",
        "type": "fire",
@@ -206,7 +617,54 @@ index 336c5c1..1d976f9 100644
        "damage": 20
      },
      "FIRE_BLAST": {
-@@ -42869,40 +42885,54 @@
+@@ -38218,40 +38358,46 @@
+         6
+       ],
+       "IRON_HEAD": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "LEAF_BLADE": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "LUNGE": [
+         5,
+         5,
+         5,
+         5
+       ],
++      "MOONBLAST": [
++        7,
++        7,
++        6,
++        7
++      ],
+       "NIGHT_SLASH": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "OMINOUS_WIND": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "OUTRAGE": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "OVERHEAT": [
+         7,
+@@ -42869,40 +43015,54 @@
        ],
        "SWIFT": [
          6,
@@ -261,3 +719,97 @@ index 336c5c1..1d976f9 100644
          9
        ],
        "AVALANCHE": [
+@@ -43558,40 +43718,46 @@
+         5
+       ],
+       "OVERHEAT": [
+         6,
+         5,
+         6,
+         5
+       ],
+       "POWER_UP_PUNCH": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "PSYCHIC": [
+         6,
+         5,
+         6,
+         5
+       ],
++      "PSYCHIC_FANGS": [
++        4,
++        3,
++        4,
++        3
++      ],
+       "PSYSHOCK": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "RETURN": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "SHADOW_BALL": [
+         6,
+         5,
+         6,
+         5
+       ],
+       "SHADOW_BONE": [
+         5,
+@@ -56260,40 +56426,46 @@
+         10
+       ],
+       "POWER_WHIP": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "PSYBEAM": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "PSYCHIC": [
+         10,
+         9,
+         9,
+         9
+       ],
++      "PSYCHIC_FANGS": [
++        6,
++        6,
++        6,
++        6
++      ],
+       "PSYCHO_BOOST": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "PSYSHOCK": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "RETURN": [
+         12,
+         12,
+         11,
+         12
+       ],
+       "ROCK_SLIDE": [
+         8,

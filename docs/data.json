@@ -1,5 +1,5 @@
 {
-  "timestamp": 1661815578898,
+  "timestamp": 1661909883261,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -359,6 +359,42 @@
       }
     },
     {
+      "name": "Aggron (Mega)",
+      "types": [
+        "steel"
+      ],
+      "fastMoveIds": [
+        "DRAGON_TAIL_FAST",
+        "IRON_TAIL_FAST",
+        "SMACK_DOWN_FAST"
+      ],
+      "chargedMoveIds": [
+        "HEAVY_SLAM",
+        "STONE_EDGE",
+        "ROCK_TOMB",
+        "THUNDER",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 71.69172137975679,
+          "max": 72.27222114801393
+        },
+        "great": {
+          "rankOne": 121.24138513397497,
+          "max": 128.1133664776011
+        },
+        "ultra": {
+          "rankOne": 156.51134786081752,
+          "max": 165.3824364035359
+        },
+        "master": {
+          "rankOne": 221.46860492229462,
+          "max": 221.46860492229462
+        }
+      }
+    },
+    {
       "name": "Aipom",
       "types": [
         "normal"
@@ -427,6 +463,44 @@
         "master": {
           "rankOne": 241.75580537319183,
           "max": 241.75580537319183
+        }
+      }
+    },
+    {
+      "name": "Alakazam (Mega)",
+      "types": [
+        "psychic"
+      ],
+      "fastMoveIds": [
+        "CONFUSION_FAST",
+        "COUNTER_FAST",
+        "PSYCHO_CUT_FAST"
+      ],
+      "chargedMoveIds": [
+        "FIRE_PUNCH",
+        "PSYCHIC",
+        "SHADOW_BALL",
+        "FUTURESIGHT",
+        "DAZZLING_GLEAM",
+        "RETURN",
+        "FOCUS_BLAST"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 100.38564986398222,
+          "max": 104.48860558049375
+        },
+        "great": {
+          "rankOne": 171.6982015073299,
+          "max": 180.43238171452091
+        },
+        "ultra": {
+          "rankOne": 221.03800356388072,
+          "max": 233.84408295154554
+        },
+        "master": {
+          "rankOne": 322.9046071767807,
+          "max": 322.9046071767807
         }
       }
     },
@@ -2304,6 +2378,40 @@
         "master": {
           "rankOne": 196.95490437746048,
           "max": 196.95490437746048
+        }
+      }
+    },
+    {
+      "name": "Banette (Mega)",
+      "types": [
+        "ghost"
+      ],
+      "fastMoveIds": [
+        "HEX_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "chargedMoveIds": [
+        "SHADOW_BALL",
+        "THUNDER",
+        "DAZZLING_GLEAM",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 95.48990297676117,
+          "max": 100.08076369679776
+        },
+        "great": {
+          "rankOne": 164.09406273665465,
+          "max": 174.19951128959627
+        },
+        "ultra": {
+          "rankOne": 210.46955257873523,
+          "max": 224.8729642253011
+        },
+        "master": {
+          "rankOne": 276.4131061434746,
+          "max": 276.4131061434746
         }
       }
     },
@@ -6104,7 +6212,9 @@
       "types": [
         "psychic"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "SPLASH_FAST"
+      ],
       "chargedMoveIds": [
         "STRUGGLE"
       ],
@@ -6132,7 +6242,9 @@
       "types": [
         "psychic"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "SPLASH_FAST"
+      ],
       "chargedMoveIds": [
         "STRUGGLE"
       ],
@@ -17544,9 +17656,15 @@
         "psychic",
         "ghost"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "AIR_SLASH_FAST",
+        "CONFUSION_FAST"
+      ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "PSYCHIC",
+        "SHADOW_BALL",
+        "MOONBLAST",
+        "FUTURESIGHT"
       ],
       "cmp": {
         "little": {
@@ -29761,9 +29879,15 @@
         "psychic",
         "steel"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "FIRE_SPIN_FAST",
+        "ZEN_HEADBUTT_FAST"
+      ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "PSYCHIC_FANGS",
+        "IRON_HEAD",
+        "FLAMETHROWER",
+        "SOLAR_BEAM"
       ],
       "cmp": {
         "little": {
@@ -38251,6 +38375,12 @@
         5,
         5
       ],
+      "MOONBLAST": [
+        7,
+        7,
+        6,
+        7
+      ],
       "NIGHT_SLASH": [
         4,
         4,
@@ -43604,6 +43734,12 @@
         5,
         6,
         5
+      ],
+      "PSYCHIC_FANGS": [
+        4,
+        3,
+        4,
+        3
       ],
       "PSYSHOCK": [
         5,
@@ -56306,6 +56442,12 @@
         9,
         9,
         9
+      ],
+      "PSYCHIC_FANGS": [
+        6,
+        6,
+        6,
+        6
       ],
       "PSYCHO_BOOST": [
         6,

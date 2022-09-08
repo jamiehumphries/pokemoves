@@ -1,5 +1,5 @@
 {
-  "timestamp": 1662141422138,
+  "timestamp": 1662588592813,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -37180,6 +37180,12 @@
       "energy": 6,
       "damage": 5,
       "turns": 2
+    },
+    "METEOR_BEAM": {
+      "name": "Meteor Beam",
+      "type": "rock",
+      "energy": -60,
+      "damage": 120
     },
     "METEOR_MASH": {
       "name": "Meteor Mash",

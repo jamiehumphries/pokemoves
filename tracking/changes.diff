@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 53a650c..c5c8f92 100644
+index 53a650c..c2e6eec 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1661996327551,
-+  "timestamp": 1662141422138,
++  "timestamp": 1662588592813,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,3 +26,50 @@ index 53a650c..c5c8f92 100644
        ],
        "cmp": {
          "little": {
+@@ -37164,40 +37164,46 @@
+     },
+     "MEGA_DRAIN": {
+       "name": "Mega Drain",
+       "type": "grass",
+       "energy": -55,
+       "damage": 25
+     },
+     "MEGAHORN": {
+       "name": "Megahorn",
+       "type": "bug",
+       "energy": -55,
+       "damage": 110
+     },
+     "METAL_CLAW_FAST": {
+       "name": "Metal Claw",
+       "type": "steel",
+       "energy": 6,
+       "damage": 5,
+       "turns": 2
+     },
++    "METEOR_BEAM": {
++      "name": "Meteor Beam",
++      "type": "rock",
++      "energy": -60,
++      "damage": 120
++    },
+     "METEOR_MASH": {
+       "name": "Meteor Mash",
+       "type": "steel",
+       "energy": -50,
+       "damage": 100
+     },
+     "MIRROR_COAT": {
+       "name": "Mirror Coat",
+       "type": "psychic",
+       "energy": -55,
+       "damage": 60
+     },
+     "MIRROR_SHOT": {
+       "name": "Mirror Shot",
+       "type": "steel",
+       "energy": -35,
+       "damage": 35
+     },
+     "MIST_BALL": {
+       "name": "Mist Ball",

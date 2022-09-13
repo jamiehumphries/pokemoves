@@ -1,5 +1,5 @@
 {
-  "timestamp": 1662761128678,
+  "timestamp": 1663010059621,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -4674,9 +4674,15 @@
         "steel",
         "flying"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "AIR_SLASH_FAST",
+        "SMACK_DOWN_FAST"
+      ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "BODY_SLAM",
+        "HEAVY_SLAM",
+        "IRON_HEAD",
+        "BULLDOZE"
       ],
       "cmp": {
         "little": {
@@ -15636,9 +15642,15 @@
         "grass",
         "steel"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "AIR_SLASH_FAST",
+        "RAZOR_LEAF_FAST"
+      ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "LEAF_BLADE",
+        "NIGHT_SLASH",
+        "X_SCISSOR",
+        "AERIAL_ACE"
       ],
       "cmp": {
         "little": {
@@ -38276,6 +38288,12 @@
         5,
         6
       ],
+      "BODY_SLAM": [
+        4,
+        4,
+        4,
+        4
+      ],
       "BRAVE_BIRD": [
         7,
         6,
@@ -38289,6 +38307,12 @@
         4
       ],
       "BUG_BUZZ": [
+        7,
+        7,
+        6,
+        7
+      ],
+      "BULLDOZE": [
         7,
         7,
         6,
@@ -38389,6 +38413,12 @@
         8,
         8,
         9
+      ],
+      "HEAVY_SLAM": [
+        6,
+        6,
+        5,
+        6
       ],
       "HURRICANE": [
         8,
@@ -50676,6 +50706,12 @@
         15,
         15
       ],
+      "NIGHT_SLASH": [
+        9,
+        9,
+        9,
+        8
+      ],
       "OUTRAGE": [
         15,
         15,
@@ -52218,6 +52254,12 @@
         5,
         6
       ],
+      "BODY_SLAM": [
+        5,
+        4,
+        5,
+        4
+      ],
       "BULLDOZE": [
         8,
         7,
@@ -52301,6 +52343,12 @@
         7,
         7,
         7
+      ],
+      "IRON_HEAD": [
+        7,
+        6,
+        6,
+        6
       ],
       "OUTRAGE": [
         8,

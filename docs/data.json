@@ -1,5 +1,5 @@
 {
-  "timestamp": 1663375069806,
+  "timestamp": 1663891827841,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -11734,6 +11734,7 @@
         "SUPER_POWER",
         "ROCK_SLIDE",
         "HEAVY_SLAM",
+        "METEOR_BEAM",
         "SOLAR_BEAM"
       ],
       "cmp": {
@@ -18800,7 +18801,7 @@
         "POISON_STING_FAST"
       ],
       "chargedMoveIds": [
-        "MUDDY_WATER",
+        "BRINE",
         "SLUDGE_WAVE",
         "GUNK_SHOT"
       ],
@@ -32569,7 +32570,7 @@
         "POISON_JAB_FAST"
       ],
       "chargedMoveIds": [
-        "MUDDY_WATER",
+        "BRINE",
         "SLUDGE_WAVE",
         "GUNK_SHOT"
       ],
@@ -39048,6 +39049,12 @@
         18,
         17
       ],
+      "BRINE": [
+        25,
+        25,
+        25,
+        25
+      ],
       "BRUTAL_SWING": [
         20,
         20,
@@ -39269,12 +39276,6 @@
         27,
         28,
         27
-      ],
-      "MUDDY_WATER": [
-        18,
-        17,
-        18,
-        17
       ],
       "NIGHT_SLASH": [
         18,
@@ -48222,6 +48223,12 @@
         7,
         7
       ],
+      "METEOR_BEAM": [
+        8,
+        7,
+        8,
+        7
+      ],
       "MUD_BOMB": [
         5,
         5,
@@ -48712,6 +48719,12 @@
         5,
         5
       ],
+      "BRINE": [
+        8,
+        7,
+        7,
+        7
+      ],
       "BUBBLE_BEAM": [
         6,
         6,
@@ -48928,12 +48941,6 @@
         6,
         5
       ],
-      "MUDDY_WATER": [
-        5,
-        5,
-        5,
-        5
-      ],
       "OVERHEAT": [
         8,
         8,
@@ -49146,6 +49153,12 @@
         4,
         4
       ],
+      "BRINE": [
+        6,
+        6,
+        5,
+        6
+      ],
       "BUBBLE_BEAM": [
         5,
         4,
@@ -49235,12 +49248,6 @@
         6,
         6,
         6
-      ],
-      "MUDDY_WATER": [
-        4,
-        4,
-        4,
-        4
       ],
       "NIGHT_SLASH": [
         4,
@@ -52349,6 +52356,12 @@
         6,
         6,
         6
+      ],
+      "METEOR_BEAM": [
+        8,
+        7,
+        8,
+        7
       ],
       "OUTRAGE": [
         8,

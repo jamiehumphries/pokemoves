@@ -1,0 +1,71 @@
+diff --git a/docs/data.json b/docs/data.json
+index 42dc2a3..cb176af 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -1,22 +1,22 @@
+ {
+-  "timestamp": 1665183879238,
++  "timestamp": 1665519548982,
+   "pokemon": [
+     {
+       "name": "Abomasnow",
+       "types": [
+         "grass",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "POWDER_SNOW_FAST",
+         "RAZOR_LEAF_FAST"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_ICE",
+         "ENERGY_BALL",
+         "OUTRAGE",
+         "RETURN",
+         "BLIZZARD"
+       ],
+       "cmp": {
+         "little": {
+@@ -23267,41 +23267,41 @@
+       "cmp": {
+         "little": {
+           "rankOne": 69.1737732291221,
+           "max": 78.0449179313223
+         },
+         "great": {
+           "rankOne": 107.35310238599777,
+           "max": 107.35310238599777
+         },
+         "ultra": {
+           "rankOne": 107.35310238599777,
+           "max": 107.35310238599777
+         },
+         "master": {
+           "rankOne": 107.35310238599777,
+           "max": 107.35310238599777
+         }
+       }
+     },
+     {
+-      "name": "Pikachu (Flying)",
++      "name": "Pikachu (Flying 01)",
+       "types": [
+         "electric"
+       ],
+       "fastMoveIds": [
+         "PRESENT_FAST",
+         "QUICK_ATTACK_FAST",
+         "THUNDER_SHOCK_FAST"
+       ],
+       "chargedMoveIds": [
+         "DISCHARGE",
+         "FLY",
+         "WILD_CHARGE",
+         "THUNDERBOLT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.1737732291221,
+           "max": 78.0449179313223
+         },
+         "great": {

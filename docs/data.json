@@ -1,5 +1,5 @@
 {
-  "timestamp": 1665519548982,
+  "timestamp": 1665700982763,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -20372,8 +20372,7 @@
       ],
       "chargedMoveIds": [
         "SEED_BOMB",
-        "DAZZLING_GLEAM",
-        "GIGA_DRAIN"
+        "DAZZLING_GLEAM"
       ],
       "cmp": {
         "little": {
@@ -27765,8 +27764,7 @@
       "chargedMoveIds": [
         "SEED_BOMB",
         "SLUDGE_BOMB",
-        "MOONBLAST",
-        "GIGA_DRAIN"
+        "MOONBLAST"
       ],
       "cmp": {
         "little": {
@@ -37355,6 +37353,12 @@
       "damage": 3,
       "turns": 2
     },
+    "POLTERGEIST": {
+      "name": "Poltergeist",
+      "type": "ghost",
+      "energy": -75,
+      "damage": 140
+    },
     "POUND_FAST": {
       "name": "Pound",
       "type": "normal",
@@ -38740,12 +38744,6 @@
         7,
         7,
         7
-      ],
-      "GIGA_DRAIN": [
-        9,
-        9,
-        9,
-        9
       ],
       "GRASS_KNOT": [
         6,

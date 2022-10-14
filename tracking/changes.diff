@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 42dc2a3..cb176af 100644
+index 42dc2a3..935b87a 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1665183879238,
-+  "timestamp": 1665519548982,
++  "timestamp": 1665700982763,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,7 +26,51 @@ index 42dc2a3..cb176af 100644
        ],
        "cmp": {
          "little": {
-@@ -23267,41 +23267,41 @@
+@@ -20355,42 +20355,41 @@
+           "rankOne": 146.23690325021744,
+           "max": 146.23690325021744
+         },
+         "master": {
+           "rankOne": 146.23690325021744,
+           "max": 146.23690325021744
+         }
+       }
+     },
+     {
+       "name": "Morelull",
+       "types": [
+         "grass",
+         "fairy"
+       ],
+       "fastMoveIds": [
+         "ASTONISH_FAST"
+       ],
+       "chargedMoveIds": [
+         "SEED_BOMB",
+-        "DAZZLING_GLEAM",
+-        "GIGA_DRAIN"
++        "DAZZLING_GLEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 63.707894493545375,
+           "max": 71.62030559778204
+         },
+         "great": {
+           "rankOne": 103.97190231084824,
+           "max": 103.97190231084824
+         },
+         "ultra": {
+           "rankOne": 103.97190231084824,
+           "max": 103.97190231084824
+         },
+         "master": {
+           "rankOne": 103.97190231084824,
+           "max": 103.97190231084824
+         }
+       }
+     },
+@@ -23267,41 +23266,41 @@
        "cmp": {
          "little": {
            "rankOne": 69.1737732291221,
@@ -69,3 +113,141 @@ index 42dc2a3..cb176af 100644
            "max": 78.0449179313223
          },
          "great": {
+@@ -27748,42 +27747,41 @@
+           "max": 181.73950403928757
+         },
+         "master": {
+           "rankOne": 181.73950403928757,
+           "max": 181.73950403928757
+         }
+       }
+     },
+     {
+       "name": "Shiinotic",
+       "types": [
+         "grass",
+         "fairy"
+       ],
+       "fastMoveIds": [
+         "ASTONISH_FAST"
+       ],
+       "chargedMoveIds": [
+         "SEED_BOMB",
+         "SLUDGE_BOMB",
+-        "MOONBLAST",
+-        "GIGA_DRAIN"
++        "MOONBLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 66.67066766520375,
+           "max": 71.43285821271832
+         },
+         "great": {
+           "rankOne": 114.54357290267937,
+           "max": 125.1927621069481
+         },
+         "ultra": {
+           "rankOne": 142.8557031750679,
+           "max": 142.8557031750679
+         },
+         "master": {
+           "rankOne": 142.8557031750679,
+           "max": 142.8557031750679
+         }
+       }
+     },
+@@ -37338,40 +37336,46 @@
+     "POISON_FANG": {
+       "name": "Poison Fang",
+       "type": "poison",
+       "energy": -35,
+       "damage": 40
+     },
+     "POISON_JAB_FAST": {
+       "name": "Poison Jab",
+       "type": "poison",
+       "energy": 7,
+       "damage": 7,
+       "turns": 2
+     },
+     "POISON_STING_FAST": {
+       "name": "Poison Sting",
+       "type": "poison",
+       "energy": 9,
+       "damage": 3,
+       "turns": 2
+     },
++    "POLTERGEIST": {
++      "name": "Poltergeist",
++      "type": "ghost",
++      "energy": -75,
++      "damage": 140
++    },
+     "POUND_FAST": {
+       "name": "Pound",
+       "type": "normal",
+       "energy": 4,
+       "damage": 4,
+       "turns": 2
+     },
+     "POWDER_SNOW_FAST": {
+       "name": "Powder Snow",
+       "type": "ice",
+       "energy": 8,
+       "damage": 5,
+       "turns": 2
+     },
+     "POWER_GEM": {
+       "name": "Power Gem",
+       "type": "rock",
+       "energy": -60,
+       "damage": 80
+     },
+@@ -38724,46 +38728,40 @@
+         8
+       ],
+       "FOCUS_BLAST": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "FOUL_PLAY": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "FUTURESIGHT": [
+         8,
+         7,
+         7,
+         7
+       ],
+-      "GIGA_DRAIN": [
+-        9,
+-        9,
+-        9,
+-        9
+-      ],
+       "GRASS_KNOT": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "HEAT_WAVE": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "HEAVY_SLAM": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "HURRICANE": [
+         8,

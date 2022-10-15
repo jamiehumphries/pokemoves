@@ -24,6 +24,7 @@ const specialPokemonFormNames = {
   MINIOR_BLUE: "Core",
   ORICORIO_PAU: "Pa’u",
   ORICORIO_POMPOM: "Pom-Pom",
+  PIKACHU_FLYING_01: "Flying",
   PIKACHU_FLYING_5TH_ANNIV: "Flying",
   PIKACHU_VS_2019: "Libre",
   PUMPKABOO_AVERAGE: "Average Size",

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1665700982763,
+  "timestamp": 1665798343785,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -4753,7 +4753,8 @@
         "FLAME_CHARGE",
         "ENERGY_BALL",
         "OVERHEAT",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "POLTERGEIST"
       ],
       "cmp": {
         "little": {
@@ -44147,6 +44148,12 @@
         6,
         5
       ],
+      "POLTERGEIST": [
+        8,
+        7,
+        8,
+        7
+      ],
       "POWER_UP_PUNCH": [
         4,
         3,
@@ -45013,6 +45020,12 @@
         4,
         5
       ],
+      "POLTERGEIST": [
+        7,
+        6,
+        6,
+        6
+      ],
       "PSYCHIC": [
         5,
         5,
@@ -45812,6 +45825,12 @@
         2,
         2,
         1
+      ],
+      "POLTERGEIST": [
+        4,
+        4,
+        4,
+        3
       ],
       "PSYCHIC": [
         3,

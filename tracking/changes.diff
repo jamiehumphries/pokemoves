@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 935b87a..90180e6 100644
+index 935b87a..1fa99fd 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1665700982763,
-+  "timestamp": 1665798343785,
++  "timestamp": 1666137465753,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -113,7 +113,54 @@ index 935b87a..90180e6 100644
            "max": 78.0449179313223
          },
          "great": {
-@@ -44130,40 +44131,46 @@
+@@ -37587,40 +37588,46 @@
+     },
+     "SHADOW_BALL": {
+       "name": "Shadow Ball",
+       "type": "ghost",
+       "energy": -55,
+       "damage": 100
+     },
+     "SHADOW_BONE": {
+       "name": "Shadow Bone",
+       "type": "ghost",
+       "energy": -45,
+       "damage": 75
+     },
+     "SHADOW_CLAW_FAST": {
+       "name": "Shadow Claw",
+       "type": "ghost",
+       "energy": 8,
+       "damage": 6,
+       "turns": 2
+     },
++    "SHADOW_FORCE": {
++      "name": "Shadow Force",
++      "type": "ghost",
++      "energy": -100,
++      "damage": 120
++    },
+     "SHADOW_PUNCH": {
+       "name": "Shadow Punch",
+       "type": "ghost",
+       "energy": -35,
+       "damage": 40
+     },
+     "SHADOW_SNEAK": {
+       "name": "Shadow Sneak",
+       "type": "ghost",
+       "energy": -45,
+       "damage": 50
+     },
+     "SIGNAL_BEAM": {
+       "name": "Signal Beam",
+       "type": "bug",
+       "energy": -55,
+       "damage": 75
+     },
+     "SILVER_WIND": {
+       "name": "Silver Wind",
+@@ -44130,40 +44137,46 @@
          6
        ],
        "IRON_HEAD": [
@@ -160,7 +207,7 @@ index 935b87a..90180e6 100644
        ],
        "PSYSHOCK": [
          5,
-@@ -44996,40 +45003,46 @@
+@@ -44996,40 +45009,46 @@
          5
        ],
        "OMINOUS_WIND": [
@@ -207,7 +254,7 @@ index 935b87a..90180e6 100644
        ],
        "SEED_BOMB": [
          4,
-@@ -45796,40 +45809,46 @@
+@@ -45796,40 +45815,46 @@
          3
        ],
        "HYDRO_PUMP": [

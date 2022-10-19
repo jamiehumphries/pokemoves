@@ -1,5 +1,5 @@
 {
-  "timestamp": 1665798343785,
+  "timestamp": 1666137465753,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -37604,6 +37604,12 @@
       "energy": 8,
       "damage": 6,
       "turns": 2
+    },
+    "SHADOW_FORCE": {
+      "name": "Shadow Force",
+      "type": "ghost",
+      "energy": -100,
+      "damage": 120
     },
     "SHADOW_PUNCH": {
       "name": "Shadow Punch",

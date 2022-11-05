@@ -1,5 +1,5 @@
 {
-  "timestamp": 1667251107778,
+  "timestamp": 1667606862660,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -13477,11 +13477,17 @@
       "name": "Guzzlord",
       "types": [
         "dark",
-        "ghost"
+        "dragon"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "DRAGON_TAIL_FAST",
+        "SNARL_FAST"
+      ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "DRAGON_CLAW",
+        "BRUTAL_SWING",
+        "CRUNCH",
+        "SLUDGE_BOMB"
       ],
       "cmp": {
         "little": {
@@ -36984,6 +36990,12 @@
       "damage": 9,
       "turns": 3
     },
+    "HIGH_HORSEPOWER": {
+      "name": "High Horsepower",
+      "type": "ground",
+      "energy": -60,
+      "damage": 100
+    },
     "HORN_ATTACK": {
       "name": "Horn Attack",
       "type": "normal",
@@ -42540,6 +42552,12 @@
         4,
         4
       ],
+      "BRUTAL_SWING": [
+        5,
+        4,
+        5,
+        4
+      ],
       "BULLDOZE": [
         7,
         7,
@@ -42803,6 +42821,12 @@
         5,
         5,
         5
+      ],
+      "SLUDGE_BOMB": [
+        6,
+        6,
+        5,
+        6
       ],
       "SLUDGE_WAVE": [
         8,
@@ -52525,6 +52549,12 @@
         4,
         4,
         4
+      ],
+      "BRUTAL_SWING": [
+        4,
+        3,
+        3,
+        3
       ],
       "BUBBLE_BEAM": [
         4,

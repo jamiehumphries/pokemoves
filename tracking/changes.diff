@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 76695e2..bee3b1a 100644
+index 76695e2..e20e289 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1666728292213,
-+  "timestamp": 1667251107778,
++  "timestamp": 1667606862660,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,3 +26,246 @@ index 76695e2..bee3b1a 100644
        ],
        "cmp": {
          "little": {
+@@ -13460,45 +13460,51 @@
+           "max": 76.71691703796384
+         },
+         "great": {
+           "rankOne": 123.29085057973852,
+           "max": 133.41087174222758
+         },
+         "ultra": {
+           "rankOne": 164.8335036635399,
+           "max": 164.8335036635399
+         },
+         "master": {
+           "rankOne": 164.8335036635399,
+           "max": 164.8335036635399
+         }
+       }
+     },
+     {
+       "name": "Guzzlord",
+       "types": [
+         "dark",
+-        "ghost"
++        "dragon"
++      ],
++      "fastMoveIds": [
++        "DRAGON_TAIL_FAST",
++        "SNARL_FAST"
+       ],
+-      "fastMoveIds": [],
+       "chargedMoveIds": [
+-        "STRUGGLE"
++        "DRAGON_CLAW",
++        "BRUTAL_SWING",
++        "CRUNCH",
++        "SLUDGE_BOMB"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 65.65198314189904,
+           "max": 68.44568455219262
+         },
+         "great": {
+           "rankOne": 111.4888153637044,
+           "max": 120.07740193605412
+         },
+         "ultra": {
+           "rankOne": 143.7233802679825,
+           "max": 155.7816245555876
+         },
+         "master": {
+           "rankOne": 171.59590381383896,
+           "max": 171.59590381383896
+         }
+       }
+     },
+@@ -36967,40 +36973,46 @@
+     "HEAVY_SLAM": {
+       "name": "Heavy Slam",
+       "type": "steel",
+       "energy": -50,
+       "damage": 70
+     },
+     "HEX_FAST": {
+       "name": "Hex",
+       "type": "ghost",
+       "energy": 12,
+       "damage": 6,
+       "turns": 3
+     },
+     "HIDDEN_POWER_FAST": {
+       "name": "Hidden Power",
+       "type": "normal",
+       "energy": 8,
+       "damage": 9,
+       "turns": 3
+     },
++    "HIGH_HORSEPOWER": {
++      "name": "High Horsepower",
++      "type": "ground",
++      "energy": -60,
++      "damage": 100
++    },
+     "HORN_ATTACK": {
+       "name": "Horn Attack",
+       "type": "normal",
+       "energy": -35,
+       "damage": 40
+     },
+     "HURRICANE": {
+       "name": "Hurricane",
+       "type": "flying",
+       "energy": -65,
+       "damage": 110
+     },
+     "HYDRO_CANNON": {
+       "name": "Hydro Cannon",
+       "type": "water",
+       "energy": -40,
+       "damage": 80
+     },
+     "HYDRO_PUMP": {
+       "name": "Hydro Pump",
+@@ -42523,40 +42535,46 @@
+         5
+       ],
+       "AQUA_TAIL": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "BLIZZARD": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "BRICK_BREAK": [
+         4,
+         4,
+         4,
+         4
+       ],
++      "BRUTAL_SWING": [
++        5,
++        4,
++        5,
++        4
++      ],
+       "BULLDOZE": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "CLOSE_COMBAT": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "CROSS_POISON": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "CRUNCH": [
+         5,
+@@ -42787,40 +42805,46 @@
+         4
+       ],
+       "SEED_BOMB": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "SHADOW_BALL": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "SKY_ATTACK": [
+         5,
+         5,
+         5,
+         5
+       ],
++      "SLUDGE_BOMB": [
++        6,
++        6,
++        5,
++        6
++      ],
+       "SLUDGE_WAVE": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "SOLAR_BEAM": [
+         9,
+         9,
+         9,
+         9
+       ],
+       "STOMP": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "STONE_EDGE": [
+         7,
+@@ -52509,40 +52533,46 @@
+         3
+       ],
+       "BLIZZARD": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "BODY_SLAM": [
+         3,
+         3,
+         3,
+         2
+       ],
+       "BRAVE_BIRD": [
+         5,
+         4,
+         4,
+         4
+       ],
++      "BRUTAL_SWING": [
++        4,
++        3,
++        3,
++        3
++      ],
+       "BUBBLE_BEAM": [
+         4,
+         3,
+         3,
+         3
+       ],
+       "BULLDOZE": [
+         5,
+         5,
+         4,
+         5
+       ],
+       "CLOSE_COMBAT": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "CRABHAMMER": [
+         4,

@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 76695e2..e20e289 100644
+index 76695e2..a59a674 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1666728292213,
-+  "timestamp": 1667606862660,
++  "timestamp": 1667951959754,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -81,7 +81,83 @@ index 76695e2..e20e289 100644
          }
        }
      },
-@@ -36967,40 +36973,46 @@
+@@ -33385,40 +33391,75 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 73.79846366332801,
+           "max": 82.0681114196776
+         },
+         "great": {
+           "rankOne": 127.64030283689499,
+           "max": 127.64030283689499
+         },
+         "ultra": {
+           "rankOne": 127.64030283689499,
+           "max": 127.64030283689499
+         },
+         "master": {
+           "rankOne": 127.64030283689499,
+           "max": 127.64030283689499
+         }
+       }
+     },
++    {
++      "name": "Ursaluna",
++      "types": [
++        "ground",
++        "normal"
++      ],
++      "fastMoveIds": [
++        "ROCK_SMASH_FAST",
++        "TACKLE_FAST"
++      ],
++      "chargedMoveIds": [
++        "FIRE_PUNCH",
++        "THUNDER_PUNCH",
++        "AERIAL_ACE",
++        "RETURN"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 72.27222114801393,
++          "max": 74.88447010517106
++        },
++        "great": {
++          "rankOne": 123.61452693739005,
++          "max": 131.24505329154994
++        },
++        "ultra": {
++          "rankOne": 159.68229484558103,
++          "max": 168.84439373016355
++        },
++        "master": {
++          "rankOne": 218.08740484714508,
++          "max": 218.08740484714508
++        }
++      }
++    },
+     {
+       "name": "Ursaring",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
+         "COUNTER_FAST",
+         "METAL_CLAW_FAST",
+         "SHADOW_CLAW_FAST"
+       ],
+       "chargedMoveIds": [
+         "CLOSE_COMBAT",
+         "PLAY_ROUGH",
+         "RETURN",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 79.50047265393324,
+           "max": 84.19670310606432
+@@ -36967,40 +37008,46 @@
      "HEAVY_SLAM": {
        "name": "Heavy Slam",
        "type": "steel",
@@ -128,7 +204,7 @@ index 76695e2..e20e289 100644
      },
      "HYDRO_PUMP": {
        "name": "Hydro Pump",
-@@ -42523,40 +42535,46 @@
+@@ -42523,40 +42570,46 @@
          5
        ],
        "AQUA_TAIL": [
@@ -175,7 +251,7 @@ index 76695e2..e20e289 100644
        ],
        "CRUNCH": [
          5,
-@@ -42787,40 +42805,46 @@
+@@ -42787,40 +42840,46 @@
          4
        ],
        "SEED_BOMB": [
@@ -222,7 +298,7 @@ index 76695e2..e20e289 100644
        ],
        "STONE_EDGE": [
          7,
-@@ -52509,40 +52533,46 @@
+@@ -52509,40 +52568,46 @@
          3
        ],
        "BLIZZARD": [
@@ -269,3 +345,50 @@ index 76695e2..e20e289 100644
        ],
        "CRABHAMMER": [
          4,
+@@ -54381,40 +54446,46 @@
+         34
+       ],
+       "SUPER_POWER": [
+         14,
+         13,
+         13,
+         14
+       ],
+       "SWIFT": [
+         19,
+         18,
+         18,
+         19
+       ],
+       "THUNDER": [
+         20,
+         20,
+         20,
+         20
+       ],
++      "THUNDER_PUNCH": [
++        14,
++        13,
++        13,
++        14
++      ],
+       "THUNDERBOLT": [
+         19,
+         18,
+         18,
+         19
+       ],
+       "TRI_ATTACK": [
+         17,
+         17,
+         16,
+         17
+       ],
+       "TWISTER": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "WATER_PULSE": [
+         20,

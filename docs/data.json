@@ -1,5 +1,5 @@
 {
-  "timestamp": 1667606862660,
+  "timestamp": 1667951959754,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -33409,6 +33409,41 @@
       }
     },
     {
+      "name": "Ursaluna",
+      "types": [
+        "ground",
+        "normal"
+      ],
+      "fastMoveIds": [
+        "ROCK_SMASH_FAST",
+        "TACKLE_FAST"
+      ],
+      "chargedMoveIds": [
+        "FIRE_PUNCH",
+        "THUNDER_PUNCH",
+        "AERIAL_ACE",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 72.27222114801393,
+          "max": 74.88447010517106
+        },
+        "great": {
+          "rankOne": 123.61452693739005,
+          "max": 131.24505329154994
+        },
+        "ultra": {
+          "rankOne": 159.68229484558103,
+          "max": 168.84439373016355
+        },
+        "master": {
+          "rankOne": 218.08740484714508,
+          "max": 218.08740484714508
+        }
+      }
+    },
+    {
       "name": "Ursaring",
       "types": [
         "normal"
@@ -54427,6 +54462,12 @@
         20,
         20,
         20
+      ],
+      "THUNDER_PUNCH": [
+        14,
+        13,
+        13,
+        14
       ],
       "THUNDERBOLT": [
         19,

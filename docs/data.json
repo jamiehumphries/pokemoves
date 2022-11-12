@@ -1,5 +1,5 @@
 {
-  "timestamp": 1668015405606,
+  "timestamp": 1668209419936,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -12329,7 +12329,8 @@
       "chargedMoveIds": [
         "BRICK_BREAK",
         "SHADOW_PUNCH",
-        "NIGHT_SHADE"
+        "NIGHT_SHADE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -12399,7 +12400,8 @@
       "chargedMoveIds": [
         "SHADOW_PUNCH",
         "DYNAMIC_PUNCH",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -20962,7 +20964,8 @@
       "chargedMoveIds": [
         "DRILL_PECK",
         "PSYSHOCK",
-        "NIGHT_SHADE"
+        "NIGHT_SHADE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -33426,20 +33429,20 @@
       ],
       "cmp": {
         "little": {
-          "rankOne": 72.27222114801393,
-          "max": 74.88447010517106
+          "rankOne": 73.57967251610685,
+          "max": 77.40909785151763
         },
         "great": {
-          "rankOne": 123.61452693739005,
-          "max": 131.24505329154994
+          "rankOne": 127.05840492462337,
+          "max": 134.14344609142393
         },
         "ultra": {
-          "rankOne": 159.68229484558103,
-          "max": 168.84439373016355
+          "rankOne": 164.67030972242344,
+          "max": 172.62835443019856
         },
         "master": {
-          "rankOne": 218.08740484714508,
-          "max": 218.08740484714508
+          "rankOne": 240.06520533561707,
+          "max": 240.06520533561707
         }
       }
     },
@@ -34505,7 +34508,8 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "HEAVY_SLAM",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -34537,6 +34541,7 @@
       ],
       "chargedMoveIds": [
         "SURF",
+        "RETURN",
         "BLIZZARD",
         "HYPER_BEAM"
       ],
@@ -35459,7 +35464,8 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "OMINOUS_WIND",
-        "FUTURESIGHT"
+        "FUTURESIGHT",
+        "RETURN"
       ],
       "cmp": {
         "little": {

@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 76695e2..c3d67b3 100644
+index 76695e2..b911ff1 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1666728292213,
-+  "timestamp": 1668015405606,
++  "timestamp": 1668209419936,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,7 +26,95 @@ index 76695e2..c3d67b3 100644
        ],
        "cmp": {
          "little": {
-@@ -13460,45 +13460,51 @@
+@@ -12312,41 +12312,42 @@
+         },
+         "master": {
+           "rankOne": 191.0378042459488,
+           "max": 191.0378042459488
+         }
+       }
+     },
+     {
+       "name": "Golett",
+       "types": [
+         "ground",
+         "ghost"
+       ],
+       "fastMoveIds": [
+         "ASTONISH_FAST",
+         "MUD_SLAP_FAST"
+       ],
+       "chargedMoveIds": [
+         "BRICK_BREAK",
+         "SHADOW_PUNCH",
+-        "NIGHT_SHADE"
++        "NIGHT_SHADE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 68.91474180325484,
+           "max": 77.05427823671013
+         },
+         "great": {
+           "rankOne": 120.03260266780853,
+           "max": 120.03260266780853
+         },
+         "ultra": {
+           "rankOne": 120.03260266780853,
+           "max": 120.03260266780853
+         },
+         "master": {
+           "rankOne": 120.03260266780853,
+           "max": 120.03260266780853
+         }
+       }
+     },
+@@ -12382,41 +12383,42 @@
+         },
+         "master": {
+           "rankOne": 196.95490437746048,
+           "max": 196.95490437746048
+         }
+       }
+     },
+     {
+       "name": "Golurk",
+       "types": [
+         "ground",
+         "ghost"
+       ],
+       "fastMoveIds": [
+         "ASTONISH_FAST",
+         "MUD_SLAP_FAST"
+       ],
+       "chargedMoveIds": [
+         "SHADOW_PUNCH",
+         "DYNAMIC_PUNCH",
+-        "EARTH_POWER"
++        "EARTH_POWER",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 77.52521413564673,
+           "max": 80.66812822222701
+         },
+         "great": {
+           "rankOne": 132.13489228290894,
+           "max": 140.98640227317796
+         },
+         "ultra": {
+           "rankOne": 170.36217069625835,
+           "max": 182.56045393126684
+         },
+         "master": {
+           "rankOne": 200.33610445261002,
+           "max": 200.33610445261002
+         }
+       }
+     },
+@@ -13460,45 +13462,51 @@
            "max": 76.71691703796384
          },
          "great": {
@@ -81,7 +169,51 @@ index 76695e2..c3d67b3 100644
          }
        }
      },
-@@ -33385,40 +33391,75 @@
+@@ -20939,41 +20947,42 @@
+         },
+         "master": {
+           "rankOne": 234.99340522289276,
+           "max": 234.99340522289276
+         }
+       }
+     },
+     {
+       "name": "Natu",
+       "types": [
+         "psychic",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "PECK_FAST",
+         "QUICK_ATTACK_FAST"
+       ],
+       "chargedMoveIds": [
+         "DRILL_PECK",
+         "PSYSHOCK",
+-        "NIGHT_SHADE"
++        "NIGHT_SHADE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 75.44213092414175,
+           "max": 84.44642347097388
+         },
+         "great": {
+           "rankOne": 125.94970279932022,
+           "max": 125.94970279932022
+         },
+         "ultra": {
+           "rankOne": 125.94970279932022,
+           "max": 125.94970279932022
+         },
+         "master": {
+           "rankOne": 125.94970279932022,
+           "max": 125.94970279932022
+         }
+       }
+     },
+@@ -33385,40 +33394,75 @@
        ],
        "cmp": {
          "little": {
@@ -120,20 +252,20 @@ index 76695e2..c3d67b3 100644
 +      ],
 +      "cmp": {
 +        "little": {
-+          "rankOne": 72.27222114801393,
-+          "max": 74.88447010517106
++          "rankOne": 73.57967251610685,
++          "max": 77.40909785151763
 +        },
 +        "great": {
-+          "rankOne": 123.61452693739005,
-+          "max": 131.24505329154994
++          "rankOne": 127.05840492462337,
++          "max": 134.14344609142393
 +        },
 +        "ultra": {
-+          "rankOne": 159.68229484558103,
-+          "max": 168.84439373016355
++          "rankOne": 164.67030972242344,
++          "max": 172.62835443019856
 +        },
 +        "master": {
-+          "rankOne": 218.08740484714508,
-+          "max": 218.08740484714508
++          "rankOne": 240.06520533561707,
++          "max": 240.06520533561707
 +        }
 +      }
 +    },
@@ -157,7 +289,127 @@ index 76695e2..c3d67b3 100644
          "little": {
            "rankOne": 79.50047265393324,
            "max": 84.19670310606432
-@@ -36967,40 +37008,46 @@
+@@ -34447,72 +34491,74 @@
+           "max": 93.82830208539963
+         },
+         "master": {
+           "rankOne": 93.82830208539963,
+           "max": 93.82830208539963
+         }
+       }
+     },
+     {
+       "name": "Wailmer",
+       "types": [
+         "water"
+       ],
+       "fastMoveIds": [
+         "SPLASH_FAST",
+         "WATER_GUN_FAST"
+       ],
+       "chargedMoveIds": [
+         "BODY_SLAM",
+         "HEAVY_SLAM",
+-        "WATER_PULSE"
++        "WATER_PULSE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 66.75639019522508,
+           "max": 74.1192273491102
+         },
+         "great": {
+           "rankOne": 114.62130714872572,
+           "max": 127.64030283689499
+         },
+         "ultra": {
+           "rankOne": 127.64030283689499,
+           "max": 127.64030283689499
+         },
+         "master": {
+           "rankOne": 127.64030283689499,
+           "max": 127.64030283689499
+         }
+       }
+     },
+     {
+       "name": "Wailord",
+       "types": [
+         "water"
+       ],
+       "fastMoveIds": [
+         "WATER_GUN_FAST",
+         "ZEN_HEADBUTT_FAST"
+       ],
+       "chargedMoveIds": [
+         "SURF",
++        "RETURN",
+         "BLIZZARD",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 67.8286719399044,
+           "max": 73.64255810618192
+         },
+         "great": {
+           "rankOne": 116.88845008611679,
+           "max": 127.49597896596461
+         },
+         "ultra": {
+           "rankOne": 153.8446034193039,
+           "max": 160.60700356960297
+         },
+         "master": {
+           "rankOne": 160.60700356960297,
+           "max": 160.60700356960297
+         }
+@@ -35401,41 +35447,42 @@
+         },
+         "master": {
+           "rankOne": 47.336801052093506,
+           "max": 47.336801052093506
+         }
+       }
+     },
+     {
+       "name": "Xatu",
+       "types": [
+         "psychic",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "AIR_SLASH_FAST",
+         "FEINT_ATTACK_FAST"
+       ],
+       "chargedMoveIds": [
+         "AERIAL_ACE",
+         "OMINOUS_WIND",
+-        "FUTURESIGHT"
++        "FUTURESIGHT",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.71691703796384,
+           "max": 81.11215707659719
+         },
+         "great": {
+           "rankOne": 130.78366470336903,
+           "max": 141.00113850831974
+         },
+         "ultra": {
+           "rankOne": 174.1318038702011,
+           "max": 174.9771038889885
+         },
+         "master": {
+           "rankOne": 174.9771038889885,
+           "max": 174.9771038889885
+         }
+       }
+     },
+@@ -36967,40 +37014,46 @@
      "HEAVY_SLAM": {
        "name": "Heavy Slam",
        "type": "steel",
@@ -204,7 +456,7 @@ index 76695e2..c3d67b3 100644
      },
      "HYDRO_PUMP": {
        "name": "Hydro Pump",
-@@ -42523,40 +42570,46 @@
+@@ -42523,40 +42576,46 @@
          5
        ],
        "AQUA_TAIL": [
@@ -251,7 +503,7 @@ index 76695e2..c3d67b3 100644
        ],
        "CRUNCH": [
          5,
-@@ -42787,40 +42840,46 @@
+@@ -42787,40 +42846,46 @@
          4
        ],
        "SEED_BOMB": [
@@ -298,7 +550,7 @@ index 76695e2..c3d67b3 100644
        ],
        "STONE_EDGE": [
          7,
-@@ -52509,40 +52568,46 @@
+@@ -52509,40 +52574,46 @@
          3
        ],
        "BLIZZARD": [
@@ -345,7 +597,7 @@ index 76695e2..c3d67b3 100644
        ],
        "CRABHAMMER": [
          4,
-@@ -54381,40 +54446,46 @@
+@@ -54381,40 +54452,46 @@
          34
        ],
        "SUPER_POWER": [

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1668227643299,
+  "timestamp": 1668651349399,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -33425,6 +33425,7 @@
         "FIRE_PUNCH",
         "THUNDER_PUNCH",
         "AERIAL_ACE",
+        "HIGH_HORSEPOWER",
         "RETURN"
       ],
       "cmp": {
@@ -51127,6 +51128,12 @@
         7,
         7
       ],
+      "HIGH_HORSEPOWER": [
+        9,
+        9,
+        8,
+        9
+      ],
       "HORN_ATTACK": [
         5,
         5,
@@ -54192,6 +54199,12 @@
         17,
         16,
         17
+      ],
+      "HIGH_HORSEPOWER": [
+        20,
+        20,
+        20,
+        20
       ],
       "HORN_ATTACK": [
         12,

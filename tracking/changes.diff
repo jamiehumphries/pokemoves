@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 6779104..10ba9e0 100644
+index 6779104..fd97583 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1668651349399,
-+  "timestamp": 1669677831009,
++  "timestamp": 1669767881590,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,3 +26,311 @@ index 6779104..10ba9e0 100644
        ],
        "cmp": {
          "little": {
+@@ -3232,40 +3232,78 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 83.81104230880727,
+           "max": 87.30316907167425
+         },
+         "great": {
+           "rankOne": 142.16298678652254,
+           "max": 152.33700245618806
+         },
+         "ultra": {
+           "rankOne": 183.53688484430293,
+           "max": 197.16255873441676
+         },
+         "master": {
+           "rankOne": 215.55150479078293,
+           "max": 215.55150479078293
+         }
+       }
+     },
++    {
++      "name": "Blaziken (Mega)",
++      "types": [
++        "fire",
++        "fighting"
++      ],
++      "fastMoveIds": [
++        "COUNTER_FAST",
++        "FIRE_SPIN_FAST"
++      ],
++      "chargedMoveIds": [
++        "BLAZE_KICK",
++        "BLAST_BURN",
++        "BRAVE_BIRD",
++        "OVERHEAT",
++        "STONE_EDGE",
++        "RETURN",
++        "FOCUS_BLAST"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 94.09445109866454,
++          "max": 96.36296153068524
++        },
++        "great": {
++          "rankOne": 161.49156157521364,
++          "max": 168.85439872909873
++        },
++        "ultra": {
++          "rankOne": 206.76715135574324,
++          "max": 218.46265751123406
++        },
++        "master": {
++          "rankOne": 290.7832064628601,
++          "max": 290.7832064628601
++        }
++      }
++    },
+     {
+       "name": "Blipbug",
+       "types": [
+         "bug"
+       ],
+       "fastMoveIds": [
+         "STRUGGLE_BUG_FAST"
+       ],
+       "chargedMoveIds": [
+         "STRUGGLE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 51.563301146030426,
+           "max": 51.563301146030426
+         },
+         "great": {
+           "rankOne": 51.563301146030426,
+           "max": 51.563301146030426
+         },
+@@ -11913,40 +11951,73 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 66.32816785573957,
+           "max": 70.72340789437291
+         },
+         "great": {
+           "rankOne": 113.48794871103244,
+           "max": 122.86342656612386
+         },
+         "ultra": {
+           "rankOne": 149.61810332536697,
+           "max": 149.61810332536697
+         },
+         "master": {
+           "rankOne": 149.61810332536697,
+           "max": 149.61810332536697
+         }
+       }
+     },
++    {
++      "name": "Glalie (Mega)",
++      "types": [
++        "ice"
++      ],
++      "fastMoveIds": [
++        "FROST_BREATH_FAST",
++        "ICE_SHARD_FAST"
++      ],
++      "chargedMoveIds": [
++        "AVALANCHE",
++        "SHADOW_BALL",
++        "GYRO_BALL"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 80.91407489776607,
++          "max": 85.73038887977596
++        },
++        "great": {
++          "rankOne": 140.82531105839792,
++          "max": 149.20777004996924
++        },
++        "ultra": {
++          "rankOne": 181.2885718345642,
++          "max": 192.27753849773848
++        },
++        "master": {
++          "rankOne": 225.69510501623154,
++          "max": 225.69510501623154
++        }
++      }
++    },
+     {
+       "name": "Glameow",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
+         "QUICK_ATTACK_FAST",
+         "SCRATCH_FAST"
+       ],
+       "chargedMoveIds": [
+         "AERIAL_ACE",
+         "THUNDERBOLT",
+         "PLAY_ROUGH"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 67.51504805169945,
+           "max": 76.8061097101902
+         },
+         "great": {
+@@ -26817,40 +26888,76 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 77.87442681193343,
+           "max": 83.11261695623388
+         },
+         "great": {
+           "rankOne": 134.8756756229623,
+           "max": 143.94803048549338
+         },
+         "ultra": {
+           "rankOne": 173.70200330018994,
+           "max": 186.7435998916624
+         },
+         "master": {
+           "rankOne": 201.1814044713974,
+           "max": 201.1814044713974
+         }
+       }
+     },
++    {
++      "name": "Sceptile (Mega)",
++      "types": [
++        "grass",
++        "dragon"
++      ],
++      "fastMoveIds": [
++        "BULLET_SEED_FAST",
++        "FURY_CUTTER_FAST"
++      ],
++      "chargedMoveIds": [
++        "DRAGON_CLAW",
++        "LEAF_BLADE",
++        "AERIAL_ACE",
++        "FRENZY_PLANT",
++        "EARTHQUAKE"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 92.87996292114241,
++          "max": 96.36296153068524
++        },
++        "great": {
++          "rankOne": 158.05557090340056,
++          "max": 167.45257705450044
++        },
++        "ultra": {
++          "rankOne": 203.4013873009005,
++          "max": 215.64446077945146
++        },
++        "master": {
++          "rankOne": 283.17550629377365,
++          "max": 283.17550629377365
++        }
++      }
++    },
+     {
+       "name": "Scizor",
+       "types": [
+         "bug",
+         "steel"
+       ],
+       "fastMoveIds": [
+         "BULLET_PUNCH_FAST",
+         "FURY_CUTTER_FAST"
+       ],
+       "chargedMoveIds": [
+         "NIGHT_SLASH",
+         "X_SCISSOR",
+         "IRON_HEAD",
+         "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 79.16502762163817,
+           "max": 84.19670310606432
+@@ -31211,40 +31318,77 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.77256671737601,
+           "max": 74.80424220180217
+         },
+         "great": {
+           "rankOne": 121.11401271820053,
+           "max": 129.84819632768614
+         },
+         "ultra": {
+           "rankOne": 156.5676539036108,
+           "max": 167.1967130303382
+         },
+         "master": {
+           "rankOne": 188.50190418958664,
+           "max": 188.50190418958664
+         }
+       }
+     },
++    {
++      "name": "Swampert (Mega)",
++      "types": [
++        "water",
++        "ground"
++      ],
++      "fastMoveIds": [
++        "MUD_SHOT_FAST",
++        "WATER_GUN_FAST"
++      ],
++      "chargedMoveIds": [
++        "MUDDY_WATER",
++        "HYDRO_CANNON",
++        "SURF",
++        "EARTHQUAKE",
++        "SLUDGE_WAVE",
++        "RETURN"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 77.6826282326184,
++          "max": 81.51205356802916
++        },
++        "great": {
++          "rankOne": 134.14344609142393,
++          "max": 140.7561511804378
++        },
++        "ultra": {
++          "rankOne": 173.8526690006255,
++          "max": 182.42287099361405
++        },
++        "master": {
++          "rankOne": 251.89940559864044,
++          "max": 251.89940559864044
++        }
++      }
++    },
+     {
+       "name": "Swanna",
+       "types": [
+         "water",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "AIR_SLASH_FAST",
+         "WATER_GUN_FAST"
+       ],
+       "chargedMoveIds": [
+         "BUBBLE_BEAM",
+         "ICE_BEAM",
+         "HURRICANE",
+         "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 73.52037882804868,
+           "max": 78.71475341916081

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1670277463006,
+  "timestamp": 1670529544851,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -15811,6 +15811,7 @@
         "POISON_JAB_FAST"
       ],
       "chargedMoveIds": [
+        "SACRED_SWORD",
         "X_SCISSOR",
         "AQUA_JET",
         "CLOSE_COMBAT",
@@ -47574,6 +47575,12 @@
         12,
         12
       ],
+      "SACRED_SWORD": [
+        7,
+        7,
+        7,
+        7
+      ],
       "SKY_ATTACK": [
         9,
         9,
@@ -49361,6 +49368,12 @@
         6,
         7,
         6
+      ],
+      "SACRED_SWORD": [
+        5,
+        5,
+        5,
+        5
       ],
       "SAND_TOMB": [
         6,

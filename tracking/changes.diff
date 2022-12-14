@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index d0bdaff..f85bbfd 100644
+index d0bdaff..d50219f 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1669949093208,
-+  "timestamp": 1670614367937,
++  "timestamp": 1670974929423,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,7 +26,83 @@ index d0bdaff..f85bbfd 100644
        ],
        "cmp": {
          "little": {
-@@ -15794,40 +15794,41 @@
+@@ -2134,40 +2134,75 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 64.21751976013181,
+           "max": 67.74948334693906
+         },
+         "great": {
+           "rankOne": 110.64845868874123,
+           "max": 117.91325648143635
+         },
+         "ultra": {
+           "rankOne": 142.2128209266292,
+           "max": 151.79320895671844
+         },
+         "master": {
+           "rankOne": 178.35830396413803,
+           "max": 178.35830396413803
+         }
+       }
+     },
++    {
++      "name": "Avalugg (Hisuian)",
++      "types": [
++        "ice",
++        "rock"
++      ],
++      "fastMoveIds": [
++        "BITE_FAST",
++        "POWDER_SNOW_FAST",
++        "TACKLE_FAST"
++      ],
++      "chargedMoveIds": [
++        "CRUNCH",
++        "ROCK_SLIDE",
++        "BLIZZARD"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 67.9447386565416,
++          "max": 70.08714032589201
++        },
++        "great": {
++          "rankOne": 116.12405311729555,
++          "max": 122.36714136600474
++        },
++        "ultra": {
++          "rankOne": 149.24088537693012,
++          "max": 158.26475286483753
++        },
++        "master": {
++          "rankOne": 193.57370430231094,
++          "max": 193.57370430231094
++        }
++      }
++    },
+     {
+       "name": "Axew",
+       "types": [
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL_FAST",
+         "SCRATCH_FAST"
+       ],
+       "chargedMoveIds": [
+         "AQUA_TAIL",
+         "DRAGON_CLAW",
+         "DRAGON_PULSE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.97819960117333,
+           "max": 85.46189516659065
+         },
+         "great": {
+@@ -15794,40 +15829,41 @@
            "rankOne": 148.7728033065796,
            "max": 148.7728033065796
          },
@@ -68,7 +144,54 @@ index d0bdaff..f85bbfd 100644
          },
          "master": {
            "rankOne": 232.4575051665306,
-@@ -47557,40 +47558,46 @@
+@@ -39249,40 +39285,46 @@
+         22
+       ],
+       "AQUA_JET": [
+         23,
+         22,
+         23,
+         22
+       ],
+       "AQUA_TAIL": [
+         18,
+         17,
+         18,
+         17
+       ],
+       "AVALANCHE": [
+         23,
+         22,
+         23,
+         22
+       ],
++      "BLIZZARD": [
++        38,
++        37,
++        38,
++        37
++      ],
+       "BODY_SLAM": [
+         18,
+         17,
+         18,
+         17
+       ],
+       "BRICK_BREAK": [
+         18,
+         17,
+         18,
+         17
+       ],
+       "BRINE": [
+         25,
+         25,
+         25,
+         25
+       ],
+       "BRUTAL_SWING": [
+         20,
+@@ -47557,40 +47599,46 @@
          11
        ],
        "RETURN": [
@@ -115,7 +238,7 @@ index d0bdaff..f85bbfd 100644
        ],
        "STONE_EDGE": [
          11,
-@@ -49345,40 +49352,46 @@
+@@ -49345,40 +49393,46 @@
          5
        ],
        "PSYSHOCK": [

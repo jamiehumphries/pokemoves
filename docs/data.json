@@ -1,5 +1,5 @@
 {
-  "timestamp": 1670614367937,
+  "timestamp": 1670974929423,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -2148,6 +2148,41 @@
         "master": {
           "rankOne": 178.35830396413803,
           "max": 178.35830396413803
+        }
+      }
+    },
+    {
+      "name": "Avalugg (Hisuian)",
+      "types": [
+        "ice",
+        "rock"
+      ],
+      "fastMoveIds": [
+        "BITE_FAST",
+        "POWDER_SNOW_FAST",
+        "TACKLE_FAST"
+      ],
+      "chargedMoveIds": [
+        "CRUNCH",
+        "ROCK_SLIDE",
+        "BLIZZARD"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 67.9447386565416,
+          "max": 70.08714032589201
+        },
+        "great": {
+          "rankOne": 116.12405311729555,
+          "max": 122.36714136600474
+        },
+        "ultra": {
+          "rankOne": 149.24088537693012,
+          "max": 158.26475286483753
+        },
+        "master": {
+          "rankOne": 193.57370430231094,
+          "max": 193.57370430231094
         }
       }
     },
@@ -39266,6 +39301,12 @@
         22,
         23,
         22
+      ],
+      "BLIZZARD": [
+        38,
+        37,
+        38,
+        37
       ],
       "BODY_SLAM": [
         18,

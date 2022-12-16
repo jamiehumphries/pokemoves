@@ -1,5 +1,5 @@
 {
-  "timestamp": 1671056742100,
+  "timestamp": 1671141270871,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -30262,8 +30262,7 @@
         "bug"
       ],
       "fastMoveIds": [
-        "BUG_BITE_FAST",
-        "TACKLE_FAST"
+        "STRUGGLE_BUG_FAST"
       ],
       "chargedMoveIds": [
         "STRUGGLE"
@@ -34389,7 +34388,6 @@
         "flying"
       ],
       "fastMoveIds": [
-        "BUG_BITE_FAST",
         "GUST_FAST",
         "STRUGGLE_BUG_FAST"
       ],
@@ -37174,6 +37172,12 @@
       "type": "normal",
       "energy": -80,
       "damage": 150
+    },
+    "GLACIATE": {
+      "name": "Glaciate",
+      "type": "ice",
+      "energy": -40,
+      "damage": 60
     },
     "GRASS_KNOT": {
       "name": "Grass Knot",

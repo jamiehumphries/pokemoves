@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index d0bdaff..54eeedc 100644
+index d0bdaff..751dcdf 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1669949093208,
-+  "timestamp": 1671056742100,
++  "timestamp": 1671141270871,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -144,7 +144,140 @@ index d0bdaff..54eeedc 100644
          },
          "master": {
            "rankOne": 232.4575051665306,
-@@ -39249,40 +39285,46 @@
+@@ -30209,42 +30245,41 @@
+         "great": {
+           "rankOne": 148.13956308888638,
+           "max": 156.97591781616185
+         },
+         "ultra": {
+           "rankOne": 191.248209864888,
+           "max": 203.58265113830564
+         },
+         "master": {
+           "rankOne": 243.4464054107666,
+           "max": 243.4464054107666
+         }
+       }
+     },
+     {
+       "name": "Spewpa",
+       "types": [
+         "bug"
+       ],
+       "fastMoveIds": [
+-        "BUG_BITE_FAST",
+-        "TACKLE_FAST"
++        "STRUGGLE_BUG_FAST"
+       ],
+       "chargedMoveIds": [
+         "STRUGGLE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 48.73740136623379,
+           "max": 53.253901183605194
+         },
+         "great": {
+           "rankOne": 53.253901183605194,
+           "max": 53.253901183605194
+         },
+         "ultra": {
+           "rankOne": 53.253901183605194,
+           "max": 53.253901183605194
+         },
+         "master": {
+           "rankOne": 53.253901183605194,
+           "max": 53.253901183605194
+@@ -34336,41 +34371,40 @@
+           "rankOne": 111.79755020141587,
+           "max": 118.93581364412763
+         },
+         "ultra": {
+           "rankOne": 143.38199207087655,
+           "max": 153.34261394164648
+         },
+         "master": {
+           "rankOne": 174.9771038889885,
+           "max": 174.9771038889885
+         }
+       }
+     },
+     {
+       "name": "Vivillon",
+       "types": [
+         "bug",
+         "flying"
+       ],
+       "fastMoveIds": [
+-        "BUG_BITE_FAST",
+         "GUST_FAST",
+         "STRUGGLE_BUG_FAST"
+       ],
+       "chargedMoveIds": [
+         "AERIAL_ACE",
+         "ENERGY_BALL",
+         "BUG_BUZZ",
+         "HURRICANE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.19504876023286,
+           "max": 82.68894496138907
+         },
+         "great": {
+           "rankOne": 130.37826112912938,
+           "max": 142.63521086217406
+         },
+         "ultra": {
+           "rankOne": 161.45230358839035,
+@@ -37122,40 +37156,46 @@
+       "turns": 1
+     },
+     "FUTURESIGHT": {
+       "name": "Future Sight",
+       "type": "psychic",
+       "energy": -65,
+       "damage": 120
+     },
+     "GIGA_DRAIN": {
+       "name": "Giga Drain",
+       "type": "grass",
+       "energy": -80,
+       "damage": 50
+     },
+     "GIGA_IMPACT": {
+       "name": "Giga Impact",
+       "type": "normal",
+       "energy": -80,
+       "damage": 150
+     },
++    "GLACIATE": {
++      "name": "Glaciate",
++      "type": "ice",
++      "energy": -40,
++      "damage": 60
++    },
+     "GRASS_KNOT": {
+       "name": "Grass Knot",
+       "type": "grass",
+       "energy": -50,
+       "damage": 90
+     },
+     "GUNK_SHOT": {
+       "name": "Gunk Shot",
+       "type": "poison",
+       "energy": -75,
+       "damage": 130
+     },
+     "GUST_FAST": {
+       "name": "Gust",
+       "type": "flying",
+       "energy": 12,
+       "damage": 16,
+       "turns": 4
+     },
+     "GYRO_BALL": {
+@@ -39249,40 +39289,46 @@
          22
        ],
        "AQUA_JET": [
@@ -191,7 +324,7 @@ index d0bdaff..54eeedc 100644
        ],
        "BRUTAL_SWING": [
          20,
-@@ -47557,40 +47599,46 @@
+@@ -47557,40 +47603,46 @@
          11
        ],
        "RETURN": [
@@ -238,7 +371,7 @@ index d0bdaff..54eeedc 100644
        ],
        "STONE_EDGE": [
          11,
-@@ -49345,40 +49393,46 @@
+@@ -49345,40 +49397,46 @@
          5
        ],
        "PSYSHOCK": [

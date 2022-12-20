@@ -203,28 +203,3 @@ table {
     }
   }
 }
-
-.message {
-  display: flex;
-  align-items: center;
-  background-color: #a0a0a050;
-  padding: 1rem;
-  border-radius: 1rem;
-  img {
-    margin-right: 1rem;
-    @media (max-width: 480px) {
-      width: 50px;
-    }
-  }
-  p {
-    &:first-of-type {
-      margin-top: 0;
-    }
-    &:last-of-type {
-      margin-bottom: 0;
-    }
-  }
-  a {
-    color: inherit;
-  }
-}

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1671308733210,
+  "timestamp": 1671485776123,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -37154,6 +37154,18 @@
       "energy": 4,
       "damage": 2,
       "turns": 1
+    },
+    "FUSION_BOLT": {
+      "name": "Fusion Bolt",
+      "type": "electric",
+      "energy": -45,
+      "damage": 90
+    },
+    "FUSION_FLARE": {
+      "name": "Fusion Flare",
+      "type": "fire",
+      "energy": -45,
+      "damage": 90
     },
     "FUTURESIGHT": {
       "name": "Future Sight",

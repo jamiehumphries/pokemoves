@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index d0bdaff..751dcdf 100644
+index d0bdaff..bd9f9fd 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1669949093208,
-+  "timestamp": 1671141270871,
++  "timestamp": 1671485776123,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -230,9 +230,39 @@ index d0bdaff..751dcdf 100644
          },
          "ultra": {
            "rankOne": 161.45230358839035,
-@@ -37122,40 +37156,46 @@
+@@ -37104,58 +37138,76 @@
+     "FROST_BREATH_FAST": {
+       "name": "Frost Breath",
+       "type": "ice",
+       "energy": 5,
+       "damage": 7,
+       "turns": 2
+     },
+     "FRUSTRATION": {
+       "name": "Frustration",
+       "type": "normal",
+       "energy": -70,
+       "damage": 10
+     },
+     "FURY_CUTTER_FAST": {
+       "name": "Fury Cutter",
+       "type": "bug",
+       "energy": 4,
+       "damage": 2,
        "turns": 1
      },
++    "FUSION_BOLT": {
++      "name": "Fusion Bolt",
++      "type": "electric",
++      "energy": -45,
++      "damage": 90
++    },
++    "FUSION_FLARE": {
++      "name": "Fusion Flare",
++      "type": "fire",
++      "energy": -45,
++      "damage": 90
++    },
      "FUTURESIGHT": {
        "name": "Future Sight",
        "type": "psychic",
@@ -277,7 +307,7 @@ index d0bdaff..751dcdf 100644
        "turns": 4
      },
      "GYRO_BALL": {
-@@ -39249,40 +39289,46 @@
+@@ -39249,40 +39301,46 @@
          22
        ],
        "AQUA_JET": [
@@ -324,7 +354,7 @@ index d0bdaff..751dcdf 100644
        ],
        "BRUTAL_SWING": [
          20,
-@@ -47557,40 +47603,46 @@
+@@ -47557,40 +47615,46 @@
          11
        ],
        "RETURN": [
@@ -371,7 +401,7 @@ index d0bdaff..751dcdf 100644
        ],
        "STONE_EDGE": [
          11,
-@@ -49345,40 +49397,46 @@
+@@ -49345,40 +49409,46 @@
          5
        ],
        "PSYSHOCK": [

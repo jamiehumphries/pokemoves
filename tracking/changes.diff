@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index d0bdaff..bd9f9fd 100644
+index d0bdaff..5eccdd2 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1669949093208,
-+  "timestamp": 1671485776123,
++  "timestamp": 1671647864983,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -102,7 +102,87 @@ index d0bdaff..bd9f9fd 100644
            "max": 85.46189516659065
          },
          "great": {
-@@ -15794,40 +15829,41 @@
+@@ -11835,75 +11870,77 @@
+         },
+         "master": {
+           "rankOne": 166.52410370111465,
+           "max": 166.52410370111465
+         }
+       }
+     },
+     {
+       "name": "Giratina (Altered)",
+       "types": [
+         "ghost",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "DRAGON_BREATH_FAST",
+         "SHADOW_CLAW_FAST"
+       ],
+       "chargedMoveIds": [
+         "DRAGON_CLAW",
+         "ANCIENT_POWER",
+-        "SHADOW_SNEAK"
++        "SHADOW_SNEAK",
++        "SHADOW_FORCE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 60.04338097572324,
+           "max": 61.82359102982614
+         },
+         "great": {
+           "rankOne": 102.99823379516585,
+           "max": 109.06978820830096
+         },
+         "ultra": {
+           "rankOne": 132.18734639883039,
+           "max": 140.80912154887358
+         },
+         "master": {
+           "rankOne": 170.75060379505157,
+           "max": 170.75060379505157
+         }
+       }
+     },
+     {
+       "name": "Giratina (Origin)",
+       "types": [
+         "ghost",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "DRAGON_TAIL_FAST",
+         "SHADOW_CLAW_FAST"
+       ],
+       "chargedMoveIds": [
+         "OMINOUS_WIND",
+         "SHADOW_BALL",
+-        "DRAGON_PULSE"
++        "DRAGON_PULSE",
++        "SHADOW_FORCE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 68.86291080054892,
+           "max": 71.00531246989934
+         },
+         "great": {
+           "rankOne": 118.33706447354902,
+           "max": 124.17454719543457
+         },
+         "ultra": {
+           "rankOne": 151.78092734043406,
+           "max": 160.5504920312147
+         },
+         "master": {
+           "rankOne": 202.87200450897217,
+           "max": 202.87200450897217
+         }
+       }
+     },
+@@ -15794,40 +15831,41 @@
            "rankOne": 148.7728033065796,
            "max": 148.7728033065796
          },
@@ -144,7 +224,7 @@ index d0bdaff..bd9f9fd 100644
          },
          "master": {
            "rankOne": 232.4575051665306,
-@@ -30209,42 +30245,41 @@
+@@ -30209,42 +30247,41 @@
          "great": {
            "rankOne": 148.13956308888638,
            "max": 156.97591781616185
@@ -188,7 +268,7 @@ index d0bdaff..bd9f9fd 100644
          "master": {
            "rankOne": 53.253901183605194,
            "max": 53.253901183605194
-@@ -34336,41 +34371,40 @@
+@@ -34336,41 +34373,40 @@
            "rankOne": 111.79755020141587,
            "max": 118.93581364412763
          },
@@ -230,7 +310,7 @@ index d0bdaff..bd9f9fd 100644
          },
          "ultra": {
            "rankOne": 161.45230358839035,
-@@ -37104,58 +37138,76 @@
+@@ -37104,58 +37140,76 @@
      "FROST_BREATH_FAST": {
        "name": "Frost Breath",
        "type": "ice",
@@ -307,7 +387,7 @@ index d0bdaff..bd9f9fd 100644
        "turns": 4
      },
      "GYRO_BALL": {
-@@ -39249,40 +39301,46 @@
+@@ -39249,40 +39303,46 @@
          22
        ],
        "AQUA_JET": [
@@ -354,7 +434,101 @@ index d0bdaff..bd9f9fd 100644
        ],
        "BRUTAL_SWING": [
          20,
-@@ -47557,40 +47615,46 @@
+@@ -42655,40 +42715,46 @@
+         19
+       ],
+       "RETURN": [
+         24,
+         23,
+         23,
+         24
+       ],
+       "SAND_TOMB": [
+         14,
+         13,
+         13,
+         14
+       ],
+       "SEED_BOMB": [
+         14,
+         13,
+         13,
+         14
+       ],
++      "SHADOW_FORCE": [
++        30,
++        30,
++        30,
++        30
++      ],
+       "SHADOW_SNEAK": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "SKY_ATTACK": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "SLUDGE_WAVE": [
+         22,
+         22,
+         21,
+         22
+       ],
+       "SOLAR_BEAM": [
+         27,
+@@ -43035,40 +43101,46 @@
+         7
+       ],
+       "SAND_TOMB": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "SEED_BOMB": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "SHADOW_BALL": [
+         7,
+         6,
+         6,
+         6
+       ],
++      "SHADOW_FORCE": [
++        10,
++        10,
++        10,
++        10
++      ],
+       "SKY_ATTACK": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "SLUDGE_BOMB": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "SLUDGE_WAVE": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "SOLAR_BEAM": [
+         9,
+@@ -47557,40 +47629,46 @@
          11
        ],
        "RETURN": [
@@ -401,7 +575,7 @@ index d0bdaff..bd9f9fd 100644
        ],
        "STONE_EDGE": [
          11,
-@@ -49345,40 +49409,46 @@
+@@ -49345,40 +49423,46 @@
          5
        ],
        "PSYSHOCK": [
@@ -448,3 +622,50 @@ index d0bdaff..bd9f9fd 100644
        ],
        "SKY_ATTACK": [
          7,
+@@ -52549,40 +52633,46 @@
+         7
+       ],
+       "SAND_TOMB": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "SEED_BOMB": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "SHADOW_BALL": [
+         7,
+         7,
+         7,
+         7
+       ],
++      "SHADOW_FORCE": [
++        12,
++        11,
++        11,
++        11
++      ],
+       "SHADOW_PUNCH": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "SHADOW_SNEAK": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "SLUDGE_BOMB": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "SLUDGE_WAVE": [
+         9,

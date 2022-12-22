@@ -1,5 +1,5 @@
 {
-  "timestamp": 1671485776123,
+  "timestamp": 1671647864983,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -11887,7 +11887,8 @@
       "chargedMoveIds": [
         "DRAGON_CLAW",
         "ANCIENT_POWER",
-        "SHADOW_SNEAK"
+        "SHADOW_SNEAK",
+        "SHADOW_FORCE"
       ],
       "cmp": {
         "little": {
@@ -11921,7 +11922,8 @@
       "chargedMoveIds": [
         "OMINOUS_WIND",
         "SHADOW_BALL",
-        "DRAGON_PULSE"
+        "DRAGON_PULSE",
+        "SHADOW_FORCE"
       ],
       "cmp": {
         "little": {
@@ -42730,6 +42732,12 @@
         13,
         14
       ],
+      "SHADOW_FORCE": [
+        30,
+        30,
+        30,
+        30
+      ],
       "SHADOW_SNEAK": [
         15,
         15,
@@ -43109,6 +43117,12 @@
         6,
         6,
         6
+      ],
+      "SHADOW_FORCE": [
+        10,
+        10,
+        10,
+        10
       ],
       "SKY_ATTACK": [
         5,
@@ -52635,6 +52649,12 @@
         7,
         7,
         7
+      ],
+      "SHADOW_FORCE": [
+        12,
+        11,
+        11,
+        11
       ],
       "SHADOW_PUNCH": [
         5,

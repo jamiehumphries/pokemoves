@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index d0bdaff..5eccdd2 100644
+index d0bdaff..52209b5 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1669949093208,
-+  "timestamp": 1671647864983,
++  "timestamp": 1672460861017,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -224,7 +224,125 @@ index d0bdaff..5eccdd2 100644
          },
          "master": {
            "rankOne": 232.4575051665306,
-@@ -30209,42 +30247,41 @@
+@@ -16465,40 +16503,75 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 84.79441814123838,
+           "max": 86.435600427843
+         },
+         "great": {
+           "rankOne": 143.4674999117851,
+           "max": 150.40947571396825
+         },
+         "ultra": {
+           "rankOne": 185.1940029859541,
+           "max": 194.75321771566752
+         },
+         "master": {
+           "rankOne": 274.7225061058998,
+           "max": 274.7225061058998
+         }
+       }
+     },
++    {
++      "name": "Kyurem (Normal)",
++      "types": [
++        "dragon",
++        "ice"
++      ],
++      "fastMoveIds": [
++        "DRAGON_BREATH_FAST",
++        "STEEL_WING_FAST"
++      ],
++      "chargedMoveIds": [
++        "DRAGON_CLAW",
++        "GLACIATE",
++        "DRACO_METEOR",
++        "BLIZZARD"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 75.29011580860015,
++          "max": 79.88097652863675
++        },
++        "great": {
++          "rankOne": 129.90779966651826,
++          "max": 137.3290625810621
++        },
++        "ultra": {
++          "rankOne": 167.56657040119157,
++          "max": 178.11039062493268
++        },
++        "master": {
++          "rankOne": 220.62330490350723,
++          "max": 220.62330490350723
++        }
++      }
++    },
+     {
+       "name": "Kyurem (White)",
+       "types": [
+         "dragon",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "DRAGON_BREATH_FAST",
+         "STEEL_WING_FAST"
+       ],
+       "chargedMoveIds": [
+         "ANCIENT_POWER",
+         "DRAGON_PULSE",
+         "BLIZZARD",
+         "FOCUS_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 84.79441814123838,
+           "max": 86.435600427843
+@@ -25580,40 +25653,41 @@
+           "max": 120.03260266780853
+         },
+         "master": {
+           "rankOne": 120.03260266780853,
+           "max": 120.03260266780853
+         }
+       }
+     },
+     {
+       "name": "Reshiram",
+       "types": [
+         "dragon",
+         "fire"
+       ],
+       "fastMoveIds": [
+         "DRAGON_BREATH_FAST",
+         "FIRE_FANG_FAST"
+       ],
+       "chargedMoveIds": [
+         "CRUNCH",
++        "FUSION_FLARE",
+         "OVERHEAT",
+         "STONE_EDGE",
+         "DRACO_METEOR"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 79.81871813535675,
+           "max": 82.72121697664245
+         },
+         "great": {
+           "rankOne": 137.46107071638096,
+           "max": 143.95923042297352
+         },
+         "ultra": {
+           "rankOne": 176.17956250905974,
+           "max": 185.7893568277357
+         },
+         "master": {
+           "rankOne": 245.13700544834137,
+           "max": 245.13700544834137
+@@ -30209,42 +30283,41 @@
          "great": {
            "rankOne": 148.13956308888638,
            "max": 156.97591781616185
@@ -268,7 +386,7 @@ index d0bdaff..5eccdd2 100644
          "master": {
            "rankOne": 53.253901183605194,
            "max": 53.253901183605194
-@@ -34336,41 +34373,40 @@
+@@ -34336,41 +34409,40 @@
            "rankOne": 111.79755020141587,
            "max": 118.93581364412763
          },
@@ -310,7 +428,7 @@ index d0bdaff..5eccdd2 100644
          },
          "ultra": {
            "rankOne": 161.45230358839035,
-@@ -37104,58 +37140,76 @@
+@@ -37104,58 +37176,76 @@
      "FROST_BREATH_FAST": {
        "name": "Frost Breath",
        "type": "ice",
@@ -387,7 +505,7 @@ index d0bdaff..5eccdd2 100644
        "turns": 4
      },
      "GYRO_BALL": {
-@@ -39249,40 +39303,46 @@
+@@ -39249,40 +39339,46 @@
          22
        ],
        "AQUA_JET": [
@@ -434,7 +552,60 @@ index d0bdaff..5eccdd2 100644
        ],
        "BRUTAL_SWING": [
          20,
-@@ -42655,40 +42715,46 @@
+@@ -42559,40 +42655,52 @@
+         19
+       ],
+       "FLASH_CANNON": [
+         24,
+         23,
+         23,
+         24
+       ],
+       "FLY": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "FOCUS_BLAST": [
+         25,
+         25,
+         25,
+         25
+       ],
++      "FUSION_FLARE": [
++        15,
++        15,
++        15,
++        15
++      ],
++      "GLACIATE": [
++        14,
++        13,
++        13,
++        14
++      ],
+       "HURRICANE": [
+         22,
+         22,
+         21,
+         22
+       ],
+       "HYDRO_PUMP": [
+         25,
+         25,
+         25,
+         25
+       ],
+       "HYPER_BEAM": [
+         27,
+         27,
+         26,
+         27
+       ],
+       "IRON_HEAD": [
+         17,
+@@ -42655,40 +42763,46 @@
          19
        ],
        "RETURN": [
@@ -481,7 +652,7 @@ index d0bdaff..5eccdd2 100644
        ],
        "SOLAR_BEAM": [
          27,
-@@ -43035,40 +43101,46 @@
+@@ -43035,40 +43149,46 @@
          7
        ],
        "SAND_TOMB": [
@@ -528,7 +699,54 @@ index d0bdaff..5eccdd2 100644
        ],
        "SOLAR_BEAM": [
          9,
-@@ -47557,40 +47629,46 @@
+@@ -44161,40 +44281,46 @@
+         10
+       ],
+       "FLAMETHROWER": [
+         11,
+         11,
+         11,
+         11
+       ],
+       "FOCUS_BLAST": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "FOUL_PLAY": [
+         9,
+         9,
+         9,
+         9
+       ],
++      "FUSION_FLARE": [
++        9,
++        9,
++        9,
++        9
++      ],
+       "HYDRO_PUMP": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "IRON_HEAD": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "OUTRAGE": [
+         12,
+         12,
+         12,
+         12
+       ],
+       "OVERHEAT": [
+         11,
+@@ -47557,40 +47683,46 @@
          11
        ],
        "RETURN": [
@@ -575,7 +793,7 @@ index d0bdaff..5eccdd2 100644
        ],
        "STONE_EDGE": [
          11,
-@@ -49345,40 +49423,46 @@
+@@ -49345,40 +49477,46 @@
          5
        ],
        "PSYSHOCK": [
@@ -622,7 +840,7 @@ index d0bdaff..5eccdd2 100644
        ],
        "SKY_ATTACK": [
          7,
-@@ -52549,40 +52633,46 @@
+@@ -52549,40 +52687,46 @@
          7
        ],
        "SAND_TOMB": [
@@ -669,3 +887,50 @@ index d0bdaff..5eccdd2 100644
        ],
        "SLUDGE_WAVE": [
          9,
+@@ -53651,40 +53795,46 @@
+         16
+       ],
+       "FLAME_CHARGE": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "FLASH_CANNON": [
+         14,
+         14,
+         14,
+         14
+       ],
+       "FOCUS_BLAST": [
+         15,
+         15,
+         15,
+         15
+       ],
++      "GLACIATE": [
++        8,
++        8,
++        8,
++        8
++      ],
+       "HEAT_WAVE": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "HURRICANE": [
+         13,
+         13,
+         13,
+         13
+       ],
+       "HYPER_BEAM": [
+         16,
+         16,
+         16,
+         16
+       ],
+       "IRON_HEAD": [
+         10,

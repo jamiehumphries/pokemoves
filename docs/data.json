@@ -1,5 +1,5 @@
 {
-  "timestamp": 1671647864983,
+  "timestamp": 1672460861017,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -16521,6 +16521,41 @@
       }
     },
     {
+      "name": "Kyurem (Normal)",
+      "types": [
+        "dragon",
+        "ice"
+      ],
+      "fastMoveIds": [
+        "DRAGON_BREATH_FAST",
+        "STEEL_WING_FAST"
+      ],
+      "chargedMoveIds": [
+        "DRAGON_CLAW",
+        "GLACIATE",
+        "DRACO_METEOR",
+        "BLIZZARD"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 75.29011580860015,
+          "max": 79.88097652863675
+        },
+        "great": {
+          "rankOne": 129.90779966651826,
+          "max": 137.3290625810621
+        },
+        "ultra": {
+          "rankOne": 167.56657040119157,
+          "max": 178.11039062493268
+        },
+        "master": {
+          "rankOne": 220.62330490350723,
+          "max": 220.62330490350723
+        }
+      }
+    },
+    {
       "name": "Kyurem (White)",
       "types": [
         "dragon",
@@ -25635,6 +25670,7 @@
       ],
       "chargedMoveIds": [
         "CRUNCH",
+        "FUSION_FLARE",
         "OVERHEAT",
         "STONE_EDGE",
         "DRACO_METEOR"
@@ -42636,6 +42672,18 @@
         25,
         25
       ],
+      "FUSION_FLARE": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "GLACIATE": [
+        14,
+        13,
+        13,
+        14
+      ],
       "HURRICANE": [
         22,
         22,
@@ -44245,6 +44293,12 @@
         15
       ],
       "FOUL_PLAY": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "FUSION_FLARE": [
         9,
         9,
         9,
@@ -53757,6 +53811,12 @@
         15,
         15,
         15
+      ],
+      "GLACIATE": [
+        8,
+        8,
+        8,
+        8
       ],
       "HEAT_WAVE": [
         15,

@@ -7,6 +7,7 @@ module.exports = {
     "Castform",
     "Deoxys",
     "Genesect (Normal)",
+    "Kyurem (Normal)",
     "Meloetta",
     "Urshifu",
     "Wormadam",

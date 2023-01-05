@@ -16463,6 +16463,7 @@
       ],
       "chargedMoveIds": [
         "DRAGON_CLAW",
+        "GLACIATE",
         "DRACO_METEOR",
         "BLIZZARD"
       ],
@@ -16517,41 +16518,6 @@
         "master": {
           "rankOne": 274.7225061058998,
           "max": 274.7225061058998
-        }
-      }
-    },
-    {
-      "name": "Kyurem (Normal)",
-      "types": [
-        "dragon",
-        "ice"
-      ],
-      "fastMoveIds": [
-        "DRAGON_BREATH_FAST",
-        "STEEL_WING_FAST"
-      ],
-      "chargedMoveIds": [
-        "DRAGON_CLAW",
-        "GLACIATE",
-        "DRACO_METEOR",
-        "BLIZZARD"
-      ],
-      "cmp": {
-        "little": {
-          "rankOne": 75.29011580860015,
-          "max": 79.88097652863675
-        },
-        "great": {
-          "rankOne": 129.90779966651826,
-          "max": 137.3290625810621
-        },
-        "ultra": {
-          "rankOne": 167.56657040119157,
-          "max": 178.11039062493268
-        },
-        "master": {
-          "rankOne": 220.62330490350723,
-          "max": 220.62330490350723
         }
       }
     },

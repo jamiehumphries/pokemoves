@@ -1,5 +1,5 @@
 {
-  "timestamp": 1672460861017,
+  "timestamp": 1672959340311,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -26478,6 +26478,43 @@
         "master": {
           "rankOne": 246.82760548591614,
           "max": 246.82760548591614
+        }
+      }
+    },
+    {
+      "name": "Salamence (Mega)",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "fastMoveIds": [
+        "BITE_FAST",
+        "DRAGON_TAIL_FAST",
+        "FIRE_FANG_FAST"
+      ],
+      "chargedMoveIds": [
+        "OUTRAGE",
+        "DRACO_METEOR",
+        "RETURN",
+        "HYDRO_PUMP",
+        "FIRE_BLAST"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 79.27321523427948,
+          "max": 83.10901597142204
+        },
+        "great": {
+          "rankOne": 137.36333906650543,
+          "max": 144.0099522471428
+        },
+        "ultra": {
+          "rankOne": 178.11643589217184,
+          "max": 186.7349731127608
+        },
+        "master": {
+          "rankOne": 274.7225061058998,
+          "max": 274.7225061058998
         }
       }
     },

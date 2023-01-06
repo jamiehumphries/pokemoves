@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index d0bdaff..52209b5 100644
+index d0bdaff..b9928dc 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1669949093208,
-+  "timestamp": 1672460861017,
++  "timestamp": 1672959340311,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -224,64 +224,17 @@ index d0bdaff..52209b5 100644
          },
          "master": {
            "rankOne": 232.4575051665306,
-@@ -16465,40 +16503,75 @@
-       ],
-       "cmp": {
-         "little": {
-           "rankOne": 84.79441814123838,
-           "max": 86.435600427843
-         },
-         "great": {
-           "rankOne": 143.4674999117851,
-           "max": 150.40947571396825
-         },
-         "ultra": {
-           "rankOne": 185.1940029859541,
-           "max": 194.75321771566752
+@@ -16408,40 +16446,41 @@
+           "max": 180.59001676248175
          },
          "master": {
-           "rankOne": 274.7225061058998,
-           "max": 274.7225061058998
+           "rankOne": 240.91050535440445,
+           "max": 240.91050535440445
          }
        }
      },
-+    {
-+      "name": "Kyurem (Normal)",
-+      "types": [
-+        "dragon",
-+        "ice"
-+      ],
-+      "fastMoveIds": [
-+        "DRAGON_BREATH_FAST",
-+        "STEEL_WING_FAST"
-+      ],
-+      "chargedMoveIds": [
-+        "DRAGON_CLAW",
-+        "GLACIATE",
-+        "DRACO_METEOR",
-+        "BLIZZARD"
-+      ],
-+      "cmp": {
-+        "little": {
-+          "rankOne": 75.29011580860015,
-+          "max": 79.88097652863675
-+        },
-+        "great": {
-+          "rankOne": 129.90779966651826,
-+          "max": 137.3290625810621
-+        },
-+        "ultra": {
-+          "rankOne": 167.56657040119157,
-+          "max": 178.11039062493268
-+        },
-+        "master": {
-+          "rankOne": 220.62330490350723,
-+          "max": 220.62330490350723
-+        }
-+      }
-+    },
      {
-       "name": "Kyurem (White)",
+       "name": "Kyurem",
        "types": [
          "dragon",
          "ice"
@@ -291,16 +244,29 @@ index d0bdaff..52209b5 100644
          "STEEL_WING_FAST"
        ],
        "chargedMoveIds": [
-         "ANCIENT_POWER",
-         "DRAGON_PULSE",
-         "BLIZZARD",
-         "FOCUS_BLAST"
+         "DRAGON_CLAW",
++        "GLACIATE",
+         "DRACO_METEOR",
+         "BLIZZARD"
        ],
        "cmp": {
          "little": {
-           "rankOne": 84.79441814123838,
-           "max": 86.435600427843
-@@ -25580,40 +25653,41 @@
+           "rankOne": 75.29011580860015,
+           "max": 79.88097652863675
+         },
+         "great": {
+           "rankOne": 129.90779966651826,
+           "max": 137.3290625810621
+         },
+         "ultra": {
+           "rankOne": 167.56657040119157,
+           "max": 178.11039062493268
+         },
+         "master": {
+           "rankOne": 220.62330490350723,
+           "max": 220.62330490350723
+         }
+@@ -25580,40 +25619,41 @@
            "max": 120.03260266780853
          },
          "master": {
@@ -342,7 +308,85 @@ index d0bdaff..52209b5 100644
          "master": {
            "rankOne": 245.13700544834137,
            "max": 245.13700544834137
-@@ -30209,42 +30283,41 @@
+@@ -26424,40 +26464,77 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 83.88221651315673,
+           "max": 85.69606677401643
+         },
+         "great": {
+           "rankOne": 143.3181232213974,
+           "max": 151.07903242111206
+         },
+         "ultra": {
+           "rankOne": 183.8189552548687,
+           "max": 195.03672814369202
+         },
+         "master": {
+           "rankOne": 246.82760548591614,
+           "max": 246.82760548591614
+         }
+       }
+     },
++    {
++      "name": "Salamence (Mega)",
++      "types": [
++        "dragon",
++        "flying"
++      ],
++      "fastMoveIds": [
++        "BITE_FAST",
++        "DRAGON_TAIL_FAST",
++        "FIRE_FANG_FAST"
++      ],
++      "chargedMoveIds": [
++        "OUTRAGE",
++        "DRACO_METEOR",
++        "RETURN",
++        "HYDRO_PUMP",
++        "FIRE_BLAST"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 79.27321523427948,
++          "max": 83.10901597142204
++        },
++        "great": {
++          "rankOne": 137.36333906650543,
++          "max": 144.0099522471428
++        },
++        "ultra": {
++          "rankOne": 178.11643589217184,
++          "max": 186.7349731127608
++        },
++        "master": {
++          "rankOne": 274.7225061058998,
++          "max": 274.7225061058998
++        }
++      }
++    },
+     {
+       "name": "Salandit",
+       "types": [
+         "poison",
+         "fire"
+       ],
+       "fastMoveIds": [
+         "EMBER_FAST",
+         "POISON_JAB_FAST"
+       ],
+       "chargedMoveIds": [
+         "POISON_FANG",
+         "FLAMETHROWER",
+         "DRAGON_PULSE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.00096152357983,
+           "max": 85.0131779909133
+         },
+@@ -30209,42 +30286,41 @@
          "great": {
            "rankOne": 148.13956308888638,
            "max": 156.97591781616185
@@ -386,7 +430,7 @@ index d0bdaff..52209b5 100644
          "master": {
            "rankOne": 53.253901183605194,
            "max": 53.253901183605194
-@@ -34336,41 +34409,40 @@
+@@ -34336,41 +34412,40 @@
            "rankOne": 111.79755020141587,
            "max": 118.93581364412763
          },
@@ -428,7 +472,7 @@ index d0bdaff..52209b5 100644
          },
          "ultra": {
            "rankOne": 161.45230358839035,
-@@ -37104,58 +37176,76 @@
+@@ -37104,58 +37179,76 @@
      "FROST_BREATH_FAST": {
        "name": "Frost Breath",
        "type": "ice",
@@ -505,7 +549,7 @@ index d0bdaff..52209b5 100644
        "turns": 4
      },
      "GYRO_BALL": {
-@@ -39249,40 +39339,46 @@
+@@ -39249,40 +39342,46 @@
          22
        ],
        "AQUA_JET": [
@@ -552,7 +596,7 @@ index d0bdaff..52209b5 100644
        ],
        "BRUTAL_SWING": [
          20,
-@@ -42559,40 +42655,52 @@
+@@ -42559,40 +42658,52 @@
          19
        ],
        "FLASH_CANNON": [
@@ -605,7 +649,7 @@ index d0bdaff..52209b5 100644
        ],
        "IRON_HEAD": [
          17,
-@@ -42655,40 +42763,46 @@
+@@ -42655,40 +42766,46 @@
          19
        ],
        "RETURN": [
@@ -652,7 +696,7 @@ index d0bdaff..52209b5 100644
        ],
        "SOLAR_BEAM": [
          27,
-@@ -43035,40 +43149,46 @@
+@@ -43035,40 +43152,46 @@
          7
        ],
        "SAND_TOMB": [
@@ -699,7 +743,7 @@ index d0bdaff..52209b5 100644
        ],
        "SOLAR_BEAM": [
          9,
-@@ -44161,40 +44281,46 @@
+@@ -44161,40 +44284,46 @@
          10
        ],
        "FLAMETHROWER": [
@@ -746,7 +790,7 @@ index d0bdaff..52209b5 100644
        ],
        "OVERHEAT": [
          11,
-@@ -47557,40 +47683,46 @@
+@@ -47557,40 +47686,46 @@
          11
        ],
        "RETURN": [
@@ -793,7 +837,7 @@ index d0bdaff..52209b5 100644
        ],
        "STONE_EDGE": [
          11,
-@@ -49345,40 +49477,46 @@
+@@ -49345,40 +49480,46 @@
          5
        ],
        "PSYSHOCK": [
@@ -840,7 +884,7 @@ index d0bdaff..52209b5 100644
        ],
        "SKY_ATTACK": [
          7,
-@@ -52549,40 +52687,46 @@
+@@ -52549,40 +52690,46 @@
          7
        ],
        "SAND_TOMB": [
@@ -887,7 +931,7 @@ index d0bdaff..52209b5 100644
        ],
        "SLUDGE_WAVE": [
          9,
-@@ -53651,40 +53795,46 @@
+@@ -53651,40 +53798,46 @@
          16
        ],
        "FLAME_CHARGE": [

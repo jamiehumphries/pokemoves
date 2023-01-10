@@ -1,5 +1,5 @@
 {
-  "timestamp": 1672959340311,
+  "timestamp": 1673285671436,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -5257,6 +5257,7 @@
       ],
       "chargedMoveIds": [
         "SUPER_POWER",
+        "FRENZY_PLANT",
         "ENERGY_BALL",
         "GYRO_BALL",
         "SOLAR_BEAM"
@@ -47565,6 +47566,12 @@
         9,
         9
       ],
+      "FRENZY_PLANT": [
+        9,
+        9,
+        9,
+        9
+      ],
       "GRASS_KNOT": [
         10,
         10,
@@ -52870,6 +52877,12 @@
         9,
         9,
         8
+      ],
+      "FRENZY_PLANT": [
+        6,
+        6,
+        5,
+        6
       ],
       "GYRO_BALL": [
         8,

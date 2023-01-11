@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index d0bdaff..a7e4702 100644
+index d0bdaff..7946eaf 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1669949093208,
-+  "timestamp": 1673285671436,
++  "timestamp": 1673312211322,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -514,7 +514,49 @@ index d0bdaff..a7e4702 100644
          },
          "ultra": {
            "rankOne": 161.45230358839035,
-@@ -37104,58 +37180,76 @@
+@@ -36269,40 +36345,41 @@
+           "max": 189.3436488405346
+         },
+         "master": {
+           "rankOne": 191.0378042459488,
+           "max": 191.0378042459488
+         }
+       }
+     },
+     {
+       "name": "Zekrom",
+       "types": [
+         "dragon",
+         "electric"
+       ],
+       "fastMoveIds": [
+         "CHARGE_BEAM_FAST",
+         "DRAGON_BREATH_FAST"
+       ],
+       "chargedMoveIds": [
+         "CRUNCH",
++        "FUSION_BOLT",
+         "WILD_CHARGE",
+         "OUTRAGE",
+         "FLASH_CANNON"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 79.81871813535675,
+           "max": 82.72121697664245
+         },
+         "great": {
+           "rankOne": 137.46107071638096,
+           "max": 143.95923042297352
+         },
+         "ultra": {
+           "rankOne": 176.17956250905974,
+           "max": 185.7893568277357
+         },
+         "master": {
+           "rankOne": 245.13700544834137,
+           "max": 245.13700544834137
+@@ -37104,58 +37181,76 @@
      "FROST_BREATH_FAST": {
        "name": "Frost Breath",
        "type": "ice",
@@ -591,7 +633,7 @@ index d0bdaff..a7e4702 100644
        "turns": 4
      },
      "GYRO_BALL": {
-@@ -39249,40 +39343,46 @@
+@@ -39249,40 +39344,46 @@
          22
        ],
        "AQUA_JET": [
@@ -638,7 +680,54 @@ index d0bdaff..a7e4702 100644
        ],
        "BRUTAL_SWING": [
          20,
-@@ -42559,40 +42659,52 @@
+@@ -40825,40 +40926,46 @@
+         5
+       ],
+       "FLAME_BURST": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "FLASH_CANNON": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "FOCUS_BLAST": [
+         7,
+         7,
+         7,
+         7
+       ],
++      "FUSION_BOLT": [
++        5,
++        4,
++        4,
++        4
++      ],
+       "FUTURESIGHT": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "HYDRO_PUMP": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "HYPER_BEAM": [
+         8,
+         7,
+         7,
+         8
+       ],
+       "LEAF_STORM": [
+         5,
+@@ -42559,40 +42666,58 @@
          19
        ],
        "FLASH_CANNON": [
@@ -659,6 +748,12 @@ index d0bdaff..a7e4702 100644
          25,
          25
        ],
++      "FUSION_BOLT": [
++        15,
++        15,
++        15,
++        15
++      ],
 +      "FUSION_FLARE": [
 +        15,
 +        15,
@@ -691,7 +786,7 @@ index d0bdaff..a7e4702 100644
        ],
        "IRON_HEAD": [
          17,
-@@ -42655,40 +42767,46 @@
+@@ -42655,40 +42780,46 @@
          19
        ],
        "RETURN": [
@@ -738,7 +833,7 @@ index d0bdaff..a7e4702 100644
        ],
        "SOLAR_BEAM": [
          27,
-@@ -43035,40 +43153,46 @@
+@@ -43035,40 +43166,46 @@
          7
        ],
        "SAND_TOMB": [
@@ -785,7 +880,7 @@ index d0bdaff..a7e4702 100644
        ],
        "SOLAR_BEAM": [
          9,
-@@ -44161,40 +44285,46 @@
+@@ -44161,40 +44298,46 @@
          10
        ],
        "FLAMETHROWER": [
@@ -832,7 +927,7 @@ index d0bdaff..a7e4702 100644
        ],
        "OVERHEAT": [
          11,
-@@ -47419,40 +47549,46 @@
+@@ -47419,40 +47562,46 @@
          11
        ],
        "FLYING_PRESS": [
@@ -879,7 +974,7 @@ index d0bdaff..a7e4702 100644
        ],
        "HIGH_HORSEPOWER": [
          12,
-@@ -47557,40 +47693,46 @@
+@@ -47557,40 +47706,46 @@
          11
        ],
        "RETURN": [
@@ -926,7 +1021,7 @@ index d0bdaff..a7e4702 100644
        ],
        "STONE_EDGE": [
          11,
-@@ -49345,40 +49487,46 @@
+@@ -49345,40 +49500,46 @@
          5
        ],
        "PSYSHOCK": [
@@ -973,7 +1068,7 @@ index d0bdaff..a7e4702 100644
        ],
        "SKY_ATTACK": [
          7,
-@@ -52549,40 +52697,46 @@
+@@ -52549,40 +52710,46 @@
          7
        ],
        "SAND_TOMB": [
@@ -1020,7 +1115,7 @@ index d0bdaff..a7e4702 100644
        ],
        "SLUDGE_WAVE": [
          9,
-@@ -52707,40 +52861,46 @@
+@@ -52707,40 +52874,46 @@
          10
        ],
        "FLAME_CHARGE": [
@@ -1067,7 +1162,7 @@ index d0bdaff..a7e4702 100644
        ],
        "IRON_HEAD": [
          7,
-@@ -53651,40 +53811,46 @@
+@@ -53651,40 +53824,46 @@
          16
        ],
        "FLAME_CHARGE": [

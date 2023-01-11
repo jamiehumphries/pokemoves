@@ -1,5 +1,5 @@
 {
-  "timestamp": 1673285671436,
+  "timestamp": 1673312211322,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -36362,6 +36362,7 @@
       ],
       "chargedMoveIds": [
         "CRUNCH",
+        "FUSION_BOLT",
         "WILD_CHARGE",
         "OUTRAGE",
         "FLASH_CANNON"
@@ -40942,6 +40943,12 @@
         7,
         7
       ],
+      "FUSION_BOLT": [
+        5,
+        4,
+        4,
+        4
+      ],
       "FUTURESIGHT": [
         6,
         6,
@@ -42675,6 +42682,12 @@
         25,
         25,
         25
+      ],
+      "FUSION_BOLT": [
+        15,
+        15,
+        15,
+        15
       ],
       "FUSION_FLARE": [
         15,

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1673995141210,
+  "timestamp": 1674779950103,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -3402,7 +3402,8 @@
       "chargedMoveIds": [
         "DISCHARGE",
         "FLAME_CHARGE",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -11243,7 +11244,8 @@
         "DISCHARGE",
         "LUNGE",
         "ENERGY_BALL",
-        "BUG_BUZZ"
+        "BUG_BUZZ",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -13476,7 +13478,8 @@
       "chargedMoveIds": [
         "MIRROR_COAT",
         "PSYCHIC",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -15424,7 +15427,8 @@
       "chargedMoveIds": [
         "CROSS_POISON",
         "DISCHARGE",
-        "BUG_BUZZ"
+        "BUG_BUZZ",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -23326,6 +23330,7 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "AIR_CUTTER",
+        "RETURN",
         "HEAT_WAVE"
       ],
       "cmp": {
@@ -25535,6 +25540,7 @@
       ],
       "chargedMoveIds": [
         "FLASH_CANNON",
+        "RETURN",
         "FOCUS_BLAST",
         "HYPER_BEAM",
         "ZAP_CANNON"
@@ -30476,7 +30482,8 @@
       "chargedMoveIds": [
         "MIRROR_COAT",
         "SHADOW_BALL",
-        "PSYBEAM"
+        "PSYBEAM",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -32954,6 +32961,7 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "SKY_ATTACK",
+        "RETURN",
         "HEAT_WAVE"
       ],
       "cmp": {
@@ -33599,6 +33607,7 @@
       ],
       "chargedMoveIds": [
         "SKY_ATTACK",
+        "RETURN",
         "HEAT_WAVE",
         "HYPER_BEAM"
       ],
@@ -36329,7 +36338,8 @@
       "chargedMoveIds": [
         "DISCHARGE",
         "WILD_CHARGE",
-        "FLAME_CHARGE"
+        "FLAME_CHARGE",
+        "RETURN"
       ],
       "cmp": {
         "little": {

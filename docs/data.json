@@ -1,5 +1,5 @@
 {
-  "timestamp": 1674860288545,
+  "timestamp": 1675298974369,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -11371,6 +11371,43 @@
         "master": {
           "rankOne": 213.01560473442078,
           "max": 213.01560473442078
+        }
+      }
+    },
+    {
+      "name": "Gardevoir (Mega)",
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "fastMoveIds": [
+        "CHARGE_BEAM_FAST",
+        "CHARM_FAST",
+        "CONFUSION_FAST"
+      ],
+      "chargedMoveIds": [
+        "SYNCHRONOISE",
+        "PSYCHIC",
+        "SHADOW_BALL",
+        "DAZZLING_GLEAM",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 89.1709042388507,
+          "max": 93.00032957426146
+        },
+        "great": {
+          "rankOne": 152.7234676480293,
+          "max": 161.06660252526606
+        },
+        "ultra": {
+          "rankOne": 197.1725123456758,
+          "max": 207.52131968736634
+        },
+        "master": {
+          "rankOne": 288.24730640649796,
+          "max": 288.24730640649796
         }
       }
     },

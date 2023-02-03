@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index e4d7d0c..c06001a 100644
+index e4d7d0c..a21b2f4 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1674860288545,
-+  "timestamp": 1675298974369,
++  "timestamp": 1675372879401,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -104,3 +104,62 @@ index e4d7d0c..c06001a 100644
        "cmp": {
          "little": {
            "rankOne": 97.82530663146719,
+@@ -36787,46 +36824,58 @@
+       "damage": 55
+     },
+     "BLIZZARD": {
+       "name": "Blizzard",
+       "type": "ice",
+       "energy": -75,
+       "damage": 140
+     },
+     "BODY_SLAM": {
+       "name": "Body Slam",
+       "type": "normal",
+       "energy": -35,
+       "damage": 60
+     },
+     "BONE_CLUB": {
+       "name": "Bone Club",
+       "type": "ground",
+       "energy": -35,
+       "damage": 40
+     },
++    "BOOMBURST": {
++      "name": "Boomburst",
++      "type": "normal",
++      "energy": -100,
++      "damage": 150
++    },
+     "BRAVE_BIRD": {
+       "name": "Brave Bird",
+       "type": "flying",
+       "energy": -55,
+       "damage": 130
+     },
++    "BREAKING_SWIPE": {
++      "name": "Breaking Swipe",
++      "type": "dragon",
++      "energy": -35,
++      "damage": 50
++    },
+     "BRICK_BREAK": {
+       "name": "Brick Break",
+       "type": "fighting",
+       "energy": -35,
+       "damage": 40
+     },
+     "BRINE": {
+       "name": "Brine",
+       "type": "water",
+       "energy": -50,
+       "damage": 60
+     },
+     "BRUTAL_SWING": {
+       "name": "Brutal Swing",
+       "type": "dark",
+       "energy": -40,
+       "damage": 65
+     },
+     "BUBBLE_BEAM": {
+       "name": "Bubble Beam",

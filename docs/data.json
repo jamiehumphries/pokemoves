@@ -1,5 +1,5 @@
 {
-  "timestamp": 1675298974369,
+  "timestamp": 1675372879401,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -36841,11 +36841,23 @@
       "energy": -35,
       "damage": 40
     },
+    "BOOMBURST": {
+      "name": "Boomburst",
+      "type": "normal",
+      "energy": -100,
+      "damage": 150
+    },
     "BRAVE_BIRD": {
       "name": "Brave Bird",
       "type": "flying",
       "energy": -55,
       "damage": 130
+    },
+    "BREAKING_SWIPE": {
+      "name": "Breaking Swipe",
+      "type": "dragon",
+      "energy": -35,
+      "damage": 50
     },
     "BRICK_BREAK": {
       "name": "Brick Break",

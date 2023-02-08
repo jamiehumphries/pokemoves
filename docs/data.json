@@ -1,5 +1,5 @@
 {
-  "timestamp": 1675372879401,
+  "timestamp": 1675794212937,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -21777,6 +21777,7 @@
         "PSYCHIC",
         "DRACO_METEOR",
         "HURRICANE",
+        "BOOMBURST",
         "HEAT_WAVE"
       ],
       "cmp": {
@@ -36844,7 +36845,7 @@
     "BOOMBURST": {
       "name": "Boomburst",
       "type": "normal",
-      "energy": -100,
+      "energy": -75,
       "damage": 150
     },
     "BRAVE_BIRD": {
@@ -38678,6 +38679,12 @@
         4,
         4
       ],
+      "BOOMBURST": [
+        9,
+        8,
+        8,
+        9
+      ],
       "BRAVE_BIRD": [
         7,
         6,
@@ -39431,6 +39438,12 @@
         17,
         18,
         17
+      ],
+      "BOOMBURST": [
+        38,
+        37,
+        38,
+        37
       ],
       "BRICK_BREAK": [
         18,

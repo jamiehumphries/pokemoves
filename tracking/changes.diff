@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index e4d7d0c..a21b2f4 100644
+index e4d7d0c..4ce3817 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1674860288545,
-+  "timestamp": 1675372879401,
++  "timestamp": 1675794212937,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -104,7 +104,49 @@ index e4d7d0c..a21b2f4 100644
        "cmp": {
          "little": {
            "rankOne": 97.82530663146719,
-@@ -36787,46 +36824,58 @@
+@@ -21723,40 +21760,41 @@
+         "master": {
+           "rankOne": 82.83940184116364,
+           "max": 82.83940184116364
+         }
+       }
+     },
+     {
+       "name": "Noivern",
+       "types": [
+         "flying",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "AIR_SLASH_FAST",
+         "BITE_FAST"
+       ],
+       "chargedMoveIds": [
+         "PSYCHIC",
+         "DRACO_METEOR",
+         "HURRICANE",
++        "BOOMBURST",
+         "HEAT_WAVE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 71.58859863877288,
+           "max": 76.82678878307334
+         },
+         "great": {
+           "rankOne": 123.98884978792496,
+           "max": 133.06120465045606
+         },
+         "ultra": {
+           "rankOne": 159.68121379613874,
+           "max": 171.36520504951474
+         },
+         "master": {
+           "rankOne": 185.9660041332245,
+           "max": 185.9660041332245
+         }
+       }
+@@ -36787,46 +36825,58 @@
        "damage": 55
      },
      "BLIZZARD": {
@@ -128,7 +170,7 @@ index e4d7d0c..a21b2f4 100644
 +    "BOOMBURST": {
 +      "name": "Boomburst",
 +      "type": "normal",
-+      "energy": -100,
++      "energy": -75,
 +      "damage": 150
 +    },
      "BRAVE_BIRD": {
@@ -163,3 +205,97 @@ index e4d7d0c..a21b2f4 100644
      },
      "BUBBLE_BEAM": {
        "name": "Bubble Beam",
+@@ -38612,40 +38662,46 @@
+         6
+       ],
+       "ANCIENT_POWER": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "BLAST_BURN": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "BODY_SLAM": [
+         4,
+         4,
+         4,
+         4
+       ],
++      "BOOMBURST": [
++        9,
++        8,
++        8,
++        9
++      ],
+       "BRAVE_BIRD": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "BUBBLE_BEAM": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "BUG_BUZZ": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "BULLDOZE": [
+         7,
+@@ -39366,40 +39422,46 @@
+         17
+       ],
+       "AVALANCHE": [
+         23,
+         22,
+         23,
+         22
+       ],
+       "BLIZZARD": [
+         38,
+         37,
+         38,
+         37
+       ],
+       "BODY_SLAM": [
+         18,
+         17,
+         18,
+         17
+       ],
++      "BOOMBURST": [
++        38,
++        37,
++        38,
++        37
++      ],
+       "BRICK_BREAK": [
+         18,
+         17,
+         18,
+         17
+       ],
+       "BRINE": [
+         25,
+         25,
+         25,
+         25
+       ],
+       "BRUTAL_SWING": [
+         20,
+         20,
+         20,
+         20
+       ],
+       "BULLDOZE": [
+         30,

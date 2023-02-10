@@ -1,5 +1,5 @@
 {
-  "timestamp": 1675794212937,
+  "timestamp": 1675969246545,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -13369,6 +13369,41 @@
       }
     },
     {
+      "name": "Groudon (Primal)",
+      "types": [
+        "ground",
+        "fire"
+      ],
+      "fastMoveIds": [
+        "DRAGON_TAIL_FAST",
+        "MUD_SHOT_FAST"
+      ],
+      "chargedMoveIds": [
+        "FIRE_PUNCH",
+        "EARTHQUAKE",
+        "FIRE_BLAST",
+        "SOLAR_BEAM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 83.51014722439757,
+          "max": 87.0587370497969
+        },
+        "great": {
+          "rankOne": 145.15132297958925,
+          "max": 150.90803267283076
+        },
+        "ultra": {
+          "rankOne": 185.65770559627913,
+          "max": 193.54684322784905
+        },
+        "master": {
+          "rankOne": 311.0704069137573,
+          "max": 311.0704069137573
+        }
+      }
+    },
+    {
       "name": "Grovyle",
       "types": [
         "grass"
@@ -16490,6 +16525,39 @@
         "master": {
           "rankOne": 240.91050535440445,
           "max": 240.91050535440445
+        }
+      }
+    },
+    {
+      "name": "Kyogre (Primal)",
+      "types": [
+        "water"
+      ],
+      "fastMoveIds": [
+        "WATERFALL_FAST"
+      ],
+      "chargedMoveIds": [
+        "SURF",
+        "THUNDER",
+        "BLIZZARD",
+        "HYDRO_PUMP"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 83.51014722439757,
+          "max": 87.0587370497969
+        },
+        "great": {
+          "rankOne": 145.15132297958925,
+          "max": 150.90803267283076
+        },
+        "ultra": {
+          "rankOne": 185.65770559627913,
+          "max": 193.54684322784905
+        },
+        "master": {
+          "rankOne": 311.0704069137573,
+          "max": 311.0704069137573
         }
       }
     },

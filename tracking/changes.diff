@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index e4d7d0c..4ce3817 100644
+index e4d7d0c..0867d13 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1674860288545,
-+  "timestamp": 1675794212937,
++  "timestamp": 1675969246545,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -104,7 +104,157 @@ index e4d7d0c..4ce3817 100644
        "cmp": {
          "little": {
            "rankOne": 97.82530663146719,
-@@ -21723,40 +21760,41 @@
+@@ -13314,40 +13351,75 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 78.3674687147139,
+           "max": 79.81871813535675
+         },
+         "great": {
+           "rankOne": 132.53106876993215,
+           "max": 139.89390592381727
+         },
+         "ultra": {
+           "rankOne": 171.0852790381406,
+           "max": 180.59001676248175
+         },
+         "master": {
+           "rankOne": 240.91050535440445,
+           "max": 240.91050535440445
+         }
+       }
+     },
++    {
++      "name": "Groudon (Primal)",
++      "types": [
++        "ground",
++        "fire"
++      ],
++      "fastMoveIds": [
++        "DRAGON_TAIL_FAST",
++        "MUD_SHOT_FAST"
++      ],
++      "chargedMoveIds": [
++        "FIRE_PUNCH",
++        "EARTHQUAKE",
++        "FIRE_BLAST",
++        "SOLAR_BEAM"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 83.51014722439757,
++          "max": 87.0587370497969
++        },
++        "great": {
++          "rankOne": 145.15132297958925,
++          "max": 150.90803267283076
++        },
++        "ultra": {
++          "rankOne": 185.65770559627913,
++          "max": 193.54684322784905
++        },
++        "master": {
++          "rankOne": 311.0704069137573,
++          "max": 311.0704069137573
++        }
++      }
++    },
+     {
+       "name": "Grovyle",
+       "types": [
+         "grass"
+       ],
+       "fastMoveIds": [
+         "BULLET_SEED_FAST",
+         "QUICK_ATTACK_FAST"
+       ],
+       "chargedMoveIds": [
+         "LEAF_BLADE",
+         "AERIAL_ACE",
+         "GRASS_KNOT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 77.92631206598142,
+           "max": 84.72221137406119
+         },
+         "great": {
+@@ -16439,40 +16511,73 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 78.3674687147139,
+           "max": 79.81871813535675
+         },
+         "great": {
+           "rankOne": 132.53106876993215,
+           "max": 139.89390592381727
+         },
+         "ultra": {
+           "rankOne": 171.0852790381406,
+           "max": 180.59001676248175
+         },
+         "master": {
+           "rankOne": 240.91050535440445,
+           "max": 240.91050535440445
+         }
+       }
+     },
++    {
++      "name": "Kyogre (Primal)",
++      "types": [
++        "water"
++      ],
++      "fastMoveIds": [
++        "WATERFALL_FAST"
++      ],
++      "chargedMoveIds": [
++        "SURF",
++        "THUNDER",
++        "BLIZZARD",
++        "HYDRO_PUMP"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 83.51014722439757,
++          "max": 87.0587370497969
++        },
++        "great": {
++          "rankOne": 145.15132297958925,
++          "max": 150.90803267283076
++        },
++        "ultra": {
++          "rankOne": 185.65770559627913,
++          "max": 193.54684322784905
++        },
++        "master": {
++          "rankOne": 311.0704069137573,
++          "max": 311.0704069137573
++        }
++      }
++    },
+     {
+       "name": "Kyurem",
+       "types": [
+         "dragon",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "DRAGON_BREATH_FAST",
+         "STEEL_WING_FAST"
+       ],
+       "chargedMoveIds": [
+         "DRAGON_CLAW",
+         "GLACIATE",
+         "DRACO_METEOR",
+         "BLIZZARD"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 75.29011580860015,
+           "max": 79.88097652863675
+@@ -21723,40 +21828,41 @@
          "master": {
            "rankOne": 82.83940184116364,
            "max": 82.83940184116364
@@ -146,7 +296,7 @@ index e4d7d0c..4ce3817 100644
            "max": 185.9660041332245
          }
        }
-@@ -36787,46 +36825,58 @@
+@@ -36787,46 +36893,58 @@
        "damage": 55
      },
      "BLIZZARD": {
@@ -205,7 +355,7 @@ index e4d7d0c..4ce3817 100644
      },
      "BUBBLE_BEAM": {
        "name": "Bubble Beam",
-@@ -38612,40 +38662,46 @@
+@@ -38612,40 +38730,46 @@
          6
        ],
        "ANCIENT_POWER": [
@@ -252,7 +402,7 @@ index e4d7d0c..4ce3817 100644
        ],
        "BULLDOZE": [
          7,
-@@ -39366,40 +39422,46 @@
+@@ -39366,40 +39490,46 @@
          17
        ],
        "AVALANCHE": [

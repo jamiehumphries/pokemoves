@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 0867d13..a32085a 100644
+index 0867d13..e0eb5a1 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1675969246545,
-+  "timestamp": 1676332118532,
++  "timestamp": 1676591042646,
    "pokemon": [
      {
        "name": "Abomasnow",

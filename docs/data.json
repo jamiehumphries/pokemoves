@@ -1,5 +1,5 @@
 {
-  "timestamp": 1676591042646,
+  "timestamp": 1677107910363,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -25442,6 +25442,7 @@
         "DRAGON_TAIL_FAST"
       ],
       "chargedMoveIds": [
+        "BREAKING_SWIPE",
         "AERIAL_ACE",
         "ANCIENT_POWER",
         "OUTRAGE",
@@ -38759,6 +38760,12 @@
         6,
         6
       ],
+      "BREAKING_SWIPE": [
+        4,
+        4,
+        4,
+        4
+      ],
       "BUBBLE_BEAM": [
         5,
         4,
@@ -43046,6 +43053,12 @@
         8,
         8,
         9
+      ],
+      "BREAKING_SWIPE": [
+        4,
+        4,
+        4,
+        4
       ],
       "BRICK_BREAK": [
         4,

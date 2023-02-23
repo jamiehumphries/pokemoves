@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 0867d13..e0eb5a1 100644
+index 0867d13..bfd67c8 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1675969246545,
-+  "timestamp": 1676591042646,
++  "timestamp": 1677107910363,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,3 +26,139 @@ index 0867d13..e0eb5a1 100644
        ],
        "cmp": {
          "little": {
+@@ -25425,40 +25425,41 @@
+           "rankOne": 99.74540221691132,
+           "max": 99.74540221691132
+         },
+         "master": {
+           "rankOne": 99.74540221691132,
+           "max": 99.74540221691132
+         }
+       }
+     },
+     {
+       "name": "Rayquaza",
+       "types": [
+         "dragon",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "AIR_SLASH_FAST",
+         "DRAGON_TAIL_FAST"
+       ],
+       "chargedMoveIds": [
++        "BREAKING_SWIPE",
+         "AERIAL_ACE",
+         "ANCIENT_POWER",
+         "OUTRAGE",
+         "HURRICANE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 83.88221651315673,
+           "max": 86.78471535444243
+         },
+         "great": {
+           "rankOne": 144.47129897209373,
+           "max": 152.11382031440735
+         },
+         "ultra": {
+           "rankOne": 185.8597202301025,
+           "max": 197.70455978850987
+         },
+         "master": {
+           "rankOne": 252.74470561742783,
+@@ -38742,40 +38743,46 @@
+         6
+       ],
+       "BODY_SLAM": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "BOOMBURST": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "BRAVE_BIRD": [
+         7,
+         6,
+         6,
+         6
+       ],
++      "BREAKING_SWIPE": [
++        4,
++        4,
++        4,
++        4
++      ],
+       "BUBBLE_BEAM": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "BUG_BUZZ": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "BULLDOZE": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "CLOSE_COMBAT": [
+         5,
+@@ -43030,40 +43037,46 @@
+         9
+       ],
+       "ANCIENT_POWER": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "AQUA_TAIL": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "BLIZZARD": [
+         9,
+         8,
+         8,
+         9
+       ],
++      "BREAKING_SWIPE": [
++        4,
++        4,
++        4,
++        4
++      ],
+       "BRICK_BREAK": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "BRUTAL_SWING": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "BULLDOZE": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "CLOSE_COMBAT": [
+         5,

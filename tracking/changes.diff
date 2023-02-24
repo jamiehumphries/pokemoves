@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 0867d13..bfd67c8 100644
+index 0867d13..cda1b6d 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1675969246545,
-+  "timestamp": 1677107910363,
++  "timestamp": 1677194750379,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,7 +26,83 @@ index 0867d13..bfd67c8 100644
        ],
        "cmp": {
          "little": {
-@@ -25425,40 +25425,41 @@
+@@ -19365,40 +19365,75 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 60.482871115207615,
+           "max": 66.26553438496607
+         },
+         "great": {
+           "rankOne": 105.3504661293435,
+           "max": 114.96080255508423
+         },
+         "ultra": {
+           "rankOne": 114.96080255508423,
+           "max": 114.96080255508423
+         },
+         "master": {
+           "rankOne": 114.96080255508423,
+           "max": 114.96080255508423
+         }
+       }
+     },
++    {
++      "name": "Medicham (Mega)",
++      "types": [
++        "fighting",
++        "psychic"
++      ],
++      "fastMoveIds": [
++        "COUNTER_FAST",
++        "PSYCHO_CUT_FAST"
++      ],
++      "chargedMoveIds": [
++        "POWER_UP_PUNCH",
++        "ICE_PUNCH",
++        "DYNAMIC_PUNCH",
++        "PSYCHIC"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 76.1161272435459,
++          "max": 79.92518010735496
++        },
++        "great": {
++          "rankOne": 130.53173141428505,
++          "max": 140.30299705266938
++        },
++        "ultra": {
++          "rankOne": 168.67477461941587,
++          "max": 181.56599521636952
++        },
++        "master": {
++          "rankOne": 185.9660041332245,
++          "max": 185.9660041332245
++        }
++      }
++    },
+     {
+       "name": "Meditite",
+       "types": [
+         "fighting",
+         "psychic"
+       ],
+       "fastMoveIds": [
+         "CONFUSION_FAST",
+         "ROCK_SMASH_FAST"
+       ],
+       "chargedMoveIds": [
+         "ICE_PUNCH",
+         "LOW_SWEEP",
+         "PSYSHOCK"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 57.309798868715326,
+           "max": 66.32472651700071
+         },
+@@ -25425,40 +25460,41 @@
            "rankOne": 99.74540221691132,
            "max": 99.74540221691132
          },
@@ -68,7 +144,54 @@ index 0867d13..bfd67c8 100644
          },
          "master": {
            "rankOne": 252.74470561742783,
-@@ -38742,40 +38743,46 @@
+@@ -37076,40 +37112,46 @@
+       "damage": 100
+     },
+     "DISARMING_VOICE": {
+       "name": "Disarming Voice",
+       "type": "fairy",
+       "energy": -45,
+       "damage": 70
+     },
+     "DISCHARGE": {
+       "name": "Discharge",
+       "type": "electric",
+       "energy": -45,
+       "damage": 65
+     },
+     "DOOM_DESIRE": {
+       "name": "Doom Desire",
+       "type": "steel",
+       "energy": -40,
+       "damage": 75
+     },
++    "DOUBLE_IRON_BASH": {
++      "name": "Double Iron Bash",
++      "type": "steel",
++      "energy": -35,
++      "damage": 50
++    },
+     "DOUBLE_KICK_FAST": {
+       "name": "Double Kick",
+       "type": "fighting",
+       "energy": 12,
+       "damage": 8,
+       "turns": 3
+     },
+     "DRACO_METEOR": {
+       "name": "Draco Meteor",
+       "type": "dragon",
+       "energy": -65,
+       "damage": 150
+     },
+     "DRAGON_BREATH_FAST": {
+       "name": "Dragon Breath",
+       "type": "dragon",
+       "energy": 3,
+       "damage": 4,
+       "turns": 1
+     },
+@@ -38742,40 +38784,46 @@
          6
        ],
        "BODY_SLAM": [
@@ -115,7 +238,7 @@ index 0867d13..bfd67c8 100644
        ],
        "CLOSE_COMBAT": [
          5,
-@@ -43030,40 +43037,46 @@
+@@ -43030,40 +43078,46 @@
          9
        ],
        "ANCIENT_POWER": [

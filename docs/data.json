@@ -1,5 +1,5 @@
 {
-  "timestamp": 1677107910363,
+  "timestamp": 1677194750379,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -19383,6 +19383,41 @@
       }
     },
     {
+      "name": "Medicham (Mega)",
+      "types": [
+        "fighting",
+        "psychic"
+      ],
+      "fastMoveIds": [
+        "COUNTER_FAST",
+        "PSYCHO_CUT_FAST"
+      ],
+      "chargedMoveIds": [
+        "POWER_UP_PUNCH",
+        "ICE_PUNCH",
+        "DYNAMIC_PUNCH",
+        "PSYCHIC"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 76.1161272435459,
+          "max": 79.92518010735496
+        },
+        "great": {
+          "rankOne": 130.53173141428505,
+          "max": 140.30299705266938
+        },
+        "ultra": {
+          "rankOne": 168.67477461941587,
+          "max": 181.56599521636952
+        },
+        "master": {
+          "rankOne": 185.9660041332245,
+          "max": 185.9660041332245
+        }
+      }
+    },
+    {
       "name": "Meditite",
       "types": [
         "fighting",
@@ -37093,6 +37128,12 @@
       "type": "steel",
       "energy": -40,
       "damage": 75
+    },
+    "DOUBLE_IRON_BASH": {
+      "name": "Double Iron Bash",
+      "type": "steel",
+      "energy": -35,
+      "damage": 50
     },
     "DOUBLE_KICK_FAST": {
       "name": "Double Kick",

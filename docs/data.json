@@ -1,5 +1,5 @@
 {
-  "timestamp": 1677194750379,
+  "timestamp": 1677476941494,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -11808,6 +11808,40 @@
       }
     },
     {
+      "name": "Gholdengo",
+      "types": [
+        "steel",
+        "ghost"
+      ],
+      "fastMoveIds": [
+        "ASTONISH_FAST",
+        "HEX_FAST"
+      ],
+      "chargedMoveIds": [
+        "SHADOW_BALL",
+        "DAZZLING_GLEAM",
+        "FOCUS_BLAST"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 77.73857485928633,
+          "max": 81.71732081665138
+        },
+        "great": {
+          "rankOne": 134.65729093551613,
+          "max": 142.672605872154
+        },
+        "ultra": {
+          "rankOne": 173.2965962837183,
+          "max": 183.61186987203484
+        },
+        "master": {
+          "rankOne": 225.69510501623154,
+          "max": 225.69510501623154
+        }
+      }
+    },
+    {
       "name": "Gible",
       "types": [
         "dragon",
@@ -11874,6 +11908,36 @@
         "master": {
           "rankOne": 203.71730452775955,
           "max": 203.71730452775955
+        }
+      }
+    },
+    {
+      "name": "Gimmighoul",
+      "types": [
+        "ghost"
+      ],
+      "fastMoveIds": [
+        "ASTONISH_FAST"
+      ],
+      "chargedMoveIds": [
+        "SHADOW_BALL"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 78.79511452077027,
+          "max": 87.90907965000738
+        },
+        "great": {
+          "rankOne": 131.02150291204453,
+          "max": 131.02150291204453
+        },
+        "ultra": {
+          "rankOne": 131.02150291204453,
+          "max": 131.02150291204453
+        },
+        "master": {
+          "rankOne": 131.02150291204453,
+          "max": 131.02150291204453
         }
       }
     },
@@ -13345,6 +13409,7 @@
       ],
       "chargedMoveIds": [
         "FIRE_PUNCH",
+        "PRECIPICE_BLADES",
         "EARTHQUAKE",
         "FIRE_BLAST",
         "SOLAR_BEAM"
@@ -13380,6 +13445,7 @@
       ],
       "chargedMoveIds": [
         "FIRE_PUNCH",
+        "PRECIPICE_BLADES",
         "EARTHQUAKE",
         "FIRE_BLAST",
         "SOLAR_BEAM"
@@ -16505,6 +16571,7 @@
       ],
       "chargedMoveIds": [
         "SURF",
+        "ORIGIN_PULSE",
         "THUNDER",
         "BLIZZARD",
         "HYDRO_PUMP"
@@ -16538,6 +16605,7 @@
       ],
       "chargedMoveIds": [
         "SURF",
+        "ORIGIN_PULSE",
         "THUNDER",
         "BLIZZARD",
         "HYDRO_PUMP"
@@ -43323,6 +43391,12 @@
         6,
         6
       ],
+      "PRECIPICE_BLADES": [
+        7,
+        7,
+        6,
+        7
+      ],
       "PSYCHIC": [
         7,
         6,
@@ -48654,6 +48728,12 @@
         4,
         4,
         4
+      ],
+      "PRECIPICE_BLADES": [
+        7,
+        7,
+        6,
+        7
       ],
       "RETURN": [
         8,
@@ -57056,6 +57136,12 @@
         6,
         6,
         6
+      ],
+      "ORIGIN_PULSE": [
+        8,
+        7,
+        8,
+        7
       ],
       "OUTRAGE": [
         8,

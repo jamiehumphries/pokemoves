@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 0867d13..cda1b6d 100644
+index 0867d13..0a12eca 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1675969246545,
-+  "timestamp": 1677194750379,
++  "timestamp": 1677476941494,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,7 +26,307 @@ index 0867d13..cda1b6d 100644
        ],
        "cmp": {
          "little": {
-@@ -19365,40 +19365,75 @@
+@@ -11790,40 +11790,74 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 68.81339490413666,
+           "max": 76.05691015720367
+         },
+         "great": {
+           "rankOne": 124.25910276174545,
+           "max": 124.25910276174545
+         },
+         "ultra": {
+           "rankOne": 124.25910276174545,
+           "max": 124.25910276174545
+         },
+         "master": {
+           "rankOne": 124.25910276174545,
+           "max": 124.25910276174545
+         }
+       }
+     },
++    {
++      "name": "Gholdengo",
++      "types": [
++        "steel",
++        "ghost"
++      ],
++      "fastMoveIds": [
++        "ASTONISH_FAST",
++        "HEX_FAST"
++      ],
++      "chargedMoveIds": [
++        "SHADOW_BALL",
++        "DAZZLING_GLEAM",
++        "FOCUS_BLAST"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 77.73857485928633,
++          "max": 81.71732081665138
++        },
++        "great": {
++          "rankOne": 134.65729093551613,
++          "max": 142.672605872154
++        },
++        "ultra": {
++          "rankOne": 173.2965962837183,
++          "max": 183.61186987203484
++        },
++        "master": {
++          "rankOne": 225.69510501623154,
++          "max": 225.69510501623154
++        }
++      }
++    },
+     {
+       "name": "Gible",
+       "types": [
+         "dragon",
+         "ground"
+       ],
+       "fastMoveIds": [
+         "MUD_SHOT_FAST",
+         "TAKE_DOWN_FAST"
+       ],
+       "chargedMoveIds": [
+         "BODY_SLAM",
+         "TWISTER",
+         "RETURN",
+         "DIG"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 70.27756047248833,
+           "max": 78.21212375164025
+@@ -11860,40 +11894,70 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 72.88688492774959,
+           "max": 77.38211131095882
+         },
+         "great": {
+           "rankOne": 126.29571547300766,
+           "max": 134.11934386514088
+         },
+         "ultra": {
+           "rankOne": 162.5841953754425,
+           "max": 173.37518179416656
+         },
+         "master": {
+           "rankOne": 203.71730452775955,
+           "max": 203.71730452775955
+         }
+       }
+     },
++    {
++      "name": "Gimmighoul",
++      "types": [
++        "ghost"
++      ],
++      "fastMoveIds": [
++        "ASTONISH_FAST"
++      ],
++      "chargedMoveIds": [
++        "SHADOW_BALL"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 78.79511452077027,
++          "max": 87.90907965000738
++        },
++        "great": {
++          "rankOne": 131.02150291204453,
++          "max": 131.02150291204453
++        },
++        "ultra": {
++          "rankOne": 131.02150291204453,
++          "max": 131.02150291204453
++        },
++        "master": {
++          "rankOne": 131.02150291204453,
++          "max": 131.02150291204453
++        }
++      }
++    },
+     {
+       "name": "Girafarig",
+       "types": [
+         "normal",
+         "psychic"
+       ],
+       "fastMoveIds": [
+         "CONFUSION_FAST",
+         "DOUBLE_KICK_FAST",
+         "TACKLE_FAST"
+       ],
+       "chargedMoveIds": [
+         "PSYCHIC_FANGS",
+         "MIRROR_COAT",
+         "PSYCHIC",
+         "THUNDERBOLT",
+         "RETURN"
+       ],
+       "cmp": {
+         "little": {
+@@ -13328,75 +13392,77 @@
+           "rankOne": 145.39160323143005,
+           "max": 145.39160323143005
+         },
+         "master": {
+           "rankOne": 145.39160323143005,
+           "max": 145.39160323143005
+         }
+       }
+     },
+     {
+       "name": "Groudon",
+       "types": [
+         "ground"
+       ],
+       "fastMoveIds": [
+         "DRAGON_TAIL_FAST",
+         "MUD_SHOT_FAST"
+       ],
+       "chargedMoveIds": [
+         "FIRE_PUNCH",
++        "PRECIPICE_BLADES",
+         "EARTHQUAKE",
+         "FIRE_BLAST",
+         "SOLAR_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 78.3674687147139,
+           "max": 79.81871813535675
+         },
+         "great": {
+           "rankOne": 132.53106876993215,
+           "max": 139.89390592381727
+         },
+         "ultra": {
+           "rankOne": 171.0852790381406,
+           "max": 180.59001676248175
+         },
+         "master": {
+           "rankOne": 240.91050535440445,
+           "max": 240.91050535440445
+         }
+       }
+     },
+     {
+       "name": "Groudon (Primal)",
+       "types": [
+         "ground",
+         "fire"
+       ],
+       "fastMoveIds": [
+         "DRAGON_TAIL_FAST",
+         "MUD_SHOT_FAST"
+       ],
+       "chargedMoveIds": [
+         "FIRE_PUNCH",
++        "PRECIPICE_BLADES",
+         "EARTHQUAKE",
+         "FIRE_BLAST",
+         "SOLAR_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 83.51014722439757,
+           "max": 87.0587370497969
+         },
+         "great": {
+           "rankOne": 145.15132297958925,
+           "max": 150.90803267283076
+         },
+         "ultra": {
+           "rankOne": 185.65770559627913,
+           "max": 193.54684322784905
+         },
+         "master": {
+           "rankOne": 311.0704069137573,
+           "max": 311.0704069137573
+@@ -16488,73 +16554,75 @@
+         "ultra": {
+           "rankOne": 156.38050347566605,
+           "max": 156.38050347566605
+         },
+         "master": {
+           "rankOne": 156.38050347566605,
+           "max": 156.38050347566605
+         }
+       }
+     },
+     {
+       "name": "Kyogre",
+       "types": [
+         "water"
+       ],
+       "fastMoveIds": [
+         "WATERFALL_FAST"
+       ],
+       "chargedMoveIds": [
+         "SURF",
++        "ORIGIN_PULSE",
+         "THUNDER",
+         "BLIZZARD",
+         "HYDRO_PUMP"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 78.3674687147139,
+           "max": 79.81871813535675
+         },
+         "great": {
+           "rankOne": 132.53106876993215,
+           "max": 139.89390592381727
+         },
+         "ultra": {
+           "rankOne": 171.0852790381406,
+           "max": 180.59001676248175
+         },
+         "master": {
+           "rankOne": 240.91050535440445,
+           "max": 240.91050535440445
+         }
+       }
+     },
+     {
+       "name": "Kyogre (Primal)",
+       "types": [
+         "water"
+       ],
+       "fastMoveIds": [
+         "WATERFALL_FAST"
+       ],
+       "chargedMoveIds": [
+         "SURF",
++        "ORIGIN_PULSE",
+         "THUNDER",
+         "BLIZZARD",
+         "HYDRO_PUMP"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 83.51014722439757,
+           "max": 87.0587370497969
+         },
+         "great": {
+           "rankOne": 145.15132297958925,
+           "max": 150.90803267283076
+         },
+         "ultra": {
+           "rankOne": 185.65770559627913,
+           "max": 193.54684322784905
+         },
+         "master": {
+           "rankOne": 311.0704069137573,
+           "max": 311.0704069137573
+@@ -19365,40 +19433,75 @@
        ],
        "cmp": {
          "little": {
@@ -102,7 +402,7 @@ index 0867d13..cda1b6d 100644
            "rankOne": 57.309798868715326,
            "max": 66.32472651700071
          },
-@@ -25425,40 +25460,41 @@
+@@ -25425,40 +25528,41 @@
            "rankOne": 99.74540221691132,
            "max": 99.74540221691132
          },
@@ -144,7 +444,7 @@ index 0867d13..cda1b6d 100644
          },
          "master": {
            "rankOne": 252.74470561742783,
-@@ -37076,40 +37112,46 @@
+@@ -37076,40 +37180,46 @@
        "damage": 100
      },
      "DISARMING_VOICE": {
@@ -191,7 +491,7 @@ index 0867d13..cda1b6d 100644
        "damage": 4,
        "turns": 1
      },
-@@ -38742,40 +38784,46 @@
+@@ -38742,40 +38852,46 @@
          6
        ],
        "BODY_SLAM": [
@@ -238,7 +538,7 @@ index 0867d13..cda1b6d 100644
        ],
        "CLOSE_COMBAT": [
          5,
-@@ -43030,40 +43078,46 @@
+@@ -43030,40 +43146,46 @@
          9
        ],
        "ANCIENT_POWER": [
@@ -284,4 +584,145 @@ index 0867d13..cda1b6d 100644
          7
        ],
        "CLOSE_COMBAT": [
+         5,
+@@ -43252,40 +43374,46 @@
+         4
+       ],
+       "OMINOUS_WIND": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "OUTRAGE": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "OVERHEAT": [
+         7,
+         6,
+         6,
+         6
+       ],
++      "PRECIPICE_BLADES": [
++        7,
++        7,
++        6,
++        7
++      ],
+       "PSYCHIC": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "PSYCHIC_FANGS": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "PSYSHOCK": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "RETURN": [
+         8,
+@@ -48584,40 +48712,46 @@
+         4
+       ],
+       "OCTAZOOKA": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "OUTRAGE": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "POWER_UP_PUNCH": [
+         4,
+         4,
+         4,
+         4
+       ],
++      "PRECIPICE_BLADES": [
++        7,
++        7,
++        6,
++        7
++      ],
+       "RETURN": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "ROCK_BLAST": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "ROCK_SLIDE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "ROCK_TOMB": [
+         7,
+@@ -56986,40 +57120,46 @@
+         7
+       ],
+       "MOONBLAST": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "NIGHT_SLASH": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "OCTAZOOKA": [
+         7,
+         6,
+         6,
+         6
+       ],
++      "ORIGIN_PULSE": [
++        8,
++        7,
++        8,
++        7
++      ],
+       "OUTRAGE": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "POISON_FANG": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "PSYCHIC": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "RAZOR_SHELL": [
          5,

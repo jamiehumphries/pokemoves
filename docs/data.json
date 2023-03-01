@@ -1,5 +1,5 @@
 {
-  "timestamp": 1677476941494,
+  "timestamp": 1677631884628,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -14099,14 +14099,13 @@
       ],
       "fastMoveIds": [
         "LOW_KICK_FAST",
-        "POISON_JAB_FAST",
-        "WING_ATTACK_FAST"
+        "POISON_JAB_FAST"
       ],
       "chargedMoveIds": [
         "POWER_UP_PUNCH",
         "X_SCISSOR",
         "FLYING_PRESS",
-        "SKY_ATTACK"
+        "AERIAL_ACE"
       ],
       "cmp": {
         "little": {
@@ -47715,6 +47714,12 @@
       ]
     },
     "LOW_KICK_FAST": {
+      "AERIAL_ACE": [
+        9,
+        9,
+        9,
+        9
+      ],
       "AQUA_JET": [
         9,
         9,
@@ -47996,12 +48001,6 @@
         7,
         7,
         7
-      ],
-      "SKY_ATTACK": [
-        9,
-        9,
-        9,
-        9
       ],
       "SOLAR_BEAM": [
         16,
@@ -49814,12 +49813,6 @@
         8,
         8,
         8
-      ],
-      "SKY_ATTACK": [
-        7,
-        6,
-        7,
-        6
       ],
       "SLUDGE": [
         6,
@@ -57343,12 +57336,6 @@
         7,
         7
       ],
-      "FLYING_PRESS": [
-        5,
-        5,
-        5,
-        5
-      ],
       "HEAT_WAVE": [
         10,
         9,
@@ -57409,12 +57396,6 @@
         5,
         5
       ],
-      "POWER_UP_PUNCH": [
-        5,
-        4,
-        5,
-        4
-      ],
       "PSYCHIC": [
         7,
         7,
@@ -57470,12 +57451,6 @@
         7
       ],
       "WEATHER_BALL_WATER": [
-        5,
-        4,
-        5,
-        4
-      ],
-      "X_SCISSOR": [
         5,
         4,
         5,

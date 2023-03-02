@@ -1,5 +1,5 @@
 {
-  "timestamp": 1677631884628,
+  "timestamp": 1677703660368,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -10075,6 +10075,7 @@
         "CRUNCH",
         "DISARMING_VOICE",
         "RETURN",
+        "BOOMBURST",
         "FIRE_BLAST"
       ],
       "cmp": {
@@ -10762,7 +10763,8 @@
         "EARTH_POWER",
         "STONE_EDGE",
         "EARTHQUAKE",
-        "RETURN"
+        "RETURN",
+        "BOOMBURST"
       ],
       "cmp": {
         "little": {
@@ -15424,6 +15426,7 @@
       ],
       "chargedMoveIds": [
         "BUBBLE_BEAM",
+        "SURF",
         "ICE_BEAM",
         "SHADOW_BALL"
       ],
@@ -16340,7 +16343,8 @@
       "chargedMoveIds": [
         "DRAGON_CLAW",
         "CLOSE_COMBAT",
-        "FLAMETHROWER"
+        "FLAMETHROWER",
+        "BOOMBURST"
       ],
       "cmp": {
         "little": {
@@ -35314,6 +35318,7 @@
       ],
       "fastMoveIds": [
         "CHARM_FAST",
+        "FAIRY_WIND_FAST",
         "RAZOR_LEAF_FAST"
       ],
       "chargedMoveIds": [
@@ -39181,6 +39186,12 @@
         4,
         4,
         4
+      ],
+      "BOOMBURST": [
+        9,
+        8,
+        8,
+        9
       ],
       "BRAVE_BIRD": [
         7,
@@ -43162,6 +43173,12 @@
         8,
         9
       ],
+      "BOOMBURST": [
+        9,
+        8,
+        8,
+        9
+      ],
       "BREAKING_SWIPE": [
         4,
         4,
@@ -44062,10 +44079,22 @@
         6,
         6
       ],
+      "GRASS_KNOT": [
+        6,
+        6,
+        5,
+        6
+      ],
       "HIGH_HORSEPOWER": [
         7,
         7,
         6,
+        7
+      ],
+      "HURRICANE": [
+        8,
+        7,
+        7,
         7
       ],
       "HYPER_BEAM": [
@@ -45785,6 +45814,12 @@
         5,
         6,
         5
+      ],
+      "SURF": [
+        4,
+        3,
+        3,
+        4
       ],
       "THUNDER": [
         5,
@@ -48530,6 +48565,12 @@
         4,
         4
       ],
+      "BOOMBURST": [
+        9,
+        8,
+        8,
+        9
+      ],
       "BRINE": [
         6,
         6,
@@ -49495,6 +49536,12 @@
         5,
         5,
         5
+      ],
+      "BOOMBURST": [
+        11,
+        11,
+        11,
+        10
       ],
       "BRICK_BREAK": [
         5,

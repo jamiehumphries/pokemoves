@@ -1,0 +1,536 @@
+diff --git a/docs/data.json b/docs/data.json
+index 94bd567..e08f8b9 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -1,22 +1,22 @@
+ {
+-  "timestamp": 1677631884628,
++  "timestamp": 1677703660368,
+   "pokemon": [
+     {
+       "name": "Abomasnow",
+       "types": [
+         "grass",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "POWDER_SNOW_FAST",
+         "RAZOR_LEAF_FAST"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_ICE",
+         "ENERGY_BALL",
+         "OUTRAGE",
+         "RETURN",
+         "BLIZZARD"
+       ],
+       "cmp": {
+         "little": {
+@@ -10058,40 +10058,41 @@
+         },
+         "master": {
+           "rankOne": 207.0985046029091,
+           "max": 207.0985046029091
+         }
+       }
+     },
+     {
+       "name": "Exploud",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
+         "ASTONISH_FAST",
+         "BITE_FAST"
+       ],
+       "chargedMoveIds": [
+         "CRUNCH",
+         "DISARMING_VOICE",
+         "RETURN",
++        "BOOMBURST",
+         "FIRE_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.04334807395922,
+           "max": 72.79570394754396
+         },
+         "great": {
+           "rankOne": 118.35824816770324,
+           "max": 126.96051311492917
+         },
+         "ultra": {
+           "rankOne": 152.9993034005165,
+           "max": 163.9882036447525
+         },
+         "master": {
+           "rankOne": 163.9882036447525,
+           "max": 163.9882036447525
+         }
+       }
+@@ -10745,41 +10746,42 @@
+           "rankOne": 191.88310426473618,
+           "max": 191.88310426473618
+         }
+       }
+     },
+     {
+       "name": "Flygon",
+       "types": [
+         "ground",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "DRAGON_TAIL_FAST",
+         "MUD_SHOT_FAST"
+       ],
+       "chargedMoveIds": [
+         "DRAGON_CLAW",
+         "EARTH_POWER",
+         "STONE_EDGE",
+         "EARTHQUAKE",
+-        "RETURN"
++        "RETURN",
++        "BOOMBURST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 74.30383849965195,
+           "max": 77.20350048988227
+         },
+         "great": {
+           "rankOne": 126.97784266604026,
+           "max": 135.0300961033989
+         },
+         "ultra": {
+           "rankOne": 163.03650140762326,
+           "max": 174.9660015106201
+         },
+         "master": {
+           "rankOne": 185.9660041332245,
+           "max": 185.9660041332245
+         }
+       }
+     },
+@@ -15407,40 +15409,41 @@
+           "max": 98.90010219812393
+         },
+         "master": {
+           "rankOne": 98.90010219812393,
+           "max": 98.90010219812393
+         }
+       }
+     },
+     {
+       "name": "Jellicent",
+       "types": [
+         "water",
+         "ghost"
+       ],
+       "fastMoveIds": [
+         "BUBBLE_FAST",
+         "HEX_FAST"
+       ],
+       "chargedMoveIds": [
+         "BUBBLE_BEAM",
++        "SURF",
+         "ICE_BEAM",
+         "SHADOW_BALL"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 61.62719336254171,
+           "max": 65.29099220037448
+         },
+         "great": {
+           "rankOne": 105.79508216107553,
+           "max": 113.87180042266844
+         },
+         "ultra": {
+           "rankOne": 137.7839030623436,
+           "max": 147.08220326900482
+         },
+         "master": {
+           "rankOne": 147.08220326900482,
+           "max": 147.08220326900482
+         }
+@@ -16323,41 +16326,42 @@
+         },
+         "master": {
+           "rankOne": 195.2643043398857,
+           "max": 195.2643043398857
+         }
+       }
+     },
+     {
+       "name": "Kommo-o",
+       "types": [
+         "dragon",
+         "fighting"
+       ],
+       "fastMoveIds": [
+         "DRAGON_TAIL_FAST",
+         "POISON_JAB_FAST"
+       ],
+       "chargedMoveIds": [
+         "DRAGON_CLAW",
+         "CLOSE_COMBAT",
+-        "FLAMETHROWER"
++        "FLAMETHROWER",
++        "BOOMBURST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 71.2814469337463,
+           "max": 74.81341052055355
+         },
+         "great": {
+           "rankOne": 122.27597808837871,
+           "max": 130.53786849975566
+         },
+         "ultra": {
+           "rankOne": 158.32354071800168,
+           "max": 167.59473904833513
+         },
+         "master": {
+           "rankOne": 200.33610445261002,
+           "max": 200.33610445261002
+         }
+       }
+     },
+@@ -35297,40 +35301,41 @@
+           "max": 124.97044080277045
+         },
+         "ultra": {
+           "rankOne": 152.15400338172913,
+           "max": 159.76170355081558
+         },
+         "master": {
+           "rankOne": 159.76170355081558,
+           "max": 159.76170355081558
+         }
+       }
+     },
+     {
+       "name": "Whimsicott",
+       "types": [
+         "grass",
+         "fairy"
+       ],
+       "fastMoveIds": [
+         "CHARM_FAST",
++        "FAIRY_WIND_FAST",
+         "RAZOR_LEAF_FAST"
+       ],
+       "chargedMoveIds": [
+         "GRASS_KNOT",
+         "MOONBLAST",
+         "HURRICANE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 67.84693567034626,
+           "max": 73.60364536358776
+         },
+         "great": {
+           "rankOne": 116.95973278266791,
+           "max": 126.94410021533469
+         },
+         "ultra": {
+           "rankOne": 151.30870336294174,
+           "max": 151.30870336294174
+         },
+@@ -39165,40 +39170,46 @@
+     },
+     "ASTONISH_FAST": {
+       "AERIAL_ACE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "BLIZZARD": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "BODY_SLAM": [
+         4,
+         4,
+         4,
+         4
+       ],
++      "BOOMBURST": [
++        9,
++        8,
++        8,
++        9
++      ],
+       "BRAVE_BIRD": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "BRICK_BREAK": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "BRINE": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "CRUNCH": [
+         5,
+@@ -43145,40 +43156,46 @@
+         9
+       ],
+       "ANCIENT_POWER": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "AQUA_TAIL": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "BLIZZARD": [
+         9,
+         8,
+         8,
+         9
+       ],
++      "BOOMBURST": [
++        9,
++        8,
++        8,
++        9
++      ],
+       "BREAKING_SWIPE": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "BRICK_BREAK": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "BRUTAL_SWING": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "BULLDOZE": [
+         7,
+@@ -44045,46 +44062,58 @@
+         5
+       ],
+       "DRAINING_KISS": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "ENERGY_BALL": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "FLAMETHROWER": [
+         7,
+         6,
+         6,
+         6
+       ],
++      "GRASS_KNOT": [
++        6,
++        6,
++        5,
++        6
++      ],
+       "HIGH_HORSEPOWER": [
+         7,
+         7,
+         6,
+         7
+       ],
++      "HURRICANE": [
++        8,
++        7,
++        7,
++        7
++      ],
+       "HYPER_BEAM": [
+         9,
+         9,
+         9,
+         9
+       ],
+       "IRON_HEAD": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "MEGAHORN": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "MOONBLAST": [
+         7,
+@@ -45769,40 +45798,46 @@
+         3
+       ],
+       "SHADOW_SNEAK": [
+         4,
+         4,
+         4,
+         3
+       ],
+       "SLUDGE_BOMB": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "SLUDGE_WAVE": [
+         6,
+         5,
+         6,
+         5
+       ],
++      "SURF": [
++        4,
++        3,
++        3,
++        4
++      ],
+       "THUNDER": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "WEATHER_BALL_NORMAL": [
+         3,
+         3,
+         3,
+         3
+       ],
+       "WEATHER_BALL_ROCK": [
+         3,
+         3,
+         3,
+         3
+       ]
+     },
+     "HIDDEN_POWER_FAST": {
+@@ -48513,40 +48548,46 @@
+         4
+       ],
+       "AURORA_BEAM": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "BLIZZARD": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "BODY_SLAM": [
+         4,
+         4,
+         4,
+         4
+       ],
++      "BOOMBURST": [
++        9,
++        8,
++        8,
++        9
++      ],
+       "BRINE": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "BUBBLE_BEAM": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "BUG_BUZZ": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "BULLDOZE": [
+         7,
+@@ -49479,40 +49520,46 @@
+         6
+       ],
+       "AQUA_TAIL": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "BLIZZARD": [
+         11,
+         11,
+         11,
+         10
+       ],
+       "BODY_SLAM": [
+         5,
+         5,
+         5,
+         5
+       ],
++      "BOOMBURST": [
++        11,
++        11,
++        11,
++        10
++      ],
+       "BRICK_BREAK": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "BRINE": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "BUBBLE_BEAM": [
+         6,
+         6,
+         6,
+         5
+       ],
+       "BULLDOZE": [
+         9,

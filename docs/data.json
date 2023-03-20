@@ -1,5 +1,5 @@
 {
-  "timestamp": 1679084615344,
+  "timestamp": 1679214052783,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -29666,6 +29666,7 @@
         "WATER_GUN_FAST"
       ],
       "chargedMoveIds": [
+        "SURF",
         "ICE_BEAM",
         "PSYCHIC",
         "WATER_PULSE",
@@ -29701,6 +29702,7 @@
         "POISON_JAB_FAST"
       ],
       "chargedMoveIds": [
+        "SURF",
         "SLUDGE_BOMB",
         "PSYCHIC",
         "RETURN",
@@ -29736,6 +29738,7 @@
         "WATER_GUN_FAST"
       ],
       "chargedMoveIds": [
+        "SURF",
         "ICE_BEAM",
         "PSYCHIC",
         "WATER_PULSE",
@@ -29771,6 +29774,7 @@
         "WATER_GUN_FAST"
       ],
       "chargedMoveIds": [
+        "SURF",
         "PSYCHIC",
         "RETURN",
         "BLIZZARD",
@@ -29807,6 +29811,7 @@
         "HEX_FAST"
       ],
       "chargedMoveIds": [
+        "SURF",
         "SHADOW_BALL",
         "FUTURESIGHT",
         "SLUDGE_WAVE",
@@ -38792,6 +38797,12 @@
         11,
         11,
         11
+      ],
+      "SURF": [
+        8,
+        8,
+        8,
+        8
       ],
       "THUNDER_PUNCH": [
         8,

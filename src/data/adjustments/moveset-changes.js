@@ -63,12 +63,6 @@ module.exports = {
       },
     },
     {
-      pokemonName: "Kyurem",
-      chargedMoveIds: {
-        add: ["GLACIATE"],
-      },
-    },
-    {
       pokemonName: "Lileep",
       fastMoveIds: {
         add: ["BULLET_SEED_FAST"],

@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 469b1f6..76dbc76 100644
+index 469b1f6..425a530 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1679214052783,
-+  "timestamp": 1679343550273,
++  "timestamp": 1680131682203,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,3 +26,383 @@ index 469b1f6..76dbc76 100644
        ],
        "cmp": {
          "little": {
+@@ -7959,41 +7959,42 @@
+           "rankOne": 146.23690325021744,
+           "max": 146.23690325021744
+         }
+       }
+     },
+     {
+       "name": "Donphan",
+       "types": [
+         "ground"
+       ],
+       "fastMoveIds": [
+         "CHARM_FAST",
+         "COUNTER_FAST",
+         "MUD_SLAP_FAST",
+         "TACKLE_FAST"
+       ],
+       "chargedMoveIds": [
+         "BODY_SLAM",
+         "HEAVY_SLAM",
+         "PLAY_ROUGH",
+-        "EARTHQUAKE"
++        "EARTHQUAKE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 71.78523691114648,
+           "max": 76.14602233098248
+         },
+         "great": {
+           "rankOne": 124.60768616199476,
+           "max": 131.59503304958326
+         },
+         "ultra": {
+           "rankOne": 159.17093896865836,
+           "max": 171.0128967928684
+         },
+         "master": {
+           "rankOne": 193.57370430231094,
+           "max": 193.57370430231094
+         }
+       }
+     },
+@@ -8478,75 +8479,77 @@
+         },
+         "master": {
+           "rankOne": 111.57960247993469,
+           "max": 111.57960247993469
+         }
+       }
+     },
+     {
+       "name": "Drifblim",
+       "types": [
+         "ghost",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "ASTONISH_FAST",
+         "HEX_FAST"
+       ],
+       "chargedMoveIds": [
+         "ICY_WIND",
+         "OMINOUS_WIND",
+-        "SHADOW_BALL"
++        "SHADOW_BALL",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 68.29287689924227,
+           "max": 73.17093953490243
+         },
+         "great": {
+           "rankOne": 117.79841423034667,
+           "max": 127.61494874954221
+         },
+         "ultra": {
+           "rankOne": 151.70467122625465,
+           "max": 164.8335036635399
+         },
+         "master": {
+           "rankOne": 164.8335036635399,
+           "max": 164.8335036635399
+         }
+       }
+     },
+     {
+       "name": "Drifloon",
+       "types": [
+         "ghost",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "ASTONISH_FAST",
+         "HEX_FAST"
+       ],
+       "chargedMoveIds": [
+         "ICY_WIND",
+         "OMINOUS_WIND",
+-        "SHADOW_BALL"
++        "SHADOW_BALL",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 63.48838418095131,
+           "max": 71.6279206144066
+         },
+         "great": {
+           "rankOne": 111.57960247993469,
+           "max": 111.57960247993469
+         },
+         "ultra": {
+           "rankOne": 111.57960247993469,
+           "max": 111.57960247993469
+         },
+         "master": {
+           "rankOne": 111.57960247993469,
+           "max": 111.57960247993469
+         }
+       }
+     },
+@@ -13466,41 +13469,42 @@
+           "max": 193.54684322784905
+         },
+         "master": {
+           "rankOne": 311.0704069137573,
+           "max": 311.0704069137573
+         }
+       }
+     },
+     {
+       "name": "Grovyle",
+       "types": [
+         "grass"
+       ],
+       "fastMoveIds": [
+         "BULLET_SEED_FAST",
+         "QUICK_ATTACK_FAST"
+       ],
+       "chargedMoveIds": [
+         "LEAF_BLADE",
+         "AERIAL_ACE",
+-        "GRASS_KNOT"
++        "GRASS_KNOT",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 77.92631206598142,
+           "max": 84.72221137406119
+         },
+         "great": {
+           "rankOne": 134.46789114704927,
+           "max": 147.78610217571247
+         },
+         "ultra": {
+           "rankOne": 158.0711035132408,
+           "max": 158.0711035132408
+         },
+         "master": {
+           "rankOne": 158.0711035132408,
+           "max": 158.0711035132408
+         }
+       }
+     },
+@@ -23212,41 +23216,42 @@
+           "max": 113.27020251750946
+         },
+         "master": {
+           "rankOne": 113.27020251750946,
+           "max": 113.27020251750946
+         }
+       }
+     },
+     {
+       "name": "Phanpy",
+       "types": [
+         "ground"
+       ],
+       "fastMoveIds": [
+         "ROCK_SMASH_FAST",
+         "TACKLE_FAST"
+       ],
+       "chargedMoveIds": [
+         "BODY_SLAM",
+         "ROCK_SLIDE",
+-        "BULLDOZE"
++        "BULLDOZE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 58.06202655864777,
+           "max": 65.1912281513213
+         },
+         "great": {
+           "rankOne": 103.12660229206085,
+           "max": 103.12660229206085
+         },
+         "ultra": {
+           "rankOne": 103.12660229206085,
+           "max": 103.12660229206085
+         },
+         "master": {
+           "rankOne": 103.12660229206085,
+           "max": 103.12660229206085
+         }
+       }
+     },
+@@ -25569,40 +25574,41 @@
+         },
+         "master": {
+           "rankOne": 252.74470561742783,
+           "max": 252.74470561742783
+         }
+       }
+     },
+     {
+       "name": "Regice",
+       "types": [
+         "ice"
+       ],
+       "fastMoveIds": [
+         "FROST_BREATH_FAST",
+         "LOCK_ON_FAST",
+         "ROCK_SMASH_FAST"
+       ],
+       "chargedMoveIds": [
+         "THUNDER",
+         "EARTHQUAKE",
++        "RETURN",
+         "BLIZZARD",
+         "FOCUS_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 60.04466078081878,
+           "max": 62.290994167327845
+         },
+         "great": {
+           "rankOne": 102.84787749902824,
+           "max": 108.81686782836903
+         },
+         "ultra": {
+           "rankOne": 132.06073772907249,
+           "max": 140.761669692684
+         },
+         "master": {
+           "rankOne": 163.9882036447525,
+           "max": 163.9882036447525
+         }
+@@ -27181,77 +27187,79 @@
+         "master": {
+           "rankOne": 65.93340146541595,
+           "max": 65.93340146541595
+         }
+       }
+     },
+     {
+       "name": "Sceptile",
+       "types": [
+         "grass"
+       ],
+       "fastMoveIds": [
+         "BULLET_SEED_FAST",
+         "FURY_CUTTER_FAST"
+       ],
+       "chargedMoveIds": [
+         "DRAGON_CLAW",
+         "LEAF_BLADE",
+         "AERIAL_ACE",
+         "FRENZY_PLANT",
+-        "EARTHQUAKE"
++        "EARTHQUAKE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 77.87442681193343,
+           "max": 83.11261695623388
+         },
+         "great": {
+           "rankOne": 134.8756756229623,
+           "max": 143.94803048549338
+         },
+         "ultra": {
+           "rankOne": 173.70200330018994,
+           "max": 186.7435998916624
+         },
+         "master": {
+           "rankOne": 201.1814044713974,
+           "max": 201.1814044713974
+         }
+       }
+     },
+     {
+       "name": "Sceptile (Mega)",
+       "types": [
+         "grass",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "BULLET_SEED_FAST",
+         "FURY_CUTTER_FAST"
+       ],
+       "chargedMoveIds": [
+         "DRAGON_CLAW",
+         "LEAF_BLADE",
+         "AERIAL_ACE",
+         "FRENZY_PLANT",
+-        "EARTHQUAKE"
++        "EARTHQUAKE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 92.87996292114241,
+           "max": 96.36296153068524
+         },
+         "great": {
+           "rankOne": 158.05557090340056,
+           "max": 167.45257705450044
+         },
+         "ultra": {
+           "rankOne": 203.4013873009005,
+           "max": 215.64446077945146
+         },
+         "master": {
+           "rankOne": 283.17550629377365,
+           "max": 283.17550629377365
+         }
+       }
+     },
+@@ -33230,41 +33238,42 @@
+           "max": 149.61810332536697
+         },
+         "master": {
+           "rankOne": 149.61810332536697,
+           "max": 149.61810332536697
+         }
+       }
+     },
+     {
+       "name": "Treecko",
+       "types": [
+         "grass"
+       ],
+       "fastMoveIds": [
+         "BULLET_SEED_FAST",
+         "POUND_FAST"
+       ],
+       "chargedMoveIds": [
+         "AERIAL_ACE",
+         "GRASS_KNOT",
+-        "ENERGY_BALL"
++        "ENERGY_BALL",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 71.821143504908,
+           "max": 80.93676811456669
+         },
+         "great": {
+           "rankOne": 117.49670261144638,
+           "max": 117.49670261144638
+         },
+         "ultra": {
+           "rankOne": 117.49670261144638,
+           "max": 117.49670261144638
+         },
+         "master": {
+           "rankOne": 117.49670261144638,
+           "max": 117.49670261144638
+         }
+       }
+     },

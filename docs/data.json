@@ -1,5 +1,5 @@
 {
-  "timestamp": 1679343550273,
+  "timestamp": 1680131682203,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -7976,7 +7976,8 @@
         "BODY_SLAM",
         "HEAVY_SLAM",
         "PLAY_ROUGH",
-        "EARTHQUAKE"
+        "EARTHQUAKE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -8495,7 +8496,8 @@
       "chargedMoveIds": [
         "ICY_WIND",
         "OMINOUS_WIND",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -8529,7 +8531,8 @@
       "chargedMoveIds": [
         "ICY_WIND",
         "OMINOUS_WIND",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -13483,7 +13486,8 @@
       "chargedMoveIds": [
         "LEAF_BLADE",
         "AERIAL_ACE",
-        "GRASS_KNOT"
+        "GRASS_KNOT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -23229,7 +23233,8 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "ROCK_SLIDE",
-        "BULLDOZE"
+        "BULLDOZE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -25586,6 +25591,7 @@
       "chargedMoveIds": [
         "THUNDER",
         "EARTHQUAKE",
+        "RETURN",
         "BLIZZARD",
         "FOCUS_BLAST"
       ],
@@ -27198,7 +27204,8 @@
         "LEAF_BLADE",
         "AERIAL_ACE",
         "FRENZY_PLANT",
-        "EARTHQUAKE"
+        "EARTHQUAKE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -27234,7 +27241,8 @@
         "LEAF_BLADE",
         "AERIAL_ACE",
         "FRENZY_PLANT",
-        "EARTHQUAKE"
+        "EARTHQUAKE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -33247,7 +33255,8 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "GRASS_KNOT",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {

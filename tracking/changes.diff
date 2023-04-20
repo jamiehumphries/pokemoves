@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 425a530..9910f6e 100644
+index 425a530..6004d3e 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1680131682203,
-+  "timestamp": 1680798050492,
++  "timestamp": 1681897513689,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,3 +26,186 @@ index 425a530..9910f6e 100644
        ],
        "cmp": {
          "little": {
+@@ -32656,40 +32656,41 @@
+         "master": {
+           "rankOne": 173.28650385141373,
+           "max": 173.28650385141373
+         }
+       }
+     },
+     {
+       "name": "Togekiss",
+       "types": [
+         "fairy",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "AIR_SLASH_FAST",
+         "CHARM_FAST",
+         "HIDDEN_POWER_FAST"
+       ],
+       "chargedMoveIds": [
+         "AERIAL_ACE",
+         "ANCIENT_POWER",
++        "AURA_SPHERE",
+         "FLAMETHROWER",
+         "DAZZLING_GLEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 72.24470973014827,
+           "max": 75.1344981193542
+         },
+         "great": {
+           "rankOne": 123.9283561706541,
+           "max": 131.08866119384746
+         },
+         "ultra": {
+           "rankOne": 159.04894620180127,
+           "max": 169.65220928192136
+         },
+         "master": {
+           "rankOne": 202.87200450897217,
+           "max": 202.87200450897217
+         }
+@@ -38852,40 +38853,46 @@
+     },
+     "AIR_SLASH_FAST": {
+       "AERIAL_ACE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "AIR_CUTTER": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "ANCIENT_POWER": [
+         5,
+         5,
+         5,
+         5
+       ],
++      "AURA_SPHERE": [
++        7,
++        6,
++        6,
++        6
++      ],
+       "BLAST_BURN": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "BODY_SLAM": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "BOOMBURST": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "BRAVE_BIRD": [
+         7,
+@@ -41442,40 +41449,46 @@
+         7
+       ],
+       "ANCIENT_POWER": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "AQUA_JET": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "AQUA_TAIL": [
+         6,
+         6,
+         6,
+         6
+       ],
++      "AURA_SPHERE": [
++        10,
++        9,
++        9,
++        9
++      ],
+       "BLIZZARD": [
+         13,
+         12,
+         13,
+         12
+       ],
+       "BODY_SLAM": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "BRICK_BREAK": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "CLOSE_COMBAT": [
+         8,
+@@ -45856,40 +45869,46 @@
+       "WEATHER_BALL_ROCK": [
+         3,
+         3,
+         3,
+         3
+       ]
+     },
+     "HIDDEN_POWER_FAST": {
+       "AERIAL_ACE": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "ANCIENT_POWER": [
+         6,
+         6,
+         5,
+         6
+       ],
++      "AURA_SPHERE": [
++        7,
++        7,
++        7,
++        7
++      ],
+       "BLIZZARD": [
+         10,
+         9,
+         10,
+         9
+       ],
+       "BODY_SLAM": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "BRAVE_BIRD": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "BUBBLE_BEAM": [
+         5,

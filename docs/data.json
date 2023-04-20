@@ -1,5 +1,5 @@
 {
-  "timestamp": 1680798050492,
+  "timestamp": 1681897513689,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -32673,6 +32673,7 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "ANCIENT_POWER",
+        "AURA_SPHERE",
         "FLAMETHROWER",
         "DAZZLING_GLEAM"
       ],
@@ -38869,6 +38870,12 @@
         5,
         5
       ],
+      "AURA_SPHERE": [
+        7,
+        6,
+        6,
+        6
+      ],
       "BLAST_BURN": [
         6,
         6,
@@ -41458,6 +41465,12 @@
         6,
         6,
         6
+      ],
+      "AURA_SPHERE": [
+        10,
+        9,
+        9,
+        9
       ],
       "BLIZZARD": [
         13,
@@ -45872,6 +45885,12 @@
         6,
         5,
         6
+      ],
+      "AURA_SPHERE": [
+        7,
+        7,
+        7,
+        7
       ],
       "BLIZZARD": [
         10,

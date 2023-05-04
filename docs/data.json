@@ -1,5 +1,5 @@
 {
-  "timestamp": 1682380319463,
+  "timestamp": 1683140223667,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -16165,6 +16165,40 @@
       }
     },
     {
+      "name": "Kleavor",
+      "types": [
+        "bug",
+        "rock"
+      ],
+      "fastMoveIds": [
+        "AIR_SLASH_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "chargedMoveIds": [
+        "X_SCISSOR",
+        "ROCK_SLIDE",
+        "STONE_EDGE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 83.48277568817134,
+          "max": 88.29908967018123
+        },
+        "great": {
+          "rankOne": 143.20610046386696,
+          "max": 152.56075364659776
+        },
+        "ultra": {
+          "rankOne": 185.20366179943082,
+          "max": 197.1153519153595
+        },
+        "master": {
+          "rankOne": 232.4575051665306,
+          "max": 232.4575051665306
+        }
+      }
+    },
+    {
       "name": "Klefki",
       "types": [
         "steel",
@@ -23945,6 +23979,44 @@
         "master": {
           "rankOne": 213.86090475320816,
           "max": 213.86090475320816
+        }
+      }
+    },
+    {
+      "name": "Pinsir (Mega)",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "fastMoveIds": [
+        "BUG_BITE_FAST",
+        "FURY_CUTTER_FAST",
+        "ROCK_SMASH_FAST"
+      ],
+      "chargedMoveIds": [
+        "X_SCISSOR",
+        "SUPER_POWER",
+        "VICE_GRIP",
+        "CLOSE_COMBAT",
+        "SUBMISSION",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 87.52972195224608,
+          "max": 88.81646454334242
+        },
+        "great": {
+          "rankOne": 149.3223354220389,
+          "max": 157.07385928288255
+        },
+        "ultra": {
+          "rankOne": 191.10297322273237,
+          "max": 202.76773811927774
+        },
+        "master": {
+          "rankOne": 270.4960060119629,
+          "max": 270.4960060119629
         }
       }
     },
@@ -39176,6 +39248,12 @@
         5,
         4
       ],
+      "STONE_EDGE": [
+        7,
+        6,
+        6,
+        6
+      ],
       "THUNDER": [
         7,
         7,
@@ -51322,6 +51400,12 @@
         9,
         8
       ],
+      "ROCK_SLIDE": [
+        6,
+        6,
+        5,
+        6
+      ],
       "SACRED_SWORD": [
         5,
         4,
@@ -51435,6 +51519,12 @@
         6,
         5,
         6
+      ],
+      "X_SCISSOR": [
+        5,
+        4,
+        5,
+        4
       ],
       "ZAP_CANNON": [
         10,

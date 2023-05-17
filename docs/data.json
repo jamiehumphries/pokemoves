@@ -1,5 +1,5 @@
 {
-  "timestamp": 1683332993574,
+  "timestamp": 1684194079662,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -37896,6 +37896,12 @@
       "type": "water",
       "energy": -35,
       "damage": 35
+    },
+    "MYSTICAL_FIRE": {
+      "name": "Mystical Fire",
+      "type": "fire",
+      "energy": -45,
+      "damage": 60
     },
     "NIGHT_SHADE": {
       "name": "Night Shade",

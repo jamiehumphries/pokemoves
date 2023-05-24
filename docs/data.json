@@ -1,5 +1,5 @@
 {
-  "timestamp": 1684390369838,
+  "timestamp": 1684801918930,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -7424,6 +7424,8 @@
         "ZEN_HEADBUTT_FAST"
       ],
       "chargedMoveIds": [
+        "MYSTICAL_FIRE",
+        "BLAST_BURN",
         "FLAME_CHARGE",
         "FLAMETHROWER",
         "PSYCHIC",
@@ -44982,6 +44984,12 @@
         6,
         5
       ],
+      "MYSTICAL_FIRE": [
+        5,
+        4,
+        5,
+        4
+      ],
       "OVERHEAT": [
         6,
         5,
@@ -52628,6 +52636,12 @@
         18,
         17
       ],
+      "BLAST_BURN": [
+        25,
+        25,
+        25,
+        25
+      ],
       "BODY_SLAM": [
         18,
         17,
@@ -52795,6 +52809,12 @@
         20,
         20,
         20
+      ],
+      "MYSTICAL_FIRE": [
+        23,
+        22,
+        23,
+        22
       ],
       "NIGHT_SLASH": [
         18,
@@ -57762,6 +57782,12 @@
         6,
         6
       ],
+      "BLAST_BURN": [
+        9,
+        8,
+        8,
+        9
+      ],
       "BLIZZARD": [
         13,
         12,
@@ -58019,6 +58045,12 @@
         10,
         10,
         10
+      ],
+      "MYSTICAL_FIRE": [
+        8,
+        7,
+        8,
+        7
       ],
       "NIGHT_SHADE": [
         10,

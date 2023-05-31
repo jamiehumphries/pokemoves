@@ -1,5 +1,5 @@
 {
-  "timestamp": 1684801918930,
+  "timestamp": 1685498050528,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -37766,12 +37766,25 @@
       "energy": -40,
       "damage": 45
     },
+    "LEAFAGE_FAST": {
+      "name": "Leafage",
+      "type": "grass",
+      "energy": 7,
+      "damage": 6,
+      "turns": 2
+    },
     "LICK_FAST": {
       "name": "Lick",
       "type": "ghost",
       "energy": 3,
       "damage": 3,
       "turns": 1
+    },
+    "LIQUIDATION": {
+      "name": "Liquidation",
+      "type": "water",
+      "energy": -45,
+      "damage": 70
     },
     "LOCK_ON_FAST": {
       "name": "Lock-On",

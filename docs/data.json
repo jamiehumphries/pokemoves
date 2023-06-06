@@ -1,5 +1,5 @@
 {
-  "timestamp": 1685650747345,
+  "timestamp": 1685913422695,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -19628,6 +19628,7 @@
         "THUNDER_SHOCK_FAST"
       ],
       "chargedMoveIds": [
+        "DOUBLE_IRON_BASH",
         "SUPER_POWER",
         "ROCK_SLIDE",
         "THUNDERBOLT",
@@ -27205,6 +27206,7 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "LOW_SWEEP",
+        "RETURN",
         "FOCUS_BLAST"
       ],
       "cmp": {
@@ -32538,6 +32540,7 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "LOW_SWEEP",
+        "RETURN",
         "FOCUS_BLAST"
       ],
       "cmp": {
@@ -56358,6 +56361,12 @@
         5,
         5,
         5
+      ],
+      "DOUBLE_IRON_BASH": [
+        4,
+        4,
+        4,
+        4
       ],
       "DRAGON_PULSE": [
         7,

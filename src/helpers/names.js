@@ -73,7 +73,7 @@ const multipleVersionMoveIds = [
 function getPokemonName(template) {
   const { pokemonId: id, form } = template;
   const baseName = getPokemonBaseName(id);
-  const formName = getPokemonFormName(id, form);
+  const formName = getPokemonFormName(id, form?.toString());
   return formName ? `${baseName} (${formName})` : baseName;
 }
 

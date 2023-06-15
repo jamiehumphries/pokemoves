@@ -1,7 +1,7 @@
 const crypto = require("crypto");
 const fs = require("fs");
 const { minify } = require("html-minifier");
-const sass = require("node-sass");
+const sass = require("sass");
 const nunjucks = require("nunjucks");
 const { join, parse } = require("path");
 const UglifyJs = require("uglify-js");
@@ -256,8 +256,8 @@ function getCounts(fastMove, chargedMove) {
 }
 
 function buildCss() {
-  const outputStyle = "compressed";
-  const transform = (data) => sass.renderSync({ data, outputStyle }).css;
+  const style = "compressed";
+  const transform = (data) => sass.compileString(data, { style }).css;
   return buildResources("styles", transform, ".css");
 }
 

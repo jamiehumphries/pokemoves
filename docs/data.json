@@ -1,5 +1,5 @@
 {
-  "timestamp": 1686333128762,
+  "timestamp": 1686805348524,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -12185,7 +12185,8 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "THUNDERBOLT",
-        "PLAY_ROUGH"
+        "PLAY_ROUGH",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -14163,6 +14164,7 @@
         "DRAGON_TAIL_FAST"
       ],
       "chargedMoveIds": [
+        "BREAKING_SWIPE",
         "DRAGON_CLAW",
         "NIGHT_SLASH",
         "SURF",
@@ -14553,7 +14555,8 @@
       "chargedMoveIds": [
         "CLOSE_COMBAT",
         "STONE_EDGE",
-        "GYRO_BALL"
+        "GYRO_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -17311,7 +17314,8 @@
         "AERIAL_ACE",
         "SILVER_WIND",
         "DYNAMIC_PUNCH",
-        "BUG_BUZZ"
+        "BUG_BUZZ",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -17345,7 +17349,8 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "SILVER_WIND",
-        "SWIFT"
+        "SWIFT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -24958,7 +24963,8 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "PLAY_ROUGH",
-        "THUNDER"
+        "THUNDER",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -25825,6 +25831,7 @@
       "chargedMoveIds": [
         "STONE_EDGE",
         "EARTHQUAKE",
+        "RETURN",
         "FOCUS_BLAST",
         "ZAP_CANNON"
       ],
@@ -42519,6 +42526,12 @@
         8,
         8,
         8
+      ],
+      "BREAKING_SWIPE": [
+        5,
+        5,
+        5,
+        5
       ],
       "BRICK_BREAK": [
         5,

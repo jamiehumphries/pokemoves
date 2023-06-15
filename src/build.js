@@ -268,12 +268,15 @@ function buildJs() {
 
 function buildResources(sourceDirName, transform, ext) {
   const sourceDir = join(__dirname, sourceDirName);
-  return fs.readdirSync(sourceDir).map((file) => {
-    const path = join(sourceDir, file);
-    const data = transform(fs.readFileSync(path).toString());
-    const newFile = ext ? parse(file).name + ext : file;
-    return { file: newFile, data };
-  });
+  return fs
+    .readdirSync(sourceDir)
+    .filter((file) => !file.startsWith("."))
+    .map((file) => {
+      const path = join(sourceDir, file);
+      const data = transform(fs.readFileSync(path).toString());
+      const newFile = ext ? parse(file).name + ext : file;
+      return { file: newFile, data };
+    });
 }
 
 function writeCacheBustedFiles(destDirName, files) {

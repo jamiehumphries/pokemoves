@@ -109,7 +109,7 @@ function buildPokemon(template, moves) {
 }
 
 function buildMoveEntry(template) {
-  const id = template.uniqueId;
+  const id = template.uniqueId.toString();
   const move = {
     name: getMoveName(template),
     type: getTypes(template)[0],
@@ -236,7 +236,7 @@ function getMoveDamage(template) {
 }
 
 function getMoveTurns(template) {
-  if (!template.uniqueId.endsWith("_FAST")) {
+  if (!template.uniqueId.toString().endsWith("_FAST")) {
     return undefined;
   }
   return (template.durationTurns || 0) + 1;

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1686874975773,
+  "timestamp": 1687379774123,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -26779,6 +26779,41 @@
       }
     },
     {
+      "name": "Sableye (Mega)",
+      "types": [
+        "dark",
+        "ghost"
+      ],
+      "fastMoveIds": [
+        "FEINT_ATTACK_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "chargedMoveIds": [
+        "FOUL_PLAY",
+        "SHADOW_SNEAK",
+        "POWER_GEM",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 63.79750216007222,
+          "max": 68.86750233173359
+        },
+        "great": {
+          "rankOne": 110.48670047521588,
+          "max": 119.71997680047866
+        },
+        "ultra": {
+          "rankOne": 140.31980311870575,
+          "max": 140.31980311870575
+        },
+        "master": {
+          "rankOne": 140.31980311870575,
+          "max": 140.31980311870575
+        }
+      }
+    },
+    {
       "name": "Salamence",
       "types": [
         "dragon",
@@ -33820,20 +33855,20 @@
       ],
       "cmp": {
         "little": {
-          "rankOne": 79.27321523427948,
-          "max": 83.10901597142204
+          "rankOne": 76.64954022862553,
+          "max": 76.64954022862553
         },
         "great": {
-          "rankOne": 137.36333906650543,
-          "max": 144.0099522471428
+          "rankOne": 133.77426174381793,
+          "max": 138.9693787047429
         },
         "ultra": {
-          "rankOne": 178.11643589217184,
-          "max": 186.7349731127608
+          "rankOne": 171.29652786254854,
+          "max": 179.3846224196259
         },
         "master": {
-          "rankOne": 274.7225061058998,
-          "max": 274.7225061058998
+          "rankOne": 273.8772060871124,
+          "max": 273.8772060871124
         }
       }
     },
@@ -37053,6 +37088,12 @@
     }
   ],
   "moves": {
+    "386": {
+      "name": "386",
+      "type": "fire",
+      "energy": -40,
+      "damage": 65
+    },
     "ACID_FAST": {
       "name": "Acid",
       "type": "poison",

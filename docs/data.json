@@ -1,5 +1,5 @@
 {
-  "timestamp": 1687379774123,
+  "timestamp": 1687464692323,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -33605,12 +33605,14 @@
       ],
       "fastMoveIds": [
         "EMBER_FAST",
-        "FIRE_SPIN_FAST"
+        "FIRE_SPIN_FAST",
+        "INCINERATE_FAST"
       ],
       "chargedMoveIds": [
         "FLAMETHROWER",
         "OVERHEAT",
-        "DRAGON_PULSE"
+        "DRAGON_PULSE",
+        "FLASH_CANNON"
       ],
       "cmp": {
         "little": {
@@ -43970,6 +43972,12 @@
         9,
         9
       ],
+      "FLASH_CANNON": [
+        12,
+        12,
+        11,
+        12
+      ],
       "FOCUS_BLAST": [
         13,
         12,
@@ -45161,6 +45169,12 @@
         5,
         6,
         5
+      ],
+      "FLASH_CANNON": [
+        7,
+        7,
+        7,
+        7
       ],
       "FOCUS_BLAST": [
         8,
@@ -46923,6 +46937,12 @@
         3,
         3,
         2
+      ],
+      "FLASH_CANNON": [
+        4,
+        3,
+        4,
+        3
       ],
       "FOCUS_BLAST": [
         4,

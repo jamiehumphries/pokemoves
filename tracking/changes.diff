@@ -1,0 +1,406 @@
+diff --git a/docs/data.json b/docs/data.json
+index b056cb4..e5ab757 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -1,22 +1,22 @@
+ {
+-  "timestamp": 1686874975773,
++  "timestamp": 1687464692323,
+   "pokemon": [
+     {
+       "name": "Abomasnow",
+       "types": [
+         "grass",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "LEAFAGE_FAST",
+         "POWDER_SNOW_FAST",
+         "RAZOR_LEAF_FAST"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_ICE",
+         "ENERGY_BALL",
+         "OUTRAGE",
+         "RETURN",
+         "BLIZZARD"
+       ],
+       "cmp": {
+@@ -26761,40 +26761,75 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 68.88094827532763,
+           "max": 75.14285266399376
+         },
+         "great": {
+           "rankOne": 118.13032958635122,
+           "max": 130.69738592532477
+         },
+         "ultra": {
+           "rankOne": 131.8668029308319,
+           "max": 131.8668029308319
+         },
+         "master": {
+           "rankOne": 131.8668029308319,
+           "max": 131.8668029308319
+         }
+       }
+     },
++    {
++      "name": "Sableye (Mega)",
++      "types": [
++        "dark",
++        "ghost"
++      ],
++      "fastMoveIds": [
++        "FEINT_ATTACK_FAST",
++        "SHADOW_CLAW_FAST"
++      ],
++      "chargedMoveIds": [
++        "FOUL_PLAY",
++        "SHADOW_SNEAK",
++        "POWER_GEM",
++        "RETURN"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 63.79750216007222,
++          "max": 68.86750233173359
++        },
++        "great": {
++          "rankOne": 110.48670047521588,
++          "max": 119.71997680047866
++        },
++        "ultra": {
++          "rankOne": 140.31980311870575,
++          "max": 140.31980311870575
++        },
++        "master": {
++          "rankOne": 140.31980311870575,
++          "max": 140.31980311870575
++        }
++      }
++    },
+     {
+       "name": "Salamence",
+       "types": [
+         "dragon",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "BITE_FAST",
+         "DRAGON_TAIL_FAST",
+         "FIRE_FANG_FAST"
+       ],
+       "chargedMoveIds": [
+         "OUTRAGE",
+         "DRACO_METEOR",
+         "RETURN",
+         "HYDRO_PUMP",
+         "FIRE_BLAST"
+       ],
+       "cmp": {
+         "little": {
+@@ -33553,46 +33588,48 @@
+           "max": 138.00010102987272
+         },
+         "ultra": {
+           "rankOne": 166.4469519853591,
+           "max": 178.39679795747958
+         },
+         "master": {
+           "rankOne": 200.33610445261002,
+           "max": 200.33610445261002
+         }
+       }
+     },
+     {
+       "name": "Turtonator",
+       "types": [
+         "fire",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "EMBER_FAST",
+-        "FIRE_SPIN_FAST"
++        "FIRE_SPIN_FAST",
++        "INCINERATE_FAST"
+       ],
+       "chargedMoveIds": [
+         "FLAMETHROWER",
+         "OVERHEAT",
+-        "DRAGON_PULSE"
++        "DRAGON_PULSE",
++        "FLASH_CANNON"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 65.89070988447857,
+           "max": 69.76663399533024
+         },
+         "great": {
+           "rankOne": 112.39221185445777,
+           "max": 121.42474187234724
+         },
+         "ultra": {
+           "rankOne": 149.61810332536697,
+           "max": 152.15400338172913
+         },
+         "master": {
+           "rankOne": 152.15400338172913,
+           "max": 152.15400338172913
+         }
+       }
+     },
+@@ -33803,54 +33840,54 @@
+     {
+       "name": "Tyranitar (Mega)",
+       "types": [
+         "rock",
+         "dark"
+       ],
+       "fastMoveIds": [
+         "BITE_FAST",
+         "IRON_TAIL_FAST",
+         "SMACK_DOWN_FAST"
+       ],
+       "chargedMoveIds": [
+         "BRUTAL_SWING",
+         "CRUNCH",
+         "STONE_EDGE",
+         "RETURN",
+         "FIRE_BLAST"
+       ],
+       "cmp": {
+         "little": {
+-          "rankOne": 79.27321523427948,
+-          "max": 83.10901597142204
++          "rankOne": 76.64954022862553,
++          "max": 76.64954022862553
+         },
+         "great": {
+-          "rankOne": 137.36333906650543,
+-          "max": 144.0099522471428
++          "rankOne": 133.77426174381793,
++          "max": 138.9693787047429
+         },
+         "ultra": {
+-          "rankOne": 178.11643589217184,
+-          "max": 186.7349731127608
++          "rankOne": 171.29652786254854,
++          "max": 179.3846224196259
+         },
+         "master": {
+-          "rankOne": 274.7225061058998,
+-          "max": 274.7225061058998
++          "rankOne": 273.8772060871124,
++          "max": 273.8772060871124
+         }
+       }
+     },
+     {
+       "name": "Tyrantrum",
+       "types": [
+         "rock",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "CHARM_FAST",
+         "DRAGON_TAIL_FAST",
+         "ROCK_THROW_FAST"
+       ],
+       "chargedMoveIds": [
+         "CRUNCH",
+         "STONE_EDGE",
+         "METEOR_BEAM",
+         "OUTRAGE",
+         "EARTHQUAKE"
+@@ -37036,40 +37073,46 @@
+         "little": {
+           "rankOne": 0,
+           "max": 0
+         },
+         "great": {
+           "rankOne": 0,
+           "max": 0
+         },
+         "ultra": {
+           "rankOne": 0,
+           "max": 0
+         },
+         "master": {
+           "rankOne": 0,
+           "max": 0
+         }
+       }
+     }
+   ],
+   "moves": {
++    "386": {
++      "name": "386",
++      "type": "fire",
++      "energy": -40,
++      "damage": 65
++    },
+     "ACID_FAST": {
+       "name": "Acid",
+       "type": "poison",
+       "energy": 5,
+       "damage": 6,
+       "turns": 2
+     },
+     "ACID_SPRAY": {
+       "name": "Acid Spray",
+       "type": "poison",
+       "energy": -45,
+       "damage": 20
+     },
+     "ACROBATICS": {
+       "name": "Acrobatics",
+       "type": "flying",
+       "energy": -60,
+       "damage": 110
+     },
+     "AERIAL_ACE": {
+@@ -43912,40 +43955,46 @@
+         9
+       ],
+       "FLAME_CHARGE": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "FLAME_WHEEL": [
+         10,
+         9,
+         9,
+         9
+       ],
+       "FLAMETHROWER": [
+         10,
+         9,
+         9,
+         9
+       ],
++      "FLASH_CANNON": [
++        12,
++        12,
++        11,
++        12
++      ],
+       "FOCUS_BLAST": [
+         13,
+         12,
+         13,
+         12
+       ],
+       "HEAT_WAVE": [
+         13,
+         12,
+         13,
+         12
+       ],
+       "LAST_RESORT": [
+         10,
+         9,
+         9,
+         9
+       ],
+       "LOW_SWEEP": [
+         7,
+@@ -45104,40 +45153,46 @@
+         5
+       ],
+       "FLAME_CHARGE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "FLAME_WHEEL": [
+         6,
+         5,
+         6,
+         5
+       ],
+       "FLAMETHROWER": [
+         6,
+         5,
+         6,
+         5
+       ],
++      "FLASH_CANNON": [
++        7,
++        7,
++        7,
++        7
++      ],
+       "FOCUS_BLAST": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "HEAT_WAVE": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "HURRICANE": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "IRON_HEAD": [
+         5,
+@@ -46866,40 +46921,46 @@
+         2
+       ],
+       "FIRE_BLAST": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "FLAME_CHARGE": [
+         3,
+         2,
+         3,
+         2
+       ],
+       "FLAMETHROWER": [
+         3,
+         3,
+         3,
+         2
+       ],
++      "FLASH_CANNON": [
++        4,
++        3,
++        4,
++        3
++      ],
+       "FOCUS_BLAST": [
+         4,
+         4,
+         4,
+         3
+       ],
+       "HEAT_WAVE": [
+         4,
+         4,
+         4,
+         3
+       ],
+       "HURRICANE": [
+         4,
+         3,
+         3,
+         3
+       ],
+       "HYDRO_PUMP": [
+         4,

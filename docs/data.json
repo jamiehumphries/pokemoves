@@ -1,5 +1,5 @@
 {
-  "timestamp": 1687464692323,
+  "timestamp": 1687559600843,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -37090,12 +37090,6 @@
     }
   ],
   "moves": {
-    "386": {
-      "name": "386",
-      "type": "fire",
-      "energy": -40,
-      "damage": 65
-    },
     "ACID_FAST": {
       "name": "Acid",
       "type": "poison",
@@ -37949,6 +37943,12 @@
       "energy": 10,
       "damage": 10,
       "turns": 3
+    },
+    "MAGMA_STORM": {
+      "name": "Magma Storm",
+      "type": "fire",
+      "energy": -40,
+      "damage": 65
     },
     "MAGNET_BOMB": {
       "name": "Magnet Bomb",

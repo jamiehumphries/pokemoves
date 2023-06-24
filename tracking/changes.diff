@@ -1,0 +1,122 @@
+diff --git a/docs/data.json b/docs/data.json
+index e5ab757..46c54ce 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -1,22 +1,22 @@
+ {
+-  "timestamp": 1687464692323,
++  "timestamp": 1687559600843,
+   "pokemon": [
+     {
+       "name": "Abomasnow",
+       "types": [
+         "grass",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "LEAFAGE_FAST",
+         "POWDER_SNOW_FAST",
+         "RAZOR_LEAF_FAST"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_ICE",
+         "ENERGY_BALL",
+         "OUTRAGE",
+         "RETURN",
+         "BLIZZARD"
+       ],
+       "cmp": {
+@@ -37073,46 +37073,40 @@
+         "little": {
+           "rankOne": 0,
+           "max": 0
+         },
+         "great": {
+           "rankOne": 0,
+           "max": 0
+         },
+         "ultra": {
+           "rankOne": 0,
+           "max": 0
+         },
+         "master": {
+           "rankOne": 0,
+           "max": 0
+         }
+       }
+     }
+   ],
+   "moves": {
+-    "386": {
+-      "name": "386",
+-      "type": "fire",
+-      "energy": -40,
+-      "damage": 65
+-    },
+     "ACID_FAST": {
+       "name": "Acid",
+       "type": "poison",
+       "energy": 5,
+       "damage": 6,
+       "turns": 2
+     },
+     "ACID_SPRAY": {
+       "name": "Acid Spray",
+       "type": "poison",
+       "energy": -45,
+       "damage": 20
+     },
+     "ACROBATICS": {
+       "name": "Acrobatics",
+       "type": "flying",
+       "energy": -60,
+       "damage": 110
+     },
+     "AERIAL_ACE": {
+@@ -37933,40 +37927,46 @@
+     },
+     "LUNGE": {
+       "name": "Lunge",
+       "type": "bug",
+       "energy": -45,
+       "damage": 60
+     },
+     "LUSTER_PURGE": {
+       "name": "Luster Purge",
+       "type": "psychic",
+       "energy": -60,
+       "damage": 120
+     },
+     "MAGICAL_LEAF_FAST": {
+       "name": "Magical Leaf",
+       "type": "grass",
+       "energy": 10,
+       "damage": 10,
+       "turns": 3
+     },
++    "MAGMA_STORM": {
++      "name": "Magma Storm",
++      "type": "fire",
++      "energy": -40,
++      "damage": 65
++    },
+     "MAGNET_BOMB": {
+       "name": "Magnet Bomb",
+       "type": "steel",
+       "energy": -45,
+       "damage": 70
+     },
+     "MEGA_DRAIN": {
+       "name": "Mega Drain",
+       "type": "grass",
+       "energy": -55,
+       "damage": 25
+     },
+     "MEGAHORN": {
+       "name": "Megahorn",
+       "type": "bug",
+       "energy": -55,
+       "damage": 110
+     },
+     "METAL_CLAW_FAST": {
+       "name": "Metal Claw",

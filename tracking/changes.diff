@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index e5ab757..46c54ce 100644
+index e5ab757..4e9e2e2 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1687464692323,
-+  "timestamp": 1687559600843,
++  "timestamp": 1687904525471,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -73,7 +73,54 @@ index e5ab757..46c54ce 100644
        "damage": 110
      },
      "AERIAL_ACE": {
-@@ -37933,40 +37927,46 @@
+@@ -37417,40 +37411,46 @@
+     },
+     "DOUBLE_IRON_BASH": {
+       "name": "Double Iron Bash",
+       "type": "steel",
+       "energy": -35,
+       "damage": 50
+     },
+     "DOUBLE_KICK_FAST": {
+       "name": "Double Kick",
+       "type": "fighting",
+       "energy": 12,
+       "damage": 8,
+       "turns": 3
+     },
+     "DRACO_METEOR": {
+       "name": "Draco Meteor",
+       "type": "dragon",
+       "energy": -65,
+       "damage": 150
+     },
++    "DRAGON_ASCENT": {
++      "name": "Dragon Ascent",
++      "type": "flying",
++      "energy": -70,
++      "damage": 150
++    },
+     "DRAGON_BREATH_FAST": {
+       "name": "Dragon Breath",
+       "type": "dragon",
+       "energy": 3,
+       "damage": 4,
+       "turns": 1
+     },
+     "DRAGON_CLAW": {
+       "name": "Dragon Claw",
+       "type": "dragon",
+       "energy": -35,
+       "damage": 50
+     },
+     "DRAGON_PULSE": {
+       "name": "Dragon Pulse",
+       "type": "dragon",
+       "energy": -60,
+       "damage": 90
+     },
+     "DRAGON_TAIL_FAST": {
+@@ -37933,40 +37933,46 @@
      },
      "LUNGE": {
        "name": "Lunge",

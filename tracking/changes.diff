@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index e5ab757..4e9e2e2 100644
+index e5ab757..1b5158d 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1687464692323,
-+  "timestamp": 1687904525471,
++  "timestamp": 1687976761681,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,7 +26,49 @@ index e5ab757..4e9e2e2 100644
          "BLIZZARD"
        ],
        "cmp": {
-@@ -37073,46 +37073,40 @@
+@@ -14216,40 +14216,41 @@
+           "rankOne": 171.23650580644602,
+           "max": 185.1207041144371
+         },
+         "master": {
+           "rankOne": 185.1207041144371,
+           "max": 185.1207041144371
+         }
+       }
+     },
+     {
+       "name": "Heatran",
+       "types": [
+         "fire",
+         "steel"
+       ],
+       "fastMoveIds": [
+         "BUG_BITE_FAST",
+         "FIRE_SPIN_FAST"
+       ],
+       "chargedMoveIds": [
++        "MAGMA_STORM",
+         "IRON_HEAD",
+         "EARTH_POWER",
+         "FLAMETHROWER",
+         "STONE_EDGE",
+         "FIRE_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.33571952581391,
+           "max": 77.43251747795057
+         },
+         "great": {
+           "rankOne": 129.86588060855865,
+           "max": 137.10939586162567
+         },
+         "ultra": {
+           "rankOne": 167.28847366720066,
+           "max": 177.00251013040543
+         },
+         "master": {
+@@ -37073,46 +37074,40 @@
          "little": {
            "rankOne": 0,
            "max": 0
@@ -73,7 +115,7 @@ index e5ab757..4e9e2e2 100644
        "damage": 110
      },
      "AERIAL_ACE": {
-@@ -37417,40 +37411,46 @@
+@@ -37417,40 +37412,46 @@
      },
      "DOUBLE_IRON_BASH": {
        "name": "Double Iron Bash",
@@ -120,7 +162,7 @@ index e5ab757..4e9e2e2 100644
        "damage": 90
      },
      "DRAGON_TAIL_FAST": {
-@@ -37933,40 +37933,46 @@
+@@ -37933,40 +37934,46 @@
      },
      "LUNGE": {
        "name": "Lunge",
@@ -167,3 +209,97 @@ index e5ab757..4e9e2e2 100644
      },
      "METAL_CLAW_FAST": {
        "name": "Metal Claw",
+@@ -40789,40 +40796,46 @@
+         17
+       ],
+       "LEAF_BLADE": [
+         12,
+         12,
+         11,
+         12
+       ],
+       "LEAF_STORM": [
+         19,
+         18,
+         18,
+         19
+       ],
+       "LUNGE": [
+         15,
+         15,
+         15,
+         15
+       ],
++      "MAGMA_STORM": [
++        14,
++        13,
++        13,
++        14
++      ],
+       "MEGAHORN": [
+         19,
+         18,
+         18,
+         19
+       ],
+       "MIRROR_COAT": [
+         19,
+         18,
+         18,
+         19
+       ],
+       "MIRROR_SHOT": [
+         12,
+         12,
+         11,
+         12
+       ],
+       "NIGHT_SLASH": [
+         12,
+@@ -45189,40 +45202,46 @@
+         7
+       ],
+       "HURRICANE": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "IRON_HEAD": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "LAST_RESORT": [
+         6,
+         5,
+         6,
+         5
+       ],
++      "MAGMA_STORM": [
++        4,
++        4,
++        4,
++        4
++      ],
+       "MYSTICAL_FIRE": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "OVERHEAT": [
+         6,
+         5,
+         6,
+         5
+       ],
+       "POLTERGEIST": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "POWER_UP_PUNCH": [
+         4,

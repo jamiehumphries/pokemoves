@@ -1,5 +1,5 @@
 {
-  "timestamp": 1687904525471,
+  "timestamp": 1687976761681,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -14233,6 +14233,7 @@
         "FIRE_SPIN_FAST"
       ],
       "chargedMoveIds": [
+        "MAGMA_STORM",
         "IRON_HEAD",
         "EARTH_POWER",
         "FLAMETHROWER",
@@ -40812,6 +40813,12 @@
         15,
         15
       ],
+      "MAGMA_STORM": [
+        14,
+        13,
+        13,
+        14
+      ],
       "MEGAHORN": [
         19,
         18,
@@ -45211,6 +45218,12 @@
         5,
         6,
         5
+      ],
+      "MAGMA_STORM": [
+        4,
+        4,
+        4,
+        4
       ],
       "MYSTICAL_FIRE": [
         5,

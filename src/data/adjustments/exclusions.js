@@ -21,6 +21,7 @@ module.exports = {
     "Dugtrio (Normal)",
     "Ho-Oh (S)",
     "Lugia (S)",
+    "Pikachu (3012)",
     "Pikachu (Costume 2020)",
     "Pikachu (Kariyushi)",
     "Pyroar (Female)",

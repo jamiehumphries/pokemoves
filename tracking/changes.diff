@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 1b5158d..b61a5c7 100644
+index 1b5158d..89cc896 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1687976761681,
-+  "timestamp": 1690309678743,
++  "timestamp": 1690414525118,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,7 +26,82 @@ index 1b5158d..b61a5c7 100644
          "BLIZZARD"
        ],
        "cmp": {
-@@ -25668,40 +25668,76 @@
+@@ -7783,40 +7783,74 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 67.04883384704583,
+           "max": 71.58859863877288
+         },
+         "great": {
+           "rankOne": 116.3098841905593,
+           "max": 123.98884978792496
+         },
+         "ultra": {
+           "rankOne": 149.08102512359605,
+           "max": 160.85057973861677
+         },
+         "master": {
+           "rankOne": 173.28650385141373,
+           "max": 173.28650385141373
+         }
+       }
+     },
++    {
++      "name": "Diancie (Mega)",
++      "types": [
++        "rock",
++        "fairy"
++      ],
++      "fastMoveIds": [
++        "ROCK_THROW_FAST",
++        "TACKLE_FAST"
++      ],
++      "chargedMoveIds": [
++        "ROCK_SLIDE",
++        "MOONBLAST",
++        "POWER_GEM"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 94.3679814797653,
++          "max": 97.65034605297453
++        },
++        "great": {
++          "rankOne": 163.42828291419957,
++          "max": 171.96152821183188
++        },
++        "ultra": {
++          "rankOne": 209.35779154300675,
++          "max": 222.43132948875407
++        },
++        "master": {
++          "rankOne": 301.7721067070961,
++          "max": 301.7721067070961
++        }
++      }
++    },
+     {
+       "name": "Diggersby",
+       "types": [
+         "normal",
+         "ground"
+       ],
+       "fastMoveIds": [
+         "MUD_SHOT_FAST",
+         "QUICK_ATTACK_FAST"
+       ],
+       "chargedMoveIds": [
+         "FIRE_PUNCH",
+         "EARTHQUAKE",
+         "DIG",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 54.91208463907237,
+           "max": 59.986681878911405
+@@ -25668,40 +25702,76 @@
        ],
        "cmp": {
          "little": {
@@ -103,7 +178,7 @@ index 1b5158d..b61a5c7 100644
        "cmp": {
          "little": {
            "rankOne": 60.04466078081878,
-@@ -37051,58 +37087,135 @@
+@@ -37051,58 +37121,135 @@
            "max": 147.08220326900482
          }
        }

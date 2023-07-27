@@ -1,5 +1,5 @@
 {
-  "timestamp": 1690309678743,
+  "timestamp": 1690414525118,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -7797,6 +7797,40 @@
         "master": {
           "rankOne": 173.28650385141373,
           "max": 173.28650385141373
+        }
+      }
+    },
+    {
+      "name": "Diancie (Mega)",
+      "types": [
+        "rock",
+        "fairy"
+      ],
+      "fastMoveIds": [
+        "ROCK_THROW_FAST",
+        "TACKLE_FAST"
+      ],
+      "chargedMoveIds": [
+        "ROCK_SLIDE",
+        "MOONBLAST",
+        "POWER_GEM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 94.3679814797653,
+          "max": 97.65034605297453
+        },
+        "great": {
+          "rankOne": 163.42828291419957,
+          "max": 171.96152821183188
+        },
+        "ultra": {
+          "rankOne": 209.35779154300675,
+          "max": 222.43132948875407
+        },
+        "master": {
+          "rankOne": 301.7721067070961,
+          "max": 301.7721067070961
         }
       }
     },

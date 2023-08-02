@@ -37123,45 +37123,7 @@
       }
     },
     {
-      "name": "Zygarde",
-      "types": [
-        "dragon",
-        "ground"
-      ],
-      "fastMoveIds": [
-        "BITE_FAST",
-        "DRAGON_TAIL_FAST",
-        "ZEN_HEADBUTT_FAST"
-      ],
-      "chargedMoveIds": [
-        "CRUNCH",
-        "BULLDOZE",
-        "OUTRAGE",
-        "EARTHQUAKE",
-        "RETURN",
-        "HYPER_BEAM"
-      ],
-      "cmp": {
-        "little": {
-          "rankOne": 65.18078255653379,
-          "max": 66.72050913119851
-        },
-        "great": {
-          "rankOne": 110.69769549499202,
-          "max": 117.20932464175625
-        },
-        "ultra": {
-          "rankOne": 142.9107502287075,
-          "max": 151.323316335678
-        },
-        "master": {
-          "rankOne": 184.27540409564972,
-          "max": 184.27540409564972
-        }
-      }
-    },
-    {
-      "name": "Zygarde (Complete Ten Percent)",
+      "name": "Zygarde (10%)",
       "types": [
         "dragon",
         "ground"
@@ -37195,6 +37157,44 @@
         "master": {
           "rankOne": 185.9660041332245,
           "max": 185.9660041332245
+        }
+      }
+    },
+    {
+      "name": "Zygarde (50%)",
+      "types": [
+        "dragon",
+        "ground"
+      ],
+      "fastMoveIds": [
+        "BITE_FAST",
+        "DRAGON_TAIL_FAST",
+        "ZEN_HEADBUTT_FAST"
+      ],
+      "chargedMoveIds": [
+        "CRUNCH",
+        "BULLDOZE",
+        "OUTRAGE",
+        "EARTHQUAKE",
+        "RETURN",
+        "HYPER_BEAM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 65.18078255653379,
+          "max": 66.72050913119851
+        },
+        "great": {
+          "rankOne": 110.69769549499202,
+          "max": 117.20932464175625
+        },
+        "ultra": {
+          "rankOne": 142.9107502287075,
+          "max": 151.323316335678
+        },
+        "master": {
+          "rankOne": 184.27540409564972,
+          "max": 184.27540409564972
         }
       }
     },

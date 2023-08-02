@@ -32,6 +32,7 @@ const specialPokemonFormNames = {
   PUMPKABOO_SUPER: "Super Size",
   ZACIAN_HERO: "Hero of Many Battles",
   ZAMAZENTA_HERO: "Hero of Many Battles",
+  ZYGARDE_COMPLETE_TEN_PERCENT: "10%",
 };
 
 const defaultPokemonFormNames = {
@@ -50,6 +51,7 @@ const defaultPokemonFormNames = {
   TORNADUS: "Incarnate",
   THUNDURUS: "Incarnate",
   WISHIWASHI: "Solo",
+  ZYGARDE: "50%",
 };
 
 const specialMoveNames = {

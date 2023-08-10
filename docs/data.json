@@ -1,5 +1,5 @@
 {
-  "timestamp": 1690559376260,
+  "timestamp": 1691544039671,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -24192,6 +24192,7 @@
       "chargedMoveIds": [
         "WEATHER_BALL_WATER",
         "SURF",
+        "ICE_BEAM",
         "EARTHQUAKE",
         "RETURN",
         "BLIZZARD",
@@ -24293,6 +24294,7 @@
       ],
       "fastMoveIds": [
         "BUBBLE_FAST",
+        "COUNTER_FAST",
         "MUD_SHOT_FAST",
         "ROCK_SMASH_FAST"
       ],
@@ -37238,6 +37240,18 @@
     }
   ],
   "moves": {
+    "387": {
+      "name": "387",
+      "type": "fairy",
+      "energy": 13,
+      "damage": 4
+    },
+    "389": {
+      "name": "389",
+      "type": "flying",
+      "energy": -50,
+      "damage": 85
+    },
     "ACID_FAST": {
       "name": "Acid",
       "type": "poison",
@@ -38848,6 +38862,13 @@
       "type": "water",
       "energy": -60,
       "damage": 70
+    },
+    "WATER_SHURIKEN_FAST": {
+      "name": "Water Shuriken",
+      "type": "water",
+      "energy": 14,
+      "damage": 6,
+      "turns": 3
     },
     "WATERFALL_FAST": {
       "name": "Waterfall",
@@ -42856,6 +42877,12 @@
         7,
         7
       ],
+      "HYDRO_PUMP": [
+        11,
+        11,
+        11,
+        10
+      ],
       "HYPER_BEAM": [
         12,
         11,
@@ -42993,6 +43020,12 @@
         9,
         8,
         9
+      ],
+      "SCALD": [
+        8,
+        7,
+        7,
+        7
       ],
       "SEED_BOMB": [
         7,

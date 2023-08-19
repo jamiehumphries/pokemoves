@@ -202,7 +202,11 @@ function getPokemonFastMoveIds(template) {
       "DRAGON_TAIL_FAST",
     ];
   }
-  return [...(template.quickMoves || []), ...(template.eliteQuickMove || [])];
+  const moves = [
+    ...(template.quickMoves || []),
+    ...(template.eliteQuickMove || []),
+  ];
+  return moves.map((move) => move.toString());
 }
 
 function getPokemonChargedMoveIds(template) {
@@ -213,7 +217,7 @@ function getPokemonChargedMoveIds(template) {
   if (template.shadow) {
     moves.push(template.shadow.purifiedChargeMove);
   }
-  return moves;
+  return moves.map((move) => move.toString());
 }
 
 function getTypes(template) {
@@ -223,8 +227,8 @@ function getTypes(template) {
     template.typeOverride1,
     template.typeOverride2,
   ]
-    .filter((t) => !!t)
-    .map((t) => t.replace(/^POKEMON_TYPE_/, "").toLowerCase());
+    .filter((type) => !!type)
+    .map((type) => type.replace(/^POKEMON_TYPE_/, "").toLowerCase());
 }
 
 function getMoveEnergy(template) {

@@ -223,12 +223,9 @@ function getPokemonChargedMoveIds(template) {
 }
 
 function getTypes(template) {
-  return [
-    template.type,
-    template.type2,
-    template.typeOverride1,
-    template.typeOverride2,
-  ]
+  const { type, type2, typeOverride1, typeOverride2 } = template;
+  const types = [type, type2, typeOverride1, typeOverride2];
+  return types
     .filter((type) => !!type)
     .map((type) => type.replace(/^POKEMON_TYPE_/, "").toLowerCase());
 }
@@ -312,7 +309,7 @@ function buildHtml(data, resources) {
 }
 
 function fromEntries(entries) {
-  return Object.fromEntries(entries.sort(([m1], [m2]) => m1.localeCompare(m2)));
+  return Object.fromEntries(entries.sort(([k1], [k2]) => k1.localeCompare(k2)));
 }
 
 env.addFilter("fixed", (number, digits) => {
@@ -340,10 +337,10 @@ function effectivenessArrows(n) {
   if (n < 0) {
     return "↓".repeat(-n);
   }
-  if (n === 0) {
-    return "↔";
+  if (n > 0) {
+    return "↑".repeat(n);
   }
-  return "↑".repeat(n);
+  return "↔";
 }
 
 build();

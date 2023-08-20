@@ -39390,6 +39390,7 @@
         "fairy"
       ],
       "fastMoveIds": [
+        "387",
         "TACKLE_FAST",
         "ZEN_HEADBUTT_FAST"
       ],
@@ -39665,8 +39666,8 @@
         "SUCKER_PUNCH_FAST"
       ],
       "chargedMoveIds": [
-        "389",
         "DARK_PULSE",
+        "389",
         "PSYCHIC",
         "HURRICANE",
         "FOCUS_BLAST",
@@ -40395,13 +40396,14 @@
   ],
   "moves": {
     "387": {
-      "name": "387",
+      "name": "Geomancy",
       "type": "fairy",
       "energy": 13,
-      "damage": 4
+      "damage": 4,
+      "turns": 3
     },
     "389": {
-      "name": "389",
+      "name": "Oblivion Wing",
       "type": "flying",
       "energy": -50,
       "damage": 85
@@ -42009,7 +42011,8 @@
       "name": "Water Gun",
       "type": "water",
       "energy": 4,
-      "damage": 6
+      "damage": 6,
+      "turns": 2
     },
     "WATER_PULSE": {
       "name": "Water Pulse",
@@ -42120,6 +42123,38 @@
     }
   },
   "counts": {
+    "387": {
+      "CLOSE_COMBAT": [
+        4,
+        3,
+        4,
+        3
+      ],
+      "GIGA_IMPACT": [
+        7,
+        6,
+        6,
+        6
+      ],
+      "MEGAHORN": [
+        5,
+        4,
+        4,
+        4
+      ],
+      "MOONBLAST": [
+        5,
+        5,
+        4,
+        5
+      ],
+      "THUNDER": [
+        5,
+        5,
+        4,
+        5
+      ]
+    },
     "ACID_FAST": {
       "ACID_SPRAY": [
         9,
@@ -60064,14 +60099,6 @@
         9,
         9,
         9
-      ]
-    },
-    "TRANSFORM_FAST": {
-      "STRUGGLE": [
-        null,
-        null,
-        null,
-        null
       ]
     },
     "VINE_WHIP_FAST": {

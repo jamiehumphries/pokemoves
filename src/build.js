@@ -87,10 +87,12 @@ function buildPokemon(template, moves) {
     name: getPokemonName(template),
     types: getTypes(template),
     fastMoveIds: getPokemonFastMoveIds(template).filter((id) => {
-      return !!moves[id] && id.endsWith("_FAST");
+      const move = moves[id];
+      return move && move.energy > 0;
     }),
     chargedMoveIds: getPokemonChargedMoveIds(template).filter((id) => {
-      return !!moves[id] && !id.endsWith("_FAST");
+      const move = moves[id];
+      return move && move.energy < 0;
     }),
     stats: template.stats,
   };
@@ -202,22 +204,22 @@ function getPokemonFastMoveIds(template) {
       "DRAGON_TAIL_FAST",
     ];
   }
-  const moves = [
+  const moveIds = [
     ...(template.quickMoves || []),
     ...(template.eliteQuickMove || []),
   ];
-  return moves.map((move) => move.toString());
+  return moveIds.map((id) => id.toString());
 }
 
 function getPokemonChargedMoveIds(template) {
-  const moves = [
+  const moveIds = [
     ...(template.cinematicMoves || []),
     ...(template.eliteCinematicMove || []),
   ];
   if (template.shadow) {
-    moves.push(template.shadow.purifiedChargeMove);
+    moveIds.push(template.shadow.purifiedChargeMove);
   }
-  return moves.map((move) => move.toString());
+  return moveIds.map((id) => id.toString());
 }
 
 function getTypes(template) {
@@ -240,7 +242,7 @@ function getMoveDamage(template) {
 }
 
 function getMoveTurns(template) {
-  if (!template.uniqueId.toString().endsWith("_FAST")) {
+  if (template.energyDelta < 0) {
     return undefined;
   }
   return (template.durationTurns || 0) + 1;

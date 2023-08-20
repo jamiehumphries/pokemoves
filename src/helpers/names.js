@@ -55,6 +55,8 @@ const defaultPokemonFormNames = {
 };
 
 const specialMoveNames = {
+  387: "Geomancy",
+  389: "Oblivion Wing",
   FUTURESIGHT: "Future Sight",
   LOCK_ON_FAST: "Lock-On",
   POWER_UP_PUNCH: "Power-Up Punch",

@@ -4114,7 +4114,7 @@
       }
     },
     {
-      "name": "Brutebonnet",
+      "name": "Brute Bonnet",
       "types": [
         "grass",
         "dark"
@@ -5813,7 +5813,38 @@
       }
     },
     {
-      "name": "Chienpao",
+      "name": "Chi-Yu",
+      "types": [
+        "dark",
+        "fire"
+      ],
+      "fastMoveIds": [
+        "SPLASH_FAST"
+      ],
+      "chargedMoveIds": [
+        "STRUGGLE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 83.8597224860018,
+          "max": 86.92029629935952
+        },
+        "great": {
+          "rankOne": 143.7413145303724,
+          "max": 153.5659207111899
+        },
+        "ultra": {
+          "rankOne": 187.0502944014737,
+          "max": 198.25363879766778
+        },
+        "master": {
+          "rankOne": 240.06520533561707,
+          "max": 240.06520533561707
+        }
+      }
+    },
+    {
+      "name": "Chien-Pao",
       "types": [
         "dark",
         "ice"
@@ -6009,37 +6040,6 @@
         "master": {
           "rankOne": 109.04370242357254,
           "max": 109.04370242357254
-        }
-      }
-    },
-    {
-      "name": "Chiyu",
-      "types": [
-        "dark",
-        "fire"
-      ],
-      "fastMoveIds": [
-        "SPLASH_FAST"
-      ],
-      "chargedMoveIds": [
-        "STRUGGLE"
-      ],
-      "cmp": {
-        "little": {
-          "rankOne": 83.8597224860018,
-          "max": 86.92029629935952
-        },
-        "great": {
-          "rankOne": 143.7413145303724,
-          "max": 153.5659207111899
-        },
-        "ultra": {
-          "rankOne": 187.0502944014737,
-          "max": 198.25363879766778
-        },
-        "master": {
-          "rankOne": 240.06520533561707,
-          "max": 240.06520533561707
         }
       }
     },
@@ -11751,7 +11751,7 @@
       }
     },
     {
-      "name": "Fluttermane",
+      "name": "Flutter Mane",
       "types": [
         "ghost",
         "fairy"
@@ -14382,7 +14382,7 @@
       }
     },
     {
-      "name": "Greattusk",
+      "name": "Great Tusk",
       "types": [
         "ground",
         "fighting"
@@ -16666,7 +16666,7 @@
       }
     },
     {
-      "name": "Ironbundle",
+      "name": "Iron Bundle",
       "types": [
         "ice",
         "water"
@@ -16697,7 +16697,7 @@
       }
     },
     {
-      "name": "Ironhands",
+      "name": "Iron Hands",
       "types": [
         "fighting",
         "electric"
@@ -16728,7 +16728,7 @@
       }
     },
     {
-      "name": "Ironjugulis",
+      "name": "Iron Jugulis",
       "types": [
         "dark",
         "flying"
@@ -16759,7 +16759,7 @@
       }
     },
     {
-      "name": "Ironmoth",
+      "name": "Iron Moth",
       "types": [
         "fire",
         "poison"
@@ -16790,7 +16790,7 @@
       }
     },
     {
-      "name": "Ironthorns",
+      "name": "Iron Thorns",
       "types": [
         "rock",
         "electric"
@@ -16821,7 +16821,7 @@
       }
     },
     {
-      "name": "Irontreads",
+      "name": "Iron Treads",
       "types": [
         "ground",
         "steel"
@@ -16852,7 +16852,7 @@
       }
     },
     {
-      "name": "Ironvaliant",
+      "name": "Iron Valiant",
       "types": [
         "fairy",
         "fighting"
@@ -24187,36 +24187,6 @@
       }
     },
     {
-      "name": "Oinkologne",
-      "types": [
-        "normal"
-      ],
-      "fastMoveIds": [
-        "SPLASH_FAST"
-      ],
-      "chargedMoveIds": [
-        "STRUGGLE"
-      ],
-      "cmp": {
-        "little": {
-          "rankOne": 67.41714127285493,
-          "max": 71.76663425820043
-        },
-        "great": {
-          "rankOne": 116.54148530960073,
-          "max": 124.50022622377605
-        },
-        "ultra": {
-          "rankOne": 150.25151860369448,
-          "max": 161.36358235689224
-        },
-        "master": {
-          "rankOne": 169.9053037762642,
-          "max": 169.9053037762642
-        }
-      }
-    },
-    {
       "name": "Oinkologne (Female)",
       "types": [
         "normal"
@@ -24243,6 +24213,36 @@
         "master": {
           "rankOne": 155.53520345687866,
           "max": 155.53520345687866
+        }
+      }
+    },
+    {
+      "name": "Oinkologne (Male)",
+      "types": [
+        "normal"
+      ],
+      "fastMoveIds": [
+        "SPLASH_FAST"
+      ],
+      "chargedMoveIds": [
+        "STRUGGLE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 67.41714127285493,
+          "max": 71.76663425820043
+        },
+        "great": {
+          "rankOne": 116.54148530960073,
+          "max": 124.50022622377605
+        },
+        "ultra": {
+          "rankOne": 150.25151860369448,
+          "max": 161.36358235689224
+        },
+        "master": {
+          "rankOne": 169.9053037762642,
+          "max": 169.9053037762642
         }
       }
     },
@@ -24694,36 +24694,6 @@
       }
     },
     {
-      "name": "Palafin",
-      "types": [
-        "water"
-      ],
-      "fastMoveIds": [
-        "SPLASH_FAST"
-      ],
-      "chargedMoveIds": [
-        "STRUGGLE"
-      ],
-      "cmp": {
-        "little": {
-          "rankOne": 60.84000205993642,
-          "max": 65.48750221729267
-        },
-        "great": {
-          "rankOne": 105.06796459264477,
-          "max": 114.64094748167048
-        },
-        "ultra": {
-          "rankOne": 133.55740296840668,
-          "max": 133.55740296840668
-        },
-        "master": {
-          "rankOne": 133.55740296840668,
-          "max": 133.55740296840668
-        }
-      }
-    },
-    {
       "name": "Palafin (Hero)",
       "types": [
         "water"
@@ -24750,6 +24720,36 @@
         "master": {
           "rankOne": 284.8661063313484,
           "max": 284.8661063313484
+        }
+      }
+    },
+    {
+      "name": "Palafin (Zero)",
+      "types": [
+        "water"
+      ],
+      "fastMoveIds": [
+        "SPLASH_FAST"
+      ],
+      "chargedMoveIds": [
+        "STRUGGLE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 60.84000205993642,
+          "max": 65.48750221729267
+        },
+        "great": {
+          "rankOne": 105.06796459264477,
+          "max": 114.64094748167048
+        },
+        "ultra": {
+          "rankOne": 133.55740296840668,
+          "max": 133.55740296840668
+        },
+        "master": {
+          "rankOne": 133.55740296840668,
+          "max": 133.55740296840668
         }
       }
     },
@@ -28631,7 +28631,7 @@
       }
     },
     {
-      "name": "Roaringmoon",
+      "name": "Roaring Moon",
       "types": [
         "dragon",
         "dark"
@@ -29630,6 +29630,37 @@
       }
     },
     {
+      "name": "Sandy Shocks",
+      "types": [
+        "electric",
+        "ground"
+      ],
+      "fastMoveIds": [
+        "SPLASH_FAST"
+      ],
+      "chargedMoveIds": [
+        "STRUGGLE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 77.12646009661479,
+          "max": 79.30863690376277
+        },
+        "great": {
+          "rankOne": 132.40312598420613,
+          "max": 140.54266241766143
+        },
+        "ultra": {
+          "rankOne": 170.7593386173247,
+          "max": 181.4406093589963
+        },
+        "master": {
+          "rankOne": 218.93270486593246,
+          "max": 218.93270486593246
+        }
+      }
+    },
+    {
       "name": "Sandygast",
       "types": [
         "ghost",
@@ -29660,37 +29691,6 @@
         "master": {
           "rankOne": 114.11550253629684,
           "max": 114.11550253629684
-        }
-      }
-    },
-    {
-      "name": "Sandyshocks",
-      "types": [
-        "electric",
-        "ground"
-      ],
-      "fastMoveIds": [
-        "SPLASH_FAST"
-      ],
-      "chargedMoveIds": [
-        "STRUGGLE"
-      ],
-      "cmp": {
-        "little": {
-          "rankOne": 77.12646009661479,
-          "max": 79.30863690376277
-        },
-        "great": {
-          "rankOne": 132.40312598420613,
-          "max": 140.54266241766143
-        },
-        "ultra": {
-          "rankOne": 170.7593386173247,
-          "max": 181.4406093589963
-        },
-        "master": {
-          "rankOne": 218.93270486593246,
-          "max": 218.93270486593246
         }
       }
     },
@@ -30104,7 +30104,7 @@
       }
     },
     {
-      "name": "Screamtail",
+      "name": "Scream Tail",
       "types": [
         "fairy",
         "psychic"
@@ -32392,7 +32392,7 @@
       }
     },
     {
-      "name": "Slitherwing",
+      "name": "Slither Wing",
       "types": [
         "bug",
         "fighting"
@@ -35596,7 +35596,7 @@
       }
     },
     {
-      "name": "Tinglu",
+      "name": "Ting-Lu",
       "types": [
         "dark",
         "ground"
@@ -38990,6 +38990,37 @@
       }
     },
     {
+      "name": "Wo-Chien",
+      "types": [
+        "dark",
+        "grass"
+      ],
+      "fastMoveIds": [
+        "SPLASH_FAST"
+      ],
+      "chargedMoveIds": [
+        "STRUGGLE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 64.07000116835971,
+          "max": 67.42445149131048
+        },
+        "great": {
+          "rankOne": 109.71915162777259,
+          "max": 117.03806036710724
+        },
+        "ultra": {
+          "rankOne": 141.10524817266122,
+          "max": 151.29855016647002
+        },
+        "master": {
+          "rankOne": 169.9053037762642,
+          "max": 169.9053037762642
+        }
+      }
+    },
+    {
       "name": "Wobbuffet",
       "types": [
         "psychic"
@@ -39019,37 +39050,6 @@
         "master": {
           "rankOne": 63.3975014090538,
           "max": 63.3975014090538
-        }
-      }
-    },
-    {
-      "name": "Wochien",
-      "types": [
-        "dark",
-        "grass"
-      ],
-      "fastMoveIds": [
-        "SPLASH_FAST"
-      ],
-      "chargedMoveIds": [
-        "STRUGGLE"
-      ],
-      "cmp": {
-        "little": {
-          "rankOne": 64.07000116835971,
-          "max": 67.42445149131048
-        },
-        "great": {
-          "rankOne": 109.71915162777259,
-          "max": 117.03806036710724
-        },
-        "ultra": {
-          "rankOne": 141.10524817266122,
-          "max": 151.29855016647002
-        },
-        "master": {
-          "rankOne": 169.9053037762642,
-          "max": 169.9053037762642
         }
       }
     },

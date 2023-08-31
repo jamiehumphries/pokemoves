@@ -77,10 +77,9 @@ const defaultPokemonFormNames = {
 };
 
 const specialMoveNames = {
-  387: "Geomancy",
-  389: "Oblivion Wing",
   FUTURESIGHT: "Future Sight",
   LOCK_ON_FAST: "Lock-On",
+  MYST_FIRE: "Mystical Fire",
   POWER_UP_PUNCH: "Power-Up Punch",
   V_CREATE: "V-create",
   VICE_GRIP: "Vise Grip",
@@ -141,7 +140,7 @@ function getDefaultPokemonFormName(id, form) {
 }
 
 function getMoveName(template) {
-  const id = template.uniqueId.toString();
+  const id = template.vfxName.toUpperCase();
   return getSpecialMoveName(id) || getDefaultMoveName(id);
 }
 

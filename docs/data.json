@@ -19555,8 +19555,8 @@
       ],
       "chargedMoveIds": [
         "X_SCISSOR",
-        "392",
         "DARK_PULSE",
+        "392",
         "BUG_BUZZ"
       ],
       "cmp": {
@@ -40692,19 +40692,19 @@
       "damage": 85
     },
     "391": {
-      "name": "391",
+      "name": "Triple Axel",
       "type": "ice",
       "energy": -45,
       "damage": 60
     },
     "392": {
-      "name": "392",
+      "name": "Trailblaze",
       "type": "grass",
       "energy": -50,
       "damage": 65
     },
     "393": {
-      "name": "393",
+      "name": "Scorching Sands",
       "type": "ground",
       "energy": -50,
       "damage": 80
@@ -40741,13 +40741,13 @@
       "damage": 170
     },
     "AEROBLAST_PLUS": {
-      "name": "Aeroblast Plus",
+      "name": "Aeroblast",
       "type": "flying",
       "energy": -75,
       "damage": 170
     },
     "AEROBLAST_PLUS_PLUS": {
-      "name": "Aeroblast Plus Plus",
+      "name": "Aeroblast",
       "type": "flying",
       "energy": -75,
       "damage": 170
@@ -41945,13 +41945,13 @@
       "damage": 130
     },
     "SACRED_FIRE_PLUS": {
-      "name": "Sacred Fire Plus",
+      "name": "Sacred Fire",
       "type": "fire",
       "energy": -65,
       "damage": 130
     },
     "SACRED_FIRE_PLUS_PLUS": {
-      "name": "Sacred Fire Plus Plus",
+      "name": "Sacred Fire",
       "type": "fire",
       "energy": -65,
       "damage": 130

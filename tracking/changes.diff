@@ -1,5 +1,5 @@
 diff --git a/docs/data.json b/docs/data.json
-index c0d3625..879f300 100644
+index c0d3625..ca6fdc2 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
@@ -1965,8 +1965,8 @@ index c0d3625..879f300 100644
        "chargedMoveIds": [
 -        "STRUGGLE"
 +        "X_SCISSOR",
-+        "392",
 +        "DARK_PULSE",
++        "392",
 +        "BUG_BUZZ"
        ],
        "cmp": {
@@ -3935,7 +3935,7 @@ index c0d3625..879f300 100644
          }
        }
      },
-@@ -40391,40 +40674,58 @@
+@@ -40391,79 +40674,97 @@
            "rankOne": 168.21470373868942,
            "max": 168.21470373868942
          }
@@ -3957,19 +3957,19 @@ index c0d3625..879f300 100644
        "damage": 85
      },
 +    "391": {
-+      "name": "391",
++      "name": "Triple Axel",
 +      "type": "ice",
 +      "energy": -45,
 +      "damage": 60
 +    },
 +    "392": {
-+      "name": "392",
++      "name": "Trailblaze",
 +      "type": "grass",
 +      "energy": -50,
 +      "damage": 65
 +    },
 +    "393": {
-+      "name": "393",
++      "name": "Scorching Sands",
 +      "type": "ground",
 +      "energy": -50,
 +      "damage": 80
@@ -3994,6 +3994,97 @@ index c0d3625..879f300 100644
        "damage": 110
      },
      "AERIAL_ACE": {
+       "name": "Aerial Ace",
+       "type": "flying",
+       "energy": -45,
+       "damage": 55
+     },
+     "AEROBLAST": {
+       "name": "Aeroblast",
+       "type": "flying",
+       "energy": -75,
+       "damage": 170
+     },
+     "AEROBLAST_PLUS": {
+-      "name": "Aeroblast Plus",
++      "name": "Aeroblast",
+       "type": "flying",
+       "energy": -75,
+       "damage": 170
+     },
+     "AEROBLAST_PLUS_PLUS": {
+-      "name": "Aeroblast Plus Plus",
++      "name": "Aeroblast",
+       "type": "flying",
+       "energy": -75,
+       "damage": 170
+     },
+     "AIR_CUTTER": {
+       "name": "Air Cutter",
+       "type": "flying",
+       "energy": -55,
+       "damage": 60
+     },
+     "AIR_SLASH_FAST": {
+       "name": "Air Slash",
+       "type": "flying",
+       "energy": 9,
+       "damage": 9,
+       "turns": 3
+     },
+     "ANCIENT_POWER": {
+       "name": "Ancient Power",
+       "type": "rock",
+@@ -41627,47 +41928,47 @@
+     "ROCK_WRECKER": {
+       "name": "Rock Wrecker",
+       "type": "rock",
+       "energy": -50,
+       "damage": 110
+     },
+     "ROLLOUT_FAST": {
+       "name": "Rollout",
+       "type": "rock",
+       "energy": 13,
+       "damage": 5,
+       "turns": 3
+     },
+     "SACRED_FIRE": {
+       "name": "Sacred Fire",
+       "type": "fire",
+       "energy": -65,
+       "damage": 130
+     },
+     "SACRED_FIRE_PLUS": {
+-      "name": "Sacred Fire Plus",
++      "name": "Sacred Fire",
+       "type": "fire",
+       "energy": -65,
+       "damage": 130
+     },
+     "SACRED_FIRE_PLUS_PLUS": {
+-      "name": "Sacred Fire Plus Plus",
++      "name": "Sacred Fire",
+       "type": "fire",
+       "energy": -65,
+       "damage": 130
+     },
+     "SACRED_SWORD": {
+       "name": "Sacred Sword",
+       "type": "fighting",
+       "energy": -35,
+       "damage": 60
+     },
+     "SAND_TOMB": {
+       "name": "Sand Tomb",
+       "type": "ground",
+       "energy": -40,
+       "damage": 25
+     },
+     "SCALD": {
+       "name": "Scald",
+       "type": "water",
+       "energy": -50,
 @@ -42423,40 +42724,46 @@
        "WATER_PULSE": [
          12,

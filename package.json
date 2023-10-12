@@ -5,10 +5,11 @@
   "private": true,
   "scripts": {
     "build": "node src/build.js",
-    "install": "node src/data/update.js",
+    "fetch": "node src/data/update.js",
+    "install": "npm run fetch",
     "lint": "eslint . && prettier --write .",
     "start": "ws --directory docs",
-    "update": "npm run install && npm run build"
+    "update": "npm run fetch && npm run build"
   },
   "author": "Jamie Humphries",
   "license": "ISC",

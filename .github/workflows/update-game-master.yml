@@ -19,7 +19,7 @@ jobs:
       - name: Set change tracking checkpoint
         run: test -f tracking/checkpoint || (mkdir tracking && git rev-parse HEAD > tracking/checkpoint)
       - name: Update data from Game Master
-        run: npm run build
+        run: npm run update
       - name: Track changes
         run: cat tracking/checkpoint | xargs -I {} git diff -U20 {}:docs/data.json docs/data.json > tracking/changes.diff
       - name: Commit changes

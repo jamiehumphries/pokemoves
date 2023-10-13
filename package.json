@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "node src/build.js",
-    "fetch": "node src/data/update.js",
+    "fetch": "node src/data/fetch.js",
     "install": "npm run fetch",
     "lint": "eslint . && prettier --write .",
     "start": "ws --directory docs",

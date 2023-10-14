@@ -1,5 +1,5 @@
 {
-  "timestamp": 1693597570075,
+  "timestamp": 1697070846573,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -5535,7 +5535,8 @@
       ],
       "fastMoveIds": [
         "BUG_BITE_FAST",
-        "SPARK_FAST"
+        "SPARK_FAST",
+        "VOLT_SWITCH_FAST"
       ],
       "chargedMoveIds": [
         "X_SCISSOR",
@@ -13663,7 +13664,6 @@
       "chargedMoveIds": [
         "BRICK_BREAK",
         "LEAF_BLADE",
-        "ROCK_SLIDE",
         "SEED_BOMB"
       ],
       "cmp": {
@@ -30891,7 +30891,6 @@
       ],
       "fastMoveIds": [
         "HIDDEN_POWER_FAST",
-        "MAGICAL_LEAF_FAST",
         "ZEN_HEADBUTT_FAST"
       ],
       "chargedMoveIds": [
@@ -30927,7 +30926,6 @@
       ],
       "fastMoveIds": [
         "HIDDEN_POWER_FAST",
-        "MAGICAL_LEAF_FAST",
         "ZEN_HEADBUTT_FAST"
       ],
       "chargedMoveIds": [
@@ -32376,7 +32374,6 @@
       ],
       "chargedMoveIds": [
         "BRICK_BREAK",
-        "ROCK_SLIDE",
         "SEED_BOMB"
       ],
       "cmp": {
@@ -38236,7 +38233,8 @@
       "fastMoveIds": [
         "BUG_BITE_FAST",
         "MUD_SLAP_FAST",
-        "SPARK_FAST"
+        "SPARK_FAST",
+        "VOLT_SWITCH_FAST"
       ],
       "chargedMoveIds": [
         "X_SCISSOR",
@@ -53119,12 +53117,6 @@
         5,
         4
       ],
-      "SEED_FLARE": [
-        8,
-        7,
-        8,
-        7
-      ],
       "SHADOW_BALL": [
         6,
         5,
@@ -61867,6 +61859,12 @@
         2,
         2
       ],
+      "CRUNCH": [
+        3,
+        3,
+        3,
+        3
+      ],
       "DARK_PULSE": [
         4,
         3,
@@ -62100,6 +62098,12 @@
         3,
         3,
         3
+      ],
+      "X_SCISSOR": [
+        3,
+        2,
+        3,
+        2
       ],
       "ZAP_CANNON": [
         5,

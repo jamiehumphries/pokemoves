@@ -1,0 +1,419 @@
+diff --git a/docs/data.json b/docs/data.json
+index 4831f6f..95d04e1 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -1,22 +1,22 @@
+ {
+-  "timestamp": 1693597570075,
++  "timestamp": 1697070846573,
+   "pokemon": [
+     {
+       "name": "Abomasnow",
+       "types": [
+         "grass",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "LEAFAGE_FAST",
+         "POWDER_SNOW_FAST",
+         "RAZOR_LEAF_FAST"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_ICE",
+         "ENERGY_BALL",
+         "OUTRAGE",
+         "RETURN",
+         "BLIZZARD"
+       ],
+       "cmp": {
+@@ -5518,41 +5518,42 @@
+           "max": 157.76024998075914
+         },
+         "ultra": {
+           "rankOne": 193.54357040066336,
+           "max": 204.460533261299
+         },
+         "master": {
+           "rankOne": 282.33020627498627,
+           "max": 282.33020627498627
+         }
+       }
+     },
+     {
+       "name": "Charjabug",
+       "types": [
+         "bug",
+         "electric"
+       ],
+       "fastMoveIds": [
+         "BUG_BITE_FAST",
+-        "SPARK_FAST"
++        "SPARK_FAST",
++        "VOLT_SWITCH_FAST"
+       ],
+       "chargedMoveIds": [
+         "X_SCISSOR",
+         "CRUNCH",
+         "DISCHARGE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 65.69369331143783,
+           "max": 71.13041275790164
+         },
+         "great": {
+           "rankOne": 113.35955939722177,
+           "max": 124.17039135078593
+         },
+         "ultra": {
+           "rankOne": 135.24800300598145,
+           "max": 135.24800300598145
+         },
+         "master": {
+@@ -13646,41 +13647,40 @@
+         },
+         "master": {
+           "rankOne": 142.01040315628052,
+           "max": 142.01040315628052
+         }
+       }
+     },
+     {
+       "name": "Gogoat",
+       "types": [
+         "grass"
+       ],
+       "fastMoveIds": [
+         "ROCK_SMASH_FAST",
+         "VINE_WHIP_FAST",
+         "ZEN_HEADBUTT_FAST"
+       ],
+       "chargedMoveIds": [
+         "BRICK_BREAK",
+         "LEAF_BLADE",
+-        "ROCK_SLIDE",
+         "SEED_BOMB"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 68.44568455219262,
+           "max": 72.63623666763297
+         },
+         "great": {
+           "rankOne": 118.28520190715778,
+           "max": 126.05140203237522
+         },
+         "ultra": {
+           "rankOne": 152.10872940471276,
+           "max": 163.74970359384895
+         },
+         "master": {
+           "rankOne": 178.35830396413803,
+           "max": 178.35830396413803
+         }
+       }
+@@ -30874,77 +30874,75 @@
+           "rankOne": 163.92340152766877,
+           "max": 179.08906245231614
+         },
+         "ultra": {
+           "rankOne": 218.08740484714508,
+           "max": 218.08740484714508
+         },
+         "master": {
+           "rankOne": 218.08740484714508,
+           "max": 218.08740484714508
+         }
+       }
+     },
+     {
+       "name": "Shaymin (Land)",
+       "types": [
+         "grass"
+       ],
+       "fastMoveIds": [
+         "HIDDEN_POWER_FAST",
+-        "MAGICAL_LEAF_FAST",
+         "ZEN_HEADBUTT_FAST"
+       ],
+       "chargedMoveIds": [
+         "GRASS_KNOT",
+         "ENERGY_BALL",
+         "SEED_FLARE",
+         "SOLAR_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 67.4283957481384,
+           "max": 71.60253453254695
+         },
+         "great": {
+           "rankOne": 117.35442588199827,
+           "max": 123.9283561706541
+         },
+         "ultra": {
+           "rankOne": 151.07380986213684,
+           "max": 160.4630480250017
+         },
+         "master": {
+           "rankOne": 190.1925042271614,
+           "max": 190.1925042271614
+         }
+       }
+     },
+     {
+       "name": "Shaymin (Sky)",
+       "types": [
+         "grass",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "HIDDEN_POWER_FAST",
+-        "MAGICAL_LEAF_FAST",
+         "ZEN_HEADBUTT_FAST"
+       ],
+       "chargedMoveIds": [
+         "GRASS_KNOT",
+         "ENERGY_BALL",
+         "SEED_FLARE",
+         "SOLAR_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 79.88097652863675,
+           "max": 84.47183724867334
+         },
+         "great": {
+           "rankOne": 137.27099478931686,
+           "max": 145.34437751769997
+         },
+         "ultra": {
+           "rankOne": 177.78404420614228,
+           "max": 188.001518011093
+@@ -32359,41 +32357,40 @@
+           "rankOne": 153.96441292762748,
+           "max": 165.12125444412223
+         },
+         "master": {
+           "rankOne": 187.65660417079926,
+           "max": 187.65660417079926
+         }
+       }
+     },
+     {
+       "name": "Skiddo",
+       "types": [
+         "grass"
+       ],
+       "fastMoveIds": [
+         "ROCK_SMASH_FAST",
+         "ZEN_HEADBUTT_FAST"
+       ],
+       "chargedMoveIds": [
+         "BRICK_BREAK",
+-        "ROCK_SLIDE",
+         "SEED_BOMB"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 65.72558248043049,
+           "max": 72.5800662104434
+         },
+         "great": {
+           "rankOne": 116.651402592659,
+           "max": 116.651402592659
+         },
+         "ultra": {
+           "rankOne": 116.651402592659,
+           "max": 116.651402592659
+         },
+         "master": {
+           "rankOne": 116.651402592659,
+           "max": 116.651402592659
+         }
+       }
+@@ -38219,41 +38216,42 @@
+         },
+         "ultra": {
+           "rankOne": 147.08220326900482,
+           "max": 147.08220326900482
+         },
+         "master": {
+           "rankOne": 147.08220326900482,
+           "max": 147.08220326900482
+         }
+       }
+     },
+     {
+       "name": "Vikavolt",
+       "types": [
+         "bug",
+         "electric"
+       ],
+       "fastMoveIds": [
+         "BUG_BITE_FAST",
+         "MUD_SLAP_FAST",
+-        "SPARK_FAST"
++        "SPARK_FAST",
++        "VOLT_SWITCH_FAST"
+       ],
+       "chargedMoveIds": [
+         "X_SCISSOR",
+         "CRUNCH",
+         "DISCHARGE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 84.44603848457332,
+           "max": 87.5511534290151
+         },
+         "great": {
+           "rankOne": 143.9556480646132,
+           "max": 152.83539337844422
+         },
+         "ultra": {
+           "rankOne": 185.74735794498508,
+           "max": 198.45999133586872
+         },
+         "master": {
+@@ -53102,46 +53100,40 @@
+         6
+       ],
+       "PSYCHIC": [
+         6,
+         5,
+         6,
+         5
+       ],
+       "RETURN": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "SEED_BOMB": [
+         5,
+         4,
+         5,
+         4
+       ],
+-      "SEED_FLARE": [
+-        8,
+-        7,
+-        8,
+-        7
+-      ],
+       "SHADOW_BALL": [
+         6,
+         5,
+         6,
+         5
+       ],
+       "SHADOW_SNEAK": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "SLUDGE_BOMB": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "SOLAR_BEAM": [
+         8,
+@@ -61850,40 +61842,46 @@
+         2
+       ],
+       "BUG_BUZZ": [
+         4,
+         4,
+         4,
+         3
+       ],
+       "BULLDOZE": [
+         4,
+         4,
+         4,
+         3
+       ],
+       "CROSS_POISON": [
+         3,
+         2,
+         2,
+         2
+       ],
++      "CRUNCH": [
++        3,
++        3,
++        3,
++        3
++      ],
+       "DARK_PULSE": [
+         4,
+         3,
+         3,
+         3
+       ],
+       "DAZZLING_GLEAM": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "DISCHARGE": [
+         3,
+         3,
+         3,
+         3
+       ],
+       "DRAGON_CLAW": [
+         3,
+@@ -62084,40 +62082,46 @@
+         2
+       ],
+       "THUNDERBOLT": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "VICE_GRIP": [
+         3,
+         2,
+         3,
+         2
+       ],
+       "WILD_CHARGE": [
+         3,
+         3,
+         3,
+         3
+       ],
++      "X_SCISSOR": [
++        3,
++        2,
++        3,
++        2
++      ],
+       "ZAP_CANNON": [
+         5,
+         5,
+         5,
+         5
+       ]
+     },
+     "WATER_GUN_FAST": {
+       "ACID_SPRAY": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "AERIAL_ACE": [
+         14,
+         13,
+         13,
+         14
+       ],

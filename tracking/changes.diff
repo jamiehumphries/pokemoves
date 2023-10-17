@@ -1,0 +1,164 @@
+diff --git a/docs/data.json b/docs/data.json
+index 95d04e1..fbc948f 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -1,22 +1,22 @@
+ {
+-  "timestamp": 1697070846573,
++  "timestamp": 1697485440869,
+   "pokemon": [
+     {
+       "name": "Abomasnow",
+       "types": [
+         "grass",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "LEAFAGE_FAST",
+         "POWDER_SNOW_FAST",
+         "RAZOR_LEAF_FAST"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_ICE",
+         "ENERGY_BALL",
+         "OUTRAGE",
+         "RETURN",
+         "BLIZZARD"
+       ],
+       "cmp": {
+@@ -6713,40 +6713,41 @@
+         "ultra": {
+           "rankOne": 152.15400338172913,
+           "max": 152.15400338172913
+         },
+         "master": {
+           "rankOne": 152.15400338172913,
+           "max": 152.15400338172913
+         }
+       }
+     },
+     {
+       "name": "Conkeldurr",
+       "types": [
+         "fighting"
+       ],
+       "fastMoveIds": [
+         "COUNTER_FAST",
+         "POISON_JAB_FAST"
+       ],
+       "chargedMoveIds": [
++        "BRUTAL_SWING",
+         "DYNAMIC_PUNCH",
+         "STONE_EDGE",
+         "FOCUS_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 78.02428650856014,
+           "max": 81.23516249656673
+         },
+         "great": {
+           "rankOne": 133.48839750866685,
+           "max": 141.55372238159157
+         },
+         "ultra": {
+           "rankOne": 171.77286189794538,
+           "max": 182.5712901973353
+         },
+         "master": {
+           "rankOne": 218.08740484714508,
+           "max": 218.08740484714508
+@@ -46556,40 +46557,46 @@
+         5
+       ],
+       "BRAVE_BIRD": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "BREAKING_SWIPE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "BRICK_BREAK": [
+         5,
+         5,
+         5,
+         5
+       ],
++      "BRUTAL_SWING": [
++        6,
++        6,
++        6,
++        5
++      ],
+       "BULLDOZE": [
+         9,
+         9,
+         8,
+         9
+       ],
+       "CLOSE_COMBAT": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "CROSS_CHOP": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "CRUNCH": [
+         7,
+@@ -54682,40 +54689,46 @@
+         5
+       ],
+       "BOOMBURST": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "BRICK_BREAK": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "BRINE": [
+         8,
+         7,
+         7,
+         7
+       ],
++      "BRUTAL_SWING": [
++        6,
++        6,
++        6,
++        5
++      ],
+       "BUBBLE_BEAM": [
+         6,
+         6,
+         6,
+         5
+       ],
+       "BULLDOZE": [
+         9,
+         9,
+         8,
+         9
+       ],
+       "CLOSE_COMBAT": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "CROSS_POISON": [
+         5,

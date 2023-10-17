@@ -1,5 +1,5 @@
 {
-  "timestamp": 1697070846573,
+  "timestamp": 1697485440869,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -6730,6 +6730,7 @@
         "POISON_JAB_FAST"
       ],
       "chargedMoveIds": [
+        "BRUTAL_SWING",
         "DYNAMIC_PUNCH",
         "STONE_EDGE",
         "FOCUS_BLAST"
@@ -46573,6 +46574,12 @@
         5,
         5
       ],
+      "BRUTAL_SWING": [
+        6,
+        6,
+        6,
+        5
+      ],
       "BULLDOZE": [
         9,
         9,
@@ -54698,6 +54705,12 @@
         7,
         7,
         7
+      ],
+      "BRUTAL_SWING": [
+        6,
+        6,
+        6,
+        5
       ],
       "BUBBLE_BEAM": [
         6,

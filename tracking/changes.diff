@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 95d04e1..fbc948f 100644
+index 95d04e1..69c24be 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1697070846573,
-+  "timestamp": 1697485440869,
++  "timestamp": 1698443683330,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,7 +26,187 @@ index 95d04e1..fbc948f 100644
          "BLIZZARD"
        ],
        "cmp": {
-@@ -6713,40 +6713,41 @@
+@@ -2635,41 +2635,42 @@
+         },
+         "master": {
+           "rankOne": 176.66770392656326,
+           "max": 176.66770392656326
+         }
+       }
+     },
+     {
+       "name": "Barboach",
+       "types": [
+         "water",
+         "ground"
+       ],
+       "fastMoveIds": [
+         "MUD_SHOT_FAST",
+         "WATER_GUN_FAST"
+       ],
+       "chargedMoveIds": [
+         "AQUA_TAIL",
+         "MUD_BOMB",
+-        "ICE_BEAM"
++        "ICE_BEAM",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 62.11786204576492,
+           "max": 71.41168045872598
+         },
+         "great": {
+           "rankOne": 91.29240202903748,
+           "max": 91.29240202903748
+         },
+         "ultra": {
+           "rankOne": 91.29240202903748,
+           "max": 91.29240202903748
+         },
+         "master": {
+           "rankOne": 91.29240202903748,
+           "max": 91.29240202903748
+         }
+       }
+     },
+@@ -2736,41 +2737,42 @@
+         },
+         "master": {
+           "rankOne": 172.44120383262634,
+           "max": 172.44120383262634
+         }
+       }
+     },
+     {
+       "name": "Bastiodon",
+       "types": [
+         "rock",
+         "steel"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL_FAST",
+         "SMACK_DOWN_FAST"
+       ],
+       "chargedMoveIds": [
+         "FLAMETHROWER",
+         "STONE_EDGE",
+-        "FLASH_CANNON"
++        "FLASH_CANNON",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 46.14044616434675,
+           "max": 50.44502416253089
+         },
+         "great": {
+           "rankOne": 78.98820221424097,
+           "max": 88.05062111721881
+         },
+         "ultra": {
+           "rankOne": 92.13770204782486,
+           "max": 92.13770204782486
+         },
+         "master": {
+           "rankOne": 92.13770204782486,
+           "max": 92.13770204782486
+         }
+       }
+     },
+@@ -5302,40 +5304,41 @@
+           "max": 113.27020251750946
+         }
+       }
+     },
+     {
+       "name": "Chandelure",
+       "types": [
+         "ghost",
+         "fire"
+       ],
+       "fastMoveIds": [
+         "FIRE_SPIN_FAST",
+         "HEX_FAST",
+         "INCINERATE_FAST"
+       ],
+       "chargedMoveIds": [
+         "FLAME_CHARGE",
+         "ENERGY_BALL",
+         "OVERHEAT",
+         "SHADOW_BALL",
++        "RETURN",
+         "POLTERGEIST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 87.33582687377925,
+           "max": 91.83105325698848
+         },
+         "great": {
+           "rankOne": 149.26482009887673,
+           "max": 159.8255514392929
+         },
+         "ultra": {
+           "rankOne": 193.2688267323354,
+           "max": 205.74814105033875
+         },
+         "master": {
+           "rankOne": 241.75580537319183,
+           "max": 241.75580537319183
+         }
+       }
+@@ -6432,47 +6435,47 @@
+           "max": 114.96080255508423
+         },
+         "ultra": {
+           "rankOne": 114.96080255508423,
+           "max": 114.96080255508423
+         },
+         "master": {
+           "rankOne": 114.96080255508423,
+           "max": 114.96080255508423
+         }
+       }
+     },
+     {
+       "name": "Clodsire",
+       "types": [
+         "poison",
+         "ground"
+       ],
+       "fastMoveIds": [
+         "MUD_SHOT_FAST",
+-        "POISON_JAB_FAST"
++        "POISON_STING_FAST"
+       ],
+       "chargedMoveIds": [
+-        "SURF",
+         "ACID_SPRAY",
+         "SLUDGE_BOMB",
+         "STONE_EDGE",
++        "WATER_PULSE",
+         "EARTHQUAKE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 53.65750181674948,
+           "max": 58.3894840314495
+         },
+         "great": {
+           "rankOne": 93.31210841444675,
+           "max": 101.43527233600616
+         },
+         "ultra": {
+           "rankOne": 120.03260266780853,
+           "max": 120.03260266780853
+         },
+         "master": {
+           "rankOne": 120.03260266780853,
+           "max": 120.03260266780853
+         }
+       }
+@@ -6713,40 +6716,41 @@
          "ultra": {
            "rankOne": 152.15400338172913,
            "max": 152.15400338172913
@@ -68,7 +248,686 @@ index 95d04e1..fbc948f 100644
          "master": {
            "rankOne": 218.08740484714508,
            "max": 218.08740484714508
-@@ -46556,40 +46557,46 @@
+@@ -7149,41 +7153,42 @@
+           "max": 158.9164035320282
+         },
+         "master": {
+           "rankOne": 158.9164035320282,
+           "max": 158.9164035320282
+         }
+       }
+     },
+     {
+       "name": "Cranidos",
+       "types": [
+         "rock"
+       ],
+       "fastMoveIds": [
+         "TAKE_DOWN_FAST",
+         "ZEN_HEADBUTT_FAST"
+       ],
+       "chargedMoveIds": [
+         "ANCIENT_POWER",
+         "BULLDOZE",
+-        "ROCK_TOMB"
++        "ROCK_TOMB",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 94.37795812347025,
+           "max": 103.24405807256699
+         },
+         "great": {
+           "rankOne": 162.23204083681438,
+           "max": 178.80353951454143
+         },
+         "ultra": {
+           "rankOne": 196.95490437746048,
+           "max": 196.95490437746048
+         },
+         "master": {
+           "rankOne": 196.95490437746048,
+           "max": 196.95490437746048
+         }
+       }
+     },
+@@ -9390,41 +9395,42 @@
+           "max": 111.57960247993469
+         },
+         "master": {
+           "rankOne": 111.57960247993469,
+           "max": 111.57960247993469
+         }
+       }
+     },
+     {
+       "name": "Drilbur",
+       "types": [
+         "ground"
+       ],
+       "fastMoveIds": [
+         "MUD_SLAP_FAST",
+         "SCRATCH_FAST"
+       ],
+       "chargedMoveIds": [
+         "DRILL_RUN",
+         "DIG",
+-        "ROCK_TOMB"
++        "ROCK_TOMB",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.97819960117333,
+           "max": 85.46189516659065
+         },
+         "great": {
+           "rankOne": 136.53420410362918,
+           "max": 142.8557031750679
+         },
+         "ultra": {
+           "rankOne": 142.8557031750679,
+           "max": 142.8557031750679
+         },
+         "master": {
+           "rankOne": 142.8557031750679,
+           "max": 142.8557031750679
+         }
+       }
+     },
+@@ -10832,41 +10838,42 @@
+           "max": 224.84980499744415
+         }
+       }
+     },
+     {
+       "name": "Excadrill",
+       "types": [
+         "ground",
+         "steel"
+       ],
+       "fastMoveIds": [
+         "METAL_CLAW_FAST",
+         "MUD_SHOT_FAST",
+         "MUD_SLAP_FAST"
+       ],
+       "chargedMoveIds": [
+         "DRILL_RUN",
+         "ROCK_SLIDE",
+         "IRON_HEAD",
+         "393",
+-        "EARTHQUAKE"
++        "EARTHQUAKE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 81.87733769416805,
+           "max": 86.69365167617794
+         },
+         "great": {
+           "rankOne": 141.55372238159157,
+           "max": 150.8842618482835
+         },
+         "ultra": {
+           "rankOne": 181.85812109500193,
+           "max": 194.45426534865626
+         },
+         "master": {
+           "rankOne": 228.2310050725937,
+           "max": 228.2310050725937
+         }
+       }
+     },
+@@ -12669,41 +12676,42 @@
+           "rankOne": 157.22580349445343,
+           "max": 157.22580349445343
+         }
+       }
+     },
+     {
+       "name": "Gastly",
+       "types": [
+         "ghost",
+         "poison"
+       ],
+       "fastMoveIds": [
+         "ASTONISH_FAST",
+         "LICK_FAST",
+         "SUCKER_PUNCH_FAST"
+       ],
+       "chargedMoveIds": [
+         "OMINOUS_WIND",
+         "DARK_PULSE",
+         "SLUDGE_BOMB",
+-        "NIGHT_SHADE"
++        "NIGHT_SHADE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 97.82530663146719,
+           "max": 109.60774612426741
+         },
+         "great": {
+           "rankOne": 169.9053037762642,
+           "max": 169.9053037762642
+         },
+         "ultra": {
+           "rankOne": 169.9053037762642,
+           "max": 169.9053037762642
+         },
+         "master": {
+           "rankOne": 169.9053037762642,
+           "max": 169.9053037762642
+         }
+       }
+     },
+@@ -12919,80 +12927,82 @@
+     },
+     {
+       "name": "Gengar",
+       "types": [
+         "ghost",
+         "poison"
+       ],
+       "fastMoveIds": [
+         "HEX_FAST",
+         "LICK_FAST",
+         "SHADOW_CLAW_FAST",
+         "SUCKER_PUNCH_FAST"
+       ],
+       "chargedMoveIds": [
+         "SHADOW_PUNCH",
+         "DARK_PULSE",
+         "SLUDGE_BOMB",
+         "PSYCHIC",
+         "SHADOW_BALL",
+         "SLUDGE_WAVE",
++        "RETURN",
+         "FOCUS_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 89.22837859049048,
+           "max": 94.2874225974082
+         },
+         "great": {
+           "rankOne": 153.960745026068,
+           "max": 164.88240265846238
+         },
+         "ultra": {
+           "rankOne": 198.00252566163752,
+           "max": 212.62628883123375
+         },
+         "master": {
+           "rankOne": 233.302805185318,
+           "max": 233.302805185318
+         }
+       }
+     },
+     {
+       "name": "Gengar (Mega)",
+       "types": [
+         "ghost",
+         "poison"
+       ],
+       "fastMoveIds": [
+         "HEX_FAST",
+         "LICK_FAST",
+         "SHADOW_CLAW_FAST",
+         "SUCKER_PUNCH_FAST"
+       ],
+       "chargedMoveIds": [
+         "SHADOW_PUNCH",
+         "DARK_PULSE",
+         "SLUDGE_BOMB",
+         "PSYCHIC",
+         "SHADOW_BALL",
+         "SLUDGE_WAVE",
++        "RETURN",
+         "FOCUS_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 96.28269414747069,
+           "max": 99.56505872067991
+         },
+         "great": {
+           "rankOne": 166.2622993809198,
+           "max": 175.3333228826521
+         },
+         "ultra": {
+           "rankOne": 213.64289253950105,
+           "max": 226.81729936599712
+         },
+         "master": {
+           "rankOne": 307.6892068386078,
+           "max": 307.6892068386078
+         }
+       }
+@@ -15487,41 +15497,42 @@
+           "max": 142.01040315628052
+         }
+       }
+     },
+     {
+       "name": "Haunter",
+       "types": [
+         "ghost",
+         "poison"
+       ],
+       "fastMoveIds": [
+         "ASTONISH_FAST",
+         "LICK_FAST",
+         "SHADOW_CLAW_FAST"
+       ],
+       "chargedMoveIds": [
+         "SHADOW_PUNCH",
+         "ICE_PUNCH",
+         "DARK_PULSE",
+         "SLUDGE_BOMB",
+-        "SHADOW_BALL"
++        "SHADOW_BALL",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 92.51854864138126,
+           "max": 100.55500340461714
+         },
+         "great": {
+           "rankOne": 159.7498789226684,
+           "max": 174.14460074901575
+         },
+         "ultra": {
+           "rankOne": 201.1814044713974,
+           "max": 201.1814044713974
+         },
+         "master": {
+           "rankOne": 201.1814044713974,
+           "max": 201.1814044713974
+         }
+       }
+     },
+@@ -18632,40 +18643,41 @@
+         },
+         "master": {
+           "rankOne": 146.23690325021744,
+           "max": 146.23690325021744
+         }
+       }
+     },
+     {
+       "name": "Lampent",
+       "types": [
+         "ghost",
+         "fire"
+       ],
+       "fastMoveIds": [
+         "ASTONISH_FAST",
+         "EMBER_FAST"
+       ],
+       "chargedMoveIds": [
+         "ENERGY_BALL",
+         "FLAME_BURST",
++        "RETURN",
+         "HEAT_WAVE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 75.7713902592659,
+           "max": 82.45691160470128
+         },
+         "great": {
+           "rankOne": 130.66851931810365,
+           "max": 143.32362604141233
+         },
+         "ultra": {
+           "rankOne": 155.53520345687866,
+           "max": 155.53520345687866
+         },
+         "master": {
+           "rankOne": 155.53520345687866,
+           "max": 155.53520345687866
+         }
+       }
+@@ -19546,40 +19558,41 @@
+         "master": {
+           "rankOne": 120.87790268659592,
+           "max": 120.87790268659592
+         }
+       }
+     },
+     {
+       "name": "Litwick",
+       "types": [
+         "ghost",
+         "fire"
+       ],
+       "fastMoveIds": [
+         "ASTONISH_FAST",
+         "EMBER_FAST"
+       ],
+       "chargedMoveIds": [
+         "MYSTICAL_FIRE",
+         "FLAME_CHARGE",
+         "FLAME_BURST",
++        "RETURN",
+         "HEAT_WAVE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 64.51920104026789,
+           "max": 72.55621317320445
+         },
+         "great": {
+           "rankOne": 103.97190231084824,
+           "max": 103.97190231084824
+         },
+         "ultra": {
+           "rankOne": 103.97190231084824,
+           "max": 103.97190231084824
+         },
+         "master": {
+           "rankOne": 103.97190231084824,
+           "max": 103.97190231084824
+         }
+       }
+@@ -27969,41 +27982,42 @@
+           "max": 79.4582017660141
+         },
+         "master": {
+           "rankOne": 79.4582017660141,
+           "max": 79.4582017660141
+         }
+       }
+     },
+     {
+       "name": "Rampardos",
+       "types": [
+         "rock"
+       ],
+       "fastMoveIds": [
+         "SMACK_DOWN_FAST",
+         "ZEN_HEADBUTT_FAST"
+       ],
+       "chargedMoveIds": [
+         "ROCK_SLIDE",
+         "FLAMETHROWER",
+-        "OUTRAGE"
++        "OUTRAGE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 94.72084164619442,
+           "max": 99.53715562820429
+         },
+         "great": {
+           "rankOne": 163.03463745117162,
+           "max": 173.23748582580697
+         },
+         "ultra": {
+           "rankOne": 208.530840575695,
+           "max": 223.01371932029724
+         },
+         "master": {
+           "rankOne": 262.04300582408905,
+           "max": 262.04300582408905
+         }
+       }
+     },
+@@ -28390,40 +28404,41 @@
+           "rankOne": 192.5743184928975,
+           "max": 207.1743671742329
+         },
+         "master": {
+           "rankOne": 224.00450497865677,
+           "max": 224.00450497865677
+         }
+       }
+     },
+     {
+       "name": "Regigigas",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
+         "HIDDEN_POWER_FAST",
+         "ZEN_HEADBUTT_FAST"
+       ],
+       "chargedMoveIds": [
+         "THUNDER",
++        "RETURN",
+         "FOCUS_BLAST",
+         "GIGA_IMPACT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 79.59734090032377,
+           "max": 82.60617509243224
+         },
+         "great": {
+           "rankOne": 138.24358150362957,
+           "max": 144.5054858922957
+         },
+         "ultra": {
+           "rankOne": 177.76897973245636,
+           "max": 187.0600413909471
+         },
+         "master": {
+           "rankOne": 255.28060567378998,
+           "max": 255.28060567378998
+         }
+@@ -31084,41 +31099,42 @@
+         },
+         "master": {
+           "rankOne": 73.54110163450241,
+           "max": 73.54110163450241
+         }
+       }
+     },
+     {
+       "name": "Shieldon",
+       "types": [
+         "rock",
+         "steel"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL_FAST",
+         "TACKLE_FAST"
+       ],
+       "chargedMoveIds": [
+         "ANCIENT_POWER",
+         "HEAVY_SLAM",
+-        "ROCK_TOMB"
++        "ROCK_TOMB",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 49.73710823059081,
+           "max": 56.39104127883906
+         },
+         "great": {
+           "rankOne": 76.92230170965195,
+           "max": 76.92230170965195
+         },
+         "ultra": {
+           "rankOne": 76.92230170965195,
+           "max": 76.92230170965195
+         },
+         "master": {
+           "rankOne": 76.92230170965195,
+           "max": 76.92230170965195
+         }
+       }
+     },
+@@ -33188,41 +33204,42 @@
+         "master": {
+           "rankOne": 172.44120383262634,
+           "max": 172.44120383262634
+         }
+       }
+     },
+     {
+       "name": "Sneasler",
+       "types": [
+         "fighting",
+         "poison"
+       ],
+       "fastMoveIds": [
+         "POISON_JAB_FAST",
+         "ROCK_SMASH_FAST",
+         "SHADOW_CLAW_FAST"
+       ],
+       "chargedMoveIds": [
+         "AERIAL_ACE",
+         "X_SCISSOR",
+-        "CLOSE_COMBAT"
++        "CLOSE_COMBAT",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 83.16168808937068,
+           "max": 87.97800207138057
+         },
+         "great": {
+           "rankOne": 144.73712525446453,
+           "max": 153.11958424603583
+         },
+         "ultra": {
+           "rankOne": 186.137135709002,
+           "max": 198.80771905049184
+         },
+         "master": {
+           "rankOne": 231.61220514774323,
+           "max": 231.61220514774323
+         }
+       }
+     },
+@@ -39098,40 +39115,41 @@
+         },
+         "master": {
+           "rankOne": 97.20950216054916,
+           "max": 97.20950216054916
+         }
+       }
+     },
+     {
+       "name": "Whiscash",
+       "types": [
+         "water",
+         "ground"
+       ],
+       "fastMoveIds": [
+         "MUD_SHOT_FAST",
+         "WATER_GUN_FAST"
+       ],
+       "chargedMoveIds": [
+         "MUD_BOMB",
+         "WATER_PULSE",
++        "RETURN",
+         "BLIZZARD"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 62.09022597710475,
+           "max": 66.32816785573957
+         },
+         "great": {
+           "rankOne": 106.73951500654219,
+           "max": 115.58957739086638
+         },
+         "ultra": {
+           "rankOne": 140.31980311870575,
+           "max": 140.31980311870575
+         },
+         "master": {
+           "rankOne": 140.31980311870575,
+           "max": 140.31980311870575
+         }
+       }
+@@ -39522,40 +39540,75 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 57.33645489414195,
+           "max": 67.74561947752389
+         },
+         "great": {
+           "rankOne": 76.07700169086456,
+           "max": 76.07700169086456
+         },
+         "ultra": {
+           "rankOne": 76.07700169086456,
+           "max": 76.07700169086456
+         },
+         "master": {
+           "rankOne": 76.07700169086456,
+           "max": 76.07700169086456
+         }
+       }
+     },
++    {
++      "name": "Wooper (Paldea)",
++      "types": [
++        "poison",
++        "ground"
++      ],
++      "fastMoveIds": [
++        "MUD_SHOT_FAST",
++        "POISON_JAB_FAST"
++      ],
++      "chargedMoveIds": [
++        "BODY_SLAM",
++        "DIG",
++        "SLUDGE_WAVE",
++        "RETURN"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 57.33645489414195,
++          "max": 67.74561947752389
++        },
++        "great": {
++          "rankOne": 76.07700169086456,
++          "max": 76.07700169086456
++        },
++        "ultra": {
++          "rankOne": 76.07700169086456,
++          "max": 76.07700169086456
++        },
++        "master": {
++          "rankOne": 76.07700169086456,
++          "max": 76.07700169086456
++        }
++      }
++    },
+     {
+       "name": "Wormadam (Plant)",
+       "types": [
+         "bug",
+         "grass"
+       ],
+       "fastMoveIds": [
+         "BUG_BITE_FAST",
+         "CONFUSION_FAST"
+       ],
+       "chargedMoveIds": [
+         "ENERGY_BALL",
+         "BUG_BUZZ",
+         "PSYBEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 62.47816389799118,
+           "max": 67.53652049202458
+         },
+@@ -46556,40 +46609,46 @@
          5
        ],
        "BRAVE_BIRD": [
@@ -115,7 +974,7 @@ index 95d04e1..fbc948f 100644
        ],
        "CRUNCH": [
          7,
-@@ -54682,40 +54689,46 @@
+@@ -54682,40 +54741,46 @@
          5
        ],
        "BOOMBURST": [
@@ -161,4 +1020,98 @@ index 95d04e1..fbc948f 100644
          6
        ],
        "CROSS_POISON": [
+         5,
+@@ -55152,40 +55217,46 @@
+         4
+       ],
+       "CRUNCH": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "DARK_PULSE": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "DIG": [
+         6,
+         6,
+         5,
+         6
+       ],
++      "EARTHQUAKE": [
++        8,
++        7,
++        7,
++        7
++      ],
+       "FELL_STINGER": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "GRASS_KNOT": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "GUNK_SHOT": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "GYRO_BALL": [
+         7,
+@@ -55272,40 +55343,46 @@
+         5
+       ],
+       "SIGNAL_BEAM": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "SLUDGE_BOMB": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "SLUDGE_WAVE": [
+         8,
+         7,
+         7,
+         7
+       ],
++      "STONE_EDGE": [
++        7,
++        6,
++        6,
++        6
++      ],
+       "STRUGGLE": [
+         12,
+         11,
+         11,
+         11
+       ],
+       "THUNDERBOLT": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "WATER_PULSE": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "WRAP": [
          5,

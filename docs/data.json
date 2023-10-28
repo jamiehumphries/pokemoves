@@ -1,5 +1,5 @@
 {
-  "timestamp": 1697485440869,
+  "timestamp": 1698443683330,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -2652,7 +2652,8 @@
       "chargedMoveIds": [
         "AQUA_TAIL",
         "MUD_BOMB",
-        "ICE_BEAM"
+        "ICE_BEAM",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -2753,7 +2754,8 @@
       "chargedMoveIds": [
         "FLAMETHROWER",
         "STONE_EDGE",
-        "FLASH_CANNON"
+        "FLASH_CANNON",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -5319,6 +5321,7 @@
         "ENERGY_BALL",
         "OVERHEAT",
         "SHADOW_BALL",
+        "RETURN",
         "POLTERGEIST"
       ],
       "cmp": {
@@ -6449,13 +6452,13 @@
       ],
       "fastMoveIds": [
         "MUD_SHOT_FAST",
-        "POISON_JAB_FAST"
+        "POISON_STING_FAST"
       ],
       "chargedMoveIds": [
-        "SURF",
         "ACID_SPRAY",
         "SLUDGE_BOMB",
         "STONE_EDGE",
+        "WATER_PULSE",
         "EARTHQUAKE"
       ],
       "cmp": {
@@ -7167,7 +7170,8 @@
       "chargedMoveIds": [
         "ANCIENT_POWER",
         "BULLDOZE",
-        "ROCK_TOMB"
+        "ROCK_TOMB",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -9408,7 +9412,8 @@
       "chargedMoveIds": [
         "DRILL_RUN",
         "DIG",
-        "ROCK_TOMB"
+        "ROCK_TOMB",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -10850,7 +10855,8 @@
         "ROCK_SLIDE",
         "IRON_HEAD",
         "393",
-        "EARTHQUAKE"
+        "EARTHQUAKE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -12687,7 +12693,8 @@
         "OMINOUS_WIND",
         "DARK_PULSE",
         "SLUDGE_BOMB",
-        "NIGHT_SHADE"
+        "NIGHT_SHADE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -12937,6 +12944,7 @@
         "PSYCHIC",
         "SHADOW_BALL",
         "SLUDGE_WAVE",
+        "RETURN",
         "FOCUS_BLAST"
       ],
       "cmp": {
@@ -12977,6 +12985,7 @@
         "PSYCHIC",
         "SHADOW_BALL",
         "SLUDGE_WAVE",
+        "RETURN",
         "FOCUS_BLAST"
       ],
       "cmp": {
@@ -15505,7 +15514,8 @@
         "ICE_PUNCH",
         "DARK_PULSE",
         "SLUDGE_BOMB",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -18650,6 +18660,7 @@
       "chargedMoveIds": [
         "ENERGY_BALL",
         "FLAME_BURST",
+        "RETURN",
         "HEAT_WAVE"
       ],
       "cmp": {
@@ -19564,6 +19575,7 @@
         "MYSTICAL_FIRE",
         "FLAME_CHARGE",
         "FLAME_BURST",
+        "RETURN",
         "HEAT_WAVE"
       ],
       "cmp": {
@@ -27987,7 +27999,8 @@
       "chargedMoveIds": [
         "ROCK_SLIDE",
         "FLAMETHROWER",
-        "OUTRAGE"
+        "OUTRAGE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -28408,6 +28421,7 @@
       ],
       "chargedMoveIds": [
         "THUNDER",
+        "RETURN",
         "FOCUS_BLAST",
         "GIGA_IMPACT"
       ],
@@ -31102,7 +31116,8 @@
       "chargedMoveIds": [
         "ANCIENT_POWER",
         "HEAVY_SLAM",
-        "ROCK_TOMB"
+        "ROCK_TOMB",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -33206,7 +33221,8 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "X_SCISSOR",
-        "CLOSE_COMBAT"
+        "CLOSE_COMBAT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -39116,6 +39132,7 @@
       "chargedMoveIds": [
         "MUD_BOMB",
         "WATER_PULSE",
+        "RETURN",
         "BLIZZARD"
       ],
       "cmp": {
@@ -39519,6 +39536,41 @@
         "BODY_SLAM",
         "MUD_BOMB",
         "DIG",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 57.33645489414195,
+          "max": 67.74561947752389
+        },
+        "great": {
+          "rankOne": 76.07700169086456,
+          "max": 76.07700169086456
+        },
+        "ultra": {
+          "rankOne": 76.07700169086456,
+          "max": 76.07700169086456
+        },
+        "master": {
+          "rankOne": 76.07700169086456,
+          "max": 76.07700169086456
+        }
+      }
+    },
+    {
+      "name": "Wooper (Paldea)",
+      "types": [
+        "poison",
+        "ground"
+      ],
+      "fastMoveIds": [
+        "MUD_SHOT_FAST",
+        "POISON_JAB_FAST"
+      ],
+      "chargedMoveIds": [
+        "BODY_SLAM",
+        "DIG",
+        "SLUDGE_WAVE",
         "RETURN"
       ],
       "cmp": {
@@ -55182,6 +55234,12 @@
         5,
         6
       ],
+      "EARTHQUAKE": [
+        8,
+        7,
+        7,
+        7
+      ],
       "FELL_STINGER": [
         4,
         4,
@@ -55301,6 +55359,12 @@
         7,
         7,
         7
+      ],
+      "STONE_EDGE": [
+        7,
+        6,
+        6,
+        6
       ],
       "STRUGGLE": [
         12,

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1698443683330,
+  "timestamp": 1699391363608,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -6457,6 +6457,7 @@
       "chargedMoveIds": [
         "ACID_SPRAY",
         "SLUDGE_BOMB",
+        "MEGAHORN",
         "STONE_EDGE",
         "WATER_PULSE",
         "EARTHQUAKE"
@@ -12564,6 +12565,43 @@
         "master": {
           "rankOne": 233.302805185318,
           "max": 233.302805185318
+        }
+      }
+    },
+    {
+      "name": "Garchomp (Mega)",
+      "types": [
+        "dragon",
+        "ground"
+      ],
+      "fastMoveIds": [
+        "DRAGON_TAIL_FAST",
+        "MUD_SHOT_FAST"
+      ],
+      "chargedMoveIds": [
+        "SAND_TOMB",
+        "EARTH_POWER",
+        "OUTRAGE",
+        "EARTHQUAKE",
+        "RETURN",
+        "FIRE_BLAST"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 83.74671987942419,
+          "max": 83.74671987942419
+        },
+        "great": {
+          "rankOne": 144.495004892349,
+          "max": 150.22546545341365
+        },
+        "ultra": {
+          "rankOne": 186.71872329711883,
+          "max": 194.98061370849578
+        },
+        "master": {
+          "rankOne": 299.23620665073395,
+          "max": 299.23620665073395
         }
       }
     },
@@ -27511,6 +27549,7 @@
         "WATER_GUN_FAST"
       ],
       "chargedMoveIds": [
+        "AQUA_TAIL",
         "MUD_BOMB",
         "ACID_SPRAY",
         "SLUDGE_BOMB",

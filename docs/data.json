@@ -1,5 +1,5 @@
 {
-  "timestamp": 1699391363608,
+  "timestamp": 1700177840000,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -761,7 +761,7 @@
       "chargedMoveIds": [
         "BRUTAL_SWING",
         "THUNDER_PUNCH",
-        "392",
+        "TRAILBLAZE",
         "DRAGON_PULSE",
         "POWER_GEM",
         "THUNDER",
@@ -801,7 +801,7 @@
       "chargedMoveIds": [
         "BRUTAL_SWING",
         "THUNDER_PUNCH",
-        "392",
+        "TRAILBLAZE",
         "DRAGON_PULSE",
         "POWER_GEM",
         "THUNDER",
@@ -1084,7 +1084,7 @@
         "PSYCHIC_FANGS",
         "CRUNCH",
         "WILD_CHARGE",
-        "393",
+        "SCORCHING_SANDS",
         "FLAMETHROWER",
         "BULLDOZE",
         "RETURN",
@@ -6279,7 +6279,7 @@
         "MUD_SLAP_FAST"
       ],
       "chargedMoveIds": [
-        "393",
+        "SCORCHING_SANDS",
         "EARTH_POWER",
         "ICE_BEAM",
         "PSYCHIC",
@@ -7651,7 +7651,7 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "DRAGON_CLAW",
-        "392"
+        "TRAILBLAZE"
       ],
       "cmp": {
         "little": {
@@ -8026,7 +8026,7 @@
       "chargedMoveIds": [
         "SEED_BOMB",
         "WILD_CHARGE",
-        "392",
+        "TRAILBLAZE",
         "ENERGY_BALL"
       ],
       "cmp": {
@@ -8575,7 +8575,7 @@
       "chargedMoveIds": [
         "FIRE_PUNCH",
         "DIG",
-        "393",
+        "SCORCHING_SANDS",
         "EARTHQUAKE",
         "HYPER_BEAM"
       ],
@@ -8821,7 +8821,7 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "HEAVY_SLAM",
-        "392",
+        "TRAILBLAZE",
         "PLAY_ROUGH",
         "EARTHQUAKE",
         "RETURN"
@@ -10609,7 +10609,7 @@
       "chargedMoveIds": [
         "FLAME_CHARGE",
         "IRON_HEAD",
-        "393",
+        "SCORCHING_SANDS",
         "FLAMETHROWER",
         "OVERHEAT",
         "RETURN",
@@ -10855,7 +10855,7 @@
         "DRILL_RUN",
         "ROCK_SLIDE",
         "IRON_HEAD",
-        "393",
+        "SCORCHING_SANDS",
         "EARTHQUAKE",
         "RETURN"
       ],
@@ -11476,7 +11476,7 @@
       ],
       "chargedMoveIds": [
         "DISCHARGE",
-        "392",
+        "TRAILBLAZE",
         "THUNDERBOLT",
         "POWER_GEM",
         "RETURN"
@@ -11919,7 +11919,7 @@
       ],
       "chargedMoveIds": [
         "DRAGON_CLAW",
-        "393",
+        "SCORCHING_SANDS",
         "EARTH_POWER",
         "STONE_EDGE",
         "EARTHQUAKE",
@@ -11958,7 +11958,7 @@
       "chargedMoveIds": [
         "LEAF_BLADE",
         "GRASS_KNOT",
-        "392",
+        "TRAILBLAZE",
         "ENERGY_BALL"
       ],
       "cmp": {
@@ -12618,7 +12618,7 @@
         "MAGICAL_LEAF_FAST"
       ],
       "chargedMoveIds": [
-        "391",
+        "TRIPLE_AXEL",
         "SYNCHRONOISE",
         "PSYCHIC",
         "SHADOW_BALL",
@@ -12657,7 +12657,7 @@
         "MAGICAL_LEAF_FAST"
       ],
       "chargedMoveIds": [
-        "391",
+        "TRIPLE_AXEL",
         "SYNCHRONOISE",
         "PSYCHIC",
         "SHADOW_BALL",
@@ -13262,7 +13262,7 @@
       ],
       "chargedMoveIds": [
         "PSYCHIC_FANGS",
-        "392",
+        "TRAILBLAZE",
         "MIRROR_COAT",
         "PSYCHIC",
         "THUNDERBOLT",
@@ -15901,7 +15901,7 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "WEATHER_BALL_ROCK",
-        "393",
+        "SCORCHING_SANDS",
         "EARTH_POWER",
         "STONE_EDGE",
         "EARTHQUAKE",
@@ -16013,7 +16013,7 @@
       ],
       "chargedMoveIds": [
         "CLOSE_COMBAT",
-        "391",
+        "TRIPLE_AXEL",
         "STONE_EDGE",
         "GYRO_BALL",
         "RETURN"
@@ -17915,7 +17915,7 @@
       "chargedMoveIds": [
         "DISARMING_VOICE",
         "SHADOW_SNEAK",
-        "391",
+        "TRIPLE_AXEL",
         "DRAINING_KISS",
         "PSYCHIC",
         "RETURN"
@@ -18018,7 +18018,7 @@
       "chargedMoveIds": [
         "X_SCISSOR",
         "ROCK_SLIDE",
-        "392",
+        "TRAILBLAZE",
         "STONE_EDGE"
       ],
       "cmp": {
@@ -19162,7 +19162,7 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "DIG",
-        "392"
+        "TRAILBLAZE"
       ],
       "cmp": {
         "little": {
@@ -19648,7 +19648,7 @@
       "chargedMoveIds": [
         "X_SCISSOR",
         "DARK_PULSE",
-        "392",
+        "TRAILBLAZE",
         "BUG_BUZZ"
       ],
       "cmp": {
@@ -19716,7 +19716,7 @@
       ],
       "chargedMoveIds": [
         "FIRE_PUNCH",
-        "391",
+        "TRIPLE_AXEL",
         "FOCUS_BLAST",
         "HYPER_BEAM"
       ],
@@ -19752,7 +19752,7 @@
       ],
       "chargedMoveIds": [
         "FIRE_PUNCH",
-        "391",
+        "TRIPLE_AXEL",
         "FOCUS_BLAST",
         "HYPER_BEAM"
       ],
@@ -20068,7 +20068,7 @@
         "LEAF_BLADE",
         "SUPER_POWER",
         "X_SCISSOR",
-        "392",
+        "TRAILBLAZE",
         "LEAF_STORM"
       ],
       "cmp": {
@@ -20206,7 +20206,7 @@
       "chargedMoveIds": [
         "CRUNCH",
         "IRON_HEAD",
-        "392",
+        "TRAILBLAZE",
         "STONE_EDGE"
       ],
       "cmp": {
@@ -20240,7 +20240,7 @@
       "chargedMoveIds": [
         "CRUNCH",
         "DRILL_RUN",
-        "392",
+        "TRAILBLAZE",
         "STONE_EDGE"
       ],
       "cmp": {
@@ -20274,7 +20274,7 @@
       "chargedMoveIds": [
         "PSYCHIC_FANGS",
         "CRUNCH",
-        "392",
+        "TRAILBLAZE",
         "STONE_EDGE"
       ],
       "cmp": {
@@ -20580,7 +20580,7 @@
       ],
       "chargedMoveIds": [
         "FIRE_PUNCH",
-        "393",
+        "SCORCHING_SANDS",
         "FLAMETHROWER",
         "RETURN",
         "FIRE_BLAST"
@@ -20616,7 +20616,7 @@
       "chargedMoveIds": [
         "BRICK_BREAK",
         "FIRE_PUNCH",
-        "393",
+        "SCORCHING_SANDS",
         "PSYCHIC",
         "THUNDERBOLT",
         "RETURN",
@@ -21182,7 +21182,7 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "DISCHARGE",
-        "392",
+        "TRAILBLAZE",
         "THUNDERBOLT",
         "RETURN"
       ],
@@ -21977,7 +21977,7 @@
       "chargedMoveIds": [
         "NIGHT_SLASH",
         "DIG",
-        "392",
+        "TRAILBLAZE",
         "GYRO_BALL",
         "RETURN"
       ],
@@ -23065,7 +23065,7 @@
       ],
       "chargedMoveIds": [
         "ICE_PUNCH",
-        "391",
+        "TRIPLE_AXEL",
         "PSYCHIC",
         "PSYBEAM",
         "RETURN"
@@ -23103,7 +23103,7 @@
       "chargedMoveIds": [
         "ICE_PUNCH",
         "ICY_WIND",
-        "391",
+        "TRIPLE_AXEL",
         "PSYCHIC",
         "PSYBEAM",
         "RETURN"
@@ -24011,7 +24011,7 @@
       "chargedMoveIds": [
         "WEATHER_BALL_FIRE",
         "PSYSHOCK",
-        "393",
+        "SCORCHING_SANDS",
         "FLAMETHROWER",
         "OVERHEAT",
         "RETURN",
@@ -24330,7 +24330,7 @@
       ],
       "chargedMoveIds": [
         "X_SCISSOR",
-        "392",
+        "TRAILBLAZE",
         "BUG_BUZZ"
       ],
       "cmp": {
@@ -24472,7 +24472,7 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "DIG",
-        "392"
+        "TRAILBLAZE"
       ],
       "cmp": {
         "little": {
@@ -24505,7 +24505,7 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "DIG",
-        "392"
+        "TRAILBLAZE"
       ],
       "cmp": {
         "little": {
@@ -25096,7 +25096,7 @@
       ],
       "chargedMoveIds": [
         "SAND_TOMB",
-        "393",
+        "SCORCHING_SANDS",
         "EARTH_POWER",
         "SHADOW_BALL"
       ],
@@ -25643,7 +25643,7 @@
         "CLOSE_COMBAT",
         "FOUL_PLAY",
         "IRON_HEAD",
-        "392",
+        "TRAILBLAZE",
         "PLAY_ROUGH",
         "RETURN"
       ],
@@ -25781,7 +25781,7 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "ROCK_SLIDE",
-        "392",
+        "TRAILBLAZE",
         "BULLDOZE",
         "RETURN"
       ],
@@ -28074,7 +28074,7 @@
       "chargedMoveIds": [
         "DRILL_RUN",
         "FLAME_CHARGE",
-        "393",
+        "SCORCHING_SANDS",
         "RETURN",
         "HEAT_WAVE",
         "FIRE_BLAST"
@@ -29012,7 +29012,7 @@
       ],
       "chargedMoveIds": [
         "CRUNCH",
-        "392",
+        "TRAILBLAZE",
         "STONE_EDGE",
         "ROCK_TOMB"
       ],
@@ -29911,7 +29911,7 @@
       ],
       "chargedMoveIds": [
         "NIGHT_SLASH",
-        "393",
+        "SCORCHING_SANDS",
         "BULLDOZE",
         "ROCK_TOMB",
         "EARTHQUAKE",
@@ -30017,7 +30017,7 @@
       ],
       "chargedMoveIds": [
         "SAND_TOMB",
-        "393",
+        "SCORCHING_SANDS",
         "EARTH_POWER",
         "SHADOW_BALL"
       ],
@@ -30086,7 +30086,7 @@
       ],
       "chargedMoveIds": [
         "WILD_CHARGE",
-        "392",
+        "TRAILBLAZE",
         "MEGAHORN",
         "HYPER_BEAM",
         "SOLAR_BEAM"
@@ -30230,7 +30230,7 @@
         "NIGHT_SLASH",
         "X_SCISSOR",
         "IRON_HEAD",
-        "392",
+        "TRAILBLAZE",
         "RETURN"
       ],
       "cmp": {
@@ -30266,7 +30266,7 @@
         "NIGHT_SLASH",
         "X_SCISSOR",
         "IRON_HEAD",
-        "392",
+        "TRAILBLAZE",
         "RETURN"
       ],
       "cmp": {
@@ -30504,7 +30504,7 @@
         "NIGHT_SLASH",
         "AERIAL_ACE",
         "X_SCISSOR",
-        "392",
+        "TRAILBLAZE",
         "BUG_BUZZ",
         "RETURN"
       ],
@@ -32601,7 +32601,7 @@
       "chargedMoveIds": [
         "CRUNCH",
         "SLUDGE_BOMB",
-        "392",
+        "TRAILBLAZE",
         "FLAMETHROWER",
         "RETURN"
       ],
@@ -32637,7 +32637,7 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "CRUNCH",
-        "392"
+        "TRAILBLAZE"
       ],
       "cmp": {
         "little": {
@@ -33189,7 +33189,7 @@
         "ICE_PUNCH",
         "AVALANCHE",
         "FOUL_PLAY",
-        "391",
+        "TRIPLE_AXEL",
         "RETURN"
       ],
       "cmp": {
@@ -34386,7 +34386,7 @@
         "RAZOR_LEAF_FAST"
       ],
       "chargedMoveIds": [
-        "391",
+        "TRIPLE_AXEL",
         "GRASS_KNOT",
         "DRAINING_KISS",
         "ENERGY_BALL"
@@ -34594,7 +34594,7 @@
       "chargedMoveIds": [
         "CRUNCH",
         "SLUDGE_BOMB",
-        "392",
+        "TRAILBLAZE",
         "FLAMETHROWER",
         "RETURN"
       ],
@@ -34628,7 +34628,7 @@
       ],
       "chargedMoveIds": [
         "ROCK_SLIDE",
-        "392",
+        "TRAILBLAZE",
         "STONE_EDGE",
         "METEOR_BEAM",
         "ROCK_TOMB",
@@ -35601,7 +35601,7 @@
       "chargedMoveIds": [
         "HORN_ATTACK",
         "IRON_HEAD",
-        "392",
+        "TRAILBLAZE",
         "EARTHQUAKE"
       ],
       "cmp": {
@@ -35635,7 +35635,7 @@
       "chargedMoveIds": [
         "CROSS_CHOP",
         "CRUNCH",
-        "392",
+        "TRAILBLAZE",
         "PLAY_ROUGH",
         "RETURN"
       ],
@@ -36834,7 +36834,7 @@
         "SAND_TOMB",
         "CRUNCH",
         "DIG",
-        "393",
+        "SCORCHING_SANDS",
         "RETURN"
       ],
       "cmp": {
@@ -37037,7 +37037,7 @@
       ],
       "chargedMoveIds": [
         "STOMP",
-        "391",
+        "TRIPLE_AXEL",
         "GRASS_KNOT",
         "DRAINING_KISS",
         "ENERGY_BALL"
@@ -37556,7 +37556,7 @@
         "FIRE_PUNCH",
         "ICE_PUNCH",
         "THUNDER_PUNCH",
-        "392",
+        "TRAILBLAZE",
         "HIGH_HORSEPOWER",
         "RETURN"
       ],
@@ -37591,7 +37591,7 @@
       ],
       "chargedMoveIds": [
         "CLOSE_COMBAT",
-        "392",
+        "TRAILBLAZE",
         "PLAY_ROUGH",
         "RETURN",
         "HYPER_BEAM"
@@ -38151,7 +38151,7 @@
       ],
       "chargedMoveIds": [
         "SAND_TOMB",
-        "393",
+        "SCORCHING_SANDS",
         "BUG_BUZZ",
         "BULLDOZE",
         "RETURN"
@@ -38922,7 +38922,7 @@
       "chargedMoveIds": [
         "AVALANCHE",
         "FOUL_PLAY",
-        "391",
+        "TRIPLE_AXEL",
         "RETURN",
         "FOCUS_BLAST"
       ],
@@ -39869,7 +39869,7 @@
         "fairy"
       ],
       "fastMoveIds": [
-        "387",
+        "GEOMANCY_FAST",
         "TACKLE_FAST",
         "ZEN_HEADBUTT_FAST"
       ],
@@ -40146,7 +40146,7 @@
       ],
       "chargedMoveIds": [
         "DARK_PULSE",
-        "389",
+        "OBLIVION_WING",
         "PSYCHIC",
         "HURRICANE",
         "FOCUS_BLAST",
@@ -40874,37 +40874,6 @@
     }
   ],
   "moves": {
-    "387": {
-      "name": "Geomancy",
-      "type": "fairy",
-      "energy": 13,
-      "damage": 4,
-      "turns": 3
-    },
-    "389": {
-      "name": "Oblivion Wing",
-      "type": "flying",
-      "energy": -50,
-      "damage": 85
-    },
-    "391": {
-      "name": "Triple Axel",
-      "type": "ice",
-      "energy": -45,
-      "damage": 60
-    },
-    "392": {
-      "name": "Trailblaze",
-      "type": "grass",
-      "energy": -50,
-      "damage": 65
-    },
-    "393": {
-      "name": "Scorching Sands",
-      "type": "ground",
-      "energy": -50,
-      "damage": 80
-    },
     "ACID_FAST": {
       "name": "Acid",
       "type": "poison",
@@ -41487,6 +41456,13 @@
       "energy": -65,
       "damage": 120
     },
+    "GEOMANCY_FAST": {
+      "name": "Geomancy",
+      "type": "fairy",
+      "energy": 13,
+      "damage": 4,
+      "turns": 3
+    },
     "GIGA_DRAIN": {
       "name": "Giga Drain",
       "type": "grass",
@@ -41876,6 +41852,12 @@
       "energy": -35,
       "damage": 50
     },
+    "OBLIVION_WING": {
+      "name": "Oblivion Wing",
+      "type": "flying",
+      "energy": -50,
+      "damage": 85
+    },
     "OBSTRUCT": {
       "name": "Obstruct",
       "type": "dark",
@@ -42176,6 +42158,12 @@
       "energy": -80,
       "damage": 50
     },
+    "SCORCHING_SANDS": {
+      "name": "Scorching Sands",
+      "type": "ground",
+      "energy": -50,
+      "damage": 80
+    },
     "SCRATCH_FAST": {
       "name": "Scratch",
       "type": "normal",
@@ -42453,6 +42441,12 @@
       "energy": -55,
       "damage": 90
     },
+    "TRAILBLAZE": {
+      "name": "Trailblaze",
+      "type": "grass",
+      "energy": -50,
+      "damage": 65
+    },
     "TRANSFORM_FAST": {
       "name": "Transform",
       "type": "normal",
@@ -42464,6 +42458,12 @@
       "type": "normal",
       "energy": -50,
       "damage": 65
+    },
+    "TRIPLE_AXEL": {
+      "name": "Triple Axel",
+      "type": "ice",
+      "energy": -45,
+      "damage": 60
     },
     "TWISTER": {
       "name": "Twister",
@@ -42620,38 +42620,6 @@
     }
   },
   "counts": {
-    "387": {
-      "CLOSE_COMBAT": [
-        4,
-        3,
-        4,
-        3
-      ],
-      "GIGA_IMPACT": [
-        7,
-        6,
-        6,
-        6
-      ],
-      "MEGAHORN": [
-        5,
-        4,
-        4,
-        4
-      ],
-      "MOONBLAST": [
-        5,
-        5,
-        4,
-        5
-      ],
-      "THUNDER": [
-        5,
-        5,
-        4,
-        5
-      ]
-    },
     "ACID_FAST": {
       "ACID_SPRAY": [
         9,
@@ -42937,12 +42905,6 @@
       ]
     },
     "AIR_SLASH_FAST": {
-      "392": [
-        6,
-        6,
-        5,
-        6
-      ],
       "ACROBATICS": [
         7,
         7,
@@ -43297,6 +43259,12 @@
         6,
         6
       ],
+      "TRAILBLAZE": [
+        6,
+        6,
+        5,
+        6
+      ],
       "X_SCISSOR": [
         5,
         4,
@@ -43305,12 +43273,6 @@
       ]
     },
     "ASTONISH_FAST": {
-      "393": [
-        5,
-        5,
-        5,
-        5
-      ],
       "AERIAL_ACE": [
         4,
         4,
@@ -43641,6 +43603,12 @@
         4,
         4
       ],
+      "SCORCHING_SANDS": [
+        5,
+        5,
+        5,
+        5
+      ],
       "SEED_BOMB": [
         5,
         4,
@@ -43727,18 +43695,6 @@
       ]
     },
     "BITE_FAST": {
-      "392": [
-        25,
-        25,
-        25,
-        25
-      ],
-      "393": [
-        25,
-        25,
-        25,
-        25
-      ],
       "ACID_SPRAY": [
         23,
         22,
@@ -44129,6 +44085,12 @@
         20,
         20
       ],
+      "SCORCHING_SANDS": [
+        25,
+        25,
+        25,
+        25
+      ],
       "SHADOW_BALL": [
         28,
         27,
@@ -44194,6 +44156,12 @@
         27,
         28,
         27
+      ],
+      "TRAILBLAZE": [
+        25,
+        25,
+        25,
+        25
       ],
       "TRI_ATTACK": [
         25,
@@ -44523,12 +44491,6 @@
       ]
     },
     "BUG_BITE_FAST": {
-      "392": [
-        17,
-        17,
-        16,
-        17
-      ],
       "ACID_SPRAY": [
         15,
         15,
@@ -44883,6 +44845,12 @@
         18,
         19
       ],
+      "TRAILBLAZE": [
+        17,
+        17,
+        16,
+        17
+      ],
       "VICE_GRIP": [
         14,
         13,
@@ -44903,12 +44871,6 @@
       ]
     },
     "BULLET_PUNCH_FAST": {
-      "392": [
-        8,
-        7,
-        7,
-        7
-      ],
       "AURA_SPHERE": [
         8,
         8,
@@ -45053,6 +45015,12 @@
         6,
         5
       ],
+      "TRAILBLAZE": [
+        8,
+        7,
+        7,
+        7
+      ],
       "X_SCISSOR": [
         6,
         6,
@@ -45061,12 +45029,6 @@
       ]
     },
     "BULLET_SEED_FAST": {
-      "392": [
-        4,
-        4,
-        4,
-        4
-      ],
       "ACID_SPRAY": [
         4,
         3,
@@ -45355,6 +45317,12 @@
         4,
         5
       ],
+      "TRAILBLAZE": [
+        4,
+        4,
+        4,
+        4
+      ],
       "WATER_PULSE": [
         5,
         5,
@@ -45369,18 +45337,6 @@
       ]
     },
     "CHARGE_BEAM_FAST": {
-      "391": [
-        5,
-        4,
-        4,
-        4
-      ],
-      "392": [
-        5,
-        5,
-        4,
-        5
-      ],
       "ANCIENT_POWER": [
         5,
         4,
@@ -45669,11 +45625,23 @@
         5,
         5
       ],
+      "TRAILBLAZE": [
+        5,
+        5,
+        4,
+        5
+      ],
       "TRI_ATTACK": [
         5,
         5,
         4,
         5
+      ],
+      "TRIPLE_AXEL": [
+        5,
+        4,
+        4,
+        4
       ],
       "VICE_GRIP": [
         4,
@@ -45695,18 +45663,6 @@
       ]
     },
     "CHARM_FAST": {
-      "391": [
-        8,
-        7,
-        8,
-        7
-      ],
-      "392": [
-        9,
-        8,
-        8,
-        9
-      ],
       "ACROBATICS": [
         10,
         10,
@@ -46085,6 +46041,18 @@
         9,
         9
       ],
+      "TRAILBLAZE": [
+        9,
+        8,
+        8,
+        9
+      ],
+      "TRIPLE_AXEL": [
+        8,
+        7,
+        8,
+        7
+      ],
       "WATER_PULSE": [
         10,
         10,
@@ -46105,24 +46073,6 @@
       ]
     },
     "CONFUSION_FAST": {
-      "391": [
-        4,
-        4,
-        4,
-        3
-      ],
-      "392": [
-        5,
-        4,
-        4,
-        4
-      ],
-      "393": [
-        5,
-        4,
-        4,
-        4
-      ],
       "AERIAL_ACE": [
         4,
         3,
@@ -46483,6 +46433,12 @@
         5,
         5
       ],
+      "SCORCHING_SANDS": [
+        5,
+        4,
+        4,
+        4
+      ],
       "SEED_BOMB": [
         4,
         4,
@@ -46567,6 +46523,18 @@
         4,
         5
       ],
+      "TRAILBLAZE": [
+        5,
+        4,
+        4,
+        4
+      ],
+      "TRIPLE_AXEL": [
+        4,
+        4,
+        4,
+        3
+      ],
       "V_CREATE": [
         4,
         3,
@@ -46581,18 +46549,6 @@
       ]
     },
     "COUNTER_FAST": {
-      "391": [
-        7,
-        6,
-        7,
-        6
-      ],
-      "392": [
-        8,
-        7,
-        7,
-        7
-      ],
       "ACID_SPRAY": [
         7,
         6,
@@ -47001,6 +46957,18 @@
         8,
         8
       ],
+      "TRAILBLAZE": [
+        8,
+        7,
+        7,
+        7
+      ],
+      "TRIPLE_AXEL": [
+        7,
+        6,
+        7,
+        6
+      ],
       "WATER_PULSE": [
         9,
         9,
@@ -47077,18 +47045,6 @@
       ]
     },
     "DOUBLE_KICK_FAST": {
-      "391": [
-        4,
-        4,
-        4,
-        3
-      ],
-      "392": [
-        5,
-        4,
-        4,
-        4
-      ],
       "AERIAL_ACE": [
         4,
         3,
@@ -47269,6 +47225,18 @@
         4,
         5
       ],
+      "TRAILBLAZE": [
+        5,
+        4,
+        4,
+        4
+      ],
+      "TRIPLE_AXEL": [
+        4,
+        4,
+        4,
+        3
+      ],
       "WILD_CHARGE": [
         4,
         4,
@@ -47277,12 +47245,6 @@
       ]
     },
     "DRAGON_BREATH_FAST": {
-      "393": [
-        17,
-        17,
-        16,
-        17
-      ],
       "ANCIENT_POWER": [
         15,
         15,
@@ -47523,6 +47485,12 @@
         13,
         14
       ],
+      "SCORCHING_SANDS": [
+        17,
+        17,
+        16,
+        17
+      ],
       "SEED_BOMB": [
         15,
         15,
@@ -47597,18 +47565,6 @@
       ]
     },
     "DRAGON_TAIL_FAST": {
-      "392": [
-        6,
-        6,
-        5,
-        6
-      ],
-      "393": [
-        6,
-        6,
-        5,
-        6
-      ],
       "ACID_SPRAY": [
         5,
         5,
@@ -47939,6 +47895,12 @@
         5,
         4
       ],
+      "SCORCHING_SANDS": [
+        6,
+        6,
+        5,
+        6
+      ],
       "SEED_BOMB": [
         5,
         5,
@@ -48017,6 +47979,12 @@
         6,
         6
       ],
+      "TRAILBLAZE": [
+        6,
+        6,
+        5,
+        6
+      ],
       "TWISTER": [
         5,
         5,
@@ -48031,12 +47999,6 @@
       ]
     },
     "EMBER_FAST": {
-      "393": [
-        9,
-        8,
-        8,
-        9
-      ],
       "AERIAL_ACE": [
         7,
         7,
@@ -48241,6 +48203,12 @@
         10,
         10
       ],
+      "SCORCHING_SANDS": [
+        9,
+        8,
+        8,
+        9
+      ],
       "SHADOW_BALL": [
         10,
         9,
@@ -48291,12 +48259,6 @@
       ]
     },
     "EXTRASENSORY_FAST": {
-      "393": [
-        5,
-        5,
-        5,
-        5
-      ],
       "AERIAL_ACE": [
         4,
         4,
@@ -48476,6 +48438,12 @@
         6,
         7,
         6
+      ],
+      "SCORCHING_SANDS": [
+        5,
+        5,
+        5,
+        5
       ],
       "SEED_BOMB": [
         5,
@@ -48721,24 +48689,6 @@
       ]
     },
     "FEINT_ATTACK_FAST": {
-      "391": [
-        8,
-        7,
-        8,
-        7
-      ],
-      "392": [
-        9,
-        8,
-        8,
-        9
-      ],
-      "393": [
-        9,
-        8,
-        8,
-        9
-      ],
       "ACID_SPRAY": [
         8,
         7,
@@ -49027,6 +48977,12 @@
         11,
         12
       ],
+      "SCORCHING_SANDS": [
+        9,
+        8,
+        8,
+        9
+      ],
       "SHADOW_BALL": [
         10,
         9,
@@ -49069,6 +49025,18 @@
         6,
         7
       ],
+      "TRAILBLAZE": [
+        9,
+        8,
+        8,
+        9
+      ],
+      "TRIPLE_AXEL": [
+        8,
+        7,
+        8,
+        7
+      ],
       "WEATHER_BALL_FIRE": [
         6,
         6,
@@ -49089,12 +49057,6 @@
       ]
     },
     "FIRE_FANG_FAST": {
-      "393": [
-        10,
-        10,
-        10,
-        10
-      ],
       "BLAZE_KICK": [
         8,
         8,
@@ -49275,6 +49237,12 @@
         9,
         9
       ],
+      "SCORCHING_SANDS": [
+        10,
+        10,
+        10,
+        10
+      ],
       "SOLAR_BEAM": [
         16,
         16,
@@ -49307,12 +49275,6 @@
       ]
     },
     "FIRE_SPIN_FAST": {
-      "393": [
-        5,
-        5,
-        5,
-        5
-      ],
       "ANCIENT_POWER": [
         5,
         4,
@@ -49528,6 +49490,12 @@
         7,
         7,
         7
+      ],
+      "SCORCHING_SANDS": [
+        5,
+        5,
+        5,
+        5
       ],
       "SHADOW_BALL": [
         6,
@@ -49797,12 +49765,6 @@
       ]
     },
     "FURY_CUTTER_FAST": {
-      "392": [
-        13,
-        12,
-        13,
-        12
-      ],
       "AERIAL_ACE": [
         10,
         10,
@@ -50151,6 +50113,12 @@
         14,
         13
       ],
+      "TRAILBLAZE": [
+        13,
+        12,
+        13,
+        12
+      ],
       "VICE_GRIP": [
         10,
         10,
@@ -50176,13 +50144,39 @@
         20
       ]
     },
-    "GUST_FAST": {
-      "389": [
+    "GEOMANCY_FAST": {
+      "CLOSE_COMBAT": [
+        4,
+        3,
+        4,
+        3
+      ],
+      "GIGA_IMPACT": [
+        7,
+        6,
+        6,
+        6
+      ],
+      "MEGAHORN": [
         5,
         4,
         4,
         4
       ],
+      "MOONBLAST": [
+        5,
+        5,
+        4,
+        5
+      ],
+      "THUNDER": [
+        5,
+        5,
+        4,
+        5
+      ]
+    },
+    "GUST_FAST": {
       "AERIAL_ACE": [
         4,
         3,
@@ -50254,6 +50248,12 @@
         7,
         6,
         7
+      ],
+      "OBLIVION_WING": [
+        5,
+        4,
+        4,
+        4
       ],
       "PSYCHIC": [
         5,
@@ -50801,12 +50801,6 @@
       ]
     },
     "ICE_FANG_FAST": {
-      "393": [
-        10,
-        10,
-        10,
-        10
-      ],
       "AQUA_TAIL": [
         7,
         7,
@@ -50963,6 +50957,12 @@
         14,
         14
       ],
+      "SCORCHING_SANDS": [
+        10,
+        10,
+        10,
+        10
+      ],
       "SLUDGE_BOMB": [
         10,
         10,
@@ -51007,12 +51007,6 @@
       ]
     },
     "ICE_SHARD_FAST": {
-      "391": [
-        5,
-        4,
-        5,
-        4
-      ],
       "ANCIENT_POWER": [
         5,
         4,
@@ -51223,6 +51217,12 @@
         4,
         4
       ],
+      "TRIPLE_AXEL": [
+        5,
+        4,
+        5,
+        4
+      ],
       "WATER_PULSE": [
         6,
         6,
@@ -51231,12 +51231,6 @@
       ]
     },
     "INCINERATE_FAST": {
-      "393": [
-        3,
-        2,
-        3,
-        2
-      ],
       "BLAST_BURN": [
         3,
         2,
@@ -51410,6 +51404,12 @@
         3,
         3,
         3
+      ],
+      "SCORCHING_SANDS": [
+        3,
+        2,
+        3,
+        2
       ],
       "SHADOW_BALL": [
         3,
@@ -52077,12 +52077,6 @@
       ]
     },
     "KARATE_CHOP_FAST": {
-      "393": [
-        7,
-        6,
-        6,
-        6
-      ],
       "BRICK_BREAK": [
         5,
         4,
@@ -52179,6 +52173,12 @@
         5,
         6
       ],
+      "SCORCHING_SANDS": [
+        7,
+        6,
+        6,
+        6
+      ],
       "STONE_EDGE": [
         7,
         7,
@@ -52199,12 +52199,6 @@
       ]
     },
     "LEAFAGE_FAST": {
-      "392": [
-        8,
-        7,
-        7,
-        7
-      ],
       "BLIZZARD": [
         11,
         11,
@@ -52307,6 +52301,12 @@
         6,
         5
       ],
+      "TRAILBLAZE": [
+        8,
+        7,
+        7,
+        7
+      ],
       "WEATHER_BALL_ICE": [
         5,
         5,
@@ -52321,12 +52321,6 @@
       ]
     },
     "LICK_FAST": {
-      "392": [
-        17,
-        17,
-        16,
-        17
-      ],
       "ACID_SPRAY": [
         15,
         15,
@@ -52603,6 +52597,12 @@
         18,
         19
       ],
+      "TRAILBLAZE": [
+        17,
+        17,
+        16,
+        17
+      ],
       "WILD_CHARGE": [
         15,
         15,
@@ -52709,18 +52709,6 @@
       ]
     },
     "LOW_KICK_FAST": {
-      "391": [
-        9,
-        9,
-        9,
-        9
-      ],
-      "393": [
-        10,
-        10,
-        10,
-        10
-      ],
       "AERIAL_ACE": [
         8,
         8,
@@ -53015,6 +53003,12 @@
         7,
         7
       ],
+      "SCORCHING_SANDS": [
+        10,
+        10,
+        10,
+        10
+      ],
       "SOLAR_BEAM": [
         16,
         16,
@@ -53075,6 +53069,12 @@
         11,
         11
       ],
+      "TRIPLE_AXEL": [
+        9,
+        9,
+        9,
+        9
+      ],
       "WILD_CHARGE": [
         9,
         9,
@@ -53089,12 +53089,6 @@
       ]
     },
     "MAGICAL_LEAF_FAST": {
-      "391": [
-        5,
-        4,
-        5,
-        4
-      ],
       "ANCIENT_POWER": [
         5,
         4,
@@ -53251,6 +53245,12 @@
         5,
         5
       ],
+      "TRIPLE_AXEL": [
+        5,
+        4,
+        5,
+        4
+      ],
       "WEATHER_BALL_FIRE": [
         4,
         3,
@@ -53259,18 +53259,6 @@
       ]
     },
     "METAL_CLAW_FAST": {
-      "392": [
-        9,
-        8,
-        8,
-        9
-      ],
-      "393": [
-        9,
-        8,
-        8,
-        9
-      ],
       "ACID_SPRAY": [
         8,
         7,
@@ -53559,6 +53547,12 @@
         6,
         6
       ],
+      "SCORCHING_SANDS": [
+        9,
+        8,
+        8,
+        9
+      ],
       "SHADOW_BALL": [
         10,
         9,
@@ -53607,6 +53601,12 @@
         10,
         10
       ],
+      "TRAILBLAZE": [
+        9,
+        8,
+        8,
+        9
+      ],
       "VICE_GRIP": [
         7,
         7,
@@ -53639,12 +53639,6 @@
       ]
     },
     "MUD_SHOT_FAST": {
-      "393": [
-        6,
-        6,
-        5,
-        6
-      ],
       "ACID_SPRAY": [
         5,
         5,
@@ -53957,6 +53951,12 @@
         5,
         6
       ],
+      "SCORCHING_SANDS": [
+        6,
+        6,
+        5,
+        6
+      ],
       "SEED_BOMB": [
         5,
         5,
@@ -54073,18 +54073,6 @@
       ]
     },
     "MUD_SLAP_FAST": {
-      "392": [
-        7,
-        6,
-        6,
-        6
-      ],
-      "393": [
-        7,
-        6,
-        6,
-        6
-      ],
       "ACID_SPRAY": [
         6,
         6,
@@ -54331,6 +54319,12 @@
         6,
         6
       ],
+      "SCORCHING_SANDS": [
+        7,
+        6,
+        6,
+        6
+      ],
       "SEED_BOMB": [
         6,
         6,
@@ -54402,6 +54396,12 @@
         7,
         7,
         7
+      ],
+      "TRAILBLAZE": [
+        7,
+        6,
+        6,
+        6
       ],
       "WATER_PULSE": [
         8,
@@ -54725,12 +54725,6 @@
       ]
     },
     "POISON_JAB_FAST": {
-      "392": [
-        8,
-        7,
-        7,
-        7
-      ],
       "ACID_SPRAY": [
         7,
         6,
@@ -55169,6 +55163,12 @@
         8,
         8
       ],
+      "TRAILBLAZE": [
+        8,
+        7,
+        7,
+        7
+      ],
       "WATER_PULSE": [
         9,
         9,
@@ -55437,12 +55437,6 @@
       ]
     },
     "POUND_FAST": {
-      "391": [
-        12,
-        11,
-        11,
-        11
-      ],
       "AERIAL_ACE": [
         10,
         10,
@@ -55718,6 +55712,12 @@
         14,
         14,
         13
+      ],
+      "TRIPLE_AXEL": [
+        12,
+        11,
+        11,
+        11
       ],
       "WATER_PULSE": [
         15,
@@ -56261,18 +56261,6 @@
       ]
     },
     "QUICK_ATTACK_FAST": {
-      "392": [
-        7,
-        6,
-        6,
-        6
-      ],
-      "393": [
-        7,
-        6,
-        6,
-        6
-      ],
       "ACROBATICS": [
         8,
         7,
@@ -56603,6 +56591,12 @@
         5,
         4
       ],
+      "SCORCHING_SANDS": [
+        7,
+        6,
+        6,
+        6
+      ],
       "SHADOW_BALL": [
         7,
         7,
@@ -56681,6 +56675,12 @@
         7,
         7
       ],
+      "TRAILBLAZE": [
+        7,
+        6,
+        6,
+        6
+      ],
       "TWISTER": [
         6,
         6,
@@ -56725,18 +56725,6 @@
       ]
     },
     "RAZOR_LEAF_FAST": {
-      "391": [
-        12,
-        11,
-        11,
-        11
-      ],
-      "392": [
-        13,
-        12,
-        13,
-        12
-      ],
       "ACID_SPRAY": [
         12,
         11,
@@ -56995,6 +56983,18 @@
         10,
         10
       ],
+      "TRAILBLAZE": [
+        13,
+        12,
+        13,
+        12
+      ],
+      "TRIPLE_AXEL": [
+        12,
+        11,
+        11,
+        11
+      ],
       "WEATHER_BALL_FIRE": [
         9,
         9,
@@ -57015,18 +57015,6 @@
       ]
     },
     "ROCK_SMASH_FAST": {
-      "391": [
-        7,
-        6,
-        7,
-        6
-      ],
-      "392": [
-        8,
-        7,
-        7,
-        7
-      ],
       "ACID_SPRAY": [
         7,
         6,
@@ -57465,6 +57453,18 @@
         8,
         8
       ],
+      "TRAILBLAZE": [
+        8,
+        7,
+        7,
+        7
+      ],
+      "TRIPLE_AXEL": [
+        7,
+        6,
+        7,
+        6
+      ],
       "VICE_GRIP": [
         6,
         6,
@@ -57497,12 +57497,6 @@
       ]
     },
     "ROCK_THROW_FAST": {
-      "392": [
-        10,
-        10,
-        10,
-        10
-      ],
       "AERIAL_ACE": [
         8,
         8,
@@ -57761,6 +57755,12 @@
         11,
         11
       ],
+      "TRAILBLAZE": [
+        10,
+        10,
+        10,
+        10
+      ],
       "WEATHER_BALL_ICE": [
         7,
         7,
@@ -57891,12 +57891,6 @@
       ]
     },
     "SCRATCH_FAST": {
-      "392": [
-        25,
-        25,
-        25,
-        25
-      ],
       "AERIAL_ACE": [
         20,
         20,
@@ -58197,6 +58191,12 @@
         28,
         27
       ],
+      "TRAILBLAZE": [
+        25,
+        25,
+        25,
+        25
+      ],
       "WATER_PULSE": [
         30,
         30,
@@ -58211,12 +58211,6 @@
       ]
     },
     "SHADOW_CLAW_FAST": {
-      "392": [
-        7,
-        6,
-        6,
-        6
-      ],
       "AERIAL_ACE": [
         5,
         5,
@@ -58577,6 +58571,12 @@
         7,
         7
       ],
+      "TRAILBLAZE": [
+        7,
+        6,
+        6,
+        6
+      ],
       "WILD_CHARGE": [
         6,
         6,
@@ -58827,24 +58827,6 @@
       ]
     },
     "SNARL_FAST": {
-      "389": [
-        4,
-        4,
-        4,
-        4
-      ],
-      "391": [
-        4,
-        3,
-        4,
-        3
-      ],
-      "393": [
-        4,
-        4,
-        4,
-        4
-      ],
       "ACID_SPRAY": [
         4,
         3,
@@ -59103,6 +59085,12 @@
         3,
         2
       ],
+      "OBLIVION_WING": [
+        4,
+        4,
+        4,
+        4
+      ],
       "OUTRAGE": [
         5,
         5,
@@ -59175,6 +59163,12 @@
         4,
         3
       ],
+      "SCORCHING_SANDS": [
+        4,
+        4,
+        4,
+        4
+      ],
       "SHADOW_BALL": [
         5,
         4,
@@ -59228,6 +59222,12 @@
         4,
         4,
         4
+      ],
+      "TRIPLE_AXEL": [
+        4,
+        3,
+        4,
+        3
       ],
       "VICE_GRIP": [
         4,
@@ -59565,12 +59565,6 @@
       ]
     },
     "STEEL_WING_FAST": {
-      "392": [
-        10,
-        10,
-        10,
-        10
-      ],
       "AERIAL_ACE": [
         8,
         8,
@@ -59787,6 +59781,12 @@
         8,
         8
       ],
+      "TRAILBLAZE": [
+        10,
+        10,
+        10,
+        10
+      ],
       "TWISTER": [
         9,
         9,
@@ -59801,18 +59801,6 @@
       ]
     },
     "STRUGGLE_BUG_FAST": {
-      "392": [
-        7,
-        6,
-        6,
-        6
-      ],
-      "393": [
-        7,
-        6,
-        6,
-        6
-      ],
       "AERIAL_ACE": [
         5,
         5,
@@ -59975,6 +59963,12 @@
         5,
         5
       ],
+      "SCORCHING_SANDS": [
+        7,
+        6,
+        6,
+        6
+      ],
       "SEED_BOMB": [
         6,
         6,
@@ -60029,6 +60023,12 @@
         7,
         7
       ],
+      "TRAILBLAZE": [
+        7,
+        6,
+        6,
+        6
+      ],
       "WATER_PULSE": [
         8,
         7,
@@ -60043,18 +60043,6 @@
       ]
     },
     "SUCKER_PUNCH_FAST": {
-      "389": [
-        8,
-        7,
-        7,
-        7
-      ],
-      "392": [
-        8,
-        7,
-        7,
-        7
-      ],
       "AERIAL_ACE": [
         6,
         6,
@@ -60223,6 +60211,12 @@
         5,
         5
       ],
+      "OBLIVION_WING": [
+        8,
+        7,
+        7,
+        7
+      ],
       "OMINOUS_WIND": [
         7,
         6,
@@ -60325,6 +60319,12 @@
         8,
         8
       ],
+      "TRAILBLAZE": [
+        8,
+        7,
+        7,
+        7
+      ],
       "X_SCISSOR": [
         6,
         6,
@@ -60333,12 +60333,6 @@
       ]
     },
     "TACKLE_FAST": {
-      "392": [
-        17,
-        17,
-        16,
-        17
-      ],
       "AERIAL_ACE": [
         14,
         13,
@@ -60903,6 +60897,12 @@
         18,
         19
       ],
+      "TRAILBLAZE": [
+        17,
+        17,
+        16,
+        17
+      ],
       "TRI_ATTACK": [
         17,
         17,
@@ -60977,12 +60977,6 @@
       ]
     },
     "TAKE_DOWN_FAST": {
-      "392": [
-        7,
-        6,
-        6,
-        6
-      ],
       "ACID_SPRAY": [
         6,
         6,
@@ -61271,6 +61265,12 @@
         7,
         7
       ],
+      "TRAILBLAZE": [
+        7,
+        6,
+        6,
+        6
+      ],
       "TRI_ATTACK": [
         7,
         6,
@@ -61297,12 +61297,6 @@
       ]
     },
     "THUNDER_FANG_FAST": {
-      "393": [
-        10,
-        10,
-        10,
-        10
-      ],
       "BODY_SLAM": [
         7,
         7,
@@ -61393,6 +61387,12 @@
         14,
         14
       ],
+      "SCORCHING_SANDS": [
+        10,
+        10,
+        10,
+        10
+      ],
       "STONE_EDGE": [
         11,
         11,
@@ -61419,12 +61419,6 @@
       ]
     },
     "THUNDER_SHOCK_FAST": {
-      "392": [
-        6,
-        6,
-        5,
-        6
-      ],
       "ACROBATICS": [
         7,
         7,
@@ -61731,6 +61725,12 @@
         6,
         6
       ],
+      "TRAILBLAZE": [
+        6,
+        6,
+        5,
+        6
+      ],
       "VICE_GRIP": [
         5,
         4,
@@ -61915,12 +61915,6 @@
       ]
     },
     "VOLT_SWITCH_FAST": {
-      "392": [
-        4,
-        3,
-        3,
-        3
-      ],
       "ANCIENT_POWER": [
         3,
         3,
@@ -62201,6 +62195,12 @@
         4,
         3,
         4,
+        3
+      ],
+      "TRAILBLAZE": [
+        4,
+        3,
+        3,
         3
       ],
       "VICE_GRIP": [
@@ -63427,18 +63427,6 @@
       ]
     },
     "ZEN_HEADBUTT_FAST": {
-      "391": [
-        8,
-        7,
-        8,
-        7
-      ],
-      "392": [
-        9,
-        8,
-        8,
-        9
-      ],
       "AERIAL_ACE": [
         7,
         7,
@@ -63906,6 +63894,18 @@
         9,
         9,
         9
+      ],
+      "TRAILBLAZE": [
+        9,
+        8,
+        8,
+        9
+      ],
+      "TRIPLE_AXEL": [
+        8,
+        7,
+        8,
+        7
       ],
       "WATER_PULSE": [
         10,

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1700177840000,
+  "timestamp": 1701212008215,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -7977,6 +7977,41 @@
         "master": {
           "rankOne": 190.1925042271614,
           "max": 190.1925042271614
+        }
+      }
+    },
+    {
+      "name": "Decidueye (Hisuian)",
+      "types": [
+        "grass",
+        "fighting"
+      ],
+      "fastMoveIds": [
+        "MAGICAL_LEAF_FAST",
+        "PSYCHO_CUT_FAST"
+      ],
+      "chargedMoveIds": [
+        "AERIAL_ACE",
+        "TRAILBLAZE",
+        "AURA_SPHERE",
+        "ENERGY_BALL"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 73.46246207262186,
+          "max": 76.48146736327756
+        },
+        "great": {
+          "rankOne": 125.64612525115894,
+          "max": 134.49444393081802
+        },
+        "ultra": {
+          "rankOne": 162.21309739351256,
+          "max": 173.636554956436
+        },
+        "master": {
+          "rankOne": 192.72840428352356,
+          "max": 192.72840428352356
         }
       }
     },
@@ -26224,6 +26259,39 @@
       }
     },
     {
+      "name": "Pikachu (Jeju)",
+      "types": [
+        "electric"
+      ],
+      "fastMoveIds": [
+        "QUICK_ATTACK_FAST",
+        "THUNDER_SHOCK_FAST"
+      ],
+      "chargedMoveIds": [
+        "DISCHARGE",
+        "WILD_CHARGE",
+        "THUNDERBOLT"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 69.1737732291221,
+          "max": 78.0449179313223
+        },
+        "great": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        },
+        "ultra": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        },
+        "master": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        }
+      }
+    },
+    {
       "name": "Pikachu (Libre)",
       "types": [
         "electric"
@@ -29760,6 +29828,43 @@
         "master": {
           "rankOne": 191.88310426473618,
           "max": 191.88310426473618
+        }
+      }
+    },
+    {
+      "name": "Samurott (Hisuian)",
+      "types": [
+        "water",
+        "dark"
+      ],
+      "fastMoveIds": [
+        "FURY_CUTTER_FAST",
+        "SNARL_FAST",
+        "WATERFALL_FAST"
+      ],
+      "chargedMoveIds": [
+        "RAZOR_SHELL",
+        "HYDRO_CANNON",
+        "X_SCISSOR",
+        "ICY_WIND",
+        "DARK_PULSE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 76.12836343049995,
+          "max": 80.66812822222701
+        },
+        "great": {
+          "rankOne": 130.2332020998,
+          "max": 139.71426488297885
+        },
+        "ultra": {
+          "rankOne": 168.5546580553053,
+          "max": 180.823132404582
+        },
+        "master": {
+          "rankOne": 196.95490437746048,
+          "max": 196.95490437746048
         }
       }
     },
@@ -37265,6 +37370,43 @@
       }
     },
     {
+      "name": "Typhlosion (Hisuian)",
+      "types": [
+        "fire",
+        "ghost"
+      ],
+      "fastMoveIds": [
+        "EMBER_FAST",
+        "HEX_FAST"
+      ],
+      "chargedMoveIds": [
+        "FIRE_PUNCH",
+        "WILD_CHARGE",
+        "BLAST_BURN",
+        "OVERHEAT",
+        "SHADOW_BALL",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 79.83591768622833,
+          "max": 84.86759317065447
+        },
+        "great": {
+          "rankOne": 138.58237993717174,
+          "max": 147.31656354665736
+        },
+        "ultra": {
+          "rankOne": 177.76567482948292,
+          "max": 189.68954437971104
+        },
+        "master": {
+          "rankOne": 213.86090475320816,
+          "max": 213.86090475320816
+        }
+      }
+    },
+    {
       "name": "Tyranitar",
       "types": [
         "rock",
@@ -40992,6 +41134,12 @@
       "energy": -40,
       "damage": 55
     },
+    "BLEAKWIND_STORM": {
+      "name": "Bleakwind Storm",
+      "type": "flying",
+      "energy": -45,
+      "damage": 60
+    },
     "BLIZZARD": {
       "name": "Blizzard",
       "type": "ice",
@@ -42071,6 +42219,12 @@
       "energy": -70,
       "damage": 130
     },
+    "ROAR_OF_TIME": {
+      "name": "Roar Of Time",
+      "type": "dragon",
+      "energy": -65,
+      "damage": 150
+    },
     "ROCK_BLAST": {
       "name": "Rock Blast",
       "type": "rock",
@@ -42145,6 +42299,12 @@
       "type": "ground",
       "energy": -40,
       "damage": 25
+    },
+    "SANDSEAR_STORM": {
+      "name": "Sandsear Storm",
+      "type": "ground",
+      "energy": -45,
+      "damage": 60
     },
     "SCALD": {
       "name": "Scald",
@@ -42282,12 +42442,24 @@
       "energy": -80,
       "damage": 150
     },
+    "SPACIAL_REND": {
+      "name": "Spacial Rend",
+      "type": "dragon",
+      "energy": -50,
+      "damage": 95
+    },
     "SPARK_FAST": {
       "name": "Spark",
       "type": "electric",
       "energy": 7,
       "damage": 6,
       "turns": 2
+    },
+    "SPIRIT_SHACKLE": {
+      "name": "Spirit Shackle",
+      "type": "ghost",
+      "energy": -40,
+      "damage": 50
     },
     "SPLASH_FAST": {
       "name": "Splash",
@@ -42566,6 +42738,12 @@
       "type": "electric",
       "energy": -45,
       "damage": 100
+    },
+    "WILDBOLT_STORM": {
+      "name": "Wildbolt Storm",
+      "type": "electric",
+      "energy": -45,
+      "damage": 60
     },
     "WING_ATTACK_FAST": {
       "name": "Wing Attack",
@@ -48256,6 +48434,12 @@
         6,
         6,
         6
+      ],
+      "WILD_CHARGE": [
+        8,
+        7,
+        8,
+        7
       ]
     },
     "EXTRASENSORY_FAST": {
@@ -49843,6 +50027,12 @@
         9,
         8
       ],
+      "DARK_PULSE": [
+        13,
+        12,
+        13,
+        12
+      ],
       "DIG": [
         13,
         12,
@@ -49950,6 +50140,12 @@
         14,
         14,
         13
+      ],
+      "ICY_WIND": [
+        12,
+        11,
+        11,
+        11
       ],
       "IRON_HEAD": [
         13,
@@ -50275,6 +50471,12 @@
         4,
         3
       ],
+      "BLAST_BURN": [
+        5,
+        4,
+        4,
+        4
+      ],
       "BONE_CLUB": [
         3,
         3,
@@ -50513,6 +50715,12 @@
         3,
         3,
         3,
+        3
+      ],
+      "WILD_CHARGE": [
+        4,
+        4,
+        4,
         3
       ]
     },
@@ -53089,11 +53297,23 @@
       ]
     },
     "MAGICAL_LEAF_FAST": {
+      "AERIAL_ACE": [
+        4,
+        4,
+        4,
+        4
+      ],
       "ANCIENT_POWER": [
         5,
         4,
         5,
         4
+      ],
+      "AURA_SPHERE": [
+        6,
+        5,
+        6,
+        5
       ],
       "BODY_SLAM": [
         4,
@@ -53240,6 +53460,12 @@
         4
       ],
       "SYNCHRONOISE": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "TRAILBLAZE": [
         5,
         5,
         5,
@@ -56031,11 +56257,23 @@
       ]
     },
     "PSYCHO_CUT_FAST": {
+      "AERIAL_ACE": [
+        5,
+        4,
+        5,
+        4
+      ],
       "ANCIENT_POWER": [
         5,
         5,
         5,
         5
+      ],
+      "AURA_SPHERE": [
+        7,
+        6,
+        6,
+        6
       ],
       "AURORA_BEAM": [
         7,
@@ -56077,6 +56315,12 @@
         6,
         6,
         5,
+        6
+      ],
+      "ENERGY_BALL": [
+        7,
+        6,
+        6,
         6
       ],
       "FIRE_PUNCH": [
@@ -56257,6 +56501,12 @@
         7,
         6,
         6,
+        6
+      ],
+      "TRAILBLAZE": [
+        6,
+        6,
+        5,
         6
       ]
     },
@@ -59019,6 +59269,12 @@
         5,
         5
       ],
+      "HYDRO_CANNON": [
+        4,
+        3,
+        3,
+        3
+      ],
       "HYDRO_PUMP": [
         6,
         6,
@@ -59036,6 +59292,12 @@
         4,
         4,
         4
+      ],
+      "ICY_WIND": [
+        4,
+        3,
+        4,
+        3
       ],
       "IRON_HEAD": [
         4,
@@ -62861,6 +63123,12 @@
         6,
         6,
         5,
+        6
+      ],
+      "DARK_PULSE": [
+        7,
+        6,
+        6,
         6
       ],
       "DISARMING_VOICE": [

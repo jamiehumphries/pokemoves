@@ -1,5 +1,5 @@
 {
-  "timestamp": 1701212008215,
+  "timestamp": 1701298616250,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -29844,7 +29844,6 @@
       ],
       "chargedMoveIds": [
         "RAZOR_SHELL",
-        "HYDRO_CANNON",
         "X_SCISSOR",
         "ICY_WIND",
         "DARK_PULSE"
@@ -37382,7 +37381,6 @@
       "chargedMoveIds": [
         "FIRE_PUNCH",
         "WILD_CHARGE",
-        "BLAST_BURN",
         "OVERHEAT",
         "SHADOW_BALL",
         "RETURN"
@@ -50471,12 +50469,6 @@
         4,
         3
       ],
-      "BLAST_BURN": [
-        5,
-        4,
-        4,
-        4
-      ],
       "BONE_CLUB": [
         3,
         3,
@@ -59268,12 +59260,6 @@
         5,
         5,
         5
-      ],
-      "HYDRO_CANNON": [
-        4,
-        3,
-        3,
-        3
       ],
       "HYDRO_PUMP": [
         6,

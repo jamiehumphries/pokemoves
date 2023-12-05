@@ -26292,39 +26292,6 @@
       }
     },
     {
-      "name": "Pikachu (Jeju)",
-      "types": [
-        "electric"
-      ],
-      "fastMoveIds": [
-        "QUICK_ATTACK_FAST",
-        "THUNDER_SHOCK_FAST"
-      ],
-      "chargedMoveIds": [
-        "DISCHARGE",
-        "WILD_CHARGE",
-        "THUNDERBOLT"
-      ],
-      "cmp": {
-        "little": {
-          "rankOne": 69.1737732291221,
-          "max": 78.0449179313223
-        },
-        "great": {
-          "rankOne": 107.35310238599777,
-          "max": 107.35310238599777
-        },
-        "ultra": {
-          "rankOne": 107.35310238599777,
-          "max": 107.35310238599777
-        },
-        "master": {
-          "rankOne": 107.35310238599777,
-          "max": 107.35310238599777
-        }
-      }
-    },
-    {
       "name": "Pikachu (Libre)",
       "types": [
         "electric"

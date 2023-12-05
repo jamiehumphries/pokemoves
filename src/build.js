@@ -123,17 +123,20 @@ function buildMoveEntry(template) {
 }
 
 function deduplicate(pokemon) {
-  return pokemon.filter((pkm, i, arr) => {
+  return pokemon.filter((p, i, arr) => {
+    if (movesetChanges.some((c) => c.pokemonName === p.name)) {
+      return true;
+    }
     return (
       arr.findIndex(({ id, types, fastMoveIds, chargedMoveIds, stats }) => {
         return (
-          id === pkm.id &&
-          setEq(types, pkm.types) &&
-          setEq(fastMoveIds, pkm.fastMoveIds) &&
-          setEq(chargedMoveIds, pkm.chargedMoveIds) &&
-          stats.baseStamina === pkm.stats.baseStamina &&
-          stats.baseAttack === pkm.stats.baseAttack &&
-          stats.baseDefense === pkm.stats.baseDefense
+          id === p.id &&
+          setEq(types, p.types) &&
+          setEq(fastMoveIds, p.fastMoveIds) &&
+          setEq(chargedMoveIds, p.chargedMoveIds) &&
+          stats.baseStamina === p.stats.baseStamina &&
+          stats.baseAttack === p.stats.baseAttack &&
+          stats.baseDefense === p.stats.baseDefense
         );
       }) === i
     );

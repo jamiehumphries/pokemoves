@@ -26292,6 +26292,43 @@
       }
     },
     {
+      "name": "Pikachu (GO Fest 2022)",
+      "types": [
+        "electric"
+      ],
+      "fastMoveIds": [
+        "PRESENT_FAST",
+        "QUICK_ATTACK_FAST",
+        "THUNDER_SHOCK_FAST"
+      ],
+      "chargedMoveIds": [
+        "SURF",
+        "DISCHARGE",
+        "WILD_CHARGE",
+        "GRASS_KNOT",
+        "THUNDERBOLT",
+        "THUNDER"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 69.1737732291221,
+          "max": 78.0449179313223
+        },
+        "great": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        },
+        "ultra": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        },
+        "master": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        }
+      }
+    },
+    {
       "name": "Pikachu (Libre)",
       "types": [
         "electric"
@@ -56373,6 +56410,12 @@
         4,
         4,
         3
+      ],
+      "GRASS_KNOT": [
+        5,
+        4,
+        4,
+        4
       ],
       "ICE_PUNCH": [
         4,

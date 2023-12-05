@@ -81,6 +81,12 @@ module.exports = {
       },
     },
     {
+      pokemonName: "Pikachu (GO Fest 2022)",
+      chargedMoveIds: {
+        add: ["GRASS_KNOT"],
+      },
+    },
+    {
       pokemonName: "Porygon",
       fastMoveIds: {
         add: ["QUICK_ATTACK_FAST"],

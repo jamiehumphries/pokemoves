@@ -1,5 +1,5 @@
 {
-  "timestamp": 1701468579997,
+  "timestamp": 1703482309669,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -24396,7 +24396,6 @@
       "chargedMoveIds": [
         "X_SCISSOR",
         "TRAILBLAZE",
-        "TRAILBLAZE",
         "BUG_BUZZ"
       ],
       "cmp": {
@@ -40031,6 +40030,42 @@
       }
     },
     {
+      "name": "Wyrdeer",
+      "types": [
+        "normal",
+        "psychic"
+      ],
+      "fastMoveIds": [
+        "CONFUSION_FAST",
+        "TACKLE_FAST",
+        "ZEN_HEADBUTT_FAST"
+      ],
+      "chargedMoveIds": [
+        "STOMP",
+        "WILD_CHARGE",
+        "MEGAHORN",
+        "PSYCHIC"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 72.28702399134627,
+          "max": 77.17600145936004
+        },
+        "great": {
+          "rankOne": 125.19849710292911,
+          "max": 134.06244546174995
+        },
+        "ultra": {
+          "rankOne": 161.6352167129515,
+          "max": 173.40477132797224
+        },
+        "master": {
+          "rankOne": 186.81130415201187,
+          "max": 186.81130415201187
+        }
+      }
+    },
+    {
       "name": "Xatu",
       "types": [
         "psychic",
@@ -46593,6 +46628,12 @@
         4,
         3
       ],
+      "MEGAHORN": [
+        5,
+        5,
+        4,
+        5
+      ],
       "MIRROR_COAT": [
         5,
         5,
@@ -46737,6 +46778,12 @@
         6,
         7
       ],
+      "STOMP": [
+        4,
+        3,
+        3,
+        4
+      ],
       "SURF": [
         4,
         3,
@@ -46796,6 +46843,12 @@
         5,
         5,
         5
+      ],
+      "WILD_CHARGE": [
+        4,
+        4,
+        4,
+        3
       ]
     },
     "COUNTER_FAST": {

@@ -1,0 +1,288 @@
+diff --git a/docs/data.json b/docs/data.json
+index 672443b..beaef1b 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -1,22 +1,22 @@
+ {
+-  "timestamp": 1701468579997,
++  "timestamp": 1703482309669,
+   "pokemon": [
+     {
+       "name": "Abomasnow",
+       "types": [
+         "grass",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "LEAFAGE_FAST",
+         "POWDER_SNOW_FAST",
+         "RAZOR_LEAF_FAST"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_ICE",
+         "ICY_WIND",
+         "ENERGY_BALL",
+         "OUTRAGE",
+         "RETURN",
+         "BLIZZARD"
+       ],
+@@ -24379,41 +24379,40 @@
+           "max": 125.94970279932022
+         },
+         "master": {
+           "rankOne": 125.94970279932022,
+           "max": 125.94970279932022
+         }
+       }
+     },
+     {
+       "name": "Nymble",
+       "types": [
+         "bug"
+       ],
+       "fastMoveIds": [
+         "BUG_BITE_FAST",
+         "STRUGGLE_BUG_FAST"
+       ],
+       "chargedMoveIds": [
+         "X_SCISSOR",
+         "TRAILBLAZE",
+-        "TRAILBLAZE",
+         "BUG_BUZZ"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 64.41930055618285,
+           "max": 75.8688011169433
+         },
+         "great": {
+           "rankOne": 81.14880180358887,
+           "max": 81.14880180358887
+         },
+         "ultra": {
+           "rankOne": 81.14880180358887,
+           "max": 81.14880180358887
+         },
+         "master": {
+           "rankOne": 81.14880180358887,
+           "max": 81.14880180358887
+         }
+       }
+@@ -40013,40 +40012,76 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 38.883800864219666,
+           "max": 45.237016353800485
+         },
+         "great": {
+           "rankOne": 47.336801052093506,
+           "max": 47.336801052093506
+         },
+         "ultra": {
+           "rankOne": 47.336801052093506,
+           "max": 47.336801052093506
+         },
+         "master": {
+           "rankOne": 47.336801052093506,
+           "max": 47.336801052093506
+         }
+       }
+     },
++    {
++      "name": "Wyrdeer",
++      "types": [
++        "normal",
++        "psychic"
++      ],
++      "fastMoveIds": [
++        "CONFUSION_FAST",
++        "TACKLE_FAST",
++        "ZEN_HEADBUTT_FAST"
++      ],
++      "chargedMoveIds": [
++        "STOMP",
++        "WILD_CHARGE",
++        "MEGAHORN",
++        "PSYCHIC"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 72.28702399134627,
++          "max": 77.17600145936004
++        },
++        "great": {
++          "rankOne": 125.19849710292911,
++          "max": 134.06244546174995
++        },
++        "ultra": {
++          "rankOne": 161.6352167129515,
++          "max": 173.40477132797224
++        },
++        "master": {
++          "rankOne": 186.81130415201187,
++          "max": 186.81130415201187
++        }
++      }
++    },
+     {
+       "name": "Xatu",
+       "types": [
+         "psychic",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "AIR_SLASH_FAST",
+         "FEINT_ATTACK_FAST"
+       ],
+       "chargedMoveIds": [
+         "AERIAL_ACE",
+         "OMINOUS_WIND",
+         "FUTURESIGHT",
+         "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.71691703796384,
+           "max": 81.11215707659719
+@@ -46576,40 +46611,46 @@
+         5
+       ],
+       "LIQUIDATION": [
+         4,
+         4,
+         4,
+         3
+       ],
+       "LOW_SWEEP": [
+         4,
+         3,
+         3,
+         4
+       ],
+       "LUNGE": [
+         4,
+         4,
+         4,
+         3
+       ],
++      "MEGAHORN": [
++        5,
++        5,
++        4,
++        5
++      ],
+       "MIRROR_COAT": [
+         5,
+         5,
+         4,
+         5
+       ],
+       "MOONBLAST": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "OVERHEAT": [
+         5,
+         5,
+         4,
+         5
+       ],
+       "PAYBACK": [
+         5,
+@@ -46720,40 +46761,46 @@
+         3
+       ],
+       "SLUDGE_BOMB": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "SLUDGE_WAVE": [
+         6,
+         5,
+         6,
+         5
+       ],
+       "SOLAR_BEAM": [
+         7,
+         7,
+         6,
+         7
+       ],
++      "STOMP": [
++        4,
++        3,
++        3,
++        4
++      ],
+       "SURF": [
+         4,
+         3,
+         3,
+         4
+       ],
+       "SWIFT": [
+         5,
+         5,
+         4,
+         5
+       ],
+       "SYNCHRONOISE": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "THUNDER": [
+         5,
+@@ -46779,40 +46826,46 @@
+         4,
+         4
+       ],
+       "TRIPLE_AXEL": [
+         4,
+         4,
+         4,
+         3
+       ],
+       "V_CREATE": [
+         4,
+         3,
+         3,
+         4
+       ],
+       "WATER_PULSE": [
+         5,
+         5,
+         5,
+         5
++      ],
++      "WILD_CHARGE": [
++        4,
++        4,
++        4,
++        3
+       ]
+     },
+     "COUNTER_FAST": {
+       "ACID_SPRAY": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "ACROBATICS": [
+         9,
+         9,
+         8,
+         9
+       ],
+       "AERIAL_ACE": [
+         6,
+         6,
+         6,
+         5

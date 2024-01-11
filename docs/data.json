@@ -1,5 +1,5 @@
 {
-  "timestamp": 1703482309669,
+  "timestamp": 1704935053337,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -7974,6 +7974,8 @@
         "RAZOR_LEAF_FAST"
       ],
       "chargedMoveIds": [
+        "SPIRIT_SHACKLE",
+        "FRENZY_PLANT",
         "SHADOW_SNEAK",
         "BRAVE_BIRD",
         "ENERGY_BALL"
@@ -8546,6 +8548,40 @@
         "master": {
           "rankOne": 245.13700544834137,
           "max": 245.13700544834137
+        }
+      }
+    },
+    {
+      "name": "Dialga (Origin)",
+      "types": [
+        "steel",
+        "dragon"
+      ],
+      "fastMoveIds": [
+        "DRAGON_BREATH_FAST",
+        "METAL_CLAW_FAST"
+      ],
+      "chargedMoveIds": [
+        "IRON_HEAD",
+        "THUNDER",
+        "DRACO_METEOR"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 78.3674687147139,
+          "max": 80.10896801948532
+        },
+        "great": {
+          "rankOne": 133.51278039045016,
+          "max": 139.89390592381727
+        },
+        "ultra": {
+          "rankOne": 171.71892821976334,
+          "max": 181.3047861456869
+        },
+        "master": {
+          "rankOne": 240.91050535440445,
+          "max": 240.91050535440445
         }
       }
     },
@@ -25151,6 +25187,41 @@
       }
     },
     {
+      "name": "Palkia (Origin)",
+      "types": [
+        "water",
+        "dragon"
+      ],
+      "fastMoveIds": [
+        "DRAGON_BREATH_FAST",
+        "DRAGON_TAIL_FAST"
+      ],
+      "chargedMoveIds": [
+        "AQUA_TAIL",
+        "DRACO_METEOR",
+        "HYDRO_PUMP",
+        "FIRE_BLAST"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 83.01146686077102,
+          "max": 83.88221651315673
+        },
+        "great": {
+          "rankOne": 140.38476173407628,
+          "max": 147.7475988879614
+        },
+        "ultra": {
+          "rankOne": 181.22366594410448,
+          "max": 190.72840366844562
+        },
+        "master": {
+          "rankOne": 254.4353056550026,
+          "max": 254.4353056550026
+        }
+      }
+    },
+    {
       "name": "Palossand",
       "types": [
         "ghost",
@@ -26307,6 +26378,39 @@
         "GRASS_KNOT",
         "THUNDERBOLT",
         "THUNDER"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 69.1737732291221,
+          "max": 78.0449179313223
+        },
+        "great": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        },
+        "ultra": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        },
+        "master": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        }
+      }
+    },
+    {
+      "name": "Pikachu (Gotour 2024 A)",
+      "types": [
+        "electric"
+      ],
+      "fastMoveIds": [
+        "QUICK_ATTACK_FAST",
+        "THUNDER_SHOCK_FAST"
+      ],
+      "chargedMoveIds": [
+        "DISCHARGE",
+        "WILD_CHARGE",
+        "THUNDERBOLT"
       ],
       "cmp": {
         "little": {
@@ -36645,6 +36749,7 @@
         "GUST_FAST"
       ],
       "chargedMoveIds": [
+        "BLEAKWIND_STORM",
         "PSYCHIC",
         "HURRICANE",
         "FOCUS_BLAST",
@@ -43552,6 +43657,12 @@
         4,
         4
       ],
+      "BLEAKWIND_STORM": [
+        5,
+        4,
+        5,
+        4
+      ],
       "BLIZZARD": [
         8,
         7,
@@ -43691,6 +43802,12 @@
         7
       ],
       "FOUL_PLAY": [
+        5,
+        4,
+        5,
+        4
+      ],
+      "FRENZY_PLANT": [
         5,
         4,
         5,
@@ -43917,6 +44034,12 @@
         5,
         5,
         5
+      ],
+      "SPIRIT_SHACKLE": [
+        4,
+        4,
+        4,
+        4
       ],
       "STOMP": [
         4,
@@ -50546,6 +50669,12 @@
         4,
         5
       ],
+      "BLEAKWIND_STORM": [
+        4,
+        4,
+        4,
+        3
+      ],
       "BRAVE_BIRD": [
         5,
         5,
@@ -52634,6 +52763,12 @@
         8,
         8
       ],
+      "FRENZY_PLANT": [
+        7,
+        6,
+        7,
+        6
+      ],
       "GRASS_KNOT": [
         8,
         7,
@@ -52705,6 +52840,12 @@
         6,
         7,
         6
+      ],
+      "SPIRIT_SHACKLE": [
+        6,
+        6,
+        6,
+        5
       ],
       "STOMP": [
         6,
@@ -53661,6 +53802,12 @@
         8,
         8,
         8
+      ],
+      "SPIRIT_SHACKLE": [
+        4,
+        4,
+        4,
+        4
       ],
       "STOMP": [
         4,
@@ -57489,6 +57636,12 @@
         20,
         20,
         20
+      ],
+      "SPIRIT_SHACKLE": [
+        10,
+        10,
+        10,
+        10
       ],
       "STOMP": [
         10,

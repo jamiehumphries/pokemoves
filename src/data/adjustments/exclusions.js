@@ -23,6 +23,7 @@ module.exports = {
     "Lugia (S)",
     "Pikachu (3012)",
     "Pikachu (Costume 2020)",
+    "Pikachu (Gotour 2024 A)",
     "Pikachu (Jeju)",
     "Pikachu (Kariyushi)",
     "Pyroar (Female)",

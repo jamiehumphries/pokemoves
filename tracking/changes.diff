@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index beaef1b..37a6dbf 100644
+index beaef1b..9c082d0 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1703482309669,
-+  "timestamp": 1704935053337,
++  "timestamp": 1705449381948,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -220,81 +220,49 @@ index beaef1b..37a6dbf 100644
          "little": {
            "rankOne": 66.79193454980837,
            "max": 70.91952601075158
-@@ -26310,40 +26381,73 @@
-       ],
-       "cmp": {
-         "little": {
-           "rankOne": 69.1737732291221,
-           "max": 78.0449179313223
-         },
-         "great": {
-           "rankOne": 107.35310238599777,
-           "max": 107.35310238599777
-         },
-         "ultra": {
-           "rankOne": 107.35310238599777,
-           "max": 107.35310238599777
+@@ -36050,40 +36121,41 @@
+           "rankOne": 187.04495250522012,
+           "max": 199.68734865333548
          },
          "master": {
-           "rankOne": 107.35310238599777,
-           "max": 107.35310238599777
+           "rankOne": 237.5293052792549,
+           "max": 237.5293052792549
          }
        }
      },
-+    {
-+      "name": "Pikachu (Gotour 2024 A)",
-+      "types": [
-+        "electric"
-+      ],
-+      "fastMoveIds": [
-+        "QUICK_ATTACK_FAST",
-+        "THUNDER_SHOCK_FAST"
-+      ],
-+      "chargedMoveIds": [
-+        "DISCHARGE",
-+        "WILD_CHARGE",
-+        "THUNDERBOLT"
-+      ],
-+      "cmp": {
-+        "little": {
-+          "rankOne": 69.1737732291221,
-+          "max": 78.0449179313223
-+        },
-+        "great": {
-+          "rankOne": 107.35310238599777,
-+          "max": 107.35310238599777
-+        },
-+        "ultra": {
-+          "rankOne": 107.35310238599777,
-+          "max": 107.35310238599777
-+        },
-+        "master": {
-+          "rankOne": 107.35310238599777,
-+          "max": 107.35310238599777
-+        }
-+      }
-+    },
      {
-       "name": "Pikachu (Libre)",
+       "name": "Thundurus (Therian)",
        "types": [
-         "electric"
+         "electric",
+         "flying"
        ],
        "fastMoveIds": [
-         "CHARM_FAST",
-         "THUNDER_SHOCK_FAST"
+         "BITE_FAST",
+         "VOLT_SWITCH_FAST"
        ],
        "chargedMoveIds": [
-         "FLYING_PRESS",
-         "THUNDER_PUNCH",
-         "PLAY_ROUGH"
++        "WILDBOLT_STORM",
+         "THUNDERBOLT",
+         "THUNDER",
+         "SLUDGE_WAVE",
+         "FOCUS_BLAST"
        ],
        "cmp": {
          "little": {
-           "rankOne": 69.1737732291221,
-           "max": 78.0449179313223
+           "rankOne": 90.28692749405303,
+           "max": 93.9596160700823
          },
          "great": {
-@@ -36628,40 +36732,41 @@
+           "rankOne": 153.14860820770264,
+           "max": 163.04217771911198
+         },
+         "ultra": {
+           "rankOne": 197.7084641456604,
+           "max": 210.47996038198454
+         },
+         "master": {
+           "rankOne": 262.04300582408905,
+@@ -36628,40 +36700,41 @@
          "ultra": {
            "rankOne": 187.04495250522012,
            "max": 199.68734865333548
@@ -336,7 +304,7 @@ index beaef1b..37a6dbf 100644
          },
          "master": {
            "rankOne": 213.86090475320816,
-@@ -43535,40 +43640,46 @@
+@@ -43535,40 +43608,46 @@
        "TRAILBLAZE": [
          6,
          6,
@@ -383,7 +351,7 @@ index beaef1b..37a6dbf 100644
        ],
        "BRAVE_BIRD": [
          6,
-@@ -43679,40 +43790,46 @@
+@@ -43679,40 +43758,46 @@
          5
        ],
        "FLASH_CANNON": [
@@ -430,7 +398,7 @@ index beaef1b..37a6dbf 100644
        ],
        "HEAVY_SLAM": [
          5,
-@@ -43901,40 +44018,46 @@
+@@ -43901,40 +43986,46 @@
          3
        ],
        "SHADOW_SNEAK": [
@@ -477,7 +445,54 @@ index beaef1b..37a6dbf 100644
        ],
        "THUNDER": [
          6,
-@@ -50529,40 +50652,46 @@
+@@ -44449,40 +44540,46 @@
+         22
+       ],
+       "VICE_GRIP": [
+         20,
+         20,
+         20,
+         20
+       ],
+       "WEATHER_BALL_ROCK": [
+         18,
+         17,
+         18,
+         17
+       ],
+       "WILD_CHARGE": [
+         23,
+         22,
+         23,
+         22
+       ],
++      "WILDBOLT_STORM": [
++        23,
++        22,
++        23,
++        22
++      ],
+       "X_SCISSOR": [
+         20,
+         20,
+         20,
+         20
+       ]
+     },
+     "BUBBLE_FAST": {
+       "AERIAL_ACE": [
+         4,
+         4,
+         3,
+         4
+       ],
+       "AQUA_JET": [
+         5,
+         4,
+         4,
+         4
+       ],
+@@ -50529,40 +50626,46 @@
        "THUNDER": [
          5,
          5,
@@ -524,7 +539,7 @@ index beaef1b..37a6dbf 100644
        ],
        "DARK_PULSE": [
          5,
-@@ -52617,40 +52746,46 @@
+@@ -52617,40 +52720,46 @@
          10
        ],
        "BRAVE_BIRD": [
@@ -571,7 +586,7 @@ index beaef1b..37a6dbf 100644
        ],
        "LEAF_BLADE": [
          5,
-@@ -52689,40 +52824,46 @@
+@@ -52689,40 +52798,46 @@
          9
        ],
        "RETURN": [
@@ -618,7 +633,7 @@ index beaef1b..37a6dbf 100644
        ],
        "WEATHER_BALL_ICE": [
          5,
-@@ -53645,40 +53786,46 @@
+@@ -53645,40 +53760,46 @@
          5
        ],
        "SHADOW_SNEAK": [
@@ -665,7 +680,7 @@ index beaef1b..37a6dbf 100644
        ],
        "TRIPLE_AXEL": [
          5,
-@@ -57473,40 +57620,46 @@
+@@ -57473,40 +57594,46 @@
          11
        ],
        "SILVER_WIND": [
@@ -712,3 +727,50 @@ index beaef1b..37a6dbf 100644
        ],
        "TRAILBLAZE": [
          13,
+@@ -62783,40 +62910,46 @@
+         3
+       ],
+       "TRAILBLAZE": [
+         4,
+         3,
+         3,
+         3
+       ],
+       "VICE_GRIP": [
+         3,
+         2,
+         3,
+         2
+       ],
+       "WILD_CHARGE": [
+         3,
+         3,
+         3,
+         3
+       ],
++      "WILDBOLT_STORM": [
++        3,
++        3,
++        3,
++        3
++      ],
+       "X_SCISSOR": [
+         3,
+         2,
+         3,
+         2
+       ],
+       "ZAP_CANNON": [
+         5,
+         5,
+         5,
+         5
+       ]
+     },
+     "WATER_GUN_FAST": {
+       "ACID_SPRAY": [
+         15,
+         15,
+         15,
+         15
+       ],

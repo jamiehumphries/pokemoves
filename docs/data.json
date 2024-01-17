@@ -1,5 +1,5 @@
 {
-  "timestamp": 1704935053337,
+  "timestamp": 1705449381948,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -36138,6 +36138,7 @@
         "VOLT_SWITCH_FAST"
       ],
       "chargedMoveIds": [
+        "WILDBOLT_STORM",
         "THUNDERBOLT",
         "THUNDER",
         "SLUDGE_WAVE",
@@ -44551,6 +44552,12 @@
         17
       ],
       "WILD_CHARGE": [
+        23,
+        22,
+        23,
+        22
+      ],
+      "WILDBOLT_STORM": [
         23,
         22,
         23,
@@ -62915,6 +62922,12 @@
         2
       ],
       "WILD_CHARGE": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "WILDBOLT_STORM": [
         3,
         3,
         3,

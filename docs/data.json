@@ -1,5 +1,5 @@
 {
-  "timestamp": 1705449381948,
+  "timestamp": 1705532288947,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -844,7 +844,8 @@
         "NIGHT_SLASH",
         "ICE_PUNCH",
         "LOW_SWEEP",
-        "CLOSE_COMBAT"
+        "CLOSE_COMBAT",
+        "SHADOW_BALL"
       ],
       "cmp": {
         "little": {
@@ -3386,9 +3387,14 @@
         "fire",
         "ghost"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "ASTONISH_FAST",
+        "INCINERATE_FAST"
+      ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "MYSTICAL_FIRE",
+        "OVERHEAT",
+        "SHADOW_BALL"
       ],
       "cmp": {
         "little": {
@@ -5891,10 +5897,13 @@
         "fire"
       ],
       "fastMoveIds": [
-        "SPLASH_FAST"
+        "INCINERATE_FAST",
+        "SNARL_FAST"
       ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "DARK_PULSE",
+        "FLAME_CHARGE",
+        "FLAME_WHEEL"
       ],
       "cmp": {
         "little": {
@@ -5922,10 +5931,13 @@
         "ice"
       ],
       "fastMoveIds": [
-        "SPLASH_FAST"
+        "POWDER_SNOW_FAST",
+        "SNARL_FAST"
       ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "AVALANCHE",
+        "DARK_PULSE",
+        "BLIZZARD"
       ],
       "cmp": {
         "little": {
@@ -18349,10 +18361,14 @@
         "dragon"
       ],
       "fastMoveIds": [
-        "SPLASH_FAST"
+        "DRAGON_TAIL_FAST",
+        "ROCK_SMASH_FAST"
       ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "DRAGON_CLAW",
+        "CLOSE_COMBAT",
+        "OUTRAGE",
+        "GIGA_IMPACT"
       ],
       "cmp": {
         "little": {
@@ -22783,10 +22799,14 @@
         "dragon"
       ],
       "fastMoveIds": [
-        "SPLASH_FAST"
+        "DRAGON_BREATH_FAST",
+        "THUNDER_SHOCK_FAST"
       ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "DRAGON_PULSE",
+        "OUTRAGE",
+        "THUNDER",
+        "HYPER_BEAM"
       ],
       "cmp": {
         "little": {
@@ -23610,9 +23630,15 @@
         "poison",
         "dragon"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "AIR_SLASH_FAST",
+        "POISON_JAB_FAST"
+      ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "FELL_STINGER",
+        "SLUDGE_BOMB",
+        "ACROBATICS",
+        "DRAGON_PULSE"
       ],
       "cmp": {
         "little": {
@@ -26782,9 +26808,14 @@
       "types": [
         "poison"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "PECK_FAST",
+        "POISON_JAB_FAST"
+      ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "FELL_STINGER",
+        "SLUDGE_BOMB",
+        "SLUDGE_WAVE"
       ],
       "cmp": {
         "little": {
@@ -34289,9 +34320,14 @@
         "rock",
         "steel"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "ROCK_THROW_FAST",
+        "TAKE_DOWN_FAST"
+      ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "STONE_EDGE",
+        "BULLDOZE",
+        "FLASH_CANNON"
       ],
       "cmp": {
         "little": {
@@ -36235,10 +36271,13 @@
         "ground"
       ],
       "fastMoveIds": [
-        "SPLASH_FAST"
+        "MUD_SHOT_FAST",
+        "SNARL_FAST"
       ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "DARK_PULSE",
+        "BULLDOZE",
+        "EARTHQUAKE"
       ],
       "cmp": {
         "little": {
@@ -39711,10 +39750,13 @@
         "grass"
       ],
       "fastMoveIds": [
-        "SPLASH_FAST"
+        "MAGICAL_LEAF_FAST",
+        "SNARL_FAST"
       ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "DARK_PULSE",
+        "GRASS_KNOT",
+        "LEAF_STORM"
       ],
       "cmp": {
         "little": {
@@ -40840,9 +40882,14 @@
       "types": [
         "electric"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "SPARK_FAST",
+        "VOLT_SWITCH_FAST"
+      ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "THUNDER_PUNCH",
+        "DISCHARGE",
+        "WILD_CHARGE"
       ],
       "cmp": {
         "little": {
@@ -43364,6 +43411,12 @@
         4,
         4,
         4
+      ],
+      "DRAGON_PULSE": [
+        7,
+        7,
+        6,
+        7
       ],
       "DRILL_PECK": [
         5,
@@ -48163,6 +48216,12 @@
         7,
         7
       ],
+      "GIGA_IMPACT": [
+        9,
+        9,
+        9,
+        9
+      ],
       "GRASS_KNOT": [
         6,
         6,
@@ -51805,6 +51864,12 @@
         3,
         2
       ],
+      "FLAME_WHEEL": [
+        3,
+        3,
+        3,
+        2
+      ],
       "FLAMETHROWER": [
         3,
         3,
@@ -51846,6 +51911,12 @@
         4,
         4,
         3
+      ],
+      "MYSTICAL_FIRE": [
+        3,
+        2,
+        2,
+        2
       ],
       "OVERHEAT": [
         3,
@@ -53541,6 +53612,12 @@
         10,
         10
       ],
+      "SHADOW_BALL": [
+        11,
+        11,
+        11,
+        11
+      ],
       "SOLAR_BEAM": [
         16,
         16,
@@ -54284,6 +54361,12 @@
         5,
         5,
         5
+      ],
+      "DARK_PULSE": [
+        6,
+        6,
+        5,
+        6
       ],
       "DIG": [
         6,
@@ -55093,6 +55176,12 @@
         11,
         11
       ],
+      "FELL_STINGER": [
+        7,
+        7,
+        7,
+        7
+      ],
       "FIRE_BLAST": [
         16,
         16,
@@ -55261,6 +55350,12 @@
         10,
         10
       ],
+      "SLUDGE_WAVE": [
+        13,
+        13,
+        13,
+        13
+      ],
       "SUPER_POWER": [
         8,
         8,
@@ -55304,6 +55399,12 @@
         6,
         7,
         6
+      ],
+      "ACROBATICS": [
+        9,
+        9,
+        8,
+        9
       ],
       "AERIAL_ACE": [
         6,
@@ -57805,6 +57906,12 @@
         7,
         6
       ],
+      "DRAGON_CLAW": [
+        5,
+        5,
+        5,
+        5
+      ],
       "DRILL_PECK": [
         6,
         6,
@@ -57870,6 +57977,12 @@
         6,
         7,
         6
+      ],
+      "GIGA_IMPACT": [
+        12,
+        11,
+        12,
+        11
       ],
       "GRASS_KNOT": [
         8,
@@ -57960,6 +58073,12 @@
         8,
         8,
         8
+      ],
+      "OUTRAGE": [
+        9,
+        9,
+        8,
+        9
       ],
       "OVERHEAT": [
         8,
@@ -58238,6 +58357,12 @@
         10,
         10,
         10
+      ],
+      "FLASH_CANNON": [
+        14,
+        14,
+        14,
+        14
       ],
       "FLY": [
         9,
@@ -59629,6 +59754,12 @@
         4,
         4
       ],
+      "FLAME_WHEEL": [
+        5,
+        4,
+        4,
+        4
+      ],
       "FLAMETHROWER": [
         5,
         4,
@@ -59718,6 +59849,12 @@
         3,
         3,
         2
+      ],
+      "LEAF_STORM": [
+        5,
+        4,
+        4,
+        4
       ],
       "LEAF_TORNADO": [
         4,
@@ -61785,6 +61922,12 @@
         7,
         7
       ],
+      "FLASH_CANNON": [
+        9,
+        9,
+        9,
+        8
+      ],
       "FOUL_PLAY": [
         6,
         6,
@@ -61940,6 +62083,12 @@
         5,
         5,
         5
+      ],
+      "STONE_EDGE": [
+        7,
+        7,
+        7,
+        7
       ],
       "STRUGGLE": [
         13,
@@ -62334,6 +62483,12 @@
         5,
         5,
         5
+      ],
+      "OUTRAGE": [
+        7,
+        7,
+        6,
+        7
       ],
       "OVERHEAT": [
         7,

@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index beaef1b..9c082d0 100644
+index beaef1b..b345f51 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1703482309669,
-+  "timestamp": 1705449381948,
++  "timestamp": 1705532288947,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,7 +26,188 @@ index beaef1b..9c082d0 100644
          "RETURN",
          "BLIZZARD"
        ],
-@@ -7957,40 +7957,42 @@
+@@ -827,41 +827,42 @@
+         "master": {
+           "rankOne": 261.19770580530167,
+           "max": 261.19770580530167
+         }
+       }
+     },
+     {
+       "name": "Annihilape",
+       "types": [
+         "fighting",
+         "ghost"
+       ],
+       "fastMoveIds": [
+         "COUNTER_FAST",
+         "LOW_KICK_FAST"
+       ],
+       "chargedMoveIds": [
+         "NIGHT_SLASH",
+         "ICE_PUNCH",
+         "LOW_SWEEP",
+-        "CLOSE_COMBAT"
++        "CLOSE_COMBAT",
++        "SHADOW_BALL"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 70.63927173614498,
+           "max": 75.1344981193542
+         },
+         "great": {
+           "rankOne": 122.27597808837871,
+           "max": 129.43628311157207
+         },
+         "ultra": {
+           "rankOne": 156.897202513335,
+           "max": 167.59473904833513
+         },
+         "master": {
+           "rankOne": 198.64550441503525,
+           "max": 198.64550441503525
+         }
+       }
+     },
+@@ -3369,43 +3370,48 @@
+         "great": {
+           "rankOne": 137.44388349070437,
+           "max": 147.55780237913118
+         },
+         "ultra": {
+           "rankOne": 177.36076713921244,
+           "max": 190.26342667098274
+         },
+         "master": {
+           "rankOne": 208.78910464048386,
+           "max": 208.78910464048386
+         }
+       }
+     },
+     {
+       "name": "Blacephalon",
+       "types": [
+         "fire",
+         "ghost"
+       ],
+-      "fastMoveIds": [],
++      "fastMoveIds": [
++        "ASTONISH_FAST",
++        "INCINERATE_FAST"
++      ],
+       "chargedMoveIds": [
+-        "STRUGGLE"
++        "MYSTICAL_FIRE",
++        "OVERHEAT",
++        "SHADOW_BALL"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 101.14259362220758,
+           "max": 105.95890760421747
+         },
+         "great": {
+           "rankOne": 172.55817238925226,
+           "max": 184.41409781456872
+         },
+         "ultra": {
+           "rankOne": 222.6685246825218,
+           "max": 237.40170121192932
+         },
+         "master": {
+           "rankOne": 278.94900619983673,
+           "max": 278.94900619983673
+         }
+       }
+     },
+@@ -5874,75 +5880,81 @@
+           "rankOne": 109.04370242357254,
+           "max": 109.04370242357254
+         },
+         "ultra": {
+           "rankOne": 109.04370242357254,
+           "max": 109.04370242357254
+         },
+         "master": {
+           "rankOne": 109.04370242357254,
+           "max": 109.04370242357254
+         }
+       }
+     },
+     {
+       "name": "Chi-Yu",
+       "types": [
+         "dark",
+         "fire"
+       ],
+       "fastMoveIds": [
+-        "SPLASH_FAST"
++        "INCINERATE_FAST",
++        "SNARL_FAST"
+       ],
+       "chargedMoveIds": [
+-        "STRUGGLE"
++        "DARK_PULSE",
++        "FLAME_CHARGE",
++        "FLAME_WHEEL"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 83.8597224860018,
+           "max": 86.92029629935952
+         },
+         "great": {
+           "rankOne": 143.7413145303724,
+           "max": 153.5659207111899
+         },
+         "ultra": {
+           "rankOne": 187.0502944014737,
+           "max": 198.25363879766778
+         },
+         "master": {
+           "rankOne": 240.06520533561707,
+           "max": 240.06520533561707
+         }
+       }
+     },
+     {
+       "name": "Chien-Pao",
+       "types": [
+         "dark",
+         "ice"
+       ],
+       "fastMoveIds": [
+-        "SPLASH_FAST"
++        "POWDER_SNOW_FAST",
++        "SNARL_FAST"
+       ],
+       "chargedMoveIds": [
+-        "STRUGGLE"
++        "AVALANCHE",
++        "DARK_PULSE",
++        "BLIZZARD"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 83.803863286972,
+           "max": 87.33582687377925
+         },
+         "great": {
+           "rankOne": 142.71320546658285,
+           "max": 152.01878356933568
+         },
+         "ultra": {
+           "rankOne": 184.49677759408948,
+           "max": 196.8346722440021
+         },
+         "master": {
+           "rankOne": 233.302805185318,
+           "max": 233.302805185318
+         }
+       }
+     },
+@@ -7957,40 +7969,42 @@
          },
          "master": {
            "rankOne": 142.01040315628052,
@@ -69,7 +250,7 @@ index beaef1b..9c082d0 100644
          "master": {
            "rankOne": 190.1925042271614,
            "max": 190.1925042271614
-@@ -8532,40 +8534,74 @@
+@@ -8532,40 +8546,74 @@
        ],
        "cmp": {
          "little": {
@@ -144,7 +325,161 @@ index beaef1b..9c082d0 100644
            "rankOne": 67.04883384704583,
            "max": 71.58859863877288
          },
-@@ -25133,40 +25169,75 @@
+@@ -18296,44 +18344,48 @@
+           "rankOne": 122.27597808837871,
+           "max": 130.53786849975566
+         },
+         "ultra": {
+           "rankOne": 158.32354071800168,
+           "max": 167.59473904833513
+         },
+         "master": {
+           "rankOne": 200.33610445261002,
+           "max": 200.33610445261002
+         }
+       }
+     },
+     {
+       "name": "Koraidon",
+       "types": [
+         "fighting",
+         "dragon"
+       ],
+       "fastMoveIds": [
+-        "SPLASH_FAST"
++        "DRAGON_TAIL_FAST",
++        "ROCK_SMASH_FAST"
+       ],
+       "chargedMoveIds": [
+-        "STRUGGLE"
++        "DRAGON_CLAW",
++        "CLOSE_COMBAT",
++        "OUTRAGE",
++        "GIGA_IMPACT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.33571952581391,
+           "max": 80.68946778774246
+         },
+         "great": {
+           "rankOne": 131.46276944875706,
+           "max": 138.96064603328693
+         },
+         "ultra": {
+           "rankOne": 170.31379334833554,
+           "max": 180.02750779786038
+         },
+         "master": {
+           "rankOne": 234.99340522289276,
+           "max": 234.99340522289276
+         }
+       }
+     },
+@@ -22730,44 +22782,48 @@
+           "rankOne": 114.92313952683863,
+           "max": 126.18710553646086
+         },
+         "ultra": {
+           "rankOne": 136.9386030435562,
+           "max": 136.9386030435562
+         },
+         "master": {
+           "rankOne": 136.9386030435562,
+           "max": 136.9386030435562
+         }
+       }
+     },
+     {
+       "name": "Miraidon",
+       "types": [
+         "electric",
+         "dragon"
+       ],
+       "fastMoveIds": [
+-        "SPLASH_FAST"
++        "DRAGON_BREATH_FAST",
++        "THUNDER_SHOCK_FAST"
+       ],
+       "chargedMoveIds": [
+-        "STRUGGLE"
++        "DRAGON_PULSE",
++        "OUTRAGE",
++        "THUNDER",
++        "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.33571952581391,
+           "max": 80.68946778774246
+         },
+         "great": {
+           "rankOne": 131.46276944875706,
+           "max": 138.96064603328693
+         },
+         "ultra": {
+           "rankOne": 170.31379334833554,
+           "max": 180.02750779786038
+         },
+         "master": {
+           "rankOne": 234.99340522289276,
+           "max": 234.99340522289276
+         }
+       }
+     },
+@@ -23557,43 +23613,49 @@
+         "great": {
+           "rankOne": 101.43600225448608,
+           "max": 101.43600225448608
+         },
+         "ultra": {
+           "rankOne": 101.43600225448608,
+           "max": 101.43600225448608
+         },
+         "master": {
+           "rankOne": 101.43600225448608,
+           "max": 101.43600225448608
+         }
+       }
+     },
+     {
+       "name": "Naganadel",
+       "types": [
+         "poison",
+         "dragon"
+       ],
+-      "fastMoveIds": [],
++      "fastMoveIds": [
++        "AIR_SLASH_FAST",
++        "POISON_JAB_FAST"
++      ],
+       "chargedMoveIds": [
+-        "STRUGGLE"
++        "FELL_STINGER",
++        "SLUDGE_BOMB",
++        "ACROBATICS",
++        "DRAGON_PULSE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 85.73038887977596,
+           "max": 89.26235246658321
+         },
+         "great": {
+           "rankOne": 147.53127825165495,
+           "max": 157.55775654315934
+         },
+         "ultra": {
+           "rankOne": 189.92136096954346,
+           "max": 203.41260087490076
+         },
+         "master": {
+           "rankOne": 234.99340522289276,
+           "max": 234.99340522289276
+         }
+       }
+     },
+@@ -25133,40 +25195,75 @@
        ],
        "cmp": {
          "little": {
@@ -220,7 +555,109 @@ index beaef1b..9c082d0 100644
          "little": {
            "rankOne": 66.79193454980837,
            "max": 70.91952601075158
-@@ -36050,40 +36121,41 @@
+@@ -26694,43 +26791,48 @@
+         },
+         "great": {
+           "rankOne": 126.69127120878723,
+           "max": 138.6046184301375
+         },
+         "ultra": {
+           "rankOne": 153.8446034193039,
+           "max": 153.8446034193039
+         },
+         "master": {
+           "rankOne": 153.8446034193039,
+           "max": 153.8446034193039
+         }
+       }
+     },
+     {
+       "name": "Poipole",
+       "types": [
+         "poison"
+       ],
+-      "fastMoveIds": [],
++      "fastMoveIds": [
++        "PECK_FAST",
++        "POISON_JAB_FAST"
++      ],
+       "chargedMoveIds": [
+-        "STRUGGLE"
++        "FELL_STINGER",
++        "SLUDGE_BOMB",
++        "SLUDGE_WAVE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 67.10576608777045,
+           "max": 72.4895926195176
+         },
+         "great": {
+           "rankOne": 115.74937683998581,
+           "max": 126.84863215340911
+         },
+         "ultra": {
+           "rankOne": 135.24800300598145,
+           "max": 135.24800300598145
+         },
+         "master": {
+           "rankOne": 135.24800300598145,
+           "max": 135.24800300598145
+         }
+       }
+     },
+@@ -34201,43 +34303,48 @@
+         "great": {
+           "rankOne": 92.13770204782486,
+           "max": 92.13770204782486
+         },
+         "ultra": {
+           "rankOne": 92.13770204782486,
+           "max": 92.13770204782486
+         },
+         "master": {
+           "rankOne": 92.13770204782486,
+           "max": 92.13770204782486
+         }
+       }
+     },
+     {
+       "name": "Stakataka",
+       "types": [
+         "rock",
+         "steel"
+       ],
+-      "fastMoveIds": [],
++      "fastMoveIds": [
++        "ROCK_THROW_FAST",
++        "TAKE_DOWN_FAST"
++      ],
+       "chargedMoveIds": [
+-        "STRUGGLE"
++        "STONE_EDGE",
++        "BULLDOZE",
++        "FLASH_CANNON"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 68.39165854454038,
+           "max": 72.24470973014827
+         },
+         "great": {
+           "rankOne": 117.86963653564435,
+           "max": 125.58073425292949
+         },
+         "ultra": {
+           "rankOne": 151.90501879700162,
+           "max": 162.60255533200174
+         },
+         "master": {
+           "rankOne": 192.72840428352356,
+           "max": 192.72840428352356
+         }
+       }
+     },
+@@ -36050,40 +36157,41 @@
            "rankOne": 187.04495250522012,
            "max": 199.68734865333548
          },
@@ -262,7 +699,57 @@ index beaef1b..9c082d0 100644
          },
          "master": {
            "rankOne": 262.04300582408905,
-@@ -36628,40 +36700,41 @@
+@@ -36146,44 +36254,47 @@
+           "rankOne": 125.57775562617745,
+           "max": 125.94970279932022
+         },
+         "ultra": {
+           "rankOne": 125.94970279932022,
+           "max": 125.94970279932022
+         },
+         "master": {
+           "rankOne": 125.94970279932022,
+           "max": 125.94970279932022
+         }
+       }
+     },
+     {
+       "name": "Ting-Lu",
+       "types": [
+         "dark",
+         "ground"
+       ],
+       "fastMoveIds": [
+-        "SPLASH_FAST"
++        "MUD_SHOT_FAST",
++        "SNARL_FAST"
+       ],
+       "chargedMoveIds": [
+-        "STRUGGLE"
++        "DARK_PULSE",
++        "BULLDOZE",
++        "EARTHQUAKE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 60.59936150448305,
+           "max": 63.96599269917655
+         },
+         "great": {
+           "rankOne": 103.66473984718306,
+           "max": 109.92198433320776
+         },
+         "ultra": {
+           "rankOne": 134.09855664811533,
+           "max": 142.36346834897984
+         },
+         "master": {
+           "rankOne": 176.66770392656326,
+           "max": 176.66770392656326
+         }
+       }
+     },
+@@ -36628,40 +36739,41 @@
          "ultra": {
            "rankOne": 187.04495250522012,
            "max": 199.68734865333548
@@ -304,7 +791,155 @@ index beaef1b..9c082d0 100644
          },
          "master": {
            "rankOne": 213.86090475320816,
-@@ -43535,40 +43608,46 @@
+@@ -39621,44 +39733,47 @@
+           "rankOne": 51.563301146030426,
+           "max": 51.563301146030426
+         },
+         "ultra": {
+           "rankOne": 51.563301146030426,
+           "max": 51.563301146030426
+         },
+         "master": {
+           "rankOne": 51.563301146030426,
+           "max": 51.563301146030426
+         }
+       }
+     },
+     {
+       "name": "Wo-Chien",
+       "types": [
+         "dark",
+         "grass"
+       ],
+       "fastMoveIds": [
+-        "SPLASH_FAST"
++        "MAGICAL_LEAF_FAST",
++        "SNARL_FAST"
+       ],
+       "chargedMoveIds": [
+-        "STRUGGLE"
++        "DARK_PULSE",
++        "GRASS_KNOT",
++        "LEAF_STORM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 64.07000116835971,
+           "max": 67.42445149131048
+         },
+         "great": {
+           "rankOne": 109.71915162777259,
+           "max": 117.03806036710724
+         },
+         "ultra": {
+           "rankOne": 141.10524817266122,
+           "max": 151.29855016647002
+         },
+         "master": {
+           "rankOne": 169.9053037762642,
+           "max": 169.9053037762642
+         }
+       }
+     },
+@@ -40750,43 +40865,48 @@
+         },
+         "great": {
+           "rankOne": 137.46107071638096,
+           "max": 143.95923042297352
+         },
+         "ultra": {
+           "rankOne": 176.17956250905974,
+           "max": 185.7893568277357
+         },
+         "master": {
+           "rankOne": 245.13700544834137,
+           "max": 245.13700544834137
+         }
+       }
+     },
+     {
+       "name": "Zeraora",
+       "types": [
+         "electric"
+       ],
+-      "fastMoveIds": [],
++      "fastMoveIds": [
++        "SPARK_FAST",
++        "VOLT_SWITCH_FAST"
++      ],
+       "chargedMoveIds": [
+-        "STRUGGLE"
++        "THUNDER_PUNCH",
++        "DISCHARGE",
++        "WILD_CHARGE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 79.57491914730097,
+           "max": 81.87733769416805
+         },
+         "great": {
+           "rankOne": 136.74421208204896,
+           "max": 144.88374851550427
+         },
+         "ultra": {
+           "rankOne": 175.61834418773637,
+           "max": 187.04495250522012
+         },
+         "master": {
+           "rankOne": 225.69510501623154,
+           "max": 225.69510501623154
+         }
+       }
+     },
+@@ -43275,40 +43395,46 @@
+         6
+       ],
+       "DAZZLING_GLEAM": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "DRACO_METEOR": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "DRAGON_CLAW": [
+         4,
+         4,
+         4,
+         4
+       ],
++      "DRAGON_PULSE": [
++        7,
++        7,
++        6,
++        7
++      ],
+       "DRILL_PECK": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "FEATHER_DANCE": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "FELL_STINGER": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "FIRE_BLAST": [
+         9,
+@@ -43535,40 +43661,46 @@
        "TRAILBLAZE": [
          6,
          6,
@@ -351,7 +986,7 @@ index beaef1b..9c082d0 100644
        ],
        "BRAVE_BIRD": [
          6,
-@@ -43679,40 +43758,46 @@
+@@ -43679,40 +43811,46 @@
          5
        ],
        "FLASH_CANNON": [
@@ -398,7 +1033,7 @@ index beaef1b..9c082d0 100644
        ],
        "HEAVY_SLAM": [
          5,
-@@ -43901,40 +43986,46 @@
+@@ -43901,40 +44039,46 @@
          3
        ],
        "SHADOW_SNEAK": [
@@ -445,7 +1080,7 @@ index beaef1b..9c082d0 100644
        ],
        "THUNDER": [
          6,
-@@ -44449,40 +44540,46 @@
+@@ -44449,40 +44593,46 @@
          22
        ],
        "VICE_GRIP": [
@@ -492,7 +1127,54 @@ index beaef1b..9c082d0 100644
          4,
          4
        ],
-@@ -50529,40 +50626,46 @@
+@@ -48049,40 +48199,46 @@
+         6
+       ],
+       "FLASH_CANNON": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "FOCUS_BLAST": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "FUTURESIGHT": [
+         8,
+         7,
+         7,
+         7
+       ],
++      "GIGA_IMPACT": [
++        9,
++        9,
++        9,
++        9
++      ],
+       "GRASS_KNOT": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "GUNK_SHOT": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "GYRO_BALL": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "HEAVY_SLAM": [
+         6,
+@@ -50529,40 +50685,46 @@
        "THUNDER": [
          5,
          5,
@@ -539,7 +1221,101 @@ index beaef1b..9c082d0 100644
        ],
        "DARK_PULSE": [
          5,
-@@ -52617,40 +52720,46 @@
+@@ -51685,40 +51847,46 @@
+         3
+       ],
+       "ENERGY_BALL": [
+         3,
+         3,
+         3,
+         2
+       ],
+       "FIRE_BLAST": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "FLAME_CHARGE": [
+         3,
+         2,
+         3,
+         2
+       ],
++      "FLAME_WHEEL": [
++        3,
++        3,
++        3,
++        2
++      ],
+       "FLAMETHROWER": [
+         3,
+         3,
+         3,
+         2
+       ],
+       "FLASH_CANNON": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "FLY": [
+         3,
+         2,
+         2,
+         2
+       ],
+       "FOCUS_BLAST": [
+         4,
+@@ -51727,40 +51895,46 @@
+         3
+       ],
+       "HEAT_WAVE": [
+         4,
+         4,
+         4,
+         3
+       ],
+       "HURRICANE": [
+         4,
+         3,
+         3,
+         3
+       ],
+       "HYDRO_PUMP": [
+         4,
+         4,
+         4,
+         3
+       ],
++      "MYSTICAL_FIRE": [
++        3,
++        2,
++        2,
++        2
++      ],
+       "OVERHEAT": [
+         3,
+         3,
+         3,
+         2
+       ],
+       "POISON_FANG": [
+         2,
+         2,
+         2,
+         2
+       ],
+       "POLTERGEIST": [
+         4,
+         4,
+         4,
+         3
+       ],
+       "PSYCHIC": [
+         3,
+@@ -52617,40 +52791,46 @@
          10
        ],
        "BRAVE_BIRD": [
@@ -586,7 +1362,7 @@ index beaef1b..9c082d0 100644
        ],
        "LEAF_BLADE": [
          5,
-@@ -52689,40 +52798,46 @@
+@@ -52689,40 +52869,46 @@
          9
        ],
        "RETURN": [
@@ -633,7 +1409,54 @@ index beaef1b..9c082d0 100644
        ],
        "WEATHER_BALL_ICE": [
          5,
-@@ -53645,40 +53760,46 @@
+@@ -53409,40 +53595,46 @@
+         9
+       ],
+       "ROCK_TOMB": [
+         12,
+         12,
+         12,
+         12
+       ],
+       "SACRED_SWORD": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "SCORCHING_SANDS": [
+         10,
+         10,
+         10,
+         10
+       ],
++      "SHADOW_BALL": [
++        11,
++        11,
++        11,
++        11
++      ],
+       "SOLAR_BEAM": [
+         16,
+         16,
+         16,
+         16
+       ],
+       "STOMP": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "STONE_EDGE": [
+         11,
+         11,
+         11,
+         11
+       ],
+       "SUBMISSION": [
+         10,
+@@ -53645,40 +53837,46 @@
          5
        ],
        "SHADOW_SNEAK": [
@@ -680,7 +1503,195 @@ index beaef1b..9c082d0 100644
        ],
        "TRIPLE_AXEL": [
          5,
-@@ -57473,40 +57594,46 @@
+@@ -54147,40 +54345,46 @@
+         7
+       ],
+       "BULLDOZE": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "CRABHAMMER": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "CRUNCH": [
+         5,
+         5,
+         5,
+         5
+       ],
++      "DARK_PULSE": [
++        6,
++        6,
++        5,
++        6
++      ],
+       "DIG": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "DISCHARGE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "DRAGON_CLAW": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "DRILL_RUN": [
+         5,
+@@ -54955,40 +55159,46 @@
+         12
+       ],
+       "DRILL_PECK": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "DRILL_RUN": [
+         9,
+         9,
+         9,
+         9
+       ],
+       "ENERGY_BALL": [
+         11,
+         11,
+         11,
+         11
+       ],
++      "FELL_STINGER": [
++        7,
++        7,
++        7,
++        7
++      ],
+       "FIRE_BLAST": [
+         16,
+         16,
+         16,
+         16
+       ],
+       "FLAME_CHARGE": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "FLAMETHROWER": [
+         11,
+         11,
+         11,
+         11
+       ],
+       "FLASH_CANNON": [
+         14,
+@@ -55123,40 +55333,46 @@
+         9
+       ],
+       "SIGNAL_BEAM": [
+         11,
+         11,
+         11,
+         11
+       ],
+       "SKY_ATTACK": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "SLUDGE_BOMB": [
+         10,
+         10,
+         10,
+         10
+       ],
++      "SLUDGE_WAVE": [
++        13,
++        13,
++        13,
++        13
++      ],
+       "SUPER_POWER": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "SWIFT": [
+         11,
+         11,
+         11,
+         11
+       ],
+       "THUNDERBOLT": [
+         11,
+         11,
+         11,
+         11
+       ],
+       "TWISTER": [
+         9,
+@@ -55167,40 +55383,46 @@
+       "WATER_PULSE": [
+         12,
+         12,
+         12,
+         12
+       ],
+       "X_SCISSOR": [
+         8,
+         8,
+         8,
+         8
+       ]
+     },
+     "POISON_JAB_FAST": {
+       "ACID_SPRAY": [
+         7,
+         6,
+         7,
+         6
+       ],
++      "ACROBATICS": [
++        9,
++        9,
++        8,
++        9
++      ],
+       "AERIAL_ACE": [
+         6,
+         6,
+         6,
+         5
+       ],
+       "ANCIENT_POWER": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "AQUA_JET": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "AQUA_TAIL": [
+         5,
+@@ -57473,40 +57695,46 @@
          11
        ],
        "SILVER_WIND": [
@@ -727,7 +1738,430 @@ index beaef1b..9c082d0 100644
        ],
        "TRAILBLAZE": [
          13,
-@@ -62783,40 +62910,46 @@
+@@ -57661,40 +57889,46 @@
+         6
+       ],
+       "DAZZLING_GLEAM": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "DIG": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "DISARMING_VOICE": [
+         7,
+         6,
+         7,
+         6
+       ],
++      "DRAGON_CLAW": [
++        5,
++        5,
++        5,
++        5
++      ],
+       "DRILL_PECK": [
+         6,
+         6,
+         6,
+         5
+       ],
+       "DYNAMIC_PUNCH": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "EARTH_POWER": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "EARTHQUAKE": [
+         10,
+@@ -57727,40 +57961,46 @@
+         8
+       ],
+       "FLASH_CANNON": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "FOCUS_BLAST": [
+         11,
+         11,
+         11,
+         10
+       ],
+       "FOUL_PLAY": [
+         7,
+         6,
+         7,
+         6
+       ],
++      "GIGA_IMPACT": [
++        12,
++        11,
++        12,
++        11
++      ],
+       "GRASS_KNOT": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "GUNK_SHOT": [
+         11,
+         11,
+         11,
+         10
+       ],
+       "GYRO_BALL": [
+         9,
+         9,
+         8,
+         9
+       ],
+       "HEAVY_SLAM": [
+         8,
+@@ -57817,40 +58057,46 @@
+         7
+       ],
+       "LEAF_BLADE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "LOW_SWEEP": [
+         6,
+         6,
+         6,
+         5
+       ],
+       "MEGAHORN": [
+         8,
+         8,
+         8,
+         8
+       ],
++      "OUTRAGE": [
++        9,
++        9,
++        8,
++        9
++      ],
+       "OVERHEAT": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "PAYBACK": [
+         9,
+         9,
+         8,
+         9
+       ],
+       "PLAY_ROUGH": [
+         9,
+         9,
+         8,
+         9
+       ],
+       "POWER_UP_PUNCH": [
+         5,
+@@ -58095,40 +58341,46 @@
+         11
+       ],
+       "EARTHQUAKE": [
+         13,
+         13,
+         13,
+         13
+       ],
+       "FLAME_BURST": [
+         11,
+         11,
+         11,
+         11
+       ],
+       "FLAME_CHARGE": [
+         10,
+         10,
+         10,
+         10
+       ],
++      "FLASH_CANNON": [
++        14,
++        14,
++        14,
++        14
++      ],
+       "FLY": [
+         9,
+         9,
+         9,
+         9
+       ],
+       "FOCUS_BLAST": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "GYRO_BALL": [
+         12,
+         12,
+         12,
+         12
+       ],
+       "HEAT_WAVE": [
+         15,
+@@ -59485,40 +59737,46 @@
+         4
+       ],
+       "FIRE_BLAST": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "FLAME_BURST": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "FLAME_CHARGE": [
+         4,
+         4,
+         4,
+         4
+       ],
++      "FLAME_WHEEL": [
++        5,
++        4,
++        4,
++        4
++      ],
+       "FLAMETHROWER": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "FLASH_CANNON": [
+         6,
+         5,
+         6,
+         5
+       ],
+       "FOCUS_BLAST": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "FOUL_PLAY": [
+         4,
+@@ -59575,40 +59833,46 @@
+         3
+       ],
+       "IRON_HEAD": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "LAST_RESORT": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "LEAF_BLADE": [
+         3,
+         3,
+         3,
+         2
+       ],
++      "LEAF_STORM": [
++        5,
++        4,
++        4,
++        4
++      ],
+       "LEAF_TORNADO": [
+         4,
+         3,
+         3,
+         3
+       ],
+       "LOW_SWEEP": [
+         4,
+         3,
+         3,
+         3
+       ],
+       "MEGAHORN": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "MOONBLAST": [
+         5,
+@@ -61641,40 +61905,46 @@
+         7
+       ],
+       "ENERGY_BALL": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "FLAME_CHARGE": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "FLAMETHROWER": [
+         7,
+         7,
+         7,
+         7
+       ],
++      "FLASH_CANNON": [
++        9,
++        9,
++        9,
++        8
++      ],
+       "FOUL_PLAY": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "GRASS_KNOT": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "GUNK_SHOT": [
+         10,
+         9,
+         10,
+         9
+       ],
+       "GYRO_BALL": [
+         8,
+@@ -61797,40 +62067,46 @@
+         7
+       ],
+       "SLUDGE_BOMB": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "SOLAR_BEAM": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "STOMP": [
+         5,
+         5,
+         5,
+         5
+       ],
++      "STONE_EDGE": [
++        7,
++        7,
++        7,
++        7
++      ],
+       "STRUGGLE": [
+         13,
+         12,
+         13,
+         12
+       ],
+       "SUPER_POWER": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "SURF": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "SWIFT": [
+         7,
+@@ -62191,40 +62467,46 @@
+         4
+       ],
+       "MUD_BOMB": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "MUDDY_WATER": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "OMINOUS_WIND": [
+         5,
+         5,
+         5,
+         5
+       ],
++      "OUTRAGE": [
++        7,
++        7,
++        6,
++        7
++      ],
+       "OVERHEAT": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "PARABOLIC_CHARGE": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "PAYBACK": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "PLAY_ROUGH": [
+         7,
+@@ -62783,40 +63065,46 @@
          3
        ],
        "TRAILBLAZE": [

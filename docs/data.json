@@ -1,5 +1,5 @@
 {
-  "timestamp": 1705962526732,
+  "timestamp": 1706042621975,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -18880,6 +18880,7 @@
       ],
       "chargedMoveIds": [
         "SUPER_POWER",
+        "SANDSEAR_STORM",
         "STONE_EDGE",
         "BULLDOZE",
         "EARTHQUAKE"
@@ -36174,7 +36175,6 @@
         "VOLT_SWITCH_FAST"
       ],
       "chargedMoveIds": [
-        "WILDBOLT_STORM",
         "THUNDERBOLT",
         "THUNDER",
         "SLUDGE_WAVE",
@@ -44610,12 +44610,6 @@
         23,
         22
       ],
-      "WILDBOLT_STORM": [
-        23,
-        22,
-        23,
-        22
-      ],
       "X_SCISSOR": [
         20,
         20,
@@ -48915,6 +48909,12 @@
         6,
         7,
         6
+      ],
+      "SANDSEAR_STORM": [
+        5,
+        4,
+        5,
+        4
       ],
       "SCALD": [
         5,
@@ -54589,6 +54589,12 @@
         4,
         5,
         4
+      ],
+      "SANDSEAR_STORM": [
+        5,
+        5,
+        5,
+        5
       ],
       "SCALD": [
         6,
@@ -63077,12 +63083,6 @@
         2
       ],
       "WILD_CHARGE": [
-        3,
-        3,
-        3,
-        3
-      ],
-      "WILDBOLT_STORM": [
         3,
         3,
         3,

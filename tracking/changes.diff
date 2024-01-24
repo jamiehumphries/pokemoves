@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index b345f51..fee146d 100644
+index b345f51..d6cca92 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1705532288947,
-+  "timestamp": 1705962526732,
++  "timestamp": 1706042621975,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -25,4 +25,276 @@ index b345f51..fee146d 100644
          "OUTRAGE",
          "RETURN",
          "BLIZZARD"
+       ],
+@@ -18863,40 +18863,41 @@
+           "max": 188.001518011093
+         },
+         "master": {
+           "rankOne": 233.302805185318,
+           "max": 233.302805185318
+         }
+       }
+     },
+     {
+       "name": "Landorus (Therian)",
+       "types": [
+         "ground",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "EXTRASENSORY_FAST",
+         "MUD_SHOT_FAST"
+       ],
+       "chargedMoveIds": [
+         "SUPER_POWER",
++        "SANDSEAR_STORM",
+         "STONE_EDGE",
+         "BULLDOZE",
+         "EARTHQUAKE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 83.88221651315673,
+           "max": 88.23596477508528
+         },
+         "great": {
+           "rankOne": 145.45880573987947,
+           "max": 153.6279305970856
+         },
+         "ultra": {
+           "rankOne": 187.1508983941786,
+           "max": 198.94843292236325
+         },
+         "master": {
+           "rankOne": 256.97120571136475,
+           "max": 256.97120571136475
+@@ -36157,41 +36158,40 @@
+           "rankOne": 187.04495250522012,
+           "max": 199.68734865333548
+         },
+         "master": {
+           "rankOne": 237.5293052792549,
+           "max": 237.5293052792549
+         }
+       }
+     },
+     {
+       "name": "Thundurus (Therian)",
+       "types": [
+         "electric",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "BITE_FAST",
+         "VOLT_SWITCH_FAST"
+       ],
+       "chargedMoveIds": [
+-        "WILDBOLT_STORM",
+         "THUNDERBOLT",
+         "THUNDER",
+         "SLUDGE_WAVE",
+         "FOCUS_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 90.28692749405303,
+           "max": 93.9596160700823
+         },
+         "great": {
+           "rankOne": 153.14860820770264,
+           "max": 163.04217771911198
+         },
+         "ultra": {
+           "rankOne": 197.7084641456604,
+           "max": 210.47996038198454
+         },
+         "master": {
+           "rankOne": 262.04300582408905,
+@@ -44593,46 +44593,40 @@
+         22
+       ],
+       "VICE_GRIP": [
+         20,
+         20,
+         20,
+         20
+       ],
+       "WEATHER_BALL_ROCK": [
+         18,
+         17,
+         18,
+         17
+       ],
+       "WILD_CHARGE": [
+         23,
+         22,
+         23,
+         22
+       ],
+-      "WILDBOLT_STORM": [
+-        23,
+-        22,
+-        23,
+-        22
+-      ],
+       "X_SCISSOR": [
+         20,
+         20,
+         20,
+         20
+       ]
+     },
+     "BUBBLE_FAST": {
+       "AERIAL_ACE": [
+         4,
+         4,
+         3,
+         4
+       ],
+       "AQUA_JET": [
+         5,
+         4,
+         4,
+         4
+       ],
+@@ -48899,40 +48893,46 @@
+         7
+       ],
+       "ROCK_TOMB": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "SACRED_FIRE": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "SACRED_FIRE_PLUS_PLUS": [
+         7,
+         6,
+         7,
+         6
+       ],
++      "SANDSEAR_STORM": [
++        5,
++        4,
++        5,
++        4
++      ],
+       "SCALD": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "SCORCHING_SANDS": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "SEED_BOMB": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "SHADOW_BALL": [
+         6,
+@@ -54573,40 +54573,46 @@
+         4
+       ],
+       "ROCK_SLIDE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "ROCK_TOMB": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "SAND_TOMB": [
+         5,
+         4,
+         5,
+         4
+       ],
++      "SANDSEAR_STORM": [
++        5,
++        5,
++        5,
++        5
++      ],
+       "SCALD": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "SCORCHING_SANDS": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "SEED_BOMB": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "SHADOW_BALL": [
+         7,
+@@ -63065,46 +63071,40 @@
+         3
+       ],
+       "TRAILBLAZE": [
+         4,
+         3,
+         3,
+         3
+       ],
+       "VICE_GRIP": [
+         3,
+         2,
+         3,
+         2
+       ],
+       "WILD_CHARGE": [
+         3,
+         3,
+         3,
+         3
+       ],
+-      "WILDBOLT_STORM": [
+-        3,
+-        3,
+-        3,
+-        3
+-      ],
+       "X_SCISSOR": [
+         3,
+         2,
+         3,
+         2
+       ],
+       "ZAP_CANNON": [
+         5,
+         5,
+         5,
+         5
+       ]
+     },
+     "WATER_GUN_FAST": {
+       "ACID_SPRAY": [
+         15,
+         15,
+         15,
+         15
        ],

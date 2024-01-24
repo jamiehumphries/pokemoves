@@ -69,7 +69,6 @@ const defaultPokemonFormNames = {
   ORICORIO: "Baile",
   PALAFIN: "Zero",
   PUMPKABOO: "Small Size",
-  SHAYMIN: "Land",
   SILVALLY: "Normal",
   TORNADUS: "Incarnate",
   THUNDURUS: "Incarnate",

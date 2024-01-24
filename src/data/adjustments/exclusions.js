@@ -9,6 +9,7 @@ module.exports = {
     "Genesect (Normal)",
     "Kyurem (Normal)",
     "Meloetta",
+    "Shaymin",
     "Urshifu",
     "Wormadam",
     "Zacian",

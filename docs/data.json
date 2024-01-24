@@ -31195,6 +31195,7 @@
       ],
       "fastMoveIds": [
         "HIDDEN_POWER_FAST",
+        "MAGICAL_LEAF_FAST",
         "ZEN_HEADBUTT_FAST"
       ],
       "chargedMoveIds": [
@@ -31230,6 +31231,7 @@
       ],
       "fastMoveIds": [
         "HIDDEN_POWER_FAST",
+        "MAGICAL_LEAF_FAST",
         "ZEN_HEADBUTT_FAST"
       ],
       "chargedMoveIds": [
@@ -53829,6 +53831,12 @@
         4,
         5,
         4
+      ],
+      "SEED_FLARE": [
+        8,
+        7,
+        8,
+        7
       ],
       "SHADOW_BALL": [
         6,

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1706042621975,
+  "timestamp": 1706137823492,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -6832,7 +6832,8 @@
         "BUBBLE_BEAM",
         "VICE_GRIP",
         "AQUA_JET",
-        "SCALD"
+        "SCALD",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -7236,7 +7237,8 @@
         "BUBBLE_BEAM",
         "VICE_GRIP",
         "CRABHAMMER",
-        "SCALD"
+        "SCALD",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -7305,7 +7307,8 @@
       "chargedMoveIds": [
         "BRICK_BREAK",
         "LOW_SWEEP",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -7443,7 +7446,8 @@
       "chargedMoveIds": [
         "ROCK_BLAST",
         "X_SCISSOR",
-        "ROCK_SLIDE"
+        "ROCK_SLIDE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -10098,7 +10102,8 @@
       "chargedMoveIds": [
         "ROCK_BLAST",
         "X_SCISSOR",
-        "ROCK_TOMB"
+        "ROCK_TOMB",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -10679,6 +10684,7 @@
         "DRILL_PECK",
         "HYDRO_CANNON",
         "FLASH_CANNON",
+        "RETURN",
         "BLIZZARD",
         "HYDRO_PUMP"
       ],
@@ -11309,7 +11315,8 @@
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
-        "MIRROR_COAT"
+        "MIRROR_COAT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -11413,7 +11420,8 @@
       "chargedMoveIds": [
         "IRON_HEAD",
         "GYRO_BALL",
-        "FLASH_CANNON"
+        "FLASH_CANNON",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -11449,7 +11457,8 @@
         "ACID_SPRAY",
         "POWER_WHIP",
         "THUNDER",
-        "FLASH_CANNON"
+        "FLASH_CANNON",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -12340,7 +12349,8 @@
         "AVALANCHE",
         "CRUNCH",
         "TRIPLE_AXEL",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -13512,7 +13522,8 @@
       "chargedMoveIds": [
         "AVALANCHE",
         "SHADOW_BALL",
-        "GYRO_BALL"
+        "GYRO_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -13545,7 +13556,8 @@
       "chargedMoveIds": [
         "AVALANCHE",
         "SHADOW_BALL",
-        "GYRO_BALL"
+        "GYRO_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -18601,6 +18613,7 @@
         "SURF",
         "ORIGIN_PULSE",
         "THUNDER",
+        "RETURN",
         "BLIZZARD",
         "HYDRO_PUMP"
       ],
@@ -18635,6 +18648,7 @@
         "SURF",
         "ORIGIN_PULSE",
         "THUNDER",
+        "RETURN",
         "BLIZZARD",
         "HYDRO_PUMP"
       ],
@@ -22532,6 +22546,7 @@
       ],
       "chargedMoveIds": [
         "SURF",
+        "RETURN",
         "BLIZZARD",
         "HYPER_BEAM"
       ],
@@ -26749,7 +26764,8 @@
       "chargedMoveIds": [
         "BUBBLE_BEAM",
         "DRILL_PECK",
-        "ICY_WIND"
+        "ICY_WIND",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -27351,6 +27367,7 @@
       "chargedMoveIds": [
         "BUBBLE_BEAM",
         "ICY_WIND",
+        "RETURN",
         "HYDRO_PUMP"
       ],
       "cmp": {
@@ -33657,7 +33674,8 @@
       "chargedMoveIds": [
         "AVALANCHE",
         "ICY_WIND",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -35939,7 +35957,8 @@
       "chargedMoveIds": [
         "BUBBLE_BEAM",
         "WRAP",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -35974,6 +35993,7 @@
         "ACID_SPRAY",
         "SCALD",
         "SLUDGE_WAVE",
+        "RETURN",
         "BLIZZARD",
         "HYDRO_PUMP"
       ],
@@ -36177,6 +36197,7 @@
         "VOLT_SWITCH_FAST"
       ],
       "chargedMoveIds": [
+        "WILDBOLT_STORM",
         "THUNDERBOLT",
         "THUNDER",
         "SLUDGE_WAVE",
@@ -37002,7 +37023,8 @@
         "MUD_BOMB",
         "DYNAMIC_PUNCH",
         "SLUDGE_BOMB",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -44607,6 +44629,12 @@
         17
       ],
       "WILD_CHARGE": [
+        23,
+        22,
+        23,
+        22
+      ],
+      "WILDBOLT_STORM": [
         23,
         22,
         23,
@@ -63091,6 +63119,12 @@
         2
       ],
       "WILD_CHARGE": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "WILDBOLT_STORM": [
         3,
         3,
         3,

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1706137823492,
+  "timestamp": 1707253584990,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -3603,6 +3603,7 @@
         "ZEN_HEADBUTT_FAST"
       ],
       "chargedMoveIds": [
+        "WILD_CHARGE",
         "PSYCHIC",
         "DAZZLING_GLEAM",
         "HYPER_BEAM"

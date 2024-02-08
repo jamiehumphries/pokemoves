@@ -1,0 +1,70 @@
+diff --git a/docs/data.json b/docs/data.json
+index 7146c20..aa4ac1e 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -1,22 +1,22 @@
+ {
+-  "timestamp": 1706137823492,
++  "timestamp": 1707253584990,
+   "pokemon": [
+     {
+       "name": "Abomasnow",
+       "types": [
+         "grass",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "LEAFAGE_FAST",
+         "POWDER_SNOW_FAST",
+         "RAZOR_LEAF_FAST"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_ICE",
+         "ICY_WIND",
+         "ENERGY_BALL",
+         "OUTRAGE",
+         "RETURN",
+         "BLIZZARD"
+       ],
+@@ -3586,40 +3586,41 @@
+         "ultra": {
+           "rankOne": 51.563301146030426,
+           "max": 51.563301146030426
+         },
+         "master": {
+           "rankOne": 51.563301146030426,
+           "max": 51.563301146030426
+         }
+       }
+     },
+     {
+       "name": "Blissey",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
+         "POUND_FAST",
+         "ZEN_HEADBUTT_FAST"
+       ],
+       "chargedMoveIds": [
++        "WILD_CHARGE",
+         "PSYCHIC",
+         "DAZZLING_GLEAM",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 46.75704959246391,
+           "max": 49.238987356424275
+         },
+         "great": {
+           "rankOne": 79.90313026302046,
+           "max": 86.02560138702384
+         },
+         "ultra": {
+           "rankOne": 102.59370088577269,
+           "max": 111.3388566970824
+         },
+         "master": {
+           "rankOne": 121.7232027053833,
+           "max": 121.7232027053833

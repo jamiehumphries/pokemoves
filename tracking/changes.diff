@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 7146c20..aa4ac1e 100644
+index 7146c20..acc9597 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1706137823492,
-+  "timestamp": 1707253584990,
++  "timestamp": 1707774664609,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -68,3 +68,208 @@ index 7146c20..aa4ac1e 100644
          "master": {
            "rankOne": 121.7232027053833,
            "max": 121.7232027053833
+@@ -10690,40 +10691,110 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 72.12068194344155,
+           "max": 75.47513226639232
+         },
+         "great": {
+           "rankOne": 123.87646151522712,
+           "max": 132.7247801948862
+         },
+         "ultra": {
+           "rankOne": 160.07100733565332,
+           "max": 171.3518634438513
+         },
+         "master": {
+           "rankOne": 190.1925042271614,
+           "max": 190.1925042271614
+         }
+       }
+     },
++    {
++      "name": "Enamorus",
++      "types": [
++        "fairy",
++        "flying"
++      ],
++      "fastMoveIds": [
++        "ASTONISH_FAST",
++        "FAIRY_WIND_FAST",
++        "ZEN_HEADBUTT_FAST"
++      ],
++      "chargedMoveIds": [
++        "FLY",
++        "GRASS_KNOT",
++        "DAZZLING_GLEAM"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 88.45058320603839,
++          "max": 91.50996565818782
++        },
++        "great": {
++          "rankOne": 151.75662946701024,
++          "max": 160.6201856201845
++        },
++        "ultra": {
++          "rankOne": 195.0543664693831,
++          "max": 207.3606964102815
++        },
++        "master": {
++          "rankOne": 250.20880556106567,
++          "max": 250.20880556106567
++        }
++      }
++    },
++    {
++      "name": "Enamorus (Therian)",
++      "types": [
++        "fairy",
++        "flying"
++      ],
++      "fastMoveIds": [
++        "ASTONISH_FAST",
++        "FAIRY_WIND_FAST",
++        "ZEN_HEADBUTT_FAST"
++      ],
++      "chargedMoveIds": [
++        "FLY",
++        "GRASS_KNOT",
++        "DAZZLING_GLEAM"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 80.27189970016475,
++          "max": 82.19842529296871
++        },
++        "great": {
++          "rankOne": 135.65894055758827,
++          "max": 143.79847699104354
++        },
++        "ultra": {
++          "rankOne": 175.1357233194945,
++          "max": 185.91054600477216
++        },
++        "master": {
++          "rankOne": 224.00450497865677,
++          "max": 224.00450497865677
++        }
++      }
++    },
+     {
+       "name": "Entei",
+       "types": [
+         "fire"
+       ],
+       "fastMoveIds": [
+         "FIRE_FANG_FAST",
+         "FIRE_SPIN_FAST"
+       ],
+       "chargedMoveIds": [
+         "FLAME_CHARGE",
+         "IRON_HEAD",
+         "SCORCHING_SANDS",
+         "FLAMETHROWER",
+         "OVERHEAT",
+         "RETURN",
+         "FIRE_BLAST"
+       ],
+       "cmp": {
+         "little": {
+@@ -43823,40 +43894,46 @@
+         5
+       ],
+       "FLAME_CHARGE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "FLAMETHROWER": [
+         6,
+         5,
+         6,
+         5
+       ],
+       "FLASH_CANNON": [
+         7,
+         7,
+         7,
+         7
+       ],
++      "FLY": [
++        5,
++        4,
++        5,
++        4
++      ],
+       "FOCUS_BLAST": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "FOUL_PLAY": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "FRENZY_PLANT": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "FUTURESIGHT": [
+         7,
+@@ -49069,40 +49146,46 @@
+         6
+       ],
+       "ENERGY_BALL": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "FLAMETHROWER": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "FLASH_CANNON": [
+         8,
+         8,
+         8,
+         8
+       ],
++      "FLY": [
++        5,
++        5,
++        5,
++        5
++      ],
+       "GRASS_KNOT": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "HEAVY_SLAM": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "HIGH_HORSEPOWER": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "HURRICANE": [
+         8,

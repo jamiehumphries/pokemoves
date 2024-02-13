@@ -1,5 +1,5 @@
 {
-  "timestamp": 1707253584990,
+  "timestamp": 1707774664609,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -10705,6 +10705,76 @@
         "master": {
           "rankOne": 190.1925042271614,
           "max": 190.1925042271614
+        }
+      }
+    },
+    {
+      "name": "Enamorus",
+      "types": [
+        "fairy",
+        "flying"
+      ],
+      "fastMoveIds": [
+        "ASTONISH_FAST",
+        "FAIRY_WIND_FAST",
+        "ZEN_HEADBUTT_FAST"
+      ],
+      "chargedMoveIds": [
+        "FLY",
+        "GRASS_KNOT",
+        "DAZZLING_GLEAM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 88.45058320603839,
+          "max": 91.50996565818782
+        },
+        "great": {
+          "rankOne": 151.75662946701024,
+          "max": 160.6201856201845
+        },
+        "ultra": {
+          "rankOne": 195.0543664693831,
+          "max": 207.3606964102815
+        },
+        "master": {
+          "rankOne": 250.20880556106567,
+          "max": 250.20880556106567
+        }
+      }
+    },
+    {
+      "name": "Enamorus (Therian)",
+      "types": [
+        "fairy",
+        "flying"
+      ],
+      "fastMoveIds": [
+        "ASTONISH_FAST",
+        "FAIRY_WIND_FAST",
+        "ZEN_HEADBUTT_FAST"
+      ],
+      "chargedMoveIds": [
+        "FLY",
+        "GRASS_KNOT",
+        "DAZZLING_GLEAM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 80.27189970016475,
+          "max": 82.19842529296871
+        },
+        "great": {
+          "rankOne": 135.65894055758827,
+          "max": 143.79847699104354
+        },
+        "ultra": {
+          "rankOne": 175.1357233194945,
+          "max": 185.91054600477216
+        },
+        "master": {
+          "rankOne": 224.00450497865677,
+          "max": 224.00450497865677
         }
       }
     },
@@ -43841,6 +43911,12 @@
         7,
         7
       ],
+      "FLY": [
+        5,
+        4,
+        5,
+        4
+      ],
       "FOCUS_BLAST": [
         8,
         7,
@@ -49086,6 +49162,12 @@
         8,
         8,
         8
+      ],
+      "FLY": [
+        5,
+        5,
+        5,
+        5
       ],
       "GRASS_KNOT": [
         6,

@@ -58,6 +58,7 @@ const specialPokemonFormNames = {
 
 const defaultPokemonFormNames = {
   CHERRIM: "Overcast",
+  ENAMORUS: "Incarnate",
   GIRATINA: "Altered",
   GOURGEIST: "Small Size",
   HOOPA: "Confined",

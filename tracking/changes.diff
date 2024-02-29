@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 65f4817..b45186f 100644
+index 65f4817..412a470 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1707774664609,
-+  "timestamp": 1709078230760,
++  "timestamp": 1709162674092,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -25,4 +25,458 @@ index 65f4817..b45186f 100644
          "OUTRAGE",
          "RETURN",
          "BLIZZARD"
+       ],
+@@ -26494,40 +26494,74 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.1737732291221,
+           "max": 78.0449179313223
+         },
+         "great": {
+           "rankOne": 107.35310238599777,
+           "max": 107.35310238599777
+         },
+         "ultra": {
+           "rankOne": 107.35310238599777,
+           "max": 107.35310238599777
+         },
+         "master": {
+           "rankOne": 107.35310238599777,
+           "max": 107.35310238599777
+         }
+       }
+     },
++    {
++      "name": "Pikachu (Horizons)",
++      "types": [
++        "electric"
++      ],
++      "fastMoveIds": [
++        "QUICK_ATTACK_FAST",
++        "THUNDER_SHOCK_FAST"
++      ],
++      "chargedMoveIds": [
++        "DISCHARGE",
++        "WILD_CHARGE",
++        "VOLT_TACKLE",
++        "THUNDERBOLT"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 69.1737732291221,
++          "max": 78.0449179313223
++        },
++        "great": {
++          "rankOne": 107.35310238599777,
++          "max": 107.35310238599777
++        },
++        "ultra": {
++          "rankOne": 107.35310238599777,
++          "max": 107.35310238599777
++        },
++        "master": {
++          "rankOne": 107.35310238599777,
++          "max": 107.35310238599777
++        }
++      }
++    },
+     {
+       "name": "Pikachu (Libre)",
+       "types": [
+         "electric"
+       ],
+       "fastMoveIds": [
+         "CHARM_FAST",
+         "THUNDER_SHOCK_FAST"
+       ],
+       "chargedMoveIds": [
+         "FLYING_PRESS",
+         "THUNDER_PUNCH",
+         "PLAY_ROUGH"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.1737732291221,
+           "max": 78.0449179313223
+         },
+         "great": {
+@@ -41604,40 +41638,46 @@
+     },
+     "CRUNCH": {
+       "name": "Crunch",
+       "type": "dark",
+       "energy": -45,
+       "damage": 70
+     },
+     "CUT_FAST": {
+       "name": "Cut",
+       "type": "normal",
+       "energy": 2,
+       "damage": 3,
+       "turns": 1
+     },
+     "DARK_PULSE": {
+       "name": "Dark Pulse",
+       "type": "dark",
+       "energy": -50,
+       "damage": 80
+     },
++    "DARKEST_LARIAT": {
++      "name": "Darkest Lariat",
++      "type": "dark",
++      "energy": -60,
++      "damage": 120
++    },
+     "DAZZLING_GLEAM": {
+       "name": "Dazzling Gleam",
+       "type": "fairy",
+       "energy": -70,
+       "damage": 110
+     },
+     "DIG": {
+       "name": "Dig",
+       "type": "ground",
+       "energy": -50,
+       "damage": 80
+     },
+     "DISARMING_VOICE": {
+       "name": "Disarming Voice",
+       "type": "fairy",
+       "energy": -45,
+       "damage": 70
+     },
+     "DISCHARGE": {
+       "name": "Discharge",
+@@ -42213,40 +42253,47 @@
+     },
+     "MEGA_DRAIN": {
+       "name": "Mega Drain",
+       "type": "grass",
+       "energy": -55,
+       "damage": 25
+     },
+     "MEGAHORN": {
+       "name": "Megahorn",
+       "type": "bug",
+       "energy": -55,
+       "damage": 110
+     },
+     "METAL_CLAW_FAST": {
+       "name": "Metal Claw",
+       "type": "steel",
+       "energy": 6,
+       "damage": 5,
+       "turns": 2
+     },
++    "METAL_SOUND_FAST": {
++      "name": "Metal Sound",
++      "type": "steel",
++      "energy": 8,
++      "damage": 3,
++      "turns": 2
++    },
+     "METEOR_BEAM": {
+       "name": "Meteor Beam",
+       "type": "rock",
+       "energy": -60,
+       "damage": 120
+     },
+     "METEOR_MASH": {
+       "name": "Meteor Mash",
+       "type": "steel",
+       "energy": -50,
+       "damage": 100
+     },
+     "MIRROR_COAT": {
+       "name": "Mirror Coat",
+       "type": "psychic",
+       "energy": -55,
+       "damage": 60
+     },
+     "MIRROR_SHOT": {
+       "name": "Mirror Shot",
+@@ -42281,40 +42328,46 @@
+     },
+     "MUD_SLAP_FAST": {
+       "name": "Mud Slap",
+       "type": "ground",
+       "energy": 9,
+       "damage": 11,
+       "turns": 3
+     },
+     "MUDDY_WATER": {
+       "name": "Muddy Water",
+       "type": "water",
+       "energy": -35,
+       "damage": 35
+     },
+     "MYSTICAL_FIRE": {
+       "name": "Mystical Fire",
+       "type": "fire",
+       "energy": -45,
+       "damage": 60
+     },
++    "NATURES_MADNESS": {
++      "name": "Natures Madness",
++      "type": "fairy",
++      "energy": -50,
++      "damage": 80
++    },
+     "NIGHT_SHADE": {
+       "name": "Night Shade",
+       "type": "ghost",
+       "energy": -55,
+       "damage": 60
+     },
+     "NIGHT_SLASH": {
+       "name": "Night Slash",
+       "type": "dark",
+       "energy": -35,
+       "damage": 50
+     },
+     "OBLIVION_WING": {
+       "name": "Oblivion Wing",
+       "type": "flying",
+       "energy": -50,
+       "damage": 85
+     },
+     "OBSTRUCT": {
+       "name": "Obstruct",
+@@ -42480,40 +42533,47 @@
+     },
+     "PSYCHO_CUT_FAST": {
+       "name": "Psycho Cut",
+       "type": "psychic",
+       "energy": 9,
+       "damage": 3,
+       "turns": 2
+     },
+     "PSYSHOCK": {
+       "name": "Psyshock",
+       "type": "psychic",
+       "energy": -45,
+       "damage": 70
+     },
+     "PSYSTRIKE": {
+       "name": "Psystrike",
+       "type": "psychic",
+       "energy": -45,
+       "damage": 90
+     },
++    "PSYWAVE_FAST": {
++      "name": "Psywave",
++      "type": "psychic",
++      "energy": 2,
++      "damage": 3,
++      "turns": 1
++    },
+     "QUICK_ATTACK_FAST": {
+       "name": "Quick Attack",
+       "type": "normal",
+       "energy": 8,
+       "damage": 5,
+       "turns": 2
+     },
+     "RAZOR_LEAF_FAST": {
+       "name": "Razor Leaf",
+       "type": "grass",
+       "energy": 4,
+       "damage": 10,
+       "turns": 2
+     },
+     "RAZOR_SHELL": {
+       "name": "Razor Shell",
+       "type": "water",
+       "energy": -35,
+       "damage": 35
+     },
+@@ -42587,40 +42647,47 @@
+       "damage": 130
+     },
+     "SACRED_FIRE_PLUS": {
+       "name": "Sacred Fire",
+       "type": "fire",
+       "energy": -65,
+       "damage": 130
+     },
+     "SACRED_FIRE_PLUS_PLUS": {
+       "name": "Sacred Fire",
+       "type": "fire",
+       "energy": -65,
+       "damage": 130
+     },
+     "SACRED_SWORD": {
+       "name": "Sacred Sword",
+       "type": "fighting",
+       "energy": -35,
+       "damage": 60
+     },
++    "SAND_ATTACK_FAST": {
++      "name": "Sand Attack",
++      "type": "ground",
++      "energy": 4,
++      "damage": 2,
++      "turns": 1
++    },
+     "SAND_TOMB": {
+       "name": "Sand Tomb",
+       "type": "ground",
+       "energy": -40,
+       "damage": 25
+     },
+     "SANDSEAR_STORM": {
+       "name": "Sandsear Storm",
+       "type": "ground",
+       "energy": -45,
+       "damage": 60
+     },
+     "SCALD": {
+       "name": "Scald",
+       "type": "water",
+       "energy": -50,
+       "damage": 85
+     },
+     "SCALD_BLASTOISE": {
+       "name": "Scald",
+@@ -42962,40 +43029,46 @@
+     "VICE_GRIP": {
+       "name": "Vise Grip",
+       "type": "normal",
+       "energy": -40,
+       "damage": 40
+     },
+     "VINE_WHIP_FAST": {
+       "name": "Vine Whip",
+       "type": "grass",
+       "energy": 8,
+       "damage": 5,
+       "turns": 2
+     },
+     "VOLT_SWITCH_FAST": {
+       "name": "Volt Switch",
+       "type": "electric",
+       "energy": 16,
+       "damage": 12,
+       "turns": 4
+     },
++    "VOLT_TACKLE": {
++      "name": "Volt Tackle",
++      "type": "electric",
++      "energy": -50,
++      "damage": 90
++    },
+     "WATER_GUN_FAST": {
+       "name": "Water Gun",
+       "type": "water",
+       "energy": 3,
+       "damage": 3,
+       "turns": 1
+     },
+     "WATER_GUN_FAST_BLASTOISE": {
+       "name": "Water Gun",
+       "type": "water",
+       "energy": 4,
+       "damage": 6,
+       "turns": 2
+     },
+     "WATER_PULSE": {
+       "name": "Water Pulse",
+       "type": "water",
+       "energy": -60,
+       "damage": 70
+     },
+@@ -57536,40 +57609,46 @@
+         7
+       ],
+       "TRAILBLAZE": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "TWISTER": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "V_CREATE": [
+         5,
+         5,
+         5,
+         5
+       ],
++      "VOLT_TACKLE": [
++        7,
++        6,
++        6,
++        6
++      ],
+       "WATER_PULSE": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "WEATHER_BALL_FIRE": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "WILD_CHARGE": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "X_SCISSOR": [
+         5,
+@@ -62706,40 +62785,46 @@
+         4
+       ],
+       "THUNDERBOLT": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "TRAILBLAZE": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "VICE_GRIP": [
+         5,
+         4,
+         5,
+         4
+       ],
++      "VOLT_TACKLE": [
++        6,
++        6,
++        5,
++        6
++      ],
+       "WILD_CHARGE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "ZAP_CANNON": [
+         9,
+         9,
+         9,
+         9
+       ]
+     },
+     "VINE_WHIP_FAST": {
+       "AERIAL_ACE": [
+         5,
+         5,
+         5,
+         5
        ],

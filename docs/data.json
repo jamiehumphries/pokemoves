@@ -1,5 +1,5 @@
 {
-  "timestamp": 1709078230760,
+  "timestamp": 1709162674092,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -26512,6 +26512,40 @@
       }
     },
     {
+      "name": "Pikachu (Horizons)",
+      "types": [
+        "electric"
+      ],
+      "fastMoveIds": [
+        "QUICK_ATTACK_FAST",
+        "THUNDER_SHOCK_FAST"
+      ],
+      "chargedMoveIds": [
+        "DISCHARGE",
+        "WILD_CHARGE",
+        "VOLT_TACKLE",
+        "THUNDERBOLT"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 69.1737732291221,
+          "max": 78.0449179313223
+        },
+        "great": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        },
+        "ultra": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        },
+        "master": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        }
+      }
+    },
+    {
       "name": "Pikachu (Libre)",
       "types": [
         "electric"
@@ -41621,6 +41655,12 @@
       "energy": -50,
       "damage": 80
     },
+    "DARKEST_LARIAT": {
+      "name": "Darkest Lariat",
+      "type": "dark",
+      "energy": -60,
+      "damage": 120
+    },
     "DAZZLING_GLEAM": {
       "name": "Dazzling Gleam",
       "type": "fairy",
@@ -42230,6 +42270,13 @@
       "damage": 5,
       "turns": 2
     },
+    "METAL_SOUND_FAST": {
+      "name": "Metal Sound",
+      "type": "steel",
+      "energy": 8,
+      "damage": 3,
+      "turns": 2
+    },
     "METEOR_BEAM": {
       "name": "Meteor Beam",
       "type": "rock",
@@ -42297,6 +42344,12 @@
       "type": "fire",
       "energy": -45,
       "damage": 60
+    },
+    "NATURES_MADNESS": {
+      "name": "Natures Madness",
+      "type": "fairy",
+      "energy": -50,
+      "damage": 80
     },
     "NIGHT_SHADE": {
       "name": "Night Shade",
@@ -42497,6 +42550,13 @@
       "energy": -45,
       "damage": 90
     },
+    "PSYWAVE_FAST": {
+      "name": "Psywave",
+      "type": "psychic",
+      "energy": 2,
+      "damage": 3,
+      "turns": 1
+    },
     "QUICK_ATTACK_FAST": {
       "name": "Quick Attack",
       "type": "normal",
@@ -42603,6 +42663,13 @@
       "type": "fighting",
       "energy": -35,
       "damage": 60
+    },
+    "SAND_ATTACK_FAST": {
+      "name": "Sand Attack",
+      "type": "ground",
+      "energy": 4,
+      "damage": 2,
+      "turns": 1
     },
     "SAND_TOMB": {
       "name": "Sand Tomb",
@@ -42978,6 +43045,12 @@
       "energy": 16,
       "damage": 12,
       "turns": 4
+    },
+    "VOLT_TACKLE": {
+      "name": "Volt Tackle",
+      "type": "electric",
+      "energy": -50,
+      "damage": 90
     },
     "WATER_GUN_FAST": {
       "name": "Water Gun",
@@ -57553,6 +57626,12 @@
         5,
         5
       ],
+      "VOLT_TACKLE": [
+        7,
+        6,
+        6,
+        6
+      ],
       "WATER_PULSE": [
         8,
         7,
@@ -62722,6 +62801,12 @@
         4,
         5,
         4
+      ],
+      "VOLT_TACKLE": [
+        6,
+        6,
+        5,
+        6
       ],
       "WILD_CHARGE": [
         5,

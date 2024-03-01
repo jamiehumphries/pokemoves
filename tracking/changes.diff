@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 65f4817..412a470 100644
+index 65f4817..f555242 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1707774664609,
-+  "timestamp": 1709162674092,
++  "timestamp": 1709241592722,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,7 +26,81 @@ index 65f4817..412a470 100644
          "RETURN",
          "BLIZZARD"
        ],
-@@ -26494,40 +26494,74 @@
+@@ -26422,40 +26422,73 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.1737732291221,
+           "max": 78.0449179313223
+         },
+         "great": {
+           "rankOne": 107.35310238599777,
+           "max": 107.35310238599777
+         },
+         "ultra": {
+           "rankOne": 107.35310238599777,
+           "max": 107.35310238599777
+         },
+         "master": {
+           "rankOne": 107.35310238599777,
+           "max": 107.35310238599777
+         }
+       }
+     },
++    {
++      "name": "Pikachu (Doctor)",
++      "types": [
++        "electric"
++      ],
++      "fastMoveIds": [
++        "CHARM_FAST",
++        "PRESENT_FAST",
++        "THUNDER_SHOCK_FAST"
++      ],
++      "chargedMoveIds": [
++        "THUNDER_PUNCH",
++        "PLAY_ROUGH"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 69.1737732291221,
++          "max": 78.0449179313223
++        },
++        "great": {
++          "rankOne": 107.35310238599777,
++          "max": 107.35310238599777
++        },
++        "ultra": {
++          "rankOne": 107.35310238599777,
++          "max": 107.35310238599777
++        },
++        "master": {
++          "rankOne": 107.35310238599777,
++          "max": 107.35310238599777
++        }
++      }
++    },
+     {
+       "name": "Pikachu (Flying)",
+       "types": [
+         "electric"
+       ],
+       "fastMoveIds": [
+         "PRESENT_FAST",
+         "QUICK_ATTACK_FAST",
+         "THUNDER_SHOCK_FAST"
+       ],
+       "chargedMoveIds": [
+         "DISCHARGE",
+         "FLY",
+         "WILD_CHARGE",
+         "THUNDERBOLT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.1737732291221,
+           "max": 78.0449179313223
+@@ -26494,40 +26527,74 @@
        ],
        "cmp": {
          "little": {
@@ -101,7 +175,49 @@ index 65f4817..412a470 100644
            "max": 78.0449179313223
          },
          "great": {
-@@ -41604,40 +41638,46 @@
+@@ -35802,40 +35869,41 @@
+           "rankOne": 145.5861847806305,
+           "max": 155.9551573120661
+         },
+         "master": {
+           "rankOne": 172.44120383262634,
+           "max": 172.44120383262634
+         }
+       }
+     },
+     {
+       "name": "Tapu Koko",
+       "types": [
+         "electric",
+         "fairy"
+       ],
+       "fastMoveIds": [
+         "QUICK_ATTACK_FAST",
+         "VOLT_SWITCH_FAST"
+       ],
+       "chargedMoveIds": [
++        "NATURES_MADNESS",
+         "BRAVE_BIRD",
+         "THUNDERBOLT",
+         "THUNDER",
+         "DAZZLING_GLEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 81.23516249656673,
+           "max": 85.08821368217464
+         },
+         "great": {
+           "rankOne": 140.26648045895985,
+           "max": 149.62319326400743
+         },
+         "ultra": {
+           "rankOne": 181.3939042431495,
+           "max": 193.168800830841
+         },
+         "master": {
+           "rankOne": 224.00450497865677,
+@@ -41604,40 +41672,46 @@
      },
      "CRUNCH": {
        "name": "Crunch",
@@ -148,7 +264,7 @@ index 65f4817..412a470 100644
      },
      "DISCHARGE": {
        "name": "Discharge",
-@@ -42213,40 +42253,47 @@
+@@ -42213,40 +42287,47 @@
      },
      "MEGA_DRAIN": {
        "name": "Mega Drain",
@@ -196,7 +312,7 @@ index 65f4817..412a470 100644
      },
      "MIRROR_SHOT": {
        "name": "Mirror Shot",
-@@ -42281,40 +42328,46 @@
+@@ -42281,40 +42362,46 @@
      },
      "MUD_SLAP_FAST": {
        "name": "Mud Slap",
@@ -243,7 +359,7 @@ index 65f4817..412a470 100644
      },
      "OBSTRUCT": {
        "name": "Obstruct",
-@@ -42480,40 +42533,47 @@
+@@ -42480,40 +42567,47 @@
      },
      "PSYCHO_CUT_FAST": {
        "name": "Psycho Cut",
@@ -291,7 +407,7 @@ index 65f4817..412a470 100644
        "energy": -35,
        "damage": 35
      },
-@@ -42587,40 +42647,47 @@
+@@ -42587,40 +42681,47 @@
        "damage": 130
      },
      "SACRED_FIRE_PLUS": {
@@ -339,7 +455,7 @@ index 65f4817..412a470 100644
      },
      "SCALD_BLASTOISE": {
        "name": "Scald",
-@@ -42962,40 +43029,46 @@
+@@ -42962,40 +43063,46 @@
      "VICE_GRIP": {
        "name": "Vise Grip",
        "type": "normal",
@@ -386,7 +502,125 @@ index 65f4817..412a470 100644
        "energy": -60,
        "damage": 70
      },
-@@ -57536,40 +57609,46 @@
+@@ -56812,58 +56919,70 @@
+         3
+       ],
+       "GRASS_KNOT": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "ICE_PUNCH": [
+         4,
+         3,
+         3,
+         4
+       ],
+       "ICY_WIND": [
+         4,
+         4,
+         4,
+         3
+       ],
++      "PLAY_ROUGH": [
++        5,
++        5,
++        5,
++        5
++      ],
+       "RETURN": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "SURF": [
+         4,
+         3,
+         3,
+         4
+       ],
+       "THUNDER": [
+         5,
+         5,
+         5,
+         5
+       ],
++      "THUNDER_PUNCH": [
++        4,
++        3,
++        3,
++        4
++      ],
+       "THUNDERBOLT": [
+         5,
+         5,
+         4,
+         5
+       ],
+       "TRIPLE_AXEL": [
+         4,
+         4,
+         4,
+         3
+       ],
+       "WILD_CHARGE": [
+         4,
+         4,
+         4,
+         3
+       ]
+     },
+     "PSYCHO_CUT_FAST": {
+@@ -57356,40 +57475,46 @@
+         7
+       ],
+       "LEAF_BLADE": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "LOW_SWEEP": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "MOONBLAST": [
+         8,
+         7,
+         8,
+         7
+       ],
++      "NATURES_MADNESS": [
++        7,
++        6,
++        6,
++        6
++      ],
+       "NIGHT_SHADE": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "NIGHT_SLASH": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "OVERHEAT": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "PARABOLIC_CHARGE": [
+         7,
+@@ -57536,40 +57661,46 @@
          7
        ],
        "TRAILBLAZE": [
@@ -433,7 +667,7 @@ index 65f4817..412a470 100644
        ],
        "X_SCISSOR": [
          5,
-@@ -62706,40 +62785,46 @@
+@@ -62706,40 +62837,46 @@
          4
        ],
        "THUNDERBOLT": [
@@ -480,3 +714,50 @@ index 65f4817..412a470 100644
          5,
          5
        ],
+@@ -63064,40 +63201,46 @@
+         2
+       ],
+       "LUNGE": [
+         3,
+         3,
+         3,
+         3
+       ],
+       "MAGNET_BOMB": [
+         3,
+         3,
+         3,
+         3
+       ],
+       "MIRROR_SHOT": [
+         3,
+         2,
+         2,
+         2
+       ],
++      "NATURES_MADNESS": [
++        4,
++        3,
++        3,
++        3
++      ],
+       "OVERHEAT": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "PARABOLIC_CHARGE": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "POWER_GEM": [
+         4,
+         4,
+         4,
+         3
+       ],
+       "PSYCHIC": [
+         4,

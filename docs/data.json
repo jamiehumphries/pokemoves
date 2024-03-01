@@ -1,5 +1,5 @@
 {
-  "timestamp": 1709162674092,
+  "timestamp": 1709241592722,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -26440,6 +26440,39 @@
       }
     },
     {
+      "name": "Pikachu (Doctor)",
+      "types": [
+        "electric"
+      ],
+      "fastMoveIds": [
+        "CHARM_FAST",
+        "PRESENT_FAST",
+        "THUNDER_SHOCK_FAST"
+      ],
+      "chargedMoveIds": [
+        "THUNDER_PUNCH",
+        "PLAY_ROUGH"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 69.1737732291221,
+          "max": 78.0449179313223
+        },
+        "great": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        },
+        "ultra": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        },
+        "master": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        }
+      }
+    },
+    {
       "name": "Pikachu (Flying)",
       "types": [
         "electric"
@@ -35853,6 +35886,7 @@
         "VOLT_SWITCH_FAST"
       ],
       "chargedMoveIds": [
+        "NATURES_MADNESS",
         "BRAVE_BIRD",
         "THUNDERBOLT",
         "THUNDER",
@@ -56902,6 +56936,12 @@
         4,
         3
       ],
+      "PLAY_ROUGH": [
+        5,
+        5,
+        5,
+        5
+      ],
       "RETURN": [
         6,
         6,
@@ -56919,6 +56959,12 @@
         5,
         5,
         5
+      ],
+      "THUNDER_PUNCH": [
+        4,
+        3,
+        3,
+        4
       ],
       "THUNDERBOLT": [
         5,
@@ -57445,6 +57491,12 @@
         7,
         8,
         7
+      ],
+      "NATURES_MADNESS": [
+        7,
+        6,
+        6,
+        6
       ],
       "NIGHT_SHADE": [
         7,
@@ -63165,6 +63217,12 @@
         2,
         2,
         2
+      ],
+      "NATURES_MADNESS": [
+        4,
+        3,
+        3,
+        3
       ],
       "OVERHEAT": [
         4,

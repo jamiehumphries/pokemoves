@@ -1,5 +1,5 @@
 {
-  "timestamp": 1709241592722,
+  "timestamp": 1709328368654,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -980,6 +980,7 @@
       "chargedMoveIds": [
         "BUBBLE_BEAM",
         "MIRROR_COAT",
+        "WATER_PULSE",
         "BUG_BUZZ"
       ],
       "cmp": {
@@ -4108,7 +4109,8 @@
       ],
       "fastMoveIds": [
         "CONFUSION_FAST",
-        "FEINT_ATTACK_FAST"
+        "FEINT_ATTACK_FAST",
+        "METAL_SOUND_FAST"
       ],
       "chargedMoveIds": [
         "PSYSHOCK",
@@ -4512,6 +4514,7 @@
       ],
       "fastMoveIds": [
         "POISON_STING_FAST",
+        "SAND_ATTACK_FAST",
         "SUCKER_PUNCH_FAST"
       ],
       "chargedMoveIds": [
@@ -4549,6 +4552,7 @@
       ],
       "fastMoveIds": [
         "POISON_JAB_FAST",
+        "SAND_ATTACK_FAST",
         "SUCKER_PUNCH_FAST"
       ],
       "chargedMoveIds": [
@@ -7061,6 +7065,7 @@
       ],
       "chargedMoveIds": [
         "POWER_UP_PUNCH",
+        "BRICK_BREAK",
         "ICE_PUNCH",
         "CRABHAMMER",
         "PAYBACK"
@@ -7095,6 +7100,7 @@
       ],
       "chargedMoveIds": [
         "POWER_UP_PUNCH",
+        "BRICK_BREAK",
         "CRABHAMMER",
         "PAYBACK"
       ],
@@ -7481,8 +7487,8 @@
       "chargedMoveIds": [
         "NIGHT_SLASH",
         "TRIPLE_AXEL",
-        "AURORA_BEAM",
         "WATER_PULSE",
+        "AURORA_BEAM",
         "SOLAR_BEAM"
       ],
       "cmp": {
@@ -8410,8 +8416,8 @@
         "DRILL_RUN",
         "ICY_WIND",
         "LIQUIDATION",
-        "AURORA_BEAM",
         "WATER_PULSE",
+        "AURORA_BEAM",
         "BLIZZARD"
       ],
       "cmp": {
@@ -8749,7 +8755,8 @@
       ],
       "fastMoveIds": [
         "METAL_CLAW_FAST",
-        "MUD_SLAP_FAST"
+        "MUD_SLAP_FAST",
+        "SAND_ATTACK_FAST"
       ],
       "chargedMoveIds": [
         "MUD_BOMB",
@@ -9789,7 +9796,8 @@
       ],
       "fastMoveIds": [
         "METAL_CLAW_FAST",
-        "MUD_SLAP_FAST"
+        "MUD_SLAP_FAST",
+        "SAND_ATTACK_FAST"
       ],
       "chargedMoveIds": [
         "MUD_BOMB",
@@ -10679,6 +10687,7 @@
       ],
       "fastMoveIds": [
         "METAL_CLAW_FAST",
+        "STEEL_WING_FAST",
         "WATERFALL_FAST"
       ],
       "chargedMoveIds": [
@@ -11281,8 +11290,8 @@
         "ROCK_SMASH_FAST"
       ],
       "chargedMoveIds": [
-        "BRICK_BREAK",
         "LEAF_BLADE",
+        "BRICK_BREAK",
         "BRAVE_BIRD",
         "RETURN"
       ],
@@ -11449,6 +11458,7 @@
       "fastMoveIds": [
         "BITE_FAST",
         "ICE_FANG_FAST",
+        "SHADOW_CLAW_FAST",
         "WATER_GUN_FAST",
         "WATERFALL_FAST"
       ],
@@ -12101,7 +12111,8 @@
       ],
       "fastMoveIds": [
         "DRAGON_TAIL_FAST",
-        "MUD_SHOT_FAST"
+        "MUD_SHOT_FAST",
+        "SAND_ATTACK_FAST"
       ],
       "chargedMoveIds": [
         "DRAGON_CLAW",
@@ -12517,6 +12528,7 @@
       ],
       "fastMoveIds": [
         "BITE_FAST",
+        "SAND_ATTACK_FAST",
         "SUCKER_PUNCH_FAST",
         "TAKE_DOWN_FAST"
       ],
@@ -12621,7 +12633,8 @@
       "fastMoveIds": [
         "CHARM_FAST",
         "CONFUSION_FAST",
-        "LOW_KICK_FAST"
+        "LOW_KICK_FAST",
+        "PSYCHO_CUT_FAST"
       ],
       "chargedMoveIds": [
         "LEAF_BLADE",
@@ -12944,6 +12957,41 @@
     },
     {
       "name": "Gastrodon",
+      "types": [
+        "water",
+        "ground"
+      ],
+      "fastMoveIds": [
+        "HIDDEN_POWER_FAST",
+        "MUD_SLAP_FAST"
+      ],
+      "chargedMoveIds": [
+        "BODY_SLAM",
+        "EARTH_POWER",
+        "WATER_PULSE",
+        "EARTHQUAKE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 65.50311747339339,
+          "max": 69.04334807395922
+        },
+        "great": {
+          "rankOne": 112.40727479614274,
+          "max": 121.00312522173013
+        },
+        "ultra": {
+          "rankOne": 146.23690325021744,
+          "max": 155.53520345687866
+        },
+        "master": {
+          "rankOne": 155.53520345687866,
+          "max": 155.53520345687866
+        }
+      }
+    },
+    {
+      "name": "Gastrodon (East Sea)",
       "types": [
         "water",
         "ground"
@@ -13901,8 +13949,8 @@
         "ZEN_HEADBUTT_FAST"
       ],
       "chargedMoveIds": [
-        "BRICK_BREAK",
         "LEAF_BLADE",
+        "BRICK_BREAK",
         "SEED_BOMB"
       ],
       "cmp": {
@@ -14115,8 +14163,8 @@
         "MUD_SLAP_FAST"
       ],
       "chargedMoveIds": [
-        "BRICK_BREAK",
         "SHADOW_PUNCH",
+        "BRICK_BREAK",
         "NIGHT_SHADE",
         "RETURN"
       ],
@@ -14223,6 +14271,7 @@
         "WATER_GUN_FAST"
       ],
       "chargedMoveIds": [
+        "AQUA_TAIL",
         "MUDDY_WATER",
         "POWER_WHIP",
         "DRACO_METEOR",
@@ -15537,8 +15586,9 @@
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
-        "BRICK_BREAK",
         "DRAGON_CLAW",
+        "BRICK_BREAK",
+        "BRICK_BREAK",
         "DRAGON_PULSE"
       ],
       "cmp": {
@@ -16019,6 +16069,7 @@
       ],
       "fastMoveIds": [
         "LICK_FAST",
+        "SAND_ATTACK_FAST",
         "TAKE_DOWN_FAST"
       ],
       "chargedMoveIds": [
@@ -16052,6 +16103,7 @@
       ],
       "fastMoveIds": [
         "BITE_FAST",
+        "SAND_ATTACK_FAST",
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
@@ -16088,6 +16140,7 @@
         "BITE_FAST",
         "FIRE_FANG_FAST",
         "ICE_FANG_FAST",
+        "SAND_ATTACK_FAST",
         "THUNDER_FANG_FAST"
       ],
       "chargedMoveIds": [
@@ -16129,8 +16182,8 @@
         "ROCK_SMASH_FAST"
       ],
       "chargedMoveIds": [
-        "BRICK_BREAK",
         "POWER_UP_PUNCH",
+        "BRICK_BREAK",
         "FIRE_PUNCH",
         "ICE_PUNCH",
         "THUNDER_PUNCH",
@@ -16167,8 +16220,8 @@
         "ROCK_SMASH_FAST"
       ],
       "chargedMoveIds": [
-        "BRICK_BREAK",
         "BLAZE_KICK",
+        "BRICK_BREAK",
         "LOW_SWEEP",
         "STOMP",
         "CLOSE_COMBAT",
@@ -17003,6 +17056,7 @@
       ],
       "fastMoveIds": [
         "PECK_FAST",
+        "PSYWAVE_FAST",
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
@@ -17323,8 +17377,8 @@
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
-        "BRICK_BREAK",
         "DRAGON_CLAW",
+        "BRICK_BREAK",
         "DRAGON_PULSE"
       ],
       "cmp": {
@@ -17745,8 +17799,8 @@
         "MUD_SLAP_FAST"
       ],
       "chargedMoveIds": [
-        "BRICK_BREAK",
         "POWER_UP_PUNCH",
+        "BRICK_BREAK",
         "STOMP",
         "CRUNCH",
         "OUTRAGE",
@@ -17782,8 +17836,8 @@
         "MUD_SLAP_FAST"
       ],
       "chargedMoveIds": [
-        "BRICK_BREAK",
         "POWER_UP_PUNCH",
+        "BRICK_BREAK",
         "STOMP",
         "CRUNCH",
         "OUTRAGE",
@@ -18138,6 +18192,7 @@
       ],
       "fastMoveIds": [
         "CHARGE_BEAM_FAST",
+        "METAL_SOUND_FAST",
         "THUNDER_SHOCK_FAST"
       ],
       "chargedMoveIds": [
@@ -18274,6 +18329,7 @@
       ],
       "fastMoveIds": [
         "CHARGE_BEAM_FAST",
+        "METAL_SOUND_FAST",
         "VOLT_SWITCH_FAST"
       ],
       "chargedMoveIds": [
@@ -18307,6 +18363,7 @@
       ],
       "fastMoveIds": [
         "CHARGE_BEAM_FAST",
+        "METAL_SOUND_FAST",
         "THUNDER_SHOCK_FAST"
       ],
       "chargedMoveIds": [
@@ -18414,6 +18471,7 @@
       ],
       "chargedMoveIds": [
         "DRAGON_CLAW",
+        "BRICK_BREAK",
         "CLOSE_COMBAT",
         "FLAMETHROWER",
         "BOOMBURST"
@@ -18616,6 +18674,7 @@
         "SNARL_FAST"
       ],
       "chargedMoveIds": [
+        "BRICK_BREAK",
         "CRUNCH",
         "OUTRAGE",
         "EARTHQUAKE"
@@ -19633,6 +19692,7 @@
         "normal"
       ],
       "fastMoveIds": [
+        "SAND_ATTACK_FAST",
         "TACKLE_FAST",
         "TAKE_DOWN_FAST"
       ],
@@ -19666,6 +19726,7 @@
         "normal"
       ],
       "fastMoveIds": [
+        "SAND_ATTACK_FAST",
         "SHADOW_CLAW_FAST",
         "TACKLE_FAST"
       ],
@@ -20230,6 +20291,7 @@
       ],
       "fastMoveIds": [
         "CONFUSION_FAST",
+        "PSYWAVE_FAST",
         "ROCK_THROW_FAST"
       ],
       "chargedMoveIds": [
@@ -20581,8 +20643,8 @@
         "LOW_KICK_FAST"
       ],
       "chargedMoveIds": [
-        "BRICK_BREAK",
         "CROSS_CHOP",
+        "BRICK_BREAK",
         "DYNAMIC_PUNCH",
         "SUBMISSION",
         "RETURN"
@@ -20617,8 +20679,8 @@
         "ROCK_SMASH_FAST"
       ],
       "chargedMoveIds": [
-        "BRICK_BREAK",
         "CROSS_CHOP",
+        "BRICK_BREAK",
         "LOW_SWEEP",
         "RETURN"
       ],
@@ -20850,6 +20912,7 @@
         "steel"
       ],
       "fastMoveIds": [
+        "METAL_SOUND_FAST",
         "SPARK_FAST",
         "THUNDER_SHOCK_FAST",
         "VOLT_SWITCH_FAST"
@@ -20887,6 +20950,7 @@
       ],
       "fastMoveIds": [
         "CHARGE_BEAM_FAST",
+        "METAL_SOUND_FAST",
         "SPARK_FAST",
         "THUNDER_SHOCK_FAST",
         "VOLT_SWITCH_FAST"
@@ -20925,6 +20989,7 @@
       ],
       "fastMoveIds": [
         "CHARGE_BEAM_FAST",
+        "METAL_SOUND_FAST",
         "SPARK_FAST",
         "VOLT_SWITCH_FAST"
       ],
@@ -20996,7 +21061,8 @@
       ],
       "fastMoveIds": [
         "PECK_FAST",
-        "PSYCHO_CUT_FAST"
+        "PSYCHO_CUT_FAST",
+        "PSYWAVE_FAST"
       ],
       "chargedMoveIds": [
         "SUPER_POWER",
@@ -21212,8 +21278,8 @@
         "SCRATCH_FAST"
       ],
       "chargedMoveIds": [
-        "BRICK_BREAK",
         "CROSS_CHOP",
+        "BRICK_BREAK",
         "LOW_SWEEP"
       ],
       "cmp": {
@@ -22515,8 +22581,8 @@
         "POISON_JAB_FAST"
       ],
       "chargedMoveIds": [
-        "BRICK_BREAK",
         "BLAZE_KICK",
+        "BRICK_BREAK",
         "GRASS_KNOT",
         "STONE_EDGE"
       ],
@@ -22921,7 +22987,8 @@
       ],
       "fastMoveIds": [
         "ASTONISH_FAST",
-        "HEX_FAST"
+        "HEX_FAST",
+        "PSYWAVE_FAST"
       ],
       "chargedMoveIds": [
         "OMINOUS_WIND",
@@ -22956,6 +23023,7 @@
       "fastMoveIds": [
         "HEX_FAST",
         "MAGICAL_LEAF_FAST",
+        "PSYWAVE_FAST",
         "SUCKER_PUNCH_FAST"
       ],
       "chargedMoveIds": [
@@ -23234,6 +23302,7 @@
       "fastMoveIds": [
         "CONFUSION_FAST",
         "MAGICAL_LEAF_FAST",
+        "PSYWAVE_FAST",
         "ZEN_HEADBUTT_FAST"
       ],
       "chargedMoveIds": [
@@ -24616,8 +24685,8 @@
       "chargedMoveIds": [
         "ACID_SPRAY",
         "OCTAZOOKA",
-        "AURORA_BEAM",
         "WATER_PULSE",
+        "AURORA_BEAM",
         "GUNK_SHOT"
       ],
       "cmp": {
@@ -25206,8 +25275,8 @@
         "DRAIN_PUNCH",
         "AQUA_JET",
         "ICY_WIND",
-        "ACROBATICS",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "ACROBATICS"
       ],
       "cmp": {
         "little": {
@@ -25242,8 +25311,8 @@
         "DRAIN_PUNCH",
         "AQUA_JET",
         "ICY_WIND",
-        "ACROBATICS",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "ACROBATICS"
       ],
       "cmp": {
         "little": {
@@ -25342,7 +25411,8 @@
       ],
       "fastMoveIds": [
         "ASTONISH_FAST",
-        "MUD_SHOT_FAST"
+        "MUD_SHOT_FAST",
+        "SAND_ATTACK_FAST"
       ],
       "chargedMoveIds": [
         "SAND_TOMB",
@@ -29000,8 +29070,8 @@
       ],
       "chargedMoveIds": [
         "ROCK_BLAST",
-        "AURORA_BEAM",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "AURORA_BEAM"
       ],
       "cmp": {
         "little": {
@@ -29313,9 +29383,9 @@
         "QUICK_ATTACK_FAST"
       ],
       "chargedMoveIds": [
-        "BRICK_BREAK",
         "CROSS_CHOP",
         "BLAZE_KICK",
+        "BRICK_BREAK",
         "LOW_SWEEP"
       ],
       "cmp": {
@@ -30241,6 +30311,7 @@
       ],
       "fastMoveIds": [
         "MUD_SHOT_FAST",
+        "SAND_ATTACK_FAST",
         "SCRATCH_FAST"
       ],
       "chargedMoveIds": [
@@ -30311,7 +30382,8 @@
       ],
       "fastMoveIds": [
         "METAL_CLAW_FAST",
-        "MUD_SHOT_FAST"
+        "MUD_SHOT_FAST",
+        "SAND_ATTACK_FAST"
       ],
       "chargedMoveIds": [
         "NIGHT_SLASH",
@@ -30418,7 +30490,8 @@
       ],
       "fastMoveIds": [
         "ASTONISH_FAST",
-        "MUD_SHOT_FAST"
+        "MUD_SHOT_FAST",
+        "SAND_ATTACK_FAST"
       ],
       "chargedMoveIds": [
         "SAND_TOMB",
@@ -30456,6 +30529,7 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
+        "BRICK_BREAK",
         "LOW_SWEEP",
         "RETURN",
         "FOCUS_BLAST"
@@ -31015,8 +31089,8 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
-        "AURORA_BEAM",
         "WATER_PULSE",
+        "AURORA_BEAM",
         "RETURN"
       ],
       "cmp": {
@@ -33108,8 +33182,8 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
-        "BRICK_BREAK",
-        "NIGHT_SLASH"
+        "NIGHT_SLASH",
+        "BRICK_BREAK"
       ],
       "cmp": {
         "little": {
@@ -33141,8 +33215,8 @@
       ],
       "chargedMoveIds": [
         "MUDDY_WATER",
-        "DRAGON_PULSE",
         "WATER_PULSE",
+        "DRAGON_PULSE",
         "SLUDGE_WAVE"
       ],
       "cmp": {
@@ -34012,6 +34086,7 @@
       ],
       "fastMoveIds": [
         "CONFUSION_FAST",
+        "PSYWAVE_FAST",
         "ROCK_THROW_FAST"
       ],
       "chargedMoveIds": [
@@ -34148,8 +34223,8 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
-        "AURORA_BEAM",
         "WATER_PULSE",
+        "AURORA_BEAM",
         "RETURN"
       ],
       "cmp": {
@@ -34550,6 +34625,7 @@
       "fastMoveIds": [
         "GUST_FAST",
         "QUICK_ATTACK_FAST",
+        "SAND_ATTACK_FAST",
         "WING_ATTACK_FAST"
       ],
       "chargedMoveIds": [
@@ -34586,6 +34662,7 @@
       ],
       "fastMoveIds": [
         "QUICK_ATTACK_FAST",
+        "SAND_ATTACK_FAST",
         "WING_ATTACK_FAST"
       ],
       "chargedMoveIds": [
@@ -34622,6 +34699,7 @@
       ],
       "fastMoveIds": [
         "QUICK_ATTACK_FAST",
+        "SAND_ATTACK_FAST",
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
@@ -34872,6 +34950,7 @@
       "fastMoveIds": [
         "ICE_FANG_FAST",
         "LICK_FAST",
+        "SAND_ATTACK_FAST",
         "TAKE_DOWN_FAST"
       ],
       "chargedMoveIds": [
@@ -36267,6 +36346,7 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
+        "BRICK_BREAK",
         "LOW_SWEEP",
         "RETURN",
         "FOCUS_BLAST"
@@ -37262,6 +37342,7 @@
       ],
       "fastMoveIds": [
         "MUD_SHOT_FAST",
+        "SAND_ATTACK_FAST",
         "STRUGGLE_BUG_FAST"
       ],
       "chargedMoveIds": [
@@ -38617,7 +38698,8 @@
       ],
       "fastMoveIds": [
         "DRAGON_BREATH_FAST",
-        "MUD_SHOT_FAST"
+        "MUD_SHOT_FAST",
+        "SAND_ATTACK_FAST"
       ],
       "chargedMoveIds": [
         "SAND_TOMB",
@@ -40186,7 +40268,8 @@
       ],
       "fastMoveIds": [
         "BUG_BITE_FAST",
-        "CONFUSION_FAST"
+        "CONFUSION_FAST",
+        "METAL_SOUND_FAST"
       ],
       "chargedMoveIds": [
         "IRON_HEAD",
@@ -41080,6 +41163,7 @@
       ],
       "fastMoveIds": [
         "ROCK_SMASH_FAST",
+        "SAND_ATTACK_FAST",
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
@@ -41466,7 +41550,7 @@
       "name": "Aqua Tail",
       "type": "water",
       "energy": -35,
-      "damage": 50
+      "damage": 55
     },
     "ASTONISH_FAST": {
       "name": "Astonish",
@@ -41557,7 +41641,7 @@
     "BRICK_BREAK": {
       "name": "Brick Break",
       "type": "fighting",
-      "energy": -35,
+      "energy": -40,
       "damage": 40
     },
     "BRINE": {
@@ -41662,7 +41746,7 @@
       "name": "Cross Chop",
       "type": "fighting",
       "energy": -35,
-      "damage": 50
+      "damage": 55
     },
     "CROSS_POISON": {
       "name": "Cross Poison",
@@ -42764,7 +42848,7 @@
       "name": "Shadow Bone",
       "type": "ghost",
       "energy": -45,
-      "damage": 75
+      "damage": 80
     },
     "SHADOW_CLAW_FAST": {
       "name": "Shadow Claw",
@@ -43103,8 +43187,8 @@
     "WATER_PULSE": {
       "name": "Water Pulse",
       "type": "water",
-      "energy": -60,
-      "damage": 70
+      "energy": -55,
+      "damage": 80
     },
     "WATER_SHURIKEN_FAST": {
       "name": "Water Shuriken",
@@ -43481,10 +43565,10 @@
         9
       ],
       "WATER_PULSE": [
-        12,
-        12,
-        12,
-        12
+        11,
+        11,
+        11,
+        11
       ],
       "WILD_CHARGE": [
         9,
@@ -43912,9 +43996,9 @@
       ],
       "BRICK_BREAK": [
         4,
-        3,
         4,
-        3
+        4,
+        4
       ],
       "BRINE": [
         5,
@@ -44387,10 +44471,10 @@
         17
       ],
       "BRICK_BREAK": [
-        18,
-        17,
-        18,
-        17
+        20,
+        20,
+        20,
+        20
       ],
       "BRINE": [
         25,
@@ -44862,6 +44946,12 @@
         3,
         3
       ],
+      "BRICK_BREAK": [
+        4,
+        4,
+        3,
+        4
+      ],
       "BUBBLE_BEAM": [
         4,
         4,
@@ -45097,9 +45187,9 @@
         4
       ],
       "WATER_PULSE": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "WEATHER_BALL_WATER": [
@@ -45495,10 +45585,10 @@
         14
       ],
       "WATER_PULSE": [
-        20,
-        20,
-        20,
-        20
+        19,
+        18,
+        18,
+        19
       ],
       "X_SCISSOR": [
         14,
@@ -45521,9 +45611,9 @@
         5
       ],
       "BRICK_BREAK": [
-        5,
-        5,
-        5,
+        6,
+        6,
+        6,
         5
       ],
       "CLOSE_COMBAT": [
@@ -45962,9 +46052,9 @@
       ],
       "WATER_PULSE": [
         5,
-        5,
         4,
-        5
+        4,
+        4
       ],
       "WEATHER_BALL_FIRE": [
         3,
@@ -46349,10 +46439,10 @@
         6
       ],
       "BRICK_BREAK": [
+        7,
+        7,
         6,
-        6,
-        6,
-        6
+        7
       ],
       "CLOSE_COMBAT": [
         8,
@@ -46692,9 +46782,9 @@
       ],
       "WATER_PULSE": [
         10,
-        10,
-        10,
-        10
+        9,
+        9,
+        9
       ],
       "WEATHER_BALL_ICE": [
         6,
@@ -47199,7 +47289,7 @@
       "WATER_PULSE": [
         5,
         5,
-        5,
+        4,
         5
       ],
       "WILD_CHARGE": [
@@ -47277,9 +47367,9 @@
         5
       ],
       "BRICK_BREAK": [
-        5,
-        5,
-        5,
+        6,
+        6,
+        6,
         5
       ],
       "BRUTAL_SWING": [
@@ -47631,10 +47721,10 @@
         6
       ],
       "WATER_PULSE": [
-        9,
-        9,
         8,
-        9
+        8,
+        8,
+        8
       ],
       "X_SCISSOR": [
         6,
@@ -47731,10 +47821,10 @@
         5
       ],
       "BRICK_BREAK": [
+        4,
         3,
         3,
-        3,
-        3
+        4
       ],
       "CLOSE_COMBAT": [
         4,
@@ -48293,9 +48383,9 @@
         4
       ],
       "BRICK_BREAK": [
+        5,
         4,
-        4,
-        4,
+        5,
         4
       ],
       "BRUTAL_SWING": [
@@ -48691,10 +48781,10 @@
         6
       ],
       "BRICK_BREAK": [
+        7,
+        7,
         6,
-        6,
-        6,
-        6
+        7
       ],
       "BUG_BUZZ": [
         10,
@@ -49192,9 +49282,9 @@
       ],
       "WATER_PULSE": [
         6,
+        5,
         6,
-        6,
-        6
+        5
       ]
     },
     "FAIRY_WIND_FAST": {
@@ -49435,10 +49525,10 @@
         9
       ],
       "BRICK_BREAK": [
+        7,
+        7,
         6,
-        6,
-        6,
-        6
+        7
       ],
       "BULLDOZE": [
         10,
@@ -50016,9 +50106,9 @@
       ],
       "BRICK_BREAK": [
         4,
-        3,
         4,
-        3
+        4,
+        4
       ],
       "BUG_BUZZ": [
         6,
@@ -50473,10 +50563,10 @@
         9
       ],
       "WATER_PULSE": [
-        12,
-        12,
-        12,
-        12
+        11,
+        11,
+        11,
+        11
       ],
       "WEATHER_BALL_ICE": [
         7,
@@ -50535,10 +50625,10 @@
         8
       ],
       "BRICK_BREAK": [
-        9,
-        9,
-        9,
-        8
+        10,
+        10,
+        10,
+        10
       ],
       "BUG_BUZZ": [
         15,
@@ -50859,10 +50949,10 @@
         10
       ],
       "WATER_PULSE": [
-        15,
-        15,
-        15,
-        15
+        14,
+        14,
+        14,
+        13
       ],
       "X_SCISSOR": [
         10,
@@ -51551,9 +51641,9 @@
         6
       ],
       "WATER_PULSE": [
-        8,
         7,
-        8,
+        7,
+        7,
         7
       ],
       "WILD_CHARGE": [
@@ -51769,10 +51859,10 @@
         8
       ],
       "WATER_PULSE": [
-        12,
-        12,
-        12,
-        12
+        11,
+        11,
+        11,
+        11
       ],
       "WEATHER_BALL_ROCK": [
         7,
@@ -52006,9 +52096,9 @@
       ],
       "WATER_PULSE": [
         6,
+        5,
         6,
-        6,
-        6
+        5
       ]
     },
     "INCINERATE_FAST": {
@@ -52569,7 +52659,7 @@
       "WATER_PULSE": [
         5,
         5,
-        5,
+        4,
         5
       ],
       "WILD_CHARGE": [
@@ -52869,10 +52959,10 @@
         6
       ],
       "WATER_PULSE": [
-        9,
-        9,
         8,
-        9
+        8,
+        8,
+        8
       ],
       "WRAP": [
         7,
@@ -52884,9 +52974,9 @@
     "KARATE_CHOP_FAST": {
       "BRICK_BREAK": [
         5,
-        4,
         5,
-        4
+        5,
+        5
       ],
       "CLOSE_COMBAT": [
         6,
@@ -53519,10 +53609,10 @@
         10
       ],
       "WATER_PULSE": [
-        12,
-        12,
-        12,
-        12
+        11,
+        11,
+        11,
+        11
       ],
       "ZAP_CANNON": [
         16,
@@ -53563,10 +53653,10 @@
         7
       ],
       "BRICK_BREAK": [
-        7,
-        7,
-        7,
-        7
+        8,
+        8,
+        8,
+        8
       ],
       "BUG_BUZZ": [
         12,
@@ -54474,9 +54564,9 @@
       ],
       "WATER_PULSE": [
         10,
-        10,
-        10,
-        10
+        9,
+        9,
+        9
       ],
       "WILD_CHARGE": [
         8,
@@ -54495,6 +54585,116 @@
         13,
         13,
         14
+      ]
+    },
+    "METAL_SOUND_FAST": {
+      "BUG_BUZZ": [
+        8,
+        7,
+        8,
+        7
+      ],
+      "BULLDOZE": [
+        8,
+        7,
+        8,
+        7
+      ],
+      "DISCHARGE": [
+        6,
+        6,
+        5,
+        6
+      ],
+      "FLASH_CANNON": [
+        9,
+        9,
+        9,
+        8
+      ],
+      "HEAVY_SLAM": [
+        7,
+        6,
+        6,
+        6
+      ],
+      "HYPER_BEAM": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "IRON_HEAD": [
+        7,
+        6,
+        6,
+        6
+      ],
+      "MAGNET_BOMB": [
+        6,
+        6,
+        5,
+        6
+      ],
+      "MIRROR_SHOT": [
+        5,
+        4,
+        5,
+        4
+      ],
+      "PAYBACK": [
+        8,
+        7,
+        8,
+        7
+      ],
+      "PSYBEAM": [
+        8,
+        7,
+        8,
+        7
+      ],
+      "PSYCHIC": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "PSYSHOCK": [
+        6,
+        6,
+        5,
+        6
+      ],
+      "RETURN": [
+        9,
+        9,
+        9,
+        8
+      ],
+      "THUNDERBOLT": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "VICE_GRIP": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "WILD_CHARGE": [
+        6,
+        6,
+        5,
+        6
+      ],
+      "ZAP_CANNON": [
+        10,
+        10,
+        10,
+        10
       ]
     },
     "MUD_SHOT_FAST": {
@@ -54547,9 +54747,9 @@
         8
       ],
       "BRICK_BREAK": [
+        5,
         4,
-        4,
-        4,
+        5,
         4
       ],
       "BRINE": [
@@ -54932,9 +55132,9 @@
       ],
       "WATER_PULSE": [
         7,
-        7,
         6,
-        7
+        6,
+        6
       ],
       "WEATHER_BALL_WATER": [
         4,
@@ -54993,9 +55193,9 @@
         4
       ],
       "BRICK_BREAK": [
+        5,
         4,
-        4,
-        4,
+        5,
         4
       ],
       "BULLDOZE": [
@@ -55294,9 +55494,9 @@
       ],
       "WATER_PULSE": [
         7,
-        7,
         6,
-        7
+        6,
+        6
       ],
       "WRAP": [
         5,
@@ -55613,10 +55813,10 @@
         9
       ],
       "WATER_PULSE": [
-        12,
-        12,
-        12,
-        12
+        11,
+        11,
+        11,
+        11
       ],
       "X_SCISSOR": [
         8,
@@ -55687,9 +55887,9 @@
         10
       ],
       "BRICK_BREAK": [
-        5,
-        5,
-        5,
+        6,
+        6,
+        6,
         5
       ],
       "BRINE": [
@@ -56077,10 +56277,10 @@
         7
       ],
       "WATER_PULSE": [
-        9,
-        9,
         8,
-        9
+        8,
+        8,
+        8
       ],
       "WEATHER_BALL_FIRE": [
         5,
@@ -56133,9 +56333,9 @@
         4
       ],
       "BRICK_BREAK": [
+        5,
         4,
-        4,
-        4,
+        5,
         4
       ],
       "BRINE": [
@@ -56338,9 +56538,9 @@
       ],
       "WATER_PULSE": [
         7,
-        7,
         6,
-        7
+        6,
+        6
       ],
       "WRAP": [
         5,
@@ -56393,10 +56593,10 @@
         8
       ],
       "BRICK_BREAK": [
-        9,
-        9,
-        9,
-        8
+        10,
+        10,
+        10,
+        10
       ],
       "BUBBLE_BEAM": [
         10,
@@ -56639,10 +56839,10 @@
         11
       ],
       "WATER_PULSE": [
-        15,
-        15,
-        15,
-        15
+        14,
+        14,
+        14,
+        13
       ],
       "WILD_CHARGE": [
         12,
@@ -56887,9 +57087,9 @@
         6
       ],
       "WATER_PULSE": [
-        8,
         7,
-        8,
+        7,
+        7,
         7
       ],
       "WEATHER_BALL_ICE": [
@@ -57022,6 +57222,12 @@
         6,
         6
       ],
+      "CLOSE_COMBAT": [
+        5,
+        5,
+        5,
+        5
+      ],
       "DARK_PULSE": [
         6,
         6,
@@ -57136,6 +57342,12 @@
         5,
         6
       ],
+      "LEAF_BLADE": [
+        4,
+        4,
+        4,
+        4
+      ],
       "MEGAHORN": [
         7,
         6,
@@ -57220,6 +57432,12 @@
         6,
         6
       ],
+      "SYNCHRONOISE": [
+        6,
+        6,
+        5,
+        6
+      ],
       "THUNDER": [
         7,
         7,
@@ -57237,6 +57455,98 @@
         6,
         5,
         6
+      ]
+    },
+    "PSYWAVE_FAST": {
+      "DARK_PULSE": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "DAZZLING_GLEAM": [
+        35,
+        35,
+        35,
+        35
+      ],
+      "FOUL_PLAY": [
+        23,
+        22,
+        23,
+        22
+      ],
+      "HYPER_BEAM": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "MOONBLAST": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "NIGHT_SLASH": [
+        18,
+        17,
+        18,
+        17
+      ],
+      "OMINOUS_WIND": [
+        23,
+        22,
+        23,
+        22
+      ],
+      "PSYBEAM": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "PSYCHIC": [
+        28,
+        27,
+        28,
+        27
+      ],
+      "RETURN": [
+        35,
+        35,
+        35,
+        35
+      ],
+      "ROCK_SLIDE": [
+        23,
+        22,
+        23,
+        22
+      ],
+      "SHADOW_BALL": [
+        28,
+        27,
+        28,
+        27
+      ],
+      "SHADOW_SNEAK": [
+        23,
+        22,
+        23,
+        22
+      ],
+      "SOLAR_BEAM": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "SUPER_POWER": [
+        20,
+        20,
+        20,
+        20
       ]
     },
     "QUICK_ATTACK_FAST": {
@@ -57296,9 +57606,9 @@
       ],
       "BRICK_BREAK": [
         5,
-        4,
         5,
-        4
+        5,
+        5
       ],
       "BUBBLE_BEAM": [
         5,
@@ -57685,9 +57995,9 @@
         6
       ],
       "WATER_PULSE": [
-        8,
         7,
-        8,
+        7,
+        7,
         7
       ],
       "WEATHER_BALL_FIRE": [
@@ -58097,9 +58407,9 @@
         5
       ],
       "BRICK_BREAK": [
-        5,
-        5,
-        5,
+        6,
+        6,
+        6,
         5
       ],
       "BRUTAL_SWING": [
@@ -58505,10 +58815,10 @@
         5
       ],
       "WATER_PULSE": [
-        9,
-        9,
         8,
-        9
+        8,
+        8,
+        8
       ],
       "WILD_CHARGE": [
         7,
@@ -58929,6 +59239,230 @@
         3
       ]
     },
+    "SAND_ATTACK_FAST": {
+      "AERIAL_ACE": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "BODY_SLAM": [
+        9,
+        9,
+        9,
+        8
+      ],
+      "BOOMBURST": [
+        18,
+        17,
+        18,
+        17
+      ],
+      "BRAVE_BIRD": [
+        14,
+        14,
+        14,
+        13
+      ],
+      "BRICK_BREAK": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "BUG_BUZZ": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "BULLDOZE": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "CLOSE_COMBAT": [
+        12,
+        11,
+        11,
+        11
+      ],
+      "CRUNCH": [
+        12,
+        11,
+        11,
+        11
+      ],
+      "DARK_PULSE": [
+        13,
+        12,
+        13,
+        12
+      ],
+      "DIG": [
+        13,
+        12,
+        13,
+        12
+      ],
+      "DRAGON_CLAW": [
+        9,
+        9,
+        9,
+        8
+      ],
+      "DYNAMIC_PUNCH": [
+        13,
+        12,
+        13,
+        12
+      ],
+      "EARTH_POWER": [
+        14,
+        14,
+        14,
+        13
+      ],
+      "EARTHQUAKE": [
+        17,
+        16,
+        16,
+        16
+      ],
+      "FLY": [
+        12,
+        11,
+        11,
+        11
+      ],
+      "GRASS_KNOT": [
+        13,
+        12,
+        13,
+        12
+      ],
+      "HEAT_WAVE": [
+        19,
+        19,
+        19,
+        18
+      ],
+      "IRON_HEAD": [
+        13,
+        12,
+        13,
+        12
+      ],
+      "MUD_BOMB": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "NIGHT_SLASH": [
+        9,
+        9,
+        9,
+        8
+      ],
+      "PAYBACK": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "PLAY_ROUGH": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "RETURN": [
+        18,
+        17,
+        18,
+        17
+      ],
+      "ROCK_SLIDE": [
+        12,
+        11,
+        11,
+        11
+      ],
+      "ROCK_TOMB": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "SAND_TOMB": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "SCORCHING_SANDS": [
+        13,
+        12,
+        13,
+        12
+      ],
+      "SEED_BOMB": [
+        12,
+        11,
+        11,
+        11
+      ],
+      "SHADOW_BALL": [
+        14,
+        14,
+        14,
+        13
+      ],
+      "STONE_EDGE": [
+        14,
+        14,
+        14,
+        13
+      ],
+      "SURF": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "THUNDER": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "THUNDERBOLT": [
+        14,
+        14,
+        14,
+        13
+      ],
+      "TRAILBLAZE": [
+        13,
+        12,
+        13,
+        12
+      ],
+      "WEATHER_BALL_ROCK": [
+        9,
+        9,
+        9,
+        8
+      ],
+      "WILD_CHARGE": [
+        12,
+        11,
+        11,
+        11
+      ]
+    },
     "SCRATCH_FAST": {
       "AERIAL_ACE": [
         20,
@@ -58967,10 +59501,10 @@
         17
       ],
       "BRICK_BREAK": [
-        18,
-        17,
-        18,
-        17
+        20,
+        20,
+        20,
+        20
       ],
       "BUG_BUZZ": [
         30,
@@ -59237,10 +59771,10 @@
         25
       ],
       "WATER_PULSE": [
-        30,
-        30,
-        30,
-        30
+        28,
+        27,
+        28,
+        27
       ],
       "X_SCISSOR": [
         20,
@@ -59287,6 +59821,12 @@
         7
       ],
       "CLOSE_COMBAT": [
+        6,
+        6,
+        5,
+        6
+      ],
+      "CRUNCH": [
         6,
         6,
         5,
@@ -59399,6 +59939,18 @@
         6,
         6,
         6
+      ],
+      "HYDRO_CANNON": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "HYDRO_PUMP": [
+        10,
+        9,
+        10,
+        9
       ],
       "HYPER_BEAM": [
         10,
@@ -59853,9 +60405,9 @@
         7
       ],
       "WATER_PULSE": [
-        8,
         7,
-        8,
+        7,
+        7,
         7
       ],
       "X_SCISSOR": [
@@ -59919,6 +60471,12 @@
         4,
         4,
         4
+      ],
+      "BRICK_BREAK": [
+        4,
+        3,
+        3,
+        3
       ],
       "BRUTAL_SWING": [
         4,
@@ -60300,9 +60858,9 @@
       ],
       "WATER_PULSE": [
         5,
-        5,
         4,
-        5
+        4,
+        4
       ],
       "WILD_CHARGE": [
         4,
@@ -60325,9 +60883,9 @@
         6
       ],
       "BRICK_BREAK": [
-        5,
-        5,
-        5,
+        6,
+        6,
+        6,
         5
       ],
       "BUBBLE_BEAM": [
@@ -60541,10 +61099,10 @@
         5
       ],
       "WATER_PULSE": [
-        9,
-        9,
         8,
-        9
+        8,
+        8,
+        8
       ],
       "WILD_CHARGE": [
         7,
@@ -60641,7 +61199,7 @@
       "WATER_PULSE": [
         5,
         5,
-        5,
+        4,
         5
       ]
     },
@@ -60794,6 +61352,18 @@
         10,
         9,
         9,
+        10
+      ],
+      "HYDRO_CANNON": [
+        6,
+        6,
+        6,
+        5
+      ],
+      "HYDRO_PUMP": [
+        11,
+        11,
+        11,
         10
       ],
       "HYPER_BEAM": [
@@ -61117,9 +61687,9 @@
         6
       ],
       "WATER_PULSE": [
-        8,
         7,
-        8,
+        7,
+        7,
         7
       ],
       "X_SCISSOR": [
@@ -61149,9 +61719,9 @@
         8
       ],
       "BRICK_BREAK": [
-        5,
-        5,
-        5,
+        6,
+        6,
+        6,
         5
       ],
       "BUG_BUZZ": [
@@ -61481,10 +62051,10 @@
         12
       ],
       "BRICK_BREAK": [
-        12,
-        12,
-        11,
-        12
+        14,
+        13,
+        13,
+        14
       ],
       "BRUTAL_SWING": [
         14,
@@ -62015,10 +62585,10 @@
         15
       ],
       "WATER_PULSE": [
-        20,
-        20,
-        20,
-        20
+        19,
+        18,
+        18,
+        19
       ],
       "WEATHER_BALL_FIRE": [
         12,
@@ -62114,9 +62684,9 @@
       ],
       "BRICK_BREAK": [
         5,
-        4,
         5,
-        4
+        5,
+        5
       ],
       "BULLDOZE": [
         8,
@@ -62567,9 +63137,9 @@
         4
       ],
       "BRICK_BREAK": [
+        5,
         4,
-        4,
-        4,
+        5,
         4
       ],
       "BUBBLE_BEAM": [
@@ -62894,9 +63464,9 @@
       ],
       "BRICK_BREAK": [
         5,
-        4,
         5,
-        4
+        5,
+        5
       ],
       "CRUNCH": [
         6,
@@ -63065,7 +63635,7 @@
       "BRICK_BREAK": [
         3,
         2,
-        2,
+        3,
         2
       ],
       "BRUTAL_SWING": [
@@ -63845,10 +64415,10 @@
         15
       ],
       "WATER_PULSE": [
-        20,
-        20,
-        20,
-        20
+        19,
+        18,
+        18,
+        19
       ],
       "WEATHER_BALL_WATER": [
         12,
@@ -63970,9 +64540,9 @@
       ],
       "BRICK_BREAK": [
         5,
-        4,
         5,
-        4
+        5,
+        5
       ],
       "BRINE": [
         7,
@@ -64227,9 +64797,9 @@
         5
       ],
       "WATER_PULSE": [
-        8,
         7,
-        8,
+        7,
+        7,
         7
       ],
       "X_SCISSOR": [
@@ -64469,9 +65039,9 @@
         6
       ],
       "WATER_PULSE": [
-        8,
         7,
-        8,
+        7,
+        7,
         7
       ],
       "WEATHER_BALL_WATER": [
@@ -64489,10 +65059,10 @@
         3
       ],
       "BRICK_BREAK": [
+        4,
         3,
         3,
-        3,
-        3
+        4
       ],
       "BULLDOZE": [
         5,
@@ -64635,10 +65205,10 @@
         9
       ],
       "BRICK_BREAK": [
+        7,
+        7,
         6,
-        6,
-        6,
-        6
+        7
       ],
       "BULLDOZE": [
         10,
@@ -65080,9 +65650,9 @@
       ],
       "WATER_PULSE": [
         10,
-        10,
-        10,
-        10
+        9,
+        9,
+        9
       ],
       "WEATHER_BALL_ICE": [
         6,

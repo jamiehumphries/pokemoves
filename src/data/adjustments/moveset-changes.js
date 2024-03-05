@@ -9,18 +9,6 @@ module.exports = {
       },
     },
     {
-      pokemonName: "Diglett",
-      fastMoveIds: {
-        add: ["MUD_SHOT_FAST"],
-      },
-    },
-    {
-      pokemonName: "Dugtrio",
-      fastMoveIds: {
-        add: ["MUD_SHOT_FAST"],
-      },
-    },
-    {
       pokemonName: "Gastrodon",
       chargedMoveIds: {
         add: ["EARTHQUAKE"],
@@ -33,39 +21,15 @@ module.exports = {
       },
     },
     {
-      pokemonName: "Golem",
-      fastMoveIds: {
-        add: ["MUD_SHOT_FAST"],
-      },
-    },
-    {
-      pokemonName: "Graveler",
-      fastMoveIds: {
-        add: ["MUD_SHOT_FAST"],
-      },
-    },
-    {
       pokemonName: "Grimer",
       fastMoveIds: {
         add: ["ACID_FAST"],
       },
     },
     {
-      pokemonName: "Kirlia",
-      chargedMoveIds: {
-        add: ["DRAINING_KISS"],
-      },
-    },
-    {
       pokemonName: "Koffing",
       fastMoveIds: {
         add: ["ACID_FAST"],
-      },
-    },
-    {
-      pokemonName: "Lileep",
-      fastMoveIds: {
-        add: ["BULLET_SEED_FAST"],
       },
     },
     {
@@ -114,9 +78,6 @@ module.exports = {
       pokemonName: "Starmie",
       fastMoveIds: {
         add: ["QUICK_ATTACK_FAST"],
-      },
-      chargedMoveIds: {
-        add: ["PSYBEAM"],
       },
     },
     {

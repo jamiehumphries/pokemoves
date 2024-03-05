@@ -8,10 +8,10 @@ function computeCmp({ baseAttack, baseDefense, baseStamina }) {
     new League("master", Infinity),
   ];
 
-  for (var attackIV = 0; attackIV <= 15; attackIV++) {
-    for (var defenseIV = 0; defenseIV <= 15; defenseIV++) {
-      for (var staminaIV = 0; staminaIV <= 15; staminaIV++) {
-        for (var level = 1; level <= 51; level += 0.5) {
+  for (let attackIV = 0; attackIV <= 15; attackIV++) {
+    for (let defenseIV = 0; defenseIV <= 15; defenseIV++) {
+      for (let staminaIV = 0; staminaIV <= 15; staminaIV++) {
+        for (let level = 1; level <= 51; level += 0.5) {
           const cpm = getCpmForLevel(level);
           const attack = (baseAttack + attackIV) * cpm;
           const defense = (baseDefense + defenseIV) * cpm;

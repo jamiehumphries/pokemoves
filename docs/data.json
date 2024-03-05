@@ -12990,41 +12990,6 @@
       }
     },
     {
-      "name": "Gastrodon (East Sea)",
-      "types": [
-        "water",
-        "ground"
-      ],
-      "fastMoveIds": [
-        "HIDDEN_POWER_FAST",
-        "MUD_SLAP_FAST"
-      ],
-      "chargedMoveIds": [
-        "BODY_SLAM",
-        "EARTH_POWER",
-        "WATER_PULSE",
-        "EARTHQUAKE"
-      ],
-      "cmp": {
-        "little": {
-          "rankOne": 65.50311747339339,
-          "max": 69.04334807395922
-        },
-        "great": {
-          "rankOne": 112.40727479614274,
-          "max": 121.00312522173013
-        },
-        "ultra": {
-          "rankOne": 146.23690325021744,
-          "max": 155.53520345687866
-        },
-        "master": {
-          "rankOne": 155.53520345687866,
-          "max": 155.53520345687866
-        }
-      }
-    },
-    {
       "name": "Genesect",
       "types": [
         "bug",

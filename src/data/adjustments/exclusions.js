@@ -20,6 +20,7 @@ module.exports = {
     "Darmanitan (Galarian Zen)",
     "Darmanitan (Zen)",
     "Dugtrio (Normal)",
+    "Gastrodon (East Sea)",
     "Ho-Oh (S)",
     "Lugia (S)",
     "Pikachu (3012)",

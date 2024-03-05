@@ -81,6 +81,7 @@ const specialMoveNames = {
   FUTURESIGHT: "Future Sight",
   LOCK_ON_FAST: "Lock-On",
   MYST_FIRE: "Mystical Fire",
+  NATURES_MADNESS: "Nature’s Madness",
   POWER_UP_PUNCH: "Power-Up Punch",
   V_CREATE: "V-create",
   VICE_GRIP: "Vise Grip",

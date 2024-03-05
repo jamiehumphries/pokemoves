@@ -26473,39 +26473,6 @@
       }
     },
     {
-      "name": "Pikachu (Doctor)",
-      "types": [
-        "electric"
-      ],
-      "fastMoveIds": [
-        "CHARM_FAST",
-        "PRESENT_FAST",
-        "THUNDER_SHOCK_FAST"
-      ],
-      "chargedMoveIds": [
-        "THUNDER_PUNCH",
-        "PLAY_ROUGH"
-      ],
-      "cmp": {
-        "little": {
-          "rankOne": 69.1737732291221,
-          "max": 78.0449179313223
-        },
-        "great": {
-          "rankOne": 107.35310238599777,
-          "max": 107.35310238599777
-        },
-        "ultra": {
-          "rankOne": 107.35310238599777,
-          "max": 107.35310238599777
-        },
-        "master": {
-          "rankOne": 107.35310238599777,
-          "max": 107.35310238599777
-        }
-      }
-    },
-    {
       "name": "Pikachu (Flying)",
       "types": [
         "electric"
@@ -26520,43 +26487,6 @@
         "FLY",
         "WILD_CHARGE",
         "THUNDERBOLT"
-      ],
-      "cmp": {
-        "little": {
-          "rankOne": 69.1737732291221,
-          "max": 78.0449179313223
-        },
-        "great": {
-          "rankOne": 107.35310238599777,
-          "max": 107.35310238599777
-        },
-        "ultra": {
-          "rankOne": 107.35310238599777,
-          "max": 107.35310238599777
-        },
-        "master": {
-          "rankOne": 107.35310238599777,
-          "max": 107.35310238599777
-        }
-      }
-    },
-    {
-      "name": "Pikachu (GO Fest 2022)",
-      "types": [
-        "electric"
-      ],
-      "fastMoveIds": [
-        "PRESENT_FAST",
-        "QUICK_ATTACK_FAST",
-        "THUNDER_SHOCK_FAST"
-      ],
-      "chargedMoveIds": [
-        "SURF",
-        "DISCHARGE",
-        "WILD_CHARGE",
-        "GRASS_KNOT",
-        "THUNDERBOLT",
-        "THUNDER"
       ],
       "cmp": {
         "little": {
@@ -26645,6 +26575,39 @@
       }
     },
     {
+      "name": "Pikachu (Ph.D.)",
+      "types": [
+        "electric"
+      ],
+      "fastMoveIds": [
+        "CHARM_FAST",
+        "PRESENT_FAST",
+        "THUNDER_SHOCK_FAST"
+      ],
+      "chargedMoveIds": [
+        "THUNDER_PUNCH",
+        "PLAY_ROUGH"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 69.1737732291221,
+          "max": 78.0449179313223
+        },
+        "great": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        },
+        "ultra": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        },
+        "master": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        }
+      }
+    },
+    {
       "name": "Pikachu (Pop Star)",
       "types": [
         "electric"
@@ -26690,6 +26653,43 @@
         "THUNDER_PUNCH",
         "METEOR_MASH",
         "PLAY_ROUGH"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 69.1737732291221,
+          "max": 78.0449179313223
+        },
+        "great": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        },
+        "ultra": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        },
+        "master": {
+          "rankOne": 107.35310238599777,
+          "max": 107.35310238599777
+        }
+      }
+    },
+    {
+      "name": "Pikachu (Shaymin Scarf)",
+      "types": [
+        "electric"
+      ],
+      "fastMoveIds": [
+        "PRESENT_FAST",
+        "QUICK_ATTACK_FAST",
+        "THUNDER_SHOCK_FAST"
+      ],
+      "chargedMoveIds": [
+        "SURF",
+        "DISCHARGE",
+        "WILD_CHARGE",
+        "GRASS_KNOT",
+        "THUNDERBOLT",
+        "THUNDER"
       ],
       "cmp": {
         "little": {

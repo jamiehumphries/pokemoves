@@ -45,7 +45,7 @@ module.exports = {
       },
     },
     {
-      pokemonName: "Pikachu (GO Fest 2022)",
+      pokemonName: "Pikachu (Shaymin Scarf)",
       chargedMoveIds: {
         add: ["GRASS_KNOT"],
       },

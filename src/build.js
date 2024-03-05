@@ -211,7 +211,7 @@ function getPokemonFastMoveIds(template) {
     ...(template.quickMoves || []),
     ...(template.eliteQuickMove || []),
   ];
-  return moveIds.map((id) => id.toString());
+  return deduplicateMoveIds(moveIds);
 }
 
 function getPokemonChargedMoveIds(template) {
@@ -222,7 +222,11 @@ function getPokemonChargedMoveIds(template) {
   if (template.shadow) {
     moveIds.push(template.shadow.purifiedChargeMove);
   }
-  return moveIds.map((id) => id.toString());
+  return deduplicateMoveIds(moveIds);
+}
+
+function deduplicateMoveIds(moveIds) {
+  return [...new Set(moveIds.map((id) => id.toString()))];
 }
 
 function getTypes(template) {

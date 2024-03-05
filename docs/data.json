@@ -1,5 +1,5 @@
 {
-  "timestamp": 1709328368654,
+  "timestamp": 1709605413972,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -6042,7 +6042,6 @@
         "EXTRASENSORY_FAST"
       ],
       "chargedMoveIds": [
-        "PSYSHOCK",
         "PSYSHOCK",
         "ENERGY_BALL",
         "SHADOW_BALL"
@@ -15587,7 +15586,6 @@
       ],
       "chargedMoveIds": [
         "DRAGON_CLAW",
-        "BRICK_BREAK",
         "BRICK_BREAK",
         "DRAGON_PULSE"
       ],
@@ -37484,7 +37482,6 @@
       ],
       "chargedMoveIds": [
         "SEED_BOMB",
-        "GUNK_SHOT",
         "GUNK_SHOT"
       ],
       "cmp": {
@@ -39622,7 +39619,6 @@
         "OVERHEAT",
         "PLAY_ROUGH",
         "RETURN",
-        "HYPER_BEAM",
         "HYPER_BEAM"
       ],
       "cmp": {

@@ -37,6 +37,7 @@ const specialPokemonBaseNames = {
 
 const specialPokemonFormNames = {
   DARMANITAN_GALARIAN_STANDARD: "Galarian",
+  EISCUE_NOICE: "Noice Face",
   GOURGEIST_AVERAGE: "Average Size",
   GOURGEIST_LARGE: "Large Size",
   GOURGEIST_SUPER: "Super Size",
@@ -59,6 +60,7 @@ const specialPokemonFormNames = {
 
 const defaultPokemonFormNames = {
   CHERRIM: "Overcast",
+  EISCUE: "Ice Face",
   ENAMORUS: "Incarnate",
   GIRATINA: "Altered",
   GOURGEIST: "Small Size",

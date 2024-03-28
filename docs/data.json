@@ -1,5 +1,5 @@
 {
-  "timestamp": 1710279151062,
+  "timestamp": 1711490100448,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -7826,6 +7826,7 @@
         "ROCK_SLIDE",
         "OVERHEAT",
         "PSYCHIC",
+        "RETURN",
         "FOCUS_BLAST"
       ],
       "cmp": {
@@ -7860,7 +7861,8 @@
         "ICE_PUNCH",
         "SUPER_POWER",
         "AVALANCHE",
-        "OVERHEAT"
+        "OVERHEAT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -9869,7 +9871,8 @@
       "chargedMoveIds": [
         "PSYSHOCK",
         "NIGHT_SHADE",
-        "THUNDER"
+        "THUNDER",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -14370,7 +14373,8 @@
       "chargedMoveIds": [
         "PSYSHOCK",
         "PSYCHIC",
-        "PSYBEAM"
+        "PSYBEAM",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -14403,7 +14407,8 @@
       "chargedMoveIds": [
         "ROCK_SLIDE",
         "PSYCHIC",
-        "FUTURESIGHT"
+        "FUTURESIGHT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -14436,7 +14441,8 @@
       "chargedMoveIds": [
         "PSYCHIC",
         "PSYBEAM",
-        "FUTURESIGHT"
+        "FUTURESIGHT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -15097,6 +15103,7 @@
         "FIRE_PUNCH",
         "PRECIPICE_BLADES",
         "EARTHQUAKE",
+        "RETURN",
         "FIRE_BLAST",
         "SOLAR_BEAM"
       ],
@@ -15133,6 +15140,7 @@
         "FIRE_PUNCH",
         "PRECIPICE_BLADES",
         "EARTHQUAKE",
+        "RETURN",
         "FIRE_BLAST",
         "SOLAR_BEAM"
       ],
@@ -16886,8 +16894,10 @@
       ],
       "chargedMoveIds": [
         "BLAZE_KICK",
+        "BLAST_BURN",
         "DARK_PULSE",
         "FLAME_CHARGE",
+        "DARKEST_LARIAT",
         "FIRE_BLAST"
       ],
       "cmp": {
@@ -26240,7 +26250,8 @@
         "FEATHER_DANCE",
         "AIR_CUTTER",
         "BRAVE_BIRD",
-        "HURRICANE"
+        "HURRICANE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -26278,7 +26289,8 @@
         "FEATHER_DANCE",
         "AIR_CUTTER",
         "BRAVE_BIRD",
-        "HURRICANE"
+        "HURRICANE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -26312,7 +26324,8 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "TWISTER",
-        "AIR_CUTTER"
+        "AIR_CUTTER",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -26346,7 +26359,8 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "TWISTER",
-        "AIR_CUTTER"
+        "AIR_CUTTER",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -29103,7 +29117,8 @@
       "chargedMoveIds": [
         "SHADOW_BALL",
         "THUNDER",
-        "FUTURESIGHT"
+        "FUTURESIGHT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -34020,7 +34035,8 @@
       "chargedMoveIds": [
         "PSYSHOCK",
         "NIGHT_SHADE",
-        "THUNDER"
+        "THUNDER",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -35965,6 +35981,7 @@
       ],
       "chargedMoveIds": [
         "PSYSHOCK",
+        "NATURES_MADNESS",
         "MOONBLAST",
         "FUTURESIGHT",
         "FOCUS_BLAST"
@@ -44171,6 +44188,12 @@
         5,
         4
       ],
+      "NATURES_MADNESS": [
+        5,
+        5,
+        5,
+        5
+      ],
       "NIGHT_SHADE": [
         6,
         5,
@@ -47055,6 +47078,12 @@
         5,
         5
       ],
+      "NATURES_MADNESS": [
+        5,
+        4,
+        4,
+        4
+      ],
       "OVERHEAT": [
         5,
         5,
@@ -47763,6 +47792,12 @@
         3,
         4
       ],
+      "BLAST_BURN": [
+        5,
+        4,
+        4,
+        4
+      ],
       "BLAZE_KICK": [
         4,
         3,
@@ -47798,6 +47833,12 @@
         4,
         4,
         4
+      ],
+      "DARKEST_LARIAT": [
+        5,
+        5,
+        5,
+        5
       ],
       "EARTH_POWER": [
         5,
@@ -49817,6 +49858,12 @@
       ]
     },
     "FIRE_FANG_FAST": {
+      "BLAST_BURN": [
+        10,
+        10,
+        10,
+        10
+      ],
       "BLAZE_KICK": [
         8,
         8,
@@ -49852,6 +49899,12 @@
         10,
         10,
         10
+      ],
+      "DARKEST_LARIAT": [
+        12,
+        12,
+        12,
+        12
       ],
       "DRACO_METEOR": [
         13,
@@ -60409,6 +60462,12 @@
         4,
         3
       ],
+      "BLAST_BURN": [
+        4,
+        4,
+        4,
+        4
+      ],
       "BLAZE_KICK": [
         4,
         3,
@@ -60480,6 +60539,12 @@
         4,
         4,
         4
+      ],
+      "DARKEST_LARIAT": [
+        5,
+        5,
+        4,
+        5
       ],
       "DAZZLING_GLEAM": [
         6,

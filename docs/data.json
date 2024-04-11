@@ -1,5 +1,5 @@
 {
-  "timestamp": 1711490100448,
+  "timestamp": 1712787030447,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -16030,6 +16030,41 @@
         "master": {
           "rankOne": 210.47970467805862,
           "max": 210.47970467805862
+        }
+      }
+    },
+    {
+      "name": "Heracross (Mega)",
+      "types": [
+        "bug",
+        "fighting"
+      ],
+      "fastMoveIds": [
+        "COUNTER_FAST",
+        "STRUGGLE_BUG_FAST"
+      ],
+      "chargedMoveIds": [
+        "ROCK_BLAST",
+        "CLOSE_COMBAT",
+        "MEGAHORN",
+        "EARTHQUAKE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 88.73485705256445,
+          "max": 89.24629715085013
+        },
+        "great": {
+          "rankOne": 151.322024593243,
+          "max": 158.11792390132277
+        },
+        "ultra": {
+          "rankOne": 194.4811550378797,
+          "max": 205.87088128006792
+        },
+        "master": {
+          "rankOne": 295.009706556797,
+          "max": 295.009706556797
         }
       }
     },

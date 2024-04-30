@@ -1,5 +1,5 @@
 {
-  "timestamp": 1712787030447,
+  "timestamp": 1714424004485,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -23863,9 +23863,14 @@
       "types": [
         "psychic"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "CONFUSION_FAST",
+        "PSYCHO_CUT_FAST"
+      ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "NIGHT_SLASH",
+        "ROCK_BLAST",
+        "POWER_GEM"
       ],
       "cmp": {
         "little": {
@@ -23892,9 +23897,14 @@
         "psychic",
         "ghost"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "CONFUSION_FAST",
+        "PSYCHO_CUT_FAST"
+      ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "NIGHT_SLASH",
+        "ROCK_BLAST",
+        "POWER_GEM"
       ],
       "cmp": {
         "little": {
@@ -23921,9 +23931,14 @@
         "psychic",
         "steel"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "CONFUSION_FAST",
+        "PSYCHO_CUT_FAST"
+      ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "NIGHT_SLASH",
+        "ROCK_BLAST",
+        "POWER_GEM"
       ],
       "cmp": {
         "little": {
@@ -35910,6 +35925,7 @@
       ],
       "chargedMoveIds": [
         "GRASS_KNOT",
+        "NATURES_MADNESS",
         "MEGAHORN",
         "DAZZLING_GLEAM",
         "SOLAR_BEAM"
@@ -38784,6 +38800,7 @@
       ],
       "fastMoveIds": [
         "ACID_FAST",
+        "MAGICAL_LEAF_FAST",
         "RAZOR_LEAF_FAST"
       ],
       "chargedMoveIds": [
@@ -41491,6 +41508,18 @@
     }
   ],
   "moves": {
+    "404": {
+      "name": "Sunsteel Strike",
+      "type": "steel",
+      "energy": -45,
+      "damage": 1
+    },
+    "405": {
+      "name": "Moongeist Beam",
+      "type": "ghost",
+      "energy": -45,
+      "damage": 1
+    },
     "ACID_FAST": {
       "name": "Acid",
       "type": "poison",
@@ -45967,6 +45996,12 @@
         3,
         2
       ],
+      "NATURES_MADNESS": [
+        4,
+        4,
+        4,
+        4
+      ],
       "NIGHT_SHADE": [
         5,
         4,
@@ -47119,6 +47154,12 @@
         4,
         4
       ],
+      "NIGHT_SLASH": [
+        3,
+        3,
+        3,
+        3
+      ],
       "OVERHEAT": [
         5,
         5,
@@ -47136,6 +47177,12 @@
         3,
         3,
         4
+      ],
+      "POWER_GEM": [
+        5,
+        5,
+        5,
+        5
       ],
       "POWER_WHIP": [
         5,
@@ -47178,6 +47225,12 @@
         6,
         6,
         6
+      ],
+      "ROCK_BLAST": [
+        4,
+        3,
+        3,
+        4
       ],
       "ROCK_SLIDE": [
         4,
@@ -54057,6 +54110,12 @@
       ]
     },
     "MAGICAL_LEAF_FAST": {
+      "ACID_SPRAY": [
+        5,
+        4,
+        5,
+        4
+      ],
       "AERIAL_ACE": [
         4,
         4,
@@ -54158,6 +54217,12 @@
         5,
         6,
         5
+      ],
+      "LEAF_TORNADO": [
+        4,
+        4,
+        4,
+        4
       ],
       "PETAL_BLIZZARD": [
         7,
@@ -57409,6 +57474,12 @@
         6,
         7
       ],
+      "NIGHT_SLASH": [
+        4,
+        4,
+        4,
+        4
+      ],
       "PAYBACK": [
         7,
         7,
@@ -57416,6 +57487,12 @@
         7
       ],
       "PLAY_ROUGH": [
+        7,
+        7,
+        6,
+        7
+      ],
+      "POWER_GEM": [
         7,
         7,
         6,
@@ -57456,6 +57533,12 @@
         8,
         8,
         8
+      ],
+      "ROCK_BLAST": [
+        5,
+        4,
+        5,
+        4
       ],
       "ROCK_TOMB": [
         7,
@@ -58688,6 +58771,12 @@
         8,
         8,
         8
+      ],
+      "NATURES_MADNESS": [
+        8,
+        7,
+        7,
+        7
       ],
       "OUTRAGE": [
         9,

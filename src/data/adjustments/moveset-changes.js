@@ -69,12 +69,6 @@ module.exports = {
       },
     },
     {
-      pokemonName: "Shaymin (Sky)",
-      fastMoveIds: {
-        add: ["MAGICAL_LEAF_FAST"],
-      },
-    },
-    {
       pokemonName: "Starmie",
       fastMoveIds: {
         add: ["QUICK_ATTACK_FAST"],

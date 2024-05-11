@@ -1,0 +1,844 @@
+diff --git a/docs/data.json b/docs/data.json
+index b6682f4..aadf7ff 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -1,22 +1,22 @@
+ {
+-  "timestamp": 1714424004485,
++  "timestamp": 1715376779806,
+   "pokemon": [
+     {
+       "name": "Abomasnow",
+       "types": [
+         "grass",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "LEAFAGE_FAST",
+         "POWDER_SNOW_FAST",
+         "RAZOR_LEAF_FAST"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_ICE",
+         "ICY_WIND",
+         "ENERGY_BALL",
+         "OUTRAGE",
+         "RETURN",
+         "BLIZZARD"
+       ],
+@@ -23847,115 +23847,121 @@
+         "great": {
+           "rankOne": 125.94970279932022,
+           "max": 125.94970279932022
+         },
+         "ultra": {
+           "rankOne": 125.94970279932022,
+           "max": 125.94970279932022
+         },
+         "master": {
+           "rankOne": 125.94970279932022,
+           "max": 125.94970279932022
+         }
+       }
+     },
+     {
+       "name": "Necrozma",
+       "types": [
+         "psychic"
+       ],
+       "fastMoveIds": [
+-        "CONFUSION_FAST",
+-        "PSYCHO_CUT_FAST"
++        "METAL_CLAW_FAST",
++        "PSYCHO_CUT_FAST",
++        "SHADOW_CLAW_FAST"
+       ],
+       "chargedMoveIds": [
+-        "NIGHT_SLASH",
+-        "ROCK_BLAST",
+-        "POWER_GEM"
++        "DARK_PULSE",
++        "IRON_HEAD",
++        "OUTRAGE",
++        "FUTURESIGHT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.82040271527902,
+           "max": 78.96280438462944
+         },
+         "great": {
+           "rankOne": 130.3832745552063,
+           "max": 137.79693729808818
+         },
+         "ultra": {
+           "rankOne": 168.31936812400818,
+           "max": 178.76420331206677
+         },
+         "master": {
+           "rankOne": 224.84980499744415,
+           "max": 224.84980499744415
+         }
+       }
+     },
+     {
+       "name": "Necrozma (Dawn Wings)",
+       "types": [
+         "psychic",
+         "ghost"
+       ],
+       "fastMoveIds": [
+-        "CONFUSION_FAST",
+-        "PSYCHO_CUT_FAST"
++        "METAL_CLAW_FAST",
++        "PSYCHO_CUT_FAST",
++        "SHADOW_CLAW_FAST"
+       ],
+       "chargedMoveIds": [
+-        "NIGHT_SLASH",
+-        "ROCK_BLAST",
+-        "POWER_GEM"
++        "DARK_PULSE",
++        "IRON_HEAD",
++        "OUTRAGE",
++        "FUTURESIGHT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 80.39921790361389,
+           "max": 82.14071720838531
+         },
+         "great": {
+           "rankOne": 135.96705944174522,
+           "max": 143.32989659563034
+         },
+         "ultra": {
+           "rankOne": 175.5208233094998,
+           "max": 185.7893568277357
+         },
+         "master": {
+           "rankOne": 246.82760548591614,
+           "max": 246.82760548591614
+         }
+       }
+     },
+     {
+       "name": "Necrozma (Dusk Mane)",
+       "types": [
+         "psychic",
+         "steel"
+       ],
+       "fastMoveIds": [
+-        "CONFUSION_FAST",
+-        "PSYCHO_CUT_FAST"
++        "METAL_CLAW_FAST",
++        "PSYCHO_CUT_FAST",
++        "SHADOW_CLAW_FAST"
+       ],
+       "chargedMoveIds": [
+-        "NIGHT_SLASH",
+-        "ROCK_BLAST",
+-        "POWER_GEM"
++        "DARK_PULSE",
++        "IRON_HEAD",
++        "OUTRAGE",
++        "FUTURESIGHT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 80.39921790361389,
+           "max": 82.14071720838531
+         },
+         "great": {
+           "rankOne": 135.96705944174522,
+           "max": 143.32989659563034
+         },
+         "ultra": {
+           "rankOne": 175.5208233094998,
+           "max": 185.7893568277357
+         },
+         "master": {
+           "rankOne": 246.82760548591614,
+           "max": 246.82760548591614
+         }
+       }
+     },
+@@ -26554,40 +26560,73 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.1737732291221,
+           "max": 78.0449179313223
+         },
+         "great": {
+           "rankOne": 107.35310238599777,
+           "max": 107.35310238599777
+         },
+         "ultra": {
+           "rankOne": 107.35310238599777,
+           "max": 107.35310238599777
+         },
+         "master": {
+           "rankOne": 107.35310238599777,
+           "max": 107.35310238599777
+         }
+       }
+     },
++    {
++      "name": "Pikachu (Gofest 2024 Mtiara)",
++      "types": [
++        "electric"
++      ],
++      "fastMoveIds": [
++        "QUICK_ATTACK_FAST",
++        "THUNDER_SHOCK_FAST"
++      ],
++      "chargedMoveIds": [
++        "DISCHARGE",
++        "WILD_CHARGE",
++        "THUNDERBOLT"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 69.1737732291221,
++          "max": 78.0449179313223
++        },
++        "great": {
++          "rankOne": 107.35310238599777,
++          "max": 107.35310238599777
++        },
++        "ultra": {
++          "rankOne": 107.35310238599777,
++          "max": 107.35310238599777
++        },
++        "master": {
++          "rankOne": 107.35310238599777,
++          "max": 107.35310238599777
++        }
++      }
++    },
+     {
+       "name": "Pikachu (Horizons)",
+       "types": [
+         "electric"
+       ],
+       "fastMoveIds": [
+         "QUICK_ATTACK_FAST",
+         "THUNDER_SHOCK_FAST"
+       ],
+       "chargedMoveIds": [
+         "DISCHARGE",
+         "WILD_CHARGE",
+         "VOLT_TACKLE",
+         "THUNDERBOLT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.1737732291221,
+           "max": 78.0449179313223
+         },
+@@ -35944,40 +35983,41 @@
+           "max": 184.9433238253862
+         },
+         "master": {
+           "rankOne": 223.15920495986938,
+           "max": 223.15920495986938
+         }
+       }
+     },
+     {
+       "name": "Tapu Fini",
+       "types": [
+         "water",
+         "fairy"
+       ],
+       "fastMoveIds": [
+         "HIDDEN_POWER_FAST",
+         "WATER_GUN_FAST"
+       ],
+       "chargedMoveIds": [
+         "SURF",
++        "NATURES_MADNESS",
+         "ICE_BEAM",
+         "MOONBLAST",
+         "HYDRO_PUMP"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 66.00119581818574,
+           "max": 68.44568455219262
+         },
+         "great": {
+           "rankOne": 112.9086018204688,
+           "max": 120.33713404336348
+         },
+         "ultra": {
+           "rankOne": 145.5861847806305,
+           "max": 155.9551573120661
+         },
+         "master": {
+           "rankOne": 172.44120383262634,
+           "max": 172.44120383262634
+@@ -41491,52 +41531,40 @@
+         "little": {
+           "rankOne": 56.31455816578223,
+           "max": 57.75972694158543
+         },
+         "great": {
+           "rankOne": 96.75266802310944,
+           "max": 101.92660748958588
+         },
+         "ultra": {
+           "rankOne": 124.12306946951051,
+           "max": 131.5829980969429
+         },
+         "master": {
+           "rankOne": 168.21470373868942,
+           "max": 168.21470373868942
+         }
+       }
+     }
+   ],
+   "moves": {
+-    "404": {
+-      "name": "Sunsteel Strike",
+-      "type": "steel",
+-      "energy": -45,
+-      "damage": 1
+-    },
+-    "405": {
+-      "name": "Moongeist Beam",
+-      "type": "ghost",
+-      "energy": -45,
+-      "damage": 1
+-    },
+     "ACID_FAST": {
+       "name": "Acid",
+       "type": "poison",
+       "energy": 5,
+       "damage": 6,
+       "turns": 2
+     },
+     "ACID_SPRAY": {
+       "name": "Acid Spray",
+       "type": "poison",
+       "energy": -45,
+       "damage": 20
+     },
+     "ACROBATICS": {
+       "name": "Acrobatics",
+       "type": "flying",
+       "energy": -60,
+       "damage": 110
+     },
+     "AERIAL_ACE": {
+@@ -42456,40 +42484,46 @@
+       "damage": 60
+     },
+     "MIRROR_SHOT": {
+       "name": "Mirror Shot",
+       "type": "steel",
+       "energy": -35,
+       "damage": 35
+     },
+     "MIST_BALL": {
+       "name": "Mist Ball",
+       "type": "psychic",
+       "energy": -60,
+       "damage": 120
+     },
+     "MOONBLAST": {
+       "name": "Moonblast",
+       "type": "fairy",
+       "energy": -60,
+       "damage": 110
+     },
++    "MOONGEIST_BEAM": {
++      "name": "Moongeist Beam",
++      "type": "ghost",
++      "energy": -45,
++      "damage": 1
++    },
+     "MUD_BOMB": {
+       "name": "Mud Bomb",
+       "type": "ground",
+       "energy": -40,
+       "damage": 60
+     },
+     "MUD_SHOT_FAST": {
+       "name": "Mud Shot",
+       "type": "ground",
+       "energy": 9,
+       "damage": 3,
+       "turns": 2
+     },
+     "MUD_SLAP_FAST": {
+       "name": "Mud Slap",
+       "type": "ground",
+       "energy": 9,
+       "damage": 11,
+       "turns": 3
+     },
+@@ -43033,40 +43067,46 @@
+     "STRUGGLE_BUG_FAST": {
+       "name": "Struggle Bug",
+       "type": "bug",
+       "energy": 8,
+       "damage": 9,
+       "turns": 3
+     },
+     "SUBMISSION": {
+       "name": "Submission",
+       "type": "fighting",
+       "energy": -50,
+       "damage": 60
+     },
+     "SUCKER_PUNCH_FAST": {
+       "name": "Sucker Punch",
+       "type": "dark",
+       "energy": 7,
+       "damage": 5,
+       "turns": 2
+     },
++    "SUNSTEEL_STRIKE": {
++      "name": "Sunsteel Strike",
++      "type": "steel",
++      "energy": -45,
++      "damage": 1
++    },
+     "SUPER_POWER": {
+       "name": "Super Power",
+       "type": "fighting",
+       "energy": -40,
+       "damage": 85
+     },
+     "SURF": {
+       "name": "Surf",
+       "type": "water",
+       "energy": -40,
+       "damage": 65
+     },
+     "SWIFT": {
+       "name": "Swift",
+       "type": "normal",
+       "energy": -55,
+       "damage": 60
+     },
+     "SYNCHRONOISE": {
+       "name": "Synchronoise",
+@@ -47137,70 +47177,58 @@
+         5
+       ],
+       "MIRROR_COAT": [
+         5,
+         5,
+         4,
+         5
+       ],
+       "MOONBLAST": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "NATURES_MADNESS": [
+         5,
+         4,
+         4,
+         4
+       ],
+-      "NIGHT_SLASH": [
+-        3,
+-        3,
+-        3,
+-        3
+-      ],
+       "OVERHEAT": [
+         5,
+         5,
+         4,
+         5
+       ],
+       "PAYBACK": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "POISON_FANG": [
+         4,
+         3,
+         3,
+         4
+       ],
+-      "POWER_GEM": [
+-        5,
+-        5,
+-        5,
+-        5
+-      ],
+       "POWER_WHIP": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "PSYBEAM": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "PSYCHIC": [
+         5,
+         5,
+         4,
+         5
+       ],
+       "PSYCHIC_FANGS": [
+         3,
+@@ -47209,46 +47237,40 @@
+         3
+       ],
+       "PSYSHOCK": [
+         4,
+         4,
+         4,
+         3
+       ],
+       "PSYSTRIKE": [
+         4,
+         4,
+         4,
+         3
+       ],
+       "RETURN": [
+         6,
+         6,
+         6,
+         6
+       ],
+-      "ROCK_BLAST": [
+-        4,
+-        3,
+-        3,
+-        4
+-      ],
+       "ROCK_SLIDE": [
+         4,
+         4,
+         4,
+         3
+       ],
+       "ROCK_TOMB": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "SCALD": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "SCORCHING_SANDS": [
+         5,
+@@ -51605,40 +51627,46 @@
+         10
+       ],
+       "ICE_BEAM": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "MOONBLAST": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "MUD_BOMB": [
+         5,
+         5,
+         5,
+         5
+       ],
++      "NATURES_MADNESS": [
++        7,
++        6,
++        6,
++        6
++      ],
+       "NIGHT_SHADE": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "PETAL_BLIZZARD": [
+         9,
+         8,
+         8,
+         8
+       ],
+       "POWER_GEM": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "PSYBEAM": [
+         8,
+@@ -54437,40 +54465,46 @@
+         9
+       ],
+       "FLASH_CANNON": [
+         12,
+         12,
+         11,
+         12
+       ],
+       "FOCUS_BLAST": [
+         13,
+         12,
+         13,
+         12
+       ],
+       "FOUL_PLAY": [
+         8,
+         7,
+         8,
+         7
+       ],
++      "FUTURESIGHT": [
++        11,
++        11,
++        11,
++        11
++      ],
+       "GUNK_SHOT": [
+         13,
+         12,
+         13,
+         12
+       ],
+       "GYRO_BALL": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "HEAVY_SLAM": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "HYDRO_CANNON": [
+         7,
+@@ -54539,40 +54573,46 @@
+         10
+       ],
+       "MUD_BOMB": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "MUDDY_WATER": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "NIGHT_SLASH": [
+         6,
+         6,
+         6,
+         6
+       ],
++      "OUTRAGE": [
++        10,
++        10,
++        10,
++        10
++      ],
+       "PLAY_ROUGH": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "POWER_WHIP": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "PSYCHIC": [
+         10,
+         9,
+         9,
+         9
+       ],
+       "PSYSHOCK": [
+         8,
+@@ -57457,59 +57497,53 @@
+         6
+       ],
+       "LEAF_BLADE": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "MEGAHORN": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "MOONBLAST": [
+         7,
+         7,
+         6,
+         7
+       ],
+-      "NIGHT_SLASH": [
+-        4,
+-        4,
+-        4,
+-        4
+-      ],
+-      "PAYBACK": [
++      "OUTRAGE": [
+         7,
+         7,
+         6,
+         7
+       ],
+-      "PLAY_ROUGH": [
++      "PAYBACK": [
+         7,
+         7,
+         6,
+         7
+       ],
+-      "POWER_GEM": [
++      "PLAY_ROUGH": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "POWER_UP_PUNCH": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "POWER_WHIP": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "PSYBEAM": [
+         7,
+         7,
+@@ -57517,46 +57551,40 @@
+         7
+       ],
+       "PSYCHIC": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "PSYSTRIKE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "RETURN": [
+         8,
+         8,
+         8,
+         8
+       ],
+-      "ROCK_BLAST": [
+-        5,
+-        4,
+-        5,
+-        4
+-      ],
+       "ROCK_TOMB": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "SHADOW_BALL": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "SUPER_POWER": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "SWIFT": [
+         7,
+@@ -64361,40 +64389,46 @@
+         15
+       ],
+       "MOONBLAST": [
+         20,
+         20,
+         20,
+         20
+       ],
+       "MUD_BOMB": [
+         14,
+         13,
+         13,
+         14
+       ],
+       "MUDDY_WATER": [
+         12,
+         12,
+         11,
+         12
+       ],
++      "NATURES_MADNESS": [
++        17,
++        17,
++        16,
++        17
++      ],
+       "NIGHT_SLASH": [
+         12,
+         12,
+         11,
+         12
+       ],
+       "OCTAZOOKA": [
+         17,
+         17,
+         16,
+         17
+       ],
+       "OUTRAGE": [
+         20,
+         20,
+         20,
+         20
+       ],
+       "OVERHEAT": [
+         19,

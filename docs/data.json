@@ -1,5 +1,5 @@
 {
-  "timestamp": 1715382266097,
+  "timestamp": 1715644728114,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -21594,9 +21594,17 @@
         "fighting",
         "ghost"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "COUNTER_FAST",
+        "POISON_JAB_FAST",
+        "SUCKER_PUNCH_FAST"
+      ],
       "chargedMoveIds": [
-        "STRUGGLE"
+        "FIRE_PUNCH",
+        "ICE_PUNCH",
+        "THUNDER_PUNCH",
+        "CLOSE_COMBAT",
+        "ROCK_SLIDE"
       ],
       "cmp": {
         "little": {
@@ -42230,6 +42238,12 @@
       "energy": -60,
       "damage": 100
     },
+    "HIGH_JUMP_KICK": {
+      "name": "High Jump Kick",
+      "type": "fighting",
+      "energy": -55,
+      "damage": 110
+    },
     "HORN_ATTACK": {
       "name": "Horn Attack",
       "type": "normal",
@@ -42504,8 +42518,8 @@
     "MOONGEIST_BEAM": {
       "name": "Moongeist Beam",
       "type": "ghost",
-      "energy": -45,
-      "damage": 1
+      "energy": -65,
+      "damage": 135
     },
     "MUD_BOMB": {
       "name": "Mud Bomb",
@@ -43087,8 +43101,8 @@
     "SUNSTEEL_STRIKE": {
       "name": "Sunsteel Strike",
       "type": "steel",
-      "energy": -45,
-      "damage": 1
+      "energy": -65,
+      "damage": 135
     },
     "SUPER_POWER": {
       "name": "Super Power",
@@ -56166,6 +56180,12 @@
         12,
         11
       ],
+      "FIRE_PUNCH": [
+        6,
+        6,
+        6,
+        5
+      ],
       "FLAME_CHARGE": [
         8,
         7,
@@ -56237,6 +56257,12 @@
         8,
         8,
         8
+      ],
+      "ICE_PUNCH": [
+        6,
+        6,
+        6,
+        5
       ],
       "ICY_WIND": [
         7,
@@ -61974,6 +62000,12 @@
         8,
         8
       ],
+      "FIRE_PUNCH": [
+        6,
+        6,
+        6,
+        5
+      ],
       "FLAMETHROWER": [
         8,
         8,
@@ -62015,6 +62047,12 @@
         8,
         8,
         8
+      ],
+      "ICE_PUNCH": [
+        6,
+        6,
+        6,
+        5
       ],
       "ICY_WIND": [
         7,
@@ -62088,6 +62126,12 @@
         10,
         10
       ],
+      "ROCK_SLIDE": [
+        7,
+        6,
+        7,
+        6
+      ],
       "ROCK_TOMB": [
         9,
         9,
@@ -62147,6 +62191,12 @@
         9,
         8,
         9
+      ],
+      "THUNDER_PUNCH": [
+        6,
+        6,
+        6,
+        5
       ],
       "THUNDERBOLT": [
         8,

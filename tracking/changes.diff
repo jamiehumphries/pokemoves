@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index b6682f4..86dffb0 100644
+index b6682f4..080eb17 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1714424004485,
-+  "timestamp": 1715382266097,
++  "timestamp": 1715644728114,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,7 +26,61 @@ index b6682f4..86dffb0 100644
          "RETURN",
          "BLIZZARD"
        ],
-@@ -23847,115 +23847,121 @@
+@@ -21577,43 +21577,51 @@
+         "great": {
+           "rankOne": 108.39299116403824,
+           "max": 118.26252007484429
+         },
+         "ultra": {
+           "rankOne": 134.40270298719406,
+           "max": 134.40270298719406
+         },
+         "master": {
+           "rankOne": 134.40270298719406,
+           "max": 134.40270298719406
+         }
+       }
+     },
+     {
+       "name": "Marshadow",
+       "types": [
+         "fighting",
+         "ghost"
+       ],
+-      "fastMoveIds": [],
++      "fastMoveIds": [
++        "COUNTER_FAST",
++        "POISON_JAB_FAST",
++        "SUCKER_PUNCH_FAST"
++      ],
+       "chargedMoveIds": [
+-        "STRUGGLE"
++        "FIRE_PUNCH",
++        "ICE_PUNCH",
++        "THUNDER_PUNCH",
++        "CLOSE_COMBAT",
++        "ROCK_SLIDE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 80.97971767187103,
+           "max": 82.32943557932293
+         },
+         "great": {
+           "rankOne": 137.10939586162567,
+           "max": 144.87030506134033
+         },
+         "ultra": {
+           "rankOne": 177.00251013040543,
+           "max": 187.02152013778687
+         },
+         "master": {
+           "rankOne": 236.68400526046753,
+           "max": 236.68400526046753
+         }
+       }
+     },
+@@ -23847,115 +23855,121 @@
          "great": {
            "rankOne": 125.94970279932022,
            "max": 125.94970279932022
@@ -163,7 +217,7 @@ index b6682f4..86dffb0 100644
          }
        }
      },
-@@ -26554,40 +26560,73 @@
+@@ -26554,40 +26568,73 @@
        ],
        "cmp": {
          "little": {
@@ -237,7 +291,7 @@ index b6682f4..86dffb0 100644
            "rankOne": 69.1737732291221,
            "max": 78.0449179313223
          },
-@@ -35944,40 +35983,41 @@
+@@ -35944,40 +35991,41 @@
            "max": 184.9433238253862
          },
          "master": {
@@ -279,7 +333,7 @@ index b6682f4..86dffb0 100644
          "master": {
            "rankOne": 172.44120383262634,
            "max": 172.44120383262634
-@@ -41491,52 +41531,40 @@
+@@ -41491,52 +41539,40 @@
          "little": {
            "rankOne": 56.31455816578223,
            "max": 57.75972694158543
@@ -332,7 +386,54 @@ index b6682f4..86dffb0 100644
        "damage": 110
      },
      "AERIAL_ACE": {
-@@ -42456,40 +42484,46 @@
+@@ -42185,40 +42221,46 @@
+     "HEX_FAST": {
+       "name": "Hex",
+       "type": "ghost",
+       "energy": 12,
+       "damage": 6,
+       "turns": 3
+     },
+     "HIDDEN_POWER_FAST": {
+       "name": "Hidden Power",
+       "type": "normal",
+       "energy": 8,
+       "damage": 9,
+       "turns": 3
+     },
+     "HIGH_HORSEPOWER": {
+       "name": "High Horsepower",
+       "type": "ground",
+       "energy": -60,
+       "damage": 100
+     },
++    "HIGH_JUMP_KICK": {
++      "name": "High Jump Kick",
++      "type": "fighting",
++      "energy": -55,
++      "damage": 110
++    },
+     "HORN_ATTACK": {
+       "name": "Horn Attack",
+       "type": "normal",
+       "energy": -35,
+       "damage": 40
+     },
+     "HURRICANE": {
+       "name": "Hurricane",
+       "type": "flying",
+       "energy": -65,
+       "damage": 110
+     },
+     "HYDRO_CANNON": {
+       "name": "Hydro Cannon",
+       "type": "water",
+       "energy": -40,
+       "damage": 80
+     },
+     "HYDRO_PUMP": {
+       "name": "Hydro Pump",
+@@ -42456,40 +42498,46 @@
        "damage": 60
      },
      "MIRROR_SHOT": {
@@ -356,8 +457,8 @@ index b6682f4..86dffb0 100644
 +    "MOONGEIST_BEAM": {
 +      "name": "Moongeist Beam",
 +      "type": "ghost",
-+      "energy": -45,
-+      "damage": 1
++      "energy": -65,
++      "damage": 135
 +    },
      "MUD_BOMB": {
        "name": "Mud Bomb",
@@ -379,7 +480,7 @@ index b6682f4..86dffb0 100644
        "damage": 11,
        "turns": 3
      },
-@@ -43033,40 +43067,46 @@
+@@ -43033,40 +43081,46 @@
      "STRUGGLE_BUG_FAST": {
        "name": "Struggle Bug",
        "type": "bug",
@@ -403,8 +504,8 @@ index b6682f4..86dffb0 100644
 +    "SUNSTEEL_STRIKE": {
 +      "name": "Sunsteel Strike",
 +      "type": "steel",
-+      "energy": -45,
-+      "damage": 1
++      "energy": -65,
++      "damage": 135
 +    },
      "SUPER_POWER": {
        "name": "Super Power",
@@ -426,7 +527,7 @@ index b6682f4..86dffb0 100644
      },
      "SYNCHRONOISE": {
        "name": "Synchronoise",
-@@ -47137,70 +47177,58 @@
+@@ -47137,70 +47191,58 @@
          5
        ],
        "MIRROR_COAT": [
@@ -497,7 +598,7 @@ index b6682f4..86dffb0 100644
        ],
        "PSYCHIC_FANGS": [
          3,
-@@ -47209,46 +47237,40 @@
+@@ -47209,46 +47251,40 @@
          3
        ],
        "PSYSHOCK": [
@@ -544,7 +645,7 @@ index b6682f4..86dffb0 100644
        ],
        "SCORCHING_SANDS": [
          5,
-@@ -51605,40 +51627,46 @@
+@@ -51605,40 +51641,46 @@
          10
        ],
        "ICE_BEAM": [
@@ -591,7 +692,7 @@ index b6682f4..86dffb0 100644
        ],
        "PSYBEAM": [
          8,
-@@ -54437,40 +54465,46 @@
+@@ -54437,40 +54479,46 @@
          9
        ],
        "FLASH_CANNON": [
@@ -638,7 +739,7 @@ index b6682f4..86dffb0 100644
        ],
        "HYDRO_CANNON": [
          7,
-@@ -54539,40 +54573,46 @@
+@@ -54539,40 +54587,46 @@
          10
        ],
        "MUD_BOMB": [
@@ -685,7 +786,101 @@ index b6682f4..86dffb0 100644
        ],
        "PSYSHOCK": [
          8,
-@@ -57457,59 +57497,53 @@
+@@ -56109,40 +56163,46 @@
+         10
+       ],
+       "ENERGY_BALL": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "FELL_STINGER": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "FIRE_BLAST": [
+         12,
+         11,
+         12,
+         11
+       ],
++      "FIRE_PUNCH": [
++        6,
++        6,
++        6,
++        5
++      ],
+       "FLAME_CHARGE": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "FLAMETHROWER": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "FLASH_CANNON": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "FLYING_PRESS": [
+         6,
+@@ -56181,40 +56241,46 @@
+         5
+       ],
+       "HYDRO_PUMP": [
+         11,
+         11,
+         11,
+         10
+       ],
+       "HYPER_BEAM": [
+         12,
+         11,
+         12,
+         11
+       ],
+       "ICE_BEAM": [
+         8,
+         8,
+         8,
+         8
+       ],
++      "ICE_PUNCH": [
++        6,
++        6,
++        6,
++        5
++      ],
+       "ICY_WIND": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "LEAF_STORM": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "LOW_SWEEP": [
+         6,
+         6,
+         6,
+         5
+       ],
+       "LUNGE": [
+         7,
+@@ -57457,59 +57523,53 @@
          6
        ],
        "LEAF_BLADE": [
@@ -748,7 +943,7 @@ index b6682f4..86dffb0 100644
        "PSYBEAM": [
          7,
          7,
-@@ -57517,46 +57551,40 @@
+@@ -57517,46 +57577,40 @@
          7
        ],
        "PSYCHIC": [
@@ -795,7 +990,195 @@ index b6682f4..86dffb0 100644
        ],
        "SWIFT": [
          7,
-@@ -64361,40 +64389,46 @@
+@@ -61929,40 +61983,46 @@
+         6
+       ],
+       "DYNAMIC_PUNCH": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "EARTHQUAKE": [
+         10,
+         9,
+         9,
+         10
+       ],
+       "ENERGY_BALL": [
+         8,
+         8,
+         8,
+         8
+       ],
++      "FIRE_PUNCH": [
++        6,
++        6,
++        6,
++        5
++      ],
+       "FLAMETHROWER": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "FOCUS_BLAST": [
+         11,
+         11,
+         11,
+         10
+       ],
+       "FOUL_PLAY": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "GRASS_KNOT": [
+         8,
+@@ -61971,40 +62031,46 @@
+         7
+       ],
+       "HURRICANE": [
+         10,
+         9,
+         9,
+         10
+       ],
+       "HYPER_BEAM": [
+         12,
+         11,
+         12,
+         11
+       ],
+       "ICE_BEAM": [
+         8,
+         8,
+         8,
+         8
+       ],
++      "ICE_PUNCH": [
++        6,
++        6,
++        6,
++        5
++      ],
+       "ICY_WIND": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "IRON_HEAD": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "MUD_BOMB": [
+         6,
+         6,
+         6,
+         5
+       ],
+       "NIGHT_SHADE": [
+         8,
+@@ -62043,40 +62109,46 @@
+         9
+       ],
+       "POWER_UP_PUNCH": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "PSYCHIC": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "RETURN": [
+         10,
+         10,
+         10,
+         10
+       ],
++      "ROCK_SLIDE": [
++        7,
++        6,
++        7,
++        6
++      ],
+       "ROCK_TOMB": [
+         9,
+         9,
+         8,
+         9
+       ],
+       "SEED_BOMB": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "SHADOW_BALL": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "SHADOW_PUNCH": [
+         5,
+@@ -62103,40 +62175,46 @@
+         10
+       ],
+       "STONE_EDGE": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "SURF": [
+         6,
+         6,
+         6,
+         5
+       ],
+       "THUNDER": [
+         9,
+         9,
+         8,
+         9
+       ],
++      "THUNDER_PUNCH": [
++        6,
++        6,
++        6,
++        5
++      ],
+       "THUNDERBOLT": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "TRAILBLAZE": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "X_SCISSOR": [
+         6,
+         6,
+         6,
+         5
+       ]
+     },
+     "TACKLE_FAST": {
+@@ -64361,40 +64439,46 @@
          15
        ],
        "MOONBLAST": [

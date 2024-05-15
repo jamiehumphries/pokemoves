@@ -9,6 +9,12 @@ module.exports = {
       },
     },
     {
+      pokemonName: "Dialga (Origin)",
+      chargedMoveIds: {
+        add: ["ROAR_OF_TIME"],
+      },
+    },
+    {
       pokemonName: "Gastrodon",
       chargedMoveIds: {
         add: ["EARTHQUAKE"],
@@ -36,6 +42,12 @@ module.exports = {
       pokemonName: "Muk",
       fastMoveIds: {
         add: ["ACID_FAST"],
+      },
+    },
+    {
+      pokemonName: "Palkia (Origin)",
+      chargedMoveIds: {
+        add: ["SPACIAL_REND"],
       },
     },
     {

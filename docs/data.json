@@ -8588,7 +8588,8 @@
       "chargedMoveIds": [
         "IRON_HEAD",
         "THUNDER",
-        "DRACO_METEOR"
+        "DRACO_METEOR",
+        "ROAR_OF_TIME"
       ],
       "cmp": {
         "little": {
@@ -25417,6 +25418,7 @@
       ],
       "chargedMoveIds": [
         "AQUA_TAIL",
+        "SPACIAL_REND",
         "DRACO_METEOR",
         "HYDRO_PUMP",
         "FIRE_BLAST"
@@ -48329,6 +48331,12 @@
         23,
         24
       ],
+      "ROAR_OF_TIME": [
+        22,
+        22,
+        21,
+        22
+      ],
       "SAND_TOMB": [
         14,
         13,
@@ -48376,6 +48384,12 @@
         27,
         26,
         27
+      ],
+      "SPACIAL_REND": [
+        17,
+        17,
+        16,
+        17
       ],
       "STONE_EDGE": [
         19,
@@ -48798,6 +48812,12 @@
         9,
         9,
         9
+      ],
+      "SPACIAL_REND": [
+        6,
+        6,
+        5,
+        6
       ],
       "STOMP": [
         5,
@@ -54612,6 +54632,12 @@
         12,
         11,
         12
+      ],
+      "ROAR_OF_TIME": [
+        11,
+        11,
+        11,
+        11
       ],
       "ROCK_SLIDE": [
         8,

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1715644728114,
+  "timestamp": 1717454375120,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -4283,8 +4283,8 @@
         "WATER_GUN_FAST"
       ],
       "chargedMoveIds": [
-        "AQUA_JET",
         "SWIFT",
+        "AQUA_JET",
         "WATER_PULSE"
       ],
       "cmp": {
@@ -5271,6 +5271,7 @@
       ],
       "fastMoveIds": [
         "ICE_SHARD_FAST",
+        "POWDER_SNOW_FAST",
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
@@ -5304,6 +5305,7 @@
       ],
       "fastMoveIds": [
         "ICE_SHARD_FAST",
+        "POWDER_SNOW_FAST",
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
@@ -5806,6 +5808,7 @@
       ],
       "chargedMoveIds": [
         "SUPER_POWER",
+        "THUNDER_PUNCH",
         "FRENZY_PLANT",
         "ENERGY_BALL",
         "GYRO_BALL",
@@ -6350,6 +6353,7 @@
         "ZEN_HEADBUTT_FAST"
       ],
       "chargedMoveIds": [
+        "SWIFT",
         "METEOR_MASH",
         "PSYCHIC",
         "MOONBLAST",
@@ -6385,6 +6389,7 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
+        "SWIFT",
         "DISARMING_VOICE",
         "MOONBLAST"
       ],
@@ -6418,6 +6423,7 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
+        "SWIFT",
         "PSYSHOCK",
         "GRASS_KNOT",
         "PSYCHIC",
@@ -7721,9 +7727,9 @@
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
+        "SWIFT",
         "FLAME_CHARGE",
         "FLAMETHROWER",
-        "SWIFT",
         "RETURN"
       ],
       "cmp": {
@@ -8833,8 +8839,8 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "DRILL_PECK",
-        "BRAVE_BIRD",
-        "SWIFT"
+        "SWIFT",
+        "BRAVE_BIRD"
       ],
       "cmp": {
         "little": {
@@ -10215,9 +10221,9 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
+        "SWIFT",
         "DIG",
-        "LAST_RESORT",
-        "SWIFT"
+        "LAST_RESORT"
       ],
       "cmp": {
         "little": {
@@ -10449,8 +10455,8 @@
         "SPARK_FAST"
       ],
       "chargedMoveIds": [
-        "DISCHARGE",
         "SWIFT",
+        "DISCHARGE",
         "THUNDERBOLT",
         "RETURN"
       ],
@@ -10520,9 +10526,9 @@
         "THUNDER_SHOCK_FAST"
       ],
       "chargedMoveIds": [
+        "SWIFT",
         "WILD_CHARGE",
         "ENERGY_BALL",
-        "SWIFT",
         "RETURN"
       ],
       "cmp": {
@@ -11366,6 +11372,7 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "DRILL_RUN",
+        "FLY",
         "TWISTER",
         "SKY_ATTACK"
       ],
@@ -11883,8 +11890,8 @@
       ],
       "chargedMoveIds": [
         "AERIAL_ACE",
-        "FLY",
         "SWIFT",
+        "FLY",
         "HEAT_WAVE"
       ],
       "cmp": {
@@ -11949,9 +11956,9 @@
         "WATERFALL_FAST"
       ],
       "chargedMoveIds": [
+        "SWIFT",
         "AQUA_JET",
         "LIQUIDATION",
-        "SWIFT",
         "HYDRO_PUMP"
       ],
       "cmp": {
@@ -16827,6 +16834,7 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
+        "SWIFT",
         "WILD_CHARGE",
         "PSYCHIC",
         "SHADOW_BALL"
@@ -17456,6 +17464,7 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
+        "SWIFT",
         "DISARMING_VOICE",
         "GYRO_BALL",
         "PLAY_ROUGH",
@@ -19498,8 +19507,8 @@
       ],
       "chargedMoveIds": [
         "AERIAL_ACE",
-        "SILVER_WIND",
         "SWIFT",
+        "SILVER_WIND",
         "RETURN"
       ],
       "cmp": {
@@ -19912,6 +19921,7 @@
       ],
       "fastMoveIds": [
         "BUG_BITE_FAST",
+        "COUNTER_FAST",
         "SUCKER_PUNCH_FAST"
       ],
       "chargedMoveIds": [
@@ -20126,6 +20136,7 @@
       "chargedMoveIds": [
         "POWER_UP_PUNCH",
         "BLAZE_KICK",
+        "THUNDER_PUNCH",
         "CLOSE_COMBAT",
         "AURA_SPHERE",
         "SHADOW_BALL",
@@ -21741,8 +21752,8 @@
         "TAKE_DOWN_FAST"
       ],
       "chargedMoveIds": [
-        "CRUNCH",
         "SWIFT",
+        "CRUNCH",
         "PLAY_ROUGH"
       ],
       "cmp": {
@@ -22938,9 +22949,9 @@
         "SPARK_FAST"
       ],
       "chargedMoveIds": [
+        "SWIFT",
         "DISCHARGE",
         "GRASS_KNOT",
-        "SWIFT",
         "THUNDERBOLT"
       ],
       "cmp": {
@@ -23808,6 +23819,7 @@
         "POISON_JAB_FAST"
       ],
       "chargedMoveIds": [
+        "DRAGON_CLAW",
         "FELL_STINGER",
         "SLUDGE_BOMB",
         "ACROBATICS",
@@ -25861,6 +25873,7 @@
         "SPARK_FAST"
       ],
       "chargedMoveIds": [
+        "THUNDER_PUNCH",
         "DISCHARGE",
         "WILD_CHARGE",
         "THUNDERBOLT"
@@ -25896,6 +25909,7 @@
         "SPARK_FAST"
       ],
       "chargedMoveIds": [
+        "THUNDER_PUNCH",
         "CLOSE_COMBAT",
         "DISCHARGE",
         "WILD_CHARGE",
@@ -27047,9 +27061,9 @@
         "SPARK_FAST"
       ],
       "chargedMoveIds": [
+        "SWIFT",
         "DISCHARGE",
         "GRASS_KNOT",
-        "SWIFT",
         "THUNDERBOLT"
       ],
       "cmp": {
@@ -29430,7 +29444,8 @@
         "CROSS_CHOP",
         "BLAZE_KICK",
         "BRICK_BREAK",
-        "LOW_SWEEP"
+        "LOW_SWEEP",
+        "THUNDER_PUNCH"
       ],
       "cmp": {
         "little": {
@@ -30078,6 +30093,7 @@
         "FIRE_FANG_FAST"
       ],
       "chargedMoveIds": [
+        "FLY",
         "OUTRAGE",
         "DRACO_METEOR",
         "RETURN",
@@ -30115,6 +30131,7 @@
         "FIRE_FANG_FAST"
       ],
       "chargedMoveIds": [
+        "FLY",
         "OUTRAGE",
         "DRACO_METEOR",
         "RETURN",
@@ -30925,6 +30942,7 @@
       ],
       "chargedMoveIds": [
         "POWER_UP_PUNCH",
+        "THUNDER_PUNCH",
         "ACID_SPRAY",
         "FOUL_PLAY"
       ],
@@ -30959,6 +30977,7 @@
       ],
       "chargedMoveIds": [
         "BRICK_BREAK",
+        "THUNDER_PUNCH",
         "ACID_SPRAY",
         "FOUL_PLAY"
       ],
@@ -31783,8 +31802,8 @@
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
-        "DISCHARGE",
         "SWIFT",
+        "DISCHARGE",
         "THUNDERBOLT",
         "RETURN"
       ],
@@ -35528,6 +35547,7 @@
       ],
       "chargedMoveIds": [
         "BUBBLE_BEAM",
+        "FLY",
         "ICE_BEAM",
         "HURRICANE",
         "RETURN"
@@ -35664,6 +35684,7 @@
       "chargedMoveIds": [
         "PSYCHIC_FANGS",
         "AERIAL_ACE",
+        "FLY",
         "PSYCHIC",
         "FUTURESIGHT"
       ],
@@ -35835,8 +35856,8 @@
         "TAKE_DOWN_FAST"
       ],
       "chargedMoveIds": [
-        "CRUNCH",
         "SWIFT",
+        "CRUNCH",
         "PLAY_ROUGH"
       ],
       "cmp": {
@@ -36186,6 +36207,7 @@
       ],
       "chargedMoveIds": [
         "CROSS_CHOP",
+        "SWIFT",
         "CRUNCH",
         "TRAILBLAZE",
         "PLAY_ROUGH",
@@ -37602,7 +37624,8 @@
         "TRIPLE_AXEL",
         "GRASS_KNOT",
         "DRAINING_KISS",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "HIGH_JUMP_KICK"
       ],
       "cmp": {
         "little": {
@@ -37801,6 +37824,7 @@
         "SHADOW_CLAW_FAST"
       ],
       "chargedMoveIds": [
+        "THUNDER_PUNCH",
         "BLAST_BURN",
         "OVERHEAT",
         "RETURN",
@@ -38153,6 +38177,7 @@
         "AERIAL_ACE",
         "FIRE_PUNCH",
         "ICE_PUNCH",
+        "SWIFT",
         "THUNDER_PUNCH",
         "TRAILBLAZE",
         "HIGH_HORSEPOWER",
@@ -38188,6 +38213,7 @@
         "SHADOW_CLAW_FAST"
       ],
       "chargedMoveIds": [
+        "SWIFT",
         "CLOSE_COMBAT",
         "TRAILBLAZE",
         "PLAY_ROUGH",
@@ -39175,8 +39201,8 @@
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
-        "ENERGY_BALL",
         "SWIFT",
+        "ENERGY_BALL",
         "THUNDERBOLT",
         "RETURN"
       ],
@@ -39843,6 +39869,7 @@
         "POUND_FAST"
       ],
       "chargedMoveIds": [
+        "SWIFT",
         "DISARMING_VOICE",
         "ICY_WIND",
         "ICE_BEAM",
@@ -41250,8 +41277,8 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
-        "DIG",
         "SWIFT",
+        "DIG",
         "RETURN"
       ],
       "cmp": {
@@ -41351,9 +41378,9 @@
       ],
       "chargedMoveIds": [
         "POISON_FANG",
+        "SWIFT",
         "SLUDGE_BOMB",
         "AIR_CUTTER",
-        "SWIFT",
         "RETURN"
       ],
       "cmp": {
@@ -42889,7 +42916,7 @@
       "name": "Seed Bomb",
       "type": "grass",
       "energy": -45,
-      "damage": 60
+      "damage": 65
     },
     "SEED_FLARE": {
       "name": "Seed Flare",
@@ -43006,7 +43033,7 @@
       "name": "Spark",
       "type": "electric",
       "energy": 7,
-      "damage": 6,
+      "damage": 5,
       "turns": 2
     },
     "SPIRIT_SHACKLE": {
@@ -43088,8 +43115,8 @@
     "SWIFT": {
       "name": "Swift",
       "type": "normal",
-      "energy": -55,
-      "damage": 60
+      "energy": -40,
+      "damage": 55
     },
     "SYNCHRONOISE": {
       "name": "Synchronoise",
@@ -44438,10 +44465,10 @@
         10
       ],
       "SWIFT": [
-        6,
-        5,
-        6,
-        5
+        4,
+        4,
+        4,
+        4
       ],
       "THUNDER": [
         6,
@@ -44685,6 +44712,12 @@
         35,
         35
       ],
+      "FLY": [
+        23,
+        22,
+        23,
+        22
+      ],
       "FOCUS_BLAST": [
         38,
         37,
@@ -44920,10 +44953,10 @@
         20
       ],
       "SWIFT": [
-        28,
-        27,
-        28,
-        27
+        20,
+        20,
+        20,
+        20
       ],
       "THUNDER": [
         30,
@@ -45638,10 +45671,10 @@
         14
       ],
       "SWIFT": [
-        19,
-        18,
-        18,
-        19
+        14,
+        13,
+        13,
+        14
       ],
       "TRAILBLAZE": [
         17,
@@ -46110,10 +46143,10 @@
         4
       ],
       "SWIFT": [
-        5,
         4,
-        4,
-        4
+        3,
+        3,
+        3
       ],
       "THUNDER": [
         5,
@@ -46400,10 +46433,10 @@
         4
       ],
       "SWIFT": [
-        5,
-        5,
-        5,
-        5
+        4,
+        4,
+        3,
+        4
       ],
       "SYNCHRONOISE": [
         5,
@@ -46611,6 +46644,12 @@
         8,
         9
       ],
+      "HIGH_JUMP_KICK": [
+        10,
+        9,
+        9,
+        9
+      ],
       "HURRICANE": [
         11,
         11,
@@ -46816,10 +46855,10 @@
         7
       ],
       "SWIFT": [
-        10,
-        9,
-        9,
-        9
+        7,
+        7,
+        6,
+        7
       ],
       "SYNCHRONOISE": [
         9,
@@ -47044,6 +47083,12 @@
         6,
         6,
         6
+      ],
+      "FLY": [
+        4,
+        4,
+        4,
+        3
       ],
       "FOCUS_BLAST": [
         7,
@@ -47322,10 +47367,10 @@
         4
       ],
       "SWIFT": [
-        5,
-        5,
         4,
-        5
+        3,
+        3,
+        4
       ],
       "SYNCHRONOISE": [
         5,
@@ -47461,6 +47506,12 @@
         6,
         5
       ],
+      "BUG_BUZZ": [
+        9,
+        9,
+        8,
+        9
+      ],
       "BULLDOZE": [
         9,
         9,
@@ -47484,6 +47535,12 @@
         6,
         7,
         6
+      ],
+      "DARK_PULSE": [
+        8,
+        7,
+        7,
+        7
       ],
       "DAZZLING_GLEAM": [
         10,
@@ -47774,6 +47831,12 @@
         5
       ],
       "SURF": [
+        6,
+        6,
+        6,
+        5
+      ],
+      "SWIFT": [
         6,
         6,
         6,
@@ -48609,6 +48672,12 @@
         8,
         8
       ],
+      "FLY": [
+        5,
+        5,
+        5,
+        5
+      ],
       "FOCUS_BLAST": [
         9,
         8,
@@ -49122,10 +49191,16 @@
         7
       ],
       "SWIFT": [
-        10,
-        9,
-        9,
-        9
+        7,
+        7,
+        6,
+        7
+      ],
+      "THUNDER_PUNCH": [
+        7,
+        7,
+        6,
+        7
       ],
       "TWISTER": [
         8,
@@ -49382,10 +49457,10 @@
         4
       ],
       "SWIFT": [
-        6,
-        5,
-        6,
-        5
+        4,
+        4,
+        4,
+        4
       ],
       "THUNDER": [
         6,
@@ -49586,6 +49661,12 @@
         9,
         9,
         9
+      ],
+      "SWIFT": [
+        5,
+        4,
+        5,
+        4
       ],
       "VICE_GRIP": [
         5,
@@ -49937,6 +50018,18 @@
         6,
         7
       ],
+      "SWIFT": [
+        7,
+        7,
+        6,
+        7
+      ],
+      "THUNDER_PUNCH": [
+        7,
+        7,
+        6,
+        7
+      ],
       "TRAILBLAZE": [
         9,
         8,
@@ -50064,6 +50157,12 @@
         11,
         11,
         11
+      ],
+      "FLY": [
+        9,
+        9,
+        9,
+        9
       ],
       "FOCUS_BLAST": [
         15,
@@ -52460,6 +52559,12 @@
         3,
         3,
         2
+      ],
+      "THUNDER_PUNCH": [
+        2,
+        2,
+        2,
+        2
       ]
     },
     "INFESTATION_FAST": {
@@ -53623,6 +53728,12 @@
         13,
         14
       ],
+      "SWIFT": [
+        14,
+        13,
+        13,
+        14
+      ],
       "THUNDER": [
         20,
         20,
@@ -54090,10 +54201,10 @@
         8
       ],
       "SWIFT": [
-        11,
-        11,
-        11,
-        11
+        8,
+        8,
+        8,
+        8
       ],
       "SYNCHRONOISE": [
         10,
@@ -54227,6 +54338,12 @@
         5,
         5,
         5,
+        5
+      ],
+      "HIGH_JUMP_KICK": [
+        6,
+        5,
+        6,
         5
       ],
       "HYPER_BEAM": [
@@ -54674,6 +54791,12 @@
         9,
         9,
         9
+      ],
+      "SWIFT": [
+        7,
+        7,
+        6,
+        7
       ],
       "TECHNO_BLAST_BURN": [
         10,
@@ -55268,10 +55391,10 @@
         4
       ],
       "SWIFT": [
-        7,
-        6,
-        6,
-        6
+        5,
+        4,
+        5,
+        4
       ],
       "TRAILBLAZE": [
         6,
@@ -55956,10 +56079,10 @@
         8
       ],
       "SWIFT": [
-        11,
-        11,
-        11,
-        11
+        8,
+        8,
+        8,
+        8
       ],
       "THUNDERBOLT": [
         11,
@@ -56994,10 +57117,10 @@
         10
       ],
       "SWIFT": [
-        14,
-        14,
-        14,
-        13
+        10,
+        10,
+        10,
+        10
       ],
       "THUNDERBOLT": [
         14,
@@ -57126,6 +57249,12 @@
         7,
         8,
         7
+      ],
+      "HEAVY_SLAM": [
+        7,
+        6,
+        6,
+        6
       ],
       "HIGH_HORSEPOWER": [
         8,
@@ -57606,10 +57735,10 @@
         4
       ],
       "SWIFT": [
-        7,
-        6,
-        6,
-        6
+        5,
+        4,
+        5,
+        4
       ],
       "SYNCHRONOISE": [
         6,
@@ -58126,10 +58255,10 @@
         5
       ],
       "SWIFT": [
-        7,
-        7,
-        7,
-        7
+        5,
+        5,
+        5,
+        5
       ],
       "THUNDER": [
         8,
@@ -58306,6 +58435,12 @@
         12,
         13,
         12
+      ],
+      "HIGH_JUMP_KICK": [
+        14,
+        14,
+        14,
+        13
       ],
       "HURRICANE": [
         17,
@@ -58958,6 +59093,12 @@
         5
       ],
       "SURF": [
+        6,
+        6,
+        6,
+        5
+      ],
+      "SWIFT": [
         6,
         6,
         6,
@@ -59932,10 +60073,10 @@
         20
       ],
       "SWIFT": [
-        28,
-        27,
-        28,
-        27
+        20,
+        20,
+        20,
+        20
       ],
       "THUNDER": [
         30,
@@ -60335,11 +60476,23 @@
         5,
         5
       ],
+      "SWIFT": [
+        5,
+        5,
+        5,
+        5
+      ],
       "THUNDER": [
         8,
         7,
         8,
         7
+      ],
+      "THUNDER_PUNCH": [
+        5,
+        5,
+        5,
+        5
       ],
       "THUNDERBOLT": [
         7,
@@ -60588,6 +60741,12 @@
         7,
         8,
         7
+      ],
+      "THUNDER_PUNCH": [
+        5,
+        5,
+        5,
+        5
       ],
       "WATER_PULSE": [
         7,
@@ -61035,6 +61194,12 @@
         4,
         5
       ],
+      "THUNDER_PUNCH": [
+        4,
+        3,
+        3,
+        3
+      ],
       "THUNDERBOLT": [
         5,
         4,
@@ -61260,10 +61425,10 @@
         5
       ],
       "SWIFT": [
-        8,
-        8,
-        8,
-        8
+        6,
+        6,
+        6,
+        5
       ],
       "THUNDER": [
         9,
@@ -62764,10 +62929,10 @@
         14
       ],
       "SWIFT": [
-        19,
-        18,
-        18,
-        19
+        14,
+        13,
+        13,
+        14
       ],
       "THUNDER": [
         20,
@@ -63156,10 +63321,10 @@
         5
       ],
       "SWIFT": [
-        7,
-        7,
-        7,
-        7
+        5,
+        5,
+        5,
+        5
       ],
       "THUNDERBOLT": [
         7,
@@ -63610,10 +63775,10 @@
         4
       ],
       "SWIFT": [
-        7,
-        6,
-        6,
-        6
+        5,
+        4,
+        5,
+        4
       ],
       "THUNDER": [
         7,
@@ -63816,6 +63981,12 @@
         10
       ],
       "SUPER_POWER": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "THUNDER_PUNCH": [
         5,
         5,
         5,
@@ -64612,10 +64783,10 @@
         14
       ],
       "SWIFT": [
-        19,
-        18,
-        18,
-        19
+        14,
+        13,
+        13,
+        14
       ],
       "SYNCHRONOISE": [
         17,
@@ -65000,10 +65171,10 @@
         5
       ],
       "SWIFT": [
-        7,
-        7,
-        7,
-        7
+        5,
+        5,
+        5,
+        5
       ],
       "THUNDER": [
         8,
@@ -65840,10 +66011,10 @@
         7
       ],
       "SWIFT": [
-        10,
-        9,
-        9,
-        9
+        7,
+        7,
+        6,
+        7
       ],
       "THUNDER": [
         10,

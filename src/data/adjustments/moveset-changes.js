@@ -15,12 +15,6 @@ module.exports = {
       },
     },
     {
-      pokemonName: "Gastrodon",
-      chargedMoveIds: {
-        add: ["EARTHQUAKE"],
-      },
-    },
-    {
       pokemonName: "Genesect",
       chargedMoveIds: {
         add: ["TECHNO_BLAST_NORMAL"],

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1717630536839,
+  "timestamp": 1720931715341,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -14248,6 +14248,7 @@
       "chargedMoveIds": [
         "AQUA_TAIL",
         "MUDDY_WATER",
+        "THUNDER_PUNCH",
         "POWER_WHIP",
         "DRACO_METEOR",
         "SLUDGE_WAVE"
@@ -48472,6 +48473,12 @@
         20,
         20
       ],
+      "THUNDER_PUNCH": [
+        14,
+        13,
+        13,
+        14
+      ],
       "TWISTER": [
         15,
         15,
@@ -64799,6 +64806,12 @@
         20,
         20,
         20
+      ],
+      "THUNDER_PUNCH": [
+        14,
+        13,
+        13,
+        14
       ],
       "THUNDERBOLT": [
         19,

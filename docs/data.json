@@ -1,5 +1,5 @@
 {
-  "timestamp": 1720931715341,
+  "timestamp": 1721765244421,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -10182,7 +10182,8 @@
       ],
       "fastMoveIds": [
         "ACID_FAST",
-        "SPARK_FAST"
+        "SPARK_FAST",
+        "VOLT_SWITCH_FAST"
       ],
       "chargedMoveIds": [
         "DRAGON_CLAW",
@@ -20159,6 +20160,44 @@
         "master": {
           "rankOne": 212.1703047156334,
           "max": 212.1703047156334
+        }
+      }
+    },
+    {
+      "name": "Lucario (Mega)",
+      "types": [
+        "fighting",
+        "steel"
+      ],
+      "fastMoveIds": [
+        "BULLET_PUNCH_FAST",
+        "COUNTER_FAST"
+      ],
+      "chargedMoveIds": [
+        "POWER_UP_PUNCH",
+        "BLAZE_KICK",
+        "THUNDER_PUNCH",
+        "CLOSE_COMBAT",
+        "AURA_SPHERE",
+        "SHADOW_BALL",
+        "FLASH_CANNON"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 91.42871350049955,
+          "max": 94.33121234178525
+        },
+        "great": {
+          "rankOne": 157.69754465263753,
+          "max": 167.11824476718903
+        },
+        "ultra": {
+          "rankOne": 203.5294823646545,
+          "max": 215.742682158947
+        },
+        "master": {
+          "rankOne": 274.7225061058998,
+          "max": 274.7225061058998
         }
       }
     },
@@ -41553,6 +41592,13 @@
     }
   ],
   "moves": {
+    "462": {
+      "name": "Force Palm",
+      "type": "fighting",
+      "energy": 10,
+      "damage": 13,
+      "turns": 3
+    },
     "ACID_FAST": {
       "name": "Acid",
       "type": "poison",
@@ -64007,6 +64053,12 @@
       ]
     },
     "VOLT_SWITCH_FAST": {
+      "ACID_SPRAY": [
+        3,
+        3,
+        3,
+        3
+      ],
       "ANCIENT_POWER": [
         3,
         3,
@@ -64161,6 +64213,12 @@
         4,
         3,
         4,
+        3
+      ],
+      "LIQUIDATION": [
+        3,
+        3,
+        3,
         3
       ],
       "LOW_SWEEP": [

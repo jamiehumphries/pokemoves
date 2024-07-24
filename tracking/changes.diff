@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index ebe7f32..744cd04 100644
+index ebe7f32..b63e56a 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1717454375120,
-+  "timestamp": 1720931715341,
++  "timestamp": 1721765244421,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,7 +26,51 @@ index ebe7f32..744cd04 100644
          "RETURN",
          "BLIZZARD"
        ],
-@@ -14231,40 +14231,41 @@
+@@ -10165,41 +10165,42 @@
+           "rankOne": 121.06613156701628,
+           "max": 132.70710575615246
+         },
+         "ultra": {
+           "rankOne": 144.54630321264267,
+           "max": 144.54630321264267
+         },
+         "master": {
+           "rankOne": 144.54630321264267,
+           "max": 144.54630321264267
+         }
+       }
+     },
+     {
+       "name": "Eelektross",
+       "types": [
+         "electric"
+       ],
+       "fastMoveIds": [
+         "ACID_FAST",
+-        "SPARK_FAST"
++        "SPARK_FAST",
++        "VOLT_SWITCH_FAST"
+       ],
+       "chargedMoveIds": [
+         "DRAGON_CLAW",
+         "ACID_SPRAY",
+         "CRUNCH",
+         "LIQUIDATION",
+         "THUNDERBOLT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.12836343049995,
+           "max": 81.01734089851371
+         },
+         "great": {
+           "rankOne": 131.85155733545193,
+           "max": 140.7961755990981
+         },
+         "ultra": {
+           "rankOne": 170.58627229928967,
+           "max": 182.69387140606338
+@@ -14231,40 +14232,41 @@
            "max": 182.56045393126684
          },
          "master": {
@@ -68,7 +112,134 @@ index ebe7f32..744cd04 100644
          "master": {
            "rankOne": 198.64550441503525,
            "max": 198.64550441503525
-@@ -48455,40 +48456,46 @@
+@@ -20144,40 +20146,78 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 83.11261695623388,
+           "max": 87.71477520446717
+         },
+         "great": {
+           "rankOne": 143.3432068279913,
+           "max": 153.65147858858097
+         },
+         "ultra": {
+           "rankOne": 185.28424535959698,
+           "max": 199.6203017234802
+         },
+         "master": {
+           "rankOne": 212.1703047156334,
+           "max": 212.1703047156334
+         }
+       }
+     },
++    {
++      "name": "Lucario (Mega)",
++      "types": [
++        "fighting",
++        "steel"
++      ],
++      "fastMoveIds": [
++        "BULLET_PUNCH_FAST",
++        "COUNTER_FAST"
++      ],
++      "chargedMoveIds": [
++        "POWER_UP_PUNCH",
++        "BLAZE_KICK",
++        "THUNDER_PUNCH",
++        "CLOSE_COMBAT",
++        "AURA_SPHERE",
++        "SHADOW_BALL",
++        "FLASH_CANNON"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 91.42871350049955,
++          "max": 94.33121234178525
++        },
++        "great": {
++          "rankOne": 157.69754465263753,
++          "max": 167.11824476718903
++        },
++        "ultra": {
++          "rankOne": 203.5294823646545,
++          "max": 215.742682158947
++        },
++        "master": {
++          "rankOne": 274.7225061058998,
++          "max": 274.7225061058998
++        }
++      }
++    },
+     {
+       "name": "Ludicolo",
+       "types": [
+         "water",
+         "grass"
+       ],
+       "fastMoveIds": [
+         "BUBBLE_FAST",
+         "RAZOR_LEAF_FAST"
+       ],
+       "chargedMoveIds": [
+         "SCALD",
+         "ENERGY_BALL",
+         "ICE_BEAM",
+         "LEAF_STORM",
+         "BLIZZARD",
+         "HYDRO_PUMP",
+         "SOLAR_BEAM"
+       ],
+       "cmp": {
+@@ -41535,40 +41575,47 @@
+         "little": {
+           "rankOne": 56.31455816578223,
+           "max": 57.75972694158543
+         },
+         "great": {
+           "rankOne": 96.75266802310944,
+           "max": 101.92660748958588
+         },
+         "ultra": {
+           "rankOne": 124.12306946951051,
+           "max": 131.5829980969429
+         },
+         "master": {
+           "rankOne": 168.21470373868942,
+           "max": 168.21470373868942
+         }
+       }
+     }
+   ],
+   "moves": {
++    "462": {
++      "name": "Force Palm",
++      "type": "fighting",
++      "energy": 10,
++      "damage": 13,
++      "turns": 3
++    },
+     "ACID_FAST": {
+       "name": "Acid",
+       "type": "poison",
+       "energy": 5,
+       "damage": 6,
+       "turns": 2
+     },
+     "ACID_SPRAY": {
+       "name": "Acid Spray",
+       "type": "poison",
+       "energy": -45,
+       "damage": 20
+     },
+     "ACROBATICS": {
+       "name": "Acrobatics",
+       "type": "flying",
+       "energy": -60,
+       "damage": 110
+     },
+     "AERIAL_ACE": {
+@@ -48455,40 +48502,46 @@
          17
        ],
        "STONE_EDGE": [
@@ -115,7 +286,101 @@ index ebe7f32..744cd04 100644
        ]
      },
      "DRAGON_TAIL_FAST": {
-@@ -64783,40 +64790,46 @@
+@@ -63983,40 +64036,46 @@
+       "SUPER_POWER": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "THUNDER_PUNCH": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "WRAP": [
+         6,
+         6,
+         5,
+         6
+       ]
+     },
+     "VOLT_SWITCH_FAST": {
++      "ACID_SPRAY": [
++        3,
++        3,
++        3,
++        3
++      ],
+       "ANCIENT_POWER": [
+         3,
+         3,
+         3,
+         3
+       ],
+       "BLIZZARD": [
+         5,
+         5,
+         5,
+         4
+       ],
+       "BRAVE_BIRD": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "BREAKING_SWIPE": [
+         3,
+@@ -64139,40 +64198,46 @@
+         3
+       ],
+       "HYPER_BEAM": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "ICE_BEAM": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "LAST_RESORT": [
+         4,
+         3,
+         4,
+         3
+       ],
++      "LIQUIDATION": [
++        3,
++        3,
++        3,
++        3
++      ],
+       "LOW_SWEEP": [
+         3,
+         2,
+         3,
+         2
+       ],
+       "LUNGE": [
+         3,
+         3,
+         3,
+         3
+       ],
+       "MAGNET_BOMB": [
+         3,
+         3,
+         3,
+         3
+       ],
+       "MIRROR_SHOT": [
+         3,
+@@ -64783,40 +64848,46 @@
          14
        ],
        "SWIFT": [

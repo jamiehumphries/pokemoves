@@ -19,7 +19,7 @@ const {
 
 const gameMaster = require("./data/pokeminers/latest.json");
 const timestamp = parseInt(
-  fs.readFileSync(join(__dirname, "data/pokeminers/timestamp.txt"))
+  fs.readFileSync(join(__dirname, "data/pokeminers/timestamp.txt")),
 );
 
 const root = "docs";
@@ -50,7 +50,7 @@ function build() {
 function buildData() {
   const moves = fromEntries(getTemplates("combatMove").map(buildMoveEntry));
   const pokemon = getTemplates("pokemonSettings").flatMap((t) =>
-    buildPokemon(t, moves)
+    buildPokemon(t, moves),
   );
   const deduplicatedPokemon = deduplicate(pokemon);
   applyMovesetChanges(deduplicatedPokemon);
@@ -146,7 +146,7 @@ function deduplicate(pokemon) {
 function applyMovesetChanges(deduplicatedPokemon) {
   for (const changeset of movesetChanges) {
     const pokemon = deduplicatedPokemon.find(
-      (p) => p.name === changeset.pokemonName
+      (p) => p.name === changeset.pokemonName,
     );
     for (const movesKey of ["fastMoveIds", "chargedMoveIds"]) {
       const changes = changeset[movesKey];
@@ -158,7 +158,7 @@ function applyMovesetChanges(deduplicatedPokemon) {
         if (moves.has(m)) {
           console.warn(
             "\x1b[33m%s\x1b[0m", // Yellow text.
-            `${pokemon.name} already knows ${m}.`
+            `${pokemon.name} already knows ${m}.`,
           );
         } else {
           moves.add(m);
@@ -191,7 +191,7 @@ function buildCounts(pokemon, moves) {
     Object.entries(counts).map(([key, value]) => [
       key,
       fromEntries(Object.entries(value)),
-    ])
+    ]),
   );
 }
 

@@ -18,7 +18,7 @@
     const i = names.findIndex((name) => name >= search.value.toLowerCase());
     const targetName = i === -1 ? names[names.length - 1] : names[i];
     const targetElement = document.querySelectorAll(
-      `[data-name='${targetName}']`
+      `[data-name='${targetName}']`,
     )[0];
     targetElement.scrollIntoView();
     resetTimeout = setTimeout(function () {

@@ -151,7 +151,7 @@ function getMoveName(template) {
 
 function getSpecialMoveName(id) {
   const multipleVersionMoveId = multipleVersionMoveIds.find((moveId) =>
-    id.startsWith(`${moveId}_`)
+    id.startsWith(`${moveId}_`),
   );
   if (multipleVersionMoveId) {
     return getDefaultMoveName(multipleVersionMoveId);
@@ -166,7 +166,7 @@ function getDefaultMoveName(id) {
 function getTempEvoName(template, tempEvoTemplate) {
   const pokemonName = getPokemonName(template);
   const evoName = toSentenceCase(
-    tempEvoTemplate.tempEvoId.replace(/^TEMP_EVOLUTION_/, "")
+    tempEvoTemplate.tempEvoId.replace(/^TEMP_EVOLUTION_/, ""),
   );
   return `${pokemonName} (${evoName})`;
 }

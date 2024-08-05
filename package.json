@@ -14,7 +14,7 @@
   "author": "Jamie Humphries",
   "license": "ISC",
   "dependencies": {
-    "local-web-server": "5.3.0"
+    "local-web-server": "5.4.0"
   },
   "devDependencies": {
     "eslint": "8.42.0",
@@ -22,7 +22,7 @@
     "html-minifier": "4.0.0",
     "nunjucks": "3.2.4",
     "prettier": "2.8.8",
-    "sass": "1.63.4",
-    "uglify-js": "3.17.4"
+    "sass": "1.77.8",
+    "uglify-js": "3.19.1"
   }
 }

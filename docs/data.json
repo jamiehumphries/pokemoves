@@ -23969,7 +23969,8 @@
         "DARK_PULSE",
         "IRON_HEAD",
         "OUTRAGE",
-        "FUTURESIGHT"
+        "FUTURESIGHT",
+        "SUNSTEEL_STRIKE"
       ],
       "cmp": {
         "little": {
@@ -24005,7 +24006,8 @@
         "DARK_PULSE",
         "IRON_HEAD",
         "OUTRAGE",
-        "FUTURESIGHT"
+        "FUTURESIGHT",
+        "MOONGEIST_BEAM"
       ],
       "cmp": {
         "little": {
@@ -54743,6 +54745,12 @@
         10,
         10
       ],
+      "MOONGEIST_BEAM": [
+        11,
+        11,
+        11,
+        11
+      ],
       "MUD_BOMB": [
         7,
         7,
@@ -54844,6 +54852,12 @@
         9,
         9,
         9
+      ],
+      "SUNSTEEL_STRIKE": [
+        11,
+        11,
+        11,
+        11
       ],
       "SWIFT": [
         7,
@@ -57715,6 +57729,12 @@
         6,
         7
       ],
+      "MOONGEIST_BEAM": [
+        8,
+        7,
+        7,
+        7
+      ],
       "OUTRAGE": [
         7,
         7,
@@ -57780,6 +57800,12 @@
         6,
         6,
         6
+      ],
+      "SUNSTEEL_STRIKE": [
+        8,
+        7,
+        7,
+        7
       ],
       "SUPER_POWER": [
         5,
@@ -60367,6 +60393,12 @@
         5,
         5
       ],
+      "MOONGEIST_BEAM": [
+        9,
+        8,
+        8,
+        8
+      ],
       "NIGHT_SLASH": [
         5,
         4,
@@ -60516,6 +60548,12 @@
         7,
         7,
         7
+      ],
+      "SUNSTEEL_STRIKE": [
+        9,
+        8,
+        8,
+        8
       ],
       "SUPER_POWER": [
         5,

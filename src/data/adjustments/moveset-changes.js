@@ -39,6 +39,18 @@ module.exports = {
       },
     },
     {
+      pokemonName: "Necrozma (Dawn Wings)",
+      chargedMoveIds: {
+        add: ["SUNSTEEL_STRIKE"],
+      },
+    },
+    {
+      pokemonName: "Necrozma (Dusk Mane)",
+      chargedMoveIds: {
+        add: ["MOONGEIST_BEAM"],
+      },
+    },
+    {
       pokemonName: "Palkia (Origin)",
       chargedMoveIds: {
         add: ["SPACIAL_REND"],

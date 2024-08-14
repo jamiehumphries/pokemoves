@@ -20133,7 +20133,8 @@
       ],
       "fastMoveIds": [
         "BULLET_PUNCH_FAST",
-        "COUNTER_FAST"
+        "COUNTER_FAST",
+        "462"
       ],
       "chargedMoveIds": [
         "POWER_UP_PUNCH",
@@ -43440,6 +43441,50 @@
     }
   },
   "counts": {
+    "462": {
+      "AURA_SPHERE": [
+        6,
+        5,
+        6,
+        5
+      ],
+      "BLAZE_KICK": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "CLOSE_COMBAT": [
+        5,
+        4,
+        5,
+        4
+      ],
+      "FLASH_CANNON": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "POWER_UP_PUNCH": [
+        4,
+        3,
+        4,
+        3
+      ],
+      "SHADOW_BALL": [
+        6,
+        5,
+        6,
+        5
+      ],
+      "THUNDER_PUNCH": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
     "ACID_FAST": {
       "ACID_SPRAY": [
         9,

@@ -33,12 +33,6 @@ module.exports = {
       },
     },
     {
-      pokemonName: "Lucario",
-      fastMoveIds: {
-        add: ["462"],
-      },
-    },
-    {
       pokemonName: "Muk",
       fastMoveIds: {
         add: ["ACID_FAST"],

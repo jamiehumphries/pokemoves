@@ -1,5 +1,5 @@
 {
-  "timestamp": 1721765244421,
+  "timestamp": 1724119017231,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -1758,7 +1758,8 @@
       "chargedMoveIds": [
         "DRAGON_CLAW",
         "ANCIENT_POWER",
-        "CRUNCH"
+        "CRUNCH",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -1792,7 +1793,8 @@
       "chargedMoveIds": [
         "DRAGON_CLAW",
         "ANCIENT_POWER",
-        "CRUNCH"
+        "CRUNCH",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -4871,7 +4873,8 @@
         "BODY_SLAM",
         "SURF",
         "ANCIENT_POWER",
-        "LIQUIDATION"
+        "LIQUIDATION",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -6773,6 +6776,7 @@
         "BRUTAL_SWING",
         "DYNAMIC_PUNCH",
         "STONE_EDGE",
+        "RETURN",
         "FOCUS_BLAST"
       ],
       "cmp": {
@@ -7284,7 +7288,8 @@
         "GRASS_KNOT",
         "AURORA_BEAM",
         "MOONBLAST",
-        "FUTURESIGHT"
+        "FUTURESIGHT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -15421,7 +15426,8 @@
       "chargedMoveIds": [
         "BRICK_BREAK",
         "LOW_SWEEP",
-        "STONE_EDGE"
+        "STONE_EDGE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -20134,7 +20140,7 @@
       "fastMoveIds": [
         "BULLET_PUNCH_FAST",
         "COUNTER_FAST",
-        "462"
+        "V0462_MOVE_FORCE_PALM_FAST"
       ],
       "chargedMoveIds": [
         "POWER_UP_PUNCH",
@@ -20172,7 +20178,8 @@
       ],
       "fastMoveIds": [
         "BULLET_PUNCH_FAST",
-        "COUNTER_FAST"
+        "COUNTER_FAST",
+        "V0462_MOVE_FORCE_PALM_FAST"
       ],
       "chargedMoveIds": [
         "POWER_UP_PUNCH",
@@ -22619,6 +22626,7 @@
       "chargedMoveIds": [
         "BRICK_BREAK",
         "LOW_SWEEP",
+        "HIGH_JUMP_KICK",
         "FOCUS_BLAST"
       ],
       "cmp": {
@@ -36598,7 +36606,8 @@
       "chargedMoveIds": [
         "BRICK_BREAK",
         "LOW_SWEEP",
-        "ROCK_TOMB"
+        "ROCK_TOMB",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -36769,7 +36778,8 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "SURF",
-        "ANCIENT_POWER"
+        "ANCIENT_POWER",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -41595,13 +41605,6 @@
     }
   ],
   "moves": {
-    "462": {
-      "name": "Force Palm",
-      "type": "fighting",
-      "energy": 10,
-      "damage": 13,
-      "turns": 3
-    },
     "ACID_FAST": {
       "name": "Acid",
       "type": "poison",
@@ -43286,6 +43289,13 @@
       "energy": -40,
       "damage": 95
     },
+    "V0462_MOVE_FORCE_PALM_FAST": {
+      "name": "Force Palm",
+      "type": "fighting",
+      "energy": 10,
+      "damage": 13,
+      "turns": 3
+    },
     "VICE_GRIP": {
       "name": "Vise Grip",
       "type": "normal",
@@ -43441,50 +43451,6 @@
     }
   },
   "counts": {
-    "462": {
-      "AURA_SPHERE": [
-        6,
-        5,
-        6,
-        5
-      ],
-      "BLAZE_KICK": [
-        4,
-        4,
-        4,
-        4
-      ],
-      "CLOSE_COMBAT": [
-        5,
-        4,
-        5,
-        4
-      ],
-      "FLASH_CANNON": [
-        7,
-        7,
-        7,
-        7
-      ],
-      "POWER_UP_PUNCH": [
-        4,
-        3,
-        4,
-        3
-      ],
-      "SHADOW_BALL": [
-        6,
-        5,
-        6,
-        5
-      ],
-      "THUNDER_PUNCH": [
-        4,
-        4,
-        4,
-        4
-      ]
-    },
     "ACID_FAST": {
       "ACID_SPRAY": [
         9,
@@ -54138,6 +54104,12 @@
         12,
         12
       ],
+      "HIGH_JUMP_KICK": [
+        11,
+        11,
+        11,
+        11
+      ],
       "HYDRO_PUMP": [
         15,
         15,
@@ -57083,6 +57055,12 @@
         15,
         15,
         15
+      ],
+      "HIGH_JUMP_KICK": [
+        14,
+        14,
+        14,
+        13
       ],
       "HURRICANE": [
         17,
@@ -63963,6 +63941,50 @@
         9,
         9,
         9
+      ]
+    },
+    "V0462_MOVE_FORCE_PALM_FAST": {
+      "AURA_SPHERE": [
+        6,
+        5,
+        6,
+        5
+      ],
+      "BLAZE_KICK": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "CLOSE_COMBAT": [
+        5,
+        4,
+        5,
+        4
+      ],
+      "FLASH_CANNON": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "POWER_UP_PUNCH": [
+        4,
+        3,
+        4,
+        3
+      ],
+      "SHADOW_BALL": [
+        6,
+        5,
+        6,
+        5
+      ],
+      "THUNDER_PUNCH": [
+        4,
+        4,
+        4,
+        4
       ]
     },
     "VINE_WHIP_FAST": {

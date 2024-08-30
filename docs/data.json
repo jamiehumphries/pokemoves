@@ -1,5 +1,5 @@
 {
-  "timestamp": 1724119017231,
+  "timestamp": 1724886781351,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -6177,7 +6177,7 @@
         "fire"
       ],
       "fastMoveIds": [
-        "EMBER_FAST",
+        "FIRE_SPIN_FAST",
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
@@ -6899,6 +6899,39 @@
         "master": {
           "rankOne": 112.42490249872208,
           "max": 112.42490249872208
+        }
+      }
+    },
+    {
+      "name": "Corsola (Galarian)",
+      "types": [
+        "ghost"
+      ],
+      "fastMoveIds": [
+        "ASTONISH_FAST",
+        "TACKLE_FAST"
+      ],
+      "chargedMoveIds": [
+        "ROCK_BLAST",
+        "NIGHT_SHADE",
+        "POWER_GEM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 56.939273990044924,
+          "max": 61.87602619005823
+        },
+        "great": {
+          "rankOne": 97.76523256803077,
+          "max": 108.11429715156548
+        },
+        "ultra": {
+          "rankOne": 110.73430246114731,
+          "max": 110.73430246114731
+        },
+        "master": {
+          "rankOne": 110.73430246114731,
+          "max": 110.73430246114731
         }
       }
     },
@@ -7627,14 +7660,12 @@
       ],
       "fastMoveIds": [
         "ASTONISH_FAST",
-        "HEX_FAST"
+        "TACKLE_FAST"
       ],
       "chargedMoveIds": [
         "ROCK_BLAST",
-        "BRINE",
         "NIGHT_SHADE",
-        "SHADOW_BALL",
-        "RETURN"
+        "POWER_GEM"
       ],
       "cmp": {
         "little": {
@@ -9151,10 +9182,11 @@
         "ghost"
       ],
       "fastMoveIds": [
-        "DRAGON_TAIL_FAST",
-        "HEX_FAST"
+        "ASTONISH_FAST",
+        "DRAGON_TAIL_FAST"
       ],
       "chargedMoveIds": [
+        "BREAKING_SWIPE",
         "SHADOW_BALL",
         "DRAGON_PULSE",
         "OUTRAGE"
@@ -20140,7 +20172,7 @@
       "fastMoveIds": [
         "BULLET_PUNCH_FAST",
         "COUNTER_FAST",
-        "V0462_MOVE_FORCE_PALM_FAST"
+        "FORCE_PALM_FAST"
       ],
       "chargedMoveIds": [
         "POWER_UP_PUNCH",
@@ -20179,7 +20211,7 @@
       "fastMoveIds": [
         "BULLET_PUNCH_FAST",
         "COUNTER_FAST",
-        "V0462_MOVE_FORCE_PALM_FAST"
+        "FORCE_PALM_FAST"
       ],
       "chargedMoveIds": [
         "POWER_UP_PUNCH",
@@ -28365,7 +28397,7 @@
         "fire"
       ],
       "fastMoveIds": [
-        "EMBER_FAST",
+        "FIRE_SPIN_FAST",
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
@@ -30920,7 +30952,7 @@
         "fire"
       ],
       "fastMoveIds": [
-        "EMBER_FAST",
+        "FIRE_SPIN_FAST",
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
@@ -42149,6 +42181,13 @@
       "energy": -75,
       "damage": 150
     },
+    "FORCE_PALM_FAST": {
+      "name": "Force Palm",
+      "type": "fighting",
+      "energy": 10,
+      "damage": 13,
+      "turns": 3
+    },
     "FOUL_PLAY": {
       "name": "Foul Play",
       "type": "dark",
@@ -43089,6 +43128,12 @@
       "damage": 5,
       "turns": 2
     },
+    "SPARKLING_ARIA": {
+      "name": "Sparkling Aria",
+      "type": "water",
+      "energy": -45,
+      "damage": 80
+    },
     "SPIRIT_SHACKLE": {
       "name": "Spirit Shackle",
       "type": "ghost",
@@ -43288,13 +43333,6 @@
       "type": "fire",
       "energy": -40,
       "damage": 95
-    },
-    "V0462_MOVE_FORCE_PALM_FAST": {
-      "name": "Force Palm",
-      "type": "fighting",
-      "energy": 10,
-      "damage": 13,
-      "turns": 3
     },
     "VICE_GRIP": {
       "name": "Vise Grip",
@@ -44146,17 +44184,17 @@
         6,
         5
       ],
+      "BREAKING_SWIPE": [
+        4,
+        3,
+        4,
+        3
+      ],
       "BRICK_BREAK": [
         4,
         4,
         4,
         4
-      ],
-      "BRINE": [
-        5,
-        5,
-        5,
-        5
       ],
       "CRUNCH": [
         5,
@@ -44403,6 +44441,12 @@
         7,
         8,
         7
+      ],
+      "POWER_GEM": [
+        6,
+        6,
+        6,
+        6
       ],
       "POWER_UP_PUNCH": [
         4,
@@ -50647,6 +50691,50 @@
         3
       ]
     },
+    "FORCE_PALM_FAST": {
+      "AURA_SPHERE": [
+        6,
+        5,
+        6,
+        5
+      ],
+      "BLAZE_KICK": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "CLOSE_COMBAT": [
+        5,
+        4,
+        5,
+        4
+      ],
+      "FLASH_CANNON": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "POWER_UP_PUNCH": [
+        4,
+        3,
+        4,
+        3
+      ],
+      "SHADOW_BALL": [
+        6,
+        5,
+        6,
+        5
+      ],
+      "THUNDER_PUNCH": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
     "FROST_BREATH_FAST": {
       "ANCIENT_POWER": [
         9,
@@ -51406,12 +51494,6 @@
         3,
         3
       ],
-      "BRINE": [
-        5,
-        4,
-        4,
-        4
-      ],
       "BUBBLE_BEAM": [
         4,
         3,
@@ -51435,12 +51517,6 @@
         6,
         6,
         6
-      ],
-      "DRAGON_PULSE": [
-        5,
-        5,
-        5,
-        5
       ],
       "ENERGY_BALL": [
         5,
@@ -51532,12 +51608,6 @@
         4,
         3
       ],
-      "OUTRAGE": [
-        5,
-        5,
-        5,
-        5
-      ],
       "OVERHEAT": [
         5,
         5,
@@ -51567,12 +51637,6 @@
         6,
         6,
         6
-      ],
-      "ROCK_BLAST": [
-        4,
-        3,
-        3,
-        4
       ],
       "SCALD": [
         5,
@@ -62856,6 +62920,12 @@
         11,
         12
       ],
+      "NIGHT_SHADE": [
+        19,
+        18,
+        18,
+        19
+      ],
       "NIGHT_SLASH": [
         12,
         12,
@@ -63941,50 +64011,6 @@
         9,
         9,
         9
-      ]
-    },
-    "V0462_MOVE_FORCE_PALM_FAST": {
-      "AURA_SPHERE": [
-        6,
-        5,
-        6,
-        5
-      ],
-      "BLAZE_KICK": [
-        4,
-        4,
-        4,
-        4
-      ],
-      "CLOSE_COMBAT": [
-        5,
-        4,
-        5,
-        4
-      ],
-      "FLASH_CANNON": [
-        7,
-        7,
-        7,
-        7
-      ],
-      "POWER_UP_PUNCH": [
-        4,
-        3,
-        4,
-        3
-      ],
-      "SHADOW_BALL": [
-        6,
-        5,
-        6,
-        5
-      ],
-      "THUNDER_PUNCH": [
-        4,
-        4,
-        4,
-        4
       ]
     },
     "VINE_WHIP_FAST": {

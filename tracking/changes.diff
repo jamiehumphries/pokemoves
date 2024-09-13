@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 41d6743..22e5850 100644
+index 41d6743..63c35a1 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1725399709866,
-+  "timestamp": 1725671033429,
++  "timestamp": 1726096971469,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,3 +26,302 @@ index 41d6743..22e5850 100644
          "RETURN",
          "BLIZZARD"
        ],
+@@ -15694,111 +15694,111 @@
+         "ultra": {
+           "rankOne": 161.1534047126768,
+           "max": 173.19377708435042
+         },
+         "master": {
+           "rankOne": 189.34720420837402,
+           "max": 189.34720420837402
+         }
+       }
+     },
+     {
+       "name": "Hatenna",
+       "types": [
+         "psychic"
+       ],
+       "fastMoveIds": [
+         "CHARM_FAST",
+         "CONFUSION_FAST"
+       ],
+       "chargedMoveIds": [
++        "PSYSHOCK",
+         "PSYCHIC",
+-        "PSYBEAM",
+         "DAZZLING_GLEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 63.46293440356229,
+           "max": 72.39378386735909
+         },
+         "great": {
+           "rankOne": 95.5189021229744,
+           "max": 95.5189021229744
+         },
+         "ultra": {
+           "rankOne": 95.5189021229744,
+           "max": 95.5189021229744
+         },
+         "master": {
+           "rankOne": 95.5189021229744,
+           "max": 95.5189021229744
+         }
+       }
+     },
+     {
+       "name": "Hatterene",
+       "types": [
+         "psychic",
+         "fairy"
+       ],
+       "fastMoveIds": [
+         "CHARM_FAST",
+         "CONFUSION_FAST",
+         "PSYCHO_CUT_FAST"
+       ],
+       "chargedMoveIds": [
++        "PSYSHOCK",
+         "POWER_WHIP",
+         "PSYCHIC",
+-        "PSYBEAM",
+         "DAZZLING_GLEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 82.7634042799472,
+           "max": 86.95395639538755
+         },
+         "great": {
+           "rankOne": 141.58380228281007,
+           "max": 150.60109071801617
+         },
+         "ultra": {
+           "rankOne": 181.94768353074377,
+           "max": 195.56836637748785
+         },
+         "master": {
+           "rankOne": 213.01560473442078,
+           "max": 213.01560473442078
+         }
+       }
+     },
+     {
+       "name": "Hattrem",
+       "types": [
+         "psychic"
+       ],
+       "fastMoveIds": [
+         "CHARM_FAST",
+         "CONFUSION_FAST"
+       ],
+       "chargedMoveIds": [
++        "PSYSHOCK",
+         "PSYCHIC",
+-        "PSYBEAM",
+         "DAZZLING_GLEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 70.80815318226813,
+           "max": 76.82453221082686
+         },
+         "great": {
+           "rankOne": 121.29900449669746,
+           "max": 133.61040115356442
+         },
+         "ultra": {
+           "rankOne": 142.01040315628052,
+           "max": 142.01040315628052
+         },
+         "master": {
+           "rankOne": 142.01040315628052,
+           "max": 142.01040315628052
+         }
+       }
+@@ -20870,41 +20870,43 @@
+         "great": {
+           "rankOne": 108.66881900837122,
+           "max": 119.51400167513145
+         },
+         "ultra": {
+           "rankOne": 130.17620289325714,
+           "max": 130.17620289325714
+         },
+         "master": {
+           "rankOne": 130.17620289325714,
+           "max": 130.17620289325714
+         }
+       }
+     },
+     {
+       "name": "Magearna",
+       "types": [
+         "steel",
+         "fairy"
+       ],
+-      "fastMoveIds": [],
++      "fastMoveIds": [
++        "SPLASH_FAST"
++      ],
+       "chargedMoveIds": [
+         "STRUGGLE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 75.29011580860015,
+           "max": 78.96280438462944
+         },
+         "great": {
+           "rankOne": 129.38185715774694,
+           "max": 137.27099478931686
+         },
+         "ultra": {
+           "rankOne": 167.56657040119157,
+           "max": 177.10287928581224
+         },
+         "master": {
+           "rankOne": 220.62330490350723,
+           "max": 220.62330490350723
+         }
+@@ -24068,41 +24070,43 @@
+         "great": {
+           "rankOne": 135.96705944174522,
+           "max": 143.32989659563034
+         },
+         "ultra": {
+           "rankOne": 175.5208233094998,
+           "max": 185.7893568277357
+         },
+         "master": {
+           "rankOne": 246.82760548591614,
+           "max": 246.82760548591614
+         }
+       }
+     },
+     {
+       "name": "Necrozma (Ultra)",
+       "types": [
+         "psychic",
+         "dragon"
+       ],
+-      "fastMoveIds": [],
++      "fastMoveIds": [
++        "SPLASH_FAST"
++      ],
+       "chargedMoveIds": [
+         "STRUGGLE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 92.17973843095915,
+           "max": 92.45326881205992
+         },
+         "great": {
+           "rankOne": 155.96305635571477,
+           "max": 162.90503215789792
+         },
+         "ultra": {
+           "rankOne": 199.38211424831792,
+           "max": 210.28480339050273
+         },
+         "master": {
+           "rankOne": 297.5456066131592,
+           "max": 297.5456066131592
+         }
+@@ -46900,46 +46904,40 @@
+         10
+       ],
+       "PETAL_BLIZZARD": [
+         11,
+         11,
+         11,
+         11
+       ],
+       "PLAY_ROUGH": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "POWER_WHIP": [
+         9,
+         8,
+         8,
+         9
+       ],
+-      "PSYBEAM": [
+-        10,
+-        10,
+-        10,
+-        10
+-      ],
+       "PSYCHIC": [
+         10,
+         9,
+         9,
+         9
+       ],
+       "PSYCHIC_FANGS": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "PSYSHOCK": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "RETURN": [
+         12,
+@@ -58010,40 +58008,46 @@
+         4
+       ],
+       "POWER_WHIP": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "PSYBEAM": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "PSYCHIC": [
+         7,
+         6,
+         6,
+         6
+       ],
++      "PSYSHOCK": [
++        5,
++        5,
++        5,
++        5
++      ],
+       "PSYSTRIKE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "RETURN": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "ROCK_TOMB": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "SHADOW_BALL": [
+         7,

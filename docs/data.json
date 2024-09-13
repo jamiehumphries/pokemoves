@@ -1,5 +1,5 @@
 {
-  "timestamp": 1725671033429,
+  "timestamp": 1726096971469,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -15711,8 +15711,8 @@
         "CONFUSION_FAST"
       ],
       "chargedMoveIds": [
+        "PSYSHOCK",
         "PSYCHIC",
-        "PSYBEAM",
         "DAZZLING_GLEAM"
       ],
       "cmp": {
@@ -15746,9 +15746,9 @@
         "PSYCHO_CUT_FAST"
       ],
       "chargedMoveIds": [
+        "PSYSHOCK",
         "POWER_WHIP",
         "PSYCHIC",
-        "PSYBEAM",
         "DAZZLING_GLEAM"
       ],
       "cmp": {
@@ -15780,8 +15780,8 @@
         "CONFUSION_FAST"
       ],
       "chargedMoveIds": [
+        "PSYSHOCK",
         "PSYCHIC",
-        "PSYBEAM",
         "DAZZLING_GLEAM"
       ],
       "cmp": {
@@ -20887,7 +20887,9 @@
         "steel",
         "fairy"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "SPLASH_FAST"
+      ],
       "chargedMoveIds": [
         "STRUGGLE"
       ],
@@ -24085,7 +24087,9 @@
         "psychic",
         "dragon"
       ],
-      "fastMoveIds": [],
+      "fastMoveIds": [
+        "SPLASH_FAST"
+      ],
       "chargedMoveIds": [
         "STRUGGLE"
       ],
@@ -46917,12 +46921,6 @@
         8,
         9
       ],
-      "PSYBEAM": [
-        10,
-        10,
-        10,
-        10
-      ],
       "PSYCHIC": [
         10,
         9,
@@ -58026,6 +58024,12 @@
         6,
         6,
         6
+      ],
+      "PSYSHOCK": [
+        5,
+        5,
+        5,
+        5
       ],
       "PSYSTRIKE": [
         5,

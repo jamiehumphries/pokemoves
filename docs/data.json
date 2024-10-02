@@ -1,5 +1,5 @@
 {
-  "timestamp": 1726096971469,
+  "timestamp": 1727822503778,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -3047,8 +3047,8 @@
         "TAKE_DOWN_FAST"
       ],
       "chargedMoveIds": [
-        "RETURN",
-        "STRUGGLE"
+        "IRON_HEAD",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -23353,13 +23353,46 @@
       ],
       "fastMoveIds": [
         "BITE_FAST",
-        "THUNDER_SHOCK_FAST"
+        "CHARGE_BEAM_FAST"
       ],
       "chargedMoveIds": [
-        "CRUNCH",
-        "WILD_CHARGE",
-        "THUNDERBOLT",
-        "PAYBACK"
+        "406",
+        "SEED_BOMB",
+        "OUTRAGE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 81.00512925489825,
+          "max": 87.4575029611586
+        },
+        "great": {
+          "rankOne": 138.84402525424957,
+          "max": 151.46190065145487
+        },
+        "ultra": {
+          "rankOne": 174.9771038889885,
+          "max": 174.9771038889885
+        },
+        "master": {
+          "rankOne": 174.9771038889885,
+          "max": 174.9771038889885
+        }
+      }
+    },
+    {
+      "name": "Morpeko (Hangry)",
+      "types": [
+        "electric",
+        "dark"
+      ],
+      "fastMoveIds": [
+        "BITE_FAST",
+        "CHARGE_BEAM_FAST"
+      ],
+      "chargedMoveIds": [
+        "407",
+        "SEED_BOMB",
+        "OUTRAGE"
       ],
       "cmp": {
         "little": {
@@ -28669,6 +28702,7 @@
       ],
       "chargedMoveIds": [
         "DRILL_RUN",
+        "WILD_CHARGE",
         "FLAME_CHARGE",
         "SCORCHING_SANDS",
         "RETURN",
@@ -28707,6 +28741,7 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
+        "WILD_CHARGE",
         "MEGAHORN",
         "PSYCHIC",
         "HIGH_HORSEPOWER",
@@ -41666,6 +41701,18 @@
     }
   ],
   "moves": {
+    "406": {
+      "name": "Aura Wheel Electric",
+      "type": "electric",
+      "energy": -45,
+      "damage": 100
+    },
+    "407": {
+      "name": "Aura Wheel Electric",
+      "type": "dark",
+      "energy": -45,
+      "damage": 100
+    },
     "ACID_FAST": {
       "name": "Acid",
       "type": "poison",
@@ -44647,6 +44694,18 @@
       ]
     },
     "BITE_FAST": {
+      "406": [
+        23,
+        22,
+        23,
+        22
+      ],
+      "407": [
+        23,
+        22,
+        23,
+        22
+      ],
       "ACID_SPRAY": [
         23,
         22,
@@ -45048,6 +45107,12 @@
         25,
         25,
         25
+      ],
+      "SEED_BOMB": [
+        23,
+        22,
+        23,
+        22
       ],
       "SHADOW_BALL": [
         28,
@@ -46319,6 +46384,18 @@
       ]
     },
     "CHARGE_BEAM_FAST": {
+      "406": [
+        5,
+        4,
+        4,
+        4
+      ],
+      "407": [
+        5,
+        4,
+        4,
+        4
+      ],
       "ANCIENT_POWER": [
         5,
         4,
@@ -49854,6 +49931,12 @@
         4,
         5,
         4
+      ],
+      "WILD_CHARGE": [
+        5,
+        5,
+        5,
+        5
       ]
     },
     "FEINT_ATTACK_FAST": {
@@ -50766,6 +50849,12 @@
         3,
         4,
         3
+      ],
+      "WILD_CHARGE": [
+        5,
+        4,
+        5,
+        4
       ]
     },
     "FORCE_PALM_FAST": {
@@ -52829,6 +52918,12 @@
       ],
       "THUNDER_PUNCH": [
         2,
+        2,
+        2,
+        2
+      ],
+      "WILD_CHARGE": [
+        3,
         2,
         2,
         2
@@ -58092,6 +58187,12 @@
         6
       ],
       "TRAILBLAZE": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "WILD_CHARGE": [
         5,
         5,
         5,
@@ -63725,12 +63826,6 @@
         7,
         7
       ],
-      "STRUGGLE": [
-        13,
-        12,
-        13,
-        12
-      ],
       "SUPER_POWER": [
         5,
         5,
@@ -64136,12 +64231,6 @@
         6,
         5,
         6
-      ],
-      "PAYBACK": [
-        7,
-        7,
-        6,
-        7
       ],
       "PLAY_ROUGH": [
         7,

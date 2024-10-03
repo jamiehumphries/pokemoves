@@ -1,6 +1,6 @@
-const { getCpmForLevel } = require("../data/cpm");
+import { getCpmForLevel } from "../data/cpm.js";
 
-function computeCmp({ baseAttack, baseDefense, baseStamina }) {
+export function computeCmp({ baseAttack, baseDefense, baseStamina }) {
   const leagues = [
     new League("little", 500),
     new League("great", 1500),
@@ -64,7 +64,3 @@ class League {
 function calculateCp(attack, defense, stamina) {
   return Math.max(10, Math.floor((attack * Math.sqrt(defense * stamina)) / 10));
 }
-
-module.exports = {
-  computeCmp,
-};

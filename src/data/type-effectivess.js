@@ -1,4 +1,4 @@
-function getEffectivenessStages(type) {
+export function getEffectivenessStages(type) {
   switch (type) {
     case "electric":
     case "fighting":
@@ -15,7 +15,3 @@ function getEffectivenessStages(type) {
       return [-2, -1, 0, 1, 2];
   }
 }
-
-module.exports = {
-  getEffectivenessStages,
-};

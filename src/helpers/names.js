@@ -101,7 +101,7 @@ const multipleVersionMoveIds = [
   "WRAP",
 ];
 
-function getPokemonName(template) {
+export function getPokemonName(template) {
   const id = template.pokemonId.toString();
   const form = template.form?.toString();
   const baseName = getPokemonBaseName(id);
@@ -145,7 +145,7 @@ function getDefaultPokemonFormName(id, form) {
   return toSentenceCase(formPart);
 }
 
-function getMoveName(template) {
+export function getMoveName(template) {
   const id = template.vfxName.toUpperCase();
   return getSpecialMoveName(id) || getDefaultMoveName(id);
 }
@@ -164,7 +164,7 @@ function getDefaultMoveName(id) {
   return toSentenceCase(id.replace(/_FAST$/, ""));
 }
 
-function getTempEvoName(template, tempEvoTemplate) {
+export function getTempEvoName(template, tempEvoTemplate) {
   const pokemonName = getPokemonName(template);
   const evoName = toSentenceCase(
     tempEvoTemplate.tempEvoId.replace(/^TEMP_EVOLUTION_/, ""),
@@ -179,9 +179,3 @@ function toSentenceCase(id) {
     .map((word) => word[0].toUpperCase() + word.substring(1).toLowerCase())
     .join(" ");
 }
-
-module.exports = {
-  getPokemonName,
-  getMoveName,
-  getTempEvoName,
-};

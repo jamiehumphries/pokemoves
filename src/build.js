@@ -1,30 +1,30 @@
-const crypto = require("crypto");
-const fs = require("fs");
-const { minify } = require("html-minifier");
-const sass = require("sass");
-const nunjucks = require("nunjucks");
-const { join, parse } = require("path");
-const UglifyJs = require("uglify-js");
+import crypto from "crypto";
+import fs from "fs";
+import { minify } from "html-minifier";
+import * as sass from "sass";
+import nunjucks from "nunjucks";
+import { join, parse } from "path";
+import UglifyJs from "uglify-js";
 
-const { exclusions } = require("./data/adjustments/exclusions");
-const { movesetChanges } = require("./data/adjustments/moveset-changes");
-const { getEffectivenessStages } = require("./data/type-effectivess");
-const { computeCmp } = require("./helpers/cmp");
-const { setEq } = require("./helpers/collections");
-const {
+import { exclusions } from "./data/adjustments/exclusions.js";
+import { movesetChanges } from "./data/adjustments/moveset-changes.js";
+import { getEffectivenessStages } from "./data/type-effectivess.js";
+import { computeCmp } from "./helpers/cmp.js";
+import { setEq } from "./helpers/collections.js";
+import {
   getPokemonName,
   getMoveName,
   getTempEvoName,
-} = require("./helpers/names");
+} from "./helpers/names.js";
 
-const gameMaster = require("./data/pokeminers/latest.json");
+import gameMaster from "./data/pokeminers/latest.json" with { type: "json" };
 const timestamp = parseInt(
-  fs.readFileSync(join(__dirname, "data/pokeminers/timestamp.txt")),
+  fs.readFileSync(join(import.meta.dirname, "data/pokeminers/timestamp.txt")),
 );
 
 const root = "docs";
 
-const views = join(__dirname, "views");
+const views = join(import.meta.dirname, "views");
 const env = nunjucks.configure(views);
 
 function build() {
@@ -277,7 +277,7 @@ function buildJs() {
 }
 
 function buildResources(sourceDirName, transform, ext) {
-  const sourceDir = join(__dirname, sourceDirName);
+  const sourceDir = join(import.meta.dirname, sourceDirName);
   return fs
     .readdirSync(sourceDir)
     .filter((file) => !file.startsWith("."))

@@ -1,4 +1,4 @@
-function setEq(collectionA, collectionB) {
+export function setEq(collectionA, collectionB) {
   const setA = new Set(collectionA);
   const setB = new Set(collectionB);
   if (setA.size !== setB.size) {
@@ -11,7 +11,3 @@ function setEq(collectionA, collectionB) {
   }
   return true;
 }
-
-module.exports = {
-  setEq,
-};

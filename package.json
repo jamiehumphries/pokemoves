@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Move counts for Pokémon GO battles.",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "node src/build.js",
     "fetch": "node src/data/fetch.js",

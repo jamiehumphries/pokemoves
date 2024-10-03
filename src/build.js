@@ -290,7 +290,7 @@ function buildJs() {
 function buildResources(sourceDirName, transform, ext) {
   const sourceDir = join(src, sourceDirName);
   return readdirSync(sourceDir)
-    .filter((file) => !file.startsWith("."))
+    .filter((file) => file !== "eslint.config.mjs")
     .map((file) => {
       const path = join(sourceDir, file);
       const data = transform(readFileSync(path).toString());

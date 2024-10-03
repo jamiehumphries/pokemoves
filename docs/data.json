@@ -41702,13 +41702,13 @@
   ],
   "moves": {
     "406": {
-      "name": "Aura Wheel Electric",
+      "name": "Aura Wheel",
       "type": "electric",
       "energy": -45,
       "damage": 100
     },
     "407": {
-      "name": "Aura Wheel Electric",
+      "name": "Aura Wheel",
       "type": "dark",
       "energy": -45,
       "damage": 100

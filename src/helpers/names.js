@@ -92,6 +92,7 @@ const specialMoveNames = {
 };
 
 const multipleVersionMoveIds = [
+  "AURA_WHEEL",
   "HYDRO_PUMP",
   "SCALD",
   "TECHNO_BLAST",

@@ -1,3 +1,5 @@
+@use "sass:color";
+
 $border-color: grey;
 
 $type-colors: (
@@ -187,7 +189,7 @@ table {
     @each $type, $color in $type-colors {
       th.#{$type} {
         background-color: $color;
-        border-bottom: 1px solid opacify($color, 1);
+        border-bottom: 1px solid color.adjust($color, $alpha: 1);
       }
     }
   }

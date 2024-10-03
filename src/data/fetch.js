@@ -1,17 +1,17 @@
-const https = require("https");
-const fs = require("fs");
-const { join } = require("path");
+import { createWriteStream, existsSync, mkdirSync } from "fs";
+import { get } from "https";
+import { join } from "path";
 
 const GAME_MASTER_ROOT =
   "https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/";
 
-const localDir = join(__dirname, "pokeminers");
-if (!fs.existsSync(localDir)) {
-  fs.mkdirSync(localDir);
+const localDir = join(import.meta.dirname, "pokeminers");
+if (!existsSync(localDir)) {
+  mkdirSync(localDir);
 }
 
 ["latest.json", "timestamp.txt"].forEach((filename) => {
   const path = join(localDir, filename);
-  const file = fs.createWriteStream(path);
-  https.get(GAME_MASTER_ROOT + filename, (res) => res.pipe(file));
+  const file = createWriteStream(path);
+  get(GAME_MASTER_ROOT + filename, (res) => res.pipe(file));
 });

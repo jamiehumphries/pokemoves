@@ -1,10 +1,16 @@
-import crypto from "crypto";
-import fs from "fs";
-import { minify } from "html-minifier";
-import * as sass from "sass";
+import { createHash } from "crypto";
+import {
+  mkdirSync,
+  readdirSync,
+  readFileSync,
+  rmSync,
+  writeFileSync,
+} from "fs";
+import { minify as minifyHtml } from "html-minifier";
+import { compileString as compileSassString } from "sass";
 import nunjucks from "nunjucks";
 import { join, parse } from "path";
-import UglifyJs from "uglify-js";
+import { minify as minifyJs } from "uglify-js";
 
 import { exclusions } from "./data/adjustments/exclusions.js";
 import { movesetChanges } from "./data/adjustments/moveset-changes.js";
@@ -17,20 +23,25 @@ import {
   getTempEvoName,
 } from "./helpers/names.js";
 
-import gameMaster from "./data/pokeminers/latest.json" with { type: "json" };
+const src = import.meta.dirname;
+
+const gameMaster = JSON.parse(
+  readFileSync(join(src, "data/pokeminers/latest.json")),
+);
+
 const timestamp = parseInt(
-  fs.readFileSync(join(import.meta.dirname, "data/pokeminers/timestamp.txt")),
+  readFileSync(join(src, "data/pokeminers/timestamp.txt")),
 );
 
 const root = "docs";
 
-const views = join(import.meta.dirname, "views");
+const views = join(src, "views");
 const env = nunjucks.configure(views);
 
 function build() {
   const data = buildData();
   const json = JSON.stringify({ timestamp, ...data }, null, 2);
-  fs.writeFileSync(join(root, "data.json"), json);
+  writeFileSync(join(root, "data.json"), json);
 
   const css = buildCss();
   const js = buildJs();
@@ -41,7 +52,7 @@ function build() {
   };
 
   const html = buildHtml(data, resources);
-  fs.writeFileSync(join(root, "index.html"), html);
+  writeFileSync(join(root, "index.html"), html);
 
   console.log();
   console.log("Build complete.");
@@ -267,23 +278,22 @@ function getCounts(fastMove, chargedMove) {
 
 function buildCss() {
   const style = "compressed";
-  const transform = (data) => sass.compileString(data, { style }).css;
+  const transform = (data) => compileSassString(data, { style }).css;
   return buildResources("styles", transform, ".css");
 }
 
 function buildJs() {
-  const transform = (data) => UglifyJs.minify(data).code;
+  const transform = (data) => minifyJs(data).code;
   return buildResources("scripts", transform);
 }
 
 function buildResources(sourceDirName, transform, ext) {
-  const sourceDir = join(import.meta.dirname, sourceDirName);
-  return fs
-    .readdirSync(sourceDir)
+  const sourceDir = join(src, sourceDirName);
+  return readdirSync(sourceDir)
     .filter((file) => !file.startsWith("."))
     .map((file) => {
       const path = join(sourceDir, file);
-      const data = transform(fs.readFileSync(path).toString());
+      const data = transform(readFileSync(path).toString());
       const newFile = ext ? parse(file).name + ext : file;
       return { file: newFile, data };
     });
@@ -291,15 +301,15 @@ function buildResources(sourceDirName, transform, ext) {
 
 function writeCacheBustedFiles(destDirName, files) {
   const destDir = join(root, destDirName);
-  fs.rmSync(destDir, { recursive: true, force: true });
-  fs.mkdirSync(destDir);
+  rmSync(destDir, { recursive: true, force: true });
+  mkdirSync(destDir);
   const fileMap = {};
   const webPath = (file) => `/${destDirName}/${file}`;
   for (const { file, data } of files) {
     const { name, ext } = parse(file);
-    const hash = crypto.createHash("md5").update(data).digest("hex");
+    const hash = createHash("md5").update(data).digest("hex");
     const cacheBustedFile = `${name}.${hash}${ext}`;
-    fs.writeFileSync(join(destDir, cacheBustedFile), data);
+    writeFileSync(join(destDir, cacheBustedFile), data);
     fileMap[webPath(file)] = webPath(cacheBustedFile);
   }
   return fileMap;
@@ -308,7 +318,7 @@ function writeCacheBustedFiles(destDirName, files) {
 function buildHtml(data, resources) {
   const lastUpdated = new Date(timestamp).toUTCString();
   const html = nunjucks.render("list.njk", { data, resources, lastUpdated });
-  return minify(html, {
+  return minifyHtml(html, {
     collapseWhitespace: true,
     removeAttributeQuotes: true,
     removeOptionalTags: true,

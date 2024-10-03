@@ -6,10 +6,10 @@ import {
   rmSync,
   writeFileSync,
 } from "fs";
-import { minify as minifyHtml } from "html-minifier";
-import { compileString as compileSassString } from "sass";
+import { minify as minifyHtml } from "html-minifier-terser";
 import nunjucks from "nunjucks";
 import { join, parse } from "path";
+import { compileString as compileSassString } from "sass";
 import { minify as minifyJs } from "uglify-js";
 
 import { exclusions } from "./data/adjustments/exclusions.js";
@@ -38,7 +38,7 @@ const root = "docs";
 const views = join(src, "views");
 const env = nunjucks.configure(views);
 
-function build() {
+async function build() {
   const data = buildData();
   const json = JSON.stringify({ timestamp, ...data }, null, 2);
   writeFileSync(join(root, "data.json"), json);
@@ -51,7 +51,7 @@ function build() {
     ...writeCacheBustedFiles("js", js),
   };
 
-  const html = buildHtml(data, resources);
+  const html = await buildHtml(data, resources);
   writeFileSync(join(root, "index.html"), html);
 
   console.log();
@@ -360,4 +360,4 @@ function effectivenessArrows(n) {
   return "↔";
 }
 
-build();
+await build();

@@ -17,12 +17,12 @@
     "local-web-server": "5.4.0"
   },
   "devDependencies": {
-    "eslint": "8.42.0",
-    "eslint-config-prettier": "8.8.0",
+    "eslint": "9.11.1",
+    "eslint-config-prettier": "9.1.0",
     "html-minifier": "4.0.0",
     "nunjucks": "3.2.4",
     "prettier": "3.3.3",
-    "sass": "1.77.8",
-    "uglify-js": "3.19.1"
+    "sass": "1.79.4",
+    "uglify-js": "3.19.3"
   }
 }

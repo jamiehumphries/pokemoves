@@ -133,9 +133,6 @@ function getPokemonFormName(id, form) {
 }
 
 function getSpecialPokemonFormName(id, form) {
-  if (form?.startsWith("NIDORAN_")) {
-    return getDefaultPokemonFormName("NIDORAN", form);
-  }
   return form ? specialPokemonFormNames[form] : defaultPokemonFormNames[id];
 }
 

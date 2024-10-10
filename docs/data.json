@@ -1,5 +1,5 @@
 {
-  "timestamp": 1727822503778,
+  "timestamp": 1728498524921,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -195,6 +195,7 @@
         "ACID_SPRAY",
         "SIGNAL_BEAM",
         "BUG_BUZZ",
+        "RETURN",
         "FOCUS_BLAST"
       ],
       "cmp": {
@@ -845,7 +846,8 @@
         "ICE_PUNCH",
         "LOW_SWEEP",
         "CLOSE_COMBAT",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -3676,7 +3678,8 @@
       "chargedMoveIds": [
         "ROCK_SLIDE",
         "STONE_EDGE",
-        "BULLDOZE"
+        "BULLDOZE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -4454,7 +4457,8 @@
       "chargedMoveIds": [
         "PSYCHIC",
         "SIGNAL_BEAM",
-        "BUG_BUZZ"
+        "BUG_BUZZ",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -5105,6 +5109,7 @@
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
+        "RETURN",
         "STRUGGLE"
       ],
       "cmp": {
@@ -10889,7 +10894,8 @@
         "AERIAL_ACE",
         "ACID_SPRAY",
         "DRILL_RUN",
-        "MEGAHORN"
+        "MEGAHORN",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -13453,6 +13459,7 @@
         "ROCK_SLIDE",
         "HEAVY_SLAM",
         "METEOR_BEAM",
+        "RETURN",
         "SOLAR_BEAM"
       ],
       "cmp": {
@@ -15960,6 +15967,7 @@
         "EARTH_POWER",
         "FLAMETHROWER",
         "STONE_EDGE",
+        "RETURN",
         "FIRE_BLAST"
       ],
       "cmp": {
@@ -17940,7 +17948,8 @@
         "AERIAL_ACE",
         "X_SCISSOR",
         "DRILL_RUN",
-        "SIGNAL_BEAM"
+        "SIGNAL_BEAM",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -19445,7 +19454,8 @@
       ],
       "fastMoveIds": [
         "BUG_BITE_FAST",
-        "RAZOR_LEAF_FAST"
+        "RAZOR_LEAF_FAST",
+        "SHADOW_CLAW_FAST"
       ],
       "chargedMoveIds": [
         "LEAF_BLADE",
@@ -21390,7 +21400,8 @@
       "chargedMoveIds": [
         "CROSS_CHOP",
         "BRICK_BREAK",
-        "LOW_SWEEP"
+        "LOW_SWEEP",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -21901,6 +21912,45 @@
         "master": {
           "rankOne": 143.70100319385529,
           "max": 143.70100319385529
+        }
+      }
+    },
+    {
+      "name": "Mawile (Mega)",
+      "types": [
+        "steel",
+        "fairy"
+      ],
+      "fastMoveIds": [
+        "ASTONISH_FAST",
+        "BITE_FAST",
+        "FAIRY_WIND_FAST",
+        "FIRE_FANG_FAST",
+        "ICE_FANG_FAST"
+      ],
+      "chargedMoveIds": [
+        "POWER_UP_PUNCH",
+        "VICE_GRIP",
+        "IRON_HEAD",
+        "PLAY_ROUGH",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 70.91952601075158,
+          "max": 76.17282423377023
+        },
+        "great": {
+          "rankOne": 123.03389930725096,
+          "max": 132.8504338264465
+        },
+        "ultra": {
+          "rankOne": 158.4471010585326,
+          "max": 171.59590381383896
+        },
+        "master": {
+          "rankOne": 171.59590381383896,
+          "max": 171.59590381383896
         }
       }
     },
@@ -22501,6 +22551,7 @@
         "TACKLE_FAST"
       ],
       "chargedMoveIds": [
+        "RETURN",
         "STRUGGLE"
       ],
       "cmp": {
@@ -23353,9 +23404,11 @@
       ],
       "fastMoveIds": [
         "BITE_FAST",
-        "CHARGE_BEAM_FAST"
+        "CHARGE_BEAM_FAST",
+        "THUNDER_SHOCK_FAST"
       ],
       "chargedMoveIds": [
+        "PSYCHIC_FANGS",
         "406",
         "SEED_BOMB",
         "OUTRAGE"
@@ -23387,9 +23440,11 @@
       ],
       "fastMoveIds": [
         "BITE_FAST",
-        "CHARGE_BEAM_FAST"
+        "CHARGE_BEAM_FAST",
+        "THUNDER_SHOCK_FAST"
       ],
       "chargedMoveIds": [
+        "PSYCHIC_FANGS",
         "407",
         "SEED_BOMB",
         "OUTRAGE"
@@ -27734,7 +27789,8 @@
         "NIGHT_SLASH",
         "ICE_PUNCH",
         "LOW_SWEEP",
-        "CLOSE_COMBAT"
+        "CLOSE_COMBAT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -29681,7 +29737,8 @@
       "chargedMoveIds": [
         "ROCK_BLAST",
         "STONE_EDGE",
-        "BULLDOZE"
+        "BULLDOZE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -30981,7 +31038,8 @@
         "X_SCISSOR",
         "SLUDGE_BOMB",
         "MEGAHORN",
-        "GYRO_BALL"
+        "GYRO_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -31804,7 +31862,8 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "SIGNAL_BEAM",
-        "BUG_BUZZ"
+        "BUG_BUZZ",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -38707,7 +38766,8 @@
       "chargedMoveIds": [
         "SLUDGE_BOMB",
         "SIGNAL_BEAM",
-        "GYRO_BALL"
+        "GYRO_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -39913,7 +39973,8 @@
       "chargedMoveIds": [
         "SLUDGE_BOMB",
         "SIGNAL_BEAM",
-        "GYRO_BALL"
+        "GYRO_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -60778,6 +60839,18 @@
         6,
         6
       ],
+      "LEAF_BLADE": [
+        5,
+        4,
+        5,
+        4
+      ],
+      "LEAF_STORM": [
+        7,
+        7,
+        7,
+        7
+      ],
       "LIQUIDATION": [
         6,
         6,
@@ -60917,6 +60990,12 @@
         4
       ],
       "SHADOW_SNEAK": [
+        6,
+        6,
+        5,
+        6
+      ],
+      "SILVER_WIND": [
         6,
         6,
         5,
@@ -64004,6 +64083,18 @@
       ]
     },
     "THUNDER_SHOCK_FAST": {
+      "406": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "407": [
+        5,
+        5,
+        5,
+        5
+      ],
       "ACROBATICS": [
         7,
         7,
@@ -64250,6 +64341,12 @@
         6,
         6
       ],
+      "PSYCHIC_FANGS": [
+        4,
+        4,
+        4,
+        4
+      ],
       "RETURN": [
         8,
         8,
@@ -64257,6 +64354,12 @@
         8
       ],
       "ROCK_SLIDE": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "SEED_BOMB": [
         5,
         5,
         5,
@@ -65427,6 +65530,12 @@
         2,
         3,
         2
+      ],
+      "RETURN": [
+        5,
+        5,
+        5,
+        5
       ],
       "SIGNAL_BEAM": [
         4,

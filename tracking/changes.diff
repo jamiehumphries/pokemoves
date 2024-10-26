@@ -1,0 +1,75 @@
+diff --git a/docs/data.json b/docs/data.json
+index 9cb4e11..d77fe5b 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -1,22 +1,22 @@
+ {
+-  "timestamp": 1728792569009,
++  "timestamp": 1729811582932,
+   "pokemon": [
+     {
+       "name": "Abomasnow",
+       "types": [
+         "grass",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "LEAFAGE_FAST",
+         "POWDER_SNOW_FAST",
+         "RAZOR_LEAF_FAST"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_ICE",
+         "ICY_WIND",
+         "ENERGY_BALL",
+         "OUTRAGE",
+         "RETURN",
+         "BLIZZARD"
+       ],
+@@ -41757,40 +41757,46 @@
+         "master": {
+           "rankOne": 168.21470373868942,
+           "max": 168.21470373868942
+         }
+       }
+     }
+   ],
+   "moves": {
+     "406": {
+       "name": "Aura Wheel",
+       "type": "electric",
+       "energy": -45,
+       "damage": 100
+     },
+     "407": {
+       "name": "Aura Wheel",
+       "type": "dark",
+       "energy": -45,
+       "damage": 100
+     },
++    "464": {
++      "name": "Rage Fist",
++      "type": "ghost",
++      "energy": -35,
++      "damage": 50
++    },
+     "ACID_FAST": {
+       "name": "Acid",
+       "type": "poison",
+       "energy": 5,
+       "damage": 6,
+       "turns": 2
+     },
+     "ACID_SPRAY": {
+       "name": "Acid Spray",
+       "type": "poison",
+       "energy": -45,
+       "damage": 20
+     },
+     "ACROBATICS": {
+       "name": "Acrobatics",
+       "type": "flying",
+       "energy": -60,
+       "damage": 110
+     },
+     "AERIAL_ACE": {

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1728792569009,
+  "timestamp": 1729811582932,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -41773,6 +41773,12 @@
       "type": "dark",
       "energy": -45,
       "damage": 100
+    },
+    "464": {
+      "name": "Rage Fist",
+      "type": "ghost",
+      "energy": -35,
+      "damage": 50
     },
     "ACID_FAST": {
       "name": "Acid",

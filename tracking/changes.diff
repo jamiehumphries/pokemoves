@@ -1,5 +1,5 @@
 diff --git a/docs/data.json b/docs/data.json
-index 9cb4e11..d77fe5b 100644
+index 9cb4e11..2fddfec 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
@@ -26,50 +26,50 @@ index 9cb4e11..d77fe5b 100644
          "RETURN",
          "BLIZZARD"
        ],
-@@ -41757,40 +41757,46 @@
-         "master": {
-           "rankOne": 168.21470373868942,
-           "max": 168.21470373868942
-         }
-       }
-     }
-   ],
-   "moves": {
-     "406": {
-       "name": "Aura Wheel",
-       "type": "electric",
+@@ -42980,40 +42980,46 @@
+     "PSYSTRIKE": {
+       "name": "Psystrike",
+       "type": "psychic",
        "energy": -45,
-       "damage": 100
+       "damage": 90
      },
-     "407": {
-       "name": "Aura Wheel",
-       "type": "dark",
-       "energy": -45,
-       "damage": 100
+     "PSYWAVE_FAST": {
+       "name": "Psywave",
+       "type": "psychic",
+       "energy": 4,
+       "damage": 3,
+       "turns": 1
      },
-+    "464": {
+     "QUICK_ATTACK_FAST": {
+       "name": "Quick Attack",
+       "type": "normal",
+       "energy": 8,
+       "damage": 5,
+       "turns": 2
+     },
++    "RAGE_FIST": {
 +      "name": "Rage Fist",
 +      "type": "ghost",
 +      "energy": -35,
 +      "damage": 50
 +    },
-     "ACID_FAST": {
-       "name": "Acid",
-       "type": "poison",
-       "energy": 5,
-       "damage": 6,
+     "RAZOR_LEAF_FAST": {
+       "name": "Razor Leaf",
+       "type": "grass",
+       "energy": 4,
+       "damage": 9,
        "turns": 2
      },
-     "ACID_SPRAY": {
-       "name": "Acid Spray",
-       "type": "poison",
-       "energy": -45,
-       "damage": 20
+     "RAZOR_SHELL": {
+       "name": "Razor Shell",
+       "type": "water",
+       "energy": -35,
+       "damage": 35
      },
-     "ACROBATICS": {
-       "name": "Acrobatics",
-       "type": "flying",
-       "energy": -60,
-       "damage": 110
+     "REST": {
+       "name": "Rest",
+       "type": "normal",
+       "energy": -35,
+       "damage": 50
      },
-     "AERIAL_ACE": {
+     "RETURN": {

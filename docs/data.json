@@ -41774,12 +41774,6 @@
       "energy": -45,
       "damage": 100
     },
-    "464": {
-      "name": "Rage Fist",
-      "type": "ghost",
-      "energy": -35,
-      "damage": 50
-    },
     "ACID_FAST": {
       "name": "Acid",
       "type": "poison",
@@ -43002,6 +42996,12 @@
       "energy": 8,
       "damage": 5,
       "turns": 2
+    },
+    "RAGE_FIST": {
+      "name": "Rage Fist",
+      "type": "ghost",
+      "energy": -35,
+      "damage": 50
     },
     "RAZOR_LEAF_FAST": {
       "name": "Razor Leaf",

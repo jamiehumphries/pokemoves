@@ -1,0 +1,28 @@
+diff --git a/docs/data.json b/docs/data.json
+index 2fddfec..54e288b 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -1,22 +1,22 @@
+ {
+-  "timestamp": 1729811582932,
++  "timestamp": 1729903844787,
+   "pokemon": [
+     {
+       "name": "Abomasnow",
+       "types": [
+         "grass",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "LEAFAGE_FAST",
+         "POWDER_SNOW_FAST",
+         "RAZOR_LEAF_FAST"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_ICE",
+         "ICY_WIND",
+         "ENERGY_BALL",
+         "OUTRAGE",
+         "RETURN",
+         "BLIZZARD"
+       ],

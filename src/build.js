@@ -350,6 +350,15 @@ env.addFilter("effectivenessSummary", (damage, type) => {
     .join(" | ");
 });
 
+env.addFilter("id", (pokemon) => {
+  return pokemon.name
+    .replaceAll("♂", "-m")
+    .replaceAll("♀", "-f")
+    .replaceAll(/[^A-Za-z0-9]+/g, "-")
+    .replaceAll(/(?:^-|-$)/g, "")
+    .toLowerCase();
+});
+
 function effectivenessArrows(n) {
   if (n < 0) {
     return "↓".repeat(-n);

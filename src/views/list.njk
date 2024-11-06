@@ -59,7 +59,7 @@
   <input id="search" type="text" placeholder="Search"  style="visibility: hidden;" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
   {% for pokemon in data.pokemon %}
     {% set isMew = pokemon.name === "Mew" %}
-    <h2 data-name="{{ pokemon.name | lower }}">
+    <h2 id="{{ pokemon | id }}" data-name="{{ pokemon.name | lower }}">
       {{ pokemon.name }}{{ "*" if isMew }}
     </h2>
     {% if isMew %}

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1729903844787,
+  "timestamp": 1731653383990,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -843,6 +843,7 @@
       ],
       "chargedMoveIds": [
         "NIGHT_SLASH",
+        "RAGE_FIST",
         "ICE_PUNCH",
         "LOW_SWEEP",
         "CLOSE_COMBAT",
@@ -27787,6 +27788,7 @@
       "chargedMoveIds": [
         "CROSS_CHOP",
         "NIGHT_SLASH",
+        "RAGE_FIST",
         "ICE_PUNCH",
         "LOW_SWEEP",
         "CLOSE_COMBAT",
@@ -48065,6 +48067,12 @@
         6,
         6
       ],
+      "RAGE_FIST": [
+        6,
+        6,
+        6,
+        6
+      ],
       "RETURN": [
         12,
         12,
@@ -53727,6 +53735,12 @@
         6,
         6
       ],
+      "RAGE_FIST": [
+        4,
+        4,
+        4,
+        4
+      ],
       "RETURN": [
         8,
         8,
@@ -54580,6 +54594,12 @@
         11,
         11,
         11
+      ],
+      "RAGE_FIST": [
+        7,
+        7,
+        7,
+        7
       ],
       "RETURN": [
         14,

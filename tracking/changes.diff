@@ -1,11 +1,11 @@
 diff --git a/docs/data.json b/docs/data.json
-index 2fddfec..54e288b 100644
+index 2fddfec..ff80eba 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1,22 +1,22 @@
  {
 -  "timestamp": 1729811582932,
-+  "timestamp": 1729903844787,
++  "timestamp": 1731653383990,
    "pokemon": [
      {
        "name": "Abomasnow",
@@ -26,3 +26,228 @@ index 2fddfec..54e288b 100644
          "RETURN",
          "BLIZZARD"
        ],
+@@ -826,40 +826,41 @@
+           "max": 193.6092417240141
+         },
+         "master": {
+           "rankOne": 261.19770580530167,
+           "max": 261.19770580530167
+         }
+       }
+     },
+     {
+       "name": "Annihilape",
+       "types": [
+         "fighting",
+         "ghost"
+       ],
+       "fastMoveIds": [
+         "COUNTER_FAST",
+         "LOW_KICK_FAST"
+       ],
+       "chargedMoveIds": [
+         "NIGHT_SLASH",
++        "RAGE_FIST",
+         "ICE_PUNCH",
+         "LOW_SWEEP",
+         "CLOSE_COMBAT",
+         "SHADOW_BALL",
+         "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 70.63927173614498,
+           "max": 75.1344981193542
+         },
+         "great": {
+           "rankOne": 122.27597808837871,
+           "max": 129.43628311157207
+         },
+         "ultra": {
+           "rankOne": 156.897202513335,
+           "max": 167.59473904833513
+         },
+         "master": {
+@@ -27770,40 +27771,41 @@
+         },
+         "master": {
+           "rankOne": 208.78910464048386,
+           "max": 208.78910464048386
+         }
+       }
+     },
+     {
+       "name": "Primeape",
+       "types": [
+         "fighting"
+       ],
+       "fastMoveIds": [
+         "COUNTER_FAST",
+         "KARATE_CHOP_FAST",
+         "LOW_KICK_FAST"
+       ],
+       "chargedMoveIds": [
+         "CROSS_CHOP",
+         "NIGHT_SLASH",
++        "RAGE_FIST",
+         "ICE_PUNCH",
+         "LOW_SWEEP",
+         "CLOSE_COMBAT",
+         "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 80.23162909462978,
+           "max": 86.0455152609073
+         },
+         "great": {
+           "rankOne": 137.53360680939818,
+           "max": 148.2813481092453
+         },
+         "ultra": {
+           "rankOne": 179.20360398292542,
+           "max": 187.65660417079926
+         },
+         "master": {
+           "rankOne": 187.65660417079926,
+@@ -48048,40 +48050,46 @@
+         6
+       ],
+       "PSYCHIC": [
+         10,
+         9,
+         9,
+         9
+       ],
+       "PSYCHIC_FANGS": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "PSYCHO_BOOST": [
+         6,
+         6,
+         6,
+         6
+       ],
++      "RAGE_FIST": [
++        6,
++        6,
++        6,
++        6
++      ],
+       "RETURN": [
+         12,
+         12,
+         11,
+         12
+       ],
+       "ROCK_BLAST": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "ROCK_SLIDE": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "ROCK_TOMB": [
+         10,
+@@ -53710,40 +53718,46 @@
+         4
+       ],
+       "NIGHT_SLASH": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "PAYBACK": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "PSYCHIC": [
+         7,
+         6,
+         6,
+         6
+       ],
++      "RAGE_FIST": [
++        4,
++        4,
++        4,
++        4
++      ],
+       "RETURN": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "ROCK_SLIDE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "SCORCHING_SANDS": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "STONE_EDGE": [
+         7,
+@@ -54564,40 +54578,46 @@
+         12
+       ],
+       "POWER_UP_PUNCH": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "PSYBEAM": [
+         12,
+         12,
+         12,
+         12
+       ],
+       "PSYCHIC": [
+         11,
+         11,
+         11,
+         11
+       ],
++      "RAGE_FIST": [
++        7,
++        7,
++        7,
++        7
++      ],
+       "RETURN": [
+         14,
+         14,
+         14,
+         14
+       ],
+       "ROCK_SLIDE": [
+         9,
+         9,
+         9,
+         9
+       ],
+       "ROCK_TOMB": [
+         12,
+         12,
+         12,
+         12
+       ],
+       "SACRED_SWORD": [
+         7,

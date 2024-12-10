@@ -6,7 +6,7 @@
     "fetch": "node src/data/fetch.js",
     "install": "npm run fetch",
     "lint": "eslint . && prettier --write .",
-    "start": "ws --directory docs",
+    "start": "serve docs",
     "update": "npm run fetch && npm run build"
   },
   "prettier": {
@@ -16,7 +16,7 @@
     ]
   },
   "dependencies": {
-    "local-web-server": "5.4.0"
+    "serve": "14.2.4"
   },
   "devDependencies": {
     "@eslint/js": "9.11.1",

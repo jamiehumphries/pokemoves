@@ -1,7 +1,4 @@
 {
-  "name": "pokemoves",
-  "version": "1.0.0",
-  "description": "Move counts for Pokémon GO battles.",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,8 +9,6 @@
     "start": "ws --directory docs",
     "update": "npm run fetch && npm run build"
   },
-  "author": "Jamie Humphries",
-  "license": "ISC",
   "dependencies": {
     "local-web-server": "5.4.0"
   },

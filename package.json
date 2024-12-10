@@ -9,6 +9,12 @@
     "start": "ws --directory docs",
     "update": "npm run fetch && npm run build"
   },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-css-order",
+      "prettier-plugin-packagejson"
+    ]
+  },
   "dependencies": {
     "local-web-server": "5.4.0"
   },
@@ -20,6 +26,8 @@
     "html-minifier-terser": "7.2.0",
     "nunjucks": "3.2.4",
     "prettier": "3.3.3",
+    "prettier-plugin-css-order": "2.1.2",
+    "prettier-plugin-packagejson": "2.5.6",
     "sass": "1.79.4",
     "uglify-js": "3.19.3"
   }

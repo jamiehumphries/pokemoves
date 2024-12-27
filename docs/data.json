@@ -1,5 +1,5 @@
 {
-  "timestamp": 1733555920249,
+  "timestamp": 1735238977243,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -6956,7 +6956,6 @@
       ],
       "chargedMoveIds": [
         "DRILL_PECK",
-        "IRON_HEAD",
         "BRAVE_BIRD"
       ],
       "cmp": {
@@ -41818,6 +41817,12 @@
       "type": "dark",
       "energy": -45,
       "damage": 100
+    },
+    "465": {
+      "name": "Flower Trick",
+      "type": "grass",
+      "energy": -35,
+      "damage": 30
     },
     "ACID_FAST": {
       "name": "Acid",

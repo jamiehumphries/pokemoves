@@ -1,0 +1,1116 @@
+diff --git a/docs/data.json b/docs/data.json
+index d9e12bb..fe0c594 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -1,22 +1,22 @@
+ {
+-  "timestamp": 1735238977243,
++  "timestamp": 1736535588840,
+   "pokemon": [
+     {
+       "name": "Abomasnow",
+       "types": [
+         "grass",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "LEAFAGE_FAST",
+         "POWDER_SNOW_FAST",
+         "RAZOR_LEAF_FAST"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_ICE",
+         "ICY_WIND",
+         "ENERGY_BALL",
+         "OUTRAGE",
+         "RETURN",
+         "BLIZZARD"
+       ],
+@@ -4376,41 +4376,42 @@
+           "max": 122.56850272417068
+         },
+         "master": {
+           "rankOne": 122.56850272417068,
+           "max": 122.56850272417068
+         }
+       }
+     },
+     {
+       "name": "Bunnelby",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
+         "MUD_SLAP_FAST",
+         "QUICK_ATTACK_FAST"
+       ],
+       "chargedMoveIds": [
+         "BULLDOZE",
+         "DIG",
+-        "EARTHQUAKE"
++        "EARTHQUAKE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 56.63065522993364,
+           "max": 67.25489938259122
+         },
+         "great": {
+           "rankOne": 70.15990155935287,
+           "max": 70.15990155935287
+         },
+         "ultra": {
+           "rankOne": 70.15990155935287,
+           "max": 70.15990155935287
+         },
+         "master": {
+           "rankOne": 70.15990155935287,
+           "max": 70.15990155935287
+         }
+       }
+     },
+@@ -8486,41 +8487,42 @@
+           "max": 130.17620289325714
+         },
+         "master": {
+           "rankOne": 130.17620289325714,
+           "max": 130.17620289325714
+         }
+       }
+     },
+     {
+       "name": "Dewott",
+       "types": [
+         "water"
+       ],
+       "fastMoveIds": [
+         "FURY_CUTTER_FAST",
+         "WATER_GUN_FAST"
+       ],
+       "chargedMoveIds": [
+         "AQUA_TAIL",
+         "X_SCISSOR",
+-        "WATER_PULSE"
++        "WATER_PULSE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 70.45409971475601,
+           "max": 77.10071289539337
+         },
+         "great": {
+           "rankOne": 122.0161492824553,
+           "max": 134.03172567105665
+         },
+         "ultra": {
+           "rankOne": 147.08220326900482,
+           "max": 147.08220326900482
+         },
+         "master": {
+           "rankOne": 147.08220326900482,
+           "max": 147.08220326900482
+         }
+       }
+     },
+@@ -8727,40 +8729,41 @@
+           "rankOne": 301.7721067070961,
+           "max": 301.7721067070961
+         }
+       }
+     },
+     {
+       "name": "Diggersby",
+       "types": [
+         "normal",
+         "ground"
+       ],
+       "fastMoveIds": [
+         "MUD_SHOT_FAST",
+         "QUICK_ATTACK_FAST"
+       ],
+       "chargedMoveIds": [
+         "FIRE_PUNCH",
+         "DIG",
+         "SCORCHING_SANDS",
+         "EARTHQUAKE",
++        "RETURN",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 54.91208463907237,
+           "max": 59.986681878911405
+         },
+         "great": {
+           "rankOne": 94.39401765189177,
+           "max": 104.17809784412381
+         },
+         "ultra": {
+           "rankOne": 107.35310238599777,
+           "max": 107.35310238599777
+         },
+         "master": {
+           "rankOne": 107.35310238599777,
+           "max": 107.35310238599777
+         }
+       }
+@@ -10663,40 +10666,41 @@
+         "master": {
+           "rankOne": 137.7839030623436,
+           "max": 137.7839030623436
+         }
+       }
+     },
+     {
+       "name": "Emboar",
+       "types": [
+         "fire",
+         "fighting"
+       ],
+       "fastMoveIds": [
+         "EMBER_FAST",
+         "LOW_KICK_FAST"
+       ],
+       "chargedMoveIds": [
+         "ROCK_SLIDE",
+         "BLAST_BURN",
+         "FLAME_CHARGE",
++        "RETURN",
+         "FOCUS_BLAST",
+         "HEAT_WAVE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 78.82958258934309,
+           "max": 83.86125807376925
+         },
+         "great": {
+           "rankOne": 136.83554321527464,
+           "max": 145.56972682476024
+         },
+         "ultra": {
+           "rankOne": 175.49358404508328,
+           "max": 188.18227632645525
+         },
+         "master": {
+           "rankOne": 211.325004696846,
+           "max": 211.325004696846
+         }
+@@ -12794,40 +12798,41 @@
+         },
+         "master": {
+           "rankOne": 182.58480405807495,
+           "max": 182.58480405807495
+         }
+       }
+     },
+     {
+       "name": "Garbodor",
+       "types": [
+         "poison"
+       ],
+       "fastMoveIds": [
+         "INFESTATION_FAST",
+         "TAKE_DOWN_FAST"
+       ],
+       "chargedMoveIds": [
+         "BODY_SLAM",
+         "ACID_SPRAY",
+         "SEED_BOMB",
++        "RETURN",
+         "GUNK_SHOT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 70.1542264064154,
+           "max": 73.5461751222609
+         },
+         "great": {
+           "rankOne": 119.68068669471668,
+           "max": 128.27653712030406
+         },
+         "ultra": {
+           "rankOne": 153.8446034193039,
+           "max": 165.67880368232727
+         },
+         "master": {
+           "rankOne": 165.67880368232727,
+           "max": 165.67880368232727
+         }
+       }
+@@ -22265,41 +22270,43 @@
+           "rankOne": 112.42490249872208,
+           "max": 112.42490249872208
+         },
+         "master": {
+           "rankOne": 112.42490249872208,
+           "max": 112.42490249872208
+         }
+       }
+     },
+     {
+       "name": "Meowscarada",
+       "types": [
+         "grass",
+         "dark"
+       ],
+       "fastMoveIds": [
+         "CHARM_FAST",
+         "LEAFAGE_FAST"
+       ],
+       "chargedMoveIds": [
++        "FLOWER_TRICK",
+         "NIGHT_SLASH",
++        "FRENZY_PLANT",
+         "GRASS_KNOT",
+         "ENERGY_BALL",
+         "PLAY_ROUGH"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 81.3665535748004,
+           "max": 85.55710569024076
+         },
+         "great": {
+           "rankOne": 139.19420224428163,
+           "max": 148.1817960880079
+         },
+         "ultra": {
+           "rankOne": 178.80353951454143,
+           "max": 192.46410659371818
+         },
+         "master": {
+           "rankOne": 209.63440465927124,
+           "max": 209.63440465927124
+@@ -25431,41 +25438,42 @@
+           "max": 148.7728033065796
+         },
+         "master": {
+           "rankOne": 148.7728033065796,
+           "max": 148.7728033065796
+         }
+       }
+     },
+     {
+       "name": "Oshawott",
+       "types": [
+         "water"
+       ],
+       "fastMoveIds": [
+         "TACKLE_FAST",
+         "WATER_GUN_FAST"
+       ],
+       "chargedMoveIds": [
+         "AQUA_TAIL",
+         "NIGHT_SLASH",
+-        "WATER_PULSE"
++        "WATER_PULSE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 68.1266321539878,
+           "max": 76.86081576347341
+         },
+         "great": {
+           "rankOne": 111.57960247993469,
+           "max": 111.57960247993469
+         },
+         "ultra": {
+           "rankOne": 111.57960247993469,
+           "max": 111.57960247993469
+         },
+         "master": {
+           "rankOne": 111.57960247993469,
+           "max": 111.57960247993469
+         }
+       }
+     },
+@@ -25606,76 +25614,78 @@
+         },
+         "master": {
+           "rankOne": 133.55740296840668,
+           "max": 133.55740296840668
+         }
+       }
+     },
+     {
+       "name": "Palkia",
+       "types": [
+         "water",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "DRAGON_BREATH_FAST",
+         "DRAGON_TAIL_FAST"
+       ],
+       "chargedMoveIds": [
+         "AQUA_TAIL",
+         "DRACO_METEOR",
++        "RETURN",
+         "HYDRO_PUMP",
+         "FIRE_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 81.2699675559996,
+           "max": 85.62371581792814
+         },
+         "great": {
+           "rankOne": 139.96036291122425,
+           "max": 147.4582394957541
+         },
+         "ultra": {
+           "rankOne": 180.6641331911085,
+           "max": 191.03638417398852
+         },
+         "master": {
+           "rankOne": 249.3635055422783,
+           "max": 249.3635055422783
+         }
+       }
+     },
+     {
+       "name": "Palkia (Origin)",
+       "types": [
+         "water",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "DRAGON_BREATH_FAST",
+         "DRAGON_TAIL_FAST"
+       ],
+       "chargedMoveIds": [
+         "AQUA_TAIL",
+         "SPACIAL_REND",
+         "DRACO_METEOR",
++        "RETURN",
+         "HYDRO_PUMP",
+         "FIRE_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 83.01146686077102,
+           "max": 83.88221651315673
+         },
+         "great": {
+           "rankOne": 140.38476173407628,
+           "max": 147.7475988879614
+         },
+         "ultra": {
+           "rankOne": 181.22366594410448,
+           "max": 190.72840366844562
+         },
+         "master": {
+           "rankOne": 254.4353056550026,
+           "max": 254.4353056550026
+         }
+@@ -26721,41 +26731,42 @@
+         },
+         "master": {
+           "rankOne": 95.5189021229744,
+           "max": 95.5189021229744
+         }
+       }
+     },
+     {
+       "name": "Pignite",
+       "types": [
+         "fire",
+         "fighting"
+       ],
+       "fastMoveIds": [
+         "EMBER_FAST",
+         "TACKLE_FAST"
+       ],
+       "chargedMoveIds": [
+         "FLAME_CHARGE",
+         "FLAMETHROWER",
+-        "ROCK_TOMB"
++        "ROCK_TOMB",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 73.09250247478472,
+           "max": 79.43000268936143
+         },
+         "great": {
+           "rankOne": 125.52458173625945,
+           "max": 137.55960059165952
+         },
+         "ultra": {
+           "rankOne": 158.9164035320282,
+           "max": 158.9164035320282
+         },
+         "master": {
+           "rankOne": 158.9164035320282,
+           "max": 158.9164035320282
+         }
+       }
+     },
+@@ -30461,78 +30472,80 @@
+         "master": {
+           "rankOne": 205.40790456533432,
+           "max": 205.40790456533432
+         }
+       }
+     },
+     {
+       "name": "Samurott",
+       "types": [
+         "water"
+       ],
+       "fastMoveIds": [
+         "FURY_CUTTER_FAST",
+         "WATERFALL_FAST"
+       ],
+       "chargedMoveIds": [
+         "RAZOR_SHELL",
+         "HYDRO_CANNON",
+         "LIQUIDATION",
+         "MEGAHORN",
++        "RETURN",
+         "BLIZZARD",
+         "HYDRO_PUMP"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 74.03308737277976,
+           "max": 77.87442681193343
+         },
+         "great": {
+           "rankOne": 126.64880204200733,
+           "max": 135.609802186489
+         },
+         "ultra": {
+           "rankOne": 163.4555962085722,
+           "max": 175.51333659887297
+         },
+         "master": {
+           "rankOne": 191.88310426473618,
+           "max": 191.88310426473618
+         }
+       }
+     },
+     {
+       "name": "Samurott (Hisuian)",
+       "types": [
+         "water",
+         "dark"
+       ],
+       "fastMoveIds": [
+         "FURY_CUTTER_FAST",
+         "SNARL_FAST",
+         "WATERFALL_FAST"
+       ],
+       "chargedMoveIds": [
+         "RAZOR_SHELL",
+         "X_SCISSOR",
+         "ICY_WIND",
+-        "DARK_PULSE"
++        "DARK_PULSE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.12836343049995,
+           "max": 80.66812822222701
+         },
+         "great": {
+           "rankOne": 130.2332020998,
+           "max": 139.71426488297885
+         },
+         "ultra": {
+           "rankOne": 168.5546580553053,
+           "max": 180.823132404582
+         },
+         "master": {
+           "rankOne": 196.95490437746048,
+           "max": 196.95490437746048
+         }
+       }
+     },
+@@ -31546,74 +31559,76 @@
+         },
+         "master": {
+           "rankOne": 79.4582017660141,
+           "max": 79.4582017660141
+         }
+       }
+     },
+     {
+       "name": "Serperior",
+       "types": [
+         "grass"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL_FAST",
+         "VINE_WHIP_FAST"
+       ],
+       "chargedMoveIds": [
+         "AERIAL_ACE",
+         "LEAF_TORNADO",
+         "FRENZY_PLANT",
+-        "GRASS_KNOT"
++        "GRASS_KNOT",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 62.789970595797215,
+           "max": 67.05348711773406
+         },
+         "great": {
+           "rankOne": 108.6076857858217,
+           "max": 116.88845008611679
+         },
+         "ultra": {
+           "rankOne": 142.8557031750679,
+           "max": 148.7728033065796
+         },
+         "master": {
+           "rankOne": 148.7728033065796,
+           "max": 148.7728033065796
+         }
+       }
+     },
+     {
+       "name": "Servine",
+       "types": [
+         "grass"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL_FAST",
+         "VINE_WHIP_FAST"
+       ],
+       "chargedMoveIds": [
+         "LEAF_TORNADO",
+         "WRAP",
+-        "GRASS_KNOT"
++        "GRASS_KNOT",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 60.37526466185798,
+           "max": 66.26553438496607
+         },
+         "great": {
+           "rankOne": 105.3504661293435,
+           "max": 115.46411087776048
+         },
+         "ultra": {
+           "rankOne": 115.80610257387161,
+           "max": 115.80610257387161
+         },
+         "master": {
+           "rankOne": 115.80610257387161,
+           "max": 115.80610257387161
+         }
+       }
+     },
+@@ -34068,41 +34083,42 @@
+           "max": 198.80771905049184
+         },
+         "master": {
+           "rankOne": 231.61220514774323,
+           "max": 231.61220514774323
+         }
+       }
+     },
+     {
+       "name": "Snivy",
+       "types": [
+         "grass"
+       ],
+       "fastMoveIds": [
+         "TACKLE_FAST",
+         "VINE_WHIP_FAST"
+       ],
+       "chargedMoveIds": [
+         "SEED_BOMB",
+         "WRAP",
+-        "ENERGY_BALL"
++        "ENERGY_BALL",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 58.187295188591534,
+           "max": 66.05325825676891
+         },
+         "great": {
+           "rankOne": 87.06590193510056,
+           "max": 87.06590193510056
+         },
+         "ultra": {
+           "rankOne": 87.06590193510056,
+           "max": 87.06590193510056
+         },
+         "master": {
+           "rankOne": 87.06590193510056,
+           "max": 87.06590193510056
+         }
+       }
+     },
+@@ -35811,41 +35827,42 @@
+         },
+         "master": {
+           "rankOne": 166.52410370111465,
+           "max": 166.52410370111465
+         }
+       }
+     },
+     {
+       "name": "Swellow",
+       "types": [
+         "normal",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "STEEL_WING_FAST",
+         "WING_ATTACK_FAST"
+       ],
+       "chargedMoveIds": [
+         "AERIAL_ACE",
+         "BRAVE_BIRD",
+-        "SKY_ATTACK"
++        "SKY_ATTACK",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 78.1625026464461,
+           "max": 84.50000286102281
+         },
+         "great": {
+           "rankOne": 134.23148913993063,
+           "max": 146.9482022274752
+         },
+         "ultra": {
+           "rankOne": 169.0600037574768,
+           "max": 169.0600037574768
+         },
+         "master": {
+           "rankOne": 169.0600037574768,
+           "max": 169.0600037574768
+         }
+       }
+     },
+@@ -36013,41 +36030,42 @@
+           "rankOne": 100.5907022356987,
+           "max": 100.5907022356987
+         },
+         "master": {
+           "rankOne": 100.5907022356987,
+           "max": 100.5907022356987
+         }
+       }
+     },
+     {
+       "name": "Taillow",
+       "types": [
+         "normal",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "PECK_FAST",
+         "QUICK_ATTACK_FAST"
+       ],
+       "chargedMoveIds": [
+-        "AERIAL_ACE"
++        "AERIAL_ACE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 72.89460002410372,
+           "max": 83.99138200283043
+         },
+         "great": {
+           "rankOne": 102.28130227327347,
+           "max": 102.28130227327347
+         },
+         "ultra": {
+           "rankOne": 102.28130227327347,
+           "max": 102.28130227327347
+         },
+         "master": {
+           "rankOne": 102.28130227327347,
+           "max": 102.28130227327347
+         }
+       }
+     },
+@@ -36544,41 +36562,42 @@
+           "max": 150.28429520130157
+         },
+         "master": {
+           "rankOne": 152.9993034005165,
+           "max": 152.9993034005165
+         }
+       }
+     },
+     {
+       "name": "Tepig",
+       "types": [
+         "fire"
+       ],
+       "fastMoveIds": [
+         "EMBER_FAST",
+         "TACKLE_FAST"
+       ],
+       "chargedMoveIds": [
+         "BODY_SLAM",
+         "FLAME_CHARGE",
+-        "FLAMETHROWER"
++        "FLAMETHROWER",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 66.07545202451536,
+           "max": 73.67808759212487
+         },
+         "great": {
+           "rankOne": 109.88900244235992,
+           "max": 109.88900244235992
+         },
+         "ultra": {
+           "rankOne": 109.88900244235992,
+           "max": 109.88900244235992
+         },
+         "master": {
+           "rankOne": 109.88900244235992,
+           "max": 109.88900244235992
+         }
+       }
+     },
+@@ -37786,40 +37805,41 @@
+           "rankOne": 127.64030283689499,
+           "max": 127.64030283689499
+         },
+         "master": {
+           "rankOne": 127.64030283689499,
+           "max": 127.64030283689499
+         }
+       }
+     },
+     {
+       "name": "Trubbish",
+       "types": [
+         "poison"
+       ],
+       "fastMoveIds": [
+         "POUND_FAST",
+         "TAKE_DOWN_FAST"
+       ],
+       "chargedMoveIds": [
+         "SEED_BOMB",
++        "RETURN",
+         "GUNK_SHOT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 58.06307112019901,
+           "max": 65.47755822947718
+         },
+         "great": {
+           "rankOne": 93.82830208539963,
+           "max": 93.82830208539963
+         },
+         "ultra": {
+           "rankOne": 93.82830208539963,
+           "max": 93.82830208539963
+         },
+         "master": {
+           "rankOne": 93.82830208539963,
+           "max": 93.82830208539963
+         }
+       }
+@@ -41801,46 +41821,40 @@
+         "master": {
+           "rankOne": 168.21470373868942,
+           "max": 168.21470373868942
+         }
+       }
+     }
+   ],
+   "moves": {
+     "406": {
+       "name": "Aura Wheel",
+       "type": "electric",
+       "energy": -45,
+       "damage": 100
+     },
+     "407": {
+       "name": "Aura Wheel",
+       "type": "dark",
+       "energy": -45,
+       "damage": 100
+     },
+-    "465": {
+-      "name": "Flower Trick",
+-      "type": "grass",
+-      "energy": -35,
+-      "damage": 30
+-    },
+     "ACID_FAST": {
+       "name": "Acid",
+       "type": "poison",
+       "energy": 5,
+       "damage": 6,
+       "turns": 2
+     },
+     "ACID_SPRAY": {
+       "name": "Acid Spray",
+       "type": "poison",
+       "energy": -45,
+       "damage": 20
+     },
+     "ACROBATICS": {
+       "name": "Acrobatics",
+       "type": "flying",
+       "energy": -60,
+       "damage": 110
+     },
+     "AERIAL_ACE": {
+@@ -42333,71 +42347,83 @@
+       "damage": 65
+     },
+     "FLAME_WHEEL": {
+       "name": "Flame Wheel",
+       "type": "fire",
+       "energy": -55,
+       "damage": 60
+     },
+     "FLAMETHROWER": {
+       "name": "Flamethrower",
+       "type": "fire",
+       "energy": -55,
+       "damage": 90
+     },
+     "FLASH_CANNON": {
+       "name": "Flash Cannon",
+       "type": "steel",
+       "energy": -70,
+       "damage": 110
+     },
++    "FLOWER_TRICK": {
++      "name": "Flower Trick",
++      "type": "grass",
++      "energy": -35,
++      "damage": 30
++    },
+     "FLY": {
+       "name": "Fly",
+       "type": "flying",
+       "energy": -45,
+       "damage": 80
+     },
+     "FLYING_PRESS": {
+       "name": "Flying Press",
+       "type": "fighting",
+       "energy": -40,
+       "damage": 90
+     },
+     "FOCUS_BLAST": {
+       "name": "Focus Blast",
+       "type": "fighting",
+       "energy": -75,
+       "damage": 150
+     },
+     "FORCE_PALM_FAST": {
+       "name": "Force Palm",
+       "type": "fighting",
+       "energy": 10,
+       "damage": 13,
+       "turns": 3
+     },
+     "FOUL_PLAY": {
+       "name": "Foul Play",
+       "type": "dark",
+       "energy": -45,
+       "damage": 70
+     },
++    "FREEZE_SHOCK": {
++      "name": "Freeze Shock",
++      "type": "ice",
++      "energy": -65,
++      "damage": 1
++    },
+     "FRENZY_PLANT": {
+       "name": "Frenzy Plant",
+       "type": "grass",
+       "energy": -45,
+       "damage": 100
+     },
+     "FROST_BREATH_FAST": {
+       "name": "Frost Breath",
+       "type": "ice",
+       "energy": 5,
+       "damage": 7,
+       "turns": 2
+     },
+     "FRUSTRATION": {
+       "name": "Frustration",
+       "type": "normal",
+       "energy": -70,
+       "damage": 10
+     },
+     "FURY_CUTTER_FAST": {
+@@ -42550,40 +42576,46 @@
+       "damage": 90
+     },
+     "HYPER_BEAM": {
+       "name": "Hyper Beam",
+       "type": "normal",
+       "energy": -80,
+       "damage": 150
+     },
+     "HYPER_FANG": {
+       "name": "Hyper Fang",
+       "type": "normal",
+       "energy": -50,
+       "damage": 80
+     },
+     "ICE_BEAM": {
+       "name": "Ice Beam",
+       "type": "ice",
+       "energy": -55,
+       "damage": 90
+     },
++    "ICE_BURN": {
++      "name": "Ice Burn",
++      "type": "ice",
++      "energy": -65,
++      "damage": 1
++    },
+     "ICE_FANG_FAST": {
+       "name": "Ice Fang",
+       "type": "ice",
+       "energy": 6,
+       "damage": 8,
+       "turns": 2
+     },
+     "ICE_PUNCH": {
+       "name": "Ice Punch",
+       "type": "ice",
+       "energy": -40,
+       "damage": 60
+     },
+     "ICE_SHARD_FAST": {
+       "name": "Ice Shard",
+       "type": "ice",
+       "energy": 10,
+       "damage": 9,
+       "turns": 3
+     },
+@@ -46936,46 +46968,58 @@
+         9
+       ],
+       "EARTHQUAKE": [
+         11,
+         11,
+         11,
+         11
+       ],
+       "ENERGY_BALL": [
+         10,
+         9,
+         9,
+         9
+       ],
+       "FLAMETHROWER": [
+         10,
+         9,
+         9,
+         9
+       ],
++      "FLOWER_TRICK": [
++        6,
++        6,
++        6,
++        6
++      ],
+       "FLYING_PRESS": [
+         7,
+         7,
+         6,
+         7
+       ],
++      "FRENZY_PLANT": [
++        8,
++        7,
++        8,
++        7
++      ],
+       "FUTURESIGHT": [
+         11,
+         11,
+         11,
+         11
+       ],
+       "GRASS_KNOT": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "GUNK_SHOT": [
+         13,
+         12,
+         13,
+         12
+       ],
+       "HEAVY_SLAM": [
+         9,
+@@ -53834,40 +53878,46 @@
+         10
+       ],
+       "BRAVE_BIRD": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "ENERGY_BALL": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "FLAMETHROWER": [
+         8,
+         8,
+         8,
+         8
+       ],
++      "FLOWER_TRICK": [
++        5,
++        5,
++        5,
++        5
++      ],
+       "FRENZY_PLANT": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "GRASS_KNOT": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "ICE_BEAM": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "ICY_WIND": [
+         7,

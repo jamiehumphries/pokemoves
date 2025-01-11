@@ -1,5 +1,5 @@
 {
-  "timestamp": 1735238977243,
+  "timestamp": 1736535588840,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -4393,7 +4393,8 @@
       "chargedMoveIds": [
         "BULLDOZE",
         "DIG",
-        "EARTHQUAKE"
+        "EARTHQUAKE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -8503,7 +8504,8 @@
       "chargedMoveIds": [
         "AQUA_TAIL",
         "X_SCISSOR",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -8744,6 +8746,7 @@
         "DIG",
         "SCORCHING_SANDS",
         "EARTHQUAKE",
+        "RETURN",
         "HYPER_BEAM"
       ],
       "cmp": {
@@ -10680,6 +10683,7 @@
         "ROCK_SLIDE",
         "BLAST_BURN",
         "FLAME_CHARGE",
+        "RETURN",
         "FOCUS_BLAST",
         "HEAT_WAVE"
       ],
@@ -12811,6 +12815,7 @@
         "BODY_SLAM",
         "ACID_SPRAY",
         "SEED_BOMB",
+        "RETURN",
         "GUNK_SHOT"
       ],
       "cmp": {
@@ -22282,7 +22287,9 @@
         "LEAFAGE_FAST"
       ],
       "chargedMoveIds": [
+        "FLOWER_TRICK",
         "NIGHT_SLASH",
+        "FRENZY_PLANT",
         "GRASS_KNOT",
         "ENERGY_BALL",
         "PLAY_ROUGH"
@@ -25448,7 +25455,8 @@
       "chargedMoveIds": [
         "AQUA_TAIL",
         "NIGHT_SLASH",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -25623,6 +25631,7 @@
       "chargedMoveIds": [
         "AQUA_TAIL",
         "DRACO_METEOR",
+        "RETURN",
         "HYDRO_PUMP",
         "FIRE_BLAST"
       ],
@@ -25659,6 +25668,7 @@
         "AQUA_TAIL",
         "SPACIAL_REND",
         "DRACO_METEOR",
+        "RETURN",
         "HYDRO_PUMP",
         "FIRE_BLAST"
       ],
@@ -26738,7 +26748,8 @@
       "chargedMoveIds": [
         "FLAME_CHARGE",
         "FLAMETHROWER",
-        "ROCK_TOMB"
+        "ROCK_TOMB",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -30478,6 +30489,7 @@
         "HYDRO_CANNON",
         "LIQUIDATION",
         "MEGAHORN",
+        "RETURN",
         "BLIZZARD",
         "HYDRO_PUMP"
       ],
@@ -30515,7 +30527,8 @@
         "RAZOR_SHELL",
         "X_SCISSOR",
         "ICY_WIND",
-        "DARK_PULSE"
+        "DARK_PULSE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -31563,7 +31576,8 @@
         "AERIAL_ACE",
         "LEAF_TORNADO",
         "FRENZY_PLANT",
-        "GRASS_KNOT"
+        "GRASS_KNOT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -31596,7 +31610,8 @@
       "chargedMoveIds": [
         "LEAF_TORNADO",
         "WRAP",
-        "GRASS_KNOT"
+        "GRASS_KNOT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -34085,7 +34100,8 @@
       "chargedMoveIds": [
         "SEED_BOMB",
         "WRAP",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -35828,7 +35844,8 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "BRAVE_BIRD",
-        "SKY_ATTACK"
+        "SKY_ATTACK",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -36030,7 +36047,8 @@
         "QUICK_ATTACK_FAST"
       ],
       "chargedMoveIds": [
-        "AERIAL_ACE"
+        "AERIAL_ACE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -36561,7 +36579,8 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "FLAME_CHARGE",
-        "FLAMETHROWER"
+        "FLAMETHROWER",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -37803,6 +37822,7 @@
       ],
       "chargedMoveIds": [
         "SEED_BOMB",
+        "RETURN",
         "GUNK_SHOT"
       ],
       "cmp": {
@@ -41818,12 +41838,6 @@
       "energy": -45,
       "damage": 100
     },
-    "465": {
-      "name": "Flower Trick",
-      "type": "grass",
-      "energy": -35,
-      "damage": 30
-    },
     "ACID_FAST": {
       "name": "Acid",
       "type": "poison",
@@ -42350,6 +42364,12 @@
       "energy": -70,
       "damage": 110
     },
+    "FLOWER_TRICK": {
+      "name": "Flower Trick",
+      "type": "grass",
+      "energy": -35,
+      "damage": 30
+    },
     "FLY": {
       "name": "Fly",
       "type": "flying",
@@ -42380,6 +42400,12 @@
       "type": "dark",
       "energy": -45,
       "damage": 70
+    },
+    "FREEZE_SHOCK": {
+      "name": "Freeze Shock",
+      "type": "ice",
+      "energy": -65,
+      "damage": 1
     },
     "FRENZY_PLANT": {
       "name": "Frenzy Plant",
@@ -42566,6 +42592,12 @@
       "type": "ice",
       "energy": -55,
       "damage": 90
+    },
+    "ICE_BURN": {
+      "name": "Ice Burn",
+      "type": "ice",
+      "energy": -65,
+      "damage": 1
     },
     "ICE_FANG_FAST": {
       "name": "Ice Fang",
@@ -46953,10 +46985,22 @@
         9,
         9
       ],
+      "FLOWER_TRICK": [
+        6,
+        6,
+        6,
+        6
+      ],
       "FLYING_PRESS": [
         7,
         7,
         6,
+        7
+      ],
+      "FRENZY_PLANT": [
+        8,
+        7,
+        8,
         7
       ],
       "FUTURESIGHT": [
@@ -53850,6 +53894,12 @@
         8,
         8,
         8
+      ],
+      "FLOWER_TRICK": [
+        5,
+        5,
+        5,
+        5
       ],
       "FRENZY_PLANT": [
         7,

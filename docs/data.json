@@ -1,5 +1,5 @@
 {
-  "timestamp": 1736535588840,
+  "timestamp": 1737662607924,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -6953,11 +6953,12 @@
       ],
       "fastMoveIds": [
         "AIR_SLASH_FAST",
+        "SAND_ATTACK_FAST",
         "STEEL_WING_FAST"
       ],
       "chargedMoveIds": [
-        "DRILL_PECK",
-        "BRAVE_BIRD"
+        "SKY_ATTACK",
+        "PAYBACK"
       ],
       "cmp": {
         "little": {
@@ -6985,11 +6986,12 @@
       ],
       "fastMoveIds": [
         "AIR_SLASH_FAST",
-        "PECK_FAST"
+        "PECK_FAST",
+        "SAND_ATTACK_FAST"
       ],
       "chargedMoveIds": [
-        "DRILL_PECK",
-        "BRAVE_BIRD"
+        "SKY_ATTACK",
+        "PAYBACK"
       ],
       "cmp": {
         "little": {
@@ -29851,11 +29853,12 @@
       ],
       "fastMoveIds": [
         "AIR_SLASH_FAST",
-        "PECK_FAST"
+        "PECK_FAST",
+        "SAND_ATTACK_FAST"
       ],
       "chargedMoveIds": [
-        "DRILL_PECK",
-        "BRAVE_BIRD"
+        "SKY_ATTACK",
+        "PAYBACK"
       ],
       "cmp": {
         "little": {
@@ -44125,12 +44128,6 @@
         6,
         7
       ],
-      "DRILL_PECK": [
-        5,
-        4,
-        5,
-        4
-      ],
       "FEATHER_DANCE": [
         6,
         6,
@@ -44262,6 +44259,12 @@
         6,
         6,
         6
+      ],
+      "PAYBACK": [
+        7,
+        7,
+        6,
+        7
       ],
       "POISON_FANG": [
         5,
@@ -56583,6 +56586,12 @@
         7,
         7
       ],
+      "PAYBACK": [
+        12,
+        12,
+        12,
+        12
+      ],
       "PSYBEAM": [
         12,
         12,
@@ -60437,6 +60446,12 @@
         14,
         13
       ],
+      "SKY_ATTACK": [
+        14,
+        14,
+        14,
+        13
+      ],
       "STONE_EDGE": [
         14,
         14,
@@ -62504,6 +62519,12 @@
         6
       ],
       "OUTRAGE": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "PAYBACK": [
         10,
         10,
         10,

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1737662607924,
+  "timestamp": 1739487261369,
   "pokemon": [
     {
       "name": "Abomasnow",
@@ -193,6 +193,7 @@
       ],
       "chargedMoveIds": [
         "ACID_SPRAY",
+        "ENERGY_BALL",
         "SIGNAL_BEAM",
         "BUG_BUZZ",
         "RETURN",
@@ -6957,6 +6958,7 @@
         "STEEL_WING_FAST"
       ],
       "chargedMoveIds": [
+        "IRON_HEAD",
         "SKY_ATTACK",
         "PAYBACK"
       ],
@@ -10899,6 +10901,7 @@
         "COUNTER_FAST"
       ],
       "chargedMoveIds": [
+        "RAZOR_SHELL",
         "AERIAL_ACE",
         "ACID_SPRAY",
         "DRILL_RUN",
@@ -18968,6 +18971,7 @@
         "SHADOW_CLAW_FAST"
       ],
       "chargedMoveIds": [
+        "FUSION_BOLT",
         "IRON_HEAD",
         "STONE_EDGE",
         "OUTRAGE",
@@ -19000,10 +19004,12 @@
       ],
       "fastMoveIds": [
         "DRAGON_BREATH_FAST",
+        "ICE_FANG_FAST",
         "STEEL_WING_FAST"
       ],
       "chargedMoveIds": [
         "ANCIENT_POWER",
+        "FUSION_FLARE",
         "DRAGON_PULSE",
         "BLIZZARD",
         "FOCUS_BLAST"
@@ -41729,7 +41735,6 @@
         "CRUNCH",
         "OUTRAGE",
         "EARTHQUAKE",
-        "RETURN",
         "HYPER_BEAM"
       ],
       "cmp": {
@@ -41767,7 +41772,6 @@
         "CRUNCH",
         "OUTRAGE",
         "EARTHQUAKE",
-        "RETURN",
         "HYPER_BEAM"
       ],
       "cmp": {
@@ -41805,7 +41809,6 @@
         "CRUNCH",
         "OUTRAGE",
         "EARTHQUAKE",
-        "RETURN",
         "HYPER_BEAM"
       ],
       "cmp": {
@@ -42407,8 +42410,8 @@
     "FREEZE_SHOCK": {
       "name": "Freeze Shock",
       "type": "ice",
-      "energy": -65,
-      "damage": 1
+      "energy": -60,
+      "damage": 120
     },
     "FRENZY_PLANT": {
       "name": "Frenzy Plant",
@@ -42599,8 +42602,8 @@
     "ICE_BURN": {
       "name": "Ice Burn",
       "type": "ice",
-      "energy": -65,
-      "damage": 1
+      "energy": -60,
+      "damage": 120
     },
     "ICE_FANG_FAST": {
       "name": "Ice Fang",
@@ -43789,6 +43792,12 @@
         7,
         7,
         7
+      ],
+      "ENERGY_BALL": [
+        11,
+        11,
+        11,
+        11
       ],
       "FOCUS_BLAST": [
         15,
@@ -45953,6 +45962,12 @@
         18,
         18,
         19
+      ],
+      "RAZOR_SHELL": [
+        12,
+        12,
+        11,
+        12
       ],
       "RETURN": [
         24,
@@ -48168,6 +48183,12 @@
         6,
         6
       ],
+      "RAZOR_SHELL": [
+        6,
+        6,
+        6,
+        6
+      ],
       "RETURN": [
         12,
         12,
@@ -49099,6 +49120,12 @@
         8,
         8,
         9
+      ],
+      "FUSION_BOLT": [
+        5,
+        5,
+        5,
+        5
       ],
       "FUTURESIGHT": [
         8,
@@ -52416,6 +52443,12 @@
       ]
     },
     "ICE_FANG_FAST": {
+      "ANCIENT_POWER": [
+        8,
+        7,
+        8,
+        7
+      ],
       "AQUA_TAIL": [
         6,
         6,
@@ -52464,6 +52497,12 @@
         6,
         6
       ],
+      "DRAGON_PULSE": [
+        10,
+        10,
+        10,
+        10
+      ],
       "DRILL_RUN": [
         8,
         7,
@@ -52487,6 +52526,18 @@
         6,
         6,
         6
+      ],
+      "FOCUS_BLAST": [
+        13,
+        12,
+        13,
+        12
+      ],
+      "FUSION_FLARE": [
+        8,
+        7,
+        8,
+        7
       ],
       "HYDRO_CANNON": [
         7,
@@ -60960,6 +61011,12 @@
         5,
         6
       ],
+      "FUSION_BOLT": [
+        6,
+        6,
+        5,
+        6
+      ],
       "FUTURESIGHT": [
         9,
         8,
@@ -62463,6 +62520,12 @@
         12,
         13,
         12
+      ],
+      "FUSION_FLARE": [
+        8,
+        7,
+        8,
+        7
       ],
       "GLACIATE": [
         7,
@@ -65705,6 +65768,12 @@
         4,
         4,
         5
+      ],
+      "ENERGY_BALL": [
+        4,
+        4,
+        4,
+        4
       ],
       "FOCUS_BLAST": [
         6,

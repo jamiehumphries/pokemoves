@@ -11,15 +11,14 @@ import nunjucks from "nunjucks";
 import { join, parse } from "path";
 import { compileString as compileSassString } from "sass";
 import { minify as minifyJs } from "uglify-js";
-
 import { exclusions } from "./data/adjustments/exclusions.js";
 import { movesetChanges } from "./data/adjustments/moveset-changes.js";
 import { getEffectivenessStages } from "./data/type-effectivess.js";
 import { computeCmp } from "./helpers/cmp.js";
 import { setEq } from "./helpers/collections.js";
 import {
-  getPokemonName,
   getMoveName,
+  getPokemonName,
   getTempEvoName,
 } from "./helpers/names.js";
 

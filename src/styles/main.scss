@@ -86,6 +86,14 @@ h1 {
   }
 }
 
+.info {
+  font-style: italic;
+  font-size: small;
+  a {
+    color: inherit;
+  }
+}
+
 .theme-button {
   display: flex;
   align-items: center;

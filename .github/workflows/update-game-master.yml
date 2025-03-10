@@ -2,7 +2,7 @@ name: update-game-master
 
 on:
   schedule:
-    - cron: 51 1 * * *
+    - cron: 59 * * * *
 
 jobs:
   update:

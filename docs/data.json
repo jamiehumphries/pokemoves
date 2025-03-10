@@ -43154,7 +43154,7 @@
       "damage": 130
     },
     "ROAR_OF_TIME": {
-      "name": "Roar Of Time",
+      "name": "Roar of Time",
       "type": "dragon",
       "energy": -65,
       "damage": 150
@@ -43467,7 +43467,7 @@
       "damage": 135
     },
     "SUPER_POWER": {
-      "name": "Super Power",
+      "name": "Superpower",
       "type": "fighting",
       "energy": -40,
       "damage": 85

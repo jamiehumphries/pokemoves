@@ -91,6 +91,8 @@ const specialMoveNames = {
   MYST_FIRE: "Mystical Fire",
   NATURES_MADNESS: "Nature’s Madness",
   POWER_UP_PUNCH: "Power-Up Punch",
+  ROAR_OF_TIME: "Roar of Time",
+  SUPER_POWER: "Superpower",
   V_CREATE: "V-create",
   VICE_GRIP: "Vise Grip",
   X_SCISSOR: "X-Scissor",
@@ -105,6 +107,24 @@ const multipleVersionMoveIds = [
   "WEATHER_BALL",
   "WRAP",
 ];
+
+export function pvpokeNameFix(moves) {
+  for (const [id, name] of Object.entries(specialMoveNames)) {
+    const move = moves[id];
+    if (!move) {
+      continue;
+    }
+    moves[id].name = name;
+  }
+
+  for (const multiId of multipleVersionMoveIds) {
+    for (const [id, move] of Object.entries(moves)) {
+      if (id.startsWith(multiId)) {
+        move.name = getSpecialMoveName(multiId) || getDefaultMoveName(multiId);
+      }
+    }
+  }
+}
 
 export function getPokemonName(template) {
   const id = template.pokemonId.toString();

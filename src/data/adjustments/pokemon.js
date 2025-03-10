@@ -8,6 +8,7 @@ export const pokemonNameFixes = {
   MIME_JR: "Mime Jr.",
   NIDORAN_FEMALE: "Nidoran♀",
   NIDORAN_MALE: "Nidoran♂",
+  ORICORIO_PAU: "Oricorio (Pa’u)",
   SIRFETCHD: "Sirfetch’d",
   TYPE_NULL: "Type: Null",
 
@@ -46,13 +47,12 @@ export const pokemonNameFixes = {
   ZYGARDE: "Zygarde (50%)",
 
   // Modified form name
-  EISCUE_ICE: "Eiscue (Ice Face)",
   EISCUE_NOICE: "Eiscue (Noice Face)",
   GOURGEIST_AVERAGE: "Gourgeist (Average Size)",
   GOURGEIST_LARGE: "Gourgeist (Large Size)",
   GOURGEIST_SMALL: "Gourgeist (Small Size)",
   GOURGEIST_SUPER: "Gourgeist (Super Size)",
-  ORICORIO_PAU: "Oricorio (Pa’u)",
+  MEWTWO_ARMORED: "Mewtwo (Armoured)",
   PALAFIN_HERO: "Palafin (Hero)",
   PUMPKABOO_AVERAGE: "Pumpkaboo (Average Size)",
   PUMPKABOO_LARGE: "Pumpkaboo (Large Size)",

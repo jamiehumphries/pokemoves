@@ -12,34 +12,29 @@ import { join, parse } from "path";
 import { compileString as compileSassString } from "sass";
 import { minify as minifyJs } from "uglify-js";
 import { exclusions } from "./data/adjustments/exclusions.js";
-import { movesetChanges } from "./data/adjustments/moveset-changes.js";
-import { getEffectivenessStages } from "./data/type-effectivess.js";
+import {
+  HIDDEN_POWER,
+  MEW_FAST_MOVES,
+  moveNameFixes,
+  RETURN,
+  SPLASH,
+  STRUGGLE,
+} from "./data/adjustments/moves.js";
+import { MEW, pokemonNameFixes } from "./data/adjustments/pokemon.js";
+import { typeFixes } from "./data/adjustments/types.js";
+import { getEffectivenessStages } from "./data/effectivess.js";
 import { computeCmp } from "./helpers/cmp.js";
 import { setEq } from "./helpers/collections.js";
-import {
-  getMoveName,
-  getPokemonName,
-  getTempEvoName,
-} from "./helpers/names.js";
 
 const src = import.meta.dirname;
-
-const gameMaster = JSON.parse(
-  readFileSync(join(src, "data/pokeminers/latest.json")),
-);
-
-const timestamp = parseInt(
-  readFileSync(join(src, "data/pokeminers/timestamp.txt")),
-);
-
 const root = "docs";
-
 const views = join(src, "views");
 const env = nunjucks.configure(views);
 
 async function build() {
   const data = buildData();
-  const json = JSON.stringify({ timestamp, ...data }, null, 2);
+
+  const json = JSON.stringify(data, null, 2);
   writeFileSync(join(root, "data.json"), json);
 
   const css = buildCss();
@@ -58,130 +53,148 @@ async function build() {
 }
 
 function buildData() {
-  const moves = fromEntries(getTemplates("combatMove").map(buildMoveEntry));
-  const pokemon = getTemplates("pokemonSettings").flatMap((t) =>
-    buildPokemon(t, moves),
-  );
-  const deduplicatedPokemon = deduplicate(pokemon);
-  applyMovesetChanges(deduplicatedPokemon);
-  const list = deduplicatedPokemon
-    .filter(({ name }) => !exclusions.includes(name))
-    .map(({ name, types, fastMoveIds, chargedMoveIds, stats }) => {
-      fastMoveIds.sort((m1, m2) => {
-        const move1 = moves[m1];
-        const move2 = moves[m2];
-        return move1.name.localeCompare(move2.name);
-      });
-      chargedMoveIds.sort((m1, m2) => {
-        const move1 = moves[m1];
-        const move2 = moves[m2];
-        return (
-          move2.energy - move1.energy || move1.name.localeCompare(move2.name)
-        );
-      });
-      const cmp = computeCmp(stats);
-      return { name, types, fastMoveIds, chargedMoveIds, cmp };
-    })
+  const moves = buildMoves();
+
+  const pokemon = buildPokemon()
+    .map(({ name, types, fastMoveIds, chargedMoveIds, stats }) => ({
+      name,
+      types,
+      fastMoveIds: fastMoveIds.sort(fastMoveSort(moves)),
+      chargedMoveIds: chargedMoveIds.sort(chargedMoveSort(moves)),
+      cmp: computeCmp(stats),
+    }))
     .sort((p1, p2) => p1.name.localeCompare(p2.name));
+
   const counts = buildCounts(pokemon, moves);
-  return { pokemon: list, moves, counts };
+
+  return { pokemon, moves, counts };
 }
 
-function getTemplates(property) {
-  return gameMaster.map(({ data }) => data[property]).filter((t) => !!t);
+function buildMoves() {
+  const json = readPvpokeJson("moves.json");
+
+  const hiddenPower = Object.assign(
+    {},
+    json.find((move) => move.moveId.startsWith(HIDDEN_POWER)),
+    { moveId: HIDDEN_POWER, name: "Hidden Power", type: "unknown" },
+  );
+
+  const entries = json
+    .filter((move) => !move.moveId.startsWith(HIDDEN_POWER))
+    .concat(hiddenPower)
+    .map((data) => [
+      data.moveId,
+      {
+        name: data.name,
+        type: data.type,
+        energy: data.energy,
+        energyGain: data.energyGain,
+        power: data.power,
+        turns: data.cooldown / 500,
+      },
+    ]);
+
+  const moves = Object.fromEntries(entries);
+  fixMoveNames(moves);
+
+  return sortObject(moves);
 }
 
-function buildPokemon(template, moves) {
-  const basePokemon = {
-    id: template.pokemonId,
-    name: getPokemonName(template),
-    types: getTypes(template),
-    fastMoveIds: getPokemonFastMoveIds(template).filter((id) => {
-      const move = moves[id];
-      return move && move.energy > 0;
-    }),
-    chargedMoveIds: getPokemonChargedMoveIds(template).filter((id) => {
-      const move = moves[id];
-      return move && move.energy < 0;
-    }),
-    stats: template.stats,
+function buildPokemon() {
+  const json = readPvpokeJson("pokemon.json").map(({ speciesId, ...props }) => {
+    return { id: speciesId.toUpperCase(), ...props };
+  });
+
+  const unnecessaryExclusions = exclusions.filter(
+    (exclusion) => !json.find((pokemon) => pokemon.id === exclusion),
+  );
+
+  for (const exclusion of unnecessaryExclusions) {
+    console.warn(`${exclusion} is already excluded`);
+  }
+
+  const entries = json
+    .filter((data) => !exclusions.includes(data.id))
+    .filter((data) => !data.tags?.includes("shadow"))
+    .filter((data) => !data.tags?.includes("duplicate"))
+    .map((data) => [
+      data.id,
+      {
+        id: data.id,
+        dex: data.dex,
+        name: data.speciesName,
+        types: data.types.filter((type) => type != "none"),
+        fastMoveIds: getFastMoveIds(data),
+        chargedMoveIds: getChargedMoveIds(data),
+        stats: data.baseStats,
+      },
+    ]);
+
+  const pokemon = Object.fromEntries(entries);
+  fixPokemonNames(pokemon);
+  fixTypes(pokemon);
+
+  return deduplicate(Object.values(pokemon));
+}
+
+function getFastMoveIds(data) {
+  if (data.id === MEW) {
+    return MEW_FAST_MOVES;
+  }
+
+  const fastMoveIds = data.fastMoves
+    .map((id) => (id.startsWith(HIDDEN_POWER) ? HIDDEN_POWER : id))
+    .map((id) => (id === STRUGGLE ? SPLASH : id));
+
+  return [...new Set(fastMoveIds)];
+}
+
+function getChargedMoveIds(data) {
+  const chargedMoveIds = data.chargedMoves;
+  if (data.tags?.includes("shadoweligible")) {
+    chargedMoveIds.push(RETURN);
+  }
+
+  return chargedMoveIds;
+}
+
+function fastMoveSort(moves) {
+  return (m1, m2) => {
+    const move1 = moves[m1];
+    const move2 = moves[m2];
+    return move1.name.localeCompare(move2.name);
   };
-  const tempEvoTemplates =
-    template.tempEvoOverrides?.filter((t) => !!t.tempEvoId) || [];
-  return [
-    basePokemon,
-    ...tempEvoTemplates.map((tempEvoTemplate) => {
-      return Object.assign({}, basePokemon, {
-        name: getTempEvoName(template, tempEvoTemplate),
-        types: getTypes(tempEvoTemplate),
-        stats: tempEvoTemplate.stats,
-      });
-    }),
-  ];
 }
 
-function buildMoveEntry(template) {
-  const id = template.uniqueId.toString();
-  const move = {
-    name: getMoveName(template),
-    type: getTypes(template)[0],
-    energy: getMoveEnergy(template),
-    damage: getMoveDamage(template),
-    turns: getMoveTurns(template),
+function chargedMoveSort(moves) {
+  return (m1, m2) => {
+    const move1 = moves[m1];
+    const move2 = moves[m2];
+    return move1.energy - move2.energy || move1.name.localeCompare(move2.name);
   };
-  return [id, move];
 }
 
 function deduplicate(pokemon) {
   return pokemon.filter((p, i, arr) => {
-    if (movesetChanges.some((c) => c.pokemonName === p.name)) {
-      return true;
-    }
     return (
-      arr.findIndex(({ id, types, fastMoveIds, chargedMoveIds, stats }) => {
+      arr.findIndex(({ dex, types, fastMoveIds, chargedMoveIds, stats }) => {
         return (
-          id === p.id &&
+          dex === p.dex &&
           setEq(types, p.types) &&
           setEq(fastMoveIds, p.fastMoveIds) &&
           setEq(chargedMoveIds, p.chargedMoveIds) &&
-          stats.baseStamina === p.stats.baseStamina &&
-          stats.baseAttack === p.stats.baseAttack &&
-          stats.baseDefense === p.stats.baseDefense
+          stats.atk === p.stats.atk &&
+          stats.def === p.stats.def &&
+          stats.hp === p.stats.hp
         );
       }) === i
     );
   });
 }
 
-function applyMovesetChanges(deduplicatedPokemon) {
-  for (const changeset of movesetChanges) {
-    const pokemon = deduplicatedPokemon.find(
-      (p) => p.name === changeset.pokemonName,
-    );
-    for (const movesKey of ["fastMoveIds", "chargedMoveIds"]) {
-      const changes = changeset[movesKey];
-      if (!changes) {
-        continue;
-      }
-      const moves = new Set(pokemon[movesKey]);
-      changes.add?.forEach((m) => {
-        if (moves.has(m)) {
-          console.warn(
-            "\x1b[33m%s\x1b[0m", // Yellow text.
-            `${pokemon.name} already knows ${m}.`,
-          );
-        } else {
-          moves.add(m);
-        }
-      });
-      changes.remove?.forEach((m) => moves.delete(m));
-      pokemon[movesKey] = [...moves];
-    }
-  }
-}
-
 function buildCounts(pokemon, moves) {
   const counts = {};
+
   for (const p of pokemon) {
     for (const fastMoveId of p.fastMoveIds) {
       const fastMove = moves[fastMoveId];
@@ -197,74 +210,17 @@ function buildCounts(pokemon, moves) {
       }
     }
   }
-  return fromEntries(
-    Object.entries(counts).map(([key, value]) => [
-      key,
-      fromEntries(Object.entries(value)),
-    ]),
-  );
-}
 
-function getPokemonFastMoveIds(template) {
-  if (template.pokemonId === "MEW") {
-    // Only show some of Mew’s fast moves.
-    return [
-      "SHADOW_CLAW_FAST",
-      "VOLT_SWITCH_FAST",
-      "SNARL_FAST",
-      "POISON_JAB_FAST",
-      "INFESTATION_FAST",
-      "DRAGON_TAIL_FAST",
-    ];
+  for (const [fastMoveId, chargedMoveCounts] of Object.entries(counts)) {
+    counts[fastMoveId] = sortObject(chargedMoveCounts);
   }
-  const moveIds = [
-    ...(template.quickMoves || []),
-    ...(template.eliteQuickMove || []),
-  ];
-  return deduplicateMoveIds(moveIds);
-}
 
-function getPokemonChargedMoveIds(template) {
-  const moveIds = [
-    ...(template.cinematicMoves || []),
-    ...(template.eliteCinematicMove || []),
-  ];
-  if (template.shadow) {
-    moveIds.push(template.shadow.purifiedChargeMove);
-  }
-  return deduplicateMoveIds(moveIds);
-}
-
-function deduplicateMoveIds(moveIds) {
-  return [...new Set(moveIds.map((id) => id.toString()))];
-}
-
-function getTypes(template) {
-  const { type, type2, typeOverride1, typeOverride2 } = template;
-  const types = [type, type2, typeOverride1, typeOverride2];
-  return types
-    .filter((type) => !!type)
-    .map((type) => type.replace(/^POKEMON_TYPE_/, "").toLowerCase());
-}
-
-function getMoveEnergy(template) {
-  return template.energyDelta;
-}
-
-function getMoveDamage(template) {
-  return template.power || 0;
-}
-
-function getMoveTurns(template) {
-  if (template.energyDelta < 0) {
-    return undefined;
-  }
-  return (template.durationTurns || 0) + 1;
+  return sortObject(counts);
 }
 
 function getCounts(fastMove, chargedMove) {
-  const cost = -chargedMove.energy;
-  const gain = fastMove.energy;
+  const cost = chargedMove.energy;
+  const gain = fastMove.energyGain;
   const counts = [];
   let energy = 0;
   for (let n = 1; n <= 4; n++) {
@@ -302,6 +258,7 @@ function writeCacheBustedFiles(destDirName, files) {
   const destDir = join(root, destDirName);
   rmSync(destDir, { recursive: true, force: true });
   mkdirSync(destDir);
+
   const fileMap = {};
   const webPath = (file) => `/${destDirName}/${file}`;
   for (const { file, data } of files) {
@@ -311,12 +268,12 @@ function writeCacheBustedFiles(destDirName, files) {
     writeFileSync(join(destDir, cacheBustedFile), data);
     fileMap[webPath(file)] = webPath(cacheBustedFile);
   }
+
   return fileMap;
 }
 
 function buildHtml(data, resources) {
-  const lastUpdated = new Date(timestamp).toUTCString();
-  const html = nunjucks.render("list.njk", { data, resources, lastUpdated });
+  const html = nunjucks.render("list.njk", { data, resources });
   return minifyHtml(html, {
     collapseWhitespace: true,
     removeAttributeQuotes: true,
@@ -324,27 +281,68 @@ function buildHtml(data, resources) {
   });
 }
 
-function fromEntries(entries) {
-  return Object.fromEntries(entries.sort(([k1], [k2]) => k1.localeCompare(k2)));
+function fixMoveNames(moves) {
+  fixNames(moves, moveNameFixes);
+}
+
+function fixPokemonNames(pokemon) {
+  fixNames(pokemon, pokemonNameFixes);
+}
+
+function fixNames(data, fixes) {
+  fixProperty("name", data, fixes);
+}
+
+function fixTypes(types) {
+  fixProperty("types", types, typeFixes);
+}
+
+function fixProperty(property, data, fixes) {
+  for (const [id, newValue] of Object.entries(fixes)) {
+    const object = data[id];
+    if (!object) {
+      console.warn(`Could not find ${id} when trying to fix ${property}`);
+      continue;
+    }
+
+    const oldValueJson = JSON.stringify(object[property]);
+    const newValueJson = JSON.stringify(newValue);
+    if (oldValueJson === newValueJson) {
+      console.warn(`${id} already has correct ${property} (${oldValueJson})`);
+      continue;
+    }
+
+    object[property] = newValue;
+  }
+}
+
+function sortObject(object) {
+  const entries = Object.entries(object);
+  const sortedEntries = entries.sort(([k1], [k2]) => k1.localeCompare(k2));
+  return Object.fromEntries(sortedEntries);
+}
+
+function readPvpokeJson(filename) {
+  return JSON.parse(readFileSync(join(src, "data/pvpoke", filename)));
 }
 
 env.addFilter("fixed", (number, digits) => {
   return (+number).toFixed(digits);
 });
 
-env.addFilter("adjustedDamage", (move, pokemon) => {
+env.addFilter("adjustedPower", (move, pokemon) => {
   const stabMultiplier = pokemon.types.includes(move.type) ? 1.2 : 1;
-  return move.damage * stabMultiplier;
+  return move.power * stabMultiplier;
 });
 
-env.addFilter("effectivenessSummary", (damage, type) => {
+env.addFilter("effectivenessSummary", (power, type) => {
   return getEffectivenessStages(type)
     .map((n) => {
       const arrows = effectivenessArrows(n);
       const multiplier = 1.6 ** n;
-      const effectiveDamage = damage * multiplier;
-      const roundedDamage = +effectiveDamage.toFixed(1);
-      return `${arrows} ${roundedDamage}`;
+      const effectivePower = power * multiplier;
+      const roundedPower = +effectivePower.toFixed(1);
+      return `${arrows} ${roundedPower}`;
     })
     .join(" | ");
 });

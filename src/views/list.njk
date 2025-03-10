@@ -14,10 +14,10 @@
   <img class="type" src="/icons/types/{{ type }}.png" alt="{{ type | capitalize }}-type">
 {%- endmacro %}
 
-{% macro damageSummary(damage, type) -%}
-  <div class="damage" title="{{ damage | effectivenessSummary(type) }}">
+{% macro powerSummary(power, type) -%}
+  <div class="power" title="{{ power | effectivenessSummary(type) }}">
     <small>
-      💥{{ damage | round(1) }}
+      💥{{ power | round(1) }}
       {{ caller() }}
     </small>
   </div>
@@ -31,23 +31,14 @@
   <p>
     Move counts for Pokémon GO battles.
   </p>
-  <div class="info">
-    <p>
-      Information is updated daily using the latest Game Master file from
-      <a href="https://pokeminers.com/gmexplore/" target="_blank">PokeMiners</a>.
-    </p>
-    <p>
-      Last updated: {{ lastUpdated }}
-    </p>
-  </div>
   <h2>
     Settings
   </h2>
   {% call featureToggle("deltas") %}
     Show advanced energy deltas
   {% endcall %}
-  {% call featureToggle("damage") %}
-    Show base damage (includes STAB)
+  {% call featureToggle("power") %}
+    Show base power (includes STAB)
   {% endcall %}
   {% call featureToggle("leagues") %}
     Show attack stats (rank #1 and max)
@@ -109,13 +100,13 @@
             </div>
             <div>
               <small>
-                +{{ fastMove.energy }} energy
+                +{{ fastMove.energyGain }} energy
                 / {{ fastMove.turns }} turn{{ "s" if fastMove.turns > 1 }}
               </small>
             </div>
-            {% set damage = (fastMove | adjustedDamage(pokemon)) %}
-            {% call damageSummary(damage, fastMove.type) %}
-              ({{ (damage / fastMove.turns) | round(2) }} dpt)
+            {% set power = (fastMove | adjustedPower(pokemon)) %}
+            {% call powerSummary(power, fastMove.type) %}
+              ({{ (power / fastMove.turns) | round(2) }} dpt)
             {% endcall %}
           </th>
         {% endfor %}
@@ -131,12 +122,12 @@
             </div>
             <div>
               <small>
-                {{ chargedMove.energy }} energy
+                -{{ chargedMove.energy }} energy
               </small>
             </div>
-            {% set damage = (chargedMove | adjustedDamage(pokemon)) %}
-            {% call damageSummary(damage, chargedMove.type) %}
-              ({{ (damage / -chargedMove.energy) | round(2) }} dpe)
+            {% set power = (chargedMove | adjustedPower(pokemon)) %}
+            {% call powerSummary(power, chargedMove.type) %}
+              ({{ (power / chargedMove.energy) | round(2) }} dpe)
             {% endcall %}
           </th>
           {% for fastMoveId in pokemon.fastMoveIds %}
@@ -157,9 +148,9 @@
                 {% endfor %}
               </div>
               <div class="deltas">
-                {% set extraEnergy = firstCount * fastMove.energy + chargedMove.energy %}
+                {% set extraEnergy = firstCount * fastMove.energyGain - chargedMove.energy %}
                 <small>
-                  Δ +{{ extraEnergy }} / -{{ fastMove.energy - extraEnergy }}
+                  Δ +{{ extraEnergy }} / -{{ fastMove.energyGain - extraEnergy }}
                 </small>
               </div>
             </td>

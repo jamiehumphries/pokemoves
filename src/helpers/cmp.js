@@ -44,7 +44,7 @@ class League {
   }
 
   compute(baseStats) {
-    const { baseAttack, baseDefense, baseStamina } = baseStats;
+    const { atk, def, hp } = baseStats;
 
     for (let level = 1; level <= MAX_LEVEL; level += 0.5) {
       const cpm = getCpmForLevel(level);
@@ -59,14 +59,14 @@ class League {
         return;
       }
 
-      for (let attackIV = 0; attackIV <= MAX_IV; attackIV++) {
-        const attack = (baseAttack + attackIV) * cpm;
-        for (let defenseIV = 0; defenseIV <= MAX_IV; defenseIV++) {
-          const defense = (baseDefense + defenseIV) * cpm;
+      for (let atkIV = 0; atkIV <= MAX_IV; atkIV++) {
+        const attack = (atk + atkIV) * cpm;
+        for (let defIV = 0; defIV <= MAX_IV; defIV++) {
+          const defense = (def + defIV) * cpm;
           const partialCp = calculatePartialCp(attack, defense);
           const partialStatProduct = attack * defense;
-          for (let staminaIV = 0; staminaIV <= MAX_IV; staminaIV++) {
-            const stamina = (baseStamina + staminaIV) * cpm;
+          for (let hpIV = 0; hpIV <= MAX_IV; hpIV++) {
+            const stamina = (hp + hpIV) * cpm;
             const cp = calculateCpFromPartial(partialCp, stamina);
             const statProduct = partialStatProduct * Math.floor(stamina);
             this.update(cp, statProduct, attack);
@@ -109,10 +109,10 @@ function getMinStats(baseStats, cpm) {
 }
 
 function getConstantIvStats(baseStats, cpm, iv) {
-  const { baseAttack, baseDefense, baseStamina } = baseStats;
-  const attack = (baseAttack + iv) * cpm;
-  const defense = (baseDefense + iv) * cpm;
-  const stamina = (baseStamina + iv) * cpm;
+  const { atk, def, hp } = baseStats;
+  const attack = (atk + iv) * cpm;
+  const defense = (def + iv) * cpm;
+  const stamina = (hp + iv) * cpm;
   const statProduct = attack * defense * Math.floor(stamina);
   const cp = calculateCp(attack, defense, stamina);
   return { cp, statProduct, attack };

@@ -68,7 +68,7 @@ body {
   }
 
   @include feature-toggle(deltas);
-  @include feature-toggle(damage);
+  @include feature-toggle(power);
   @include feature-toggle(leagues);
 }
 

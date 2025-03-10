@@ -22,6 +22,6 @@
   }
 
   setUpFeatureToggle("deltas");
-  setUpFeatureToggle("damage");
+  setUpFeatureToggle("power");
   setUpFeatureToggle("leagues");
 })();

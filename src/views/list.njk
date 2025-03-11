@@ -92,7 +92,7 @@
         </th>
         {% for fastMoveId in pokemon.fastMoveIds %}
           {% set fastMove = data.moves[fastMoveId] %}
-          {% set type = "hidden" if fastMove.name === "Hidden Power" else fastMove.type %}
+          {% set type = fastMove.type %}
           <th class="{{ type }}">
             <div>
               {{ typeIcon(type) }}

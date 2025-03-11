@@ -585,7 +585,7 @@
         "water"
       ],
       "fastMoveIds": [
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "WATERFALL"
       ],
       "chargedMoveIds": [
@@ -4355,7 +4355,7 @@
         "poison"
       ],
       "fastMoveIds": [
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "RAZOR_LEAF"
       ],
       "chargedMoveIds": [
@@ -6810,7 +6810,7 @@
         "fairy"
       ],
       "fastMoveIds": [
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "VINE_WHIP"
       ],
       "chargedMoveIds": [
@@ -9990,7 +9990,7 @@
         "psychic"
       ],
       "fastMoveIds": [
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "ZEN_HEADBUTT"
       ],
       "chargedMoveIds": [
@@ -13134,7 +13134,7 @@
         "ground"
       ],
       "fastMoveIds": [
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "MUD_SLAP"
       ],
       "chargedMoveIds": [
@@ -16473,7 +16473,7 @@
       ],
       "fastMoveIds": [
         "EXTRASENSORY",
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "INCINERATE",
         "STEEL_WING"
       ],
@@ -19850,7 +19850,7 @@
       ],
       "fastMoveIds": [
         "CHARM",
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "MAGICAL_LEAF"
       ],
       "chargedMoveIds": [
@@ -20660,7 +20660,7 @@
         "electric"
       ],
       "fastMoveIds": [
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "SNARL",
         "SPARK"
       ],
@@ -26422,7 +26422,7 @@
       ],
       "fastMoveIds": [
         "CHARM",
-        "HIDDEN_POWER"
+        "HIDDEN_POWER_BUG"
       ],
       "chargedMoveIds": [
         "SEED_BOMB",
@@ -27713,7 +27713,7 @@
       ],
       "fastMoveIds": [
         "CHARGE_BEAM",
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "QUICK_ATTACK",
         "TACKLE",
         "ZEN_HEADBUTT"
@@ -27753,7 +27753,7 @@
       ],
       "fastMoveIds": [
         "CHARGE_BEAM",
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "LOCK_ON"
       ],
       "chargedMoveIds": [
@@ -27790,7 +27790,7 @@
       ],
       "fastMoveIds": [
         "CHARGE_BEAM",
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "LOCK_ON"
       ],
       "chargedMoveIds": [
@@ -29226,7 +29226,7 @@
         "normal"
       ],
       "fastMoveIds": [
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "ZEN_HEADBUTT"
       ],
       "chargedMoveIds": [
@@ -29468,7 +29468,7 @@
         "psychic"
       ],
       "fastMoveIds": [
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "ZEN_HEADBUTT"
       ],
       "chargedMoveIds": [
@@ -31775,7 +31775,7 @@
         "grass"
       ],
       "fastMoveIds": [
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "MAGICAL_LEAF",
         "ZEN_HEADBUTT"
       ],
@@ -31811,7 +31811,7 @@
         "flying"
       ],
       "fastMoveIds": [
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "MAGICAL_LEAF",
         "ZEN_HEADBUTT"
       ],
@@ -31915,7 +31915,7 @@
         "water"
       ],
       "fastMoveIds": [
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "MUD_SLAP"
       ],
       "chargedMoveIds": [
@@ -34405,7 +34405,7 @@
         "psychic"
       ],
       "fastMoveIds": [
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "ZEN_HEADBUTT"
       ],
       "chargedMoveIds": [
@@ -35090,7 +35090,7 @@
         "psychic"
       ],
       "fastMoveIds": [
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "PSYWAVE",
         "QUICK_ATTACK",
         "TACKLE",
@@ -35518,7 +35518,7 @@
       ],
       "fastMoveIds": [
         "EXTRASENSORY",
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "ICE_FANG",
         "SNARL"
       ],
@@ -36290,7 +36290,7 @@
         "fairy"
       ],
       "fastMoveIds": [
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "WATER_GUN"
       ],
       "chargedMoveIds": [
@@ -37159,7 +37159,7 @@
       "fastMoveIds": [
         "AIR_SLASH",
         "CHARM",
-        "HIDDEN_POWER"
+        "HIDDEN_POWER_BUG"
       ],
       "chargedMoveIds": [
         "AERIAL_ACE",
@@ -37194,7 +37194,7 @@
         "fairy"
       ],
       "fastMoveIds": [
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "PECK",
         "ZEN_HEADBUTT"
       ],
@@ -37231,7 +37231,7 @@
       "fastMoveIds": [
         "EXTRASENSORY",
         "FAIRY_WIND",
-        "HIDDEN_POWER",
+        "HIDDEN_POWER_BUG",
         "STEEL_WING",
         "ZEN_HEADBUTT"
       ],
@@ -38445,7 +38445,7 @@
         "psychic"
       ],
       "fastMoveIds": [
-        "HIDDEN_POWER"
+        "HIDDEN_POWER_BUG"
       ],
       "chargedMoveIds": [
         "STRUGGLE"
@@ -42737,9 +42737,9 @@
       "power": 7,
       "turns": 3
     },
-    "HIDDEN_POWER": {
+    "HIDDEN_POWER_BUG": {
       "name": "Hidden Power",
-      "type": "unknown",
+      "type": "hidden",
       "energy": 0,
       "energyGain": 8,
       "power": 9,
@@ -52741,7 +52741,7 @@
         3
       ]
     },
-    "HIDDEN_POWER": {
+    "HIDDEN_POWER_BUG": {
       "AERIAL_ACE": [
         5,
         5,

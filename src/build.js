@@ -11,17 +11,20 @@ import nunjucks from "nunjucks";
 import { join, parse } from "path";
 import { compileString as compileSassString } from "sass";
 import { minify as minifyJs } from "uglify-js";
-import { exclusions } from "./data/adjustments/exclusions.js";
+import { moveExclusions } from "./data/adjustments/moves/exclusions.js";
 import {
-  HIDDEN_POWER,
   MEW_FAST_MOVES,
   moveNameFixes,
+  moveTypeFixes,
   RETURN,
   SPLASH,
-  STRUGGLE,
-} from "./data/adjustments/moves.js";
-import { MEW, pokemonNameFixes } from "./data/adjustments/pokemon.js";
-import { typeFixes } from "./data/adjustments/types.js";
+} from "./data/adjustments/moves/fixes.js";
+import { pokemonExclusions } from "./data/adjustments/pokemon/exclusions.js";
+import {
+  MEW,
+  pokemonNameFixes,
+  pokemonTypeFixes,
+} from "./data/adjustments/pokemon/fixes.js";
 import { getEffectivenessStages } from "./data/effectivess.js";
 import { computeCmp } from "./helpers/cmp.js";
 import { setEq } from "./helpers/collections.js";
@@ -54,108 +57,110 @@ async function build() {
 
 function buildData() {
   const moves = buildMoves();
-
-  const pokemon = buildPokemon()
-    .map(({ name, types, fastMoveIds, chargedMoveIds, stats }) => ({
-      name,
-      types,
-      fastMoveIds: fastMoveIds.sort(fastMoveSort(moves)),
-      chargedMoveIds: chargedMoveIds.sort(chargedMoveSort(moves)),
-      cmp: computeCmp(stats),
-    }))
-    .sort((p1, p2) => p1.name.localeCompare(p2.name));
-
+  const pokemon = buildPokemon(moves);
   const counts = buildCounts(pokemon, moves);
-
   return { pokemon, moves, counts };
 }
 
 function buildMoves() {
-  const json = readPvpokeJson("moves.json");
-
-  const hiddenPower = Object.assign(
-    {},
-    json.find((move) => move.moveId.startsWith(HIDDEN_POWER)),
-    { moveId: HIDDEN_POWER, name: "Hidden Power", type: "unknown" },
-  );
-
-  const entries = json
-    .filter((move) => !move.moveId.startsWith(HIDDEN_POWER))
-    .concat(hiddenPower)
-    .map((data) => [
-      data.moveId,
-      {
-        name: data.name,
-        type: data.type,
-        energy: data.energy,
-        energyGain: data.energyGain,
-        power: data.power,
-        turns: data.cooldown / 500,
-      },
-    ]);
+  const entries = readMoves().map((data) => [
+    data.id,
+    {
+      name: data.name,
+      type: data.type,
+      energy: data.energy,
+      energyGain: data.energyGain,
+      power: data.power,
+      turns: data.cooldown / 500,
+    },
+  ]);
 
   const moves = Object.fromEntries(entries);
   fixMoveNames(moves);
+  fixMoveTypes(moves);
 
   return sortObject(moves);
 }
 
-function buildPokemon() {
-  const json = readPvpokeJson("pokemon.json").map(({ speciesId, ...props }) => {
-    return { id: speciesId.toUpperCase(), ...props };
-  });
+function readMoves() {
+  return readJson("moves.json", "moveId", moveExclusions);
+}
 
-  const unnecessaryExclusions = exclusions.filter(
-    (exclusion) => !json.find((pokemon) => pokemon.id === exclusion),
-  );
+function fixMoveNames(moves) {
+  fixProperty("name", moves, moveNameFixes);
+}
 
-  for (const exclusion of unnecessaryExclusions) {
-    console.warn(`${exclusion} is already excluded`);
-  }
+function fixMoveTypes(moves) {
+  fixProperty("type", moves, moveTypeFixes);
+}
 
-  const all = json
-    .filter((data) => !exclusions.includes(data.id))
+function buildPokemon(moves) {
+  const all = readPokemon()
     .filter((data) => !data.tags?.includes("shadow"))
-    .filter((data) => !data.tags?.includes("duplicate"))
-    .map((data) => ({
-      id: data.id,
-      dex: data.dex,
+    .filter((data) => !data.tags?.includes("duplicate"));
+
+  const entries = deduplicate(all).map((data) => [
+    data.id,
+    {
       name: data.speciesName,
       types: data.types.filter((type) => type !== "none"),
-      fastMoveIds: getFastMoveIds(data),
-      chargedMoveIds: getChargedMoveIds(data),
-      stats: data.baseStats,
-    }));
+      fastMoveIds: getFastMoveIds(data, moves),
+      chargedMoveIds: getChargedMoveIds(data, moves),
+      cmp: computeCmp(data.baseStats),
+    },
+  ]);
 
-  const deduplicated = deduplicate(all);
-
-  const entries = deduplicated.map((p) => [p.id, p]);
   const pokemon = Object.fromEntries(entries);
   fixPokemonNames(pokemon);
   fixPokemonTypes(pokemon);
 
-  return Object.values(pokemon);
+  return Object.values(pokemon).sort((p1, p2) =>
+    p1.name.localeCompare(p2.name),
+  );
 }
 
-function getFastMoveIds(data) {
-  if (data.id === MEW) {
-    return MEW_FAST_MOVES;
-  }
-
-  const fastMoveIds = data.fastMoves
-    .map((id) => (id.startsWith(HIDDEN_POWER) ? HIDDEN_POWER : id))
-    .map((id) => (id === STRUGGLE ? SPLASH : id));
-
-  return [...new Set(fastMoveIds)];
+function readPokemon() {
+  return readJson("pokemon.json", "speciesId", pokemonExclusions);
 }
 
-function getChargedMoveIds(data) {
-  const chargedMoveIds = data.chargedMoves;
-  if (data.tags?.includes("shadoweligible")) {
-    chargedMoveIds.push(RETURN);
-  }
+function fixPokemonNames(pokemon) {
+  fixProperty("name", pokemon, pokemonNameFixes);
+}
 
-  return chargedMoveIds;
+function fixPokemonTypes(pokemon) {
+  fixProperty("types", pokemon, pokemonTypeFixes);
+}
+
+function deduplicate(pokemon) {
+  return pokemon.filter((p, i, arr) => {
+    return (
+      arr.findIndex(({ dex, types, fastMoves, chargedMoves, baseStats }) => {
+        return (
+          dex === p.dex &&
+          setEq(types, p.types) &&
+          setEq(fastMoves, p.fastMoves) &&
+          setEq(chargedMoves, p.chargedMoves) &&
+          baseStats.atk === p.baseStats.atk &&
+          baseStats.def === p.baseStats.def &&
+          baseStats.hp === p.baseStats.hp
+        );
+      }) === i
+    );
+  });
+}
+
+function getFastMoveIds(data, moves) {
+  return (data.id === MEW ? MEW_FAST_MOVES : data.fastMoves)
+    .filter((id) => !moveExclusions.includes(id))
+    .map((id) => (moves[id]?.energyGain === 0 ? SPLASH : id))
+    .sort(fastMoveSort(moves));
+}
+
+function getChargedMoveIds(data, moves) {
+  return data.chargedMoves
+    .filter((id) => !moveExclusions.includes(id))
+    .concat(data.tags?.includes("shadoweligible") ? [RETURN] : [])
+    .sort(chargedMoveSort(moves));
 }
 
 function fastMoveSort(moves) {
@@ -172,24 +177,6 @@ function chargedMoveSort(moves) {
     const move2 = moves[m2];
     return move1.energy - move2.energy || move1.name.localeCompare(move2.name);
   };
-}
-
-function deduplicate(pokemon) {
-  return pokemon.filter((p, i, arr) => {
-    return (
-      arr.findIndex(({ dex, types, fastMoveIds, chargedMoveIds, stats }) => {
-        return (
-          dex === p.dex &&
-          setEq(types, p.types) &&
-          setEq(fastMoveIds, p.fastMoveIds) &&
-          setEq(chargedMoveIds, p.chargedMoveIds) &&
-          stats.atk === p.stats.atk &&
-          stats.def === p.stats.def &&
-          stats.hp === p.stats.hp
-        );
-      }) === i
-    );
-  });
 }
 
 function buildCounts(pokemon, moves) {
@@ -281,20 +268,22 @@ function buildHtml(data, resources) {
   });
 }
 
-function fixMoveNames(moves) {
-  fixNames(moves, moveNameFixes);
-}
+function readJson(filename, idProperty, exclusions) {
+  const path = join(src, "data/pvpoke", filename);
+  const json = JSON.parse(readFileSync(path)).map((data) => {
+    const id = data[idProperty].toUpperCase();
+    return { ...data, id };
+  });
 
-function fixPokemonNames(pokemon) {
-  fixNames(pokemon, pokemonNameFixes);
-}
+  const unnecessaryExclusions = exclusions.filter(
+    (exclusion) => !json.find((pokemon) => pokemon.id === exclusion),
+  );
 
-function fixNames(data, fixes) {
-  fixProperty("name", data, fixes);
-}
+  for (const exclusion of unnecessaryExclusions) {
+    console.warn(`${exclusion} is already excluded`);
+  }
 
-function fixPokemonTypes(pokemon) {
-  fixProperty("types", pokemon, typeFixes);
+  return json.filter((data) => !exclusions.includes(data.id));
 }
 
 function fixProperty(property, data, fixes) {
@@ -320,10 +309,6 @@ function sortObject(object) {
   const entries = Object.entries(object);
   const sortedEntries = entries.sort(([k1], [k2]) => k1.localeCompare(k2));
   return Object.fromEntries(sortedEntries);
-}
-
-function readPvpokeJson(filename) {
-  return JSON.parse(readFileSync(join(src, "data/pvpoke", filename)));
 }
 
 env.addFilter("fixed", (number, digits) => {

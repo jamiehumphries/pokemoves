@@ -1,0 +1,593 @@
+diff --git a/docs/data.json b/docs/data.json
+index f52fb83..a1a58ce 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -1171,439 +1171,439 @@
+       "cmp": {
+         "little": {
+           "rankOne": 76.41884851455684,
+           "max": 79.30863690376277
+         },
+         "great": {
+           "rankOne": 131.4870486259459,
+           "max": 139.98836642503724
+         },
+         "ultra": {
+           "rankOne": 169.754400730133,
+           "max": 180.72990077733988
+         },
+         "master": {
+           "rankOne": 208.78910464048386,
+           "max": 208.78910464048386
+         }
+       }
+     },
+     {
+-      "name": "Arceus",
++      "name": "Arceus (Bug)",
+       "types": [
+-        "normal"
++        "bug"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL",
+         "SHADOW_CLAW"
+       ],
+       "chargedMoveIds": [
+         "OUTRAGE",
+         "FUTURE_SIGHT",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.07947242259966,
+           "max": 72.5624710321425
+         },
+         "great": {
+           "rankOne": 118.96630847454061,
+           "max": 125.96432662010182
+         },
+         "ultra": {
+           "rankOne": 154.12426926579414,
+           "max": 162.54282178871566
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+           "max": 213.86090475320816
+         }
+       }
+     },
+     {
+-      "name": "Arceus (Bug)",
++      "name": "Arceus (Dark)",
+       "types": [
+-        "bug"
++        "dark"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL",
+         "SHADOW_CLAW"
+       ],
+       "chargedMoveIds": [
+         "OUTRAGE",
+         "FUTURE_SIGHT",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.07947242259966,
+           "max": 72.5624710321425
+         },
+         "great": {
+           "rankOne": 118.96630847454061,
+           "max": 125.96432662010182
+         },
+         "ultra": {
+           "rankOne": 154.12426926579414,
+           "max": 162.54282178871566
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+           "max": 213.86090475320816
+         }
+       }
+     },
+     {
+-      "name": "Arceus (Dark)",
++      "name": "Arceus (Dragon)",
+       "types": [
+-        "dark"
++        "dragon"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL",
+         "SHADOW_CLAW"
+       ],
+       "chargedMoveIds": [
+         "OUTRAGE",
+         "FUTURE_SIGHT",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.07947242259966,
+           "max": 72.5624710321425
+         },
+         "great": {
+           "rankOne": 118.96630847454061,
+           "max": 125.96432662010182
+         },
+         "ultra": {
+           "rankOne": 154.12426926579414,
+           "max": 162.54282178871566
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+           "max": 213.86090475320816
+         }
+       }
+     },
+     {
+-      "name": "Arceus (Dragon)",
++      "name": "Arceus (Electric)",
+       "types": [
+-        "dragon"
++        "electric"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL",
+         "SHADOW_CLAW"
+       ],
+       "chargedMoveIds": [
+         "OUTRAGE",
+         "FUTURE_SIGHT",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.07947242259966,
+           "max": 72.5624710321425
+         },
+         "great": {
+           "rankOne": 118.96630847454061,
+           "max": 125.96432662010182
+         },
+         "ultra": {
+           "rankOne": 154.12426926579414,
+           "max": 162.54282178871566
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+           "max": 213.86090475320816
+         }
+       }
+     },
+     {
+-      "name": "Arceus (Electric)",
++      "name": "Arceus (Fairy)",
+       "types": [
+-        "electric"
++        "fairy"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL",
+         "SHADOW_CLAW"
+       ],
+       "chargedMoveIds": [
+         "OUTRAGE",
+         "FUTURE_SIGHT",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.07947242259966,
+           "max": 72.5624710321425
+         },
+         "great": {
+           "rankOne": 118.96630847454061,
+           "max": 125.96432662010182
+         },
+         "ultra": {
+           "rankOne": 154.12426926579414,
+           "max": 162.54282178871566
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+           "max": 213.86090475320816
+         }
+       }
+     },
+     {
+-      "name": "Arceus (Fairy)",
++      "name": "Arceus (Fighting)",
+       "types": [
+-        "fairy"
++        "fighting"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL",
+         "SHADOW_CLAW"
+       ],
+       "chargedMoveIds": [
+         "OUTRAGE",
+         "FUTURE_SIGHT",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.07947242259966,
+           "max": 72.5624710321425
+         },
+         "great": {
+           "rankOne": 118.96630847454061,
+           "max": 125.96432662010182
+         },
+         "ultra": {
+           "rankOne": 154.12426926579414,
+           "max": 162.54282178871566
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+           "max": 213.86090475320816
+         }
+       }
+     },
+     {
+-      "name": "Arceus (Fighting)",
++      "name": "Arceus (Fire)",
+       "types": [
+-        "fighting"
++        "fire"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL",
+         "SHADOW_CLAW"
+       ],
+       "chargedMoveIds": [
+         "OUTRAGE",
+         "FUTURE_SIGHT",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.07947242259966,
+           "max": 72.5624710321425
+         },
+         "great": {
+           "rankOne": 118.96630847454061,
+           "max": 125.96432662010182
+         },
+         "ultra": {
+           "rankOne": 154.12426926579414,
+           "max": 162.54282178871566
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+           "max": 213.86090475320816
+         }
+       }
+     },
+     {
+-      "name": "Arceus (Fire)",
++      "name": "Arceus (Flying)",
+       "types": [
+-        "fire"
++        "flying"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL",
+         "SHADOW_CLAW"
+       ],
+       "chargedMoveIds": [
+         "OUTRAGE",
+         "FUTURE_SIGHT",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.07947242259966,
+           "max": 72.5624710321425
+         },
+         "great": {
+           "rankOne": 118.96630847454061,
+           "max": 125.96432662010182
+         },
+         "ultra": {
+           "rankOne": 154.12426926579414,
+           "max": 162.54282178871566
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+           "max": 213.86090475320816
+         }
+       }
+     },
+     {
+-      "name": "Arceus (Flying)",
++      "name": "Arceus (Ghost)",
+       "types": [
+-        "flying"
++        "ghost"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL",
+         "SHADOW_CLAW"
+       ],
+       "chargedMoveIds": [
+         "OUTRAGE",
+         "FUTURE_SIGHT",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.07947242259966,
+           "max": 72.5624710321425
+         },
+         "great": {
+           "rankOne": 118.96630847454061,
+           "max": 125.96432662010182
+         },
+         "ultra": {
+           "rankOne": 154.12426926579414,
+           "max": 162.54282178871566
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+           "max": 213.86090475320816
+         }
+       }
+     },
+     {
+-      "name": "Arceus (Ghost)",
++      "name": "Arceus (Grass)",
+       "types": [
+-        "ghost"
++        "grass"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL",
+         "SHADOW_CLAW"
+       ],
+       "chargedMoveIds": [
+         "OUTRAGE",
+         "FUTURE_SIGHT",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.07947242259966,
+           "max": 72.5624710321425
+         },
+         "great": {
+           "rankOne": 118.96630847454061,
+           "max": 125.96432662010182
+         },
+         "ultra": {
+           "rankOne": 154.12426926579414,
+           "max": 162.54282178871566
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+           "max": 213.86090475320816
+         }
+       }
+     },
+     {
+-      "name": "Arceus (Grass)",
++      "name": "Arceus (Ground)",
+       "types": [
+-        "grass"
++        "ground"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL",
+         "SHADOW_CLAW"
+       ],
+       "chargedMoveIds": [
+         "OUTRAGE",
+         "FUTURE_SIGHT",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.07947242259966,
+           "max": 72.5624710321425
+         },
+         "great": {
+           "rankOne": 118.96630847454061,
+           "max": 125.96432662010182
+         },
+         "ultra": {
+           "rankOne": 154.12426926579414,
+           "max": 162.54282178871566
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+           "max": 213.86090475320816
+         }
+       }
+     },
+     {
+-      "name": "Arceus (Ground)",
++      "name": "Arceus (Ice)",
+       "types": [
+-        "ground"
++        "ice"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL",
+         "SHADOW_CLAW"
+       ],
+       "chargedMoveIds": [
+         "OUTRAGE",
+         "FUTURE_SIGHT",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.07947242259966,
+           "max": 72.5624710321425
+         },
+         "great": {
+           "rankOne": 118.96630847454061,
+           "max": 125.96432662010182
+         },
+         "ultra": {
+           "rankOne": 154.12426926579414,
+           "max": 162.54282178871566
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+           "max": 213.86090475320816
+         }
+       }
+     },
+     {
+-      "name": "Arceus (Ice)",
++      "name": "Arceus (Normal)",
+       "types": [
+-        "ice"
++        "normal"
+       ],
+       "fastMoveIds": [
+         "IRON_TAIL",
+         "SHADOW_CLAW"
+       ],
+       "chargedMoveIds": [
+         "OUTRAGE",
+         "FUTURE_SIGHT",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.07947242259966,
+           "max": 72.5624710321425
+         },
+         "great": {
+           "rankOne": 118.96630847454061,
+           "max": 125.96432662010182
+         },
+         "ultra": {
+@@ -23114,104 +23114,104 @@
+       "cmp": {
+         "little": {
+           "rankOne": 63.46293440356229,
+           "max": 71.75313091278069
+         },
+         "great": {
+           "rankOne": 95.5189021229744,
+           "max": 95.5189021229744
+         },
+         "ultra": {
+           "rankOne": 95.5189021229744,
+           "max": 95.5189021229744
+         },
+         "master": {
+           "rankOne": 95.5189021229744,
+           "max": 95.5189021229744
+         }
+       }
+     },
+     {
+-      "name": "Minior",
++      "name": "Minior (Core)",
+       "types": [
+         "rock",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "ROLLOUT",
+         "TAKE_DOWN"
+       ],
+       "chargedMoveIds": [
+         "ANCIENT_POWER",
+         "POWER_GEM",
+         "ACROBATICS"
+       ],
+       "cmp": {
+         "little": {
+-          "rankOne": 55.87545454502101,
+-          "max": 60.93135403448482
++          "rankOne": 84.49514561656663,
++          "max": 90.30903178284414
+         },
+         "great": {
+-          "rankOne": 96.31479692459106,
+-          "max": 106.4773023712484
++          "rankOne": 144.8070187079721,
++          "max": 155.82841873617897
+         },
+         "ultra": {
+-          "rankOne": 110.73430246114731,
+-          "max": 110.73430246114731
++          "rankOne": 187.65660417079926,
++          "max": 196.95490437746048
+         },
+         "master": {
+-          "rankOne": 110.73430246114731,
+-          "max": 110.73430246114731
++          "rankOne": 196.95490437746048,
++          "max": 196.95490437746048
+         }
+       }
+     },
+     {
+-      "name": "Minior (Core)",
++      "name": "Minior (Meteor)",
+       "types": [
+         "rock",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "ROLLOUT",
+         "TAKE_DOWN"
+       ],
+       "chargedMoveIds": [
+         "ANCIENT_POWER",
+         "POWER_GEM",
+         "ACROBATICS"
+       ],
+       "cmp": {
+         "little": {
+-          "rankOne": 84.49514561656663,
+-          "max": 90.30903178284414
++          "rankOne": 55.87545454502101,
++          "max": 60.93135403448482
+         },
+         "great": {
+-          "rankOne": 144.8070187079721,
+-          "max": 155.82841873617897
++          "rankOne": 96.31479692459106,
++          "max": 106.4773023712484
+         },
+         "ultra": {
+-          "rankOne": 187.65660417079926,
+-          "max": 196.95490437746048
++          "rankOne": 110.73430246114731,
++          "max": 110.73430246114731
+         },
+         "master": {
+-          "rankOne": 196.95490437746048,
+-          "max": 196.95490437746048
++          "rankOne": 110.73430246114731,
++          "max": 110.73430246114731
+         }
+       }
+     },
+     {
+       "name": "Minun",
+       "types": [
+         "electric"
+       ],
+       "fastMoveIds": [
+         "QUICK_ATTACK",
+         "SPARK"
+       ],
+       "chargedMoveIds": [
+         "SWIFT",
+         "DISCHARGE",
+         "GRASS_KNOT",
+         "THUNDERBOLT"
+       ],
+       "cmp": {
+         "little": {

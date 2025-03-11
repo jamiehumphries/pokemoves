@@ -1,14 +1,5 @@
 export const RETURN = "RETURN";
 
-export const MEW_FAST_MOVES = [
-  "SHADOW_CLAW",
-  "VOLT_SWITCH",
-  "SNARL",
-  "POISON_JAB",
-  "INFESTATION",
-  "DRAGON_TAIL",
-];
-
 export const moveNameFixes = {
   // Special characters
   LOCK_ON: "Lock-On",

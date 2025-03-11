@@ -1,5 +1,3 @@
-export const MEW = "MEW";
-
 export const pokemonNameFixes = {
   // Special characters
   FARFETCHD: "Farfetch’d",

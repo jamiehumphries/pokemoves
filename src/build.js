@@ -13,14 +13,12 @@ import { compileString as compileSassString } from "sass";
 import { minify as minifyJs } from "uglify-js";
 import { moveExclusions } from "./data/adjustments/moves/exclusions.js";
 import {
-  MEW_FAST_MOVES,
   moveNameFixes,
   moveTypeFixes,
   RETURN,
 } from "./data/adjustments/moves/fixes.js";
 import { pokemonExclusions } from "./data/adjustments/pokemon/exclusions.js";
 import {
-  MEW,
   pokemonNameFixes,
   pokemonTypeFixes,
 } from "./data/adjustments/pokemon/fixes.js";
@@ -32,6 +30,12 @@ const src = import.meta.dirname;
 const root = "docs";
 const views = join(src, "views");
 const env = nunjucks.configure(views);
+
+const movesJson = readMoves();
+const pokemonJson = readPokemon();
+const rankingsJson = readRankings();
+
+const MAX_FAST_MOVES = 6;
 
 async function build() {
   const data = buildData();
@@ -55,14 +59,17 @@ async function build() {
 }
 
 function buildData() {
+  const timeLabel = "Build data";
+  console.time(timeLabel);
   const moves = buildMoves();
   const pokemon = buildPokemon(moves);
   const counts = buildCounts(pokemon, moves);
+  console.timeEnd(timeLabel);
   return { pokemon, moves, counts };
 }
 
 function buildMoves() {
-  const entries = readMoves().map((data) => [
+  const entries = movesJson.map((data) => [
     data.id,
     {
       name: data.name,
@@ -81,10 +88,6 @@ function buildMoves() {
   return sortObject(moves);
 }
 
-function readMoves() {
-  return readJson("moves.json", "moveId", moveExclusions);
-}
-
 function fixMoveNames(moves) {
   fixProperty("name", moves, moveNameFixes);
 }
@@ -94,16 +97,12 @@ function fixMoveTypes(moves) {
 }
 
 function buildPokemon(moves) {
-  const all = readPokemon()
-    .filter((data) => !data.tags?.includes("shadow"))
-    .filter((data) => !data.tags?.includes("duplicate"));
-
-  const entries = deduplicate(all).map((data) => [
+  const entries = deduplicate(pokemonJson).map((data) => [
     data.id,
     {
       name: data.speciesName,
       types: data.types.filter((type) => type !== "none"),
-      fastMoveIds: getFastMoveIds(data, moves),
+      ...getFastMoveIds(data, moves),
       chargedMoveIds: getChargedMoveIds(data, moves),
       cmp: computeCmp(data.baseStats),
     },
@@ -116,10 +115,6 @@ function buildPokemon(moves) {
   return Object.values(pokemon).sort((p1, p2) =>
     p1.name.localeCompare(p2.name),
   );
-}
-
-function readPokemon() {
-  return readJson("pokemon.json", "speciesId", pokemonExclusions);
 }
 
 function fixPokemonNames(pokemon) {
@@ -149,19 +144,38 @@ function deduplicate(pokemon) {
 }
 
 function getFastMoveIds(data, moves) {
-  return (data.id === MEW ? MEW_FAST_MOVES : data.fastMoves)
-    .filter((id) => !moveExclusions.includes(id))
-    .sort(fastMoveSort(moves));
+  const allFastMoveIds = data.fastMoves.filter(
+    (id) => !moveExclusions.includes(id),
+  );
+
+  const truncate = allFastMoveIds.length > MAX_FAST_MOVES;
+  if (truncate) {
+    allFastMoveIds.sort(fastMoveSortByRanking(data));
+  }
+
+  const fastMoveIds = allFastMoveIds
+    .slice(0, MAX_FAST_MOVES)
+    .sort(fastMoveSortByName(moves));
+
+  return { fastMoveIds, fastMovesTruncated: truncate || undefined };
 }
 
-function getChargedMoveIds(data, moves) {
-  return data.chargedMoves
-    .filter((id) => !moveExclusions.includes(id))
-    .concat(data.tags?.includes("shadoweligible") ? [RETURN] : [])
-    .sort(chargedMoveSort(moves));
+function fastMoveSortByRanking(data) {
+  const rankedPokemon = rankingsJson.find((p) => p.id === data.id);
+  if (!rankedPokemon) {
+    console.warn(`Could not rank fast moves for ${data.id}`);
+    return () => 0;
+  }
+
+  const fastMoveRankings = rankedPokemon.moves.fastMoves;
+  return (m1, m2) => {
+    const ranking1 = fastMoveRankings.find((r) => r.moveId === m1);
+    const ranking2 = fastMoveRankings.find((r) => r.moveId === m2);
+    return ranking2.uses - ranking1.uses;
+  };
 }
 
-function fastMoveSort(moves) {
+function fastMoveSortByName(moves) {
   return (m1, m2) => {
     const move1 = moves[m1];
     const move2 = moves[m2];
@@ -169,7 +183,14 @@ function fastMoveSort(moves) {
   };
 }
 
-function chargedMoveSort(moves) {
+function getChargedMoveIds(data, moves) {
+  return data.chargedMoves
+    .filter((id) => !moveExclusions.includes(id))
+    .concat(data.tags?.includes("shadoweligible") ? [RETURN] : [])
+    .sort(chargedMoveSortByName(moves));
+}
+
+function chargedMoveSortByName(moves) {
   return (m1, m2) => {
     const move1 = moves[m1];
     const move2 = moves[m2];
@@ -272,7 +293,27 @@ function buildHtml(data, resources) {
   });
 }
 
-function readJson(filename, idProperty, exclusions) {
+function readMoves() {
+  return readJson("moves.json", "moveId", moveExclusions);
+}
+
+function readPokemon() {
+  return readJson("pokemon.json", "speciesId", pokemonExclusions)
+    .filter((data) => !data.tags?.includes("shadow"))
+    .filter((data) => !data.tags?.includes("duplicate"));
+}
+
+function readRankings() {
+  const idProp = "speciesId";
+  return [
+    ...readJson("rankings-10000.json", idProp),
+    ...readJson("rankings-2500.json", idProp),
+    ...readJson("rankings-1500.json", idProp),
+    ...readJson("rankings-500.json", idProp),
+  ];
+}
+
+function readJson(filename, idProperty, exclusions = []) {
   const path = join(src, "data/pvpoke", filename);
   const json = JSON.parse(readFileSync(path)).map((data) => {
     const id = data[idProperty].toUpperCase();

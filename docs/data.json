@@ -22702,6 +22702,7 @@
         "SNARL",
         "VOLT_SWITCH"
       ],
+      "fastMovesTruncated": true,
       "chargedMoveIds": [
         "DRAGON_CLAW",
         "LOW_SWEEP",

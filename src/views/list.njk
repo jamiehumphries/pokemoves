@@ -55,12 +55,12 @@
   <script src="{{ resources['/js/theme.js'] }}"></script>
   <input id="search" type="text" placeholder="Search"  style="visibility: hidden;" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
   {% for pokemon in data.pokemon %}
-    {% set isMew = pokemon.name === "Mew" %}
+    {% set truncated = pokemon.fastMovesTruncated %}
     <h2 id="{{ pokemon | id }}" data-name="{{ pokemon.name | lower }}">
-      {{ pokemon.name }}{{ "*" if isMew }}
+      {{ pokemon.name }}{{ "*" if truncated }}
     </h2>
-    {% if isMew %}
-      <p>* Only some of Mew’s fast moves are shown.</p>
+    {% if truncated %}
+      <p>* Only some of {{ pokemon.name }}’s fast moves are shown.</p>
     {% endif %}
     <div class="leagues">
       {% for league in ["little", "great", "ultra", "master"] %}

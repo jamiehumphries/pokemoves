@@ -21013,7 +21013,7 @@
         "fairy"
       ],
       "fastMoveIds": [
-        "SPLASH"
+        "STRUGGLE"
       ],
       "chargedMoveIds": [
         "STRUGGLE"
@@ -63433,6 +63433,11 @@
         7,
         6,
         7
+      ]
+    },
+    "STRUGGLE": {
+      "STRUGGLE": [
+        -1
       ]
     },
     "STRUGGLE_BUG": {

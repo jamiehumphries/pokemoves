@@ -137,7 +137,9 @@
               {% set firstCount = (counts | first) %}
               <div>
                 {% for count in counts %}
-                  {% if count === firstCount %}
+                  {% if count === -1 %}
+                    —
+                  {% elif count === firstCount %}
                     {{ count }}
                   {%- else %}
                     <em>
@@ -148,10 +150,12 @@
                 {% endfor %}
               </div>
               <div class="deltas">
-                {% set extraEnergy = firstCount * fastMove.energyGain - chargedMove.energy %}
-                <small>
-                  Δ +{{ extraEnergy }} / -{{ fastMove.energyGain - extraEnergy }}
-                </small>
+                {% if firstCount !== -1 %}
+                  {% set extraEnergy = firstCount * fastMove.energyGain - chargedMove.energy %}
+                  <small>
+                    Δ +{{ extraEnergy }} / -{{ fastMove.energyGain - extraEnergy }}
+                  </small>
+                {% endif %}
               </div>
             </td>
           {% endfor %}

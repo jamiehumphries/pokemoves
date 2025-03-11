@@ -1,5 +1,4 @@
 export const RETURN = "RETURN";
-export const SPLASH = "SPLASH";
 
 export const MEW_FAST_MOVES = [
   "SHADOW_CLAW",

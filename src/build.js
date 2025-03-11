@@ -17,7 +17,6 @@ import {
   moveNameFixes,
   moveTypeFixes,
   RETURN,
-  SPLASH,
 } from "./data/adjustments/moves/fixes.js";
 import { pokemonExclusions } from "./data/adjustments/pokemon/exclusions.js";
 import {
@@ -152,7 +151,6 @@ function deduplicate(pokemon) {
 function getFastMoveIds(data, moves) {
   return (data.id === MEW ? MEW_FAST_MOVES : data.fastMoves)
     .filter((id) => !moveExclusions.includes(id))
-    .map((id) => (moves[id]?.energyGain === 0 ? SPLASH : id))
     .sort(fastMoveSort(moves));
 }
 
@@ -208,6 +206,11 @@ function buildCounts(pokemon, moves) {
 function getCounts(fastMove, chargedMove) {
   const cost = chargedMove.energy;
   const gain = fastMove.energyGain;
+
+  if (gain === 0) {
+    return [-1];
+  }
+
   const counts = [];
   let energy = 0;
   for (let n = 1; n <= 4; n++) {
@@ -215,6 +218,7 @@ function getCounts(fastMove, chargedMove) {
     counts.push(count);
     energy += count * gain - cost;
   }
+
   return counts;
 }
 

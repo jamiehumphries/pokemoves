@@ -1,0 +1,1 @@
+(()=>{let t="THEME",o=["dark","light"];function l(e){localStorage.setItem(t,e);for(let e of o)document.body.classList.remove(e);document.body.classList.add(e)}var e=localStorage.getItem(t);e&&l(e);for(let e of o)document.getElementById(`use-${e}-theme`).addEventListener("click",()=>l(e))})();

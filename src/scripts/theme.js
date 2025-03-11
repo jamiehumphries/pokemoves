@@ -4,7 +4,9 @@
 
   function useTheme(theme) {
     localStorage.setItem(THEME_KEY, theme);
-    themes.forEach((t) => document.body.classList.remove(t));
+    for (const theme of themes) {
+      document.body.classList.remove(theme);
+    }
     document.body.classList.add(theme);
   }
 
@@ -13,8 +15,8 @@
     useTheme(savedTheme);
   }
 
-  themes.forEach((theme) => {
+  for (const theme of themes) {
     const button = document.getElementById(`use-${theme}-theme`);
     button.addEventListener("click", () => useTheme(theme));
-  });
+  }
 })();

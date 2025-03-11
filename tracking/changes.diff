@@ -1,0 +1,130 @@
+diff --git a/docs/data.json b/docs/data.json
+index 0f41f6c..129f6e7 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -41155,54 +41155,54 @@
+     {
+       "name": "Zacian (Crowned Sword)",
+       "types": [
+         "fairy",
+         "steel"
+       ],
+       "fastMoveIds": [
+         "FIRE_FANG",
+         "METAL_CLAW",
+         "QUICK_ATTACK",
+         "SNARL"
+       ],
+       "chargedMoveIds": [
+         "CLOSE_COMBAT",
+         "WILD_CHARGE",
+         "IRON_HEAD",
+         "PLAY_ROUGH"
+       ],
+       "cmp": {
+         "little": {
+-          "rankOne": 85.6662164628504,
+-          "max": 88.73485705256445
++          "rankOne": 80.69146242472685,
++          "max": 84.79441814123838
+         },
+         "great": {
+-          "rankOne": 147.55481261014938,
+-          "max": 154.0403843164749
++          "rankOne": 139.33914294707768,
++          "max": 146.42418411387823
+         },
+         "ultra": {
+-          "rankOne": 190.75695714903563,
+-          "max": 199.72166520357106
++          "rankOne": 179.63262627811568,
++          "max": 189.7687584161757
+         },
+         "master": {
+-          "rankOne": 293.31910651922226,
+-          "max": 293.31910651922226
++          "rankOne": 262.04300582408905,
++          "max": 262.04300582408905
+         }
+       }
+     },
+     {
+       "name": "Zacian (Hero of Many Battles)",
+       "types": [
+         "fairy"
+       ],
+       "fastMoveIds": [
+         "FIRE_FANG",
+         "METAL_CLAW",
+         "QUICK_ATTACK",
+         "SNARL"
+       ],
+       "chargedMoveIds": [
+         "CLOSE_COMBAT",
+         "WILD_CHARGE",
+         "IRON_HEAD",
+         "PLAY_ROUGH"
+       ],
+@@ -41228,54 +41228,54 @@
+     {
+       "name": "Zamazenta (Crowned Shield)",
+       "types": [
+         "fighting",
+         "steel"
+       ],
+       "fastMoveIds": [
+         "ICE_FANG",
+         "METAL_CLAW",
+         "QUICK_ATTACK",
+         "SNARL"
+       ],
+       "chargedMoveIds": [
+         "CLOSE_COMBAT",
+         "CRUNCH",
+         "IRON_HEAD",
+         "MOONBLAST"
+       ],
+       "cmp": {
+         "little": {
+-          "rankOne": 72.5624710321425,
+-          "max": 72.85272091627107
++          "rankOne": 69.6599721908568,
++          "max": 71.40147149562821
+         },
+         "great": {
+-          "rankOne": 122.71395256475199,
+-          "max": 129.0950780981191
++          "rankOne": 119.51800167560577,
++          "max": 125.14063220822203
+         },
+         "ultra": {
+-          "rankOne": 158.41229540568574,
+-          "max": 166.6497347667814
++          "rankOne": 152.74164987005278,
++          "max": 161.99871955914688
+         },
+         "master": {
+-          "rankOne": 224.00450497865677,
+-          "max": 224.00450497865677
++          "rankOne": 207.94380462169647,
++          "max": 207.94380462169647
+         }
+       }
+     },
+     {
+       "name": "Zamazenta (Hero of Many Battles)",
+       "types": [
+         "fighting"
+       ],
+       "fastMoveIds": [
+         "ICE_FANG",
+         "METAL_CLAW",
+         "QUICK_ATTACK",
+         "SNARL"
+       ],
+       "chargedMoveIds": [
+         "CLOSE_COMBAT",
+         "CRUNCH",
+         "IRON_HEAD",
+         "MOONBLAST"
+       ],

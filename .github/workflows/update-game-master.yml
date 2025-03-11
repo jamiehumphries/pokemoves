@@ -25,7 +25,7 @@ jobs:
         run: cat tracking/checkpoint | xargs -I {} git diff -U20 {}:docs/data.json docs/data.json > tracking/changes.diff
       - name: Commit changes
         run: |
-          git config --global user.name "Pokémoves Bot"
-          git config --global user.email "bot@pokemoves.com"
+          git config user.name "Pokémoves Bot"
+          git config user.email "bot@pokemoves.com"
           git add --all
-          git diff --staged --quiet || git commit --message "Update data from Game Master" && git push
+          git diff --staged --quiet || git commit -m "Update data from Game Master" && git push

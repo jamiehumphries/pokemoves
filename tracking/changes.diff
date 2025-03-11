@@ -1,5 +1,5 @@
 diff --git a/docs/data.json b/docs/data.json
-index f52fb83..a1a58ce 100644
+index f52fb83..0f41f6c 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -1171,439 +1171,439 @@
@@ -468,7 +468,92 @@ index f52fb83..a1a58ce 100644
            "max": 125.96432662010182
          },
          "ultra": {
-@@ -23114,104 +23114,104 @@
+@@ -20996,41 +20996,41 @@
+           "rankOne": 108.66881900837122,
+           "max": 119.51400167513145
+         },
+         "ultra": {
+           "rankOne": 130.17620289325714,
+           "max": 130.17620289325714
+         },
+         "master": {
+           "rankOne": 130.17620289325714,
+           "max": 130.17620289325714
+         }
+       }
+     },
+     {
+       "name": "Magearna",
+       "types": [
+         "steel",
+         "fairy"
+       ],
+       "fastMoveIds": [
+-        "SPLASH"
++        "STRUGGLE"
+       ],
+       "chargedMoveIds": [
+         "STRUGGLE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 75.29011580860015,
+           "max": 78.96280438462944
+         },
+         "great": {
+           "rankOne": 129.38185715774694,
+           "max": 137.27099478931686
+         },
+         "ultra": {
+           "rankOne": 167.56657040119157,
+           "max": 177.10287928581224
+         },
+         "master": {
+           "rankOne": 220.62330490350723,
+           "max": 220.62330490350723
+@@ -22685,40 +22685,41 @@
+         },
+         "master": {
+           "rankOne": 50.71800112724304,
+           "max": 50.71800112724304
+         }
+       }
+     },
+     {
+       "name": "Mew",
+       "types": [
+         "psychic"
+       ],
+       "fastMoveIds": [
+         "DRAGON_TAIL",
+         "INFESTATION",
+         "POISON_JAB",
+         "SHADOW_CLAW",
+         "SNARL",
+         "VOLT_SWITCH"
+       ],
++      "fastMovesTruncated": true,
+       "chargedMoveIds": [
+         "DRAGON_CLAW",
+         "LOW_SWEEP",
+         "PSYSHOCK",
+         "ANCIENT_POWER",
+         "BULLDOZE",
+         "ROCK_SLIDE",
+         "SURF",
+         "WILD_CHARGE",
+         "DARK_PULSE",
+         "FLAME_CHARGE",
+         "GRASS_KNOT",
+         "DAZZLING_GLEAM",
+         "ENERGY_BALL",
+         "ICE_BEAM",
+         "OVERHEAT",
+         "PSYCHIC",
+         "STONE_EDGE",
+         "THUNDERBOLT",
+         "GYRO_BALL",
+@@ -23114,104 +23115,104 @@
        "cmp": {
          "little": {
            "rankOne": 63.46293440356229,
@@ -591,3 +676,49 @@ index f52fb83..a1a58ce 100644
        ],
        "cmp": {
          "little": {
+@@ -63418,40 +63419,45 @@
+       ],
+       "TRAILBLAZE": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "TWISTER": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "X_SCISSOR": [
+         7,
+         7,
+         6,
+         7
+       ]
+     },
++    "STRUGGLE": {
++      "STRUGGLE": [
++        -1
++      ]
++    },
+     "STRUGGLE_BUG": {
+       "AERIAL_ACE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "AIR_CUTTER": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "ANCIENT_POWER": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "AQUA_JET": [

@@ -1188,39 +1188,6 @@
       }
     },
     {
-      "name": "Arceus",
-      "types": [
-        "normal"
-      ],
-      "fastMoveIds": [
-        "IRON_TAIL",
-        "SHADOW_CLAW"
-      ],
-      "chargedMoveIds": [
-        "OUTRAGE",
-        "FUTURE_SIGHT",
-        "HYPER_BEAM"
-      ],
-      "cmp": {
-        "little": {
-          "rankOne": 69.07947242259966,
-          "max": 72.5624710321425
-        },
-        "great": {
-          "rankOne": 118.96630847454061,
-          "max": 125.96432662010182
-        },
-        "ultra": {
-          "rankOne": 154.12426926579414,
-          "max": 162.54282178871566
-        },
-        "master": {
-          "rankOne": 213.86090475320816,
-          "max": 213.86090475320816
-        }
-      }
-    },
-    {
       "name": "Arceus (Bug)",
       "types": [
         "bug"
@@ -1587,6 +1554,39 @@
       "name": "Arceus (Ice)",
       "types": [
         "ice"
+      ],
+      "fastMoveIds": [
+        "IRON_TAIL",
+        "SHADOW_CLAW"
+      ],
+      "chargedMoveIds": [
+        "OUTRAGE",
+        "FUTURE_SIGHT",
+        "HYPER_BEAM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 69.07947242259966,
+          "max": 72.5624710321425
+        },
+        "great": {
+          "rankOne": 118.96630847454061,
+          "max": 125.96432662010182
+        },
+        "ultra": {
+          "rankOne": 154.12426926579414,
+          "max": 162.54282178871566
+        },
+        "master": {
+          "rankOne": 213.86090475320816,
+          "max": 213.86090475320816
+        }
+      }
+    },
+    {
+      "name": "Arceus (Normal)",
+      "types": [
+        "normal"
       ],
       "fastMoveIds": [
         "IRON_TAIL",
@@ -23131,40 +23131,6 @@
       }
     },
     {
-      "name": "Minior",
-      "types": [
-        "rock",
-        "flying"
-      ],
-      "fastMoveIds": [
-        "ROLLOUT",
-        "TAKE_DOWN"
-      ],
-      "chargedMoveIds": [
-        "ANCIENT_POWER",
-        "POWER_GEM",
-        "ACROBATICS"
-      ],
-      "cmp": {
-        "little": {
-          "rankOne": 55.87545454502101,
-          "max": 60.93135403448482
-        },
-        "great": {
-          "rankOne": 96.31479692459106,
-          "max": 106.4773023712484
-        },
-        "ultra": {
-          "rankOne": 110.73430246114731,
-          "max": 110.73430246114731
-        },
-        "master": {
-          "rankOne": 110.73430246114731,
-          "max": 110.73430246114731
-        }
-      }
-    },
-    {
       "name": "Minior (Core)",
       "types": [
         "rock",
@@ -23195,6 +23161,40 @@
         "master": {
           "rankOne": 196.95490437746048,
           "max": 196.95490437746048
+        }
+      }
+    },
+    {
+      "name": "Minior (Meteor)",
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "fastMoveIds": [
+        "ROLLOUT",
+        "TAKE_DOWN"
+      ],
+      "chargedMoveIds": [
+        "ANCIENT_POWER",
+        "POWER_GEM",
+        "ACROBATICS"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 55.87545454502101,
+          "max": 60.93135403448482
+        },
+        "great": {
+          "rankOne": 96.31479692459106,
+          "max": 106.4773023712484
+        },
+        "ultra": {
+          "rankOne": 110.73430246114731,
+          "max": 110.73430246114731
+        },
+        "master": {
+          "rankOne": 110.73430246114731,
+          "max": 110.73430246114731
         }
       }
     },

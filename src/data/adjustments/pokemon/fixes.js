@@ -32,9 +32,9 @@ export const pokemonNameFixes = {
   BURMY_PLANT: "Burmy",
   DARMANITAN_STANDARD: "Darmanitan",
   KELDEO_ORDINARY: "Keldeo",
-  MINIOR_METEOR: "Minior",
 
   // Added form name
+  ARCEUS: "Arceus (Normal)",
   CASTFORM: "Castform (Normal)",
   DEOXYS: "Deoxys (Normal)",
   EISCUE: "Eiscue (Ice Face)",

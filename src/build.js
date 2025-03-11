@@ -334,9 +334,12 @@ env.addFilter("effectivenessSummary", (power, type) => {
 
 env.addFilter("id", (pokemon) => {
   return pokemon.name
+    .normalize("NFD")
+    .replaceAll(/\p{Diacritic}/gu, "")
     .replaceAll("♂", "-m")
     .replaceAll("♀", "-f")
-    .replaceAll(/[^A-Za-z0-9]+/g, "-")
+    .replaceAll(" ", "-")
+    .replaceAll(/[^A-Za-z0-9-]+/g, "")
     .replaceAll(/(?:^-|-$)/g, "")
     .toLowerCase();
 });

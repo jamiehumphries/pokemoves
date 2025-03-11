@@ -276,7 +276,7 @@ function readJson(filename, idProperty, exclusions) {
   });
 
   const unnecessaryExclusions = exclusions.filter(
-    (exclusion) => !json.find((pokemon) => pokemon.id === exclusion),
+    (exclusion) => !json.find((data) => data.id === exclusion),
   );
 
   for (const exclusion of unnecessaryExclusions) {

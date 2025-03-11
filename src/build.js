@@ -113,28 +113,28 @@ function buildPokemon() {
     console.warn(`${exclusion} is already excluded`);
   }
 
-  const entries = json
+  const all = json
     .filter((data) => !exclusions.includes(data.id))
     .filter((data) => !data.tags?.includes("shadow"))
     .filter((data) => !data.tags?.includes("duplicate"))
-    .map((data) => [
-      data.id,
-      {
-        id: data.id,
-        dex: data.dex,
-        name: data.speciesName,
-        types: data.types.filter((type) => type != "none"),
-        fastMoveIds: getFastMoveIds(data),
-        chargedMoveIds: getChargedMoveIds(data),
-        stats: data.baseStats,
-      },
-    ]);
+    .map((data) => ({
+      id: data.id,
+      dex: data.dex,
+      name: data.speciesName,
+      types: data.types.filter((type) => type !== "none"),
+      fastMoveIds: getFastMoveIds(data),
+      chargedMoveIds: getChargedMoveIds(data),
+      stats: data.baseStats,
+    }));
 
+  const deduplicated = deduplicate(all);
+
+  const entries = deduplicated.map((p) => [p.id, p]);
   const pokemon = Object.fromEntries(entries);
   fixPokemonNames(pokemon);
-  fixTypes(pokemon);
+  fixPokemonTypes(pokemon);
 
-  return deduplicate(Object.values(pokemon));
+  return Object.values(pokemon);
 }
 
 function getFastMoveIds(data) {
@@ -293,8 +293,8 @@ function fixNames(data, fixes) {
   fixProperty("name", data, fixes);
 }
 
-function fixTypes(types) {
-  fixProperty("types", types, typeFixes);
+function fixPokemonTypes(pokemon) {
+  fixProperty("types", pokemon, typeFixes);
 }
 
 function fixProperty(property, data, fixes) {

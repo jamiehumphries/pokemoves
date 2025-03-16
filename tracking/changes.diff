@@ -1,0 +1,129 @@
+diff --git a/docs/data.json b/docs/data.json
+index 129f6e7..12229db 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -103,75 +103,77 @@
+         "ultra": {
+           "rankOne": 177.51300394535065,
+           "max": 177.51300394535065
+         },
+         "master": {
+           "rankOne": 177.51300394535065,
+           "max": 177.51300394535065
+         }
+       }
+     },
+     {
+       "name": "Absol",
+       "types": [
+         "dark"
+       ],
+       "fastMoveIds": [
+         "PSYCHO_CUT",
+         "SNARL"
+       ],
+       "chargedMoveIds": [
++        "BRUTAL_SWING",
+         "DARK_PULSE",
+         "MEGAHORN",
+         "PAYBACK",
+         "THUNDER",
+         "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 89.16460619958234,
+           "max": 95.3098391890524
+         },
+         "great": {
+           "rankOne": 154.13551282882676,
+           "max": 167.21042114496214
+         },
+         "ultra": {
+           "rankOne": 199.33379817008964,
+           "max": 215.40329432487474
+         },
+         "master": {
+           "rankOne": 220.62330490350723,
+           "max": 220.62330490350723
+         }
+       }
+     },
+     {
+       "name": "Absol (Mega)",
+       "types": [
+         "dark"
+       ],
+       "fastMoveIds": [
+         "PSYCHO_CUT",
+         "SNARL"
+       ],
+       "chargedMoveIds": [
++        "BRUTAL_SWING",
+         "DARK_PULSE",
+         "MEGAHORN",
+         "PAYBACK",
+         "THUNDER",
+         "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 100.82150602340693,
+           "max": 105.63782000541681
+         },
+         "great": {
+           "rankOne": 172.55817238925226,
+           "max": 183.85526721513062
+         },
+         "ultra": {
+           "rankOne": 221.96164047718045,
+           "max": 236.68230211734772
+         },
+         "master": {
+@@ -58788,40 +58790,46 @@
+         6
+       ],
+       "AURORA_BEAM": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "BODY_SLAM": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "BRAVE_BIRD": [
+         7,
+         6,
+         6,
+         6
+       ],
++      "BRUTAL_SWING": [
++        4,
++        4,
++        4,
++        4
++      ],
+       "CLOSE_COMBAT": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "DARK_PULSE": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "DAZZLING_GLEAM": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "DIG": [
+         6,

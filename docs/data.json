@@ -120,6 +120,7 @@
         "SNARL"
       ],
       "chargedMoveIds": [
+        "BRUTAL_SWING",
         "DARK_PULSE",
         "MEGAHORN",
         "PAYBACK",
@@ -155,6 +156,7 @@
         "SNARL"
       ],
       "chargedMoveIds": [
+        "BRUTAL_SWING",
         "DARK_PULSE",
         "MEGAHORN",
         "PAYBACK",
@@ -58804,6 +58806,12 @@
         6,
         6,
         6
+      ],
+      "BRUTAL_SWING": [
+        4,
+        4,
+        4,
+        4
       ],
       "CLOSE_COMBAT": [
         5,

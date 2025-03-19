@@ -6,7 +6,7 @@ export function getEffectivenessStages(type) {
     case "ground":
     case "poison":
     case "psychic":
-    case "unknown":
+    case "hidden":
       return [-3, -2, -1, 0, 1, 2];
     case "dragon":
       return [-3, -2, -1, 0, 1];

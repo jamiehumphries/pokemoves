@@ -8,8 +8,6 @@ export const pokemonExclusions = [
 
   // Duplicated base forms
   "URSHIFU",
-  "ZACIAN",
-  "ZAMAZENTA",
 
   // Pikachu variants
   "PIKACHU_FLYING",

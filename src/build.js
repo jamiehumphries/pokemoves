@@ -39,13 +39,11 @@ const MAX_FAST_MOVES = 6;
 
 async function build() {
   const data = buildData();
-
   const json = JSON.stringify(data, null, 2);
   writeFileSync(join(root, "data.json"), json);
 
   const css = buildCss();
   const js = buildJs();
-
   const resources = {
     ...writeCacheBustedFiles("css", css),
     ...writeCacheBustedFiles("js", js),

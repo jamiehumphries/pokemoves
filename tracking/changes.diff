@@ -1,0 +1,246 @@
+diff --git a/docs/data.json b/docs/data.json
+index 12229db..7670297 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -36480,40 +36480,147 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 71.76663425820043,
+           "max": 75.75366949476711
+         },
+         "great": {
+           "rankOne": 122.64201389207791,
+           "max": 131.93307555056867
+         },
+         "ultra": {
+           "rankOne": 158.45940041542045,
+           "max": 170.9972290647664
+         },
+         "master": {
+           "rankOne": 180.0489040017128,
+           "max": 180.0489040017128
+         }
+       }
+     },
++    {
++      "name": "Tauros (Aqua)",
++      "types": [
++        "fighting",
++        "water"
++      ],
++      "fastMoveIds": [
++        "DOUBLE_KICK",
++        "TACKLE",
++        "ZEN_HEADBUTT"
++      ],
++      "chargedMoveIds": [
++        "AQUA_JET",
++        "TRAILBLAZE",
++        "IRON_HEAD",
++        "EARTHQUAKE"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 73.33466202020637,
++          "max": 76.47757610678664
++        },
++        "great": {
++          "rankOne": 125.45400202274311,
++          "max": 134.41500216722477
++        },
++        "ultra": {
++          "rankOne": 161.1534047126768,
++          "max": 173.31688664360775
++        },
++        "master": {
++          "rankOne": 190.1925042271614,
++          "max": 190.1925042271614
++        }
++      }
++    },
++    {
++      "name": "Tauros (Blaze)",
++      "types": [
++        "fighting",
++        "fire"
++      ],
++      "fastMoveIds": [
++        "DOUBLE_KICK",
++        "TACKLE",
++        "ZEN_HEADBUTT"
++      ],
++      "chargedMoveIds": [
++        "TRAILBLAZE",
++        "FLAME_CHARGE",
++        "IRON_HEAD",
++        "EARTHQUAKE"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 73.33466202020637,
++          "max": 76.47757610678664
++        },
++        "great": {
++          "rankOne": 125.45400202274311,
++          "max": 134.41500216722477
++        },
++        "ultra": {
++          "rankOne": 161.1534047126768,
++          "max": 173.31688664360775
++        },
++        "master": {
++          "rankOne": 190.1925042271614,
++          "max": 190.1925042271614
++        }
++      }
++    },
++    {
++      "name": "Tauros (Combat)",
++      "types": [
++        "fighting"
++      ],
++      "fastMoveIds": [
++        "DOUBLE_KICK",
++        "TACKLE",
++        "ZEN_HEADBUTT"
++      ],
++      "chargedMoveIds": [
++        "CLOSE_COMBAT",
++        "TRAILBLAZE",
++        "IRON_HEAD",
++        "EARTHQUAKE"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 73.33466202020637,
++          "max": 76.47757610678664
++        },
++        "great": {
++          "rankOne": 125.45400202274311,
++          "max": 134.41500216722477
++        },
++        "ultra": {
++          "rankOne": 161.1534047126768,
++          "max": 173.31688664360775
++        },
++        "master": {
++          "rankOne": 190.1925042271614,
++          "max": 190.1925042271614
++        }
++      }
++    },
+     {
+       "name": "Teddiursa",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
+         "LICK",
+         "SCRATCH"
+       ],
+       "chargedMoveIds": [
+         "CROSS_CHOP",
+         "SWIFT",
+         "CRUNCH",
+         "TRAILBLAZE",
+         "PLAY_ROUGH",
+         "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 72.23564948604687,
+@@ -48930,40 +49037,46 @@
+       "SEED_BOMB": [
+         23,
+         22,
+         23,
+         22
+       ],
+       "X_SCISSOR": [
+         20,
+         20,
+         20,
+         20
+       ]
+     },
+     "DOUBLE_KICK": {
+       "AERIAL_ACE": [
+         4,
+         3,
+         3,
+         4
+       ],
++      "AQUA_JET": [
++        4,
++        3,
++        3,
++        4
++      ],
+       "BLAST_BURN": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "BLAZE_KICK": [
+         4,
+         3,
+         3,
+         4
+       ],
+       "BODY_SLAM": [
+         3,
+         3,
+         3,
+         3
+       ],
+       "BRAVE_BIRD": [
+         5,
+@@ -67323,40 +67436,46 @@
+     },
+     "ZEN_HEADBUTT": {
+       "AERIAL_ACE": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "AIR_CUTTER": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "ANCIENT_POWER": [
+         8,
+         7,
+         8,
+         7
+       ],
++      "AQUA_JET": [
++        7,
++        7,
++        6,
++        7
++      ],
+       "AQUA_TAIL": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "BLAST_BURN": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "BLIZZARD": [
+         13,
+         12,
+         13,
+         12
+       ],
+       "BODY_SLAM": [
+         6,

@@ -36498,6 +36498,113 @@
       }
     },
     {
+      "name": "Tauros (Aqua)",
+      "types": [
+        "fighting",
+        "water"
+      ],
+      "fastMoveIds": [
+        "DOUBLE_KICK",
+        "TACKLE",
+        "ZEN_HEADBUTT"
+      ],
+      "chargedMoveIds": [
+        "AQUA_JET",
+        "TRAILBLAZE",
+        "IRON_HEAD",
+        "EARTHQUAKE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 73.33466202020637,
+          "max": 76.47757610678664
+        },
+        "great": {
+          "rankOne": 125.45400202274311,
+          "max": 134.41500216722477
+        },
+        "ultra": {
+          "rankOne": 161.1534047126768,
+          "max": 173.31688664360775
+        },
+        "master": {
+          "rankOne": 190.1925042271614,
+          "max": 190.1925042271614
+        }
+      }
+    },
+    {
+      "name": "Tauros (Blaze)",
+      "types": [
+        "fighting",
+        "fire"
+      ],
+      "fastMoveIds": [
+        "DOUBLE_KICK",
+        "TACKLE",
+        "ZEN_HEADBUTT"
+      ],
+      "chargedMoveIds": [
+        "TRAILBLAZE",
+        "FLAME_CHARGE",
+        "IRON_HEAD",
+        "EARTHQUAKE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 73.33466202020637,
+          "max": 76.47757610678664
+        },
+        "great": {
+          "rankOne": 125.45400202274311,
+          "max": 134.41500216722477
+        },
+        "ultra": {
+          "rankOne": 161.1534047126768,
+          "max": 173.31688664360775
+        },
+        "master": {
+          "rankOne": 190.1925042271614,
+          "max": 190.1925042271614
+        }
+      }
+    },
+    {
+      "name": "Tauros (Combat)",
+      "types": [
+        "fighting"
+      ],
+      "fastMoveIds": [
+        "DOUBLE_KICK",
+        "TACKLE",
+        "ZEN_HEADBUTT"
+      ],
+      "chargedMoveIds": [
+        "CLOSE_COMBAT",
+        "TRAILBLAZE",
+        "IRON_HEAD",
+        "EARTHQUAKE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 73.33466202020637,
+          "max": 76.47757610678664
+        },
+        "great": {
+          "rankOne": 125.45400202274311,
+          "max": 134.41500216722477
+        },
+        "ultra": {
+          "rankOne": 161.1534047126768,
+          "max": 173.31688664360775
+        },
+        "master": {
+          "rankOne": 190.1925042271614,
+          "max": 190.1925042271614
+        }
+      }
+    },
+    {
       "name": "Teddiursa",
       "types": [
         "normal"
@@ -48942,6 +49049,12 @@
     },
     "DOUBLE_KICK": {
       "AERIAL_ACE": [
+        4,
+        3,
+        3,
+        4
+      ],
+      "AQUA_JET": [
         4,
         3,
         3,
@@ -67338,6 +67451,12 @@
         8,
         7,
         8,
+        7
+      ],
+      "AQUA_JET": [
+        7,
+        7,
+        6,
         7
       ],
       "AQUA_TAIL": [

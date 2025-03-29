@@ -1,8 +1,120 @@
 diff --git a/docs/data.json b/docs/data.json
-index 12229db..7670297 100644
+index 12229db..a5f962c 100644
 --- a/docs/data.json
 +++ b/docs/data.json
-@@ -36480,40 +36480,147 @@
+@@ -7985,40 +7985,111 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 87.33582687377925,
+           "max": 91.57649381655602
+         },
+         "great": {
+           "rankOne": 149.056438744068,
+           "max": 159.7302231549154
+         },
+         "ultra": {
+           "rankOne": 192.43710082769388,
+           "max": 206.0296733379363
+         },
+         "master": {
+           "rankOne": 234.99340522289276,
+           "max": 234.99340522289276
+         }
+       }
+     },
++    {
++      "name": "Darmanitan (Galarian) (Zen)",
++      "types": [
++        "ice",
++        "fire"
++      ],
++      "fastMoveIds": [
++        "ICE_FANG",
++        "TACKLE"
++      ],
++      "chargedMoveIds": [
++        "ICE_PUNCH",
++        "SUPER_POWER",
++        "AVALANCHE",
++        "OVERHEAT"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 93.7507125735281,
++          "max": 98.10446083545666
++        },
++        "great": {
++          "rankOne": 162.45399266481385,
++          "max": 171.9411938470693
++        },
++        "ultra": {
++          "rankOne": 209.1686511464349,
++          "max": 222.83089180176532
++        },
++        "master": {
++          "rankOne": 285.7114063501358,
++          "max": 285.7114063501358
++        }
++      }
++    },
++    {
++      "name": "Darmanitan (Zen)",
++      "types": [
++        "fire",
++        "psychic"
++      ],
++      "fastMoveIds": [
++        "FIRE_FANG",
++        "INCINERATE",
++        "TACKLE"
++      ],
++      "chargedMoveIds": [
++        "ROCK_SLIDE",
++        "OVERHEAT",
++        "PSYCHIC",
++        "FOCUS_BLAST"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 74.37194366459283,
++          "max": 75.29011580860015
++        },
++        "great": {
++          "rankOne": 125.7267290353775,
++          "max": 133.48763823509216
++        },
++        "ultra": {
++          "rankOne": 162.30796211957932,
++          "max": 172.32697212696075
++        },
++        "master": {
++          "rankOne": 218.08740484714508,
++          "max": 218.08740484714508
++        }
++      }
++    },
+     {
+       "name": "Dartrix",
+       "types": [
+         "grass",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "LEAFAGE",
+         "MAGICAL_LEAF",
+         "PECK",
+         "RAZOR_LEAF"
+       ],
+       "chargedMoveIds": [
+         "SEED_BOMB",
+         "BRAVE_BIRD",
+         "ENERGY_BALL"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 64.25059407949448,
+@@ -36480,40 +36551,147 @@
        ],
        "cmp": {
          "little": {
@@ -24,7 +136,7 @@ index 12229db..7670297 100644
        }
      },
 +    {
-+      "name": "Tauros (Aqua)",
++      "name": "Tauros (Paldean) (Aqua Breed)",
 +      "types": [
 +        "fighting",
 +        "water"
@@ -60,7 +172,7 @@ index 12229db..7670297 100644
 +      }
 +    },
 +    {
-+      "name": "Tauros (Blaze)",
++      "name": "Tauros (Paldean) (Blaze Breed)",
 +      "types": [
 +        "fighting",
 +        "fire"
@@ -96,7 +208,7 @@ index 12229db..7670297 100644
 +      }
 +    },
 +    {
-+      "name": "Tauros (Combat)",
++      "name": "Tauros (Paldean) (Combat Breed)",
 +      "types": [
 +        "fighting"
 +      ],
@@ -150,7 +262,7 @@ index 12229db..7670297 100644
        "cmp": {
          "little": {
            "rankOne": 72.23564948604687,
-@@ -48930,40 +49037,46 @@
+@@ -48930,40 +49108,46 @@
        "SEED_BOMB": [
          23,
          22,
@@ -197,7 +309,7 @@ index 12229db..7670297 100644
        ],
        "BRAVE_BIRD": [
          5,
-@@ -67323,40 +67436,46 @@
+@@ -67323,40 +67507,46 @@
      },
      "ZEN_HEADBUTT": {
        "AERIAL_ACE": [

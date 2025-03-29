@@ -45,6 +45,7 @@ export const pokemonNameFixes = {
   ZYGARDE: "Zygarde (50%)",
 
   // Modified form name
+  DARMANITAN_GALARIAN_ZEN: "Darmanitan (Galarian) (Zen)",
   EISCUE_NOICE: "Eiscue (Noice Face)",
   GOURGEIST_AVERAGE: "Gourgeist (Average Size)",
   GOURGEIST_LARGE: "Gourgeist (Large Size)",
@@ -56,6 +57,9 @@ export const pokemonNameFixes = {
   PUMPKABOO_LARGE: "Pumpkaboo (Large Size)",
   PUMPKABOO_SMALL: "Pumpkaboo (Small Size)",
   PUMPKABOO_SUPER: "Pumpkaboo (Super Size)",
+  TAUROS_AQUA: "Tauros (Paldean) (Aqua Breed)",
+  TAUROS_BLAZE: "Tauros (Paldean) (Blaze Breed)",
+  TAUROS_COMBAT: "Tauros (Paldean) (Combat Breed)",
   ZACIAN_HERO: "Zacian (Hero of Many Battles)",
   ZAMAZENTA_HERO: "Zamazenta (Hero of Many Battles)",
   ZYGARDE_10: "Zygarde (10%)",

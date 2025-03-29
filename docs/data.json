@@ -8003,6 +8003,77 @@
       }
     },
     {
+      "name": "Darmanitan (Galarian) (Zen)",
+      "types": [
+        "ice",
+        "fire"
+      ],
+      "fastMoveIds": [
+        "ICE_FANG",
+        "TACKLE"
+      ],
+      "chargedMoveIds": [
+        "ICE_PUNCH",
+        "SUPER_POWER",
+        "AVALANCHE",
+        "OVERHEAT"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 93.7507125735281,
+          "max": 98.10446083545666
+        },
+        "great": {
+          "rankOne": 162.45399266481385,
+          "max": 171.9411938470693
+        },
+        "ultra": {
+          "rankOne": 209.1686511464349,
+          "max": 222.83089180176532
+        },
+        "master": {
+          "rankOne": 285.7114063501358,
+          "max": 285.7114063501358
+        }
+      }
+    },
+    {
+      "name": "Darmanitan (Zen)",
+      "types": [
+        "fire",
+        "psychic"
+      ],
+      "fastMoveIds": [
+        "FIRE_FANG",
+        "INCINERATE",
+        "TACKLE"
+      ],
+      "chargedMoveIds": [
+        "ROCK_SLIDE",
+        "OVERHEAT",
+        "PSYCHIC",
+        "FOCUS_BLAST"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 74.37194366459283,
+          "max": 75.29011580860015
+        },
+        "great": {
+          "rankOne": 125.7267290353775,
+          "max": 133.48763823509216
+        },
+        "ultra": {
+          "rankOne": 162.30796211957932,
+          "max": 172.32697212696075
+        },
+        "master": {
+          "rankOne": 218.08740484714508,
+          "max": 218.08740484714508
+        }
+      }
+    },
+    {
       "name": "Dartrix",
       "types": [
         "grass",
@@ -36498,7 +36569,7 @@
       }
     },
     {
-      "name": "Tauros (Aqua)",
+      "name": "Tauros (Paldean) (Aqua Breed)",
       "types": [
         "fighting",
         "water"
@@ -36534,7 +36605,7 @@
       }
     },
     {
-      "name": "Tauros (Blaze)",
+      "name": "Tauros (Paldean) (Blaze Breed)",
       "types": [
         "fighting",
         "fire"
@@ -36570,7 +36641,7 @@
       }
     },
     {
-      "name": "Tauros (Combat)",
+      "name": "Tauros (Paldean) (Combat Breed)",
       "types": [
         "fighting"
       ],

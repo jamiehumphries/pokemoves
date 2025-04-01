@@ -9592,6 +9592,7 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "ROCK_BLAST",
+        "CRUNCH",
         "SURF"
       ],
       "cmp": {
@@ -11075,6 +11076,7 @@
       ],
       "chargedMoveIds": [
         "PSYSHOCK",
+        "DAZZLING_GLEAM",
         "PSYCHIC",
         "PSYBEAM"
       ],
@@ -13140,8 +13142,8 @@
         "SMACK_DOWN"
       ],
       "chargedMoveIds": [
+        "ROCK_BLAST",
         "ANCIENT_POWER",
-        "ROCK_SLIDE",
         "ROCK_TOMB"
       ],
       "cmp": {
@@ -14021,7 +14023,7 @@
         "SMACK_DOWN"
       ],
       "chargedMoveIds": [
-        "ROCK_SLIDE",
+        "POWER_GEM",
         "DAZZLING_GLEAM",
         "SLUDGE_WAVE"
       ],
@@ -14055,7 +14057,7 @@
         "SMACK_DOWN"
       ],
       "chargedMoveIds": [
-        "ROCK_SLIDE",
+        "POWER_GEM",
         "DAZZLING_GLEAM",
         "SLUDGE_WAVE"
       ],
@@ -24397,7 +24399,8 @@
       ],
       "fastMoveIds": [
         "QUICK_ATTACK",
-        "SNARL"
+        "SNARL",
+        "SUCKER_PUNCH"
       ],
       "chargedMoveIds": [
         "NIGHT_SLASH",
@@ -30669,6 +30672,7 @@
       ],
       "chargedMoveIds": [
         "BULLDOZE",
+        "WRAP",
         "DIG",
         "EARTH_POWER"
       ],
@@ -32403,6 +32407,7 @@
       ],
       "chargedMoveIds": [
         "BULLDOZE",
+        "WRAP",
         "DIG",
         "EARTH_POWER"
       ],
@@ -36860,7 +36865,8 @@
       ],
       "fastMoveIds": [
         "QUICK_ATTACK",
-        "SNARL"
+        "SNARL",
+        "SUCKER_PUNCH"
       ],
       "chargedMoveIds": [
         "NIGHT_SLASH",
@@ -37276,6 +37282,7 @@
       "chargedMoveIds": [
         "ACID_SPRAY",
         "SEED_BOMB",
+        "WRAP",
         "EARTH_POWER"
       ],
       "cmp": {
@@ -62442,6 +62449,12 @@
         7,
         8,
         7
+      ],
+      "POWER_GEM": [
+        7,
+        6,
+        6,
+        6
       ],
       "RETURN": [
         9,

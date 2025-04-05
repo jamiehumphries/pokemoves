@@ -1,0 +1,104 @@
+diff --git a/docs/data.json b/docs/data.json
+index 06c730e..0cfc346 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -2231,63 +2231,99 @@
+         "ultra": {
+           "rankOne": 170.29123008251176,
+           "max": 180.50870388746247
+         },
+         "master": {
+           "rankOne": 224.00450497865677,
+           "max": 224.00450497865677
+         }
+       }
+     },
+     {
+       "name": "Audino",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
+         "POUND",
+         "ZEN_HEADBUTT"
+       ],
+       "chargedMoveIds": [
++        "BODY_SLAM",
+         "DISARMING_VOICE",
+         "DAZZLING_GLEAM",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 52.75901609659194,
+           "max": 57.16087335348129
+         },
+         "great": {
+           "rankOne": 90.66420078277586,
+           "max": 99.74105912446966
+         },
+         "ultra": {
+           "rankOne": 109.04370242357254,
+           "max": 109.04370242357254
+         },
+         "master": {
+           "rankOne": 109.04370242357254,
+           "max": 109.04370242357254
+         }
+       }
+     },
++    {
++      "name": "Audino (Mega)",
++      "types": [
++        "normal",
++        "fairy"
++      ],
++      "fastMoveIds": [
++        "POUND",
++        "ZEN_HEADBUTT"
++      ],
++      "chargedMoveIds": [
++        "BODY_SLAM",
++        "DISARMING_VOICE",
++        "DAZZLING_GLEAM",
++        "HYPER_BEAM"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 55.15963134169568,
++          "max": 58.71815530216398
++        },
++        "great": {
++          "rankOne": 94.17598432302465,
++          "max": 101.50387430191032
++        },
++        "ultra": {
++          "rankOne": 121.31909680366508,
++          "max": 131.26859879493708
++        },
++        "master": {
++          "rankOne": 136.9386030435562,
++          "max": 136.9386030435562
++        }
++      }
++    },
+     {
+       "name": "Aurorus",
+       "types": [
+         "rock",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "FROST_BREATH",
+         "POWDER_SNOW",
+         "ROCK_THROW"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_ICE",
+         "ANCIENT_POWER",
+         "THUNDERBOLT",
+         "METEOR_BEAM",
+         "BLIZZARD",
+         "HYPER_BEAM"
+       ],
+       "cmp": {

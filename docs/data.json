@@ -2248,6 +2248,7 @@
         "ZEN_HEADBUTT"
       ],
       "chargedMoveIds": [
+        "BODY_SLAM",
         "DISARMING_VOICE",
         "DAZZLING_GLEAM",
         "HYPER_BEAM"
@@ -2268,6 +2269,41 @@
         "master": {
           "rankOne": 109.04370242357254,
           "max": 109.04370242357254
+        }
+      }
+    },
+    {
+      "name": "Audino (Mega)",
+      "types": [
+        "normal",
+        "fairy"
+      ],
+      "fastMoveIds": [
+        "POUND",
+        "ZEN_HEADBUTT"
+      ],
+      "chargedMoveIds": [
+        "BODY_SLAM",
+        "DISARMING_VOICE",
+        "DAZZLING_GLEAM",
+        "HYPER_BEAM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 55.15963134169568,
+          "max": 58.71815530216398
+        },
+        "great": {
+          "rankOne": 94.17598432302465,
+          "max": 101.50387430191032
+        },
+        "ultra": {
+          "rankOne": 121.31909680366508,
+          "max": 131.26859879493708
+        },
+        "master": {
+          "rankOne": 136.9386030435562,
+          "max": 136.9386030435562
         }
       }
     },

@@ -37144,7 +37144,6 @@
         "ROCK_SMASH"
       ],
       "chargedMoveIds": [
-        "BRUTAL_SWING",
         "PLAY_ROUGH",
         "FLASH_CANNON"
       ],
@@ -37178,7 +37177,7 @@
         "ROCK_SMASH"
       ],
       "chargedMoveIds": [
-        "BRUTAL_SWING",
+        "BULLDOZE",
         "HEAVY_SLAM",
         "PLAY_ROUGH",
         "FLASH_CANNON"
@@ -37213,7 +37212,6 @@
         "ROCK_SMASH"
       ],
       "chargedMoveIds": [
-        "BRUTAL_SWING",
         "PLAY_ROUGH",
         "FLASH_CANNON"
       ],
@@ -41382,33 +41380,31 @@
         "steel"
       ],
       "fastMoveIds": [
-        "FIRE_FANG",
-        "METAL_CLAW",
-        "QUICK_ATTACK",
-        "SNARL"
+        "AIR_SLASH",
+        "METAL_CLAW"
       ],
       "chargedMoveIds": [
         "CLOSE_COMBAT",
-        "WILD_CHARGE",
-        "IRON_HEAD",
-        "PLAY_ROUGH"
+        "BEHEMOTH_BLADE",
+        "PLAY_ROUGH",
+        "GIGA_IMPACT"
       ],
       "cmp": {
         "little": {
-          "rankOne": 80.69146242472685,
-          "max": 84.79441814123838
+          "rankOne": 85.6662164628504,
+          "max": 88.73485705256445
         },
         "great": {
-          "rankOne": 139.33914294707768,
-          "max": 146.42418411387823
+          "rankOne": 147.55481261014938,
+          "max": 154.0403843164749
         },
         "ultra": {
-          "rankOne": 179.63262627811568,
-          "max": 189.7687584161757
+          "rankOne": 190.75695714903563,
+          "max": 199.72166520357106
         },
         "master": {
-          "rankOne": 262.04300582408905,
-          "max": 262.04300582408905
+          "rankOne": 293.31910651922226,
+          "max": 293.31910651922226
         }
       }
     },
@@ -41456,32 +41452,30 @@
       ],
       "fastMoveIds": [
         "ICE_FANG",
-        "METAL_CLAW",
-        "QUICK_ATTACK",
-        "SNARL"
+        "METAL_CLAW"
       ],
       "chargedMoveIds": [
+        "BEHEMOTH_BASH",
         "CLOSE_COMBAT",
-        "CRUNCH",
-        "IRON_HEAD",
-        "MOONBLAST"
+        "MOONBLAST",
+        "GIGA_IMPACT"
       ],
       "cmp": {
         "little": {
-          "rankOne": 69.6599721908568,
-          "max": 71.40147149562821
+          "rankOne": 72.5624710321425,
+          "max": 72.85272091627107
         },
         "great": {
-          "rankOne": 119.51800167560577,
-          "max": 125.14063220822203
+          "rankOne": 122.71395256475199,
+          "max": 129.0950780981191
         },
         "ultra": {
-          "rankOne": 152.74164987005278,
-          "max": 161.99871955914688
+          "rankOne": 158.41229540568574,
+          "max": 166.6497347667814
         },
         "master": {
-          "rankOne": 207.94380462169647,
-          "max": 207.94380462169647
+          "rankOne": 224.00450497865677,
+          "max": 224.00450497865677
         }
       }
     },
@@ -42207,6 +42201,22 @@
       "energy": 45,
       "energyGain": 0,
       "power": 90,
+      "turns": 1
+    },
+    "BEHEMOTH_BASH": {
+      "name": "Behemoth Bash",
+      "type": "steel",
+      "energy": 45,
+      "energyGain": 0,
+      "power": 80,
+      "turns": 1
+    },
+    "BEHEMOTH_BLADE": {
+      "name": "Behemoth Blade",
+      "type": "steel",
+      "energy": 55,
+      "energyGain": 0,
+      "power": 100,
       "turns": 1
     },
     "BITE": {
@@ -44794,6 +44804,12 @@
         6,
         6
       ],
+      "BEHEMOTH_BLADE": [
+        7,
+        6,
+        6,
+        6
+      ],
       "BLAST_BURN": [
         6,
         6,
@@ -44944,6 +44960,12 @@
         7,
         7
       ],
+      "GIGA_IMPACT": [
+        9,
+        9,
+        9,
+        9
+      ],
       "GRASS_KNOT": [
         6,
         6,
@@ -45029,6 +45051,12 @@
         6
       ],
       "PAYBACK": [
+        7,
+        7,
+        6,
+        7
+      ],
+      "PLAY_ROUGH": [
         7,
         7,
         6,
@@ -50768,6 +50796,12 @@
         6,
         7
       ],
+      "BULLDOZE": [
+        5,
+        5,
+        5,
+        5
+      ],
       "DAZZLING_GLEAM": [
         7,
         6,
@@ -53280,6 +53314,12 @@
         8,
         7
       ],
+      "BEHEMOTH_BASH": [
+        8,
+        7,
+        8,
+        7
+      ],
       "BLIZZARD": [
         13,
         12,
@@ -53357,6 +53397,12 @@
         7,
         8,
         7
+      ],
+      "GIGA_IMPACT": [
+        14,
+        13,
+        13,
+        14
       ],
       "HYDRO_CANNON": [
         7,
@@ -55954,6 +56000,18 @@
         6,
         5
       ],
+      "BEHEMOTH_BASH": [
+        7,
+        6,
+        7,
+        6
+      ],
+      "BEHEMOTH_BLADE": [
+        8,
+        8,
+        8,
+        8
+      ],
       "BLIZZARD": [
         11,
         11,
@@ -56073,6 +56131,12 @@
         9,
         9,
         10
+      ],
+      "GIGA_IMPACT": [
+        12,
+        11,
+        12,
+        11
       ],
       "GUNK_SHOT": [
         11,

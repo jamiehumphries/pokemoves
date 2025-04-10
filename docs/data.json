@@ -15910,6 +15910,7 @@
       ],
       "chargedMoveIds": [
         "SUPER_POWER",
+        "UPPER_HAND",
         "CLOSE_COMBAT",
         "DYNAMIC_PUNCH",
         "HEAVY_SLAM",
@@ -16298,6 +16299,7 @@
       ],
       "chargedMoveIds": [
         "ROCK_BLAST",
+        "UPPER_HAND",
         "CLOSE_COMBAT",
         "MEGAHORN",
         "EARTHQUAKE"
@@ -16333,6 +16335,7 @@
       ],
       "chargedMoveIds": [
         "ROCK_BLAST",
+        "UPPER_HAND",
         "CLOSE_COMBAT",
         "MEGAHORN",
         "EARTHQUAKE"
@@ -31380,6 +31383,7 @@
         "BRICK_BREAK",
         "FOUL_PLAY",
         "THUNDER_PUNCH",
+        "UPPER_HAND",
         "ACID_SPRAY"
       ],
       "cmp": {
@@ -44275,6 +44279,14 @@
       "power": 45,
       "turns": 1
     },
+    "UPPER_HAND": {
+      "name": "Upper Hand",
+      "type": "fighting",
+      "energy": 40,
+      "energyGain": 0,
+      "power": 70,
+      "turns": 1
+    },
     "V_CREATE": {
       "name": "V-create",
       "type": "fire",
@@ -47028,6 +47040,12 @@
         7,
         6
       ],
+      "UPPER_HAND": [
+        6,
+        6,
+        6,
+        5
+      ],
       "X_SCISSOR": [
         6,
         6,
@@ -49112,6 +49130,12 @@
         8,
         7,
         8,
+        7
+      ],
+      "UPPER_HAND": [
+        7,
+        7,
+        6,
         7
       ],
       "WATER_PULSE": [
@@ -51356,6 +51380,12 @@
         8,
         7
       ],
+      "UPPER_HAND": [
+        7,
+        7,
+        6,
+        7
+      ],
       "WEATHER_BALL_FIRE": [
         6,
         6,
@@ -51999,6 +52029,12 @@
         4
       ],
       "THUNDER_PUNCH": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "UPPER_HAND": [
         4,
         4,
         4,
@@ -60846,6 +60882,12 @@
         7,
         6
       ],
+      "UPPER_HAND": [
+        6,
+        6,
+        6,
+        5
+      ],
       "VICE_GRIP": [
         6,
         6,
@@ -63974,6 +64016,12 @@
         6,
         5,
         6
+      ],
+      "UPPER_HAND": [
+        5,
+        5,
+        5,
+        5
       ],
       "WATER_PULSE": [
         7,

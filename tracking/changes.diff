@@ -1,0 +1,182 @@
+diff --git a/docs/data.json b/docs/data.json
+index ed92a34..eda1676 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -21363,40 +21363,41 @@
+           "max": 182.8450554770947
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+           "max": 213.86090475320816
+         }
+       }
+     },
+     {
+       "name": "Makuhita",
+       "types": [
+         "fighting"
+       ],
+       "fastMoveIds": [
+         "ROCK_SMASH",
+         "TACKLE"
+       ],
+       "chargedMoveIds": [
+         "CROSS_CHOP",
+         "LOW_SWEEP",
++        "UPPER_HAND",
+         "HEAVY_SLAM",
+         "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 66.1254660487175,
+           "max": 76.14447605609894
+         },
+         "great": {
+           "rankOne": 96.36420214176178,
+           "max": 96.36420214176178
+         },
+         "ultra": {
+           "rankOne": 96.36420214176178,
+           "max": 96.36420214176178
+         },
+         "master": {
+           "rankOne": 96.36420214176178,
+           "max": 96.36420214176178
+         }
+@@ -31331,40 +31332,41 @@
+         "master": {
+           "rankOne": 195.2643043398857,
+           "max": 195.2643043398857
+         }
+       }
+     },
+     {
+       "name": "Scrafty",
+       "types": [
+         "dark",
+         "fighting"
+       ],
+       "fastMoveIds": [
+         "COUNTER",
+         "SNARL"
+       ],
+       "chargedMoveIds": [
+         "POWER_UP_PUNCH",
+         "FOUL_PLAY",
+         "THUNDER_PUNCH",
++        "UPPER_HAND",
+         "ACID_SPRAY"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 63.17756300688239,
+           "max": 67.8286719399044
+         },
+         "great": {
+           "rankOne": 109.95684958440334,
+           "max": 117.69702890419651
+         },
+         "ultra": {
+           "rankOne": 143.70100319385529,
+           "max": 150.46340334415436
+         },
+         "master": {
+           "rankOne": 150.46340334415436,
+           "max": 150.46340334415436
+         }
+       }
+@@ -63135,40 +63137,46 @@
+         5
+       ],
+       "THUNDER_PUNCH": [
+         4,
+         3,
+         3,
+         3
+       ],
+       "THUNDERBOLT": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "TRIPLE_AXEL": [
+         4,
+         3,
+         4,
+         3
+       ],
++      "UPPER_HAND": [
++        4,
++        3,
++        3,
++        3
++      ],
+       "VICE_GRIP": [
+         4,
+         3,
+         3,
+         3
+       ],
+       "WATER_PULSE": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "WILD_CHARGE": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "X_SCISSOR": [
+         4,
+@@ -64970,40 +64978,46 @@
+         19
+       ],
+       "TRAILBLAZE": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "TRI_ATTACK": [
+         17,
+         17,
+         16,
+         17
+       ],
+       "TWISTER": [
+         15,
+         15,
+         15,
+         15
+       ],
++      "UPPER_HAND": [
++        14,
++        13,
++        13,
++        14
++      ],
+       "WATER_PULSE": [
+         19,
+         18,
+         18,
+         19
+       ],
+       "WEATHER_BALL_FIRE": [
+         12,
+         12,
+         11,
+         12
+       ],
+       "WEATHER_BALL_ICE": [
+         12,
+         12,
+         11,
+         12
+       ],
+       "WEATHER_BALL_NORMAL": [
+         12,

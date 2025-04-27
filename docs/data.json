@@ -38954,6 +38954,7 @@
         "FROST_BREATH"
       ],
       "chargedMoveIds": [
+        "AVALANCHE",
         "SIGNAL_BEAM",
         "FLASH_CANNON",
         "BLIZZARD"
@@ -45196,6 +45197,12 @@
         4,
         4,
         4,
+        4
+      ],
+      "AVALANCHE": [
+        5,
+        4,
+        5,
         4
       ],
       "BLEAKWIND_STORM": [

@@ -1,0 +1,593 @@
+diff --git a/docs/data.json b/docs/data.json
+index 142e488..ffecbde 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -681,41 +681,42 @@
+         "master": {
+           "rankOne": 200.33610445261002,
+           "max": 200.33610445261002
+         }
+       }
+     },
+     {
+       "name": "Amaura",
+       "types": [
+         "rock",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "FROST_BREATH",
+         "POWDER_SNOW"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_ICE",
+         "ANCIENT_POWER",
+         "THUNDERBOLT",
+-        "AURORA_BEAM"
++        "AURORA_BEAM",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 63.07901786105501,
+           "max": 69.48032301664347
+         },
+         "great": {
+           "rankOne": 113.27020251750946,
+           "max": 117.49670261144638
+         },
+         "ultra": {
+           "rankOne": 117.49670261144638,
+           "max": 117.49670261144638
+         },
+         "master": {
+           "rankOne": 117.49670261144638,
+           "max": 117.49670261144638
+         }
+       }
+     },
+@@ -2306,40 +2307,41 @@
+           "max": 136.9386030435562
+         }
+       }
+     },
+     {
+       "name": "Aurorus",
+       "types": [
+         "rock",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "FROST_BREATH",
+         "POWDER_SNOW",
+         "ROCK_THROW"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_ICE",
+         "ANCIENT_POWER",
+         "THUNDERBOLT",
+         "METEOR_BEAM",
++        "RETURN",
+         "BLIZZARD",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 64.95355778932564,
+           "max": 68.79489722847931
+         },
+         "great": {
+           "rankOne": 112.49720029538558,
+           "max": 120.07740193605412
+         },
+         "ultra": {
+           "rankOne": 144.34807994528865,
+           "max": 155.41048747301087
+         },
+         "master": {
+           "rankOne": 169.9053037762642,
+           "max": 169.9053037762642
+         }
+@@ -8765,41 +8767,42 @@
+         },
+         "master": {
+           "rankOne": 209.63440465927124,
+           "max": 209.63440465927124
+         }
+       }
+     },
+     {
+       "name": "Dialga",
+       "types": [
+         "steel",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "DRAGON_BREATH",
+         "METAL_CLAW"
+       ],
+       "chargedMoveIds": [
+         "IRON_HEAD",
+         "THUNDER",
+-        "DRACO_METEOR"
++        "DRACO_METEOR",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 79.81871813535675,
+           "max": 82.72121697664245
+         },
+         "great": {
+           "rankOne": 137.46107071638096,
+           "max": 143.95923042297352
+         },
+         "ultra": {
+           "rankOne": 176.17956250905974,
+           "max": 185.7893568277357
+         },
+         "master": {
+           "rankOne": 245.13700544834137,
+           "max": 245.13700544834137
+         }
+       }
+     },
+@@ -17344,41 +17347,42 @@
+         },
+         "master": {
+           "rankOne": 200.33610445261002,
+           "max": 200.33610445261002
+         }
+       }
+     },
+     {
+       "name": "Inkay",
+       "types": [
+         "dark",
+         "psychic"
+       ],
+       "fastMoveIds": [
+         "PECK",
+         "PSYWAVE",
+         "TACKLE"
+       ],
+       "chargedMoveIds": [
+         "NIGHT_SLASH",
+-        "PSYBEAM"
++        "PSYBEAM",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 61.40357828140253,
+           "max": 69.37326038339761
+         },
+         "great": {
+           "rankOne": 95.5189021229744,
+           "max": 95.5189021229744
+         },
+         "ultra": {
+           "rankOne": 95.5189021229744,
+           "max": 95.5189021229744
+         },
+         "master": {
+           "rankOne": 95.5189021229744,
+           "max": 95.5189021229744
+         }
+       }
+     },
+@@ -18327,43 +18331,45 @@
+           "max": 152.8291073391908
+         },
+         "ultra": {
+           "rankOne": 182.39129519462574,
+           "max": 197.72168639985028
+         },
+         "master": {
+           "rankOne": 199.49080443382263,
+           "max": 199.49080443382263
+         }
+       }
+     },
+     {
+       "name": "Kingambit",
+       "types": [
+         "dark",
+         "steel"
+       ],
+       "fastMoveIds": [
+         "METAL_CLAW",
++        "METAL_SOUND",
+         "SNARL"
+       ],
+       "chargedMoveIds": [
++        "FOUL_PLAY",
+         "X_SCISSOR",
+         "DARK_PULSE",
+         "IRON_HEAD",
+         "FOCUS_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 72.84165675791397,
+           "max": 76.51434533394324
+         },
+         "great": {
+           "rankOne": 125.1743170875763,
+           "max": 133.06345471914622
+         },
+         "ultra": {
+           "rankOne": 162.1172510385512,
+           "max": 171.65355992317185
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+@@ -21401,40 +21407,41 @@
+           "rankOne": 96.36420214176178,
+           "max": 96.36420214176178
+         }
+       }
+     },
+     {
+       "name": "Malamar",
+       "types": [
+         "dark",
+         "psychic"
+       ],
+       "fastMoveIds": [
+         "PECK",
+         "PSYCHO_CUT",
+         "PSYWAVE"
+       ],
+       "chargedMoveIds": [
+         "FOUL_PLAY",
+         "SUPER_POWER",
+         "PSYBEAM",
++        "RETURN",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 67.9176413118838,
+           "max": 72.045232772827
+         },
+         "great": {
+           "rankOne": 117.03580964068979,
+           "max": 125.6516418457031
+         },
+         "ultra": {
+           "rankOne": 151.30870336294174,
+           "max": 162.29760360717773
+         },
+         "master": {
+           "rankOne": 162.29760360717773,
+           "max": 162.29760360717773
+         }
+       }
+@@ -33610,73 +33617,75 @@
+           "max": 92.98300206661224
+         },
+         "master": {
+           "rankOne": 92.98300206661224,
+           "max": 92.98300206661224
+         }
+       }
+     },
+     {
+       "name": "Slaking",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
+         "YAWN"
+       ],
+       "chargedMoveIds": [
+         "BODY_SLAM",
+         "PLAY_ROUGH",
+         "EARTHQUAKE",
++        "RETURN",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 79.323810519223,
+           "max": 83.42676623573455
+         },
+         "great": {
+           "rankOne": 136.97746255814417,
+           "max": 144.06250372494472
+         },
+         "ultra": {
+           "rankOne": 177.5256127119063,
+           "max": 186.70797199010835
+         },
+         "master": {
+           "rankOne": 257.81650573015213,
+           "max": 257.81650573015213
+         }
+       }
+     },
+     {
+       "name": "Slakoth",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
+         "YAWN"
+       ],
+       "chargedMoveIds": [
+         "BODY_SLAM",
+         "NIGHT_SLASH",
+-        "BRICK_BREAK"
++        "BRICK_BREAK",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 62.129601001739445,
+           "max": 70.19666152529537
+         },
+         "great": {
+           "rankOne": 100.5907022356987,
+           "max": 100.5907022356987
+         },
+         "ultra": {
+           "rankOne": 100.5907022356987,
+           "max": 100.5907022356987
+         },
+         "master": {
+           "rankOne": 100.5907022356987,
+           "max": 100.5907022356987
+         }
+       }
+     },
+@@ -38493,41 +38502,42 @@
+           "max": 273.8772060871124
+         }
+       }
+     },
+     {
+       "name": "Tyrantrum",
+       "types": [
+         "rock",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "CHARM",
+         "DRAGON_TAIL",
+         "ROCK_THROW"
+       ],
+       "chargedMoveIds": [
+         "CRUNCH",
+         "STONE_EDGE",
+         "METEOR_BEAM",
+         "OUTRAGE",
+-        "EARTHQUAKE"
++        "EARTHQUAKE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 75.45558571815486,
+           "max": 77.70319890975948
+         },
+         "great": {
+           "rankOne": 128.65327602624882,
+           "max": 137.15459382534013
+         },
+         "ultra": {
+           "rankOne": 166.09590071439737,
+           "max": 177.07258368410763
+         },
+         "master": {
+           "rankOne": 204.56260454654694,
+           "max": 204.56260454654694
+         }
+       }
+     },
+@@ -38560,41 +38570,42 @@
+         },
+         "master": {
+           "rankOne": 66.77870148420334,
+           "max": 66.77870148420334
+         }
+       }
+     },
+     {
+       "name": "Tyrunt",
+       "types": [
+         "rock",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "DRAGON_TAIL",
+         "TACKLE"
+       ],
+       "chargedMoveIds": [
+         "DRAGON_CLAW",
+         "STOMP",
+-        "ANCIENT_POWER"
++        "ANCIENT_POWER",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 72.94265257338958,
+           "max": 79.13852414488791
+         },
+         "great": {
+           "rankOne": 124.86740183830251,
+           "max": 138.0200784172458
+         },
+         "ultra": {
+           "rankOne": 146.23690325021744,
+           "max": 146.23690325021744
+         },
+         "master": {
+           "rankOne": 146.23690325021744,
+           "max": 146.23690325021744
+         }
+       }
+     },
+@@ -39406,41 +39417,42 @@
+         },
+         "master": {
+           "rankOne": 187.65660417079926,
+           "max": 187.65660417079926
+         }
+       }
+     },
+     {
+       "name": "Vigoroth",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
+         "COUNTER",
+         "SCRATCH"
+       ],
+       "chargedMoveIds": [
+         "BODY_SLAM",
+         "BRICK_BREAK",
+         "BULLDOZE",
+-        "ROCK_SLIDE"
++        "ROCK_SLIDE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 67.17750227451313,
+           "max": 71.54767761600151
+         },
+         "great": {
+           "rankOne": 115.10385513305664,
+           "max": 125.1754424571991
+         },
+         "ultra": {
+           "rankOne": 147.08220326900482,
+           "max": 147.08220326900482
+         },
+         "master": {
+           "rankOne": 147.08220326900482,
+           "max": 147.08220326900482
+         }
+       }
+     },
+@@ -56456,52 +56468,70 @@
+       "ZAP_CANNON": [
+         12,
+         11,
+         12,
+         11
+       ]
+     },
+     "METAL_SOUND": {
+       "BUG_BUZZ": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "BULLDOZE": [
+         6,
+         6,
+         5,
+         6
+       ],
++      "DARK_PULSE": [
++        7,
++        6,
++        6,
++        6
++      ],
+       "DISCHARGE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "FLASH_CANNON": [
+         9,
+         9,
+         9,
+         8
+       ],
++      "FOCUS_BLAST": [
++        10,
++        9,
++        10,
++        9
++      ],
++      "FOUL_PLAY": [
++        5,
++        5,
++        5,
++        5
++      ],
+       "HEAVY_SLAM": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "HYPER_BEAM": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "IRON_HEAD": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "MAGNET_BOMB": [
+         6,
+@@ -56546,40 +56576,46 @@
+         8
+       ],
+       "THUNDERBOLT": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "VICE_GRIP": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "WILD_CHARGE": [
+         6,
+         6,
+         5,
+         6
+       ],
++      "X_SCISSOR": [
++        5,
++        5,
++        5,
++        5
++      ],
+       "ZAP_CANNON": [
+         10,
+         10,
+         10,
+         10
+       ]
+     },
+     "MUD_SHOT": {
+       "ACID_SPRAY": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "ANCIENT_POWER": [
+         6,
+         6,
+         5,
+         6
+       ],

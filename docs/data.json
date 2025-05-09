@@ -698,7 +698,8 @@
         "WEATHER_BALL_ICE",
         "ANCIENT_POWER",
         "THUNDERBOLT",
-        "AURORA_BEAM"
+        "AURORA_BEAM",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -2323,6 +2324,7 @@
         "ANCIENT_POWER",
         "THUNDERBOLT",
         "METEOR_BEAM",
+        "RETURN",
         "BLIZZARD",
         "HYPER_BEAM"
       ],
@@ -8782,7 +8784,8 @@
       "chargedMoveIds": [
         "IRON_HEAD",
         "THUNDER",
-        "DRACO_METEOR"
+        "DRACO_METEOR",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -17361,7 +17364,8 @@
       ],
       "chargedMoveIds": [
         "NIGHT_SLASH",
-        "PSYBEAM"
+        "PSYBEAM",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -18344,9 +18348,11 @@
       ],
       "fastMoveIds": [
         "METAL_CLAW",
+        "METAL_SOUND",
         "SNARL"
       ],
       "chargedMoveIds": [
+        "FOUL_PLAY",
         "X_SCISSOR",
         "DARK_PULSE",
         "IRON_HEAD",
@@ -21418,6 +21424,7 @@
         "FOUL_PLAY",
         "SUPER_POWER",
         "PSYBEAM",
+        "RETURN",
         "HYPER_BEAM"
       ],
       "cmp": {
@@ -33627,6 +33634,7 @@
         "BODY_SLAM",
         "PLAY_ROUGH",
         "EARTHQUAKE",
+        "RETURN",
         "HYPER_BEAM"
       ],
       "cmp": {
@@ -33659,7 +33667,8 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "NIGHT_SLASH",
-        "BRICK_BREAK"
+        "BRICK_BREAK",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -38510,7 +38519,8 @@
         "STONE_EDGE",
         "METEOR_BEAM",
         "OUTRAGE",
-        "EARTHQUAKE"
+        "EARTHQUAKE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -38577,7 +38587,8 @@
       "chargedMoveIds": [
         "DRAGON_CLAW",
         "STOMP",
-        "ANCIENT_POWER"
+        "ANCIENT_POWER",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -39423,7 +39434,8 @@
         "BODY_SLAM",
         "BRICK_BREAK",
         "BULLDOZE",
-        "ROCK_SLIDE"
+        "ROCK_SLIDE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -56473,6 +56485,12 @@
         5,
         6
       ],
+      "DARK_PULSE": [
+        7,
+        6,
+        6,
+        6
+      ],
       "DISCHARGE": [
         5,
         5,
@@ -56484,6 +56502,18 @@
         9,
         9,
         8
+      ],
+      "FOCUS_BLAST": [
+        10,
+        9,
+        10,
+        9
+      ],
+      "FOUL_PLAY": [
+        5,
+        5,
+        5,
+        5
       ],
       "HEAVY_SLAM": [
         7,
@@ -56562,6 +56592,12 @@
         6,
         5,
         6
+      ],
+      "X_SCISSOR": [
+        5,
+        5,
+        5,
+        5
       ],
       "ZAP_CANNON": [
         10,

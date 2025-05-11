@@ -26339,6 +26339,7 @@
         "SPARK"
       ],
       "chargedMoveIds": [
+        "BRICK_BREAK",
         "DISCHARGE",
         "THUNDER_PUNCH",
         "CLOSE_COMBAT",
@@ -47418,6 +47419,12 @@
         7,
         7,
         7
+      ],
+      "BRICK_BREAK": [
+        4,
+        4,
+        3,
+        4
       ],
       "BRUTAL_SWING": [
         4,

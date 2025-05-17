@@ -11,6 +11,7 @@ import nunjucks from "nunjucks";
 import { join, parse } from "path";
 import { compileString as compileSassString } from "sass";
 import { minify as minifyJs } from "uglify-js";
+import { styleText } from "util";
 import { moveExclusions } from "./data/adjustments/moves/exclusions.js";
 import {
   moveNameFixes,
@@ -52,8 +53,7 @@ async function build() {
   const html = await buildHtml(data, resources);
   writeFileSync(join(root, "index.html"), html);
 
-  console.log();
-  console.log("Build complete.");
+  console.log(styleText("green", "Build complete"));
 }
 
 function buildData() {
@@ -323,7 +323,8 @@ function readJson(filename, idProperty, exclusions = []) {
   );
 
   for (const exclusion of unnecessaryExclusions) {
-    console.warn(`${exclusion} is already excluded`);
+    const warning = `${exclusion} is already excluded`;
+    console.warn(styleText("yellow", warning));
   }
 
   return json.filter((data) => !exclusions.includes(data.id));
@@ -340,7 +341,8 @@ function fixProperty(property, data, fixes) {
     const oldValueJson = JSON.stringify(object[property]);
     const newValueJson = JSON.stringify(newValue);
     if (oldValueJson === newValueJson) {
-      console.warn(`${id} already has correct ${property} (${oldValueJson})`);
+      const warning = `${id} already has correct ${property} (${oldValueJson})`;
+      console.warn(styleText("yellow", warning));
       continue;
     }
 

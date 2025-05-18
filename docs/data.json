@@ -41475,10 +41475,10 @@
         "METAL_CLAW"
       ],
       "chargedMoveIds": [
+        "BEHEMOTH_BASH",
         "CLOSE_COMBAT",
         "MOONBLAST",
-        "GIGA_IMPACT",
-        "BEHEMOTH_BASH"
+        "GIGA_IMPACT"
       ],
       "cmp": {
         "little": {
@@ -42226,17 +42226,17 @@
     "BEHEMOTH_BASH": {
       "name": "Behemoth Bash",
       "type": "steel",
-      "energy": 100,
+      "energy": 45,
       "energyGain": 0,
-      "power": 230,
+      "power": 80,
       "turns": 1
     },
     "BEHEMOTH_BLADE": {
       "name": "Behemoth Blade",
       "type": "steel",
-      "energy": 50,
+      "energy": 55,
       "energyGain": 0,
-      "power": 110,
+      "power": 100,
       "turns": 1
     },
     "BITE": {
@@ -44833,9 +44833,9 @@
         6
       ],
       "BEHEMOTH_BLADE": [
+        7,
         6,
         6,
-        5,
         6
       ],
       "BLAST_BURN": [
@@ -53379,10 +53379,10 @@
         7
       ],
       "BEHEMOTH_BASH": [
-        17,
-        17,
-        16,
-        17
+        8,
+        7,
+        8,
+        7
       ],
       "BLIZZARD": [
         13,
@@ -56065,16 +56065,16 @@
         5
       ],
       "BEHEMOTH_BASH": [
-        15,
-        14,
-        14,
-        15
+        7,
+        6,
+        7,
+        6
       ],
       "BEHEMOTH_BLADE": [
         8,
-        7,
-        7,
-        7
+        8,
+        8,
+        8
       ],
       "BLIZZARD": [
         11,

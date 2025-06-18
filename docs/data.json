@@ -42451,6 +42451,14 @@
       "power": 15,
       "turns": 3
     },
+    "CLANGING_SCALES": {
+      "name": "Clanging Scales",
+      "type": "dragon",
+      "energy": 45,
+      "energyGain": 0,
+      "power": 120,
+      "turns": 1
+    },
     "CLOSE_COMBAT": {
       "name": "Close Combat",
       "type": "fighting",

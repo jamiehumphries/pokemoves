@@ -1,8 +1,50 @@
 diff --git a/docs/data.json b/docs/data.json
-index 68a0966..f47f97a 100644
+index 68a0966..7bc028e 100644
 --- a/docs/data.json
 +++ b/docs/data.json
-@@ -42434,40 +42434,48 @@
+@@ -18769,40 +18769,41 @@
+         },
+         "master": {
+           "rankOne": 195.2643043398857,
+           "max": 195.2643043398857
+         }
+       }
+     },
+     {
+       "name": "Kommo-o",
+       "types": [
+         "dragon",
+         "fighting"
+       ],
+       "fastMoveIds": [
+         "DRAGON_TAIL",
+         "POISON_JAB"
+       ],
+       "chargedMoveIds": [
+         "DRAGON_CLAW",
+         "BRICK_BREAK",
++        "CLANGING_SCALES",
+         "CLOSE_COMBAT",
+         "FLAMETHROWER",
+         "BOOMBURST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 71.2814469337463,
+           "max": 74.81341052055355
+         },
+         "great": {
+           "rankOne": 122.27597808837871,
+           "max": 130.53786849975566
+         },
+         "ultra": {
+           "rankOne": 158.32354071800168,
+           "max": 167.59473904833513
+         },
+         "master": {
+           "rankOne": 200.33610445261002,
+           "max": 200.33610445261002
+@@ -42434,40 +42435,48 @@
        "energyGain": 13,
        "power": 5,
        "turns": 3
@@ -51,3 +93,97 @@ index 68a0966..f47f97a 100644
        "name": "Counter",
        "type": "fighting",
        "energy": 0,
+@@ -49921,40 +49930,46 @@
+         4
+       ],
+       "BRICK_BREAK": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "BRUTAL_SWING": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "BULLDOZE": [
+         5,
+         5,
+         5,
+         5
+       ],
++      "CLANGING_SCALES": [
++        5,
++        5,
++        5,
++        5
++      ],
+       "CLOSE_COMBAT": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "CROSS_POISON": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "CRUNCH": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "DARK_PULSE": [
+         6,
+@@ -58045,40 +58060,46 @@
+         7
+       ],
+       "BRUTAL_SWING": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "BUBBLE_BEAM": [
+         6,
+         6,
+         6,
+         5
+       ],
+       "BULLDOZE": [
+         7,
+         6,
+         7,
+         6
+       ],
++      "CLANGING_SCALES": [
++        7,
++        6,
++        7,
++        6
++      ],
+       "CLOSE_COMBAT": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "CROSS_POISON": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "CRUNCH": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "DARK_PULSE": [
+         8,

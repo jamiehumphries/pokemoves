@@ -18786,6 +18786,7 @@
       "chargedMoveIds": [
         "DRAGON_CLAW",
         "BRICK_BREAK",
+        "CLANGING_SCALES",
         "CLOSE_COMBAT",
         "FLAMETHROWER",
         "BOOMBURST"
@@ -49946,6 +49947,12 @@
         5,
         5
       ],
+      "CLANGING_SCALES": [
+        5,
+        5,
+        5,
+        5
+      ],
       "CLOSE_COMBAT": [
         5,
         5,
@@ -58065,6 +58072,12 @@
         5
       ],
       "BULLDOZE": [
+        7,
+        6,
+        7,
+        6
+      ],
+      "CLANGING_SCALES": [
         7,
         6,
         7,

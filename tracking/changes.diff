@@ -1,5 +1,5 @@
 diff --git a/docs/data.json b/docs/data.json
-index 68a0966..7bc028e 100644
+index 68a0966..11cd341 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -18769,40 +18769,41 @@
@@ -44,7 +44,124 @@ index 68a0966..7bc028e 100644
          "master": {
            "rankOne": 200.33610445261002,
            "max": 200.33610445261002
-@@ -42434,40 +42435,48 @@
+@@ -29295,111 +29296,115 @@
+         "great": {
+           "rankOne": 102.84787749902824,
+           "max": 108.81686782836903
+         },
+         "ultra": {
+           "rankOne": 132.06073772907249,
+           "max": 140.761669692684
+         },
+         "master": {
+           "rankOne": 163.9882036447525,
+           "max": 163.9882036447525
+         }
+       }
+     },
+     {
+       "name": "Regidrago",
+       "types": [
+         "dragon"
+       ],
+       "fastMoveIds": [
+-        "BITE"
++        "BITE",
++        "DRAGON_BREATH"
+       ],
+       "chargedMoveIds": [
+         "BREAKING_SWIPE",
++        "DRAGON_ENERGY",
+         "DRAGON_PULSE",
+         "OUTRAGE",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 67.75989652360555,
+           "max": 72.79157200803171
+         },
+         "great": {
+           "rankOne": 117.62033927440628,
+           "max": 126.35452288389189
+         },
+         "ultra": {
+           "rankOne": 152.05127927177585,
+           "max": 163.9837552905082
+         },
+         "master": {
+           "rankOne": 183.43010407686234,
+           "max": 183.43010407686234
+         }
+       }
+     },
+     {
+       "name": "Regieleki",
+       "types": [
+         "electric"
+       ],
+       "fastMoveIds": [
+         "LOCK_ON",
+         "THUNDER_SHOCK",
+         "VOLT_SWITCH"
+       ],
+       "chargedMoveIds": [
++        "THUNDER_CAGE",
+         "THUNDER",
+         "HYPER_BEAM",
+         "ZAP_CANNON"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 87.30316907167425,
+           "max": 92.54135921597471
+         },
+         "great": {
+           "rankOne": 149.3500024080275,
+           "max": 160.27826923804935
+         },
+         "ultra": {
+           "rankOne": 192.5743184928975,
+           "max": 207.1743671742329
+         },
+         "master": {
+           "rankOne": 224.00450497865677,
+           "max": 224.00450497865677
+         }
+       }
+     },
+     {
+       "name": "Regigigas",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
+         "HIDDEN_POWER_BUG",
+         "ZEN_HEADBUTT"
+       ],
+       "chargedMoveIds": [
++        "CRUSH_GRIP",
+         "THUNDER",
+         "RETURN",
+         "FOCUS_BLAST",
+         "GIGA_IMPACT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 79.59734090032377,
+           "max": 82.60617509243224
+         },
+         "great": {
+           "rankOne": 138.24358150362957,
+           "max": 144.5054858922957
+         },
+         "ultra": {
+           "rankOne": 177.76897973245636,
+           "max": 187.0600413909471
+         },
+         "master": {
+           "rankOne": 255.28060567378998,
+@@ -42434,40 +42439,48 @@
        "energyGain": 13,
        "power": 5,
        "turns": 3
@@ -93,7 +210,148 @@ index 68a0966..7bc028e 100644
        "name": "Counter",
        "type": "fighting",
        "energy": 0,
-@@ -49921,40 +49930,46 @@
+@@ -45865,40 +45878,46 @@
+         25
+       ],
+       "DISARMING_VOICE": [
+         23,
+         22,
+         23,
+         22
+       ],
+       "DRACO_METEOR": [
+         33,
+         32,
+         33,
+         32
+       ],
+       "DRAGON_CLAW": [
+         18,
+         17,
+         18,
+         17
+       ],
++      "DRAGON_ENERGY": [
++        23,
++        22,
++        23,
++        22
++      ],
+       "DRAGON_PULSE": [
+         30,
+         30,
+         30,
+         30
+       ],
+       "DRILL_RUN": [
+         23,
+         22,
+         23,
+         22
+       ],
+       "EARTH_POWER": [
+         28,
+         27,
+         28,
+         27
+       ],
+       "EARTHQUAKE": [
+         33,
+@@ -49535,40 +49554,46 @@
+         15
+       ],
+       "BLAST_BURN": [
+         17,
+         17,
+         16,
+         17
+       ],
+       "BLIZZARD": [
+         25,
+         25,
+         25,
+         25
+       ],
+       "BODY_SLAM": [
+         12,
+         12,
+         11,
+         12
+       ],
++      "BREAKING_SWIPE": [
++        12,
++        12,
++        11,
++        12
++      ],
+       "BRINE": [
+         17,
+         17,
+         16,
+         17
+       ],
+       "BRUTAL_SWING": [
+         12,
+         12,
+         11,
+         12
+       ],
+       "BUG_BUZZ": [
+         20,
+         20,
+         20,
+         20
+       ],
+       "BULLDOZE": [
+         15,
+@@ -49589,40 +49614,46 @@
+         17
+       ],
+       "DAZZLING_GLEAM": [
+         19,
+         18,
+         18,
+         19
+       ],
+       "DRACO_METEOR": [
+         22,
+         22,
+         21,
+         22
+       ],
+       "DRAGON_CLAW": [
+         12,
+         12,
+         11,
+         12
+       ],
++      "DRAGON_ENERGY": [
++        15,
++        15,
++        15,
++        15
++      ],
+       "DRAGON_PULSE": [
+         20,
+         20,
+         20,
+         20
+       ],
+       "FIRE_BLAST": [
+         27,
+         27,
+         26,
+         27
+       ],
+       "FLAMETHROWER": [
+         19,
+         18,
+         18,
+         19
+       ],
+       "FLASH_CANNON": [
+         24,
+@@ -49921,40 +49952,46 @@
          4
        ],
        "BRICK_BREAK": [
@@ -140,7 +398,101 @@ index 68a0966..7bc028e 100644
        ],
        "DARK_PULSE": [
          6,
-@@ -58045,40 +58060,46 @@
+@@ -53205,40 +53242,46 @@
+         4
+       ],
+       "BRAVE_BIRD": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "BUBBLE_BEAM": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "CRUNCH": [
+         6,
+         6,
+         5,
+         6
+       ],
++      "CRUSH_GRIP": [
++        7,
++        6,
++        6,
++        6
++      ],
+       "DAZZLING_GLEAM": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "DISCHARGE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "DRAINING_KISS": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "EARTH_POWER": [
+         7,
+@@ -55491,40 +55534,46 @@
+         14
+       ],
+       "SOLAR_BEAM": [
+         16,
+         16,
+         16,
+         16
+       ],
+       "STONE_EDGE": [
+         11,
+         11,
+         11,
+         11
+       ],
+       "THUNDER": [
+         12,
+         12,
+         12,
+         12
+       ],
++      "THUNDER_CAGE": [
++        8,
++        8,
++        8,
++        8
++      ],
+       "TRI_ATTACK": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "WATER_PULSE": [
+         11,
+         11,
+         11,
+         11
+       ],
+       "ZAP_CANNON": [
+         16,
+         16,
+         16,
+         16
+       ]
+     },
+     "LOW_KICK": {
+@@ -58045,40 +58094,46 @@
          7
        ],
        "BRUTAL_SWING": [
@@ -187,3 +539,144 @@ index 68a0966..7bc028e 100644
        ],
        "DARK_PULSE": [
          8,
+@@ -66158,40 +66213,46 @@
+         4
+       ],
+       "SURF": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "SWIFT": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "THUNDER": [
+         7,
+         7,
+         6,
+         7
+       ],
++      "THUNDER_CAGE": [
++        5,
++        4,
++        5,
++        4
++      ],
+       "THUNDER_PUNCH": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "THUNDERBOLT": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "TRAILBLAZE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "VICE_GRIP": [
+         5,
+@@ -66690,40 +66751,46 @@
+         5
+       ],
+       "STONE_EDGE": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "SURF": [
+         3,
+         3,
+         3,
+         3
+       ],
+       "THUNDER": [
+         4,
+         4,
+         4,
+         3
+       ],
++      "THUNDER_CAGE": [
++        3,
++        2,
++        3,
++        2
++      ],
+       "THUNDER_PUNCH": [
+         3,
+         2,
+         3,
+         2
+       ],
+       "THUNDERBOLT": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "TRAILBLAZE": [
+         3,
+         3,
+         3,
+         3
+       ],
+       "VICE_GRIP": [
+         3,
+@@ -68100,40 +68167,46 @@
+         7
+       ],
+       "CLOSE_COMBAT": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "CROSS_CHOP": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "CRUNCH": [
+         8,
+         7,
+         8,
+         7
+       ],
++      "CRUSH_GRIP": [
++        9,
++        8,
++        8,
++        9
++      ],
+       "DARK_PULSE": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "DAZZLING_GLEAM": [
+         10,
+         9,
+         9,
+         9
+       ],
+       "DISARMING_VOICE": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "DISCHARGE": [
+         7,

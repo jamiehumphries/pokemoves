@@ -29313,10 +29313,12 @@
         "dragon"
       ],
       "fastMoveIds": [
-        "BITE"
+        "BITE",
+        "DRAGON_BREATH"
       ],
       "chargedMoveIds": [
         "BREAKING_SWIPE",
+        "DRAGON_ENERGY",
         "DRAGON_PULSE",
         "OUTRAGE",
         "HYPER_BEAM"
@@ -29351,6 +29353,7 @@
         "VOLT_SWITCH"
       ],
       "chargedMoveIds": [
+        "THUNDER_CAGE",
         "THUNDER",
         "HYPER_BEAM",
         "ZAP_CANNON"
@@ -29384,6 +29387,7 @@
         "ZEN_HEADBUTT"
       ],
       "chargedMoveIds": [
+        "CRUSH_GRIP",
         "THUNDER",
         "RETURN",
         "FOCUS_BLAST",
@@ -45891,6 +45895,12 @@
         18,
         17
       ],
+      "DRAGON_ENERGY": [
+        23,
+        22,
+        23,
+        22
+      ],
       "DRAGON_PULSE": [
         30,
         30,
@@ -49561,6 +49571,12 @@
         11,
         12
       ],
+      "BREAKING_SWIPE": [
+        12,
+        12,
+        11,
+        12
+      ],
       "BRINE": [
         17,
         17,
@@ -49614,6 +49630,12 @@
         12,
         11,
         12
+      ],
+      "DRAGON_ENERGY": [
+        15,
+        15,
+        15,
+        15
       ],
       "DRAGON_PULSE": [
         20,
@@ -53237,6 +53259,12 @@
         5,
         6
       ],
+      "CRUSH_GRIP": [
+        7,
+        6,
+        6,
+        6
+      ],
       "DAZZLING_GLEAM": [
         7,
         7,
@@ -55522,6 +55550,12 @@
         12,
         12,
         12
+      ],
+      "THUNDER_CAGE": [
+        8,
+        8,
+        8,
+        8
       ],
       "TRI_ATTACK": [
         10,
@@ -66196,6 +66230,12 @@
         6,
         7
       ],
+      "THUNDER_CAGE": [
+        5,
+        4,
+        5,
+        4
+      ],
       "THUNDER_PUNCH": [
         5,
         4,
@@ -66727,6 +66767,12 @@
         4,
         4,
         3
+      ],
+      "THUNDER_CAGE": [
+        3,
+        2,
+        3,
+        2
       ],
       "THUNDER_PUNCH": [
         3,
@@ -68137,6 +68183,12 @@
         7,
         8,
         7
+      ],
+      "CRUSH_GRIP": [
+        9,
+        8,
+        8,
+        9
       ],
       "DARK_PULSE": [
         9,

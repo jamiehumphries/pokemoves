@@ -1,0 +1,46 @@
+diff --git a/docs/data.json b/docs/data.json
+index 11cd341..0568cb7 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -15240,41 +15240,40 @@
+           "rankOne": 120.87790268659592,
+           "max": 126.7950028181076
+         },
+         "ultra": {
+           "rankOne": 126.7950028181076,
+           "max": 126.7950028181076
+         },
+         "master": {
+           "rankOne": 126.7950028181076,
+           "max": 126.7950028181076
+         }
+       }
+     },
+     {
+       "name": "Grimer (Alolan)",
+       "types": [
+         "poison",
+         "dark"
+       ],
+       "fastMoveIds": [
+-        "ACID",
+         "BITE",
+         "POISON_JAB"
+       ],
+       "chargedMoveIds": [
+         "CRUNCH",
+         "SLUDGE_BOMB",
+         "RETURN",
+         "GUNK_SHOT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 67.98074769973749,
+           "max": 75.28786002771082
+         },
+         "great": {
+           "rankOne": 120.87790268659592,
+           "max": 126.7950028181076
+         },
+         "ultra": {
+           "rankOne": 126.7950028181076,

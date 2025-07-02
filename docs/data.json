@@ -41919,6 +41919,41 @@
       }
     },
     {
+      "name": "Zoroark (Hisuian)",
+      "types": [
+        "normal",
+        "ghost"
+      ],
+      "fastMoveIds": [
+        "SHADOW_CLAW",
+        "SNARL"
+      ],
+      "chargedMoveIds": [
+        "FOUL_PLAY",
+        "SLUDGE_BOMB",
+        "FLAMETHROWER",
+        "SHADOW_BALL"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 94.60147243126418,
+          "max": 100.03833866294605
+        },
+        "great": {
+          "rankOne": 161.66447285773907,
+          "max": 172.98622658300883
+        },
+        "ultra": {
+          "rankOne": 207.57330179214475,
+          "max": 224.33385843102715
+        },
+        "master": {
+          "rankOne": 233.302805185318,
+          "max": 233.302805185318
+        }
+      }
+    },
+    {
       "name": "Zorua",
       "types": [
         "dark"
@@ -41949,6 +41984,41 @@
         "master": {
           "rankOne": 142.01040315628052,
           "max": 142.01040315628052
+        }
+      }
+    },
+    {
+      "name": "Zorua (Hisuian)",
+      "types": [
+        "normal",
+        "ghost"
+      ],
+      "fastMoveIds": [
+        "SCRATCH",
+        "SNARL"
+      ],
+      "chargedMoveIds": [
+        "FOUL_PLAY",
+        "NIGHT_SHADE",
+        "DARK_PULSE",
+        "SHADOW_BALL"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 86.56540131568894,
+          "max": 96.9395141601561
+        },
+        "great": {
+          "rankOne": 149.61810332536697,
+          "max": 149.61810332536697
+        },
+        "ultra": {
+          "rankOne": 149.61810332536697,
+          "max": 149.61810332536697
+        },
+        "master": {
+          "rankOne": 149.61810332536697,
+          "max": 149.61810332536697
         }
       }
     },
@@ -62311,6 +62381,12 @@
         22,
         23,
         22
+      ],
+      "SHADOW_BALL": [
+        28,
+        27,
+        28,
+        27
       ],
       "SLUDGE_BOMB": [
         25,

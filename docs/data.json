@@ -20011,6 +20011,41 @@
       }
     },
     {
+      "name": "Lilligant (Hisuian)",
+      "types": [
+        "grass",
+        "fighting"
+      ],
+      "fastMoveIds": [
+        "BULLET_SEED",
+        "MAGICAL_LEAF"
+      ],
+      "chargedMoveIds": [
+        "UPPER_HAND",
+        "CLOSE_COMBAT",
+        "PETAL_BLIZZARD",
+        "SOLAR_BEAM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 76.84104274110348,
+          "max": 80.82807797767018
+        },
+        "great": {
+          "rankOne": 131.79902977753054,
+          "max": 141.58430296182618
+        },
+        "ultra": {
+          "rankOne": 170.10319177702635,
+          "max": 183.4852426347792
+        },
+        "master": {
+          "rankOne": 188.50190418958664,
+          "max": 188.50190418958664
+        }
+      }
+    },
+    {
       "name": "Lillipup",
       "types": [
         "normal"
@@ -47256,6 +47291,12 @@
         4,
         3
       ],
+      "CLOSE_COMBAT": [
+        4,
+        3,
+        4,
+        3
+      ],
       "CRUNCH": [
         4,
         3,
@@ -47512,6 +47553,12 @@
         4,
         3,
         4,
+        3
+      ],
+      "UPPER_HAND": [
+        4,
+        3,
+        3,
         3
       ],
       "WATER_PULSE": [
@@ -56086,6 +56133,12 @@
         6,
         5
       ],
+      "CLOSE_COMBAT": [
+        5,
+        4,
+        5,
+        4
+      ],
       "DARK_PULSE": [
         5,
         5,
@@ -56264,6 +56317,12 @@
         5,
         4,
         5,
+        4
+      ],
+      "UPPER_HAND": [
+        4,
+        4,
+        4,
         4
       ],
       "WEATHER_BALL_FIRE": [

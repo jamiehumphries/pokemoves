@@ -1,5 +1,5 @@
 diff --git a/docs/data.json b/docs/data.json
-index 11cd341..f9e29bd 100644
+index 11cd341..88e5070 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -15240,41 +15240,40 @@
@@ -44,7 +44,83 @@ index 11cd341..f9e29bd 100644
          },
          "ultra": {
            "rankOne": 126.7950028181076,
-@@ -41902,74 +41901,144 @@
+@@ -19994,40 +19993,75 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 77.92841598743985,
+           "max": 83.00282447034292
+         },
+         "great": {
+           "rankOne": 134.08536481857288,
+           "max": 144.4720134099854
+         },
+         "ultra": {
+           "rankOne": 173.94002066753555,
+           "max": 187.27707171605306
+         },
+         "master": {
+           "rankOne": 193.57370430231094,
+           "max": 193.57370430231094
+         }
+       }
+     },
++    {
++      "name": "Lilligant (Hisuian)",
++      "types": [
++        "grass",
++        "fighting"
++      ],
++      "fastMoveIds": [
++        "BULLET_SEED",
++        "MAGICAL_LEAF"
++      ],
++      "chargedMoveIds": [
++        "UPPER_HAND",
++        "CLOSE_COMBAT",
++        "PETAL_BLIZZARD",
++        "SOLAR_BEAM"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 76.84104274110348,
++          "max": 80.82807797767018
++        },
++        "great": {
++          "rankOne": 131.79902977753054,
++          "max": 141.58430296182618
++        },
++        "ultra": {
++          "rankOne": 170.10319177702635,
++          "max": 183.4852426347792
++        },
++        "master": {
++          "rankOne": 188.50190418958664,
++          "max": 188.50190418958664
++        }
++      }
++    },
+     {
+       "name": "Lillipup",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
+         "SAND_ATTACK",
+         "TACKLE",
+         "TAKE_DOWN"
+       ],
+       "chargedMoveIds": [
+         "DIG",
+         "ROCK_TOMB",
+         "THUNDERBOLT"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 67.04268240928644,
+           "max": 75.81462216377251
+         },
+@@ -41902,74 +41936,144 @@
        ],
        "cmp": {
          "little": {
@@ -189,7 +265,195 @@ index 11cd341..f9e29bd 100644
        "cmp": {
          "little": {
            "rankOne": 61.73452305793759,
-@@ -62296,40 +62365,46 @@
+@@ -47170,40 +47274,46 @@
+         2
+       ],
+       "BREAKING_SWIPE": [
+         3,
+         3,
+         3,
+         2
+       ],
+       "BUBBLE_BEAM": [
+         4,
+         3,
+         3,
+         3
+       ],
+       "BULLDOZE": [
+         4,
+         3,
+         4,
+         3
+       ],
++      "CLOSE_COMBAT": [
++        4,
++        3,
++        4,
++        3
++      ],
+       "CRUNCH": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "DAZZLING_GLEAM": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "DRACO_METEOR": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "DRAGON_CLAW": [
+         3,
+@@ -47428,40 +47538,46 @@
+         4
+       ],
+       "SWIFT": [
+         3,
+         3,
+         3,
+         2
+       ],
+       "THUNDER": [
+         5,
+         5,
+         4,
+         5
+       ],
+       "TRAILBLAZE": [
+         4,
+         3,
+         4,
+         3
+       ],
++      "UPPER_HAND": [
++        4,
++        3,
++        3,
++        3
++      ],
+       "WATER_PULSE": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "WEATHER_BALL_FIRE": [
+         3,
+         3,
+         3,
+         2
+       ]
+     },
+     "CHARGE_BEAM": {
+       "ANCIENT_POWER": [
+         5,
+         4,
+         4,
+         4
+       ],
+@@ -56000,40 +56116,46 @@
+         4
+       ],
+       "AURA_SPHERE": [
+         6,
+         5,
+         6,
+         5
+       ],
+       "BODY_SLAM": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "BRAVE_BIRD": [
+         6,
+         5,
+         6,
+         5
+       ],
++      "CLOSE_COMBAT": [
++        5,
++        4,
++        5,
++        4
++      ],
+       "DARK_PULSE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "DAZZLING_GLEAM": [
+         6,
+         5,
+         6,
+         5
+       ],
+       "DISARMING_VOICE": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "DRAINING_KISS": [
+         6,
+@@ -56180,40 +56302,46 @@
+         4
+       ],
+       "SYNCHRONOISE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "TRAILBLAZE": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "TRIPLE_AXEL": [
+         5,
+         4,
+         5,
+         4
+       ],
++      "UPPER_HAND": [
++        4,
++        4,
++        4,
++        4
++      ],
+       "WEATHER_BALL_FIRE": [
+         4,
+         3,
+         4,
+         3
+       ]
+     },
+     "METAL_CLAW": {
+       "ACID_SPRAY": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "AERIAL_ACE": [
+         6,
+         6,
+         6,
+         5
+       ],
+@@ -62296,40 +62424,46 @@
          22
        ],
        "ROCK_TOMB": [

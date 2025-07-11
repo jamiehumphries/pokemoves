@@ -1,8 +1,176 @@
 diff --git a/docs/data.json b/docs/data.json
-index 11cd341..88e5070 100644
+index 11cd341..a363e3f 100644
 --- a/docs/data.json
 +++ b/docs/data.json
-@@ -15240,41 +15240,40 @@
+@@ -209,41 +209,41 @@
+           "rankOne": 140.94365000724778,
+           "max": 152.18152637588918
+         },
+         "ultra": {
+           "rankOne": 182.11682520301204,
+           "max": 196.8838826439187
+         },
+         "master": {
+           "rankOne": 198.64550441503525,
+           "max": 198.64550441503525
+         }
+       }
+     },
+     {
+       "name": "Aegislash (Blade)",
+       "types": [
+         "steel",
+         "ghost"
+       ],
+       "fastMoveIds": [
+-        "FURY_CUTTER",
++        "AIR_SLASH",
+         "PSYCHO_CUT"
+       ],
+       "chargedMoveIds": [
+         "SHADOW_BALL",
+         "GYRO_BALL",
+         "FLASH_CANNON"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 104.06537753343571,
+           "max": 110.91207112630974
+         },
+         "great": {
+           "rankOne": 178.13776999711976,
+           "max": 192.62935121331387
+         },
+         "ultra": {
+           "rankOne": 229.97730338573436,
+           "max": 249.4817962646482
+         },
+@@ -9227,42 +9227,42 @@
+           "rankOne": 86.22060191631317,
+           "max": 86.22060191631317
+         },
+         "ultra": {
+           "rankOne": 86.22060191631317,
+           "max": 86.22060191631317
+         },
+         "master": {
+           "rankOne": 86.22060191631317,
+           "max": 86.22060191631317
+         }
+       }
+     },
+     {
+       "name": "Doublade",
+       "types": [
+         "steel",
+         "ghost"
+       ],
+       "fastMoveIds": [
+-        "FURY_CUTTER",
+-        "PSYCHO_CUT"
++        "PSYCHO_CUT",
++        "TACKLE"
+       ],
+       "chargedMoveIds": [
+         "IRON_HEAD",
+         "GYRO_BALL"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 70.54429042339311,
+           "max": 75.0471174716948
+         },
+         "great": {
+           "rankOne": 121.74522110071133,
+           "max": 130.16377362363286
+         },
+         "ultra": {
+           "rankOne": 156.56710563569888,
+           "max": 169.05916193641954
+         },
+         "master": {
+           "rankOne": 171.59590381383896,
+@@ -11210,75 +11210,76 @@
+           "rankOne": 114.11550253629684,
+           "max": 114.11550253629684
+         },
+         "master": {
+           "rankOne": 114.11550253629684,
+           "max": 114.11550253629684
+         }
+       }
+     },
+     {
+       "name": "Eternatus",
+       "types": [
+         "poison",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "DRAGON_TAIL",
+         "POISON_JAB"
+       ],
+       "chargedMoveIds": [
+-        "CROSS_POISON",
++        "SLUDGE_BOMB",
+         "FLAMETHROWER",
+-        "DRAGON_PULSE"
++        "DRAGON_PULSE",
++        "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.31497632711455,
+           "max": 80.14440166252531
+         },
+         "great": {
+           "rankOne": 131.3094296247037,
+           "max": 138.39447079150426
+         },
+         "ultra": {
+           "rankOne": 170.17972528934467,
+           "max": 179.3620845675467
+         },
+         "master": {
+           "rankOne": 247.67290550470352,
+           "max": 247.67290550470352
+         }
+       }
+     },
+     {
+       "name": "Eternatus (Eternamax)",
+       "types": [
+         "poison",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "DRAGON_TAIL",
+         "POISON_JAB"
+       ],
+       "chargedMoveIds": [
+-        "CROSS_POISON",
++        "SLUDGE_BOMB",
+         "FLAMETHROWER",
+         "DRAGON_PULSE",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 51.24514324553168,
+           "max": 51.24514324553168
+         },
+         "great": {
+           "rankOne": 87.65238174796094,
+           "max": 89.74765780568113
+         },
+         "ultra": {
+           "rankOne": 113.71804842186823,
+           "max": 117.86660706996918
+         },
+         "master": {
+           "rankOne": 224.84980499744415,
+           "max": 224.84980499744415
+@@ -15240,41 +15241,40 @@
            "rankOne": 120.87790268659592,
            "max": 126.7950028181076
          },
@@ -44,7 +212,50 @@ index 11cd341..88e5070 100644
          },
          "ultra": {
            "rankOne": 126.7950028181076,
-@@ -19994,40 +19993,75 @@
+@@ -16657,41 +16657,41 @@
+           "rankOne": 146.97214877300374,
+           "max": 158.5674523049088
+         },
+         "ultra": {
+           "rankOne": 189.97498574844752,
+           "max": 205.83341174363827
+         },
+         "master": {
+           "rankOne": 218.08740484714508,
+           "max": 218.08740484714508
+         }
+       }
+     },
+     {
+       "name": "Honedge",
+       "types": [
+         "steel",
+         "ghost"
+       ],
+       "fastMoveIds": [
+-        "FURY_CUTTER",
++        "PSYCHO_CUT",
+         "TACKLE"
+       ],
+       "chargedMoveIds": [
+         "IRON_HEAD",
+         "GYRO_BALL"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 67.48088926076883,
+           "max": 74.9787658452987
+         },
+         "great": {
+           "rankOne": 120.03260266780853,
+           "max": 126.7950028181076
+         },
+         "ultra": {
+           "rankOne": 126.7950028181076,
+           "max": 126.7950028181076
+         },
+         "master": {
+@@ -19994,40 +19994,75 @@
        ],
        "cmp": {
          "little": {
@@ -120,7 +331,7 @@ index 11cd341..88e5070 100644
            "rankOne": 67.04268240928644,
            "max": 75.81462216377251
          },
-@@ -41902,74 +41936,144 @@
+@@ -41902,74 +41937,144 @@
        ],
        "cmp": {
          "little": {
@@ -265,7 +476,103 @@ index 11cd341..88e5070 100644
        "cmp": {
          "little": {
            "rankOne": 61.73452305793759,
-@@ -47170,40 +47274,46 @@
+@@ -42679,40 +42784,48 @@
+       "energyGain": 0,
+       "power": 60,
+       "turns": 1
+     },
+     "DRILL_PECK": {
+       "name": "Drill Peck",
+       "type": "flying",
+       "energy": 40,
+       "energyGain": 0,
+       "power": 65,
+       "turns": 1
+     },
+     "DRILL_RUN": {
+       "name": "Drill Run",
+       "type": "ground",
+       "energy": 45,
+       "energyGain": 0,
+       "power": 80,
+       "turns": 1
+     },
++    "DYNAMAX_CANNON": {
++      "name": "Dynamax Cannon",
++      "type": "dragon",
++      "energy": 45,
++      "energyGain": 0,
++      "power": 80,
++      "turns": 1
++    },
+     "DYNAMIC_PUNCH": {
+       "name": "Dynamic Punch",
+       "type": "fighting",
+       "energy": 45,
+       "energyGain": 0,
+       "power": 90,
+       "turns": 1
+     },
+     "EARTH_POWER": {
+       "name": "Earth Power",
+       "type": "ground",
+       "energy": 55,
+       "energyGain": 0,
+       "power": 90,
+       "turns": 1
+     },
+     "EARTHQUAKE": {
+       "name": "Earthquake",
+       "type": "ground",
+       "energy": 65,
+@@ -45040,40 +45153,46 @@
+         4
+       ],
+       "FUTURE_SIGHT": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "GIGA_IMPACT": [
+         9,
+         9,
+         9,
+         9
+       ],
+       "GRASS_KNOT": [
+         6,
+         6,
+         5,
+         6
+       ],
++      "GYRO_BALL": [
++        7,
++        7,
++        6,
++        7
++      ],
+       "HEAT_WAVE": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "HEAVY_SLAM": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "HURRICANE": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "HYPER_BEAM": [
+         9,
+@@ -47170,40 +47289,46 @@
          2
        ],
        "BREAKING_SWIPE": [
@@ -312,7 +619,7 @@ index 11cd341..88e5070 100644
        ],
        "DRAGON_CLAW": [
          3,
-@@ -47428,40 +47538,46 @@
+@@ -47428,40 +47553,46 @@
          4
        ],
        "SWIFT": [
@@ -359,7 +666,54 @@ index 11cd341..88e5070 100644
          4,
          4
        ],
-@@ -56000,40 +56116,46 @@
+@@ -49964,46 +50095,40 @@
+         4
+       ],
+       "BULLDOZE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "CLANGING_SCALES": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "CLOSE_COMBAT": [
+         5,
+         5,
+         5,
+         5
+       ],
+-      "CROSS_POISON": [
+-        4,
+-        4,
+-        4,
+-        4
+-      ],
+       "CRUNCH": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "DARK_PULSE": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "DAZZLING_GLEAM": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "DISCHARGE": [
+         5,
+@@ -56000,40 +56125,46 @@
          4
        ],
        "AURA_SPHERE": [
@@ -406,7 +760,7 @@ index 11cd341..88e5070 100644
        ],
        "DRAINING_KISS": [
          6,
-@@ -56180,40 +56302,46 @@
+@@ -56180,40 +56311,46 @@
          4
        ],
        "SYNCHRONOISE": [
@@ -453,7 +807,54 @@ index 11cd341..88e5070 100644
          6,
          5
        ],
-@@ -62296,40 +62424,46 @@
+@@ -58106,46 +58243,40 @@
+         5
+       ],
+       "BULLDOZE": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "CLANGING_SCALES": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "CLOSE_COMBAT": [
+         7,
+         6,
+         7,
+         6
+       ],
+-      "CROSS_POISON": [
+-        5,
+-        5,
+-        5,
+-        5
+-      ],
+       "CRUNCH": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "DARK_PULSE": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "DAZZLING_GLEAM": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "DIG": [
+         8,
+@@ -62296,40 +62427,46 @@
          22
        ],
        "ROCK_TOMB": [

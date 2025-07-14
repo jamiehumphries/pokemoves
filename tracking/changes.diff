@@ -1,0 +1,47 @@
+diff --git a/docs/data.json b/docs/data.json
+index dd72af6..312fb77 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -36612,41 +36612,41 @@
+       "cmp": {
+         "little": {
+           "rankOne": 57.070999145507756,
+           "max": 67.81333332639245
+         },
+         "great": {
+           "rankOne": 71.85050159692764,
+           "max": 71.85050159692764
+         },
+         "ultra": {
+           "rankOne": 71.85050159692764,
+           "max": 71.85050159692764
+         },
+         "master": {
+           "rankOne": 71.85050159692764,
+           "max": 71.85050159692764
+         }
+       }
+     },
+     {
+-      "name": "Tatsugiri",
++      "name": "Tatsugiri (Curly)",
+       "types": [
+         "dragon",
+         "water"
+       ],
+       "fastMoveIds": [
+         "TAKE_DOWN",
+         "WATER_GUN"
+       ],
+       "chargedMoveIds": [
+         "MUDDY_WATER",
+         "SURF",
+         "OUTRAGE",
+         "HYDRO_PUMP"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 78.92206484079352,
+           "max": 84.16025498509397
+         },
+         "great": {

@@ -1,8 +1,8 @@
 diff --git a/docs/data.json b/docs/data.json
-index 11cd341..a363e3f 100644
+index 11cd341..dd72af6 100644
 --- a/docs/data.json
 +++ b/docs/data.json
-@@ -209,41 +209,41 @@
+@@ -209,75 +209,75 @@
            "rankOne": 140.94365000724778,
            "max": 152.18152637588918
          },
@@ -44,6 +44,41 @@ index 11cd341..a363e3f 100644
          "ultra": {
            "rankOne": 229.97730338573436,
            "max": 249.4817962646482
+         },
+         "master": {
+           "rankOne": 258.6618057489395,
+           "max": 258.6618057489395
+         }
+       }
+     },
+     {
+       "name": "Aegislash (Shield)",
+       "types": [
+         "steel",
+         "ghost"
+       ],
+       "fastMoveIds": [
+-        "FURY_CUTTER",
++        "AIR_SLASH",
+         "PSYCHO_CUT"
+       ],
+       "chargedMoveIds": [
+         "SHADOW_BALL",
+         "GYRO_BALL",
+         "FLASH_CANNON"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 46.723440438508945,
+           "max": 50.9078225493431
+         },
+         "great": {
+           "rankOne": 80.05409789085382,
+           "max": 88.79404250738638
+         },
+         "ultra": {
+           "rankOne": 94.67360210418701,
+           "max": 94.67360210418701
          },
 @@ -9227,42 +9227,42 @@
            "rankOne": 86.22060191631317,

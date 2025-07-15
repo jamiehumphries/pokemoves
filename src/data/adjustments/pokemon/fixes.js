@@ -30,6 +30,7 @@ export const pokemonNameFixes = {
   BURMY_PLANT: "Burmy",
   DARMANITAN_STANDARD: "Darmanitan",
   KELDEO_ORDINARY: "Keldeo",
+  TATSUGIRI_CURLY: "Tatsugiri",
 
   // Added form name
   ARCEUS: "Arceus (Normal)",

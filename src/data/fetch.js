@@ -11,12 +11,10 @@ if (!existsSync(localDir)) {
 }
 
 const paths = [
-  "gamemaster/moves.json",
-  "gamemaster/pokemon.json",
-  "rankings/all/overall/rankings-500.json",
-  "rankings/all/overall/rankings-1500.json",
-  "rankings/all/overall/rankings-2500.json",
-  "rankings/all/overall/rankings-10000.json",
+  ...["moves", "pokemon"].map((file) => `gamemaster/${file}.json`),
+  ...["500", "1500", "2500", "10000"].map(
+    (cp) => `rankings/all/overall/rankings-${cp}.json`,
+  ),
 ];
 
 for (const path of paths) {

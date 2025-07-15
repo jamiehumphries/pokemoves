@@ -302,13 +302,9 @@ function readPokemon() {
 }
 
 function readRankings() {
-  const idProp = "speciesId";
-  return [
-    ...readJson("rankings-10000.json", idProp),
-    ...readJson("rankings-2500.json", idProp),
-    ...readJson("rankings-1500.json", idProp),
-    ...readJson("rankings-500.json", idProp),
-  ];
+  return ["10000", "2500", "1500", "500"].flatMap((cp) =>
+    readJson(`rankings-${cp}.json`, "speciesId"),
+  );
 }
 
 function readJson(filename, idProperty, exclusions = []) {

@@ -1,0 +1,146 @@
+diff --git a/docs/data.json b/docs/data.json
+index dd72af6..7eaf170 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -219,80 +219,80 @@
+         }
+       }
+     },
+     {
+       "name": "Aegislash (Blade)",
+       "types": [
+         "steel",
+         "ghost"
+       ],
+       "fastMoveIds": [
+         "AIR_SLASH",
+         "PSYCHO_CUT"
+       ],
+       "chargedMoveIds": [
+         "SHADOW_BALL",
+         "GYRO_BALL",
+         "FLASH_CANNON"
+       ],
+       "cmp": {
+         "little": {
+-          "rankOne": 104.06537753343571,
+-          "max": 110.91207112630974
++          "rankOne": 100.40079641172483,
++          "max": 107.69261357188203
+         },
+         "great": {
+-          "rankOne": 178.13776999711976,
+-          "max": 192.62935121331387
++          "rankOne": 172.3525774013861,
++          "max": 186.51415586471555
+         },
+         "ultra": {
+-          "rankOne": 229.97730338573436,
+-          "max": 249.4817962646482
++          "rankOne": 222.44263540072677,
++          "max": 241.88467023297267
+         },
+         "master": {
+-          "rankOne": 258.6618057489395,
+-          "max": 258.6618057489395
++          "rankOne": 242.60110539197922,
++          "max": 242.60110539197922
+         }
+       }
+     },
+     {
+       "name": "Aegislash (Shield)",
+       "types": [
+         "steel",
+         "ghost"
+       ],
+       "fastMoveIds": [
+         "AIR_SLASH",
+         "PSYCHO_CUT"
+       ],
+       "chargedMoveIds": [
+         "SHADOW_BALL",
+         "GYRO_BALL",
+         "FLASH_CANNON"
+       ],
+       "cmp": {
+         "little": {
+-          "rankOne": 46.723440438508945,
+-          "max": 50.9078225493431
++          "rankOne": 47.205125391483264,
++          "max": 51.83341932296752
+         },
+         "great": {
+-          "rankOne": 80.05409789085382,
+-          "max": 88.79404250738638
++          "rankOne": 81.50910228490822,
++          "max": 90.47403270760097
+         },
+         "ultra": {
+           "rankOne": 94.67360210418701,
+           "max": 94.67360210418701
+         },
+         "master": {
+           "rankOne": 94.67360210418701,
+           "max": 94.67360210418701
+         }
+       }
+     },
+     {
+       "name": "Aerodactyl",
+       "types": [
+         "rock",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "BITE",
+         "ROCK_THROW",
+@@ -42296,40 +42296,48 @@
+       "energyGain": 9,
+       "power": 9,
+       "turns": 3
+     },
+     "ANCIENT_POWER": {
+       "name": "Ancient Power",
+       "type": "rock",
+       "energy": 45,
+       "energyGain": 0,
+       "power": 60,
+       "turns": 1
+     },
+     "AQUA_JET": {
+       "name": "Aqua Jet",
+       "type": "water",
+       "energy": 40,
+       "energyGain": 0,
+       "power": 70,
+       "turns": 1
+     },
++    "AQUA_STEP": {
++      "name": "Aqua Step",
++      "type": "water",
++      "energy": 40,
++      "energyGain": 0,
++      "power": 55,
++      "turns": 1
++    },
+     "AQUA_TAIL": {
+       "name": "Aqua Tail",
+       "type": "water",
+       "energy": 35,
+       "energyGain": 0,
+       "power": 55,
+       "turns": 1
+     },
+     "ASTONISH": {
+       "name": "Astonish",
+       "type": "ghost",
+       "energy": 0,
+       "energyGain": 10,
+       "power": 12,
+       "turns": 3
+     },
+     "AURA_SPHERE": {
+       "name": "Aura Sphere",
+       "type": "fighting",
+       "energy": 55,

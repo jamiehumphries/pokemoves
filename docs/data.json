@@ -28542,6 +28542,8 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "AQUA_JET",
+        "AQUA_STEP",
+        "HYDRO_CANNON",
         "CLOSE_COMBAT",
         "LIQUIDATION"
       ],
@@ -66999,6 +67001,12 @@
         13,
         14
       ],
+      "AQUA_STEP": [
+        14,
+        13,
+        13,
+        14
+      ],
       "AQUA_TAIL": [
         12,
         12,
@@ -67911,6 +67919,12 @@
         6,
         5
       ],
+      "AQUA_STEP": [
+        6,
+        6,
+        6,
+        5
+      ],
       "BLAST_BURN": [
         8,
         7,
@@ -68012,6 +68026,12 @@
         9,
         9,
         10
+      ],
+      "HYDRO_CANNON": [
+        6,
+        6,
+        6,
+        5
       ],
       "HYDRO_PUMP": [
         11,

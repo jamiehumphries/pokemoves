@@ -1,0 +1,188 @@
+diff --git a/docs/data.json b/docs/data.json
+index 7eaf170..5ac5c36 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -28525,40 +28525,42 @@
+         },
+         "master": {
+           "rankOne": 141.16510313749313,
+           "max": 141.16510313749313
+         }
+       }
+     },
+     {
+       "name": "Quaquaval",
+       "types": [
+         "water",
+         "fighting"
+       ],
+       "fastMoveIds": [
+         "WATER_GUN",
+         "WING_ATTACK"
+       ],
+       "chargedMoveIds": [
+         "AERIAL_ACE",
+         "AQUA_JET",
++        "AQUA_STEP",
++        "HYDRO_CANNON",
+         "CLOSE_COMBAT",
+         "LIQUIDATION"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 79.16502762163817,
+           "max": 83.86125807376925
+         },
+         "great": {
+           "rankOne": 135.5983189372663,
+           "max": 144.9874479174612
+         },
+         "ultra": {
+           "rankOne": 175.56618117956626,
+           "max": 187.44208338432298
+         },
+         "master": {
+           "rankOne": 212.1703047156334,
+           "max": 212.1703047156334
+         }
+@@ -66982,40 +66984,46 @@
+         14
+       ],
+       "AIR_CUTTER": [
+         12,
+         12,
+         11,
+         12
+       ],
+       "ANCIENT_POWER": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "AQUA_JET": [
+         14,
+         13,
+         13,
+         14
+       ],
++      "AQUA_STEP": [
++        14,
++        13,
++        13,
++        14
++      ],
+       "AQUA_TAIL": [
+         12,
+         12,
+         11,
+         12
+       ],
+       "AURORA_BEAM": [
+         20,
+         20,
+         20,
+         20
+       ],
+       "AVALANCHE": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "BLIZZARD": [
+         25,
+@@ -67894,40 +67902,46 @@
+         5
+       ],
+       "AIR_CUTTER": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "ANCIENT_POWER": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "AQUA_JET": [
+         6,
+         6,
+         6,
+         5
+       ],
++      "AQUA_STEP": [
++        6,
++        6,
++        6,
++        5
++      ],
+       "BLAST_BURN": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "BLIZZARD": [
+         11,
+         11,
+         11,
+         10
+       ],
+       "BRAVE_BIRD": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "BUBBLE_BEAM": [
+         6,
+@@ -67996,40 +68010,46 @@
+         8
+       ],
+       "FLY": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "HEAT_WAVE": [
+         11,
+         11,
+         11,
+         10
+       ],
+       "HURRICANE": [
+         10,
+         9,
+         9,
+         10
+       ],
++      "HYDRO_CANNON": [
++        6,
++        6,
++        6,
++        5
++      ],
+       "HYDRO_PUMP": [
+         11,
+         11,
+         11,
+         10
+       ],
+       "ICE_BEAM": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "LIQUIDATION": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "NIGHT_SHADE": [
+         7,

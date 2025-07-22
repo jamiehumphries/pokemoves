@@ -260,8 +260,8 @@
         "ghost"
       ],
       "fastMoveIds": [
-        "AIR_SLASH",
-        "PSYCHO_CUT"
+        "AEGISLASH_CHARGE_AIR_SLASH",
+        "AEGISLASH_CHARGE_PSYCHO_CUT"
       ],
       "chargedMoveIds": [
         "SHADOW_BALL",
@@ -42267,6 +42267,22 @@
       "power": 110,
       "turns": 1
     },
+    "AEGISLASH_CHARGE_AIR_SLASH": {
+      "name": "Air Slash",
+      "type": "flying",
+      "energy": 0,
+      "energyGain": 6,
+      "power": 0,
+      "turns": 3
+    },
+    "AEGISLASH_CHARGE_PSYCHO_CUT": {
+      "name": "Psycho Cut",
+      "type": "psychic",
+      "energy": 0,
+      "energyGain": 6,
+      "power": 0,
+      "turns": 2
+    },
     "AERIAL_ACE": {
       "name": "Aerial Ace",
       "type": "flying",
@@ -44979,6 +44995,46 @@
         6,
         5,
         6
+      ]
+    },
+    "AEGISLASH_CHARGE_AIR_SLASH": {
+      "FLASH_CANNON": [
+        12,
+        12,
+        11,
+        12
+      ],
+      "GYRO_BALL": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "SHADOW_BALL": [
+        10,
+        9,
+        9,
+        9
+      ]
+    },
+    "AEGISLASH_CHARGE_PSYCHO_CUT": {
+      "FLASH_CANNON": [
+        12,
+        12,
+        11,
+        12
+      ],
+      "GYRO_BALL": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "SHADOW_BALL": [
+        10,
+        9,
+        9,
+        9
       ]
     },
     "AIR_SLASH": {

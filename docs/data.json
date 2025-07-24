@@ -11227,7 +11227,7 @@
         "POISON_JAB"
       ],
       "chargedMoveIds": [
-        "SLUDGE_BOMB",
+        "CROSS_POISON",
         "FLAMETHROWER",
         "DRAGON_PULSE",
         "HYPER_BEAM"
@@ -11262,7 +11262,7 @@
         "POISON_JAB"
       ],
       "chargedMoveIds": [
-        "SLUDGE_BOMB",
+        "CROSS_POISON",
         "FLAMETHROWER",
         "DRAGON_PULSE",
         "HYPER_BEAM"
@@ -50178,6 +50178,12 @@
         5,
         5
       ],
+      "CROSS_POISON": [
+        4,
+        4,
+        4,
+        4
+      ],
       "CRUNCH": [
         5,
         5,
@@ -58325,6 +58331,12 @@
         6,
         7,
         6
+      ],
+      "CROSS_POISON": [
+        5,
+        5,
+        5,
+        5
       ],
       "CRUNCH": [
         7,

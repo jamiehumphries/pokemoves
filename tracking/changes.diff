@@ -1,0 +1,53 @@
+diff --git a/docs/data.json b/docs/data.json
+index 9f0c3d2..09b19d2 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -42570,40 +42570,48 @@
+       "energyGain": 13,
+       "power": 5,
+       "turns": 3
+     },
+     "CHARGE_BEAM": {
+       "name": "Charge Beam",
+       "type": "electric",
+       "energy": 0,
+       "energyGain": 11,
+       "power": 5,
+       "turns": 3
+     },
+     "CHARM": {
+       "name": "Charm",
+       "type": "fairy",
+       "energy": 0,
+       "energyGain": 6,
+       "power": 15,
+       "turns": 3
+     },
++    "CHILLING_WATER": {
++      "name": "Chilling Water (Speculative)",
++      "type": "water",
++      "energy": 45,
++      "energyGain": 0,
++      "power": 60,
++      "turns": 1
++    },
+     "CLANGING_SCALES": {
+       "name": "Clanging Scales",
+       "type": "dragon",
+       "energy": 45,
+       "energyGain": 0,
+       "power": 120,
+       "turns": 1
+     },
+     "CLOSE_COMBAT": {
+       "name": "Close Combat",
+       "type": "fighting",
+       "energy": 45,
+       "energyGain": 0,
+       "power": 100,
+       "turns": 1
+     },
+     "CONFUSION": {
+       "name": "Confusion",
+       "type": "psychic",
+       "energy": 0,

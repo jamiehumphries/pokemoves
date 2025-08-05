@@ -42587,6 +42587,14 @@
       "power": 15,
       "turns": 3
     },
+    "CHILLING_WATER": {
+      "name": "Chilling Water (Speculative)",
+      "type": "water",
+      "energy": 45,
+      "energyGain": 0,
+      "power": 60,
+      "turns": 1
+    },
     "CLANGING_SCALES": {
       "name": "Clanging Scales",
       "type": "dragon",

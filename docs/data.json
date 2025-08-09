@@ -5695,7 +5695,8 @@
       "chargedMoveIds": [
         "DISCHARGE",
         "X_SCISSOR",
-        "CRUNCH"
+        "CRUNCH",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -11229,7 +11230,6 @@
       "chargedMoveIds": [
         "CROSS_POISON",
         "FLAMETHROWER",
-        "DRAGON_PULSE",
         "HYPER_BEAM"
       ],
       "cmp": {
@@ -11264,7 +11264,6 @@
       "chargedMoveIds": [
         "CROSS_POISON",
         "FLAMETHROWER",
-        "DRAGON_PULSE",
         "HYPER_BEAM"
       ],
       "cmp": {
@@ -12101,6 +12100,7 @@
         "AERIAL_ACE",
         "FLY",
         "FLAME_CHARGE",
+        "RETURN",
         "HEAT_WAVE"
       ],
       "cmp": {
@@ -12136,6 +12136,7 @@
         "SWIFT",
         "AERIAL_ACE",
         "FLY",
+        "RETURN",
         "HEAT_WAVE"
       ],
       "cmp": {
@@ -13800,6 +13801,7 @@
         "DRAGON_CLAW",
         "ANCIENT_POWER",
         "SHADOW_SNEAK",
+        "RETURN",
         "SHADOW_FORCE"
       ],
       "cmp": {
@@ -15574,7 +15576,8 @@
       "chargedMoveIds": [
         "VICE_GRIP",
         "X_SCISSOR",
-        "CRUNCH"
+        "CRUNCH",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -27275,7 +27278,8 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "DRILL_PECK",
-        "SKY_ATTACK"
+        "SKY_ATTACK",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -35308,6 +35312,7 @@
         "PSYCHIC",
         "PSYBEAM",
         "THUNDER",
+        "RETURN",
         "HYDRO_PUMP"
       ],
       "cmp": {
@@ -35342,7 +35347,8 @@
       "chargedMoveIds": [
         "SWIFT",
         "BUBBLE_BEAM",
-        "POWER_GEM"
+        "POWER_GEM",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -36326,6 +36332,7 @@
         "FLAME_CHARGE",
         "BRAVE_BIRD",
         "HURRICANE",
+        "RETURN",
         "FIRE_BLAST"
       ],
       "cmp": {
@@ -37828,7 +37835,8 @@
       "chargedMoveIds": [
         "DRILL_PECK",
         "ROCK_BLAST",
-        "FLASH_CANNON"
+        "FLASH_CANNON",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -38208,7 +38216,8 @@
       "chargedMoveIds": [
         "DRILL_PECK",
         "ROCK_BLAST",
-        "SKY_ATTACK"
+        "SKY_ATTACK",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -39550,7 +39559,8 @@
         "DISCHARGE",
         "X_SCISSOR",
         "CRUNCH",
-        "FLY"
+        "FLY",
+        "RETURN"
       ],
       "cmp": {
         "little": {

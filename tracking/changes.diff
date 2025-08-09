@@ -1,8 +1,590 @@
 diff --git a/docs/data.json b/docs/data.json
-index 9f0c3d2..09b19d2 100644
+index 9f0c3d2..ac266ff 100644
 --- a/docs/data.json
 +++ b/docs/data.json
-@@ -42570,40 +42570,48 @@
+@@ -5678,41 +5678,42 @@
+         "master": {
+           "rankOne": 282.33020627498627,
+           "max": 282.33020627498627
+         }
+       }
+     },
+     {
+       "name": "Charjabug",
+       "types": [
+         "bug",
+         "electric"
+       ],
+       "fastMoveIds": [
+         "BUG_BITE",
+         "SPARK",
+         "VOLT_SWITCH"
+       ],
+       "chargedMoveIds": [
+         "DISCHARGE",
+         "X_SCISSOR",
+-        "CRUNCH"
++        "CRUNCH",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 65.69369331143783,
+           "max": 71.13041275790164
+         },
+         "great": {
+           "rankOne": 113.35955939722177,
+           "max": 124.17039135078593
+         },
+         "ultra": {
+           "rankOne": 135.24800300598145,
+           "max": 135.24800300598145
+         },
+         "master": {
+           "rankOne": 135.24800300598145,
+           "max": 135.24800300598145
+         }
+       }
+     },
+@@ -11212,76 +11213,74 @@
+         },
+         "master": {
+           "rankOne": 114.11550253629684,
+           "max": 114.11550253629684
+         }
+       }
+     },
+     {
+       "name": "Eternatus",
+       "types": [
+         "poison",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "DRAGON_TAIL",
+         "POISON_JAB"
+       ],
+       "chargedMoveIds": [
+         "CROSS_POISON",
+         "FLAMETHROWER",
+-        "DRAGON_PULSE",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.31497632711455,
+           "max": 80.14440166252531
+         },
+         "great": {
+           "rankOne": 131.3094296247037,
+           "max": 138.39447079150426
+         },
+         "ultra": {
+           "rankOne": 170.17972528934467,
+           "max": 179.3620845675467
+         },
+         "master": {
+           "rankOne": 247.67290550470352,
+           "max": 247.67290550470352
+         }
+       }
+     },
+     {
+       "name": "Eternatus (Eternamax)",
+       "types": [
+         "poison",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "DRAGON_TAIL",
+         "POISON_JAB"
+       ],
+       "chargedMoveIds": [
+         "CROSS_POISON",
+         "FLAMETHROWER",
+-        "DRAGON_PULSE",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 51.24514324553168,
+           "max": 51.24514324553168
+         },
+         "great": {
+           "rankOne": 87.65238174796094,
+           "max": 89.74765780568113
+         },
+         "ultra": {
+           "rankOne": 113.71804842186823,
+           "max": 117.86660706996918
+         },
+         "master": {
+           "rankOne": 224.84980499744415,
+           "max": 224.84980499744415
+         }
+       }
+@@ -12084,75 +12083,77 @@
+           "rankOne": 220.62330490350723,
+           "max": 220.62330490350723
+         }
+       }
+     },
+     {
+       "name": "Fletchinder",
+       "types": [
+         "fire",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "EMBER",
+         "PECK",
+         "STEEL_WING"
+       ],
+       "chargedMoveIds": [
+         "AERIAL_ACE",
+         "FLY",
+         "FLAME_CHARGE",
++        "RETURN",
+         "HEAT_WAVE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 70.32600313425057,
+           "max": 77.06959247589104
+         },
+         "great": {
+           "rankOne": 121.84350341558446,
+           "max": 134.84859664555967
+         },
+         "ultra": {
+           "rankOne": 135.24800300598145,
+           "max": 135.24800300598145
+         },
+         "master": {
+           "rankOne": 135.24800300598145,
+           "max": 135.24800300598145
+         }
+       }
+     },
+     {
+       "name": "Fletchling",
+       "types": [
+         "normal",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "PECK",
+         "QUICK_ATTACK"
+       ],
+       "chargedMoveIds": [
+         "SWIFT",
+         "AERIAL_ACE",
+         "FLY",
++        "RETURN",
+         "HEAT_WAVE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 64.08528043262771,
+           "max": 73.47274005413055
+         },
+         "great": {
+           "rankOne": 92.98300206661224,
+           "max": 92.98300206661224
+         },
+         "ultra": {
+           "rankOne": 92.98300206661224,
+           "max": 92.98300206661224
+         },
+         "master": {
+           "rankOne": 92.98300206661224,
+           "max": 92.98300206661224
+         }
+       }
+@@ -13783,40 +13784,41 @@
+         "master": {
+           "rankOne": 166.52410370111465,
+           "max": 166.52410370111465
+         }
+       }
+     },
+     {
+       "name": "Giratina (Altered)",
+       "types": [
+         "ghost",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "DRAGON_BREATH",
+         "SHADOW_CLAW"
+       ],
+       "chargedMoveIds": [
+         "DRAGON_CLAW",
+         "ANCIENT_POWER",
+         "SHADOW_SNEAK",
++        "RETURN",
+         "SHADOW_FORCE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 60.04338097572324,
+           "max": 61.82359102982614
+         },
+         "great": {
+           "rankOne": 102.99823379516585,
+           "max": 109.06978820830096
+         },
+         "ultra": {
+           "rankOne": 132.18734639883039,
+           "max": 140.80912154887358
+         },
+         "master": {
+           "rankOne": 170.75060379505157,
+           "max": 170.75060379505157
+         }
+       }
+@@ -15557,41 +15559,42 @@
+           "max": 132.7121029496193
+         },
+         "master": {
+           "rankOne": 132.7121029496193,
+           "max": 132.7121029496193
+         }
+       }
+     },
+     {
+       "name": "Grubbin",
+       "types": [
+         "bug"
+       ],
+       "fastMoveIds": [
+         "BUG_BITE",
+         "SPARK"
+       ],
+       "chargedMoveIds": [
+         "VICE_GRIP",
+         "X_SCISSOR",
+-        "CRUNCH"
++        "CRUNCH",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.29840111732476,
+           "max": 78.02225181776741
+         },
+         "great": {
+           "rankOne": 109.88900244235992,
+           "max": 109.88900244235992
+         },
+         "ultra": {
+           "rankOne": 109.88900244235992,
+           "max": 109.88900244235992
+         },
+         "master": {
+           "rankOne": 109.88900244235992,
+           "max": 109.88900244235992
+         }
+       }
+     },
+@@ -27258,41 +27261,42 @@
+         },
+         "master": {
+           "rankOne": 107.35310238599777,
+           "max": 107.35310238599777
+         }
+       }
+     },
+     {
+       "name": "Pikipek",
+       "types": [
+         "normal",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "PECK",
+         "ROCK_SMASH"
+       ],
+       "chargedMoveIds": [
+         "AERIAL_ACE",
+         "DRILL_PECK",
+-        "SKY_ATTACK"
++        "SKY_ATTACK",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 84.2389590369828,
+           "max": 96.09794318675985
+         },
+         "great": {
+           "rankOne": 127.64030283689499,
+           "max": 127.64030283689499
+         },
+         "ultra": {
+           "rankOne": 127.64030283689499,
+           "max": 127.64030283689499
+         },
+         "master": {
+           "rankOne": 127.64030283689499,
+           "max": 127.64030283689499
+         }
+       }
+     },
+@@ -35291,75 +35295,77 @@
+     {
+       "name": "Starmie",
+       "types": [
+         "water",
+         "psychic"
+       ],
+       "fastMoveIds": [
+         "HIDDEN_POWER_BUG",
+         "PSYWAVE",
+         "QUICK_ATTACK",
+         "TACKLE",
+         "WATER_GUN"
+       ],
+       "chargedMoveIds": [
+         "SURF",
+         "POWER_GEM",
+         "ICE_BEAM",
+         "PSYCHIC",
+         "PSYBEAM",
+         "THUNDER",
++        "RETURN",
+         "HYDRO_PUMP"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.1161272435459,
+           "max": 81.55299347522775
+         },
+         "great": {
+           "rankOne": 131.57909631729115,
+           "max": 140.97760319709766
+         },
+         "ultra": {
+           "rankOne": 169.1129994392393,
+           "max": 182.3174983263015
+         },
+         "master": {
+           "rankOne": 190.1925042271614,
+           "max": 190.1925042271614
+         }
+       }
+     },
+     {
+       "name": "Staryu",
+       "types": [
+         "water"
+       ],
+       "fastMoveIds": [
+         "QUICK_ATTACK",
+         "TACKLE",
+         "WATER_GUN"
+       ],
+       "chargedMoveIds": [
+         "SWIFT",
+         "BUBBLE_BEAM",
+-        "POWER_GEM"
++        "POWER_GEM",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 75.45859909057604,
+           "max": 83.82458991571305
+         },
+         "great": {
+           "rankOne": 128.48560285568237,
+           "max": 128.48560285568237
+         },
+         "ultra": {
+           "rankOne": 128.48560285568237,
+           "max": 128.48560285568237
+         },
+         "master": {
+           "rankOne": 128.48560285568237,
+           "max": 128.48560285568237
+         }
+       }
+     },
+@@ -36309,40 +36315,41 @@
+         }
+       }
+     },
+     {
+       "name": "Talonflame",
+       "types": [
+         "fire",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "FIRE_SPIN",
+         "INCINERATE",
+         "PECK",
+         "STEEL_WING"
+       ],
+       "chargedMoveIds": [
+         "FLY",
+         "FLAME_CHARGE",
+         "BRAVE_BIRD",
+         "HURRICANE",
++        "RETURN",
+         "FIRE_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 70.32384061813352,
+           "max": 74.03015051726709
+         },
+         "great": {
+           "rankOne": 119.88502597808828,
+           "max": 129.42133486270893
+         },
+         "ultra": {
+           "rankOne": 159.76170355081558,
+           "max": 161.45230358839035
+         },
+         "master": {
+           "rankOne": 161.45230358839035,
+           "max": 161.45230358839035
+         }
+       }
+@@ -37811,41 +37818,42 @@
+         "master": {
+           "rankOne": 111.57960247993469,
+           "max": 111.57960247993469
+         }
+       }
+     },
+     {
+       "name": "Toucannon",
+       "types": [
+         "normal",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "BULLET_SEED",
+         "PECK",
+         "ROCK_SMASH"
+       ],
+       "chargedMoveIds": [
+         "DRILL_PECK",
+         "ROCK_BLAST",
+-        "FLASH_CANNON"
++        "FLASH_CANNON",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 78.92206484079352,
+           "max": 82.7634042799472
+         },
+         "great": {
+           "rankOne": 135.89891731739036,
+           "max": 145.08127659559239
+         },
+         "ultra": {
+           "rankOne": 175.7586822509764,
+           "max": 188.48610162734983
+         },
+         "master": {
+           "rankOne": 200.33610445261002,
+           "max": 200.33610445261002
+         }
+       }
+     },
+@@ -38191,41 +38199,42 @@
+         },
+         "master": {
+           "rankOne": 93.82830208539963,
+           "max": 93.82830208539963
+         }
+       }
+     },
+     {
+       "name": "Trumbeak",
+       "types": [
+         "normal",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "PECK",
+         "ROCK_SMASH"
+       ],
+       "chargedMoveIds": [
+         "DRILL_PECK",
+         "ROCK_BLAST",
+-        "SKY_ATTACK"
++        "SKY_ATTACK",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.58790752291672,
+           "max": 84.42719936454937
+         },
+         "great": {
+           "rankOne": 132.41579678763895,
+           "max": 146.64784885204614
+         },
+         "ultra": {
+           "rankOne": 147.08220326900482,
+           "max": 147.08220326900482
+         },
+         "master": {
+           "rankOne": 147.08220326900482,
+           "max": 147.08220326900482
+         }
+       }
+     },
+@@ -39533,41 +39542,42 @@
+           "max": 147.08220326900482
+         }
+       }
+     },
+     {
+       "name": "Vikavolt",
+       "types": [
+         "bug",
+         "electric"
+       ],
+       "fastMoveIds": [
+         "BUG_BITE",
+         "MUD_SLAP",
+         "SPARK",
+         "VOLT_SWITCH"
+       ],
+       "chargedMoveIds": [
+         "DISCHARGE",
+         "X_SCISSOR",
+         "CRUNCH",
+-        "FLY"
++        "FLY",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 84.44603848457332,
+           "max": 87.5511534290151
+         },
+         "great": {
+           "rankOne": 143.9556480646132,
+           "max": 152.83539337844422
+         },
+         "ultra": {
+           "rankOne": 185.74735794498508,
+           "max": 198.45999133586872
+         },
+         "master": {
+           "rankOne": 227.3857050538063,
+           "max": 227.3857050538063
+         }
+       }
+     },
+@@ -42570,40 +42580,48 @@
        "energyGain": 13,
        "power": 5,
        "turns": 3

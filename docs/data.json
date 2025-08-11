@@ -33471,7 +33471,6 @@
       ],
       "chargedMoveIds": [
         "BRICK_BREAK",
-        "ROCK_SLIDE",
         "SEED_BOMB"
       ],
       "cmp": {

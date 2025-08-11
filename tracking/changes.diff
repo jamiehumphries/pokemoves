@@ -1,0 +1,46 @@
+diff --git a/docs/data.json b/docs/data.json
+index ac266ff..4180fe1 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -33454,41 +33454,40 @@
+           "rankOne": 153.96441292762748,
+           "max": 165.12125444412223
+         },
+         "master": {
+           "rankOne": 187.65660417079926,
+           "max": 187.65660417079926
+         }
+       }
+     },
+     {
+       "name": "Skiddo",
+       "types": [
+         "grass"
+       ],
+       "fastMoveIds": [
+         "ROCK_SMASH",
+         "ZEN_HEADBUTT"
+       ],
+       "chargedMoveIds": [
+         "BRICK_BREAK",
+-        "ROCK_SLIDE",
+         "SEED_BOMB"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 65.72558248043049,
+           "max": 72.5800662104434
+         },
+         "great": {
+           "rankOne": 116.651402592659,
+           "max": 116.651402592659
+         },
+         "ultra": {
+           "rankOne": 116.651402592659,
+           "max": 116.651402592659
+         },
+         "master": {
+           "rankOne": 116.651402592659,
+           "max": 116.651402592659
+         }
+       }

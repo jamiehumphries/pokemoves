@@ -11229,6 +11229,7 @@
       ],
       "chargedMoveIds": [
         "CROSS_POISON",
+        "DYNAMAX_CANNON",
         "FLAMETHROWER",
         "HYPER_BEAM"
       ],
@@ -50249,6 +50250,12 @@
         6,
         7
       ],
+      "DYNAMAX_CANNON": [
+        5,
+        5,
+        5,
+        5
+      ],
       "EARTH_POWER": [
         7,
         6,
@@ -58398,6 +58405,12 @@
         9
       ],
       "DRILL_RUN": [
+        7,
+        6,
+        7,
+        6
+      ],
+      "DYNAMAX_CANNON": [
         7,
         6,
         7,

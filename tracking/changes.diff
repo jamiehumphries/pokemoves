@@ -1,0 +1,140 @@
+diff --git a/docs/data.json b/docs/data.json
+index 4180fe1..7d209b0 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -11212,40 +11212,41 @@
+           "max": 114.11550253629684
+         },
+         "master": {
+           "rankOne": 114.11550253629684,
+           "max": 114.11550253629684
+         }
+       }
+     },
+     {
+       "name": "Eternatus",
+       "types": [
+         "poison",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "DRAGON_TAIL",
+         "POISON_JAB"
+       ],
+       "chargedMoveIds": [
+         "CROSS_POISON",
++        "DYNAMAX_CANNON",
+         "FLAMETHROWER",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.31497632711455,
+           "max": 80.14440166252531
+         },
+         "great": {
+           "rankOne": 131.3094296247037,
+           "max": 138.39447079150426
+         },
+         "ultra": {
+           "rankOne": 170.17972528934467,
+           "max": 179.3620845675467
+         },
+         "master": {
+           "rankOne": 247.67290550470352,
+           "max": 247.67290550470352
+         }
+@@ -50232,40 +50233,46 @@
+         7
+       ],
+       "DRAGON_ASCENT": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "DRAGON_CLAW": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "DRAGON_PULSE": [
+         7,
+         7,
+         6,
+         7
+       ],
++      "DYNAMAX_CANNON": [
++        5,
++        5,
++        5,
++        5
++      ],
+       "EARTH_POWER": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "EARTHQUAKE": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "ENERGY_BALL": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "FIRE_BLAST": [
+         9,
+@@ -58386,40 +58393,46 @@
+         5
+       ],
+       "DRAGON_CLAW": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "DRAGON_PULSE": [
+         9,
+         9,
+         8,
+         9
+       ],
+       "DRILL_RUN": [
+         7,
+         6,
+         7,
+         6
+       ],
++      "DYNAMAX_CANNON": [
++        7,
++        6,
++        7,
++        6
++      ],
+       "DYNAMIC_PUNCH": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "EARTH_POWER": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "EARTHQUAKE": [
+         10,
+         9,
+         9,
+         10
+       ],
+       "ENERGY_BALL": [
+         8,

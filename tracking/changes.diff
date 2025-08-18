@@ -1,8 +1,9 @@
 diff --git a/docs/data.json b/docs/data.json
-index 4180fe1..7d209b0 100644
+index 4180fe1..e0e8a87 100644
 --- a/docs/data.json
 +++ b/docs/data.json
-@@ -11212,40 +11212,41 @@
+@@ -11211,75 +11211,76 @@
+           "rankOne": 114.11550253629684,
            "max": 114.11550253629684
          },
          "master": {
@@ -22,8 +23,9 @@ index 4180fe1..7d209b0 100644
          "POISON_JAB"
        ],
        "chargedMoveIds": [
-         "CROSS_POISON",
+-        "CROSS_POISON",
 +        "DYNAMAX_CANNON",
++        "SLUDGE_BOMB",
          "FLAMETHROWER",
          "HYPER_BEAM"
        ],
@@ -44,7 +46,89 @@ index 4180fe1..7d209b0 100644
            "rankOne": 247.67290550470352,
            "max": 247.67290550470352
          }
-@@ -50232,40 +50233,46 @@
+       }
+     },
+     {
+       "name": "Eternatus (Eternamax)",
+       "types": [
+         "poison",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "DRAGON_TAIL",
+         "POISON_JAB"
+       ],
+       "chargedMoveIds": [
+-        "CROSS_POISON",
++        "SLUDGE_BOMB",
+         "FLAMETHROWER",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 51.24514324553168,
+           "max": 51.24514324553168
+         },
+         "great": {
+           "rankOne": 87.65238174796094,
+           "max": 89.74765780568113
+         },
+         "ultra": {
+           "rankOne": 113.71804842186823,
+           "max": 117.86660706996918
+         },
+         "master": {
+           "rankOne": 224.84980499744415,
+           "max": 224.84980499744415
+         }
+@@ -50178,46 +50179,40 @@
+         4
+       ],
+       "BULLDOZE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "CLANGING_SCALES": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "CLOSE_COMBAT": [
+         5,
+         5,
+         5,
+         5
+       ],
+-      "CROSS_POISON": [
+-        4,
+-        4,
+-        4,
+-        4
+-      ],
+       "CRUNCH": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "DARK_PULSE": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "DAZZLING_GLEAM": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "DISCHARGE": [
+         5,
+@@ -50232,40 +50227,46 @@
          7
        ],
        "DRAGON_ASCENT": [
@@ -91,7 +175,54 @@ index 4180fe1..7d209b0 100644
        ],
        "FIRE_BLAST": [
          9,
-@@ -58386,40 +58393,46 @@
+@@ -58332,46 +58333,40 @@
+         5
+       ],
+       "BULLDOZE": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "CLANGING_SCALES": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "CLOSE_COMBAT": [
+         7,
+         6,
+         7,
+         6
+       ],
+-      "CROSS_POISON": [
+-        5,
+-        5,
+-        5,
+-        5
+-      ],
+       "CRUNCH": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "DARK_PULSE": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "DAZZLING_GLEAM": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "DIG": [
+         8,
+@@ -58386,40 +58381,46 @@
          5
        ],
        "DRAGON_CLAW": [

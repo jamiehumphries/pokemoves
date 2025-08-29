@@ -7069,6 +7069,7 @@
         "STEEL_WING"
       ],
       "chargedMoveIds": [
+        "AIR_CUTTER",
         "IRON_HEAD",
         "SKY_ATTACK",
         "PAYBACK"
@@ -62033,6 +62034,12 @@
         10,
         10,
         10
+      ],
+      "AIR_CUTTER": [
+        9,
+        9,
+        9,
+        8
       ],
       "BODY_SLAM": [
         9,

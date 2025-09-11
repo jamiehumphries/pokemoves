@@ -12357,6 +12357,7 @@
         "VINE_WHIP"
       ],
       "chargedMoveIds": [
+        "CHILLING_WATER",
         "DISARMING_VOICE",
         "TRAILBLAZE",
         "PSYCHIC",
@@ -42772,7 +42773,7 @@
       "turns": 3
     },
     "CHILLING_WATER": {
-      "name": "Chilling Water (Speculative)",
+      "name": "Chilling Water",
       "type": "water",
       "energy": 45,
       "energyGain": 0,
@@ -51409,6 +51410,12 @@
         7
       ],
       "BULLDOZE": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "CHILLING_WATER": [
         5,
         5,
         5,
@@ -61198,6 +61205,12 @@
         10,
         10
       ],
+      "CHILLING_WATER": [
+        12,
+        11,
+        11,
+        11
+      ],
       "DAZZLING_GLEAM": [
         14,
         14,
@@ -65623,6 +65636,12 @@
         15,
         15
       ],
+      "CHILLING_WATER": [
+        15,
+        15,
+        15,
+        15
+      ],
       "CLOSE_COMBAT": [
         15,
         15,
@@ -67076,6 +67095,12 @@
         5,
         5,
         5
+      ],
+      "CHILLING_WATER": [
+        6,
+        6,
+        5,
+        6
       ],
       "CRUNCH": [
         6,

@@ -1,0 +1,398 @@
+diff --git a/docs/data.json b/docs/data.json
+index dbb2ccb..1703429 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -614,41 +614,42 @@
+           "rankOne": 129.33090287446976,
+           "max": 129.33090287446976
+         }
+       }
+     },
+     {
+       "name": "Altaria",
+       "types": [
+         "dragon",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "DRAGON_BREATH",
+         "PECK"
+       ],
+       "chargedMoveIds": [
+         "SKY_ATTACK",
+         "DAZZLING_GLEAM",
+         "DRAGON_PULSE",
+         "FLAMETHROWER",
+-        "MOONBLAST"
++        "MOONBLAST",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 59.211871130484,
+           "max": 63.73500017517375
+         },
+         "great": {
+           "rankOne": 101.43527233600616,
+           "max": 110.27393603324889
+         },
+         "ultra": {
+           "rankOne": 131.8668029308319,
+           "max": 131.8668029308319
+         },
+         "master": {
+           "rankOne": 131.8668029308319,
+           "max": 131.8668029308319
+         }
+       }
+     },
+@@ -2591,41 +2592,42 @@
+         },
+         "master": {
+           "rankOne": 125.94970279932022,
+           "max": 125.94970279932022
+         }
+       }
+     },
+     {
+       "name": "Baltoy",
+       "types": [
+         "ground",
+         "psychic"
+       ],
+       "fastMoveIds": [
+         "CONFUSION",
+         "EXTRASENSORY"
+       ],
+       "chargedMoveIds": [
+         "DIG",
+         "GYRO_BALL",
+-        "PSYBEAM"
++        "PSYBEAM",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 53.44906127452846,
+           "max": 61.44992804527283
+         },
+         "great": {
+           "rankOne": 77.76760172843933,
+           "max": 77.76760172843933
+         },
+         "ultra": {
+           "rankOne": 77.76760172843933,
+           "max": 77.76760172843933
+         },
+         "master": {
+           "rankOne": 77.76760172843933,
+           "max": 77.76760172843933
+         }
+       }
+     },
+@@ -6471,41 +6473,42 @@
+     },
+     {
+       "name": "Claydol",
+       "types": [
+         "ground",
+         "psychic"
+       ],
+       "fastMoveIds": [
+         "CONFUSION",
+         "EXTRASENSORY",
+         "MUD_SLAP"
+       ],
+       "chargedMoveIds": [
+         "GYRO_BALL",
+         "ROCK_TOMB",
+         "SCORCHING_SANDS",
+         "EARTH_POWER",
+         "ICE_BEAM",
+         "PSYCHIC",
+         "SHADOW_BALL",
+-        "EARTHQUAKE"
++        "EARTHQUAKE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 59.150002002715965,
+           "max": 63.73500017517375
+         },
+         "great": {
+           "rankOne": 101.58058637616372,
+           "max": 110.54121086166785
+         },
+         "ultra": {
+           "rankOne": 131.02150291204453,
+           "max": 131.02150291204453
+         },
+         "master": {
+           "rankOne": 131.02150291204453,
+           "max": 131.02150291204453
+         }
+       }
+     },
+@@ -8405,41 +8408,42 @@
+         },
+         "master": {
+           "rankOne": 109.88900244235992,
+           "max": 109.88900244235992
+         }
+       }
+     },
+     {
+       "name": "Deino",
+       "types": [
+         "dark",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "DRAGON_BREATH",
+         "TACKLE"
+       ],
+       "chargedMoveIds": [
+         "BODY_SLAM",
+         "CRUNCH",
+-        "DRAGON_PULSE"
++        "DRAGON_PULSE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 67.22459032059388,
+           "max": 75.26855839314358
+         },
+         "great": {
+           "rankOne": 110.73430246114731,
+           "max": 110.73430246114731
+         },
+         "ultra": {
+           "rankOne": 110.73430246114731,
+           "max": 110.73430246114731
+         },
+         "master": {
+           "rankOne": 110.73430246114731,
+           "max": 110.73430246114731
+         }
+       }
+     },
+@@ -17105,41 +17109,42 @@
+         "master": {
+           "rankOne": 179.20360398292542,
+           "max": 179.20360398292542
+         }
+       }
+     },
+     {
+       "name": "Hydreigon",
+       "types": [
+         "dark",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "BITE",
+         "DRAGON_BREATH"
+       ],
+       "chargedMoveIds": [
+         "BRUTAL_SWING",
+         "DARK_PULSE",
+         "DRAGON_PULSE",
+-        "FLASH_CANNON"
++        "FLASH_CANNON",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 78.35068962195788,
+           "max": 82.02337819798716
+         },
+         "great": {
+           "rankOne": 134.64128224546022,
+           "max": 142.53041987703014
+         },
+         "ultra": {
+           "rankOne": 172.6929662184494,
+           "max": 183.9145284891127
+         },
+         "master": {
+           "rankOne": 229.07630509138107,
+           "max": 229.07630509138107
+         }
+       }
+     },
+@@ -28817,41 +28822,42 @@
+           "max": 136.09330302476883
+         }
+       }
+     },
+     {
+       "name": "Qwilfish",
+       "types": [
+         "water",
+         "poison"
+       ],
+       "fastMoveIds": [
+         "POISON_STING",
+         "WATER_GUN"
+       ],
+       "chargedMoveIds": [
+         "AQUA_TAIL",
+         "FELL_STINGER",
+         "ACID_SPRAY",
+         "SCALD",
+         "ICE_BEAM",
+-        "SLUDGE_WAVE"
++        "SLUDGE_WAVE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 75.91778248548505,
+           "max": 81.00512925489825
+         },
+         "great": {
+           "rankOne": 130.06669378280637,
+           "max": 140.66995686292645
+         },
+         "ultra": {
+           "rankOne": 168.21470373868942,
+           "max": 168.21470373868942
+         },
+         "master": {
+           "rankOne": 168.21470373868942,
+           "max": 168.21470373868942
+         }
+       }
+     },
+@@ -36019,41 +36025,42 @@
+         },
+         "master": {
+           "rankOne": 91.29240202903748,
+           "max": 91.29240202903748
+         }
+       }
+     },
+     {
+       "name": "Swablu",
+       "types": [
+         "normal",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "ASTONISH",
+         "PECK"
+       ],
+       "chargedMoveIds": [
+         "AERIAL_ACE",
+         "DISARMING_VOICE",
+-        "ICE_BEAM"
++        "ICE_BEAM",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 51.26822434610217,
+           "max": 58.9298676604507
+         },
+         "great": {
+           "rankOne": 76.92230170965195,
+           "max": 76.92230170965195
+         },
+         "ultra": {
+           "rankOne": 76.92230170965195,
+           "max": 76.92230170965195
+         },
+         "master": {
+           "rankOne": 76.92230170965195,
+           "max": 76.92230170965195
+         }
+       }
+     },
+@@ -37808,40 +37815,41 @@
+         },
+         "master": {
+           "rankOne": 140.31980311870575,
+           "max": 140.31980311870575
+         }
+       }
+     },
+     {
+       "name": "Tornadus (Incarnate)",
+       "types": [
+         "flying"
+       ],
+       "fastMoveIds": [
+         "AIR_SLASH",
+         "BITE"
+       ],
+       "chargedMoveIds": [
+         "DARK_PULSE",
+         "GRASS_KNOT",
+         "HURRICANE",
++        "RETURN",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 85.4093012809753,
+           "max": 88.62017726898189
+         },
+         "great": {
+           "rankOne": 144.88374851550427,
+           "max": 154.77274703979467
+         },
+         "ultra": {
+           "rankOne": 187.04495250522012,
+           "max": 199.68734865333548
+         },
+         "master": {
+           "rankOne": 237.5293052792549,
+           "max": 237.5293052792549
+         }
+       }
+@@ -42277,41 +42285,42 @@
+         },
+         "master": {
+           "rankOne": 82.83940184116364,
+           "max": 82.83940184116364
+         }
+       }
+     },
+     {
+       "name": "Zweilous",
+       "types": [
+         "dark",
+         "dragon"
+       ],
+       "fastMoveIds": [
+         "BITE",
+         "DRAGON_BREATH"
+       ],
+       "chargedMoveIds": [
+         "BODY_SLAM",
+         "DARK_PULSE",
+-        "DRAGON_PULSE"
++        "DRAGON_PULSE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 68.83529973225582,
+           "max": 74.89626952000162
+         },
+         "great": {
+           "rankOne": 118.73821218369464,
+           "max": 129.93993031423187
+         },
+         "ultra": {
+           "rankOne": 147.08220326900482,
+           "max": 147.08220326900482
+         },
+         "master": {
+           "rankOne": 147.08220326900482,
+           "max": 147.08220326900482
+         }
+       }
+     },

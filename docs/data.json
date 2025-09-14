@@ -631,7 +631,8 @@
         "DAZZLING_GLEAM",
         "DRAGON_PULSE",
         "FLAMETHROWER",
-        "MOONBLAST"
+        "MOONBLAST",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -2608,7 +2609,8 @@
       "chargedMoveIds": [
         "DIG",
         "GYRO_BALL",
-        "PSYBEAM"
+        "PSYBEAM",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -6488,7 +6490,8 @@
         "ICE_BEAM",
         "PSYCHIC",
         "SHADOW_BALL",
-        "EARTHQUAKE"
+        "EARTHQUAKE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -8422,7 +8425,8 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "CRUNCH",
-        "DRAGON_PULSE"
+        "DRAGON_PULSE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -17122,7 +17126,8 @@
         "BRUTAL_SWING",
         "DARK_PULSE",
         "DRAGON_PULSE",
-        "FLASH_CANNON"
+        "FLASH_CANNON",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -28834,7 +28839,8 @@
         "ACID_SPRAY",
         "SCALD",
         "ICE_BEAM",
-        "SLUDGE_WAVE"
+        "SLUDGE_WAVE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -36036,7 +36042,8 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "DISARMING_VOICE",
-        "ICE_BEAM"
+        "ICE_BEAM",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -37825,6 +37832,7 @@
         "DARK_PULSE",
         "GRASS_KNOT",
         "HURRICANE",
+        "RETURN",
         "HYPER_BEAM"
       ],
       "cmp": {
@@ -42294,7 +42302,8 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "DARK_PULSE",
-        "DRAGON_PULSE"
+        "DRAGON_PULSE",
+        "RETURN"
       ],
       "cmp": {
         "little": {

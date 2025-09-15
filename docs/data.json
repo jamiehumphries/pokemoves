@@ -11707,7 +11707,8 @@
         "TACKLE"
       ],
       "chargedMoveIds": [
-        "MIRROR_COAT"
+        "MIRROR_COAT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -23268,6 +23269,7 @@
       "chargedMoveIds": [
         "SURF",
         "WRAP",
+        "RETURN",
         "BLIZZARD",
         "HYPER_BEAM"
       ],

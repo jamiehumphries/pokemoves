@@ -22850,6 +22850,7 @@
       "fastMoveIds": [
         "BULLET_PUNCH",
         "FURY_CUTTER",
+        "SHADOW_CLAW",
         "ZEN_HEADBUTT"
       ],
       "chargedMoveIds": [
@@ -22887,6 +22888,7 @@
       "fastMoveIds": [
         "BULLET_PUNCH",
         "FURY_CUTTER",
+        "SHADOW_CLAW",
         "ZEN_HEADBUTT"
       ],
       "chargedMoveIds": [
@@ -63202,6 +63204,12 @@
         5,
         6
       ],
+      "EARTHQUAKE": [
+        9,
+        8,
+        8,
+        8
+      ],
       "ENERGY_BALL": [
         7,
         7,
@@ -63339,6 +63347,12 @@
         5,
         5,
         5
+      ],
+      "METEOR_MASH": [
+        7,
+        6,
+        6,
+        6
       ],
       "MOONBLAST": [
         8,

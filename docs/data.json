@@ -1791,6 +1791,40 @@
       }
     },
     {
+      "name": "Archaludon",
+      "types": [
+        "steel",
+        "dragon"
+      ],
+      "fastMoveIds": [
+        "DRAGON_TAIL",
+        "METAL_CLAW"
+      ],
+      "chargedMoveIds": [
+        "DRAGON_CLAW",
+        "FLASH_CANNON",
+        "HYPER_BEAM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 76.33571952581391,
+          "max": 77.43251747795057
+        },
+        "great": {
+          "rankOne": 129.348486661911,
+          "max": 137.10939586162567
+        },
+        "ultra": {
+          "rankOne": 166.983500123024,
+          "max": 177.00251013040543
+        },
+        "master": {
+          "rankOne": 224.00450497865677,
+          "max": 224.00450497865677
+        }
+      }
+    },
+    {
       "name": "Archen",
       "types": [
         "rock",
@@ -9079,6 +9113,41 @@
       }
     },
     {
+      "name": "Dipplin",
+      "types": [
+        "grass",
+        "dragon"
+      ],
+      "fastMoveIds": [
+        "BULLET_SEED",
+        "DRAGON_TAIL",
+        "ROLLOUT"
+      ],
+      "chargedMoveIds": [
+        "SEED_BOMB",
+        "DRAGON_PULSE",
+        "OUTRAGE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 66.4166989624499,
+          "max": 70.54429042339311
+        },
+        "great": {
+          "rankOne": 113.2173647880554,
+          "max": 122.37946367263793
+        },
+        "ultra": {
+          "rankOne": 146.23690325021744,
+          "max": 158.4471010585326
+        },
+        "master": {
+          "rankOne": 158.9164035320282,
+          "max": 158.9164035320282
+        }
+      }
+    },
+    {
       "name": "Dodrio",
       "types": [
         "normal",
@@ -11869,6 +11938,40 @@
         "master": {
           "rankOne": 146.23690325021744,
           "max": 146.23690325021744
+        }
+      }
+    },
+    {
+      "name": "Fezandipiti",
+      "types": [
+        "poison",
+        "fairy"
+      ],
+      "fastMoveIds": [
+        "CHARM",
+        "POISON_JAB"
+      ],
+      "chargedMoveIds": [
+        "DISARMING_VOICE",
+        "SLUDGE_BOMB",
+        "MOONBLAST"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 63.41481426358211,
+          "max": 67.54240572452532
+        },
+        "great": {
+          "rankOne": 109.44118279797988,
+          "max": 117.88014364242541
+        },
+        "ultra": {
+          "rankOne": 141.58883475243516,
+          "max": 152.77519512176514
+        },
+        "master": {
+          "rankOne": 155.53520345687866,
+          "max": 155.53520345687866
         }
       }
     },
@@ -14829,6 +14932,37 @@
       }
     },
     {
+      "name": "Gouging Fire",
+      "types": [
+        "fire",
+        "dragon"
+      ],
+      "fastMoveIds": [
+        "SPLASH"
+      ],
+      "chargedMoveIds": [
+        "STRUGGLE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 68.76623162049079,
+          "max": 70.77890181426125
+        },
+        "great": {
+          "rankOne": 117.31818562746037,
+          "max": 124.68599438667285
+        },
+        "ultra": {
+          "rankOne": 151.2427443265914,
+          "max": 161.64302245022273
+        },
+        "master": {
+          "rankOne": 185.9660041332245,
+          "max": 185.9660041332245
+        }
+      }
+    },
+    {
       "name": "Gourgeist (Average Size)",
       "types": [
         "ghost",
@@ -17114,6 +17248,41 @@
       }
     },
     {
+      "name": "Hydrapple",
+      "types": [
+        "grass",
+        "dragon"
+      ],
+      "fastMoveIds": [
+        "BULLET_SEED",
+        "DRAGON_TAIL",
+        "ROLLOUT"
+      ],
+      "chargedMoveIds": [
+        "SEED_BOMB",
+        "DRAGON_PULSE",
+        "OUTRAGE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 69.35492134094234,
+          "max": 74.17123532295223
+        },
+        "great": {
+          "rankOne": 120.70740947862679,
+          "max": 127.97220727132192
+        },
+        "ultra": {
+          "rankOne": 155.39020442962646,
+          "max": 166.18119084835052
+        },
+        "master": {
+          "rankOne": 195.2643043398857,
+          "max": 195.2643043398857
+        }
+      }
+    },
+    {
       "name": "Hydreigon",
       "types": [
         "dark",
@@ -17502,6 +17671,37 @@
       }
     },
     {
+      "name": "Iron Boulder",
+      "types": [
+        "rock",
+        "psychic"
+      ],
+      "fastMoveIds": [
+        "SPLASH"
+      ],
+      "chargedMoveIds": [
+        "STRUGGLE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 75.45558571815486,
+          "max": 77.70319890975948
+        },
+        "great": {
+          "rankOne": 128.65327602624882,
+          "max": 137.15459382534013
+        },
+        "ultra": {
+          "rankOne": 166.09590071439737,
+          "max": 177.07258368410763
+        },
+        "master": {
+          "rankOne": 204.56260454654694,
+          "max": 204.56260454654694
+        }
+      }
+    },
+    {
       "name": "Iron Bundle",
       "types": [
         "ice",
@@ -17529,6 +17729,37 @@
         "master": {
           "rankOne": 237.5293052792549,
           "max": 237.5293052792549
+        }
+      }
+    },
+    {
+      "name": "Iron Crown",
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "fastMoveIds": [
+        "SPLASH"
+      ],
+      "chargedMoveIds": [
+        "STRUGGLE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 74.13335213721201,
+          "max": 76.81691239557263
+        },
+        "great": {
+          "rankOne": 126.38625794649111,
+          "max": 133.8746114931485
+        },
+        "ultra": {
+          "rankOne": 163.04705607891074,
+          "max": 174.1135983467101
+        },
+        "master": {
+          "rankOne": 199.49080443382263,
+          "max": 199.49080443382263
         }
       }
     },
@@ -17591,6 +17822,37 @@
         "master": {
           "rankOne": 223.15920495986938,
           "max": 223.15920495986938
+        }
+      }
+    },
+    {
+      "name": "Iron Leaves",
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "fastMoveIds": [
+        "SPLASH"
+      ],
+      "chargedMoveIds": [
+        "STRUGGLE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 75.77667331695552,
+          "max": 80.59298729896541
+        },
+        "great": {
+          "rankOne": 131.88402146738852,
+          "max": 140.26648045895985
+        },
+        "ultra": {
+          "rankOne": 169.77818632125854,
+          "max": 180.5691727399826
+        },
+        "master": {
+          "rankOne": 212.1703047156334,
+          "max": 212.1703047156334
         }
       }
     },
@@ -24236,6 +24498,40 @@
       }
     },
     {
+      "name": "Munkidori",
+      "types": [
+        "poison",
+        "psychic"
+      ],
+      "fastMoveIds": [
+        "CONFUSION",
+        "POISON_JAB"
+      ],
+      "chargedMoveIds": [
+        "SLUDGE_BOMB",
+        "PSYCHIC",
+        "FUTURE_SIGHT"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 80.50680775081848,
+          "max": 84.86759317065447
+        },
+        "great": {
+          "rankOne": 138.58237993717174,
+          "max": 148.65175381827254
+        },
+        "ultra": {
+          "rankOne": 179.1495270627854,
+          "max": 191.93348272948003
+        },
+        "master": {
+          "rankOne": 213.86090475320816,
+          "max": 213.86090475320816
+        }
+      }
+    },
+    {
       "name": "Munna",
       "types": [
         "psychic"
@@ -25401,6 +25697,40 @@
       }
     },
     {
+      "name": "Ogerpon",
+      "types": [
+        "grass"
+      ],
+      "fastMoveIds": [
+        "DOUBLE_KICK",
+        "MAGICAL_LEAF",
+        "VINE_WHIP"
+      ],
+      "chargedMoveIds": [
+        "GRASS_KNOT",
+        "POWER_WHIP",
+        "PLAY_ROUGH"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 76.47757610678664,
+          "max": 81.7157662510871
+        },
+        "great": {
+          "rankOne": 131.42800211906422,
+          "max": 140.92391219798301
+        },
+        "ultra": {
+          "rankOne": 169.95822316138825,
+          "max": 182.27026355266568
+        },
+        "master": {
+          "rankOne": 197.80020439624786,
+          "max": 197.80020439624786
+        }
+      }
+    },
+    {
       "name": "Oinkologne (Female)",
       "types": [
         "normal"
@@ -25463,6 +25793,40 @@
         "master": {
           "rankOne": 169.9053037762642,
           "max": 169.9053037762642
+        }
+      }
+    },
+    {
+      "name": "Okidogi",
+      "types": [
+        "poison",
+        "fighting"
+      ],
+      "fastMoveIds": [
+        "FORCE_PALM",
+        "POISON_JAB"
+      ],
+      "chargedMoveIds": [
+        "SUPER_POWER",
+        "UPPER_HAND",
+        "SLUDGE_BOMB"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 73.79790710491694,
+          "max": 78.82958258934309
+        },
+        "great": {
+          "rankOne": 128.101359605789,
+          "max": 136.2532643079756
+        },
+        "ultra": {
+          "rankOne": 164.29186591454604,
+          "max": 176.19384557008732
+        },
+        "master": {
+          "rankOne": 198.64550441503525,
+          "max": 198.64550441503525
         }
       }
     },
@@ -26583,6 +26947,39 @@
         "master": {
           "rankOne": 142.8557031750679,
           "max": 142.8557031750679
+        }
+      }
+    },
+    {
+      "name": "Pecharunt",
+      "types": [
+        "poison",
+        "ghost"
+      ],
+      "fastMoveIds": [
+        "ASTONISH"
+      ],
+      "chargedMoveIds": [
+        "SHADOW_BALL",
+        "GUNK_SHOT",
+        "POLTERGEIST"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 60.53044404605793,
+          "max": 64.15502153384583
+        },
+        "great": {
+          "rankOne": 103.91846578612984,
+          "max": 111.52894830703725
+        },
+        "ultra": {
+          "rankOne": 133.70919799804676,
+          "max": 144.14869952201826
+        },
+        "master": {
+          "rankOne": 151.30870336294174,
+          "max": 151.30870336294174
         }
       }
     },
@@ -27853,6 +28250,40 @@
       }
     },
     {
+      "name": "Poltchageist",
+      "types": [
+        "grass",
+        "ghost"
+      ],
+      "fastMoveIds": [
+        "ASTONISH",
+        "MAGICAL_LEAF"
+      ],
+      "chargedMoveIds": [
+        "ENERGY_BALL",
+        "SHADOW_BALL",
+        "POLTERGEIST"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 74.88330032470365,
+          "max": 83.26575931627497
+        },
+        "great": {
+          "rankOne": 125.94970279932022,
+          "max": 125.94970279932022
+        },
+        "ultra": {
+          "rankOne": 125.94970279932022,
+          "max": 125.94970279932022
+        },
+        "master": {
+          "rankOne": 125.94970279932022,
+          "max": 125.94970279932022
+        }
+      }
+    },
+    {
       "name": "Polteageist",
       "types": [
         "ghost"
@@ -28969,6 +29400,37 @@
       }
     },
     {
+      "name": "Raging Bolt",
+      "types": [
+        "electric",
+        "dragon"
+      ],
+      "fastMoveIds": [
+        "SPLASH"
+      ],
+      "chargedMoveIds": [
+        "STRUGGLE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 75.45558571815486,
+          "max": 77.38211131095882
+        },
+        "great": {
+          "rankOne": 127.51940412413296,
+          "max": 135.65894055758827
+        },
+        "ultra": {
+          "rankOne": 164.62757992032485,
+          "max": 175.30728292465207
+        },
+        "master": {
+          "rankOne": 211.325004696846,
+          "max": 211.325004696846
+        }
+      }
+    },
+    {
       "name": "Raichu",
       "types": [
         "electric"
@@ -29794,6 +30256,7 @@
         "psychic"
       ],
       "fastMoveIds": [
+        "CHARM",
         "HIDDEN_POWER_BUG",
         "ZEN_HEADBUTT"
       ],
@@ -33452,6 +33915,40 @@
         "master": {
           "rankOne": 186.81130415201187,
           "max": 186.81130415201187
+        }
+      }
+    },
+    {
+      "name": "Sinistcha",
+      "types": [
+        "grass",
+        "ghost"
+      ],
+      "fastMoveIds": [
+        "ASTONISH",
+        "MAGICAL_LEAF"
+      ],
+      "chargedMoveIds": [
+        "ENERGY_BALL",
+        "SHADOW_BALL",
+        "POLTERGEIST"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 75.8105772986874,
+          "max": 80.50680775081848
+        },
+        "great": {
+          "rankOne": 131.01275414228422,
+          "max": 139.74693775176982
+        },
+        "ultra": {
+          "rankOne": 169.51933437546342,
+          "max": 181.3645219802856
+        },
+        "master": {
+          "rankOne": 202.87200450897217,
+          "max": 202.87200450897217
         }
       }
     },
@@ -37130,6 +37627,36 @@
       }
     },
     {
+      "name": "Terapagos",
+      "types": [
+        "normal"
+      ],
+      "fastMoveIds": [
+        "SPLASH"
+      ],
+      "chargedMoveIds": [
+        "STRUGGLE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 56.71776580810547,
+          "max": 61.14884126186371
+        },
+        "great": {
+          "rankOne": 97.4214996099471,
+          "max": 106.96688167927545
+        },
+        "ultra": {
+          "rankOne": 119.18730264902115,
+          "max": 119.18730264902115
+        },
+        "master": {
+          "rankOne": 119.18730264902115,
+          "max": 119.18730264902115
+        }
+      }
+    },
+    {
       "name": "Terrakion",
       "types": [
         "rock",
@@ -40219,6 +40746,37 @@
         "master": {
           "rankOne": 160.60700356960297,
           "max": 160.60700356960297
+        }
+      }
+    },
+    {
+      "name": "Walking Wake",
+      "types": [
+        "water",
+        "dragon"
+      ],
+      "fastMoveIds": [
+        "SPLASH"
+      ],
+      "chargedMoveIds": [
+        "STRUGGLE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 78.02428650856014,
+          "max": 79.83591768622833
+        },
+        "great": {
+          "rankOne": 132.05380314588533,
+          "max": 140.55512094497666
+        },
+        "ultra": {
+          "rankOne": 170.48610073328013,
+          "max": 182.21577076206924
+        },
+        "master": {
+          "rankOne": 209.63440465927124,
+          "max": 209.63440465927124
         }
       }
     },
@@ -45852,6 +46410,12 @@
         5,
         5
       ],
+      "GUNK_SHOT": [
+        8,
+        7,
+        8,
+        7
+      ],
       "HEAT_WAVE": [
         8,
         7,
@@ -48578,6 +49142,12 @@
         10,
         9
       ],
+      "SLUDGE_BOMB": [
+        7,
+        6,
+        6,
+        6
+      ],
       "SOLAR_BEAM": [
         10,
         10,
@@ -49852,6 +50422,12 @@
         6,
         6
       ],
+      "GRASS_KNOT": [
+        5,
+        4,
+        4,
+        4
+      ],
       "HYPER_BEAM": [
         7,
         7,
@@ -49893,6 +50469,18 @@
         5,
         5,
         5
+      ],
+      "PLAY_ROUGH": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "POWER_WHIP": [
+        5,
+        4,
+        4,
+        4
       ],
       "PSYCHIC": [
         5,
@@ -56678,6 +57266,24 @@
         7,
         6
       ],
+      "PLAY_ROUGH": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "POLTERGEIST": [
+        8,
+        7,
+        8,
+        7
+      ],
+      "POWER_WHIP": [
+        5,
+        5,
+        5,
+        5
+      ],
       "PSYBEAM": [
         6,
         6,
@@ -58838,6 +59444,12 @@
         7,
         7
       ],
+      "DISARMING_VOICE": [
+        7,
+        6,
+        7,
+        6
+      ],
       "DISCHARGE": [
         6,
         6,
@@ -58946,6 +59558,12 @@
         11,
         10
       ],
+      "FUTURE_SIGHT": [
+        10,
+        9,
+        9,
+        10
+      ],
       "GRASS_KNOT": [
         8,
         7,
@@ -59023,6 +59641,12 @@
         8,
         8,
         8
+      ],
+      "MOONBLAST": [
+        9,
+        9,
+        8,
+        9
       ],
       "MUD_BOMB": [
         6,
@@ -62370,6 +62994,12 @@
         4,
         4
       ],
+      "DRAGON_PULSE": [
+        5,
+        4,
+        4,
+        4
+      ],
       "DRILL_RUN": [
         4,
         3,
@@ -62430,6 +63060,12 @@
         4,
         4
       ],
+      "OUTRAGE": [
+        5,
+        5,
+        4,
+        5
+      ],
       "PAYBACK": [
         5,
         5,
@@ -62471,6 +63107,12 @@
         4,
         4,
         4
+      ],
+      "SEED_BOMB": [
+        4,
+        3,
+        3,
+        3
       ],
       "SHADOW_BALL": [
         5,
@@ -67210,6 +67852,12 @@
         8,
         8,
         8
+      ],
+      "PLAY_ROUGH": [
+        8,
+        7,
+        8,
+        7
       ],
       "POWER_WHIP": [
         7,

@@ -53,7 +53,7 @@ async function build() {
   const html = await buildHtml(data, resources);
   writeFileSync(join(root, "index.html"), html);
 
-  console.log(styleText("green", "Build complete"));
+  success("Build complete");
 }
 
 function buildData() {
@@ -161,7 +161,7 @@ function getFastMoveIds(data, moves) {
 function fastMoveSortByRanking(data) {
   const rankedPokemon = rankingsJson.find((p) => p.id === data.id);
   if (!rankedPokemon) {
-    console.warn(`Could not rank fast moves for ${data.id}`);
+    warn(`Could not rank fast moves for ${data.id}`);
     return () => 0;
   }
 
@@ -320,7 +320,7 @@ function readJson(filename, idProperty, exclusions = []) {
 
   for (const exclusion of unnecessaryExclusions) {
     const warning = `${exclusion} is already excluded`;
-    console.warn(styleText("yellow", warning));
+    warn(warning);
   }
 
   return json.filter((data) => !exclusions.includes(data.id));
@@ -330,15 +330,14 @@ function fixProperty(property, data, fixes) {
   for (const [id, newValue] of Object.entries(fixes)) {
     const object = data[id];
     if (!object) {
-      console.warn(`Could not find ${id} when trying to fix ${property}`);
+      warn(`Could not find ${id} when trying to fix ${property}`);
       continue;
     }
 
     const oldValueJson = JSON.stringify(object[property]);
     const newValueJson = JSON.stringify(newValue);
     if (oldValueJson === newValueJson) {
-      const warning = `${id} already has correct ${property} (${oldValueJson})`;
-      console.warn(styleText("yellow", warning));
+      warn(`${id} already has correct ${property} (${oldValueJson})`);
       continue;
     }
 
@@ -393,6 +392,14 @@ function effectivenessArrows(n) {
     return "↑".repeat(n);
   }
   return "↔";
+}
+
+function success(message) {
+  console.log(styleText("green", message));
+}
+
+function warn(message) {
+  console.warn(styleText("yellow", message));
 }
 
 await build();

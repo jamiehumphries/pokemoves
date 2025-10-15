@@ -38,7 +38,6 @@ export const pokemonNameFixes = {
   DEOXYS: "Deoxys (Normal)",
   EISCUE: "Eiscue (Ice Face)",
   HOOPA: "Hoopa (Confined)",
-  INDEEDEE: "Indeedee (Male)",
   OINKOLOGNE: "Oinkologne (Male)",
   PALAFIN: "Palafin (Zero)",
   SILVALLY: "Silvally (Normal)",

@@ -19,12 +19,7 @@ export function computeCmp(baseStats) {
     new League("master", Infinity),
   ];
 
-  const { cp, statProduct, attack } = getMaxStats(baseStats, maxCpm);
-  const leaguesToCompute = leagues.filter(
-    (league) => !league.update(cp, statProduct, attack),
-  );
-
-  for (const league of leaguesToCompute) {
+  for (const league of leagues) {
     league.compute(baseStats);
   }
 
@@ -44,32 +39,26 @@ class League {
   }
 
   compute(baseStats) {
-    const { atk, def, hp } = baseStats;
-
+    if (this.maxStatsUpdate(baseStats, maxCpm)) return;
     for (let level = 1; level <= MAX_LEVEL; level += 0.5) {
       const cpm = getCpmForLevel(level);
-
-      const maxStats = getMaxStats(baseStats, cpm);
-      if (this.update(maxStats.cp, maxStats.statProduct, maxStats.attack)) {
-        continue;
-      }
-
-      const minStats = getMinStats(baseStats, cpm);
-      if (minStats.cp > this.cpLimit) {
-        return;
-      }
-
+      if (this.maxStatsUpdate(baseStats, cpm)) continue;
+      if (!this.minStatsUpdate(baseStats, cpm)) break;
       for (let atkIV = 0; atkIV <= MAX_IV; atkIV++) {
-        const attack = (atk + atkIV) * cpm;
+        const attack = (baseStats.atk + atkIV) * cpm;
+        if (this.maxStatsUpdate(baseStats, cpm, attack)) continue;
+        if (!this.minStatsUpdate(baseStats, cpm, attack)) break;
         for (let defIV = 0; defIV <= MAX_IV; defIV++) {
-          const defense = (def + defIV) * cpm;
+          const defense = (baseStats.def + defIV) * cpm;
+          if (this.maxStatsUpdate(baseStats, cpm, attack, defense)) continue;
+          if (!this.minStatsUpdate(baseStats, cpm, attack, defense)) break;
           const partialCp = calculatePartialCp(attack, defense);
           const partialStatProduct = attack * defense;
-          for (let hpIV = 0; hpIV <= MAX_IV; hpIV++) {
-            const stamina = (hp + hpIV) * cpm;
+          for (let hpIV = 1; hpIV < MAX_IV; hpIV++) {
+            const stamina = (baseStats.hp + hpIV) * cpm;
             const cp = calculateCpFromPartial(partialCp, stamina);
             const statProduct = partialStatProduct * Math.floor(stamina);
-            this.update(cp, statProduct, attack);
+            if (!this.update(cp, statProduct, attack)) break;
           }
         }
       }
@@ -90,6 +79,16 @@ class League {
     return true;
   }
 
+  maxStatsUpdate(baseStats, cpm, attack, defense) {
+    const maxStats = getMaxStats(baseStats, cpm, attack, defense);
+    return this.update(maxStats.cp, maxStats.statProduct, maxStats.attack);
+  }
+
+  minStatsUpdate(baseStats, cpm, attack, defense) {
+    const minStats = getMinStats(baseStats, cpm, attack, defense);
+    return this.update(minStats.cp, minStats.statProduct, minStats.attack);
+  }
+
   toEntry() {
     const key = this.name;
     const value = {
@@ -100,18 +99,18 @@ class League {
   }
 }
 
-function getMaxStats(baseStats, cpm) {
-  return getConstantIvStats(baseStats, cpm, MAX_IV);
+function getMaxStats(baseStats, cpm, attack, defense) {
+  return getConstantIvStats(baseStats, cpm, MAX_IV, attack, defense);
 }
 
-function getMinStats(baseStats, cpm) {
-  return getConstantIvStats(baseStats, cpm, 0);
+function getMinStats(baseStats, cpm, attack, defense) {
+  return getConstantIvStats(baseStats, cpm, 0, attack, defense);
 }
 
-function getConstantIvStats(baseStats, cpm, iv) {
+function getConstantIvStats(baseStats, cpm, iv, attack, defense) {
   const { atk, def, hp } = baseStats;
-  const attack = (atk + iv) * cpm;
-  const defense = (def + iv) * cpm;
+  attack ||= (atk + iv) * cpm;
+  defense ||= (def + iv) * cpm;
   const stamina = (hp + iv) * cpm;
   const statProduct = attack * defense * Math.floor(stamina);
   const cp = calculateCp(attack, defense, stamina);

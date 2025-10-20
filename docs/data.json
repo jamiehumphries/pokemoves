@@ -6846,7 +6846,8 @@
       "chargedMoveIds": [
         "DARK_PULSE",
         "PSYCHIC",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -27205,7 +27206,8 @@
       "chargedMoveIds": [
         "FOUL_PLAY",
         "SEED_BOMB",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -38819,7 +38821,8 @@
       "chargedMoveIds": [
         "FOUL_PLAY",
         "SEED_BOMB",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -42001,7 +42004,8 @@
       "chargedMoveIds": [
         "OMINOUS_WIND",
         "DARK_PULSE",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {

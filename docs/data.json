@@ -35488,7 +35488,8 @@
       ],
       "fastMoveIds": [
         "BUG_BITE",
-        "COUNTER"
+        "COUNTER",
+        "SHADOW_CLAW"
       ],
       "chargedMoveIds": [
         "X_SCISSOR",
@@ -63993,6 +63994,12 @@
         5,
         5,
         5
+      ],
+      "LUNGE": [
+        6,
+        6,
+        5,
+        6
       ],
       "METEOR_MASH": [
         7,

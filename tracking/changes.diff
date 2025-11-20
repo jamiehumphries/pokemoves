@@ -1,0 +1,46 @@
+diff --git a/docs/data.json b/docs/data.json
+index 5965974..71e8f0e 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -8024,40 +8024,41 @@
+         },
+         "master": {
+           "rankOne": 147.08220326900482,
+           "max": 147.08220326900482
+         }
+       }
+     },
+     {
+       "name": "Darkrai",
+       "types": [
+         "dark"
+       ],
+       "fastMoveIds": [
+         "FEINT_ATTACK",
+         "SNARL"
+       ],
+       "chargedMoveIds": [
+         "DARK_PULSE",
+         "SLUDGE_BOMB",
+         "SHADOW_BALL",
++        "RETURN",
+         "FOCUS_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 86.20421558618528,
+           "max": 88.45058320603839
+         },
+         "great": {
+           "rankOne": 147.45727479457855,
+           "max": 155.2181839942932
+         },
+         "ultra": {
+           "rankOne": 190.36119014024734,
+           "max": 200.38020014762878
+         },
+         "master": {
+           "rankOne": 253.5900056362152,
+           "max": 253.5900056362152
+         }
+       }

@@ -18654,6 +18654,42 @@
       }
     },
     {
+      "name": "Keldeo (Resolute)",
+      "types": [
+        "water",
+        "fighting"
+      ],
+      "fastMoveIds": [
+        "LOW_KICK",
+        "POISON_JAB"
+      ],
+      "chargedMoveIds": [
+        "SECRET_SWORD",
+        "AQUA_JET",
+        "X_SCISSOR",
+        "CLOSE_COMBAT",
+        "HYDRO_PUMP"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 79.57491914730097,
+          "max": 81.41126343531562
+        },
+        "great": {
+          "rankOne": 134.52242612838745,
+          "max": 142.2833353281021
+        },
+        "ultra": {
+          "rankOne": 173.66284012794495,
+          "max": 184.83544040568412
+        },
+        "master": {
+          "rankOne": 232.4575051665306,
+          "max": 232.4575051665306
+        }
+      }
+    },
+    {
       "name": "Kilowattrel",
       "types": [
         "electric",
@@ -43157,6 +43193,14 @@
       "power": 90,
       "turns": 1
     },
+    "BEAK_BLAST": {
+      "name": "Beak Blast",
+      "type": "flying",
+      "energy": 55,
+      "energyGain": 0,
+      "power": 110,
+      "turns": 1
+    },
     "BEHEMOTH_BASH": {
       "name": "Behemoth Bash",
       "type": "steel",
@@ -44835,6 +44879,14 @@
       "energy": 0,
       "energyGain": 2,
       "power": 4,
+      "turns": 1
+    },
+    "SECRET_SWORD": {
+      "name": "Secret Sword",
+      "type": "fighting",
+      "energy": 35,
+      "energyGain": 0,
+      "power": 70,
       "turns": 1
     },
     "SEED_BOMB": {
@@ -57048,6 +57100,12 @@
         10,
         10
       ],
+      "SECRET_SWORD": [
+        7,
+        7,
+        7,
+        7
+      ],
       "SHADOW_BALL": [
         11,
         11,
@@ -59743,6 +59801,12 @@
         7,
         7,
         7
+      ],
+      "SECRET_SWORD": [
+        5,
+        5,
+        5,
+        5
       ],
       "SHADOW_BALL": [
         8,

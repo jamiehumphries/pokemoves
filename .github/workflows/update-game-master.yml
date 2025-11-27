@@ -22,7 +22,9 @@ jobs:
           git config user.name "Pokémoves Bot"
           git config user.email "bot@pokemoves.com"
       - name: Set change tracking checkpoint
-        run: test -f tracking/checkpoint || (mkdir tracking && git rev-parse HEAD > tracking/checkpoint)
+        run: |
+          test -f tracking/checkpoint || (mkdir tracking && git rev-parse HEAD > tracking/checkpoint)
+          touch tracking/changes.diff
       - name: Commit tracking checkpoint
         run: |
           git add --all

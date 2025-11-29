@@ -38579,6 +38579,7 @@
       "chargedMoveIds": [
         "DRILL_PECK",
         "ROCK_BLAST",
+        "BEAK_BLAST",
         "FLASH_CANNON",
         "RETURN"
       ],
@@ -48181,6 +48182,12 @@
         3,
         4,
         3
+      ],
+      "BEAK_BLAST": [
+        5,
+        4,
+        4,
+        4
       ],
       "BODY_SLAM": [
         3,
@@ -59074,6 +59081,12 @@
         5,
         5
       ],
+      "BEAK_BLAST": [
+        7,
+        7,
+        7,
+        7
+      ],
       "BODY_SLAM": [
         5,
         4,
@@ -62225,6 +62238,12 @@
         9,
         8,
         9
+      ],
+      "BEAK_BLAST": [
+        8,
+        8,
+        8,
+        8
       ],
       "BLAST_BURN": [
         8,

@@ -295,6 +295,7 @@
       ],
       "fastMoveIds": [
         "BITE",
+        "DRAGON_BREATH",
         "ROCK_THROW",
         "STEEL_WING"
       ],
@@ -333,6 +334,7 @@
       ],
       "fastMoveIds": [
         "BITE",
+        "DRAGON_BREATH",
         "ROCK_THROW",
         "STEEL_WING"
       ],
@@ -486,9 +488,9 @@
       ],
       "chargedMoveIds": [
         "FIRE_PUNCH",
+        "SHADOW_BALL",
         "DAZZLING_GLEAM",
         "PSYCHIC",
-        "SHADOW_BALL",
         "FUTURE_SIGHT",
         "RETURN",
         "FOCUS_BLAST"
@@ -524,9 +526,9 @@
       ],
       "chargedMoveIds": [
         "FIRE_PUNCH",
+        "SHADOW_BALL",
         "DAZZLING_GLEAM",
         "PSYCHIC",
-        "SHADOW_BALL",
         "FUTURE_SIGHT",
         "RETURN",
         "FOCUS_BLAST"
@@ -2010,8 +2012,8 @@
       "chargedMoveIds": [
         "CROSS_POISON",
         "LUNGE",
-        "SHADOW_SNEAK",
         "TRAILBLAZE",
+        "SHADOW_SNEAK",
         "MEGAHORN"
       ],
       "cmp": {
@@ -2675,8 +2677,8 @@
         "SHADOW_CLAW"
       ],
       "chargedMoveIds": [
-        "DAZZLING_GLEAM",
         "SHADOW_BALL",
+        "DAZZLING_GLEAM",
         "THUNDER",
         "RETURN"
       ],
@@ -2709,8 +2711,8 @@
         "SHADOW_CLAW"
       ],
       "chargedMoveIds": [
-        "DAZZLING_GLEAM",
         "SHADOW_BALL",
+        "DAZZLING_GLEAM",
         "THUNDER",
         "RETURN"
       ],
@@ -3476,8 +3478,8 @@
         "CRUNCH",
         "GRASS_KNOT",
         "HYPER_FANG",
-        "ICE_BEAM",
         "SHADOW_BALL",
+        "ICE_BEAM",
         "THUNDERBOLT",
         "RETURN"
       ],
@@ -3581,8 +3583,8 @@
       ],
       "chargedMoveIds": [
         "MYSTICAL_FIRE",
-        "OVERHEAT",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "OVERHEAT"
       ],
       "cmp": {
         "little": {
@@ -3685,9 +3687,11 @@
       ],
       "fastMoveIds": [
         "COUNTER",
+        "EMBER",
         "FIRE_SPIN"
       ],
       "chargedMoveIds": [
+        "AURA_SPHERE",
         "BLAZE_KICK",
         "BLAST_BURN",
         "BRAVE_BIRD",
@@ -3723,9 +3727,11 @@
       ],
       "fastMoveIds": [
         "COUNTER",
+        "EMBER",
         "FIRE_SPIN"
       ],
       "chargedMoveIds": [
+        "AURA_SPHERE",
         "BLAZE_KICK",
         "BLAST_BURN",
         "BRAVE_BIRD",
@@ -4097,8 +4103,8 @@
       ],
       "chargedMoveIds": [
         "NIGHT_SHADE",
-        "SHADOW_SNEAK",
-        "POWER_WHIP"
+        "POWER_WHIP",
+        "SHADOW_SNEAK"
       ],
       "cmp": {
         "little": {
@@ -4131,8 +4137,8 @@
       ],
       "chargedMoveIds": [
         "NIGHT_SHADE",
-        "SHADOW_SNEAK",
-        "POWER_WHIP"
+        "POWER_WHIP",
+        "SHADOW_SNEAK"
       ],
       "cmp": {
         "little": {
@@ -4306,6 +4312,7 @@
         "METAL_SOUND"
       ],
       "chargedMoveIds": [
+        "WEATHER_BALL_WATER",
         "PSYSHOCK",
         "BULLDOZE",
         "HEAVY_SLAM",
@@ -5442,8 +5449,8 @@
       ],
       "chargedMoveIds": [
         "FLAME_CHARGE",
-        "FLAMETHROWER",
         "SHADOW_BALL",
+        "FLAMETHROWER",
         "HEAT_WAVE"
       ],
       "cmp": {
@@ -5477,6 +5484,8 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
+        "ICICLE_SPEAR",
+        "SUPER_POWER",
         "AVALANCHE",
         "HEAVY_SLAM"
       ],
@@ -5546,9 +5555,9 @@
       ],
       "chargedMoveIds": [
         "FLAME_CHARGE",
+        "SHADOW_BALL",
         "ENERGY_BALL",
         "OVERHEAT",
-        "SHADOW_BALL",
         "RETURN",
         "POLTERGEIST"
       ],
@@ -6251,8 +6260,8 @@
       ],
       "chargedMoveIds": [
         "PSYSHOCK",
-        "ENERGY_BALL",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "ENERGY_BALL"
       ],
       "cmp": {
         "little": {
@@ -6520,10 +6529,10 @@
         "GYRO_BALL",
         "ROCK_TOMB",
         "SCORCHING_SANDS",
+        "SHADOW_BALL",
         "EARTH_POWER",
         "ICE_BEAM",
         "PSYCHIC",
-        "SHADOW_BALL",
         "EARTHQUAKE",
         "RETURN"
       ],
@@ -6845,8 +6854,8 @@
       ],
       "chargedMoveIds": [
         "DARK_PULSE",
-        "PSYCHIC",
         "SHADOW_BALL",
+        "PSYCHIC",
         "RETURN"
       ],
       "cmp": {
@@ -7601,8 +7610,8 @@
         "AIR_CUTTER",
         "CROSS_POISON",
         "POISON_FANG",
-        "SLUDGE_BOMB",
         "SHADOW_BALL",
+        "SLUDGE_BOMB",
         "RETURN"
       ],
       "cmp": {
@@ -8002,7 +8011,8 @@
       ],
       "fastMoveIds": [
         "BITE",
-        "CHARM"
+        "CHARM",
+        "FIRE_FANG"
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
@@ -8039,8 +8049,8 @@
       ],
       "chargedMoveIds": [
         "DARK_PULSE",
-        "SLUDGE_BOMB",
         "SHADOW_BALL",
+        "SLUDGE_BOMB",
         "RETURN",
         "FOCUS_BLAST"
       ],
@@ -8844,6 +8854,7 @@
         "SHADOW_CLAW"
       ],
       "chargedMoveIds": [
+        "BRUTAL_SWING",
         "WRAP",
         "HEAVY_SLAM",
         "POWER_WHIP",
@@ -9370,9 +9381,11 @@
       ],
       "fastMoveIds": [
         "PSYCHO_CUT",
+        "SHADOW_CLAW",
         "TACKLE"
       ],
       "chargedMoveIds": [
+        "SACRED_SWORD",
         "GYRO_BALL",
         "IRON_HEAD"
       ],
@@ -9513,8 +9526,8 @@
       ],
       "chargedMoveIds": [
         "BREAKING_SWIPE",
-        "DRAGON_PULSE",
         "SHADOW_BALL",
+        "DRAGON_PULSE",
         "OUTRAGE"
       ],
       "cmp": {
@@ -9623,8 +9636,8 @@
         "DRAGON_TAIL"
       ],
       "chargedMoveIds": [
-        "DRAGON_PULSE",
         "SHADOW_BALL",
+        "DRAGON_PULSE",
         "OUTRAGE"
       ],
       "cmp": {
@@ -10102,9 +10115,11 @@
       "fastMoveIds": [
         "ASTONISH",
         "BITE",
+        "DRAGON_TAIL",
         "ROLLOUT"
       ],
       "chargedMoveIds": [
+        "BODY_SLAM",
         "DRILL_RUN",
         "ROCK_SLIDE",
         "DIG"
@@ -10384,8 +10399,8 @@
         "DYNAMIC_PUNCH",
         "OMINOUS_WIND",
         "DARK_PULSE",
-        "PSYCHIC",
         "SHADOW_BALL",
+        "PSYCHIC",
         "RETURN",
         "POLTERGEIST"
       ],
@@ -11286,9 +11301,9 @@
       ],
       "chargedMoveIds": [
         "PSYCHIC_FANGS",
+        "SHADOW_BALL",
         "LAST_RESORT",
         "PSYCHIC",
-        "SHADOW_BALL",
         "PSYBEAM",
         "FUTURE_SIGHT"
       ],
@@ -13286,10 +13301,10 @@
       ],
       "chargedMoveIds": [
         "TRIPLE_AXEL",
+        "SHADOW_BALL",
         "SYNCHRONOISE",
         "DAZZLING_GLEAM",
         "PSYCHIC",
-        "SHADOW_BALL",
         "RETURN"
       ],
       "cmp": {
@@ -13325,10 +13340,10 @@
       ],
       "chargedMoveIds": [
         "TRIPLE_AXEL",
+        "SHADOW_BALL",
         "SYNCHRONOISE",
         "DAZZLING_GLEAM",
         "PSYCHIC",
-        "SHADOW_BALL",
         "RETURN"
       ],
       "cmp": {
@@ -13646,9 +13661,9 @@
         "SHADOW_PUNCH",
         "DRAIN_PUNCH",
         "DARK_PULSE",
+        "SHADOW_BALL",
         "SLUDGE_BOMB",
         "PSYCHIC",
-        "SHADOW_BALL",
         "SLUDGE_WAVE",
         "RETURN",
         "FOCUS_BLAST"
@@ -13688,9 +13703,9 @@
         "SHADOW_PUNCH",
         "DRAIN_PUNCH",
         "DARK_PULSE",
+        "SHADOW_BALL",
         "SLUDGE_BOMB",
         "PSYCHIC",
-        "SHADOW_BALL",
         "SLUDGE_WAVE",
         "FOCUS_BLAST"
       ],
@@ -13795,8 +13810,8 @@
       ],
       "chargedMoveIds": [
         "POWER_GEM",
-        "DAZZLING_GLEAM",
         "SHADOW_BALL",
+        "DAZZLING_GLEAM",
         "FOCUS_BLAST"
       ],
       "cmp": {
@@ -13969,8 +13984,8 @@
       ],
       "chargedMoveIds": [
         "ANCIENT_POWER",
-        "SHADOW_SNEAK",
         "DRAGON_CLAW",
+        "SHADOW_SNEAK",
         "RETURN",
         "SHADOW_FORCE"
       ],
@@ -14005,8 +14020,8 @@
       ],
       "chargedMoveIds": [
         "OMINOUS_WIND",
-        "DRAGON_PULSE",
         "SHADOW_BALL",
+        "DRAGON_PULSE",
         "SHADOW_FORCE"
       ],
       "cmp": {
@@ -14071,6 +14086,7 @@
       "fastMoveIds": [
         "FROST_BREATH",
         "ICE_SHARD",
+        "POWDER_SNOW",
         "ROLLOUT"
       ],
       "chargedMoveIds": [
@@ -14106,6 +14122,7 @@
       "fastMoveIds": [
         "FROST_BREATH",
         "ICE_SHARD",
+        "POWDER_SNOW",
         "ROLLOUT"
       ],
       "chargedMoveIds": [
@@ -14387,7 +14404,8 @@
       "chargedMoveIds": [
         "LEAF_BLADE",
         "BRICK_BREAK",
-        "SEED_BOMB"
+        "SEED_BOMB",
+        "ROCK_SLIDE"
       ],
       "cmp": {
         "little": {
@@ -14972,6 +14990,7 @@
       ],
       "fastMoveIds": [
         "HEX",
+        "INCINERATE",
         "RAZOR_LEAF"
       ],
       "chargedMoveIds": [
@@ -15008,6 +15027,7 @@
       ],
       "fastMoveIds": [
         "HEX",
+        "INCINERATE",
         "RAZOR_LEAF"
       ],
       "chargedMoveIds": [
@@ -15044,6 +15064,7 @@
       ],
       "fastMoveIds": [
         "HEX",
+        "INCINERATE",
         "RAZOR_LEAF"
       ],
       "chargedMoveIds": [
@@ -15080,6 +15101,7 @@
       ],
       "fastMoveIds": [
         "HEX",
+        "INCINERATE",
         "RAZOR_LEAF"
       ],
       "chargedMoveIds": [
@@ -15811,9 +15833,9 @@
       ],
       "chargedMoveIds": [
         "DYNAMIC_PUNCH",
+        "SHADOW_BALL",
         "MIRROR_COAT",
         "PSYCHIC",
-        "SHADOW_BALL",
         "RETURN"
       ],
       "cmp": {
@@ -16270,8 +16292,8 @@
         "SHADOW_PUNCH",
         "ICE_PUNCH",
         "DARK_PULSE",
-        "SLUDGE_BOMB",
         "SHADOW_BALL",
+        "SLUDGE_BOMB",
         "RETURN"
       ],
       "cmp": {
@@ -16447,9 +16469,9 @@
       ],
       "chargedMoveIds": [
         "BULLDOZE",
-        "PARABOLIC_CHARGE",
         "BREAKING_SWIPE",
         "GRASS_KNOT",
+        "PARABOLIC_CHARGE",
         "THUNDERBOLT"
       ],
       "cmp": {
@@ -16916,8 +16938,8 @@
         "CONFUSION"
       ],
       "chargedMoveIds": [
-        "PSYCHIC",
         "SHADOW_BALL",
+        "PSYCHIC",
         "PSYBEAM"
       ],
       "cmp": {
@@ -16951,8 +16973,8 @@
       ],
       "chargedMoveIds": [
         "DARK_PULSE",
-        "PSYCHIC",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "PSYCHIC"
       ],
       "cmp": {
         "little": {
@@ -17195,7 +17217,8 @@
       "chargedMoveIds": [
         "PSYCHIC_FANGS",
         "DIG",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "PLAY_ROUGH"
       ],
       "cmp": {
         "little": {
@@ -17296,6 +17319,7 @@
       ],
       "chargedMoveIds": [
         "BRUTAL_SWING",
+        "FLY",
         "DARK_PULSE",
         "DRAGON_PULSE",
         "FLASH_CANNON",
@@ -17334,8 +17358,8 @@
         "ICE_PUNCH",
         "PSYSHOCK",
         "THUNDER_PUNCH",
-        "PSYCHIC",
         "SHADOW_BALL",
+        "PSYCHIC",
         "FUTURE_SIGHT",
         "RETURN",
         "FOCUS_BLAST"
@@ -17373,8 +17397,8 @@
         "BODY_SLAM",
         "SWIFT",
         "WILD_CHARGE",
-        "PSYCHIC",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "PSYCHIC"
       ],
       "cmp": {
         "little": {
@@ -17545,8 +17569,8 @@
         "EXTRASENSORY"
       ],
       "chargedMoveIds": [
-        "PSYCHIC",
         "SHADOW_BALL",
+        "PSYCHIC",
         "PSYBEAM"
       ],
       "cmp": {
@@ -17650,8 +17674,8 @@
       ],
       "chargedMoveIds": [
         "SURF",
-        "WATER_PULSE",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "WATER_PULSE"
       ],
       "cmp": {
         "little": {
@@ -18063,8 +18087,8 @@
       "chargedMoveIds": [
         "BUBBLE_BEAM",
         "SURF",
-        "ICE_BEAM",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "ICE_BEAM"
       ],
       "cmp": {
         "little": {
@@ -18382,8 +18406,8 @@
         "PSYCHO_CUT"
       ],
       "chargedMoveIds": [
-        "DAZZLING_GLEAM",
         "SHADOW_BALL",
+        "DAZZLING_GLEAM",
         "PSYBEAM",
         "RETURN"
       ],
@@ -18554,11 +18578,13 @@
       ],
       "fastMoveIds": [
         "AIR_SLASH",
+        "FURY_CUTTER",
         "RAZOR_LEAF"
       ],
       "chargedMoveIds": [
         "LEAF_BLADE",
         "NIGHT_SLASH",
+        "SACRED_SWORD",
         "X_SCISSOR",
         "AERIAL_ACE"
       ],
@@ -18847,8 +18873,8 @@
       ],
       "chargedMoveIds": [
         "DISARMING_VOICE",
-        "SHADOW_SNEAK",
         "TRIPLE_AXEL",
+        "SHADOW_SNEAK",
         "DRAINING_KISS",
         "PSYCHIC",
         "RETURN"
@@ -19431,6 +19457,7 @@
         "WATERFALL"
       ],
       "chargedMoveIds": [
+        "AVALANCHE",
         "SURF",
         "ORIGIN_PULSE",
         "THUNDER",
@@ -19466,6 +19493,7 @@
         "WATERFALL"
       ],
       "chargedMoveIds": [
+        "AVALANCHE",
         "SURF",
         "ORIGIN_PULSE",
         "THUNDER",
@@ -20863,6 +20891,7 @@
         "BLAZE_KICK",
         "THUNDER_PUNCH",
         "CLOSE_COMBAT",
+        "METEOR_MASH",
         "SHADOW_BALL",
         "FLASH_CANNON"
       ],
@@ -20902,6 +20931,7 @@
         "BLAZE_KICK",
         "THUNDER_PUNCH",
         "CLOSE_COMBAT",
+        "METEOR_MASH",
         "SHADOW_BALL",
         "FLASH_CANNON"
       ],
@@ -20931,10 +20961,12 @@
         "grass"
       ],
       "fastMoveIds": [
+        "ASTONISH",
         "BUBBLE",
         "RAZOR_LEAF"
       ],
       "chargedMoveIds": [
+        "WEATHER_BALL_WATER",
         "SCALD",
         "ENERGY_BALL",
         "ICE_BEAM",
@@ -21009,6 +21041,7 @@
         "WATERFALL"
       ],
       "chargedMoveIds": [
+        "AQUA_TAIL",
         "SILVER_WIND",
         "WATER_PULSE",
         "BLIZZARD"
@@ -21044,8 +21077,8 @@
         "SHADOW_CLAW"
       ],
       "chargedMoveIds": [
-        "PSYCHIC",
         "SHADOW_BALL",
+        "PSYCHIC",
         "MOONBLAST",
         "FUTURE_SIGHT"
       ],
@@ -21080,6 +21113,7 @@
         "ROCK_THROW"
       ],
       "chargedMoveIds": [
+        "WEATHER_BALL_ICE",
         "ROCK_SLIDE",
         "PSYCHIC",
         "MOONBLAST"
@@ -22948,9 +22982,9 @@
         "MAGICAL_LEAF"
       ],
       "chargedMoveIds": [
+        "SHADOW_BALL",
         "ENERGY_BALL",
-        "PSYCHIC",
-        "SHADOW_BALL"
+        "PSYCHIC"
       ],
       "cmp": {
         "little": {
@@ -23356,10 +23390,10 @@
       ],
       "chargedMoveIds": [
         "PSYSTRIKE",
+        "SHADOW_BALL",
         "FLAMETHROWER",
         "ICE_BEAM",
         "PSYCHIC",
-        "SHADOW_BALL",
         "THUNDERBOLT",
         "RETURN",
         "FOCUS_BLAST",
@@ -23569,6 +23603,7 @@
         "WATERFALL"
       ],
       "chargedMoveIds": [
+        "AQUA_TAIL",
         "SURF",
         "WRAP",
         "RETURN",
@@ -23675,8 +23710,8 @@
         "SHADOW_CLAW"
       ],
       "chargedMoveIds": [
-        "SHADOW_SNEAK",
         "SHADOW_BALL",
+        "SHADOW_SNEAK",
         "PLAY_ROUGH"
       ],
       "cmp": {
@@ -23880,8 +23915,8 @@
       ],
       "chargedMoveIds": [
         "OMINOUS_WIND",
-        "SHADOW_SNEAK",
         "DARK_PULSE",
+        "SHADOW_SNEAK",
         "RETURN"
       ],
       "cmp": {
@@ -23916,8 +23951,8 @@
       ],
       "chargedMoveIds": [
         "DARK_PULSE",
-        "DAZZLING_GLEAM",
         "SHADOW_BALL",
+        "DAZZLING_GLEAM",
         "RETURN"
       ],
       "cmp": {
@@ -24231,8 +24266,8 @@
         "ZEN_HEADBUTT"
       ],
       "chargedMoveIds": [
-        "PSYCHIC",
         "SHADOW_BALL",
+        "PSYCHIC",
         "PSYBEAM"
       ],
       "cmp": {
@@ -25396,9 +25431,9 @@
       ],
       "chargedMoveIds": [
         "NIGHT_SHADE",
+        "SHADOW_BALL",
         "SKY_ATTACK",
-        "PSYCHIC",
-        "SHADOW_BALL"
+        "PSYCHIC"
       ],
       "cmp": {
         "little": {
@@ -26266,9 +26301,9 @@
       "chargedMoveIds": [
         "AQUA_TAIL",
         "DARK_PULSE",
+        "SHADOW_BALL",
         "SLUDGE_BOMB",
-        "ICE_BEAM",
-        "SHADOW_BALL"
+        "ICE_BEAM"
       ],
       "cmp": {
         "little": {
@@ -26481,8 +26516,8 @@
       "chargedMoveIds": [
         "SAND_TOMB",
         "SCORCHING_SANDS",
-        "EARTH_POWER",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "EARTH_POWER"
       ],
       "cmp": {
         "little": {
@@ -28299,8 +28334,8 @@
         "MAGICAL_LEAF"
       ],
       "chargedMoveIds": [
-        "ENERGY_BALL",
         "SHADOW_BALL",
+        "ENERGY_BALL",
         "POLTERGEIST"
       ],
       "cmp": {
@@ -28334,8 +28369,8 @@
       ],
       "chargedMoveIds": [
         "DARK_PULSE",
-        "PSYCHIC",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "PSYCHIC"
       ],
       "cmp": {
         "little": {
@@ -28794,8 +28829,8 @@
       ],
       "chargedMoveIds": [
         "FOUL_PLAY",
-        "SHADOW_SNEAK",
-        "GRASS_KNOT"
+        "GRASS_KNOT",
+        "SHADOW_SNEAK"
       ],
       "cmp": {
         "little": {
@@ -28828,8 +28863,8 @@
       ],
       "chargedMoveIds": [
         "FOUL_PLAY",
-        "SHADOW_SNEAK",
-        "GRASS_KNOT"
+        "GRASS_KNOT",
+        "SHADOW_SNEAK"
       ],
       "cmp": {
         "little": {
@@ -28862,8 +28897,8 @@
       ],
       "chargedMoveIds": [
         "FOUL_PLAY",
-        "SHADOW_SNEAK",
-        "GRASS_KNOT"
+        "GRASS_KNOT",
+        "SHADOW_SNEAK"
       ],
       "cmp": {
         "little": {
@@ -28896,8 +28931,8 @@
       ],
       "chargedMoveIds": [
         "FOUL_PLAY",
-        "SHADOW_SNEAK",
-        "GRASS_KNOT"
+        "GRASS_KNOT",
+        "SHADOW_SNEAK"
       ],
       "cmp": {
         "little": {
@@ -29348,9 +29383,9 @@
       "chargedMoveIds": [
         "AQUA_TAIL",
         "DARK_PULSE",
+        "SHADOW_BALL",
         "SLUDGE_BOMB",
-        "ICE_BEAM",
-        "SHADOW_BALL"
+        "ICE_BEAM"
       ],
       "cmp": {
         "little": {
@@ -29986,6 +30021,7 @@
         "DRAGON_BREATH"
       ],
       "chargedMoveIds": [
+        "VICE_GRIP",
         "DRAGON_ENERGY",
         "BREAKING_SWIPE",
         "DRAGON_PULSE",
@@ -31136,8 +31172,8 @@
       "chargedMoveIds": [
         "DRAIN_PUNCH",
         "FOUL_PLAY",
-        "SHADOW_SNEAK",
         "POWER_GEM",
+        "SHADOW_SNEAK",
         "DAZZLING_GLEAM",
         "RETURN"
       ],
@@ -31173,8 +31209,8 @@
       "chargedMoveIds": [
         "DRAIN_PUNCH",
         "FOUL_PLAY",
-        "SHADOW_SNEAK",
         "POWER_GEM",
+        "SHADOW_SNEAK",
         "DAZZLING_GLEAM",
         "RETURN"
       ],
@@ -31396,6 +31432,7 @@
       ],
       "chargedMoveIds": [
         "RAZOR_SHELL",
+        "SACRED_SWORD",
         "X_SCISSOR",
         "ICY_WIND",
         "DARK_PULSE"
@@ -31679,8 +31716,8 @@
       "chargedMoveIds": [
         "SAND_TOMB",
         "SCORCHING_SANDS",
-        "EARTH_POWER",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "EARTH_POWER"
       ],
       "cmp": {
         "little": {
@@ -33968,8 +34005,8 @@
         "MAGICAL_LEAF"
       ],
       "chargedMoveIds": [
-        "ENERGY_BALL",
         "SHADOW_BALL",
+        "ENERGY_BALL",
         "POLTERGEIST"
       ],
       "cmp": {
@@ -34002,8 +34039,8 @@
       ],
       "chargedMoveIds": [
         "DARK_PULSE",
-        "PSYCHIC",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "PSYCHIC"
       ],
       "cmp": {
         "little": {
@@ -34143,8 +34180,8 @@
         "DISARMING_VOICE",
         "TORCH_SONG",
         "BLAST_BURN",
-        "FLAMETHROWER",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "FLAMETHROWER"
       ],
       "cmp": {
         "little": {
@@ -35362,6 +35399,7 @@
         "ROCK_THROW"
       ],
       "chargedMoveIds": [
+        "WEATHER_BALL_FIRE",
         "ROCK_SLIDE",
         "PSYCHIC",
         "SOLAR_BEAM"
@@ -35632,9 +35670,9 @@
       ],
       "chargedMoveIds": [
         "OMINOUS_WIND",
-        "SHADOW_SNEAK",
         "ROCK_TOMB",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "SHADOW_SNEAK"
       ],
       "cmp": {
         "little": {
@@ -35665,8 +35703,8 @@
         "ZEN_HEADBUTT"
       ],
       "chargedMoveIds": [
-        "MIRROR_COAT",
         "SHADOW_BALL",
+        "MIRROR_COAT",
         "PSYBEAM",
         "RETURN"
       ],
@@ -36440,7 +36478,8 @@
         "EXTRASENSORY",
         "HIDDEN_POWER_BUG",
         "ICE_FANG",
-        "SNARL"
+        "SNARL",
+        "WATER_GUN"
       ],
       "chargedMoveIds": [
         "BUBBLE_BEAM",
@@ -37608,6 +37647,7 @@
       "chargedMoveIds": [
         "ACID_SPRAY",
         "SCALD",
+        "PAYBACK",
         "SLUDGE_WAVE",
         "RETURN",
         "BLIZZARD",
@@ -38683,8 +38723,8 @@
         "DRAIN_PUNCH",
         "MUD_BOMB",
         "DYNAMIC_PUNCH",
-        "SLUDGE_BOMB",
         "SHADOW_BALL",
+        "SLUDGE_BOMB",
         "RETURN"
       ],
       "cmp": {
@@ -39242,8 +39282,8 @@
         "FIRE_PUNCH",
         "NIGHT_SHADE",
         "WILD_CHARGE",
-        "OVERHEAT",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "OVERHEAT"
       ],
       "cmp": {
         "little": {
@@ -39272,6 +39312,7 @@
       ],
       "fastMoveIds": [
         "BITE",
+        "DRAGON_BREATH",
         "IRON_TAIL",
         "SMACK_DOWN"
       ],
@@ -39309,6 +39350,7 @@
       ],
       "fastMoveIds": [
         "BITE",
+        "DRAGON_BREATH",
         "IRON_TAIL",
         "SMACK_DOWN"
       ],
@@ -39553,6 +39595,7 @@
       ],
       "fastMoveIds": [
         "ROCK_SMASH",
+        "SMACK_DOWN",
         "TACKLE"
       ],
       "chargedMoveIds": [
@@ -39563,6 +39606,7 @@
         "AERIAL_ACE",
         "TRAILBLAZE",
         "HIGH_HORSEPOWER",
+        "PLAY_ROUGH",
         "RETURN"
       ],
       "cmp": {
@@ -41080,8 +41124,8 @@
       ],
       "chargedMoveIds": [
         "DARK_PULSE",
-        "SLUDGE_BOMB",
         "SHADOW_BALL",
+        "SLUDGE_BOMB",
         "THUNDERBOLT",
         "RETURN"
       ],
@@ -42766,9 +42810,9 @@
       ],
       "chargedMoveIds": [
         "FOUL_PLAY",
+        "SHADOW_BALL",
         "SLUDGE_BOMB",
-        "FLAMETHROWER",
-        "SHADOW_BALL"
+        "FLAMETHROWER"
       ],
       "cmp": {
         "little": {
@@ -43303,7 +43347,7 @@
       "type": "fighting",
       "energy": 40,
       "energyGain": 0,
-      "power": 40,
+      "power": 50,
       "turns": 1
     },
     "BRINE": {
@@ -43591,7 +43635,7 @@
       "type": "dragon",
       "energy": 45,
       "energyGain": 0,
-      "power": 100,
+      "power": 90,
       "turns": 1
     },
     "DRAGON_PULSE": {
@@ -43847,7 +43891,7 @@
       "type": "dark",
       "energy": 40,
       "energyGain": 0,
-      "power": 60,
+      "power": 65,
       "turns": 1
     },
     "FREEZE_SHOCK": {
@@ -43919,7 +43963,7 @@
       "type": "fairy",
       "energy": 0,
       "energyGain": 13,
-      "power": 4,
+      "power": 8,
       "turns": 3
     },
     "GIGA_DRAIN": {
@@ -44135,7 +44179,7 @@
       "type": "ice",
       "energy": 40,
       "energyGain": 0,
-      "power": 65,
+      "power": 70,
       "turns": 1
     },
     "ICY_WIND": {
@@ -44349,7 +44393,7 @@
     "METEOR_MASH": {
       "name": "Meteor Mash",
       "type": "steel",
-      "energy": 50,
+      "energy": 45,
       "energyGain": 0,
       "power": 100,
       "turns": 1
@@ -44517,7 +44561,7 @@
     "PARABOLIC_CHARGE": {
       "name": "Parabolic Charge",
       "type": "electric",
-      "energy": 45,
+      "energy": 50,
       "energyGain": 0,
       "power": 70,
       "turns": 1
@@ -44599,7 +44643,7 @@
       "type": "ice",
       "energy": 0,
       "energyGain": 8,
-      "power": 5,
+      "power": 6,
       "turns": 2
     },
     "POWER_GEM": {
@@ -44909,7 +44953,7 @@
     "SHADOW_BALL": {
       "name": "Shadow Ball",
       "type": "ghost",
-      "energy": 55,
+      "energy": 50,
       "energyGain": 0,
       "power": 100,
       "turns": 1
@@ -44949,9 +44993,9 @@
     "SHADOW_SNEAK": {
       "name": "Shadow Sneak",
       "type": "ghost",
-      "energy": 45,
+      "energy": 50,
       "energyGain": 0,
-      "power": 50,
+      "power": 75,
       "turns": 1
     },
     "SIGNAL_BEAM": {
@@ -45037,7 +45081,7 @@
     "SPACIAL_REND": {
       "name": "Spacial Rend",
       "type": "dragon",
-      "energy": 50,
+      "energy": 55,
       "energyGain": 0,
       "power": 95,
       "turns": 1
@@ -45351,7 +45395,7 @@
       "type": "normal",
       "energy": 40,
       "energyGain": 0,
-      "power": 40,
+      "power": 70,
       "turns": 1
     },
     "VINE_WHIP": {
@@ -45675,6 +45719,12 @@
         8,
         7
       ],
+      "PAYBACK": [
+        8,
+        7,
+        8,
+        7
+      ],
       "PETAL_BLIZZARD": [
         9,
         8,
@@ -45743,9 +45793,9 @@
       ],
       "SHADOW_BALL": [
         7,
-        7,
-        7,
-        7
+        6,
+        6,
+        6
       ],
       "SIGNAL_BEAM": [
         7,
@@ -45840,9 +45890,9 @@
         9
       ],
       "SHADOW_BALL": [
-        10,
         9,
-        9,
+        8,
+        8,
         9
       ]
     },
@@ -45860,9 +45910,9 @@
         9
       ],
       "SHADOW_BALL": [
-        10,
         9,
-        9,
+        8,
+        8,
         9
       ]
     },
@@ -46209,10 +46259,16 @@
         5,
         5
       ],
+      "SACRED_SWORD": [
+        4,
+        4,
+        4,
+        4
+      ],
       "SHADOW_BALL": [
-        7,
         6,
         6,
+        5,
         6
       ],
       "SIGNAL_BEAM": [
@@ -46529,6 +46585,12 @@
         5,
         5
       ],
+      "LEAF_STORM": [
+        6,
+        5,
+        6,
+        5
+      ],
       "LOW_SWEEP": [
         4,
         4,
@@ -46655,6 +46717,12 @@
         4,
         4
       ],
+      "SCALD": [
+        5,
+        5,
+        5,
+        5
+      ],
       "SCORCHING_SANDS": [
         5,
         5,
@@ -46668,9 +46736,9 @@
         4
       ],
       "SHADOW_BALL": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "SHADOW_PUNCH": [
@@ -46681,9 +46749,9 @@
       ],
       "SHADOW_SNEAK": [
         5,
-        4,
         5,
-        4
+        5,
+        5
       ],
       "SIGNAL_BEAM": [
         6,
@@ -46696,6 +46764,12 @@
         5,
         5,
         5
+      ],
+      "SOLAR_BEAM": [
+        8,
+        8,
+        8,
+        8
       ],
       "SPIRIT_SHACKLE": [
         4,
@@ -46744,6 +46818,12 @@
         4,
         4,
         4
+      ],
+      "WEATHER_BALL_WATER": [
+        4,
+        3,
+        4,
+        3
       ],
       "WRAP": [
         5,
@@ -47192,10 +47272,10 @@
         20
       ],
       "SHADOW_BALL": [
-        28,
-        27,
-        28,
-        27
+        25,
+        25,
+        25,
+        25
       ],
       "SKULL_BASH": [
         38,
@@ -47532,7 +47612,7 @@
       "SHADOW_BALL": [
         5,
         5,
-        5,
+        4,
         5
       ],
       "SIGNAL_BEAM": [
@@ -48068,10 +48148,10 @@
         7
       ],
       "METEOR_MASH": [
-        8,
         7,
+        6,
         7,
-        7
+        6
       ],
       "NIGHT_SLASH": [
         5,
@@ -48111,9 +48191,9 @@
       ],
       "SHADOW_BALL": [
         8,
-        8,
-        8,
-        8
+        7,
+        7,
+        7
       ],
       "STONE_EDGE": [
         8,
@@ -48437,9 +48517,9 @@
       ],
       "SHADOW_SNEAK": [
         4,
-        3,
         4,
-        3
+        4,
+        4
       ],
       "SLUDGE_BOMB": [
         4,
@@ -48673,9 +48753,9 @@
       ],
       "METEOR_MASH": [
         5,
-        5,
         4,
-        5
+        4,
+        4
       ],
       "MIRROR_COAT": [
         5,
@@ -48758,14 +48838,14 @@
       "SHADOW_BALL": [
         5,
         5,
-        5,
+        4,
         5
       ],
       "SHADOW_SNEAK": [
         5,
+        5,
         4,
-        4,
-        4
+        5
       ],
       "SIGNAL_BEAM": [
         5,
@@ -49088,9 +49168,9 @@
         7
       ],
       "METEOR_MASH": [
-        7,
         6,
         6,
+        5,
         6
       ],
       "MIRROR_COAT": [
@@ -49191,14 +49271,14 @@
       ],
       "SHADOW_BALL": [
         7,
-        7,
-        7,
-        7
+        6,
+        6,
+        6
       ],
       "SHADOW_SNEAK": [
+        7,
         6,
         6,
-        5,
         6
       ],
       "SKULL_BASH": [
@@ -49722,14 +49802,14 @@
       "SHADOW_BALL": [
         4,
         4,
-        4,
+        3,
         4
       ],
       "SHADOW_SNEAK": [
         4,
+        4,
         3,
-        3,
-        3
+        4
       ],
       "SIGNAL_BEAM": [
         4,
@@ -49826,6 +49906,24 @@
         4,
         3,
         4
+      ],
+      "WEATHER_BALL_FIRE": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "WEATHER_BALL_ICE": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "WEATHER_BALL_WATER": [
+        3,
+        2,
+        3,
+        2
       ],
       "WILD_CHARGE": [
         4,
@@ -50111,6 +50209,12 @@
         10,
         10
       ],
+      "METEOR_MASH": [
+        8,
+        7,
+        8,
+        7
+      ],
       "MIRROR_COAT": [
         10,
         9,
@@ -50226,9 +50330,9 @@
         7
       ],
       "SHADOW_BALL": [
-        10,
         9,
-        9,
+        8,
+        8,
         9
       ],
       "SILVER_WIND": [
@@ -50753,6 +50857,12 @@
         14,
         13
       ],
+      "EARTH_POWER": [
+        14,
+        14,
+        14,
+        13
+      ],
       "FIRE_BLAST": [
         20,
         20,
@@ -50903,6 +51013,12 @@
         16,
         16
       ],
+      "ROCK_SLIDE": [
+        12,
+        11,
+        11,
+        11
+      ],
       "SAND_TOMB": [
         10,
         10,
@@ -50928,10 +51044,10 @@
         22
       ],
       "SHADOW_SNEAK": [
+        13,
         12,
-        11,
-        11,
-        11
+        13,
+        12
       ],
       "SKY_ATTACK": [
         13,
@@ -50952,10 +51068,10 @@
         20
       ],
       "SPACIAL_REND": [
-        13,
-        12,
-        13,
-        12
+        14,
+        14,
+        14,
+        13
       ],
       "STONE_EDGE": [
         14,
@@ -50992,6 +51108,12 @@
         11,
         11,
         11
+      ],
+      "VICE_GRIP": [
+        10,
+        10,
+        10,
+        10
       ],
       "WILD_CHARGE": [
         12,
@@ -51109,6 +51231,12 @@
         4,
         5
       ],
+      "DIG": [
+        5,
+        4,
+        4,
+        4
+      ],
       "DISCHARGE": [
         4,
         3,
@@ -51138,6 +51266,12 @@
         5,
         4,
         5
+      ],
+      "DRILL_RUN": [
+        4,
+        4,
+        4,
+        3
       ],
       "DYNAMAX_CANNON": [
         4,
@@ -51381,9 +51515,9 @@
       ],
       "SHADOW_BALL": [
         5,
-        5,
         4,
-        5
+        4,
+        4
       ],
       "SHADOW_FORCE": [
         8,
@@ -51417,9 +51551,9 @@
       ],
       "SPACIAL_REND": [
         5,
+        5,
         4,
-        4,
-        4
+        5
       ],
       "STOMP": [
         4,
@@ -51501,17 +51635,35 @@
         4,
         4
       ],
+      "AURA_SPHERE": [
+        5,
+        4,
+        5,
+        4
+      ],
       "BLAST_BURN": [
         6,
         6,
         5,
         6
       ],
+      "BLAZE_KICK": [
+        5,
+        4,
+        5,
+        4
+      ],
       "BODY_SLAM": [
         4,
         4,
         4,
         4
+      ],
+      "BRAVE_BIRD": [
+        7,
+        6,
+        6,
+        6
       ],
       "BRICK_BREAK": [
         5,
@@ -51724,9 +51876,9 @@
         6
       ],
       "SHADOW_BALL": [
-        7,
         6,
         6,
+        5,
         6
       ],
       "SOLAR_BEAM": [
@@ -51990,9 +52142,9 @@
         4
       ],
       "SHADOW_BALL": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "SKY_ATTACK": [
@@ -52172,10 +52324,10 @@
         6
       ],
       "METEOR_MASH": [
-        6,
-        6,
         5,
-        6
+        5,
+        5,
+        5
       ],
       "MOONBLAST": [
         7,
@@ -52582,9 +52734,9 @@
         9
       ],
       "SHADOW_BALL": [
-        10,
         9,
-        9,
+        8,
+        8,
         9
       ],
       "SHADOW_PUNCH": [
@@ -52594,10 +52746,10 @@
         6
       ],
       "SHADOW_SNEAK": [
+        9,
         8,
-        7,
         8,
-        7
+        9
       ],
       "SKY_ATTACK": [
         9,
@@ -52660,6 +52812,12 @@
         6
       ],
       "WEATHER_BALL_ICE": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "WEATHER_BALL_WATER": [
         6,
         6,
         6,
@@ -52933,6 +53091,12 @@
         5,
         4
       ],
+      "AURA_SPHERE": [
+        4,
+        4,
+        4,
+        4
+      ],
       "BLAST_BURN": [
         5,
         5,
@@ -53162,9 +53326,9 @@
         5
       ],
       "SHADOW_BALL": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "SHADOW_BONE": [
@@ -53283,6 +53447,12 @@
         5,
         5
       ],
+      "METEOR_MASH": [
+        5,
+        4,
+        5,
+        4
+      ],
       "POWER_UP_PUNCH": [
         4,
         3,
@@ -53302,9 +53472,9 @@
         4
       ],
       "SHADOW_BALL": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "SLUDGE_BOMB": [
@@ -53496,10 +53666,10 @@
         14
       ],
       "SHADOW_BALL": [
-        11,
-        11,
-        11,
-        11
+        10,
+        10,
+        10,
+        10
       ],
       "SIGNAL_BEAM": [
         11,
@@ -53804,10 +53974,10 @@
         13
       ],
       "METEOR_MASH": [
-        13,
         12,
-        13,
-        12
+        11,
+        11,
+        11
       ],
       "NIGHT_SLASH": [
         9,
@@ -53863,6 +54033,12 @@
         13,
         12
       ],
+      "SACRED_SWORD": [
+        9,
+        9,
+        9,
+        8
+      ],
       "SAND_TOMB": [
         10,
         10,
@@ -53870,10 +54046,10 @@
         10
       ],
       "SHADOW_BALL": [
-        14,
-        14,
-        14,
-        13
+        13,
+        12,
+        13,
+        12
       ],
       "SIGNAL_BEAM": [
         14,
@@ -54326,7 +54502,7 @@
         3
       ],
       "SHADOW_BALL": [
-        5,
+        4,
         4,
         4,
         4
@@ -54345,9 +54521,9 @@
       ],
       "SHADOW_SNEAK": [
         4,
-        3,
         4,
-        3
+        4,
+        4
       ],
       "SLUDGE_BOMB": [
         4,
@@ -54641,9 +54817,9 @@
       ],
       "SHADOW_BALL": [
         7,
-        7,
-        7,
-        7
+        6,
+        6,
+        6
       ],
       "SIGNAL_BEAM": [
         7,
@@ -55142,9 +55318,9 @@
         7
       ],
       "SHADOW_BALL": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "SKULL_BASH": [
@@ -55176,6 +55352,12 @@
         5,
         6,
         5
+      ],
+      "SUPER_POWER": [
+        4,
+        4,
+        4,
+        4
       ],
       "SURF": [
         5,
@@ -55311,6 +55493,12 @@
         4,
         3
       ],
+      "FOUL_PLAY": [
+        2,
+        2,
+        2,
+        2
+      ],
       "HEAT_WAVE": [
         4,
         4,
@@ -55401,9 +55589,15 @@
         3,
         2
       ],
+      "SEED_BOMB": [
+        2,
+        2,
+        2,
+        2
+      ],
       "SHADOW_BALL": [
         3,
-        3,
+        2,
         3,
         2
       ],
@@ -55699,15 +55893,15 @@
       ],
       "SHADOW_BALL": [
         5,
-        5,
         4,
-        5
+        4,
+        4
       ],
       "SHADOW_SNEAK": [
+        5,
         4,
         4,
-        4,
-        3
+        4
       ],
       "SIGNAL_BEAM": [
         5,
@@ -56334,9 +56528,9 @@
         5
       ],
       "SHADOW_SNEAK": [
+        7,
         6,
         6,
-        5,
         6
       ],
       "SPIRIT_SHACKLE": [
@@ -56588,10 +56782,10 @@
         24
       ],
       "SHADOW_BALL": [
-        19,
-        18,
-        18,
-        19
+        17,
+        17,
+        16,
+        17
       ],
       "SHADOW_PUNCH": [
         12,
@@ -56600,10 +56794,10 @@
         12
       ],
       "SHADOW_SNEAK": [
-        15,
-        15,
-        15,
-        15
+        17,
+        17,
+        16,
+        17
       ],
       "SKULL_BASH": [
         25,
@@ -57114,10 +57308,10 @@
         7
       ],
       "SHADOW_BALL": [
-        11,
-        11,
-        11,
-        11
+        10,
+        10,
+        10,
+        10
       ],
       "SOLAR_BEAM": [
         16,
@@ -57386,16 +57580,16 @@
         7
       ],
       "SHADOW_BALL": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "SHADOW_SNEAK": [
         5,
-        4,
         5,
-        4
+        5,
+        5
       ],
       "SLUDGE_BOMB": [
         5,
@@ -57791,9 +57985,9 @@
       ],
       "SHADOW_BALL": [
         8,
-        8,
-        8,
-        8
+        7,
+        7,
+        7
       ],
       "STONE_EDGE": [
         8,
@@ -57916,6 +58110,12 @@
         5,
         5,
         5
+      ],
+      "BRUTAL_SWING": [
+        5,
+        4,
+        5,
+        4
       ],
       "BUG_BUZZ": [
         8,
@@ -58123,9 +58323,9 @@
       ],
       "SHADOW_BALL": [
         7,
-        7,
-        7,
-        7
+        6,
+        6,
+        6
       ],
       "STONE_EDGE": [
         7,
@@ -58162,6 +58362,12 @@
         5,
         5,
         5
+      ],
+      "WEATHER_BALL_WATER": [
+        5,
+        4,
+        5,
+        4
       ],
       "WILD_CHARGE": [
         6,
@@ -58545,9 +58751,9 @@
       ],
       "SHADOW_BALL": [
         7,
-        7,
-        7,
-        7
+        6,
+        6,
+        6
       ],
       "SKULL_BASH": [
         10,
@@ -58853,9 +59059,9 @@
       ],
       "PARABOLIC_CHARGE": [
         5,
-        4,
         5,
-        4
+        5,
+        5
       ],
       "PLAY_ROUGH": [
         6,
@@ -58942,9 +59148,9 @@
         4
       ],
       "SHADOW_BALL": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "SHADOW_PUNCH": [
@@ -59823,9 +60029,9 @@
       ],
       "SHADOW_BALL": [
         8,
-        8,
-        8,
-        8
+        7,
+        7,
+        7
       ],
       "SLUDGE": [
         6,
@@ -60172,16 +60378,16 @@
         4
       ],
       "SHADOW_BALL": [
-        7,
         6,
         6,
+        5,
         6
       ],
       "SHADOW_SNEAK": [
+        6,
+        6,
         5,
-        5,
-        5,
-        5
+        6
       ],
       "SIGNAL_BEAM": [
         7,
@@ -60426,10 +60632,10 @@
         10
       ],
       "METEOR_MASH": [
-        13,
         12,
-        13,
-        12
+        11,
+        11,
+        11
       ],
       "MOONBLAST": [
         15,
@@ -60492,10 +60698,10 @@
         10
       ],
       "SHADOW_BALL": [
-        14,
-        14,
-        14,
-        13
+        13,
+        12,
+        13,
+        12
       ],
       "SIGNAL_BEAM": [
         14,
@@ -60765,9 +60971,9 @@
       ],
       "SHADOW_BALL": [
         7,
-        7,
-        7,
-        7
+        6,
+        6,
+        6
       ],
       "SIGNAL_BEAM": [
         7,
@@ -60786,6 +60992,12 @@
         7,
         7,
         7
+      ],
+      "SUPER_POWER": [
+        5,
+        5,
+        5,
+        5
       ],
       "SURF": [
         6,
@@ -61157,10 +61369,16 @@
         5,
         6
       ],
+      "SACRED_SWORD": [
+        4,
+        4,
+        4,
+        4
+      ],
       "SHADOW_BALL": [
-        7,
         6,
         6,
+        5,
         6
       ],
       "SUNSTEEL_STRIKE": [
@@ -61334,16 +61552,16 @@
         11
       ],
       "SHADOW_BALL": [
-        14,
-        14,
-        14,
-        13
+        13,
+        12,
+        13,
+        12
       ],
       "SHADOW_SNEAK": [
+        13,
         12,
-        11,
-        11,
-        11
+        13,
+        12
       ],
       "SILVER_WIND": [
         12,
@@ -61386,6 +61604,18 @@
         15,
         15,
         15
+      ],
+      "WEATHER_BALL_FIRE": [
+        9,
+        9,
+        9,
+        8
+      ],
+      "WEATHER_BALL_ICE": [
+        9,
+        9,
+        9,
+        8
       ]
     },
     "QUICK_ATTACK": {
@@ -61672,9 +61902,9 @@
         7
       ],
       "PARABOLIC_CHARGE": [
+        7,
         6,
         6,
-        5,
         6
       ],
       "PLAY_ROUGH": [
@@ -61739,9 +61969,9 @@
       ],
       "SHADOW_BALL": [
         7,
-        7,
-        7,
-        7
+        6,
+        6,
+        6
       ],
       "SIGNAL_BEAM": [
         7,
@@ -62099,6 +62329,12 @@
         18,
         17
       ],
+      "SACRED_SWORD": [
+        9,
+        9,
+        9,
+        8
+      ],
       "SAND_TOMB": [
         10,
         10,
@@ -62118,16 +62354,16 @@
         10
       ],
       "SHADOW_BALL": [
-        14,
-        14,
-        14,
-        13
+        13,
+        12,
+        13,
+        12
       ],
       "SHADOW_SNEAK": [
+        13,
         12,
-        11,
-        11,
-        11
+        13,
+        12
       ],
       "SILVER_WIND": [
         12,
@@ -62196,6 +62432,12 @@
         8
       ],
       "WEATHER_BALL_ICE": [
+        9,
+        9,
+        9,
+        8
+      ],
+      "WEATHER_BALL_WATER": [
         9,
         9,
         9,
@@ -62607,9 +62849,9 @@
       ],
       "SHADOW_BALL": [
         8,
-        8,
-        8,
-        8
+        7,
+        7,
+        7
       ],
       "SHADOW_BONE": [
         7,
@@ -63015,6 +63257,12 @@
         9,
         9
       ],
+      "WEATHER_BALL_FIRE": [
+        7,
+        7,
+        7,
+        7
+      ],
       "WEATHER_BALL_ICE": [
         7,
         7,
@@ -63204,7 +63452,7 @@
         3
       ],
       "SHADOW_BALL": [
-        5,
+        4,
         4,
         4,
         4
@@ -63446,10 +63694,10 @@
         10
       ],
       "SHADOW_BALL": [
-        14,
-        14,
-        14,
-        13
+        13,
+        12,
+        13,
+        12
       ],
       "SKY_ATTACK": [
         13,
@@ -63784,10 +64032,10 @@
         20
       ],
       "SHADOW_BALL": [
-        28,
-        27,
-        28,
-        27
+        25,
+        25,
+        25,
+        25
       ],
       "SLUDGE_BOMB": [
         25,
@@ -64086,9 +64334,9 @@
         6
       ],
       "METEOR_MASH": [
-        7,
         6,
         6,
+        5,
         6
       ],
       "MOONBLAST": [
@@ -64193,6 +64441,12 @@
         6,
         6
       ],
+      "SACRED_SWORD": [
+        5,
+        4,
+        5,
+        4
+      ],
       "SAND_TOMB": [
         5,
         5,
@@ -64207,9 +64461,9 @@
       ],
       "SHADOW_BALL": [
         7,
-        7,
-        7,
-        7
+        6,
+        6,
+        6
       ],
       "SHADOW_FORCE": [
         12,
@@ -64224,9 +64478,9 @@
         4
       ],
       "SHADOW_SNEAK": [
+        7,
         6,
         6,
-        5,
         6
       ],
       "SILVER_WIND": [
@@ -64333,6 +64587,12 @@
       ]
     },
     "SMACK_DOWN": {
+      "AERIAL_ACE": [
+        6,
+        6,
+        5,
+        6
+      ],
       "ANCIENT_POWER": [
         6,
         6,
@@ -64417,6 +64677,12 @@
         10,
         10
       ],
+      "FIRE_PUNCH": [
+        5,
+        5,
+        5,
+        5
+      ],
       "FLAME_CHARGE": [
         7,
         6,
@@ -64453,11 +64719,23 @@
         6,
         6
       ],
+      "HIGH_HORSEPOWER": [
+        8,
+        7,
+        8,
+        7
+      ],
       "ICE_BEAM": [
         7,
         7,
         7,
         7
+      ],
+      "ICE_PUNCH": [
+        5,
+        5,
+        5,
+        5
       ],
       "IRON_HEAD": [
         7,
@@ -64472,6 +64750,12 @@
         7
       ],
       "OUTRAGE": [
+        8,
+        7,
+        8,
+        7
+      ],
+      "PLAY_ROUGH": [
         8,
         7,
         8,
@@ -64555,6 +64839,12 @@
         5,
         6
       ],
+      "SWIFT": [
+        5,
+        4,
+        5,
+        4
+      ],
       "THUNDER": [
         8,
         7,
@@ -64566,6 +64856,12 @@
         5,
         5,
         5
+      ],
+      "TRAILBLAZE": [
+        6,
+        6,
+        5,
+        6
       ],
       "WATER_PULSE": [
         7,
@@ -64965,6 +65261,12 @@
         4,
         3
       ],
+      "SACRED_SWORD": [
+        3,
+        3,
+        3,
+        2
+      ],
       "SAND_TOMB": [
         4,
         3,
@@ -64984,7 +65286,7 @@
         4
       ],
       "SHADOW_BALL": [
-        5,
+        4,
         4,
         4,
         4
@@ -65403,9 +65705,9 @@
       ],
       "SHADOW_BALL": [
         5,
-        5,
         4,
-        5
+        4,
+        4
       ],
       "STRUGGLE": [
         9,
@@ -66163,10 +66465,10 @@
         6
       ],
       "PARABOLIC_CHARGE": [
+        8,
         7,
-        6,
         7,
-        6
+        7
       ],
       "PAYBACK": [
         9,
@@ -66224,9 +66526,9 @@
       ],
       "SHADOW_BALL": [
         8,
-        8,
-        8,
-        8
+        7,
+        7,
+        7
       ],
       "SHADOW_PUNCH": [
         5,
@@ -66235,10 +66537,10 @@
         5
       ],
       "SHADOW_SNEAK": [
+        8,
         7,
-        6,
         7,
-        6
+        7
       ],
       "SLUDGE_BOMB": [
         8,
@@ -66632,6 +66934,12 @@
         13,
         14
       ],
+      "ICICLE_SPEAR": [
+        14,
+        13,
+        13,
+        14
+      ],
       "ICY_WIND": [
         15,
         15,
@@ -66699,10 +67007,10 @@
         19
       ],
       "PARABOLIC_CHARGE": [
-        15,
-        15,
-        15,
-        15
+        17,
+        17,
+        16,
+        17
       ],
       "PAYBACK": [
         20,
@@ -66794,6 +67102,12 @@
         16,
         17
       ],
+      "SACRED_SWORD": [
+        12,
+        12,
+        11,
+        12
+      ],
       "SAND_TOMB": [
         14,
         13,
@@ -66807,10 +67121,10 @@
         14
       ],
       "SHADOW_BALL": [
-        19,
-        18,
-        18,
-        19
+        17,
+        17,
+        16,
+        17
       ],
       "SIGNAL_BEAM": [
         19,
@@ -67242,9 +67556,9 @@
       ],
       "SHADOW_BALL": [
         7,
-        7,
-        7,
-        7
+        6,
+        6,
+        6
       ],
       "SLUDGE_BOMB": [
         7,
@@ -67653,10 +67967,10 @@
         5
       ],
       "METEOR_MASH": [
-        6,
-        6,
         5,
-        6
+        5,
+        5,
+        5
       ],
       "MIRROR_SHOT": [
         4,
@@ -67695,10 +68009,10 @@
         6
       ],
       "PARABOLIC_CHARGE": [
+        6,
+        6,
         5,
-        5,
-        5,
-        5
+        6
       ],
       "PLAY_ROUGH": [
         7,
@@ -67749,9 +68063,9 @@
         4
       ],
       "SHADOW_BALL": [
-        7,
         6,
         6,
+        5,
         6
       ],
       "SKULL_BASH": [
@@ -68257,7 +68571,7 @@
         3
       ],
       "PARABOLIC_CHARGE": [
-        3,
+        4,
         3,
         3,
         3
@@ -68313,7 +68627,7 @@
       "SHADOW_BALL": [
         4,
         3,
-        4,
+        3,
         3
       ],
       "SKULL_BASH": [
@@ -68745,10 +69059,10 @@
         19
       ],
       "PARABOLIC_CHARGE": [
-        15,
-        15,
-        15,
-        15
+        17,
+        17,
+        16,
+        17
       ],
       "POWER_GEM": [
         17,
@@ -68823,10 +69137,10 @@
         17
       ],
       "SHADOW_BALL": [
-        19,
-        18,
-        18,
-        19
+        17,
+        17,
+        16,
+        17
       ],
       "SILVER_WIND": [
         15,
@@ -69041,6 +69355,12 @@
         4,
         5,
         4
+      ],
+      "AVALANCHE": [
+        6,
+        6,
+        5,
+        6
       ],
       "BLIZZARD": [
         10,
@@ -69257,6 +69577,12 @@
         5,
         5,
         5
+      ],
+      "SACRED_SWORD": [
+        5,
+        4,
+        5,
+        4
       ],
       "SCALD": [
         7,
@@ -69556,9 +69882,9 @@
       ],
       "SHADOW_BALL": [
         8,
-        8,
-        8,
-        8
+        7,
+        7,
+        7
       ],
       "SILVER_WIND": [
         7,
@@ -70009,10 +70335,10 @@
         9
       ],
       "METEOR_MASH": [
-        9,
         8,
+        7,
         8,
-        9
+        7
       ],
       "MIRROR_COAT": [
         10,
@@ -70141,9 +70467,9 @@
         12
       ],
       "SHADOW_BALL": [
-        10,
         9,
-        9,
+        8,
+        8,
         9
       ],
       "SIGNAL_BEAM": [

@@ -5002,7 +5002,6 @@
         "fire"
       ],
       "fastMoveIds": [
-        "INCINERATE",
         "SMACK_DOWN"
       ],
       "chargedMoveIds": [
@@ -6779,7 +6778,7 @@
         "fire"
       ],
       "fastMoveIds": [
-        "INCINERATE",
+        "FIRE_SPIN",
         "SMACK_DOWN"
       ],
       "chargedMoveIds": [
@@ -44398,6 +44397,14 @@
       "power": 100,
       "turns": 1
     },
+    "MIND_BLOWN": {
+      "name": "Mind Blown",
+      "type": "fire",
+      "energy": 35,
+      "energyGain": 0,
+      "power": 90,
+      "turns": 1
+    },
     "MIRROR_COAT": {
       "name": "Mirror Coat",
       "type": "psychic",
@@ -53319,6 +53326,18 @@
         7,
         7
       ],
+      "ROCK_BLAST": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "ROCK_SLIDE": [
+        5,
+        4,
+        5,
+        4
+      ],
       "SCORCHING_SANDS": [
         5,
         5,
@@ -55558,12 +55577,6 @@
         3,
         4,
         3
-      ],
-      "ROCK_BLAST": [
-        2,
-        2,
-        2,
-        2
       ],
       "ROCK_SLIDE": [
         3,

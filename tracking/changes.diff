@@ -1,0 +1,238 @@
+diff --git a/docs/data.json b/docs/data.json
+index 771ab0d..be11791 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -4985,41 +4985,40 @@
+           "rankOne": 83.43756917444006,
+           "max": 91.33299708366394
+         },
+         "ultra": {
+           "rankOne": 92.98300206661224,
+           "max": 92.98300206661224
+         },
+         "master": {
+           "rankOne": 92.98300206661224,
+           "max": 92.98300206661224
+         }
+       }
+     },
+     {
+       "name": "Carkol",
+       "types": [
+         "rock",
+         "fire"
+       ],
+       "fastMoveIds": [
+-        "INCINERATE",
+         "SMACK_DOWN"
+       ],
+       "chargedMoveIds": [
+         "ROCK_BLAST",
+         "ROCK_SLIDE",
+         "FLAME_CHARGE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 55.39376959204669,
+           "max": 60.93135403448482
+         },
+         "great": {
+           "rankOne": 96.07962510996127,
+           "max": 105.818697810173
+         },
+         "ultra": {
+           "rankOne": 109.04370242357254,
+           "max": 109.04370242357254
+         },
+@@ -6762,41 +6761,41 @@
+           "rankOne": 117.85874778183019,
+           "max": 126.09618714292586
+         },
+         "ultra": {
+           "rankOne": 151.64579772949205,
+           "max": 163.37357081390022
+         },
+         "master": {
+           "rankOne": 169.9053037762642,
+           "max": 169.9053037762642
+         }
+       }
+     },
+     {
+       "name": "Coalossal",
+       "types": [
+         "rock",
+         "fire"
+       ],
+       "fastMoveIds": [
+-        "INCINERATE",
++        "FIRE_SPIN",
+         "SMACK_DOWN"
+       ],
+       "chargedMoveIds": [
+         "ROCK_BLAST",
+         "ROCK_SLIDE",
+         "FLAME_CHARGE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 56.58849201843453,
+           "max": 60.41292956471432
+         },
+         "great": {
+           "rankOne": 97.19923173548814,
+           "max": 104.70970153808592
+         },
+         "ultra": {
+           "rankOne": 125.94970279932022,
+           "max": 135.28830379247654
+         },
+@@ -44381,40 +44380,48 @@
+       "energyGain": 8,
+       "power": 5,
+       "turns": 2
+     },
+     "METEOR_BEAM": {
+       "name": "Meteor Beam",
+       "type": "rock",
+       "energy": 60,
+       "energyGain": 0,
+       "power": 120,
+       "turns": 1
+     },
+     "METEOR_MASH": {
+       "name": "Meteor Mash",
+       "type": "steel",
+       "energy": 45,
+       "energyGain": 0,
+       "power": 100,
+       "turns": 1
+     },
++    "MIND_BLOWN": {
++      "name": "Mind Blown",
++      "type": "fire",
++      "energy": 35,
++      "energyGain": 0,
++      "power": 90,
++      "turns": 1
++    },
+     "MIRROR_COAT": {
+       "name": "Mirror Coat",
+       "type": "psychic",
+       "energy": 55,
+       "energyGain": 0,
+       "power": 60,
+       "turns": 1
+     },
+     "MIRROR_SHOT": {
+       "name": "Mirror Shot",
+       "type": "steel",
+       "energy": 35,
+       "energyGain": 0,
+       "power": 35,
+       "turns": 1
+     },
+     "MIST_BALL": {
+       "name": "Mist Ball",
+       "type": "psychic",
+       "energy": 60,
+@@ -53302,40 +53309,52 @@
+         5
+       ],
+       "PSYCHIC_FANGS": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "PSYSHOCK": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "RETURN": [
+         7,
+         7,
+         7,
+         7
+       ],
++      "ROCK_BLAST": [
++        4,
++        4,
++        4,
++        4
++      ],
++      "ROCK_SLIDE": [
++        5,
++        4,
++        5,
++        4
++      ],
+       "SCORCHING_SANDS": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "SHADOW_BALL": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "SHADOW_BONE": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "SKY_ATTACK": [
+         5,
+@@ -55542,46 +55561,40 @@
+         3
+       ],
+       "PSYCHIC": [
+         3,
+         3,
+         3,
+         2
+       ],
+       "PSYSHOCK": [
+         2,
+         2,
+         2,
+         2
+       ],
+       "RETURN": [
+         4,
+         3,
+         4,
+         3
+       ],
+-      "ROCK_BLAST": [
+-        2,
+-        2,
+-        2,
+-        2
+-      ],
+       "ROCK_SLIDE": [
+         3,
+         2,
+         2,
+         2
+       ],
+       "ROCK_TOMB": [
+         3,
+         2,
+         3,
+         2
+       ],
+       "SACRED_FIRE": [
+         4,
+         3,
+         3,
+         3
+       ],
+       "SCORCHING_SANDS": [
+         3,

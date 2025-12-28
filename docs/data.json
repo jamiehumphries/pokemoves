@@ -3582,6 +3582,7 @@
         "INCINERATE"
       ],
       "chargedMoveIds": [
+        "MIND_BLOWN",
         "MYSTICAL_FIRE",
         "SHADOW_BALL",
         "OVERHEAT"
@@ -46604,6 +46605,12 @@
         4,
         4
       ],
+      "MIND_BLOWN": [
+        4,
+        3,
+        4,
+        3
+      ],
       "MOONBLAST": [
         6,
         6,
@@ -55535,6 +55542,12 @@
         4,
         4,
         3
+      ],
+      "MIND_BLOWN": [
+        2,
+        2,
+        2,
+        1
       ],
       "MYSTICAL_FIRE": [
         3,

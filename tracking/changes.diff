@@ -1,0 +1,95 @@
+diff --git a/docs/data.json b/docs/data.json
+index 938cf4c..31f6c82 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -14281,40 +14281,41 @@
+         },
+         "master": {
+           "rankOne": 170.75060379505157,
+           "max": 170.75060379505157
+         }
+       }
+     },
+     {
+       "name": "Glimmora",
+       "types": [
+         "rock",
+         "poison"
+       ],
+       "fastMoveIds": [
+         "ROCK_THROW",
+         "SMACK_DOWN"
+       ],
+       "chargedMoveIds": [
+         "POWER_GEM",
+         "DAZZLING_GLEAM",
++        "METEOR_BEAM",
+         "SLUDGE_WAVE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 78.98754930496212,
+           "max": 83.803863286972
+         },
+         "great": {
+           "rankOne": 135.4950027465818,
+           "max": 144.17829465502643
+         },
+         "ultra": {
+           "rankOne": 175.43959917400187,
+           "max": 187.04376459121704
+         },
+         "master": {
+           "rankOne": 220.62330490350723,
+           "max": 220.62330490350723
+         }
+       }
+@@ -43669,40 +43670,48 @@
+       "energyGain": 0,
+       "power": 60,
+       "turns": 1
+     },
+     "DRILL_PECK": {
+       "name": "Drill Peck",
+       "type": "flying",
+       "energy": 40,
+       "energyGain": 0,
+       "power": 70,
+       "turns": 1
+     },
+     "DRILL_RUN": {
+       "name": "Drill Run",
+       "type": "ground",
+       "energy": 45,
+       "energyGain": 0,
+       "power": 80,
+       "turns": 1
+     },
++    "DRUM_BEATING": {
++      "name": "Drum Beating",
++      "type": "grass",
++      "energy": 35,
++      "energyGain": 0,
++      "power": 60,
++      "turns": 1
++    },
+     "DYNAMAX_CANNON": {
+       "name": "Dynamax Cannon",
+       "type": "dragon",
+       "energy": 45,
+       "energyGain": 0,
+       "power": 80,
+       "turns": 1
+     },
+     "DYNAMIC_PUNCH": {
+       "name": "Dynamic Punch",
+       "type": "fighting",
+       "energy": 45,
+       "energyGain": 0,
+       "power": 90,
+       "turns": 1
+     },
+     "EARTH_POWER": {
+       "name": "Earth Power",
+       "type": "ground",
+       "energy": 55,

@@ -14298,6 +14298,7 @@
       "chargedMoveIds": [
         "POWER_GEM",
         "DAZZLING_GLEAM",
+        "METEOR_BEAM",
         "SLUDGE_WAVE"
       ],
       "cmp": {
@@ -43684,6 +43685,14 @@
       "energy": 45,
       "energyGain": 0,
       "power": 80,
+      "turns": 1
+    },
+    "DRUM_BEATING": {
+      "name": "Drum Beating",
+      "type": "grass",
+      "energy": 35,
+      "energyGain": 0,
+      "power": 60,
       "turns": 1
     },
     "DYNAMAX_CANNON": {

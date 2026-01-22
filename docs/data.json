@@ -4071,7 +4071,8 @@
       "chargedMoveIds": [
         "PSYSHOCK",
         "FLAME_CHARGE",
-        "FLAMETHROWER"
+        "FLAMETHROWER",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -6026,6 +6027,7 @@
         "FRENZY_PLANT",
         "GYRO_BALL",
         "ENERGY_BALL",
+        "RETURN",
         "SOLAR_BEAM"
       ],
       "cmp": {
@@ -6059,7 +6061,8 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "SEED_BOMB",
-        "GYRO_BALL"
+        "GYRO_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -8582,6 +8585,7 @@
         "FLAME_CHARGE",
         "FLAMETHROWER",
         "PSYCHIC",
+        "RETURN",
         "FIRE_BLAST"
       ],
       "cmp": {
@@ -11827,7 +11831,8 @@
       "chargedMoveIds": [
         "PSYSHOCK",
         "FLAME_CHARGE",
-        "FLAMETHROWER"
+        "FLAMETHROWER",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -12801,7 +12806,8 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "SURF",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -12834,7 +12840,8 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "SURF",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -15421,6 +15428,7 @@
         "HYDRO_CANNON",
         "AERIAL_ACE",
         "SURF",
+        "RETURN",
         "HYDRO_PUMP"
       ],
       "cmp": {
@@ -29312,7 +29320,8 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "GYRO_BALL",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -37857,7 +37866,8 @@
         "BRICK_BREAK",
         "THUNDER_PUNCH",
         "CRUNCH",
-        "THUNDER"
+        "THUNDER",
+        "RETURN"
       ],
       "cmp": {
         "little": {

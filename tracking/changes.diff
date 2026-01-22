@@ -1,0 +1,421 @@
+diff --git a/docs/data.json b/docs/data.json
+index 858bee5..bdd50ec 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -4054,41 +4054,42 @@
+           "max": 59.17100131511688
+         },
+         "master": {
+           "rankOne": 59.17100131511688,
+           "max": 59.17100131511688
+         }
+       }
+     },
+     {
+       "name": "Braixen",
+       "types": [
+         "fire"
+       ],
+       "fastMoveIds": [
+         "EMBER",
+         "SCRATCH"
+       ],
+       "chargedMoveIds": [
+         "PSYSHOCK",
+         "FLAME_CHARGE",
+-        "FLAMETHROWER"
++        "FLAMETHROWER",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 74.0304166931808,
+           "max": 80.524312894337
+         },
+         "great": {
+           "rankOne": 128.20913869142524,
+           "max": 140.55750453472135
+         },
+         "ultra": {
+           "rankOne": 157.22580349445343,
+           "max": 157.22580349445343
+         },
+         "master": {
+           "rankOne": 157.22580349445343,
+           "max": 157.22580349445343
+         }
+       }
+     },
+@@ -6009,74 +6010,76 @@
+         }
+       }
+     },
+     {
+       "name": "Chesnaught",
+       "types": [
+         "grass",
+         "fighting"
+       ],
+       "fastMoveIds": [
+         "LOW_KICK",
+         "SMACK_DOWN",
+         "VINE_WHIP"
+       ],
+       "chargedMoveIds": [
+         "SUPER_POWER",
+         "THUNDER_PUNCH",
+         "FRENZY_PLANT",
+         "GYRO_BALL",
+         "ENERGY_BALL",
++        "RETURN",
+         "SOLAR_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 68.4307865881957,
+           "max": 72.45612697573664
+         },
+         "great": {
+           "rankOne": 117.62033927440628,
+           "max": 125.77224397659285
+         },
+         "ultra": {
+           "rankOne": 152.05127927177585,
+           "max": 162.58948674605733
+         },
+         "master": {
+           "rankOne": 182.58480405807495,
+           "max": 182.58480405807495
+         }
+       }
+     },
+     {
+       "name": "Chespin",
+       "types": [
+         "grass"
+       ],
+       "fastMoveIds": [
+         "TAKE_DOWN",
+         "VINE_WHIP"
+       ],
+       "chargedMoveIds": [
+         "BODY_SLAM",
+         "SEED_BOMB",
+-        "GYRO_BALL"
++        "GYRO_BALL",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 62.909751713275845,
+           "max": 70.27756047248833
+         },
+         "great": {
+           "rankOne": 105.662502348423,
+           "max": 105.662502348423
+         },
+         "ultra": {
+           "rankOne": 105.662502348423,
+           "max": 105.662502348423
+         },
+         "master": {
+           "rankOne": 105.662502348423,
+           "max": 105.662502348423
+         }
+       }
+     },
+@@ -8565,40 +8568,41 @@
+       }
+     },
+     {
+       "name": "Delphox",
+       "types": [
+         "fire",
+         "psychic"
+       ],
+       "fastMoveIds": [
+         "FIRE_SPIN",
+         "SCRATCH",
+         "ZEN_HEADBUTT"
+       ],
+       "chargedMoveIds": [
+         "PSYSHOCK",
+         "MYSTICAL_FIRE",
+         "BLAST_BURN",
+         "FLAME_CHARGE",
+         "FLAMETHROWER",
+         "PSYCHIC",
++        "RETURN",
+         "FIRE_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 77.15235742786771,
+           "max": 80.50680775081848
+         },
+         "great": {
+           "rankOne": 132.15090404903071,
+           "max": 140.76944126961968
+         },
+         "ultra": {
+           "rankOne": 169.72517357273387,
+           "max": 181.49246577634486
+         },
+         "master": {
+           "rankOne": 207.0985046029091,
+           "max": 207.0985046029091
+         }
+       }
+@@ -11810,41 +11814,42 @@
+           "max": 37.1932008266449
+         },
+         "master": {
+           "rankOne": 37.1932008266449,
+           "max": 37.1932008266449
+         }
+       }
+     },
+     {
+       "name": "Fennekin",
+       "types": [
+         "fire"
+       ],
+       "fastMoveIds": [
+         "EMBER",
+         "SCRATCH"
+       ],
+       "chargedMoveIds": [
+         "PSYSHOCK",
+         "FLAME_CHARGE",
+-        "FLAMETHROWER"
++        "FLAMETHROWER",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 68.70891106128684,
+           "max": 76.68542855704536
+         },
+         "great": {
+           "rankOne": 110.73430246114731,
+           "max": 110.73430246114731
+         },
+         "ultra": {
+           "rankOne": 110.73430246114731,
+           "max": 110.73430246114731
+         },
+         "master": {
+           "rankOne": 110.73430246114731,
+           "max": 110.73430246114731
+         }
+       }
+     },
+@@ -12784,74 +12789,76 @@
+           "max": 109.88900244235992
+         },
+         "master": {
+           "rankOne": 109.88900244235992,
+           "max": 109.88900244235992
+         }
+       }
+     },
+     {
+       "name": "Froakie",
+       "types": [
+         "water"
+       ],
+       "fastMoveIds": [
+         "BUBBLE",
+         "POUND"
+       ],
+       "chargedMoveIds": [
+         "AERIAL_ACE",
+         "SURF",
+-        "WATER_PULSE"
++        "WATER_PULSE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 72.88280117511742,
+           "max": 81.84380131959908
+         },
+         "great": {
+           "rankOne": 115.80610257387161,
+           "max": 115.80610257387161
+         },
+         "ultra": {
+           "rankOne": 115.80610257387161,
+           "max": 115.80610257387161
+         },
+         "master": {
+           "rankOne": 115.80610257387161,
+           "max": 115.80610257387161
+         }
+       }
+     },
+     {
+       "name": "Frogadier",
+       "types": [
+         "water"
+       ],
+       "fastMoveIds": [
+         "BUBBLE",
+         "POUND"
+       ],
+       "chargedMoveIds": [
+         "AERIAL_ACE",
+         "SURF",
+-        "WATER_PULSE"
++        "WATER_PULSE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 77.02019215823745,
+           "max": 84.22930639982222
+         },
+         "great": {
+           "rankOne": 133.0830356363134,
+           "max": 145.9981176321155
+         },
+         "ultra": {
+           "rankOne": 154.68990343809128,
+           "max": 154.68990343809128
+         },
+         "master": {
+           "rankOne": 154.68990343809128,
+           "max": 154.68990343809128
+         }
+       }
+     },
+@@ -15404,40 +15411,41 @@
+           "max": 147.9275032877922
+         }
+       }
+     },
+     {
+       "name": "Greninja",
+       "types": [
+         "water",
+         "dark"
+       ],
+       "fastMoveIds": [
+         "BUBBLE",
+         "FEINT_ATTACK",
+         "WATER_SHURIKEN"
+       ],
+       "chargedMoveIds": [
+         "NIGHT_SLASH",
+         "HYDRO_CANNON",
+         "AERIAL_ACE",
+         "SURF",
++        "RETURN",
+         "HYDRO_PUMP"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 80.66812822222701,
+           "max": 84.45265546545807
+         },
+         "great": {
+           "rankOne": 138.3475464582442,
+           "max": 147.4181783147199
+         },
+         "ultra": {
+           "rankOne": 177.35190153121945,
+           "max": 190.47140049934376
+         },
+         "master": {
+           "rankOne": 201.1814044713974,
+           "max": 201.1814044713974
+         }
+       }
+@@ -29295,41 +29303,42 @@
+           "max": 146.23690325021744
+         },
+         "master": {
+           "rankOne": 146.23690325021744,
+           "max": 146.23690325021744
+         }
+       }
+     },
+     {
+       "name": "Quilladin",
+       "types": [
+         "grass"
+       ],
+       "fastMoveIds": [
+         "LOW_KICK",
+         "VINE_WHIP"
+       ],
+       "chargedMoveIds": [
+         "BODY_SLAM",
+         "GYRO_BALL",
+-        "ENERGY_BALL"
++        "ENERGY_BALL",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 66.14675326530981,
+           "max": 71.34031480550766
+         },
+         "great": {
+           "rankOne": 113.30548210759216,
+           "max": 124.017861109426
+         },
+         "ultra": {
+           "rankOne": 136.09330302476883,
+           "max": 136.09330302476883
+         },
+         "master": {
+           "rankOne": 136.09330302476883,
+           "max": 136.09330302476883
+         }
+       }
+     },
+@@ -37840,41 +37849,42 @@
+         "master": {
+           "rankOne": 158.0711035132408,
+           "max": 158.0711035132408
+         }
+       }
+     },
+     {
+       "name": "Thundurus (Incarnate)",
+       "types": [
+         "electric",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "ASTONISH",
+         "THUNDER_SHOCK"
+       ],
+       "chargedMoveIds": [
+         "BRICK_BREAK",
+         "THUNDER_PUNCH",
+         "CRUNCH",
+-        "THUNDER"
++        "THUNDER",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 85.4093012809753,
+           "max": 88.62017726898189
+         },
+         "great": {
+           "rankOne": 144.88374851550427,
+           "max": 154.77274703979467
+         },
+         "ultra": {
+           "rankOne": 187.04495250522012,
+           "max": 199.68734865333548
+         },
+         "master": {
+           "rankOne": 237.5293052792549,
+           "max": 237.5293052792549
+         }
+       }
+     },

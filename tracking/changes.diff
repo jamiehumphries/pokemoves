@@ -1,5 +1,5 @@
 diff --git a/docs/data.json b/docs/data.json
-index 858bee5..bdd50ec 100644
+index 858bee5..f474358 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -4054,41 +4054,42 @@
@@ -331,7 +331,131 @@ index 858bee5..bdd50ec 100644
            "max": 201.1814044713974
          }
        }
-@@ -29295,41 +29303,42 @@
+@@ -18323,77 +18331,79 @@
+         },
+         "master": {
+           "rankOne": 201.1814044713974,
+           "max": 201.1814044713974
+         }
+       }
+     },
+     {
+       "name": "Kabuto",
+       "types": [
+         "rock",
+         "water"
+       ],
+       "fastMoveIds": [
+         "MUD_SHOT",
+         "SCRATCH"
+       ],
+       "chargedMoveIds": [
+         "AQUA_JET",
+         "ANCIENT_POWER",
+-        "ROCK_TOMB"
++        "ROCK_TOMB",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 74.47890740633004,
+           "max": 82.4096846249267
+         },
+         "great": {
+           "rankOne": 131.8668029308319,
+           "max": 137.7839030623436
+         },
+         "ultra": {
+           "rankOne": 137.7839030623436,
+           "max": 137.7839030623436
+         },
+         "master": {
+           "rankOne": 137.7839030623436,
+           "max": 137.7839030623436
+         }
+       }
+     },
+     {
+       "name": "Kabutops",
+       "types": [
+         "rock",
+         "water"
+       ],
+       "fastMoveIds": [
+         "FURY_CUTTER",
+         "MUD_SHOT",
+         "ROCK_SMASH",
+         "WATERFALL"
+       ],
+       "chargedMoveIds": [
+         "ANCIENT_POWER",
+         "WATER_PULSE",
+-        "STONE_EDGE"
++        "STONE_EDGE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 77.52521413564673,
+           "max": 82.0649789273738
+         },
+         "great": {
+           "rankOne": 134.67460274696342,
+           "max": 143.85696202516544
+         },
+         "ultra": {
+           "rankOne": 172.62013435363752,
+           "max": 185.7205027341841
+         },
+         "master": {
+           "rankOne": 198.64550441503525,
+           "max": 198.64550441503525
+         }
+       }
+     },
+@@ -28388,40 +28398,41 @@
+         },
+         "master": {
+           "rankOne": 222.313904941082,
+           "max": 222.313904941082
+         }
+       }
+     },
+     {
+       "name": "Ponyta",
+       "types": [
+         "fire"
+       ],
+       "fastMoveIds": [
+         "EMBER",
+         "TACKLE"
+       ],
+       "chargedMoveIds": [
+         "STOMP",
+         "FLAME_WHEEL",
+         "FLAME_CHARGE",
++        "RETURN",
+         "FIRE_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 77.02019215823745,
+           "max": 83.81609146631722
+         },
+         "great": {
+           "rankOne": 131.93104081021005,
+           "max": 144.63116198955882
+         },
+         "ultra": {
+           "rankOne": 156.38050347566605,
+           "max": 156.38050347566605
+         },
+         "master": {
+           "rankOne": 156.38050347566605,
+           "max": 156.38050347566605
+         }
+       }
+@@ -29295,41 +29306,42 @@
            "max": 146.23690325021744
          },
          "master": {
@@ -375,7 +499,49 @@ index 858bee5..bdd50ec 100644
          }
        }
      },
-@@ -37840,41 +37849,42 @@
+@@ -29687,40 +29699,41 @@
+           "max": 262.04300582408905
+         }
+       }
+     },
+     {
+       "name": "Rapidash",
+       "types": [
+         "fire"
+       ],
+       "fastMoveIds": [
+         "EMBER",
+         "FIRE_SPIN",
+         "INCINERATE",
+         "LOW_KICK"
+       ],
+       "chargedMoveIds": [
+         "DRILL_RUN",
+         "WILD_CHARGE",
+         "FLAME_CHARGE",
+         "SCORCHING_SANDS",
++        "RETURN",
+         "HEAT_WAVE",
+         "FIRE_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 77.67376658320411,
+           "max": 81.80135804414734
+         },
+         "great": {
+           "rankOne": 132.6151615977286,
+           "max": 142.46781192636433
+         },
+         "ultra": {
+           "rankOne": 170.83709549903858,
+           "max": 184.3265941143036
+         },
+         "master": {
+           "rankOne": 187.65660417079926,
+           "max": 187.65660417079926
+         }
+@@ -37840,41 +37853,42 @@
          "master": {
            "rankOne": 158.0711035132408,
            "max": 158.0711035132408

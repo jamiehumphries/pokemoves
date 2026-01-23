@@ -18348,7 +18348,8 @@
       "chargedMoveIds": [
         "AQUA_JET",
         "ANCIENT_POWER",
-        "ROCK_TOMB"
+        "ROCK_TOMB",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -18384,7 +18385,8 @@
       "chargedMoveIds": [
         "ANCIENT_POWER",
         "WATER_PULSE",
-        "STONE_EDGE"
+        "STONE_EDGE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -28413,6 +28415,7 @@
         "STOMP",
         "FLAME_WHEEL",
         "FLAME_CHARGE",
+        "RETURN",
         "FIRE_BLAST"
       ],
       "cmp": {
@@ -29713,6 +29716,7 @@
         "WILD_CHARGE",
         "FLAME_CHARGE",
         "SCORCHING_SANDS",
+        "RETURN",
         "HEAT_WAVE",
         "FIRE_BLAST"
       ],

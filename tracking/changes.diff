@@ -1,5 +1,5 @@
 diff --git a/docs/data.json b/docs/data.json
-index 858bee5..f474358 100644
+index 858bee5..f9ce585 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -4054,41 +4054,42 @@
@@ -413,7 +413,90 @@ index 858bee5..f474358 100644
          }
        }
      },
-@@ -28388,40 +28398,41 @@
+@@ -25305,80 +25315,82 @@
+         "master": {
+           "rankOne": 80.30350178480148,
+           "max": 80.30350178480148
+         }
+       }
+     },
+     {
+       "name": "Ninetales",
+       "types": [
+         "fire"
+       ],
+       "fastMoveIds": [
+         "EMBER",
+         "FEINT_ATTACK",
+         "FIRE_SPIN"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_FIRE",
+         "PSYSHOCK",
+         "SCORCHING_SANDS",
++        "ENERGY_BALL",
+         "FLAMETHROWER",
+         "OVERHEAT",
+         "RETURN",
+         "HEAT_WAVE",
+         "FIRE_BLAST",
+         "SOLAR_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 65.50311747339339,
+           "max": 70.1542264064154
+         },
+         "great": {
+           "rankOne": 112.88084608316422,
+           "max": 122.23192209005356
+         },
+         "ultra": {
+           "rankOne": 148.7728033065796,
+           "max": 155.53520345687866
+         },
+         "master": {
+           "rankOne": 155.53520345687866,
+           "max": 155.53520345687866
+         }
+       }
+     },
+     {
+       "name": "Ninetales (Alolan)",
+       "types": [
+         "ice",
+         "fairy"
+       ],
+       "fastMoveIds": [
+         "CHARM",
+         "FEINT_ATTACK",
+         "POWDER_SNOW"
+       ],
+       "chargedMoveIds": [
+         "WEATHER_BALL_ICE",
+         "PSYSHOCK",
++        "CHILLING_WATER",
+         "DAZZLING_GLEAM",
+         "ICE_BEAM",
+         "RETURN",
+         "BLIZZARD"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 65.89070988447857,
+           "max": 69.76663399533024
+         },
+         "great": {
+           "rankOne": 113.54878008365631,
+           "max": 122.32556374874358
+         },
+         "ultra": {
+           "rankOne": 147.9275032877922,
+           "max": 156.38050347566605
+         },
+         "master": {
+           "rankOne": 156.38050347566605,
+@@ -28388,40 +28400,41 @@
          },
          "master": {
            "rankOne": 222.313904941082,
@@ -455,7 +538,7 @@ index 858bee5..f474358 100644
            "max": 156.38050347566605
          }
        }
-@@ -29295,41 +29306,42 @@
+@@ -29295,41 +29308,42 @@
            "max": 146.23690325021744
          },
          "master": {
@@ -499,7 +582,7 @@ index 858bee5..f474358 100644
          }
        }
      },
-@@ -29687,40 +29699,41 @@
+@@ -29687,40 +29701,41 @@
            "max": 262.04300582408905
          }
        }
@@ -541,7 +624,7 @@ index 858bee5..f474358 100644
            "rankOne": 187.65660417079926,
            "max": 187.65660417079926
          }
-@@ -37840,41 +37853,42 @@
+@@ -37840,41 +37855,42 @@
          "master": {
            "rankOne": 158.0711035132408,
            "max": 158.0711035132408
@@ -585,3 +668,144 @@ index 858bee5..f474358 100644
          }
        }
      },
+@@ -49001,40 +49017,46 @@
+         9
+       ],
+       "BODY_SLAM": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "BRICK_BREAK": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "BUG_BUZZ": [
+         8,
+         7,
+         8,
+         7
+       ],
++      "CHILLING_WATER": [
++        6,
++        6,
++        5,
++        6
++      ],
+       "CLOSE_COMBAT": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "CRUNCH": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "DARK_PULSE": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "DAZZLING_GLEAM": [
+         7,
+@@ -52483,40 +52505,46 @@
+         6
+       ],
+       "BRAVE_BIRD": [
+         10,
+         9,
+         9,
+         9
+       ],
+       "BRICK_BREAK": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "BULLDOZE": [
+         8,
+         7,
+         8,
+         7
+       ],
++      "CHILLING_WATER": [
++        8,
++        7,
++        8,
++        7
++      ],
+       "CRUNCH": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "DARK_PULSE": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "DAZZLING_GLEAM": [
+         10,
+         9,
+         9,
+         9
+       ],
+       "DIG": [
+         9,
+@@ -60845,40 +60873,46 @@
+         4
+       ],
+       "BRINE": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "BUG_BUZZ": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "BULLDOZE": [
+         6,
+         6,
+         5,
+         6
+       ],
++      "CHILLING_WATER": [
++        6,
++        6,
++        5,
++        6
++      ],
+       "CRUNCH": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "DARK_PULSE": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "DAZZLING_GLEAM": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "DISCHARGE": [
+         5,

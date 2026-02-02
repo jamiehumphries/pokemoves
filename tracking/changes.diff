@@ -1,5 +1,5 @@
 diff --git a/docs/data.json b/docs/data.json
-index 858bee5..f9ce585 100644
+index 858bee5..399e232 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -4054,41 +4054,42 @@
@@ -668,7 +668,56 @@ index 858bee5..f9ce585 100644
          }
        }
      },
-@@ -49001,40 +49017,46 @@
+@@ -44056,40 +44072,48 @@
+       "energyGain": 0,
+       "power": 70,
+       "turns": 1
+     },
+     "HEX": {
+       "name": "Hex",
+       "type": "ghost",
+       "energy": 0,
+       "energyGain": 13,
+       "power": 7,
+       "turns": 3
+     },
+     "HIDDEN_POWER_BUG": {
+       "name": "Hidden Power",
+       "type": "hidden",
+       "energy": 0,
+       "energyGain": 8,
+       "power": 9,
+       "turns": 3
+     },
++    "HIDDEN_POWER_NORMAL": {
++      "name": "Hidden Power",
++      "type": "normal",
++      "energy": 0,
++      "energyGain": 8,
++      "power": 9,
++      "turns": 3
++    },
+     "HIGH_HORSEPOWER": {
+       "name": "High Horsepower",
+       "type": "ground",
+       "energy": 60,
+       "energyGain": 0,
+       "power": 100,
+       "turns": 1
+     },
+     "HIGH_JUMP_KICK": {
+       "name": "High Jump Kick",
+       "type": "fighting",
+       "energy": 55,
+       "energyGain": 0,
+       "power": 110,
+       "turns": 1
+     },
+     "HORN_ATTACK": {
+       "name": "Horn Attack",
+       "type": "normal",
+       "energy": 35,
+@@ -49001,40 +49025,46 @@
          9
        ],
        "BODY_SLAM": [
@@ -715,7 +764,7 @@ index 858bee5..f9ce585 100644
        ],
        "DAZZLING_GLEAM": [
          7,
-@@ -52483,40 +52505,46 @@
+@@ -52483,40 +52513,46 @@
          6
        ],
        "BRAVE_BIRD": [
@@ -762,7 +811,7 @@ index 858bee5..f9ce585 100644
        ],
        "DIG": [
          9,
-@@ -60845,40 +60873,46 @@
+@@ -60845,40 +60881,46 @@
          4
        ],
        "BRINE": [

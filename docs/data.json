@@ -44089,6 +44089,14 @@
       "power": 9,
       "turns": 3
     },
+    "HIDDEN_POWER_NORMAL": {
+      "name": "Hidden Power",
+      "type": "normal",
+      "energy": 0,
+      "energyGain": 8,
+      "power": 9,
+      "turns": 3
+    },
     "HIGH_HORSEPOWER": {
       "name": "High Horsepower",
       "type": "ground",

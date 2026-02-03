@@ -1,5 +1,5 @@
 diff --git a/docs/data.json b/docs/data.json
-index 858bee5..399e232 100644
+index 858bee5..0401d12 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -4054,41 +4054,42 @@
@@ -210,6 +210,50 @@ index 858bee5..399e232 100644
          }
        }
      },
+@@ -12153,42 +12158,42 @@
+           "rankOne": 103.97190231084824,
+           "max": 103.97190231084824
+         },
+         "master": {
+           "rankOne": 103.97190231084824,
+           "max": 103.97190231084824
+         }
+       }
+     },
+     {
+       "name": "Flamigo",
+       "types": [
+         "flying",
+         "fighting"
+       ],
+       "fastMoveIds": [
+         "DOUBLE_KICK",
+         "WING_ATTACK"
+       ],
+       "chargedMoveIds": [
++        "UPPER_HAND",
+         "AERIAL_ACE",
+-        "CLOSE_COMBAT",
+         "BRAVE_BIRD"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 79.27127751708022,
+           "max": 84.50946766138067
+         },
+         "great": {
+           "rankOne": 137.2949702529706,
+           "max": 146.36732511550167
+         },
+         "ultra": {
+           "rankOne": 176.8177343010902,
+           "max": 189.88214778900127
+         },
+         "master": {
+           "rankOne": 204.56260454654694,
+           "max": 204.56260454654694
+         }
+       }
 @@ -12784,74 +12789,76 @@
            "max": 109.88900244235992
          },
@@ -764,7 +808,54 @@ index 858bee5..399e232 100644
        ],
        "DAZZLING_GLEAM": [
          7,
-@@ -52483,40 +52513,46 @@
+@@ -50731,40 +50761,46 @@
+         5
+       ],
+       "THUNDERBOLT": [
+         5,
+         5,
+         4,
+         5
+       ],
+       "TRAILBLAZE": [
+         4,
+         4,
+         4,
+         3
+       ],
+       "TRIPLE_AXEL": [
+         4,
+         4,
+         4,
+         3
+       ],
++      "UPPER_HAND": [
++        4,
++        3,
++        3,
++        4
++      ],
+       "WILD_CHARGE": [
+         4,
+         4,
+         4,
+         3
+       ]
+     },
+     "DRAGON_BREATH": {
+       "AIR_CUTTER": [
+         9,
+         9,
+         9,
+         8
+       ],
+       "ANCIENT_POWER": [
+         12,
+         11,
+         11,
+         11
+       ],
+@@ -52483,40 +52519,46 @@
          6
        ],
        "BRAVE_BIRD": [
@@ -811,7 +902,7 @@ index 858bee5..399e232 100644
        ],
        "DIG": [
          9,
-@@ -60845,40 +60881,46 @@
+@@ -60845,40 +60887,46 @@
          4
        ],
        "BRINE": [
@@ -858,3 +949,50 @@ index 858bee5..399e232 100644
        ],
        "DISCHARGE": [
          5,
+@@ -69942,40 +69990,46 @@
+         7
+       ],
+       "SILVER_WIND": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "SKY_ATTACK": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "TWISTER": [
+         7,
+         6,
+         7,
+         6
+       ],
++      "UPPER_HAND": [
++        6,
++        6,
++        6,
++        5
++      ],
+       "WATER_PULSE": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "WEATHER_BALL_WATER": [
+         5,
+         5,
+         5,
+         5
+       ]
+     },
+     "YAWN": {
+       "BODY_SLAM": [
+         3,
+         3,
+         3,
+         3
+       ],

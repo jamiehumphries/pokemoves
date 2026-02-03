@@ -12175,8 +12175,8 @@
         "WING_ATTACK"
       ],
       "chargedMoveIds": [
+        "UPPER_HAND",
         "AERIAL_ACE",
-        "CLOSE_COMBAT",
         "BRAVE_BIRD"
       ],
       "cmp": {
@@ -50778,6 +50778,12 @@
         4,
         3
       ],
+      "UPPER_HAND": [
+        4,
+        3,
+        3,
+        4
+      ],
       "WILD_CHARGE": [
         4,
         4,
@@ -70000,6 +70006,12 @@
         6,
         7,
         6
+      ],
+      "UPPER_HAND": [
+        6,
+        6,
+        6,
+        5
       ],
       "WATER_PULSE": [
         8,

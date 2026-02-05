@@ -1,0 +1,204 @@
+diff --git a/docs/data.json b/docs/data.json
+index 0401d12..77a6098 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -11142,47 +11142,48 @@
+           "max": 160.6201856201845
+         },
+         "ultra": {
+           "rankOne": 195.0543664693831,
+           "max": 207.3606964102815
+         },
+         "master": {
+           "rankOne": 250.20880556106567,
+           "max": 250.20880556106567
+         }
+       }
+     },
+     {
+       "name": "Enamorus (Therian)",
+       "types": [
+         "fairy",
+         "flying"
+       ],
+       "fastMoveIds": [
+         "ASTONISH",
+-        "FAIRY_WIND",
+-        "ZEN_HEADBUTT"
++        "EXTRASENSORY",
++        "FAIRY_WIND"
+       ],
+       "chargedMoveIds": [
+         "FLY",
+-        "GRASS_KNOT",
+-        "DAZZLING_GLEAM"
++        "MYSTICAL_FIRE",
++        "EARTH_POWER",
++        "MOONBLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 80.27189970016475,
+           "max": 82.19842529296871
+         },
+         "great": {
+           "rankOne": 135.65894055758827,
+           "max": 143.79847699104354
+         },
+         "ultra": {
+           "rankOne": 175.1357233194945,
+           "max": 185.91054600477216
+         },
+         "master": {
+           "rankOne": 224.00450497865677,
+           "max": 224.00450497865677
+         }
+       }
+     },
+@@ -52113,40 +52114,52 @@
+         5
+       ],
+       "HYDRO_PUMP": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "ICE_BEAM": [
+         6,
+         5,
+         6,
+         5
+       ],
+       "MIRROR_COAT": [
+         6,
+         5,
+         6,
+         5
+       ],
++      "MOONBLAST": [
++        6,
++        6,
++        6,
++        6
++      ],
++      "MYSTICAL_FIRE": [
++        5,
++        4,
++        5,
++        4
++      ],
+       "NIGHT_SHADE": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "OUTRAGE": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "PSYBEAM": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "PSYCHIC": [
+         6,
+@@ -52301,40 +52314,46 @@
+         5
+       ],
+       "DAZZLING_GLEAM": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "DISARMING_VOICE": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "DRAINING_KISS": [
+         7,
+         6,
+         6,
+         6
+       ],
++      "EARTH_POWER": [
++        7,
++        6,
++        6,
++        6
++      ],
+       "ENERGY_BALL": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "FLAMETHROWER": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "FLASH_CANNON": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "FLY": [
+         5,
+@@ -52379,40 +52398,46 @@
+         6
+       ],
+       "MEGAHORN": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "METEOR_MASH": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "MOONBLAST": [
+         7,
+         7,
+         6,
+         7
+       ],
++      "MYSTICAL_FIRE": [
++        5,
++        5,
++        5,
++        5
++      ],
+       "OVERHEAT": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "PETAL_BLIZZARD": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "PLAY_ROUGH": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "POWER_UP_PUNCH": [
+         4,

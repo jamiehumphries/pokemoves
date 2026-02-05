@@ -11159,13 +11159,14 @@
       ],
       "fastMoveIds": [
         "ASTONISH",
-        "FAIRY_WIND",
-        "ZEN_HEADBUTT"
+        "EXTRASENSORY",
+        "FAIRY_WIND"
       ],
       "chargedMoveIds": [
         "FLY",
-        "GRASS_KNOT",
-        "DAZZLING_GLEAM"
+        "MYSTICAL_FIRE",
+        "EARTH_POWER",
+        "MOONBLAST"
       ],
       "cmp": {
         "little": {
@@ -52130,6 +52131,18 @@
         6,
         5
       ],
+      "MOONBLAST": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "MYSTICAL_FIRE": [
+        5,
+        4,
+        5,
+        4
+      ],
       "NIGHT_SHADE": [
         5,
         4,
@@ -52318,6 +52331,12 @@
         6,
         6
       ],
+      "EARTH_POWER": [
+        7,
+        6,
+        6,
+        6
+      ],
       "ENERGY_BALL": [
         7,
         6,
@@ -52395,6 +52414,12 @@
         7,
         6,
         7
+      ],
+      "MYSTICAL_FIRE": [
+        5,
+        5,
+        5,
+        5
       ],
       "OVERHEAT": [
         7,

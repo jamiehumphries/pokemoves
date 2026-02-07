@@ -21925,6 +21925,43 @@
       }
     },
     {
+      "name": "Malamar (Mega)",
+      "types": [
+        "dark",
+        "psychic"
+      ],
+      "fastMoveIds": [
+        "PECK",
+        "PSYCHO_CUT",
+        "PSYWAVE"
+      ],
+      "chargedMoveIds": [
+        "FOUL_PLAY",
+        "SUPER_POWER",
+        "PSYBEAM",
+        "RETURN",
+        "HYPER_BEAM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 69.03383374214168,
+          "max": 71.60253453254695
+        },
+        "great": {
+          "rankOne": 117.88494014739979,
+          "max": 125.25274890661227
+        },
+        "ultra": {
+          "rankOne": 152.193600654602,
+          "max": 161.80336258488936
+        },
+        "master": {
+          "rankOne": 188.50190418958664,
+          "max": 188.50190418958664
+        }
+      }
+    },
+    {
       "name": "Mamoswine",
       "types": [
         "ice",
@@ -40323,6 +40360,44 @@
         "master": {
           "rankOne": 187.65660417079926,
           "max": 187.65660417079926
+        }
+      }
+    },
+    {
+      "name": "Victreebel (Mega)",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "fastMoveIds": [
+        "ACID",
+        "MAGICAL_LEAF",
+        "RAZOR_LEAF"
+      ],
+      "chargedMoveIds": [
+        "LEAF_BLADE",
+        "LEAF_TORNADO",
+        "ACID_SPRAY",
+        "SLUDGE_BOMB",
+        "RETURN",
+        "SOLAR_BEAM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 82.02337819798716,
+          "max": 85.69606677401643
+        },
+        "great": {
+          "rankOne": 141.60389721393562,
+          "max": 149.61921215057347
+        },
+        "ultra": {
+          "rankOne": 182.23650006025932,
+          "max": 193.6660791635512
+        },
+        "master": {
+          "rankOne": 236.68400526046753,
+          "max": 236.68400526046753
         }
       }
     },

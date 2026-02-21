@@ -1,0 +1,86 @@
+diff --git a/docs/data.json b/docs/data.json
+index 39af08a..1caf285 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -9612,40 +9612,81 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 78.94796848297104,
+           "max": 80.68946778774246
+         },
+         "great": {
+           "rankOne": 135.31466734710187,
+           "max": 142.2833353281021
+         },
+         "ultra": {
+           "rankOne": 173.9006663022679,
+           "max": 183.8189552548687
+         },
+         "master": {
+           "rankOne": 234.99340522289276,
+           "max": 234.99340522289276
+         }
+       }
+     },
++    {
++      "name": "Dragonite (Mega)",
++      "types": [
++        "dragon",
++        "flying"
++      ],
++      "fastMoveIds": [
++        "DRAGON_BREATH",
++        "DRAGON_TAIL",
++        "STEEL_WING"
++      ],
++      "chargedMoveIds": [
++        "SUPER_POWER",
++        "THUNDER_PUNCH",
++        "DRAGON_CLAW",
++        "DRAGON_PULSE",
++        "OUTRAGE",
++        "DRACO_METEOR",
++        "HURRICANE",
++        "RETURN",
++        "HYPER_BEAM"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 79.78465533256515,
++          "max": 80.29609543085083
++        },
++        "great": {
++          "rankOne": 135.46492620772352,
++          "max": 142.26082551580328
++        },
++        "ultra": {
++          "rankOne": 174.10139328241326,
++          "max": 183.45514062493157
++        },
++        "master": {
++          "rankOne": 265.4242058992386,
++          "max": 265.4242058992386
++        }
++      }
++    },
+     {
+       "name": "Drakloak",
+       "types": [
+         "dragon",
+         "ghost"
+       ],
+       "fastMoveIds": [
+         "ASTONISH",
+         "DRAGON_TAIL"
+       ],
+       "chargedMoveIds": [
+         "SHADOW_BALL",
+         "DRAGON_PULSE",
+         "OUTRAGE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 74.30183243500554,
+           "max": 80.98971769213675
+         },

@@ -9630,6 +9630,47 @@
       }
     },
     {
+      "name": "Dragonite (Mega)",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "fastMoveIds": [
+        "DRAGON_BREATH",
+        "DRAGON_TAIL",
+        "STEEL_WING"
+      ],
+      "chargedMoveIds": [
+        "SUPER_POWER",
+        "THUNDER_PUNCH",
+        "DRAGON_CLAW",
+        "DRAGON_PULSE",
+        "OUTRAGE",
+        "DRACO_METEOR",
+        "HURRICANE",
+        "RETURN",
+        "HYPER_BEAM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 79.78465533256515,
+          "max": 80.29609543085083
+        },
+        "great": {
+          "rankOne": 135.46492620772352,
+          "max": 142.26082551580328
+        },
+        "ultra": {
+          "rankOne": 174.10139328241326,
+          "max": 183.45514062493157
+        },
+        "master": {
+          "rankOne": 265.4242058992386,
+          "max": 265.4242058992386
+        }
+      }
+    },
+    {
       "name": "Drakloak",
       "types": [
         "dragon",

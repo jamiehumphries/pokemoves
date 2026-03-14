@@ -1,0 +1,188 @@
+diff --git a/docs/data.json b/docs/data.json
+index 0071c34..bca28a9 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -6383,40 +6383,42 @@
+         "ultra": {
+           "rankOne": 174.9771038889885,
+           "max": 180.0489040017128
+         },
+         "master": {
+           "rankOne": 180.0489040017128,
+           "max": 180.0489040017128
+         }
+       }
+     },
+     {
+       "name": "Cinderace",
+       "types": [
+         "fire"
+       ],
+       "fastMoveIds": [
+         "FIRE_SPIN",
+         "TACKLE"
+       ],
+       "chargedMoveIds": [
++        "PYRO_BALL",
++        "BLAST_BURN",
+         "FLAME_CHARGE",
+         "FLAMETHROWER",
+         "FOCUS_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 79.83591768622833,
+           "max": 84.86759317065447
+         },
+         "great": {
+           "rankOne": 136.74745723334482,
+           "max": 146.15200573205928
+         },
+         "ultra": {
+           "rankOne": 177.0477523287609,
+           "max": 188.93978333473194
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+           "max": 213.86090475320816
+@@ -53561,40 +53563,46 @@
+         3
+       ],
+       "PSYCHIC": [
+         6,
+         5,
+         6,
+         5
+       ],
+       "PSYCHIC_FANGS": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "PSYSHOCK": [
+         4,
+         4,
+         4,
+         4
+       ],
++      "PYRO_BALL": [
++        4,
++        4,
++        4,
++        4
++      ],
+       "RETURN": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "ROCK_BLAST": [
+         4,
+         4,
+         4,
+         4
+       ],
+       "ROCK_SLIDE": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "SCORCHING_SANDS": [
+         5,
+@@ -66930,40 +66938,46 @@
+         15
+       ],
+       "AQUA_JET": [
+         14,
+         13,
+         13,
+         14
+       ],
+       "AQUA_TAIL": [
+         12,
+         12,
+         11,
+         12
+       ],
+       "AVALANCHE": [
+         15,
+         15,
+         15,
+         15
+       ],
++      "BLAST_BURN": [
++        17,
++        17,
++        16,
++        17
++      ],
+       "BLIZZARD": [
+         25,
+         25,
+         25,
+         25
+       ],
+       "BODY_SLAM": [
+         12,
+         12,
+         11,
+         12
+       ],
+       "BRAVE_BIRD": [
+         19,
+         18,
+         18,
+         19
+       ],
+       "BREAKING_SWIPE": [
+         17,
+@@ -67356,40 +67370,46 @@
+         20
+       ],
+       "PSYCHIC": [
+         19,
+         18,
+         18,
+         19
+       ],
+       "PSYCHIC_FANGS": [
+         12,
+         12,
+         11,
+         12
+       ],
+       "PSYSHOCK": [
+         14,
+         13,
+         13,
+         14
+       ],
++      "PYRO_BALL": [
++        14,
++        13,
++        13,
++        14
++      ],
+       "RAZOR_SHELL": [
+         12,
+         12,
+         11,
+         12
+       ],
+       "RETURN": [
+         24,
+         23,
+         23,
+         24
+       ],
+       "ROCK_BLAST": [
+         14,
+         13,
+         13,
+         14
+       ],
+       "ROCK_SLIDE": [
+         15,

@@ -6400,6 +6400,8 @@
         "TACKLE"
       ],
       "chargedMoveIds": [
+        "PYRO_BALL",
+        "BLAST_BURN",
         "FLAME_CHARGE",
         "FLAMETHROWER",
         "FOCUS_BLAST"
@@ -53578,6 +53580,12 @@
         4,
         4
       ],
+      "PYRO_BALL": [
+        4,
+        4,
+        4,
+        4
+      ],
       "RETURN": [
         7,
         7,
@@ -66947,6 +66955,12 @@
         15,
         15
       ],
+      "BLAST_BURN": [
+        17,
+        17,
+        16,
+        17
+      ],
       "BLIZZARD": [
         25,
         25,
@@ -67368,6 +67382,12 @@
         12
       ],
       "PSYSHOCK": [
+        14,
+        13,
+        13,
+        14
+      ],
+      "PYRO_BALL": [
         14,
         13,
         13,

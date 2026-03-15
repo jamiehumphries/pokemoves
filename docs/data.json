@@ -23812,13 +23812,13 @@
         "fairy"
       ],
       "fastMoveIds": [
-        "CHARM",
+        "HEX",
         "SHADOW_CLAW"
       ],
       "chargedMoveIds": [
-        "SHADOW_BALL",
         "SHADOW_SNEAK",
-        "PLAY_ROUGH"
+        "PLAY_ROUGH",
+        "THUNDER"
       ],
       "cmp": {
         "little": {
@@ -26169,9 +26169,11 @@
       ],
       "fastMoveIds": [
         "CONFUSION",
+        "PSYCHO_CUT",
         "STRUGGLE_BUG"
       ],
       "chargedMoveIds": [
+        "PSYSHOCK",
         "PSYCHIC",
         "BUG_BUZZ"
       ],
@@ -49494,12 +49496,6 @@
         6,
         6
       ],
-      "SHADOW_SNEAK": [
-        7,
-        6,
-        6,
-        6
-      ],
       "SKULL_BASH": [
         10,
         9,
@@ -54755,6 +54751,12 @@
         4,
         4,
         4
+      ],
+      "PLAY_ROUGH": [
+        5,
+        5,
+        4,
+        5
       ],
       "POLTERGEIST": [
         6,
@@ -61396,6 +61398,12 @@
         4,
         4
       ],
+      "BUG_BUZZ": [
+        7,
+        7,
+        6,
+        7
+      ],
       "CLOSE_COMBAT": [
         5,
         5,
@@ -66452,6 +66460,12 @@
         7,
         7,
         7
+      ],
+      "PSYSHOCK": [
+        5,
+        5,
+        5,
+        5
       ],
       "RETURN": [
         9,

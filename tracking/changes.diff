@@ -1,0 +1,53 @@
+diff --git a/docs/data.json b/docs/data.json
+index 6148e8a..e569865 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -44138,40 +44138,48 @@
+       "energyGain": 13,
+       "power": 8,
+       "turns": 3
+     },
+     "GIGA_DRAIN": {
+       "name": "Giga Drain",
+       "type": "grass",
+       "energy": 80,
+       "energyGain": 0,
+       "power": 50,
+       "turns": 1
+     },
+     "GIGA_IMPACT": {
+       "name": "Giga Impact",
+       "type": "normal",
+       "energy": 80,
+       "energyGain": 0,
+       "power": 150,
+       "turns": 1
+     },
++    "GIGATON_HAMMER": {
++      "name": "Gigaton Hammer",
++      "type": "steel",
++      "energy": 60,
++      "energyGain": 0,
++      "power": 130,
++      "turns": 1
++    },
+     "GLACIATE": {
+       "name": "Glaciate",
+       "type": "ice",
+       "energy": 40,
+       "energyGain": 0,
+       "power": 60,
+       "turns": 1
+     },
+     "GRASS_KNOT": {
+       "name": "Grass Knot",
+       "type": "grass",
+       "energy": 50,
+       "energyGain": 0,
+       "power": 90,
+       "turns": 1
+     },
+     "GUNK_SHOT": {
+       "name": "Gunk Shot",
+       "type": "poison",
+       "energy": 75,

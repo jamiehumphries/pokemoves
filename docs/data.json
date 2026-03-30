@@ -44155,6 +44155,14 @@
       "power": 150,
       "turns": 1
     },
+    "GIGATON_HAMMER": {
+      "name": "Gigaton Hammer",
+      "type": "steel",
+      "energy": 60,
+      "energyGain": 0,
+      "power": 130,
+      "turns": 1
+    },
     "GLACIATE": {
       "name": "Glaciate",
       "type": "ice",

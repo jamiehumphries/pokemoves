@@ -38178,6 +38178,7 @@
       "chargedMoveIds": [
         "BULLDOZE",
         "HEAVY_SLAM",
+        "GIGATON_HAMMER",
         "PLAY_ROUGH",
         "FLASH_CANNON"
       ],
@@ -52534,6 +52535,12 @@
         5,
         5
       ],
+      "GIGATON_HAMMER": [
+        7,
+        7,
+        6,
+        7
+      ],
       "GRASS_KNOT": [
         6,
         6,
@@ -62949,6 +62956,12 @@
         11,
         12,
         11
+      ],
+      "GIGATON_HAMMER": [
+        9,
+        9,
+        8,
+        9
       ],
       "GRASS_KNOT": [
         8,

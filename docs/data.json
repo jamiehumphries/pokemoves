@@ -1028,7 +1028,8 @@
         "BUBBLE_BEAM",
         "WATER_PULSE",
         "MIRROR_COAT",
-        "BUG_BUZZ"
+        "BUG_BUZZ",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -3408,7 +3409,8 @@
         "DRAIN_PUNCH",
         "STOMP",
         "SUPER_POWER",
-        "PAYBACK"
+        "PAYBACK",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -8832,7 +8834,8 @@
       "chargedMoveIds": [
         "BUBBLE_BEAM",
         "WATER_PULSE",
-        "MIRROR_COAT"
+        "MIRROR_COAT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -16534,7 +16537,8 @@
         "BREAKING_SWIPE",
         "GRASS_KNOT",
         "PARABOLIC_CHARGE",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -16568,7 +16572,8 @@
       "chargedMoveIds": [
         "BULLDOZE",
         "PARABOLIC_CHARGE",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -19783,6 +19788,7 @@
         "ROCK_SLIDE",
         "EARTH_POWER",
         "OUTRAGE",
+        "RETURN",
         "FOCUS_BLAST"
       ],
       "cmp": {
@@ -33094,7 +33100,8 @@
       "chargedMoveIds": [
         "SEED_BOMB",
         "SLUDGE_BOMB",
-        "MOONBLAST"
+        "MOONBLAST",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -36426,7 +36433,8 @@
       "chargedMoveIds": [
         "BRICK_BREAK",
         "STOMP",
-        "SUPER_POWER"
+        "SUPER_POWER",
+        "RETURN"
       ],
       "cmp": {
         "little": {

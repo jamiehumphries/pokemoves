@@ -25924,6 +25924,7 @@
         "normal"
       ],
       "fastMoveIds": [
+        "MUD_SLAP",
         "TACKLE",
         "TAKE_DOWN"
       ],
@@ -25957,6 +25958,7 @@
         "normal"
       ],
       "fastMoveIds": [
+        "MUD_SLAP",
         "TACKLE",
         "TAKE_DOWN"
       ],

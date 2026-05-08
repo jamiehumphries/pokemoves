@@ -1,0 +1,80 @@
+diff --git a/docs/data.json b/docs/data.json
+index 4cfe7ff..d4ace6f 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -25907,73 +25907,75 @@
+         "great": {
+           "rankOne": 131.42800211906422,
+           "max": 140.92391219798301
+         },
+         "ultra": {
+           "rankOne": 169.95822316138825,
+           "max": 182.27026355266568
+         },
+         "master": {
+           "rankOne": 197.80020439624786,
+           "max": 197.80020439624786
+         }
+       }
+     },
+     {
+       "name": "Oinkologne (Female)",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
++        "MUD_SLAP",
+         "TACKLE",
+         "TAKE_DOWN"
+       ],
+       "chargedMoveIds": [
+         "BODY_SLAM",
+         "TRAILBLAZE",
+         "DIG"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 63.41481426358211,
+           "max": 66.69222577529736
+         },
+         "great": {
+           "rankOne": 108.27034932374943,
+           "max": 116.5914494185847
+         },
+         "ultra": {
+           "rankOne": 139.47569632530204,
+           "max": 150.93519687652585
+         },
+         "master": {
+           "rankOne": 155.53520345687866,
+           "max": 155.53520345687866
+         }
+       }
+     },
+     {
+       "name": "Oinkologne (Male)",
+       "types": [
+         "normal"
+       ],
+       "fastMoveIds": [
++        "MUD_SLAP",
+         "TACKLE",
+         "TAKE_DOWN"
+       ],
+       "chargedMoveIds": [
+         "BODY_SLAM",
+         "TRAILBLAZE",
+         "DIG"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 67.41714127285493,
+           "max": 71.76663425820043
+         },
+         "great": {
+           "rankOne": 116.54148530960073,
+           "max": 124.50022622377605
+         },
+         "ultra": {
+           "rankOne": 150.25151860369448,
+           "max": 161.36358235689224

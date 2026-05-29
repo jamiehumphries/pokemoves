@@ -1,0 +1,189 @@
+diff --git a/docs/data.json b/docs/data.json
+index d4ace6f..1aca3c3 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -42831,40 +42831,41 @@
+         "ultra": {
+           "rankOne": 176.17956250905974,
+           "max": 185.7893568277357
+         },
+         "master": {
+           "rankOne": 245.13700544834137,
+           "max": 245.13700544834137
+         }
+       }
+     },
+     {
+       "name": "Zeraora",
+       "types": [
+         "electric"
+       ],
+       "fastMoveIds": [
+         "SPARK",
+         "VOLT_SWITCH"
+       ],
+       "chargedMoveIds": [
++        "PLASMA_FISTS",
+         "DISCHARGE",
+         "THUNDER_PUNCH",
+         "WILD_CHARGE"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 79.57491914730097,
+           "max": 81.87733769416805
+         },
+         "great": {
+           "rankOne": 136.74421208204896,
+           "max": 144.88374851550427
+         },
+         "ultra": {
+           "rankOne": 175.61834418773637,
+           "max": 187.04495250522012
+         },
+         "master": {
+           "rankOne": 225.69510501623154,
+           "max": 225.69510501623154
+@@ -44781,40 +44782,48 @@
+       "energyGain": 0,
+       "power": 110,
+       "turns": 1
+     },
+     "PECK": {
+       "name": "Peck",
+       "type": "flying",
+       "energy": 0,
+       "energyGain": 8,
+       "power": 6,
+       "turns": 2
+     },
+     "PETAL_BLIZZARD": {
+       "name": "Petal Blizzard",
+       "type": "grass",
+       "energy": 65,
+       "energyGain": 0,
+       "power": 110,
+       "turns": 1
+     },
++    "PLASMA_FISTS": {
++      "name": "Plasma Fists",
++      "type": "electric",
++      "energy": 35,
++      "energyGain": 0,
++      "power": 60,
++      "turns": 1
++    },
+     "PLAY_ROUGH": {
+       "name": "Play Rough",
+       "type": "fairy",
+       "energy": 60,
+       "energyGain": 0,
+       "power": 90,
+       "turns": 1
+     },
+     "POISON_FANG": {
+       "name": "Poison Fang",
+       "type": "poison",
+       "energy": 40,
+       "energyGain": 0,
+       "power": 45,
+       "turns": 1
+     },
+     "POISON_JAB": {
+       "name": "Poison Jab",
+       "type": "poison",
+       "energy": 0,
+@@ -65828,40 +65837,46 @@
+         7
+       ],
+       "LIQUIDATION": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "MAGNET_BOMB": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "MIRROR_SHOT": [
+         5,
+         5,
+         5,
+         5
+       ],
++      "PLASMA_FISTS": [
++        5,
++        5,
++        5,
++        5
++      ],
+       "POWER_UP_PUNCH": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "POWER_WHIP": [
+         8,
+         7,
+         7,
+         7
+       ],
+       "PSYCHIC": [
+         8,
+         8,
+         8,
+         8
+       ],
+       "PSYCHIC_FANGS": [
+         5,
+@@ -68943,40 +68958,46 @@
+         2
+       ],
+       "NATURES_MADNESS": [
+         4,
+         3,
+         3,
+         3
+       ],
+       "OVERHEAT": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "PARABOLIC_CHARGE": [
+         4,
+         3,
+         3,
+         3
+       ],
++      "PLASMA_FISTS": [
++        3,
++        2,
++        2,
++        2
++      ],
+       "POWER_GEM": [
+         4,
+         3,
+         3,
+         3
+       ],
+       "PSYCHIC": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "PSYSHOCK": [
+         3,
+         2,
+         3,
+         2
+       ],
+       "RETURN": [
+         5,

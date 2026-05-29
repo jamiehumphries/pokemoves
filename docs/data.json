@@ -42848,6 +42848,7 @@
         "VOLT_SWITCH"
       ],
       "chargedMoveIds": [
+        "PLASMA_FISTS",
         "DISCHARGE",
         "THUNDER_PUNCH",
         "WILD_CHARGE"
@@ -44796,6 +44797,14 @@
       "energy": 65,
       "energyGain": 0,
       "power": 110,
+      "turns": 1
+    },
+    "PLASMA_FISTS": {
+      "name": "Plasma Fists",
+      "type": "electric",
+      "energy": 35,
+      "energyGain": 0,
+      "power": 60,
       "turns": 1
     },
     "PLAY_ROUGH": {
@@ -65845,6 +65854,12 @@
         5,
         5
       ],
+      "PLASMA_FISTS": [
+        5,
+        5,
+        5,
+        5
+      ],
       "POWER_UP_PUNCH": [
         5,
         5,
@@ -68959,6 +68974,12 @@
         3,
         3,
         3
+      ],
+      "PLASMA_FISTS": [
+        3,
+        2,
+        2,
+        2
       ],
       "POWER_GEM": [
         4,

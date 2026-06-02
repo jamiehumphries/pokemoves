@@ -13,8 +13,8 @@
       ],
       "chargedMoveIds": [
         "WEATHER_BALL_ICE",
-        "ICY_WIND",
         "ENERGY_BALL",
+        "ICY_WIND",
         "OUTRAGE",
         "RETURN",
         "BLIZZARD"
@@ -51,8 +51,8 @@
       ],
       "chargedMoveIds": [
         "WEATHER_BALL_ICE",
-        "ICY_WIND",
         "ENERGY_BALL",
+        "ICY_WIND",
         "OUTRAGE",
         "RETURN",
         "BLIZZARD"
@@ -302,8 +302,8 @@
       "chargedMoveIds": [
         "ANCIENT_POWER",
         "ROCK_SLIDE",
-        "IRON_HEAD",
         "EARTH_POWER",
+        "IRON_HEAD",
         "RETURN",
         "HYPER_BEAM"
       ],
@@ -341,8 +341,8 @@
       "chargedMoveIds": [
         "ANCIENT_POWER",
         "ROCK_SLIDE",
-        "IRON_HEAD",
         "EARTH_POWER",
+        "IRON_HEAD",
         "RETURN",
         "HYPER_BEAM"
       ],
@@ -563,8 +563,8 @@
       ],
       "chargedMoveIds": [
         "PSYSHOCK",
-        "DAZZLING_GLEAM",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "DAZZLING_GLEAM"
       ],
       "cmp": {
         "little": {
@@ -960,8 +960,8 @@
       ],
       "chargedMoveIds": [
         "SEED_BOMB",
-        "DRAGON_PULSE",
         "ENERGY_BALL",
+        "DRAGON_PULSE",
         "OUTRAGE"
       ],
       "cmp": {
@@ -1100,9 +1100,9 @@
       ],
       "chargedMoveIds": [
         "SEED_BOMB",
+        "ENERGY_BALL",
         "TRAILBLAZE",
-        "EARTH_POWER",
-        "ENERGY_BALL"
+        "EARTH_POWER"
       ],
       "cmp": {
         "little": {
@@ -2114,7 +2114,8 @@
       ],
       "fastMoveIds": [
         "CHARGE_BEAM",
-        "CHARM"
+        "CHARM",
+        "FAIRY_WIND"
       ],
       "chargedMoveIds": [
         "PSYSHOCK",
@@ -3022,8 +3023,8 @@
       ],
       "chargedMoveIds": [
         "ANCIENT_POWER",
-        "GRASS_KNOT",
         "ENERGY_BALL",
+        "GRASS_KNOT",
         "RETURN"
       ],
       "cmp": {
@@ -3127,9 +3128,9 @@
       ],
       "chargedMoveIds": [
         "FELL_STINGER",
+        "DRILL_RUN",
         "X_SCISSOR",
         "AERIAL_ACE",
-        "DRILL_RUN",
         "SLUDGE_BOMB",
         "RETURN"
       ],
@@ -3166,9 +3167,9 @@
       ],
       "chargedMoveIds": [
         "FELL_STINGER",
+        "DRILL_RUN",
         "X_SCISSOR",
         "AERIAL_ACE",
-        "DRILL_RUN",
         "SLUDGE_BOMB",
         "RETURN"
       ],
@@ -4040,8 +4041,8 @@
         "RAZOR_LEAF"
       ],
       "chargedMoveIds": [
-        "DRAINING_KISS",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "DRAINING_KISS"
       ],
       "cmp": {
         "little": {
@@ -4457,8 +4458,8 @@
         "RAZOR_LEAF"
       ],
       "chargedMoveIds": [
-        "GRASS_KNOT",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "GRASS_KNOT"
       ],
       "cmp": {
         "little": {
@@ -4871,9 +4872,9 @@
         "ROCK_SMASH"
       ],
       "chargedMoveIds": [
+        "EARTH_POWER",
         "ROCK_TOMB",
         "SCORCHING_SANDS",
-        "EARTH_POWER",
         "OVERHEAT",
         "EARTHQUAKE",
         "RETURN",
@@ -4910,9 +4911,9 @@
         "ROCK_SMASH"
       ],
       "chargedMoveIds": [
+        "EARTH_POWER",
         "ROCK_TOMB",
         "SCORCHING_SANDS",
-        "EARTH_POWER",
         "OVERHEAT",
         "EARTHQUAKE",
         "RETURN",
@@ -5048,8 +5049,8 @@
       ],
       "chargedMoveIds": [
         "CRUNCH",
-        "POWER_WHIP",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "POWER_WHIP"
       ],
       "cmp": {
         "little": {
@@ -5562,9 +5563,9 @@
         "INCINERATE"
       ],
       "chargedMoveIds": [
+        "ENERGY_BALL",
         "FLAME_CHARGE",
         "SHADOW_BALL",
-        "ENERGY_BALL",
         "OVERHEAT",
         "RETURN",
         "POLTERGEIST"
@@ -6031,9 +6032,9 @@
       "chargedMoveIds": [
         "SUPER_POWER",
         "THUNDER_PUNCH",
+        "ENERGY_BALL",
         "FRENZY_PLANT",
         "GYRO_BALL",
-        "ENERGY_BALL",
         "RETURN",
         "SOLAR_BEAM"
       ],
@@ -6202,8 +6203,8 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
-        "GRASS_KNOT",
         "ENERGY_BALL",
+        "GRASS_KNOT",
         "RETURN"
       ],
       "cmp": {
@@ -6270,8 +6271,8 @@
       ],
       "chargedMoveIds": [
         "PSYSHOCK",
-        "SHADOW_BALL",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "SHADOW_BALL"
       ],
       "cmp": {
         "little": {
@@ -6538,11 +6539,11 @@
         "MUD_SLAP"
       ],
       "chargedMoveIds": [
+        "EARTH_POWER",
         "GYRO_BALL",
         "ROCK_TOMB",
         "SCORCHING_SANDS",
         "SHADOW_BALL",
-        "EARTH_POWER",
         "ICE_BEAM",
         "PSYCHIC",
         "EARTHQUAKE",
@@ -6995,6 +6996,7 @@
       ],
       "fastMoveIds": [
         "COUNTER",
+        "FORCE_PALM",
         "POISON_JAB"
       ],
       "chargedMoveIds": [
@@ -7301,8 +7303,8 @@
       ],
       "chargedMoveIds": [
         "SEED_BOMB",
-        "GRASS_KNOT",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "GRASS_KNOT"
       ],
       "cmp": {
         "little": {
@@ -8240,8 +8242,8 @@
       ],
       "chargedMoveIds": [
         "SEED_BOMB",
-        "BRAVE_BIRD",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "BRAVE_BIRD"
       ],
       "cmp": {
         "little": {
@@ -8341,10 +8343,10 @@
       ],
       "chargedMoveIds": [
         "SPIRIT_SHACKLE",
+        "ENERGY_BALL",
         "FRENZY_PLANT",
         "SHADOW_SNEAK",
-        "BRAVE_BIRD",
-        "ENERGY_BALL"
+        "BRAVE_BIRD"
       ],
       "cmp": {
         "little": {
@@ -8378,9 +8380,9 @@
       "chargedMoveIds": [
         "AURA_SPHERE",
         "AERIAL_ACE",
+        "ENERGY_BALL",
         "NIGHT_SHADE",
-        "TRAILBLAZE",
-        "ENERGY_BALL"
+        "TRAILBLAZE"
       ],
       "cmp": {
         "little": {
@@ -8447,9 +8449,9 @@
       ],
       "chargedMoveIds": [
         "SEED_BOMB",
+        "ENERGY_BALL",
         "TRAILBLAZE",
-        "WILD_CHARGE",
-        "ENERGY_BALL"
+        "WILD_CHARGE"
       ],
       "cmp": {
         "little": {
@@ -9259,9 +9261,9 @@
       ],
       "chargedMoveIds": [
         "SEED_BOMB",
+        "ENERGY_BALL",
         "TRAILBLAZE",
-        "EARTH_POWER",
-        "ENERGY_BALL"
+        "EARTH_POWER"
       ],
       "cmp": {
         "little": {
@@ -9614,9 +9616,9 @@
         "THUNDER_PUNCH",
         "DRAGON_CLAW",
         "DRAGON_PULSE",
+        "HURRICANE",
         "OUTRAGE",
         "DRACO_METEOR",
-        "HURRICANE",
         "RETURN",
         "HYPER_BEAM"
       ],
@@ -9655,9 +9657,9 @@
         "THUNDER_PUNCH",
         "DRAGON_CLAW",
         "DRAGON_PULSE",
+        "HURRICANE",
         "OUTRAGE",
         "DRACO_METEOR",
-        "HURRICANE",
         "RETURN",
         "HYPER_BEAM"
       ],
@@ -10793,8 +10795,8 @@
         "RAZOR_LEAF"
       ],
       "chargedMoveIds": [
-        "GRASS_KNOT",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "GRASS_KNOT"
       ],
       "cmp": {
         "little": {
@@ -10967,8 +10969,8 @@
       ],
       "chargedMoveIds": [
         "SWIFT",
-        "WILD_CHARGE",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "WILD_CHARGE"
       ],
       "cmp": {
         "little": {
@@ -11287,9 +11289,9 @@
       ],
       "chargedMoveIds": [
         "RAZOR_SHELL",
+        "DRILL_RUN",
         "ACID_SPRAY",
         "AERIAL_ACE",
-        "DRILL_RUN",
         "MEGAHORN",
         "RETURN"
       ],
@@ -11699,6 +11701,39 @@
       }
     },
     {
+      "name": "Falinks (Mega)",
+      "types": [
+        "fighting"
+      ],
+      "fastMoveIds": [
+        "COUNTER",
+        "ROCK_SMASH"
+      ],
+      "chargedMoveIds": [
+        "BRICK_BREAK",
+        "SUPER_POWER",
+        "MEGAHORN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 81.71732081665138,
+          "max": 84.47183724867334
+        },
+        "great": {
+          "rankOne": 139.17897164821625,
+          "max": 147.2639024559721
+        },
+        "ultra": {
+          "rankOne": 180.11336711064843,
+          "max": 190.2320956000107
+        },
+        "master": {
+          "rankOne": 238.3746052980423,
+          "max": 238.3746052980423
+        }
+      }
+    },
+    {
       "name": "Farfetch’d",
       "types": [
         "normal",
@@ -11814,9 +11849,9 @@
       ],
       "chargedMoveIds": [
         "DRILL_PECK",
+        "DRILL_RUN",
         "TWISTER",
         "AERIAL_ACE",
-        "DRILL_RUN",
         "FLY",
         "SKY_ATTACK"
       ],
@@ -12504,8 +12539,8 @@
         "LEAFAGE"
       ],
       "chargedMoveIds": [
-        "GRASS_KNOT",
         "ENERGY_BALL",
+        "GRASS_KNOT",
         "PLAY_ROUGH"
       ],
       "cmp": {
@@ -12611,8 +12646,8 @@
         "SAND_TOMB",
         "TWISTER",
         "DRAGON_CLAW",
-        "SCORCHING_SANDS",
         "EARTH_POWER",
+        "SCORCHING_SANDS",
         "STONE_EDGE",
         "EARTHQUAKE",
         "BOOMBURST",
@@ -12649,9 +12684,9 @@
       ],
       "chargedMoveIds": [
         "LEAF_BLADE",
+        "ENERGY_BALL",
         "TRAILBLAZE",
-        "GRASS_KNOT",
-        "ENERGY_BALL"
+        "GRASS_KNOT"
       ],
       "cmp": {
         "little": {
@@ -12684,8 +12719,8 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
-        "GRASS_KNOT",
         "ENERGY_BALL",
+        "GRASS_KNOT",
         "RETURN"
       ],
       "cmp": {
@@ -13213,8 +13248,8 @@
       "chargedMoveIds": [
         "CROSS_POISON",
         "DISCHARGE",
-        "LUNGE",
         "ENERGY_BALL",
+        "LUNGE",
         "BUG_BUZZ",
         "RETURN"
       ],
@@ -13509,8 +13544,8 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
-        "WATER_PULSE",
         "EARTH_POWER",
+        "WATER_PULSE",
         "EARTHQUAKE"
       ],
       "cmp": {
@@ -13936,6 +13971,7 @@
         "rock"
       ],
       "fastMoveIds": [
+        "LOCK_ON",
         "MUD_SLAP",
         "SMACK_DOWN"
       ],
@@ -14891,8 +14927,8 @@
         "RAZOR_LEAF"
       ],
       "chargedMoveIds": [
-        "GRASS_KNOT",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "GRASS_KNOT"
       ],
       "cmp": {
         "little": {
@@ -15622,8 +15658,8 @@
         "SCRATCH"
       ],
       "chargedMoveIds": [
-        "GRASS_KNOT",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "GRASS_KNOT"
       ],
       "cmp": {
         "little": {
@@ -16495,8 +16531,8 @@
       ],
       "chargedMoveIds": [
         "MAGMA_STORM",
-        "IRON_HEAD",
         "EARTH_POWER",
+        "IRON_HEAD",
         "FLAMETHROWER",
         "STONE_EDGE",
         "RETURN",
@@ -16754,8 +16790,8 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "WEATHER_BALL_ROCK",
-        "SCORCHING_SANDS",
         "EARTH_POWER",
+        "SCORCHING_SANDS",
         "STONE_EDGE",
         "EARTHQUAKE",
         "RETURN"
@@ -18335,9 +18371,9 @@
       ],
       "chargedMoveIds": [
         "AERIAL_ACE",
+        "ENERGY_BALL",
         "ACROBATICS",
         "DAZZLING_GLEAM",
-        "ENERGY_BALL",
         "RETURN",
         "SOLAR_BEAM"
       ],
@@ -18445,6 +18481,7 @@
         "WATERFALL"
       ],
       "chargedMoveIds": [
+        "AQUA_JET",
         "ANCIENT_POWER",
         "WATER_PULSE",
         "STONE_EDGE",
@@ -18618,9 +18655,9 @@
         "PECK"
       ],
       "chargedMoveIds": [
+        "DRILL_RUN",
         "X_SCISSOR",
         "AERIAL_ACE",
-        "DRILL_RUN",
         "SIGNAL_BEAM",
         "RETURN"
       ],
@@ -18691,7 +18728,9 @@
       ],
       "chargedMoveIds": [
         "FOUL_PLAY",
+        "THUNDER_PUNCH",
         "AERIAL_ACE",
+        "DYNAMIC_PUNCH",
         "SHADOW_SNEAK",
         "FLAMETHROWER",
         "ICE_BEAM",
@@ -18872,6 +18911,7 @@
       ],
       "chargedMoveIds": [
         "SWIFT",
+        "SURF",
         "OCTAZOOKA",
         "OUTRAGE",
         "RETURN",
@@ -19750,8 +19790,8 @@
         "EMBER"
       ],
       "chargedMoveIds": [
-        "HEAT_WAVE",
         "ENERGY_BALL",
+        "HEAT_WAVE",
         "FLAME_BURST",
         "RETURN"
       ],
@@ -20255,12 +20295,14 @@
       "fastMoveIds": [
         "BUG_BITE",
         "COUNTER",
+        "ROLLOUT",
         "STRUGGLE_BUG"
       ],
       "chargedMoveIds": [
         "AERIAL_ACE",
         "DYNAMIC_PUNCH",
         "SILVER_WIND",
+        "ACROBATICS",
         "BUG_BUZZ",
         "RETURN"
       ],
@@ -20821,7 +20863,9 @@
       ],
       "chargedMoveIds": [
         "FIRE_PUNCH",
+        "THUNDER_PUNCH",
         "TRIPLE_AXEL",
+        "SHADOW_BALL",
         "FOCUS_BLAST",
         "HYPER_BEAM"
       ],
@@ -20857,7 +20901,9 @@
       ],
       "chargedMoveIds": [
         "FIRE_PUNCH",
+        "THUNDER_PUNCH",
         "TRIPLE_AXEL",
+        "SHADOW_BALL",
         "FOCUS_BLAST",
         "HYPER_BEAM"
       ],
@@ -20892,8 +20938,8 @@
       ],
       "chargedMoveIds": [
         "BUBBLE_BEAM",
-        "SCALD",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "SCALD"
       ],
       "cmp": {
         "little": {
@@ -21041,8 +21087,8 @@
       ],
       "chargedMoveIds": [
         "WEATHER_BALL_WATER",
-        "SCALD",
         "ENERGY_BALL",
+        "SCALD",
         "ICE_BEAM",
         "LEAF_STORM",
         "BLIZZARD",
@@ -21111,6 +21157,7 @@
         "water"
       ],
       "fastMoveIds": [
+        "GUST",
         "WATER_GUN",
         "WATERFALL"
       ],
@@ -21395,8 +21442,8 @@
         "SUCKER_PUNCH"
       ],
       "chargedMoveIds": [
-        "CRUNCH",
         "DRILL_RUN",
+        "CRUNCH",
         "TRAILBLAZE",
         "STONE_EDGE"
       ],
@@ -22250,6 +22297,7 @@
       ],
       "chargedMoveIds": [
         "BUBBLE_BEAM",
+        "TWISTER",
         "AERIAL_ACE",
         "WATER_PULSE",
         "ICE_BEAM"
@@ -22921,6 +22969,7 @@
       "chargedMoveIds": [
         "DOUBLE_IRON_BASH",
         "SUPER_POWER",
+        "DYNAMIC_PUNCH",
         "ROCK_SLIDE",
         "THUNDERBOLT",
         "FLASH_CANNON",
@@ -23059,9 +23108,9 @@
       "chargedMoveIds": [
         "FLOWER_TRICK",
         "NIGHT_SLASH",
+        "ENERGY_BALL",
         "FRENZY_PLANT",
         "GRASS_KNOT",
-        "ENERGY_BALL",
         "PLAY_ROUGH"
       ],
       "cmp": {
@@ -23094,8 +23143,8 @@
         "MAGICAL_LEAF"
       ],
       "chargedMoveIds": [
-        "SHADOW_BALL",
         "ENERGY_BALL",
+        "SHADOW_BALL",
         "PSYCHIC"
       ],
       "cmp": {
@@ -23450,6 +23499,7 @@
         "PSYSHOCK",
         "ANCIENT_POWER",
         "BULLDOZE",
+        "ENERGY_BALL",
         "ROCK_SLIDE",
         "SURF",
         "WILD_CHARGE",
@@ -23459,7 +23509,6 @@
         "GRASS_KNOT",
         "GYRO_BALL",
         "DAZZLING_GLEAM",
-        "ENERGY_BALL",
         "ICE_BEAM",
         "OVERHEAT",
         "PSYCHIC",
@@ -23562,6 +23611,85 @@
         "master": {
           "rankOne": 166.52410370111465,
           "max": 166.52410370111465
+        }
+      }
+    },
+    {
+      "name": "Mewtwo (Mega X)",
+      "types": [
+        "psychic",
+        "fighting"
+      ],
+      "fastMoveIds": [
+        "CONFUSION",
+        "PSYCHO_CUT"
+      ],
+      "chargedMoveIds": [
+        "PSYSTRIKE",
+        "SHADOW_BALL",
+        "FLAMETHROWER",
+        "ICE_BEAM",
+        "PSYCHIC",
+        "THUNDERBOLT",
+        "RETURN",
+        "FOCUS_BLAST",
+        "HYPER_BEAM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 94.39248935562217,
+          "max": 97.94107918102151
+        },
+        "great": {
+          "rankOne": 164.06622625738277,
+          "max": 169.82293595062424
+        },
+        "ultra": {
+          "rankOne": 209.85106099976025,
+          "max": 218.01656627654992
+        },
+        "master": {
+          "rankOne": 349.954207777977,
+          "max": 349.954207777977
+        }
+      }
+    },
+    {
+      "name": "Mewtwo (Mega Y)",
+      "types": [
+        "psychic"
+      ],
+      "fastMoveIds": [
+        "CONFUSION",
+        "PSYCHO_CUT"
+      ],
+      "chargedMoveIds": [
+        "PSYSTRIKE",
+        "SHADOW_BALL",
+        "FLAMETHROWER",
+        "ICE_BEAM",
+        "PSYCHIC",
+        "THUNDERBOLT",
+        "RETURN",
+        "FOCUS_BLAST",
+        "HYPER_BEAM"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 92.33349722623814,
+          "max": 92.33349722623814
+        },
+        "great": {
+          "rankOne": 164.33918230011125,
+          "max": 169.81609240174288
+        },
+        "ultra": {
+          "rankOne": 210.0938256178687,
+          "max": 218.3402454853058
+        },
+        "master": {
+          "rankOne": 361.78840804100037,
+          "max": 361.78840804100037
         }
       }
     },
@@ -25433,9 +25561,9 @@
       "chargedMoveIds": [
         "WEATHER_BALL_FIRE",
         "PSYSHOCK",
+        "ENERGY_BALL",
         "HEAT_WAVE",
         "SCORCHING_SANDS",
-        "ENERGY_BALL",
         "FLAMETHROWER",
         "OVERHEAT",
         "RETURN",
@@ -25616,8 +25744,8 @@
       "chargedMoveIds": [
         "HEAT_WAVE",
         "PSYCHIC",
-        "DRACO_METEOR",
         "HURRICANE",
+        "DRACO_METEOR",
         "BOOMBURST"
       ],
       "cmp": {
@@ -26634,9 +26762,9 @@
       ],
       "chargedMoveIds": [
         "SAND_TOMB",
+        "EARTH_POWER",
         "SCORCHING_SANDS",
-        "SHADOW_BALL",
-        "EARTH_POWER"
+        "SHADOW_BALL"
       ],
       "cmp": {
         "little": {
@@ -26668,8 +26796,8 @@
         "MUD_SHOT"
       ],
       "chargedMoveIds": [
-        "WATER_PULSE",
         "EARTH_POWER",
+        "WATER_PULSE",
         "SLUDGE_WAVE"
       ],
       "cmp": {
@@ -27534,6 +27662,7 @@
       ],
       "chargedMoveIds": [
         "AIR_CUTTER",
+        "TWISTER",
         "AERIAL_ACE",
         "HEAT_WAVE",
         "FEATHER_DANCE",
@@ -27574,6 +27703,7 @@
       ],
       "chargedMoveIds": [
         "AIR_CUTTER",
+        "TWISTER",
         "AERIAL_ACE",
         "HEAT_WAVE",
         "FEATHER_DANCE",
@@ -28455,8 +28585,8 @@
         "MAGICAL_LEAF"
       ],
       "chargedMoveIds": [
-        "SHADOW_BALL",
         "ENERGY_BALL",
+        "SHADOW_BALL",
         "POLTERGEIST"
       ],
       "cmp": {
@@ -29291,6 +29421,7 @@
         "fighting"
       ],
       "fastMoveIds": [
+        "LOW_KICK",
         "WATER_GUN",
         "WING_ATTACK"
       ],
@@ -29432,8 +29563,8 @@
       ],
       "chargedMoveIds": [
         "BODY_SLAM",
-        "GYRO_BALL",
         "ENERGY_BALL",
+        "GYRO_BALL",
         "RETURN"
       ],
       "cmp": {
@@ -29470,6 +29601,7 @@
         "FELL_STINGER",
         "ACID_SPRAY",
         "SCALD",
+        "SHADOW_BALL",
         "ICE_BEAM",
         "SLUDGE_WAVE",
         "RETURN"
@@ -30038,10 +30170,10 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "ANCIENT_POWER",
+        "DRAGON_ASCENT",
         "BREAKING_SWIPE",
-        "OUTRAGE",
         "HURRICANE",
-        "DRAGON_ASCENT"
+        "OUTRAGE"
       ],
       "cmp": {
         "little": {
@@ -30075,10 +30207,10 @@
       "chargedMoveIds": [
         "AERIAL_ACE",
         "ANCIENT_POWER",
+        "DRAGON_ASCENT",
         "BREAKING_SWIPE",
-        "OUTRAGE",
         "HURRICANE",
-        "DRAGON_ASCENT"
+        "OUTRAGE"
       ],
       "cmp": {
         "little": {
@@ -30604,6 +30736,7 @@
         "SMACK_DOWN"
       ],
       "chargedMoveIds": [
+        "DRILL_RUN",
         "SUPER_POWER",
         "SURF",
         "BREAKING_SWIPE",
@@ -30678,10 +30811,10 @@
       ],
       "chargedMoveIds": [
         "DRUM_BEATING",
+        "ENERGY_BALL",
         "FRENZY_PLANT",
-        "GRASS_KNOT",
         "EARTH_POWER",
-        "ENERGY_BALL"
+        "GRASS_KNOT"
       ],
       "cmp": {
         "little": {
@@ -31771,10 +31904,10 @@
         "SHADOW_CLAW"
       ],
       "chargedMoveIds": [
+        "DRILL_RUN",
         "ICE_PUNCH",
         "AERIAL_ACE",
         "BULLDOZE",
-        "DRILL_RUN",
         "GYRO_BALL",
         "RETURN",
         "BLIZZARD"
@@ -31842,9 +31975,9 @@
       ],
       "chargedMoveIds": [
         "SAND_TOMB",
+        "EARTH_POWER",
         "SCORCHING_SANDS",
-        "SHADOW_BALL",
-        "EARTH_POWER"
+        "SHADOW_BALL"
       ],
       "cmp": {
         "little": {
@@ -32478,8 +32611,8 @@
       ],
       "chargedMoveIds": [
         "FOUL_PLAY",
-        "GRASS_KNOT",
         "ENERGY_BALL",
+        "GRASS_KNOT",
         "RETURN"
       ],
       "cmp": {
@@ -32548,8 +32681,9 @@
       ],
       "chargedMoveIds": [
         "MUDDY_WATER",
-        "SLUDGE_BOMB",
-        "EARTH_POWER"
+        "ICY_WIND",
+        "EARTH_POWER",
+        "SLUDGE_BOMB"
       ],
       "cmp": {
         "little": {
@@ -32717,8 +32851,8 @@
       ],
       "chargedMoveIds": [
         "SEED_BOMB",
-        "SILVER_WIND",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "SILVER_WIND"
       ],
       "cmp": {
         "little": {
@@ -32820,8 +32954,8 @@
         "ZEN_HEADBUTT"
       ],
       "chargedMoveIds": [
-        "GRASS_KNOT",
         "ENERGY_BALL",
+        "GRASS_KNOT",
         "SEED_FLARE",
         "SOLAR_BEAM"
       ],
@@ -32856,8 +32990,8 @@
         "ZEN_HEADBUTT"
       ],
       "chargedMoveIds": [
-        "GRASS_KNOT",
         "ENERGY_BALL",
+        "GRASS_KNOT",
         "SEED_FLARE",
         "SOLAR_BEAM"
       ],
@@ -33203,8 +33337,8 @@
       ],
       "chargedMoveIds": [
         "SEED_BOMB",
-        "GRASS_KNOT",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "GRASS_KNOT"
       ],
       "cmp": {
         "little": {
@@ -34134,8 +34268,8 @@
         "MAGICAL_LEAF"
       ],
       "chargedMoveIds": [
-        "SHADOW_BALL",
         "ENERGY_BALL",
+        "SHADOW_BALL",
         "POLTERGEIST"
       ],
       "cmp": {
@@ -34374,9 +34508,9 @@
         "TACKLE"
       ],
       "chargedMoveIds": [
+        "ENERGY_BALL",
         "GRASS_KNOT",
         "DAZZLING_GLEAM",
-        "ENERGY_BALL",
         "RETURN"
       ],
       "cmp": {
@@ -34644,10 +34778,12 @@
         "dragon"
       ],
       "fastMoveIds": [
+        "DRAGON_BREATH",
         "TACKLE",
         "WATER_GUN"
       ],
       "chargedMoveIds": [
+        "BODY_SLAM",
         "MUDDY_WATER",
         "WATER_PULSE",
         "DRAGON_PULSE",
@@ -35004,8 +35140,8 @@
         "TACKLE"
       ],
       "chargedMoveIds": [
-        "DRAINING_KISS",
         "ENERGY_BALL",
+        "DRAINING_KISS",
         "FLAMETHROWER",
         "PLAY_ROUGH"
       ],
@@ -35040,9 +35176,9 @@
       ],
       "chargedMoveIds": [
         "SEED_BOMB",
+        "ENERGY_BALL",
         "TRAILBLAZE",
-        "EARTH_POWER",
-        "ENERGY_BALL"
+        "EARTH_POWER"
       ],
       "cmp": {
         "little": {
@@ -35216,8 +35352,8 @@
       ],
       "chargedMoveIds": [
         "SEED_BOMB",
-        "WRAP",
         "ENERGY_BALL",
+        "WRAP",
         "RETURN"
       ],
       "cmp": {
@@ -35866,8 +36002,8 @@
         "LEAFAGE"
       ],
       "chargedMoveIds": [
-        "GRASS_KNOT",
         "ENERGY_BALL",
+        "GRASS_KNOT",
         "PLAY_ROUGH"
       ],
       "cmp": {
@@ -36182,6 +36318,7 @@
         "WATER_GUN"
       ],
       "chargedMoveIds": [
+        "AQUA_JET",
         "SURF",
         "POWER_GEM",
         "ICE_BEAM",
@@ -36331,10 +36468,10 @@
         "RAZOR_LEAF"
       ],
       "chargedMoveIds": [
+        "ENERGY_BALL",
         "TRIPLE_AXEL",
         "GRASS_KNOT",
-        "DRAINING_KISS",
-        "ENERGY_BALL"
+        "DRAINING_KISS"
       ],
       "cmp": {
         "little": {
@@ -36683,8 +36820,8 @@
       ],
       "chargedMoveIds": [
         "SEED_BOMB",
-        "GRASS_KNOT",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "GRASS_KNOT"
       ],
       "cmp": {
         "little": {
@@ -36785,8 +36922,8 @@
         "STRUGGLE_BUG"
       ],
       "chargedMoveIds": [
-        "SILVER_WIND",
         "ENERGY_BALL",
+        "SILVER_WIND",
         "BUG_BUZZ"
       ],
       "cmp": {
@@ -36928,9 +37065,11 @@
       ],
       "fastMoveIds": [
         "AIR_SLASH",
+        "GUST",
         "WATER_GUN"
       ],
       "chargedMoveIds": [
+        "AQUA_JET",
         "BUBBLE_BEAM",
         "FLY",
         "ICE_BEAM",
@@ -37035,8 +37174,8 @@
         "TACKLE"
       ],
       "chargedMoveIds": [
-        "DRAINING_KISS",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "DRAINING_KISS"
       ],
       "cmp": {
         "little": {
@@ -37100,10 +37239,12 @@
       ],
       "fastMoveIds": [
         "CHARM",
+        "FAIRY_WIND",
         "QUICK_ATTACK"
       ],
       "chargedMoveIds": [
         "PSYSHOCK",
+        "SHADOW_BALL",
         "DAZZLING_GLEAM",
         "DRAINING_KISS",
         "LAST_RESORT",
@@ -38052,8 +38193,8 @@
         "SCRATCH"
       ],
       "chargedMoveIds": [
-        "GRASS_KNOT",
-        "ENERGY_BALL"
+        "ENERGY_BALL",
+        "GRASS_KNOT"
       ],
       "cmp": {
         "little": {
@@ -38997,8 +39138,8 @@
       ],
       "chargedMoveIds": [
         "AERIAL_ACE",
-        "GRASS_KNOT",
         "ENERGY_BALL",
+        "GRASS_KNOT",
         "RETURN"
       ],
       "cmp": {
@@ -39170,10 +39311,10 @@
       ],
       "chargedMoveIds": [
         "STOMP",
+        "ENERGY_BALL",
         "TRIPLE_AXEL",
         "GRASS_KNOT",
         "DRAINING_KISS",
-        "ENERGY_BALL",
         "HIGH_JUMP_KICK"
       ],
       "cmp": {
@@ -40085,8 +40226,8 @@
       ],
       "chargedMoveIds": [
         "PSYCHIC_FANGS",
-        "CRUNCH",
         "DRILL_RUN",
+        "CRUNCH",
         "WATER_PULSE"
       ],
       "cmp": {
@@ -40702,9 +40843,9 @@
         "WATER_GUN"
       ],
       "chargedMoveIds": [
+        "EARTH_POWER",
         "SCALD",
         "SLUDGE_BOMB",
-        "EARTH_POWER",
         "OVERHEAT",
         "HYDRO_PUMP"
       ],
@@ -41371,8 +41512,8 @@
       "chargedMoveIds": [
         "SEED_BOMB",
         "GRASS_KNOT",
-        "MOONBLAST",
-        "HURRICANE"
+        "HURRICANE",
+        "MOONBLAST"
       ],
       "cmp": {
         "little": {
@@ -42158,6 +42299,7 @@
         "PSYSHOCK",
         "AERIAL_ACE",
         "OMINOUS_WIND",
+        "SHADOW_BALL",
         "FUTURE_SIGHT",
         "RETURN"
       ],
@@ -42707,7 +42849,8 @@
         "flying"
       ],
       "fastMoveIds": [
-        "COUNTER"
+        "COUNTER",
+        "LOW_KICK"
       ],
       "chargedMoveIds": [
         "ANCIENT_POWER",
@@ -42745,9 +42888,9 @@
         "VINE_WHIP"
       ],
       "chargedMoveIds": [
+        "ENERGY_BALL",
         "DARK_PULSE",
-        "POWER_WHIP",
-        "ENERGY_BALL"
+        "POWER_WHIP"
       ],
       "cmp": {
         "little": {
@@ -43612,7 +43755,7 @@
       "type": "fairy",
       "energy": 0,
       "energyGain": 8,
-      "power": 13,
+      "power": 12,
       "turns": 3
     },
     "CHILLING_WATER": {
@@ -43786,9 +43929,9 @@
     "DRAGON_ASCENT": {
       "name": "Dragon Ascent",
       "type": "flying",
-      "energy": 70,
+      "energy": 45,
       "energyGain": 0,
-      "power": 150,
+      "power": 110,
       "turns": 1
     },
     "DRAGON_BREATH": {
@@ -43858,9 +44001,9 @@
     "DRILL_RUN": {
       "name": "Drill Run",
       "type": "ground",
-      "energy": 45,
+      "energy": 40,
       "energyGain": 0,
-      "power": 80,
+      "power": 70,
       "turns": 1
     },
     "DRUM_BEATING": {
@@ -43890,7 +44033,7 @@
     "EARTH_POWER": {
       "name": "Earth Power",
       "type": "ground",
-      "energy": 55,
+      "energy": 50,
       "energyGain": 0,
       "power": 90,
       "turns": 1
@@ -43900,7 +44043,7 @@
       "type": "ground",
       "energy": 65,
       "energyGain": 0,
-      "power": 110,
+      "power": 120,
       "turns": 1
     },
     "EMBER": {
@@ -43914,9 +44057,9 @@
     "ENERGY_BALL": {
       "name": "Energy Ball",
       "type": "grass",
-      "energy": 55,
+      "energy": 45,
       "energyGain": 0,
-      "power": 90,
+      "power": 80,
       "turns": 1
     },
     "EXTRASENSORY": {
@@ -44026,7 +44169,7 @@
     "FLASH_CANNON": {
       "name": "Flash Cannon",
       "type": "steel",
-      "energy": 70,
+      "energy": 65,
       "energyGain": 0,
       "power": 110,
       "turns": 1
@@ -44203,7 +44346,7 @@
       "name": "Gust",
       "type": "flying",
       "energy": 0,
-      "energyGain": 12,
+      "energyGain": 14,
       "power": 16,
       "turns": 4
     },
@@ -44290,7 +44433,7 @@
     "HURRICANE": {
       "name": "Hurricane",
       "type": "flying",
-      "energy": 65,
+      "energy": 60,
       "energyGain": 0,
       "power": 110,
       "turns": 1
@@ -45236,7 +45379,7 @@
       "type": "bug",
       "energy": 45,
       "energyGain": 0,
-      "power": 60,
+      "power": 75,
       "turns": 1
     },
     "SKULL_BASH": {
@@ -45756,7 +45899,7 @@
       "type": "normal",
       "energy": 45,
       "energyGain": 0,
-      "power": 60,
+      "power": 70,
       "turns": 1
     },
     "X_SCISSOR": {
@@ -45867,10 +46010,10 @@
         6
       ],
       "ENERGY_BALL": [
-        7,
-        7,
-        7,
-        7
+        6,
+        6,
+        5,
+        6
       ],
       "FOCUS_BLAST": [
         10,
@@ -46103,10 +46246,10 @@
     },
     "AEGISLASH_CHARGE_AIR_SLASH": {
       "FLASH_CANNON": [
-        12,
-        12,
         11,
-        12
+        11,
+        11,
+        11
       ],
       "GYRO_BALL": [
         9,
@@ -46123,10 +46266,10 @@
     },
     "AEGISLASH_CHARGE_PSYCHO_CUT": {
       "FLASH_CANNON": [
-        12,
-        12,
         11,
-        12
+        11,
+        11,
+        11
       ],
       "GYRO_BALL": [
         9,
@@ -46165,6 +46308,12 @@
         5,
         5,
         5
+      ],
+      "AQUA_JET": [
+        5,
+        4,
+        5,
+        4
       ],
       "AURA_SPHERE": [
         5,
@@ -46263,10 +46412,10 @@
         7
       ],
       "DRAGON_ASCENT": [
-        8,
-        8,
-        8,
-        8
+        5,
+        5,
+        5,
+        5
       ],
       "DRAGON_CLAW": [
         6,
@@ -46306,9 +46455,9 @@
       ],
       "FLASH_CANNON": [
         8,
-        8,
-        8,
-        8
+        7,
+        7,
+        7
       ],
       "FLY": [
         5,
@@ -46359,9 +46508,9 @@
         6
       ],
       "HURRICANE": [
-        8,
         7,
         7,
+        6,
         7
       ],
       "HYPER_BEAM": [
@@ -46550,6 +46699,12 @@
         5,
         5
       ],
+      "TWISTER": [
+        5,
+        4,
+        5,
+        4
+      ],
       "X_SCISSOR": [
         5,
         4,
@@ -46661,9 +46816,9 @@
         5
       ],
       "DRILL_RUN": [
-        5,
         4,
-        5,
+        4,
+        4,
         4
       ],
       "DYNAMIC_PUNCH": [
@@ -46673,16 +46828,16 @@
         4
       ],
       "EARTH_POWER": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "ENERGY_BALL": [
-        6,
         5,
-        6,
-        5
+        4,
+        5,
+        4
       ],
       "FIRE_BLAST": [
         8,
@@ -46710,9 +46865,9 @@
       ],
       "FLASH_CANNON": [
         7,
+        6,
         7,
-        7,
-        7
+        6
       ],
       "FLY": [
         5,
@@ -46769,9 +46924,9 @@
         5
       ],
       "HURRICANE": [
-        7,
         6,
-        7,
+        6,
+        6,
         6
       ],
       "HYDRO_PUMP": [
@@ -47239,16 +47394,16 @@
         27
       ],
       "DRILL_RUN": [
-        23,
-        22,
-        23,
-        22
+        20,
+        20,
+        20,
+        20
       ],
       "EARTH_POWER": [
-        28,
-        27,
-        28,
-        27
+        25,
+        25,
+        25,
+        25
       ],
       "EARTHQUAKE": [
         33,
@@ -47257,10 +47412,10 @@
         32
       ],
       "ENERGY_BALL": [
-        28,
-        27,
-        28,
-        27
+        23,
+        22,
+        23,
+        22
       ],
       "FELL_STINGER": [
         18,
@@ -47293,10 +47448,10 @@
         27
       ],
       "FLASH_CANNON": [
-        35,
-        35,
-        35,
-        35
+        33,
+        32,
+        33,
+        32
       ],
       "FLY": [
         23,
@@ -47341,10 +47496,10 @@
         22
       ],
       "HURRICANE": [
-        33,
-        32,
-        33,
-        32
+        30,
+        30,
+        30,
+        30
       ],
       "HYDRO_CANNON": [
         20,
@@ -47693,7 +47848,7 @@
       "EARTH_POWER": [
         5,
         5,
-        5,
+        4,
         5
       ],
       "EARTHQUAKE": [
@@ -47704,14 +47859,14 @@
       ],
       "ENERGY_BALL": [
         5,
-        5,
-        5,
-        5
+        4,
+        4,
+        4
       ],
       "FLASH_CANNON": [
-        7,
         6,
-        7,
+        6,
+        6,
         6
       ],
       "GRASS_KNOT": [
@@ -47888,6 +48043,12 @@
         5,
         5
       ],
+      "TWISTER": [
+        4,
+        4,
+        3,
+        4
+      ],
       "VICE_GRIP": [
         4,
         4,
@@ -47925,6 +48086,12 @@
         15,
         15,
         15
+      ],
+      "ACROBATICS": [
+        19,
+        18,
+        18,
+        19
       ],
       "AERIAL_ACE": [
         15,
@@ -48005,10 +48172,10 @@
         14
       ],
       "DRILL_RUN": [
-        15,
-        15,
-        15,
-        15
+        14,
+        13,
+        13,
+        14
       ],
       "DYNAMIC_PUNCH": [
         15,
@@ -48017,10 +48184,10 @@
         15
       ],
       "EARTH_POWER": [
-        19,
-        18,
-        18,
-        19
+        17,
+        17,
+        16,
+        17
       ],
       "EARTHQUAKE": [
         22,
@@ -48029,10 +48196,10 @@
         22
       ],
       "ENERGY_BALL": [
-        19,
-        18,
-        18,
-        19
+        15,
+        15,
+        15,
+        15
       ],
       "FELL_STINGER": [
         12,
@@ -48101,10 +48268,10 @@
         17
       ],
       "HURRICANE": [
-        22,
-        22,
-        21,
-        22
+        20,
+        20,
+        20,
+        20
       ],
       "ICE_BEAM": [
         19,
@@ -48362,8 +48529,8 @@
       ],
       "FLASH_CANNON": [
         10,
-        10,
-        10,
+        9,
+        9,
         10
       ],
       "HEAVY_SLAM": [
@@ -48585,15 +48752,15 @@
         5
       ],
       "ENERGY_BALL": [
-        5,
         4,
+        3,
         4,
-        4
+        3
       ],
       "FLASH_CANNON": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "FLY": [
@@ -48623,7 +48790,7 @@
       "HURRICANE": [
         5,
         5,
-        5,
+        4,
         5
       ],
       "HYPER_BEAM": [
@@ -48794,6 +48961,12 @@
         4,
         3
       ],
+      "TWISTER": [
+        4,
+        3,
+        3,
+        3
+      ],
       "UPPER_HAND": [
         4,
         3,
@@ -48930,9 +49103,9 @@
       ],
       "ENERGY_BALL": [
         5,
-        5,
-        5,
-        5
+        4,
+        4,
+        4
       ],
       "FLAME_BURST": [
         5,
@@ -48941,9 +49114,9 @@
         5
       ],
       "FLASH_CANNON": [
-        7,
         6,
-        7,
+        6,
+        6,
         6
       ],
       "FOCUS_BLAST": [
@@ -49291,10 +49464,10 @@
         8
       ],
       "ENERGY_BALL": [
-        7,
-        7,
-        7,
-        7
+        6,
+        6,
+        5,
+        6
       ],
       "FLAMETHROWER": [
         7,
@@ -49351,10 +49524,10 @@
         7
       ],
       "HURRICANE": [
-        9,
         8,
+        7,
         8,
-        8
+        7
       ],
       "HYDRO_CANNON": [
         5,
@@ -49775,7 +49948,7 @@
       "EARTH_POWER": [
         4,
         4,
-        4,
+        3,
         4
       ],
       "EARTHQUAKE": [
@@ -49786,9 +49959,9 @@
       ],
       "ENERGY_BALL": [
         4,
-        4,
-        4,
-        4
+        3,
+        3,
+        3
       ],
       "FIRE_BLAST": [
         6,
@@ -49811,7 +49984,7 @@
       "FLASH_CANNON": [
         5,
         5,
-        5,
+        4,
         5
       ],
       "FLY": [
@@ -50309,9 +50482,9 @@
         7
       ],
       "DRILL_RUN": [
-        8,
         7,
-        8,
+        7,
+        6,
         7
       ],
       "DYNAMIC_PUNCH": [
@@ -50339,10 +50512,10 @@
         7
       ],
       "FLASH_CANNON": [
-        12,
-        12,
         11,
-        12
+        11,
+        11,
+        11
       ],
       "FLY": [
         8,
@@ -50677,10 +50850,10 @@
         17
       ],
       "ENERGY_BALL": [
-        28,
-        27,
-        28,
-        27
+        23,
+        22,
+        23,
+        22
       ],
       "GRASS_KNOT": [
         25,
@@ -50800,9 +50973,9 @@
       ],
       "EARTH_POWER": [
         5,
-        5,
         4,
-        5
+        4,
+        4
       ],
       "EARTHQUAKE": [
         6,
@@ -50930,6 +51103,12 @@
         3,
         4
       ],
+      "SHADOW_BALL": [
+        5,
+        4,
+        4,
+        4
+      ],
       "SLUDGE_WAVE": [
         6,
         5,
@@ -50947,6 +51126,12 @@
         5,
         4,
         5
+      ],
+      "THUNDER_PUNCH": [
+        4,
+        3,
+        3,
+        4
       ],
       "THUNDERBOLT": [
         5,
@@ -51107,10 +51292,10 @@
         13
       ],
       "EARTH_POWER": [
-        14,
-        14,
-        14,
-        13
+        13,
+        12,
+        13,
+        12
       ],
       "FIRE_BLAST": [
         20,
@@ -51125,10 +51310,10 @@
         13
       ],
       "FLASH_CANNON": [
-        18,
         17,
-        18,
-        17
+        16,
+        16,
+        16
       ],
       "FLY": [
         12,
@@ -51161,10 +51346,10 @@
         10
       ],
       "HURRICANE": [
-        17,
-        16,
-        16,
-        16
+        15,
+        15,
+        15,
+        15
       ],
       "HYDRO_PUMP": [
         19,
@@ -51334,6 +51519,12 @@
         10,
         10
       ],
+      "SURF": [
+        12,
+        11,
+        11,
+        11
+      ],
       "SWIFT": [
         9,
         9,
@@ -51363,6 +51554,12 @@
         10,
         10,
         10
+      ],
+      "WATER_PULSE": [
+        13,
+        12,
+        13,
+        12
       ],
       "WILD_CHARGE": [
         12,
@@ -51499,10 +51696,10 @@
         5
       ],
       "DRAGON_ASCENT": [
-        6,
-        6,
-        6,
-        6
+        4,
+        4,
+        4,
+        3
       ],
       "DRAGON_CLAW": [
         5,
@@ -51518,9 +51715,9 @@
       ],
       "DRILL_RUN": [
         4,
-        4,
-        4,
-        3
+        3,
+        3,
+        4
       ],
       "DYNAMAX_CANNON": [
         4,
@@ -51530,9 +51727,9 @@
       ],
       "EARTH_POWER": [
         5,
-        5,
         4,
-        5
+        4,
+        4
       ],
       "EARTHQUAKE": [
         6,
@@ -51541,10 +51738,10 @@
         5
       ],
       "ENERGY_BALL": [
-        5,
-        5,
         4,
-        5
+        4,
+        4,
+        3
       ],
       "FIRE_BLAST": [
         7,
@@ -51572,9 +51769,9 @@
       ],
       "FLASH_CANNON": [
         6,
+        5,
         6,
-        6,
-        6
+        5
       ],
       "FLY": [
         4,
@@ -51637,9 +51834,9 @@
         4
       ],
       "HURRICANE": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "HYDRO_PUMP": [
@@ -51970,14 +52167,14 @@
       ],
       "DRILL_RUN": [
         5,
+        4,
         5,
-        5,
-        5
+        4
       ],
       "EARTH_POWER": [
-        7,
         6,
         6,
+        5,
         6
       ],
       "EARTHQUAKE": [
@@ -51987,10 +52184,10 @@
         7
       ],
       "ENERGY_BALL": [
-        7,
-        6,
-        6,
-        6
+        5,
+        5,
+        5,
+        5
       ],
       "FIRE_BLAST": [
         9,
@@ -52030,9 +52227,9 @@
       ],
       "FLASH_CANNON": [
         8,
-        8,
-        8,
-        8
+        7,
+        7,
+        7
       ],
       "FLY": [
         5,
@@ -52259,9 +52456,9 @@
         4
       ],
       "EARTH_POWER": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "EARTHQUAKE": [
@@ -52271,10 +52468,10 @@
         6
       ],
       "ENERGY_BALL": [
-        6,
         5,
-        6,
-        5
+        4,
+        5,
+        4
       ],
       "FIRE_BLAST": [
         8,
@@ -52525,16 +52722,16 @@
         6
       ],
       "EARTH_POWER": [
-        7,
         6,
         6,
+        5,
         6
       ],
       "ENERGY_BALL": [
-        7,
-        6,
-        6,
-        6
+        5,
+        5,
+        5,
+        5
       ],
       "FLAMETHROWER": [
         7,
@@ -52544,9 +52741,9 @@
       ],
       "FLASH_CANNON": [
         8,
-        8,
-        8,
-        8
+        7,
+        7,
+        7
       ],
       "FLY": [
         5,
@@ -52585,9 +52782,9 @@
         7
       ],
       "HURRICANE": [
-        8,
         7,
         7,
+        6,
         7
       ],
       "HYPER_BEAM": [
@@ -52600,6 +52797,12 @@
         6,
         6,
         5,
+        6
+      ],
+      "LAST_RESORT": [
+        7,
+        6,
+        6,
         6
       ],
       "MEGAHORN": [
@@ -52674,6 +52877,12 @@
         5,
         4
       ],
+      "SHADOW_BALL": [
+        6,
+        6,
+        5,
+        6
+      ],
       "SLUDGE": [
         5,
         4,
@@ -52691,6 +52900,12 @@
         4,
         4,
         4
+      ],
+      "THUNDERBOLT": [
+        7,
+        6,
+        6,
+        6
       ],
       "TRAILBLAZE": [
         5,
@@ -52815,10 +53030,10 @@
         7
       ],
       "ENERGY_BALL": [
-        10,
-        9,
-        9,
-        9
+        8,
+        7,
+        8,
+        7
       ],
       "FIRE_BLAST": [
         14,
@@ -52839,10 +53054,10 @@
         9
       ],
       "FLASH_CANNON": [
-        12,
-        12,
         11,
-        12
+        11,
+        11,
+        11
       ],
       "FOCUS_BLAST": [
         13,
@@ -52887,10 +53102,10 @@
         9
       ],
       "HURRICANE": [
-        11,
-        11,
-        11,
-        11
+        10,
+        10,
+        10,
+        10
       ],
       "HYDRO_CANNON": [
         7,
@@ -53195,9 +53410,9 @@
         7
       ],
       "EARTH_POWER": [
-        10,
         9,
-        9,
+        8,
+        8,
         9
       ],
       "EARTHQUAKE": [
@@ -53461,15 +53676,15 @@
         5
       ],
       "DRILL_RUN": [
-        5,
         4,
-        5,
+        4,
+        4,
         4
       ],
       "EARTH_POWER": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "EARTHQUAKE": [
@@ -53479,10 +53694,10 @@
         6
       ],
       "ENERGY_BALL": [
-        6,
         5,
-        6,
-        5
+        4,
+        5,
+        4
       ],
       "FIRE_BLAST": [
         8,
@@ -53522,9 +53737,9 @@
       ],
       "FLASH_CANNON": [
         7,
+        6,
         7,
-        7,
-        7
+        6
       ],
       "FLY": [
         5,
@@ -53545,9 +53760,9 @@
         4
       ],
       "HURRICANE": [
-        7,
         6,
-        7,
+        6,
+        6,
         6
       ],
       "IRON_HEAD": [
@@ -53746,8 +53961,14 @@
       ],
       "FLASH_CANNON": [
         7,
+        6,
         7,
+        6
+      ],
+      "FOCUS_BLAST": [
+        8,
         7,
+        8,
         7
       ],
       "GRASS_KNOT": [
@@ -53867,10 +54088,10 @@
         11
       ],
       "DRILL_RUN": [
-        9,
-        9,
-        9,
-        9
+        8,
+        8,
+        8,
+        8
       ],
       "EARTHQUAKE": [
         13,
@@ -53879,10 +54100,10 @@
         13
       ],
       "FLASH_CANNON": [
-        14,
-        14,
-        14,
-        14
+        13,
+        13,
+        13,
+        13
       ],
       "FOCUS_BLAST": [
         15,
@@ -53897,10 +54118,10 @@
         10
       ],
       "HURRICANE": [
-        13,
-        13,
-        13,
-        13
+        12,
+        12,
+        12,
+        12
       ],
       "HYDRO_PUMP": [
         15,
@@ -54157,16 +54378,16 @@
         12
       ],
       "DRILL_RUN": [
-        12,
-        11,
-        11,
-        11
+        10,
+        10,
+        10,
+        10
       ],
       "EARTH_POWER": [
-        14,
-        14,
-        14,
-        13
+        13,
+        12,
+        13,
+        12
       ],
       "EARTHQUAKE": [
         17,
@@ -54175,10 +54396,10 @@
         16
       ],
       "ENERGY_BALL": [
-        14,
-        14,
-        14,
-        13
+        12,
+        11,
+        11,
+        11
       ],
       "FELL_STINGER": [
         9,
@@ -54193,10 +54414,10 @@
         13
       ],
       "FLASH_CANNON": [
-        18,
         17,
-        18,
-        17
+        16,
+        16,
+        16
       ],
       "FRENZY_PLANT": [
         12,
@@ -54522,105 +54743,153 @@
     "GUST": {
       "AERIAL_ACE": [
         4,
-        4,
-        4,
+        3,
+        3,
         3
       ],
       "AIR_CUTTER": [
         3,
+        2,
+        3,
+        2
+      ],
+      "AQUA_JET": [
+        3,
         3,
         3,
         3
+      ],
+      "AQUA_TAIL": [
+        3,
+        2,
+        3,
+        2
       ],
       "BLEAKWIND_STORM": [
         4,
-        4,
-        4,
+        3,
+        3,
         3
       ],
-      "BRAVE_BIRD": [
+      "BLIZZARD": [
+        6,
         5,
-        5,
-        4,
+        6,
         5
+      ],
+      "BRAVE_BIRD": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "BUBBLE_BEAM": [
+        3,
+        3,
+        3,
+        3
       ],
       "BUG_BUZZ": [
         5,
-        5,
-        5,
+        4,
+        4,
         5
       ],
       "CLOSE_COMBAT": [
         4,
-        4,
-        4,
+        3,
+        3,
         3
       ],
       "DARK_PULSE": [
-        5,
         4,
         4,
+        3,
         4
       ],
       "ENERGY_BALL": [
-        5,
-        5,
         4,
-        5
+        3,
+        3,
+        3
       ],
       "FEATHER_DANCE": [
-        5,
         4,
         4,
+        3,
         4
       ],
       "FLY": [
         4,
-        4,
-        4,
+        3,
+        3,
         3
       ],
       "FOCUS_BLAST": [
-        7,
-        6,
-        6,
-        6
-      ],
-      "HEAT_WAVE": [
-        4,
-        4,
-        4,
-        3
-      ],
-      "HURRICANE": [
         6,
         5,
         6,
         5
       ],
-      "HYPER_BEAM": [
-        7,
-        7,
-        6,
-        7
+      "HEAT_WAVE": [
+        4,
+        3,
+        3,
+        3
       ],
-      "OBLIVION_WING": [
+      "HURRICANE": [
         5,
+        4,
+        4,
+        5
+      ],
+      "HYPER_BEAM": [
+        6,
+        6,
+        6,
+        5
+      ],
+      "ICE_BEAM": [
+        4,
         4,
         4,
         4
       ],
-      "PSYCHIC": [
-        5,
-        5,
+      "OBLIVION_WING": [
         4,
-        5
+        4,
+        3,
+        4
+      ],
+      "PSYCHIC": [
+        4,
+        4,
+        4,
+        4
       ],
       "RETURN": [
-        6,
-        6,
-        6,
-        6
+        5,
+        5,
+        5,
+        5
+      ],
+      "SILVER_WIND": [
+        4,
+        3,
+        3,
+        3
+      ],
+      "TWISTER": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "WATER_PULSE": [
+        4,
+        4,
+        3,
+        4
       ]
     },
     "HEX": {
@@ -54685,10 +54954,10 @@
         3
       ],
       "ENERGY_BALL": [
-        5,
         4,
+        3,
         4,
-        4
+        3
       ],
       "FIRE_BLAST": [
         7,
@@ -54741,7 +55010,7 @@
       "HURRICANE": [
         5,
         5,
-        5,
+        4,
         5
       ],
       "ICE_BEAM": [
@@ -54932,6 +55201,12 @@
         5,
         6
       ],
+      "AQUA_JET": [
+        5,
+        5,
+        5,
+        5
+      ],
       "AURA_SPHERE": [
         5,
         5,
@@ -54994,9 +55269,9 @@
       ],
       "EARTH_POWER": [
         7,
-        7,
-        7,
-        7
+        6,
+        6,
+        6
       ],
       "EARTHQUAKE": [
         9,
@@ -55005,10 +55280,10 @@
         8
       ],
       "ENERGY_BALL": [
-        7,
-        7,
-        7,
-        7
+        6,
+        6,
+        5,
+        6
       ],
       "FIRE_BLAST": [
         10,
@@ -55289,15 +55564,15 @@
         9
       ],
       "DRILL_RUN": [
-        8,
         7,
-        8,
+        7,
+        6,
         7
       ],
       "EARTH_POWER": [
-        10,
         9,
-        9,
+        8,
+        8,
         9
       ],
       "EARTHQUAKE": [
@@ -55543,16 +55818,16 @@
         5
       ],
       "DRILL_RUN": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "ENERGY_BALL": [
         5,
         4,
         5,
         4
-      ],
-      "ENERGY_BALL": [
-        6,
-        5,
-        6,
-        5
       ],
       "FOCUS_BLAST": [
         8,
@@ -55585,9 +55860,9 @@
         6
       ],
       "HURRICANE": [
-        7,
         6,
-        7,
+        6,
+        6,
         6
       ],
       "HYDRO_PUMP": [
@@ -55773,14 +56048,14 @@
         2
       ],
       "DRILL_RUN": [
-        3,
+        2,
         2,
         2,
         2
       ],
       "EARTH_POWER": [
         3,
-        3,
+        2,
         3,
         2
       ],
@@ -55792,8 +56067,8 @@
       ],
       "ENERGY_BALL": [
         3,
-        3,
-        3,
+        2,
+        2,
         2
       ],
       "FIRE_BLAST": [
@@ -55823,7 +56098,7 @@
       "FLASH_CANNON": [
         4,
         3,
-        4,
+        3,
         3
       ],
       "FLY": [
@@ -55851,7 +56126,7 @@
         2
       ],
       "HURRICANE": [
-        4,
+        3,
         3,
         3,
         3
@@ -56082,15 +56357,15 @@
       ],
       "DRILL_RUN": [
         4,
+        3,
+        3,
+        4
+      ],
+      "ENERGY_BALL": [
+        4,
         4,
         4,
         3
-      ],
-      "ENERGY_BALL": [
-        5,
-        5,
-        4,
-        5
       ],
       "FELL_STINGER": [
         3,
@@ -56353,10 +56628,10 @@
         8
       ],
       "DRILL_RUN": [
-        7,
         6,
-        7,
-        6
+        6,
+        6,
+        5
       ],
       "DYNAMIC_PUNCH": [
         7,
@@ -56366,9 +56641,9 @@
       ],
       "EARTH_POWER": [
         8,
-        8,
-        8,
-        8
+        7,
+        7,
+        7
       ],
       "EARTHQUAKE": [
         10,
@@ -56390,8 +56665,8 @@
       ],
       "FLASH_CANNON": [
         10,
-        10,
-        10,
+        9,
+        9,
         10
       ],
       "FRENZY_PLANT": [
@@ -56717,10 +56992,10 @@
         7
       ],
       "ENERGY_BALL": [
-        7,
-        7,
-        7,
-        7
+        6,
+        6,
+        5,
+        6
       ],
       "FLAMETHROWER": [
         7,
@@ -56921,6 +57196,12 @@
         13,
         13,
         14
+      ],
+      "DYNAMIC_PUNCH": [
+        15,
+        15,
+        15,
+        15
       ],
       "EARTHQUAKE": [
         22,
@@ -57183,10 +57464,10 @@
         13
       ],
       "FLASH_CANNON": [
-        14,
-        14,
-        14,
-        14
+        13,
+        13,
+        13,
+        13
       ],
       "FOCUS_BLAST": [
         15,
@@ -57200,11 +57481,23 @@
         15,
         15
       ],
+      "HEAVY_SLAM": [
+        10,
+        10,
+        10,
+        10
+      ],
       "HYPER_BEAM": [
         16,
         16,
         16,
         16
+      ],
+      "METEOR_BEAM": [
+        12,
+        12,
+        12,
+        12
       ],
       "OCTAZOOKA": [
         10,
@@ -57218,6 +57511,12 @@
         14,
         14
       ],
+      "ROCK_SLIDE": [
+        9,
+        9,
+        9,
+        9
+      ],
       "SOLAR_BEAM": [
         16,
         16,
@@ -57229,6 +57528,12 @@
         11,
         11,
         11
+      ],
+      "SUPER_POWER": [
+        8,
+        8,
+        8,
+        8
       ],
       "THUNDER": [
         12,
@@ -57268,7 +57573,19 @@
         5,
         6
       ],
+      "ANCIENT_POWER": [
+        6,
+        6,
+        5,
+        6
+      ],
       "AQUA_JET": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "AQUA_STEP": [
         5,
         5,
         5,
@@ -57291,6 +57608,12 @@
         4,
         5,
         4
+      ],
+      "BRAVE_BIRD": [
+        7,
+        7,
+        7,
+        7
       ],
       "BRICK_BREAK": [
         5,
@@ -57347,10 +57670,10 @@
         5
       ],
       "DRILL_RUN": [
-        6,
-        6,
         5,
-        6
+        5,
+        5,
+        5
       ],
       "DYNAMIC_PUNCH": [
         6,
@@ -57365,10 +57688,10 @@
         8
       ],
       "ENERGY_BALL": [
-        7,
-        7,
-        7,
-        7
+        6,
+        6,
+        5,
+        6
       ],
       "FIRE_BLAST": [
         10,
@@ -57393,6 +57716,12 @@
         7,
         7,
         7
+      ],
+      "FLY": [
+        6,
+        6,
+        5,
+        6
       ],
       "FLYING_PRESS": [
         5,
@@ -57448,6 +57777,12 @@
         7,
         7
       ],
+      "HYDRO_CANNON": [
+        5,
+        5,
+        5,
+        5
+      ],
       "HYDRO_PUMP": [
         10,
         9,
@@ -57483,6 +57818,12 @@
         4,
         5,
         4
+      ],
+      "LIQUIDATION": [
+        6,
+        6,
+        5,
+        6
       ],
       "LOW_SWEEP": [
         5,
@@ -57739,9 +58080,9 @@
         5
       ],
       "EARTH_POWER": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "EARTHQUAKE": [
@@ -57751,10 +58092,10 @@
         6
       ],
       "ENERGY_BALL": [
-        6,
         5,
-        6,
-        5
+        4,
+        5,
+        4
       ],
       "FRENZY_PLANT": [
         5,
@@ -58035,10 +58376,10 @@
         5
       ],
       "DRILL_RUN": [
-        7,
         6,
-        7,
-        6
+        6,
+        6,
+        5
       ],
       "EARTHQUAKE": [
         10,
@@ -58054,8 +58395,8 @@
       ],
       "FLASH_CANNON": [
         10,
-        10,
-        10,
+        9,
+        9,
         10
       ],
       "FOCUS_BLAST": [
@@ -58458,8 +58799,8 @@
       ],
       "FLASH_CANNON": [
         9,
-        9,
-        9,
+        8,
+        8,
         8
       ],
       "FOCUS_BLAST": [
@@ -58802,9 +59143,9 @@
       ],
       "DRILL_RUN": [
         5,
+        4,
         5,
-        5,
-        5
+        4
       ],
       "DYNAMIC_PUNCH": [
         5,
@@ -58813,9 +59154,9 @@
         5
       ],
       "EARTH_POWER": [
-        7,
         6,
         6,
+        5,
         6
       ],
       "EARTHQUAKE": [
@@ -58844,9 +59185,9 @@
       ],
       "FLASH_CANNON": [
         8,
-        8,
-        8,
-        8
+        7,
+        7,
+        7
       ],
       "FOCUS_BLAST": [
         9,
@@ -59217,9 +59558,9 @@
         4
       ],
       "DRILL_RUN": [
-        5,
         4,
-        5,
+        4,
+        4,
         4
       ],
       "DYNAMIC_PUNCH": [
@@ -59229,9 +59570,9 @@
         4
       ],
       "EARTH_POWER": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "EARTHQUAKE": [
@@ -59627,16 +59968,16 @@
         5
       ],
       "DRILL_RUN": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "ENERGY_BALL": [
         6,
         6,
         5,
         6
-      ],
-      "ENERGY_BALL": [
-        7,
-        7,
-        7,
-        7
       ],
       "FELL_STINGER": [
         5,
@@ -59664,8 +60005,8 @@
       ],
       "FLASH_CANNON": [
         9,
-        9,
-        9,
+        8,
+        8,
         8
       ],
       "FLY": [
@@ -59699,10 +60040,10 @@
         4
       ],
       "HURRICANE": [
-        9,
         8,
+        7,
         8,
-        8
+        7
       ],
       "HYDRO_PUMP": [
         10,
@@ -59811,6 +60152,12 @@
         5,
         5,
         5
+      ],
+      "SHADOW_BALL": [
+        7,
+        6,
+        6,
+        6
       ],
       "SIGNAL_BEAM": [
         7,
@@ -60037,10 +60384,10 @@
         5
       ],
       "DRILL_RUN": [
-        7,
         6,
-        7,
-        6
+        6,
+        6,
+        5
       ],
       "DYNAMAX_CANNON": [
         7,
@@ -60056,9 +60403,9 @@
       ],
       "EARTH_POWER": [
         8,
-        8,
-        8,
-        8
+        7,
+        7,
+        7
       ],
       "EARTHQUAKE": [
         10,
@@ -60067,10 +60414,10 @@
         10
       ],
       "ENERGY_BALL": [
-        8,
-        8,
-        8,
-        8
+        7,
+        6,
+        7,
+        6
       ],
       "FELL_STINGER": [
         5,
@@ -60104,8 +60451,8 @@
       ],
       "FLASH_CANNON": [
         10,
-        10,
-        10,
+        9,
+        9,
         10
       ],
       "FLYING_PRESS": [
@@ -60514,9 +60861,9 @@
       ],
       "DRILL_RUN": [
         5,
+        4,
         5,
-        5,
-        5
+        4
       ],
       "DYNAMIC_PUNCH": [
         5,
@@ -60525,9 +60872,9 @@
         5
       ],
       "EARTH_POWER": [
-        7,
         6,
         6,
+        5,
         6
       ],
       "EARTHQUAKE": [
@@ -60821,10 +61168,10 @@
         10
       ],
       "ENERGY_BALL": [
-        14,
-        14,
-        14,
-        13
+        12,
+        11,
+        11,
+        11
       ],
       "FIRE_PUNCH": [
         10,
@@ -60875,10 +61222,10 @@
         13
       ],
       "HURRICANE": [
-        17,
-        16,
-        16,
-        16
+        15,
+        15,
+        15,
+        15
       ],
       "HYPER_BEAM": [
         20,
@@ -61024,6 +61371,12 @@
         9,
         8
       ],
+      "THUNDER_PUNCH": [
+        10,
+        10,
+        10,
+        10
+      ],
       "THUNDERBOLT": [
         14,
         14,
@@ -61135,10 +61488,10 @@
         5
       ],
       "DRILL_RUN": [
-        6,
-        6,
         5,
-        6
+        5,
+        5,
+        5
       ],
       "EARTHQUAKE": [
         9,
@@ -61147,10 +61500,10 @@
         8
       ],
       "ENERGY_BALL": [
-        7,
-        7,
-        7,
-        7
+        6,
+        6,
+        5,
+        6
       ],
       "GYRO_BALL": [
         7,
@@ -61171,10 +61524,10 @@
         7
       ],
       "HURRICANE": [
-        9,
         8,
+        7,
         8,
-        8
+        7
       ],
       "HYPER_BEAM": [
         10,
@@ -61469,10 +61822,10 @@
         5
       ],
       "ENERGY_BALL": [
-        7,
-        6,
-        6,
-        6
+        5,
+        5,
+        5,
+        5
       ],
       "FIRE_PUNCH": [
         5,
@@ -61488,9 +61841,9 @@
       ],
       "FLASH_CANNON": [
         8,
-        8,
-        8,
-        8
+        7,
+        7,
+        7
       ],
       "FLY": [
         5,
@@ -61722,6 +62075,12 @@
       ]
     },
     "PSYWAVE": {
+      "AQUA_JET": [
+        10,
+        10,
+        10,
+        10
+      ],
       "BLIZZARD": [
         19,
         19,
@@ -62049,10 +62408,10 @@
         8
       ],
       "ENERGY_BALL": [
-        7,
-        7,
-        7,
-        7
+        6,
+        6,
+        5,
+        6
       ],
       "FIRE_PUNCH": [
         5,
@@ -62477,10 +62836,10 @@
         8
       ],
       "EARTH_POWER": [
-        14,
-        14,
-        14,
-        13
+        13,
+        12,
+        13,
+        12
       ],
       "EARTHQUAKE": [
         17,
@@ -62489,10 +62848,10 @@
         16
       ],
       "ENERGY_BALL": [
-        14,
-        14,
-        14,
-        13
+        12,
+        11,
+        11,
+        11
       ],
       "FIRE_BLAST": [
         20,
@@ -62525,10 +62884,10 @@
         13
       ],
       "HURRICANE": [
-        17,
-        16,
-        16,
-        16
+        15,
+        15,
+        15,
+        15
       ],
       "HYDRO_PUMP": [
         19,
@@ -62918,9 +63277,9 @@
       ],
       "EARTH_POWER": [
         8,
-        8,
-        8,
-        8
+        7,
+        7,
+        7
       ],
       "EARTHQUAKE": [
         10,
@@ -62954,8 +63313,8 @@
       ],
       "FLASH_CANNON": [
         10,
-        10,
-        10,
+        9,
+        9,
         10
       ],
       "FOCUS_BLAST": [
@@ -63357,16 +63716,16 @@
         10
       ],
       "DRILL_RUN": [
-        9,
-        9,
-        9,
-        9
+        8,
+        8,
+        8,
+        8
       ],
       "EARTH_POWER": [
-        11,
-        11,
-        11,
-        11
+        10,
+        10,
+        10,
+        10
       ],
       "EARTHQUAKE": [
         13,
@@ -63387,10 +63746,10 @@
         10
       ],
       "FLASH_CANNON": [
-        14,
-        14,
-        14,
-        14
+        13,
+        13,
+        13,
+        13
       ],
       "FLY": [
         9,
@@ -63604,6 +63963,12 @@
         4,
         4
       ],
+      "AERIAL_ACE": [
+        4,
+        3,
+        4,
+        3
+      ],
       "ANCIENT_POWER": [
         4,
         3,
@@ -63627,6 +63992,12 @@
         3,
         3,
         2
+      ],
+      "BUG_BUZZ": [
+        5,
+        5,
+        4,
+        5
       ],
       "BULLDOZE": [
         4,
@@ -63655,6 +64026,12 @@
       "DRILL_RUN": [
         4,
         3,
+        3,
+        3
+      ],
+      "DYNAMIC_PUNCH": [
+        4,
+        3,
         4,
         3
       ],
@@ -63665,9 +64042,9 @@
         5
       ],
       "FLASH_CANNON": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "GYRO_BALL": [
@@ -63771,6 +64148,12 @@
         4,
         4,
         4
+      ],
+      "SILVER_WIND": [
+        4,
+        3,
+        4,
+        3
       ],
       "SKULL_BASH": [
         6,
@@ -63919,10 +64302,10 @@
         11
       ],
       "EARTH_POWER": [
-        14,
-        14,
-        14,
-        13
+        13,
+        12,
+        13,
+        12
       ],
       "EARTHQUAKE": [
         17,
@@ -64179,10 +64562,10 @@
         27
       ],
       "DRILL_RUN": [
-        23,
-        22,
-        23,
-        22
+        20,
+        20,
+        20,
+        20
       ],
       "DRUM_BEATING": [
         18,
@@ -64191,16 +64574,16 @@
         17
       ],
       "EARTH_POWER": [
-        28,
-        27,
-        28,
-        27
+        25,
+        25,
+        25,
+        25
       ],
       "ENERGY_BALL": [
-        28,
-        27,
-        28,
-        27
+        23,
+        22,
+        23,
+        22
       ],
       "FIRE_BLAST": [
         40,
@@ -64517,10 +64900,10 @@
         5
       ],
       "DRILL_RUN": [
-        6,
-        6,
         5,
-        6
+        5,
+        5,
+        5
       ],
       "EARTHQUAKE": [
         9,
@@ -64529,10 +64912,10 @@
         8
       ],
       "ENERGY_BALL": [
-        7,
-        7,
-        7,
-        7
+        6,
+        6,
+        5,
+        6
       ],
       "FIRE_BLAST": [
         10,
@@ -64560,8 +64943,8 @@
       ],
       "FLASH_CANNON": [
         9,
-        9,
-        9,
+        8,
+        8,
         8
       ],
       "FOCUS_BLAST": [
@@ -65004,6 +65387,12 @@
         7,
         7
       ],
+      "DRILL_RUN": [
+        5,
+        5,
+        5,
+        5
+      ],
       "EARTHQUAKE": [
         9,
         8,
@@ -65011,10 +65400,10 @@
         8
       ],
       "ENERGY_BALL": [
-        7,
-        7,
-        7,
-        7
+        6,
+        6,
+        5,
+        6
       ],
       "FIRE_BLAST": [
         10,
@@ -65042,8 +65431,8 @@
       ],
       "FLASH_CANNON": [
         9,
-        9,
-        9,
+        8,
+        8,
         8
       ],
       "FRENZY_PLANT": [
@@ -65367,10 +65756,10 @@
         5
       ],
       "ENERGY_BALL": [
-        5,
         4,
+        3,
         4,
-        4
+        3
       ],
       "FIRE_BLAST": [
         7,
@@ -65403,9 +65792,9 @@
         4
       ],
       "FLASH_CANNON": [
-        6,
         5,
-        6,
+        5,
+        5,
         5
       ],
       "FOCUS_BLAST": [
@@ -65441,7 +65830,7 @@
       "HURRICANE": [
         5,
         5,
-        5,
+        4,
         5
       ],
       "HYDRO_PUMP": [
@@ -65790,8 +66179,8 @@
       ],
       "FLASH_CANNON": [
         10,
-        10,
-        10,
+        9,
+        9,
         10
       ],
       "FLY": [
@@ -66159,16 +66548,16 @@
         8
       ],
       "DRILL_RUN": [
-        9,
-        9,
-        9,
-        9
+        8,
+        8,
+        8,
+        8
       ],
       "EARTH_POWER": [
-        11,
-        11,
-        11,
-        11
+        10,
+        10,
+        10,
+        10
       ],
       "EARTHQUAKE": [
         13,
@@ -66195,10 +66584,10 @@
         10
       ],
       "FLASH_CANNON": [
-        14,
-        14,
-        14,
-        14
+        13,
+        13,
+        13,
+        13
       ],
       "FLY": [
         9,
@@ -66231,10 +66620,10 @@
         9
       ],
       "HURRICANE": [
-        13,
-        13,
-        13,
-        13
+        12,
+        12,
+        12,
+        12
       ],
       "HYDRO_CANNON": [
         8,
@@ -66363,6 +66752,12 @@
       ]
     },
     "STRUGGLE_BUG": {
+      "ACROBATICS": [
+        7,
+        7,
+        7,
+        7
+      ],
       "AERIAL_ACE": [
         6,
         6,
@@ -66442,10 +66837,10 @@
         8
       ],
       "ENERGY_BALL": [
-        7,
-        7,
-        7,
-        7
+        6,
+        6,
+        5,
+        6
       ],
       "GRASS_KNOT": [
         7,
@@ -66466,10 +66861,10 @@
         6
       ],
       "HURRICANE": [
-        9,
         8,
+        7,
         8,
-        8
+        7
       ],
       "ICY_WIND": [
         6,
@@ -66702,10 +67097,10 @@
         5
       ],
       "DRILL_RUN": [
-        7,
         6,
-        7,
-        6
+        6,
+        6,
+        5
       ],
       "DYNAMIC_PUNCH": [
         7,
@@ -66720,10 +67115,10 @@
         10
       ],
       "ENERGY_BALL": [
-        8,
-        8,
-        8,
-        8
+        7,
+        6,
+        7,
+        6
       ],
       "FIRE_PUNCH": [
         6,
@@ -66762,10 +67157,10 @@
         7
       ],
       "HURRICANE": [
-        10,
         9,
         9,
-        10
+        8,
+        9
       ],
       "HYPER_BEAM": [
         12,
@@ -67154,10 +67549,10 @@
         19
       ],
       "EARTH_POWER": [
-        19,
-        18,
-        18,
-        19
+        17,
+        17,
+        16,
+        17
       ],
       "EARTHQUAKE": [
         22,
@@ -67166,10 +67561,10 @@
         22
       ],
       "ENERGY_BALL": [
-        19,
-        18,
-        18,
-        19
+        15,
+        15,
+        15,
+        15
       ],
       "FIRE_BLAST": [
         27,
@@ -67202,10 +67597,10 @@
         19
       ],
       "FLASH_CANNON": [
-        24,
-        23,
-        23,
-        24
+        22,
+        22,
+        21,
+        22
       ],
       "FLY": [
         15,
@@ -67274,10 +67669,10 @@
         12
       ],
       "HURRICANE": [
-        22,
-        22,
-        21,
-        22
+        20,
+        20,
+        20,
+        20
       ],
       "HYDRO_PUMP": [
         25,
@@ -67775,15 +68170,15 @@
       ],
       "EARTH_POWER": [
         7,
-        7,
-        7,
-        7
+        6,
+        6,
+        6
       ],
       "ENERGY_BALL": [
-        7,
-        7,
-        7,
-        7
+        6,
+        6,
+        5,
+        6
       ],
       "FLAME_CHARGE": [
         7,
@@ -67799,8 +68194,8 @@
       ],
       "FLASH_CANNON": [
         9,
-        9,
-        9,
+        8,
+        8,
         8
       ],
       "FOUL_PLAY": [
@@ -68052,9 +68447,9 @@
         7
       ],
       "EARTH_POWER": [
-        10,
         9,
-        9,
+        8,
+        8,
         9
       ],
       "EARTHQUAKE": [
@@ -68275,11 +68670,17 @@
         5,
         4
       ],
+      "DYNAMIC_PUNCH": [
+        5,
+        5,
+        5,
+        5
+      ],
       "ENERGY_BALL": [
-        7,
-        6,
-        6,
-        6
+        5,
+        5,
+        5,
+        5
       ],
       "FELL_STINGER": [
         4,
@@ -68295,9 +68696,9 @@
       ],
       "FLASH_CANNON": [
         8,
-        8,
-        8,
-        8
+        7,
+        7,
+        7
       ],
       "FLY": [
         5,
@@ -68614,10 +69015,10 @@
         8
       ],
       "ENERGY_BALL": [
-        7,
-        7,
-        7,
-        7
+        6,
+        6,
+        5,
+        6
       ],
       "FRENZY_PLANT": [
         6,
@@ -68850,9 +69251,9 @@
         4
       ],
       "ENERGY_BALL": [
-        4,
         3,
-        4,
+        3,
+        3,
         3
       ],
       "FLAME_CHARGE": [
@@ -68864,7 +69265,7 @@
       "FLASH_CANNON": [
         5,
         4,
-        5,
+        4,
         4
       ],
       "FLY": [
@@ -69290,10 +69691,10 @@
         14
       ],
       "EARTH_POWER": [
-        19,
-        18,
-        18,
-        19
+        17,
+        17,
+        16,
+        17
       ],
       "EARTHQUAKE": [
         22,
@@ -69302,10 +69703,10 @@
         22
       ],
       "ENERGY_BALL": [
-        19,
-        18,
-        18,
-        19
+        15,
+        15,
+        15,
+        15
       ],
       "FELL_STINGER": [
         12,
@@ -69320,10 +69721,10 @@
         27
       ],
       "FLASH_CANNON": [
-        24,
-        23,
-        23,
-        24
+        22,
+        22,
+        21,
+        22
       ],
       "FLY": [
         15,
@@ -69356,10 +69757,10 @@
         17
       ],
       "HURRICANE": [
-        22,
-        22,
-        21,
-        22
+        20,
+        20,
+        20,
+        20
       ],
       "HYDRO_CANNON": [
         14,
@@ -69683,9 +70084,9 @@
       ],
       "ENERGY_BALL": [
         4,
-        4,
-        4,
-        4
+        3,
+        3,
+        3
       ],
       "FOCUS_BLAST": [
         6,
@@ -69864,9 +70265,9 @@
         4
       ],
       "DRILL_RUN": [
-        5,
         4,
-        5,
+        4,
+        4,
         4
       ],
       "DYNAMIC_PUNCH": [
@@ -69882,10 +70283,10 @@
         6
       ],
       "ENERGY_BALL": [
-        6,
         5,
-        6,
-        5
+        4,
+        5,
+        4
       ],
       "FLAME_CHARGE": [
         5,
@@ -69895,9 +70296,9 @@
       ],
       "FLASH_CANNON": [
         7,
+        6,
         7,
-        7,
-        7
+        6
       ],
       "FOCUS_BLAST": [
         8,
@@ -70292,10 +70693,10 @@
         6
       ],
       "HURRICANE": [
-        9,
         8,
+        7,
         8,
-        8
+        7
       ],
       "HYDRO_CANNON": [
         5,
@@ -70674,9 +71075,9 @@
         9
       ],
       "DRILL_RUN": [
-        8,
         7,
-        8,
+        7,
+        6,
         7
       ],
       "EARTHQUAKE": [
@@ -70686,10 +71087,10 @@
         11
       ],
       "ENERGY_BALL": [
-        10,
-        9,
-        9,
-        9
+        8,
+        7,
+        8,
+        7
       ],
       "FIRE_BLAST": [
         14,
@@ -70716,10 +71117,10 @@
         9
       ],
       "FLASH_CANNON": [
-        12,
-        12,
         11,
-        12
+        11,
+        11,
+        11
       ],
       "FLY": [
         8,

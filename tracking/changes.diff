@@ -1,0 +1,92 @@
+diff --git a/docs/data.json b/docs/data.json
+index 7feea07..ebf6436 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -18935,41 +18935,42 @@
+           "rankOne": 176.66770392656326,
+           "max": 176.66770392656326
+         }
+       }
+     },
+     {
+       "name": "Kingler",
+       "types": [
+         "water"
+       ],
+       "fastMoveIds": [
+         "BUBBLE",
+         "METAL_CLAW",
+         "MUD_SHOT"
+       ],
+       "chargedMoveIds": [
+         "RAZOR_SHELL",
+         "VICE_GRIP",
+         "X_SCISSOR",
+         "CRABHAMMER",
+-        "WATER_PULSE"
++        "WATER_PULSE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 83.81104230880727,
+           "max": 88.00159442424764
+         },
+         "great": {
+           "rankOne": 143.3760023117064,
+           "max": 152.4155616905224
+         },
+         "ultra": {
+           "rankOne": 183.47665566125423,
+           "max": 197.89656121531507
+         },
+         "master": {
+           "rankOne": 215.55150479078293,
+           "max": 215.55150479078293
+         }
+       }
+     },
+@@ -19356,41 +19357,42 @@
+         },
+         "master": {
+           "rankOne": 234.99340522289276,
+           "max": 234.99340522289276
+         }
+       }
+     },
+     {
+       "name": "Krabby",
+       "types": [
+         "water"
+       ],
+       "fastMoveIds": [
+         "BUBBLE",
+         "MUD_SHOT"
+       ],
+       "chargedMoveIds": [
+         "RAZOR_SHELL",
+         "BUBBLE_BEAM",
+         "VICE_GRIP",
+-        "WATER_PULSE"
++        "WATER_PULSE",
++        "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 84.69210478663443,
+           "max": 92.57787124619398
+         },
+         "great": {
+           "rankOne": 145.7592995166777,
+           "max": 161.26954061173421
+         },
+         "ultra": {
+           "rankOne": 165.67880368232727,
+           "max": 165.67880368232727
+         },
+         "master": {
+           "rankOne": 165.67880368232727,
+           "max": 165.67880368232727
+         }
+       }
+     },

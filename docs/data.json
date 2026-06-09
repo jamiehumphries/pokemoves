@@ -18952,7 +18952,8 @@
         "VICE_GRIP",
         "X_SCISSOR",
         "CRABHAMMER",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -19373,7 +19374,8 @@
         "RAZOR_SHELL",
         "BUBBLE_BEAM",
         "VICE_GRIP",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN"
       ],
       "cmp": {
         "little": {

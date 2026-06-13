@@ -23549,6 +23549,7 @@
       ],
       "fastMoveIds": [
         "CONFUSION",
+        "COUNTER",
         "PSYCHO_CUT"
       ],
       "chargedMoveIds": [
@@ -23624,6 +23625,7 @@
       ],
       "fastMoveIds": [
         "CONFUSION",
+        "COUNTER",
         "PSYCHO_CUT"
       ],
       "chargedMoveIds": [
@@ -23663,6 +23665,7 @@
       ],
       "fastMoveIds": [
         "CONFUSION",
+        "COUNTER",
         "PSYCHO_CUT"
       ],
       "chargedMoveIds": [
@@ -50513,6 +50516,12 @@
         6,
         7
       ],
+      "FLAMETHROWER": [
+        10,
+        9,
+        9,
+        9
+      ],
       "FLASH_CANNON": [
         11,
         11,
@@ -50578,6 +50587,12 @@
         13,
         13,
         14
+      ],
+      "ICE_BEAM": [
+        10,
+        9,
+        9,
+        9
       ],
       "ICE_PUNCH": [
         7,
@@ -50698,6 +50713,12 @@
         6,
         6,
         6
+      ],
+      "PSYSTRIKE": [
+        8,
+        7,
+        8,
+        7
       ],
       "RAGE_FIST": [
         6,

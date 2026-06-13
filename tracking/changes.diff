@@ -1,5 +1,5 @@
 diff --git a/docs/data.json b/docs/data.json
-index 7feea07..ebf6436 100644
+index 7feea07..127dc54 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -18935,41 +18935,42 @@
@@ -90,3 +90,268 @@ index 7feea07..ebf6436 100644
          }
        }
      },
+@@ -23530,40 +23532,41 @@
+           "rankOne": 117.35442588199827,
+           "max": 123.9283561706541
+         },
+         "ultra": {
+           "rankOne": 151.07380986213684,
+           "max": 160.4630480250017
+         },
+         "master": {
+           "rankOne": 190.1925042271614,
+           "max": 190.1925042271614
+         }
+       }
+     },
+     {
+       "name": "Mewtwo",
+       "types": [
+         "psychic"
+       ],
+       "fastMoveIds": [
+         "CONFUSION",
++        "COUNTER",
+         "PSYCHO_CUT"
+       ],
+       "chargedMoveIds": [
+         "PSYSTRIKE",
+         "SHADOW_BALL",
+         "FLAMETHROWER",
+         "ICE_BEAM",
+         "PSYCHIC",
+         "THUNDERBOLT",
+         "RETURN",
+         "FOCUS_BLAST",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 86.16207004674223,
+           "max": 87.36521512269957
+         },
+         "great": {
+           "rankOne": 146.43222570419297,
+@@ -23605,79 +23608,81 @@
+           "max": 110.08962808930313
+         },
+         "ultra": {
+           "rankOne": 133.16940057277677,
+           "max": 141.721621632576
+         },
+         "master": {
+           "rankOne": 166.52410370111465,
+           "max": 166.52410370111465
+         }
+       }
+     },
+     {
+       "name": "Mewtwo (Mega X)",
+       "types": [
+         "psychic",
+         "fighting"
+       ],
+       "fastMoveIds": [
+         "CONFUSION",
++        "COUNTER",
+         "PSYCHO_CUT"
+       ],
+       "chargedMoveIds": [
+         "PSYSTRIKE",
+         "SHADOW_BALL",
+         "FLAMETHROWER",
+         "ICE_BEAM",
+         "PSYCHIC",
+         "THUNDERBOLT",
+         "RETURN",
+         "FOCUS_BLAST",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 94.39248935562217,
+           "max": 97.94107918102151
+         },
+         "great": {
+           "rankOne": 164.06622625738277,
+           "max": 169.82293595062424
+         },
+         "ultra": {
+           "rankOne": 209.85106099976025,
+           "max": 218.01656627654992
+         },
+         "master": {
+           "rankOne": 349.954207777977,
+           "max": 349.954207777977
+         }
+       }
+     },
+     {
+       "name": "Mewtwo (Mega Y)",
+       "types": [
+         "psychic"
+       ],
+       "fastMoveIds": [
+         "CONFUSION",
++        "COUNTER",
+         "PSYCHO_CUT"
+       ],
+       "chargedMoveIds": [
+         "PSYSTRIKE",
+         "SHADOW_BALL",
+         "FLAMETHROWER",
+         "ICE_BEAM",
+         "PSYCHIC",
+         "THUNDERBOLT",
+         "RETURN",
+         "FOCUS_BLAST",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 92.33349722623814,
+           "max": 92.33349722623814
+         },
+         "great": {
+           "rankOne": 164.33918230011125,
+@@ -50494,40 +50499,46 @@
+         7
+       ],
+       "EARTHQUAKE": [
+         11,
+         11,
+         11,
+         11
+       ],
+       "FELL_STINGER": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "FIRE_PUNCH": [
+         7,
+         7,
+         6,
+         7
+       ],
++      "FLAMETHROWER": [
++        10,
++        9,
++        9,
++        9
++      ],
+       "FLASH_CANNON": [
+         11,
+         11,
+         11,
+         11
+       ],
+       "FLY": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "FOCUS_BLAST": [
+         13,
+         12,
+         13,
+         12
+       ],
+       "FOUL_PLAY": [
+         7,
+@@ -50560,40 +50571,46 @@
+         9
+       ],
+       "HEAVY_SLAM": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "HYDRO_PUMP": [
+         13,
+         12,
+         13,
+         12
+       ],
+       "HYPER_BEAM": [
+         14,
+         13,
+         13,
+         14
+       ],
++      "ICE_BEAM": [
++        10,
++        9,
++        9,
++        9
++      ],
+       "ICE_PUNCH": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "ICY_WIND": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "IRON_HEAD": [
+         9,
+         8,
+         8,
+         9
+       ],
+       "LEAF_BLADE": [
+         6,
+@@ -50680,40 +50697,46 @@
+         6
+       ],
+       "PSYCHIC": [
+         10,
+         9,
+         9,
+         9
+       ],
+       "PSYCHIC_FANGS": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "PSYCHO_BOOST": [
+         6,
+         6,
+         6,
+         6
+       ],
++      "PSYSTRIKE": [
++        8,
++        7,
++        8,
++        7
++      ],
+       "RAGE_FIST": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "RAZOR_SHELL": [
+         6,
+         6,
+         6,
+         6
+       ],
+       "RETURN": [
+         12,
+         12,
+         11,
+         12
+       ],
+       "ROCK_BLAST": [
+         7,

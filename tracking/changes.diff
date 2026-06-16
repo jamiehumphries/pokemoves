@@ -1,0 +1,103 @@
+diff --git a/docs/data.json b/docs/data.json
+index 127dc54..1a83b22 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -23625,89 +23625,89 @@
+       ],
+       "fastMoveIds": [
+         "CONFUSION",
+         "COUNTER",
+         "PSYCHO_CUT"
+       ],
+       "chargedMoveIds": [
+         "PSYSTRIKE",
+         "SHADOW_BALL",
+         "FLAMETHROWER",
+         "ICE_BEAM",
+         "PSYCHIC",
+         "THUNDERBOLT",
+         "RETURN",
+         "FOCUS_BLAST",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 94.39248935562217,
+-          "max": 97.94107918102151
++          "max": 95.57535263075529
+         },
+         "great": {
+-          "rankOne": 164.06622625738277,
+-          "max": 169.82293595062424
++          "rankOne": 159.4273432195186,
++          "max": 165.42085236310953
+         },
+         "ultra": {
+-          "rankOne": 209.85106099976025,
+-          "max": 218.01656627654992
++          "rankOne": 206.44018471240997,
++          "max": 214.5845435787022
+         },
+         "master": {
+           "rankOne": 349.954207777977,
+           "max": 349.954207777977
+         }
+       }
+     },
+     {
+       "name": "Mewtwo (Mega Y)",
+       "types": [
+         "psychic"
+       ],
+       "fastMoveIds": [
+         "CONFUSION",
+         "COUNTER",
+         "PSYCHO_CUT"
+       ],
+       "chargedMoveIds": [
+         "PSYSTRIKE",
+         "SHADOW_BALL",
+         "FLAMETHROWER",
+         "ICE_BEAM",
+         "PSYCHIC",
+         "THUNDERBOLT",
+         "RETURN",
+         "FOCUS_BLAST",
+         "HYPER_BEAM"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 92.33349722623814,
+           "max": 92.33349722623814
+         },
+         "great": {
+-          "rankOne": 164.33918230011125,
+-          "max": 169.81609240174288
++          "rankOne": 160.85085060034473,
++          "max": 166.21998691558832
+         },
+         "ultra": {
+-          "rankOne": 210.0938256178687,
+-          "max": 218.3402454853058
++          "rankOne": 207.94111061096174,
++          "max": 217.7243519720286
+         },
+         "master": {
+           "rankOne": 361.78840804100037,
+           "max": 361.78840804100037
+         }
+       }
+     },
+     {
+       "name": "Mienfoo",
+       "types": [
+         "fighting"
+       ],
+       "fastMoveIds": [
+         "LOW_KICK",
+         "POUND"
+       ],
+       "chargedMoveIds": [
+         "BRICK_BREAK",
+         "DRAIN_PUNCH",
+         "LOW_SWEEP",

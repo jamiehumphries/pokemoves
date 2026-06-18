@@ -1,8 +1,50 @@
 diff --git a/docs/data.json b/docs/data.json
-index 127dc54..1a83b22 100644
+index 127dc54..b7179c4 100644
 --- a/docs/data.json
 +++ b/docs/data.json
-@@ -23625,89 +23625,89 @@
+@@ -2969,40 +2969,41 @@
+           "rankOne": 92.13770204782486,
+           "max": 92.13770204782486
+         },
+         "master": {
+           "rankOne": 92.13770204782486,
+           "max": 92.13770204782486
+         }
+       }
+     },
+     {
+       "name": "Baxcalibur",
+       "types": [
+         "dragon",
+         "ice"
+       ],
+       "fastMoveIds": [
+         "DRAGON_BREATH",
+         "ICE_FANG"
+       ],
+       "chargedMoveIds": [
++        "GLAIVE_RUSH",
+         "AVALANCHE",
+         "ICY_WIND",
+         "DRAGON_CLAW",
+         "OUTRAGE",
+         "BLIZZARD"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 77.73857485928633,
+           "max": 82.32943557932293
+         },
+         "great": {
+           "rankOne": 135.7259995937345,
+           "max": 143.2069602012632
+         },
+         "ultra": {
+           "rankOne": 173.697054684162,
+           "max": 184.9872396838104
+         },
+         "master": {
+@@ -23625,89 +23626,89 @@
        ],
        "fastMoveIds": [
          "CONFUSION",
@@ -101,3 +143,146 @@ index 127dc54..1a83b22 100644
          "BRICK_BREAK",
          "DRAIN_PUNCH",
          "LOW_SWEEP",
+@@ -44314,40 +44315,48 @@
+       "energyGain": 0,
+       "power": 150,
+       "turns": 1
+     },
+     "GIGATON_HAMMER": {
+       "name": "Gigaton Hammer",
+       "type": "steel",
+       "energy": 60,
+       "energyGain": 0,
+       "power": 130,
+       "turns": 1
+     },
+     "GLACIATE": {
+       "name": "Glaciate",
+       "type": "ice",
+       "energy": 40,
+       "energyGain": 0,
+       "power": 60,
+       "turns": 1
+     },
++    "GLAIVE_RUSH": {
++      "name": "Glaive Rush",
++      "type": "dragon",
++      "energy": 40,
++      "energyGain": 0,
++      "power": 90,
++      "turns": 1
++    },
+     "GRASS_KNOT": {
+       "name": "Grass Knot",
+       "type": "grass",
+       "energy": 50,
+       "energyGain": 0,
+       "power": 90,
+       "turns": 1
+     },
+     "GUNK_SHOT": {
+       "name": "Gunk Shot",
+       "type": "poison",
+       "energy": 75,
+       "energyGain": 0,
+       "power": 130,
+       "turns": 1
+     },
+     "GUST": {
+       "name": "Gust",
+       "type": "flying",
+       "energy": 0,
+@@ -51351,40 +51360,46 @@
+         18
+       ],
+       "FUSION_BOLT": [
+         12,
+         11,
+         11,
+         11
+       ],
+       "FUSION_FLARE": [
+         12,
+         11,
+         11,
+         11
+       ],
+       "GLACIATE": [
+         10,
+         10,
+         10,
+         10
+       ],
++      "GLAIVE_RUSH": [
++        10,
++        10,
++        10,
++        10
++      ],
+       "HURRICANE": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "HYDRO_PUMP": [
+         19,
+         19,
+         19,
+         18
+       ],
+       "HYPER_BEAM": [
+         20,
+         20,
+         20,
+         20
+       ],
+       "ICE_BURN": [
+         15,
+@@ -55611,40 +55626,46 @@
+         6
+       ],
+       "FOCUS_BLAST": [
+         13,
+         12,
+         13,
+         12
+       ],
+       "FUSION_FLARE": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "GIGA_IMPACT": [
+         14,
+         13,
+         13,
+         14
+       ],
++      "GLAIVE_RUSH": [
++        7,
++        7,
++        6,
++        7
++      ],
+       "HYDRO_CANNON": [
+         7,
+         7,
+         6,
+         7
+       ],
+       "HYDRO_PUMP": [
+         13,
+         12,
+         13,
+         12
+       ],
+       "ICE_BEAM": [
+         10,
+         9,
+         9,
+         9
+       ],
+       "ICE_BURN": [
+         10,

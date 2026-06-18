@@ -2986,6 +2986,7 @@
         "ICE_FANG"
       ],
       "chargedMoveIds": [
+        "GLAIVE_RUSH",
         "AVALANCHE",
         "ICY_WIND",
         "DRAGON_CLAW",
@@ -44331,6 +44332,14 @@
       "power": 60,
       "turns": 1
     },
+    "GLAIVE_RUSH": {
+      "name": "Glaive Rush",
+      "type": "dragon",
+      "energy": 40,
+      "energyGain": 0,
+      "power": 90,
+      "turns": 1
+    },
     "GRASS_KNOT": {
       "name": "Grass Knot",
       "type": "grass",
@@ -51368,6 +51377,12 @@
         10,
         10
       ],
+      "GLAIVE_RUSH": [
+        10,
+        10,
+        10,
+        10
+      ],
       "HURRICANE": [
         15,
         15,
@@ -55627,6 +55642,12 @@
         13,
         13,
         14
+      ],
+      "GLAIVE_RUSH": [
+        7,
+        7,
+        6,
+        7
       ],
       "HYDRO_CANNON": [
         7,

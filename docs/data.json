@@ -2479,7 +2479,8 @@
       "chargedMoveIds": [
         "AQUA_TAIL",
         "DRAGON_CLAW",
-        "DRAGON_PULSE"
+        "DRAGON_PULSE",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -12796,7 +12797,8 @@
       "chargedMoveIds": [
         "AQUA_TAIL",
         "NIGHT_SLASH",
-        "DRAGON_CLAW"
+        "DRAGON_CLAW",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -16469,7 +16471,8 @@
         "SURF",
         "BREAKING_SWIPE",
         "DRAGON_CLAW",
-        "EARTHQUAKE"
+        "EARTHQUAKE",
+        "RETURN"
       ],
       "cmp": {
         "little": {

@@ -45465,6 +45465,14 @@
       "power": 5,
       "turns": 3
     },
+    "SNIPE_SHOT": {
+      "name": "Snipe Shot",
+      "type": "water",
+      "energy": 35,
+      "energyGain": 0,
+      "power": 65,
+      "turns": 1
+    },
     "SOLAR_BEAM": {
       "name": "Solar Beam",
       "type": "grass",

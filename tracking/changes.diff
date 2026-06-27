@@ -1,5 +1,5 @@
 diff --git a/docs/data.json b/docs/data.json
-index b7179c4..303b3a8 100644
+index b7179c4..b808590 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -2462,41 +2462,42 @@
@@ -549,3 +549,52 @@ index b7179c4..303b3a8 100644
          }
        }
      },
+@@ -45435,40 +45448,48 @@
+       "energyGain": 0,
+       "power": 110,
+       "turns": 1
+     },
+     "SMACK_DOWN": {
+       "name": "Smack Down",
+       "type": "rock",
+       "energy": 0,
+       "energyGain": 8,
+       "power": 11,
+       "turns": 3
+     },
+     "SNARL": {
+       "name": "Snarl",
+       "type": "dark",
+       "energy": 0,
+       "energyGain": 13,
+       "power": 5,
+       "turns": 3
+     },
++    "SNIPE_SHOT": {
++      "name": "Snipe Shot",
++      "type": "water",
++      "energy": 35,
++      "energyGain": 0,
++      "power": 65,
++      "turns": 1
++    },
+     "SOLAR_BEAM": {
+       "name": "Solar Beam",
+       "type": "grass",
+       "energy": 80,
+       "energyGain": 0,
+       "power": 150,
+       "turns": 1
+     },
+     "SPACIAL_REND": {
+       "name": "Spacial Rend",
+       "type": "dragon",
+       "energy": 55,
+       "energyGain": 0,
+       "power": 95,
+       "turns": 1
+     },
+     "SPARK": {
+       "name": "Spark",
+       "type": "electric",
+       "energy": 0,

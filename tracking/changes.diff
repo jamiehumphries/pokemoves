@@ -1,5 +1,5 @@
 diff --git a/docs/data.json b/docs/data.json
-index b7179c4..b808590 100644
+index b7179c4..5a3ae6a 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -2462,41 +2462,42 @@
@@ -549,7 +549,83 @@ index b7179c4..b808590 100644
          }
        }
      },
-@@ -45435,40 +45448,48 @@
+@@ -34416,40 +34429,75 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 60.33465871214864,
+           "max": 65.12946602702138
+         },
+         "great": {
+           "rankOne": 103.68034820514075,
+           "max": 112.45127177238456
+         },
+         "ultra": {
+           "rankOne": 137.7839030623436,
+           "max": 137.7839030623436
+         },
+         "master": {
+           "rankOne": 137.7839030623436,
+           "max": 137.7839030623436
+         }
+       }
+     },
++    {
++      "name": "Skarmory (Mega)",
++      "types": [
++        "steel",
++        "flying"
++      ],
++      "fastMoveIds": [
++        "AIR_SLASH",
++        "STEEL_WING"
++      ],
++      "chargedMoveIds": [
++        "SKY_ATTACK",
++        "BRAVE_BIRD",
++        "FLASH_CANNON",
++        "RETURN"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 83.3017167448996,
++          "max": 84.77789463000911
++        },
++        "great": {
++          "rankOne": 141.24854743480682,
++          "max": 149.00945663452148
++        },
++        "ultra": {
++          "rankOne": 182.3459821343422,
++          "max": 192.36499214172363
++        },
++        "master": {
++          "rankOne": 243.4464054107666,
++          "max": 243.4464054107666
++        }
++      }
++    },
+     {
+       "name": "Skeledirge",
+       "types": [
+         "fire",
+         "ghost"
+       ],
+       "fastMoveIds": [
+         "BITE",
+         "HEX",
+         "INCINERATE"
+       ],
+       "chargedMoveIds": [
+         "CRUNCH",
+         "DISARMING_VOICE",
+         "TORCH_SONG",
+         "BLAST_BURN",
+         "SHADOW_BALL",
+         "FLAMETHROWER"
+       ],
+       "cmp": {
+@@ -45435,40 +45483,48 @@
        "energyGain": 0,
        "power": 110,
        "turns": 1

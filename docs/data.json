@@ -34447,6 +34447,41 @@
       }
     },
     {
+      "name": "Skarmory (Mega)",
+      "types": [
+        "steel",
+        "flying"
+      ],
+      "fastMoveIds": [
+        "AIR_SLASH",
+        "STEEL_WING"
+      ],
+      "chargedMoveIds": [
+        "SKY_ATTACK",
+        "BRAVE_BIRD",
+        "FLASH_CANNON",
+        "RETURN"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 83.3017167448996,
+          "max": 84.77789463000911
+        },
+        "great": {
+          "rankOne": 141.24854743480682,
+          "max": 149.00945663452148
+        },
+        "ultra": {
+          "rankOne": 182.3459821343422,
+          "max": 192.36499214172363
+        },
+        "master": {
+          "rankOne": 243.4464054107666,
+          "max": 243.4464054107666
+        }
+      }
+    },
+    {
       "name": "Skeledirge",
       "types": [
         "fire",

@@ -17788,6 +17788,8 @@
         "WATER_GUN"
       ],
       "chargedMoveIds": [
+        "SNIPE_SHOT",
+        "HYDRO_CANNON",
         "SURF",
         "SHADOW_BALL",
         "WATER_PULSE"
@@ -61327,6 +61329,12 @@
         15,
         15
       ],
+      "HYDRO_CANNON": [
+        10,
+        10,
+        10,
+        10
+      ],
       "HYPER_BEAM": [
         20,
         20,
@@ -61452,6 +61460,12 @@
         12,
         13,
         12
+      ],
+      "SNIPE_SHOT": [
+        9,
+        9,
+        9,
+        8
       ],
       "STOMP": [
         10,
@@ -70077,6 +70091,12 @@
         22,
         21,
         22
+      ],
+      "SNIPE_SHOT": [
+        12,
+        12,
+        11,
+        12
       ],
       "SPARKLING_ARIA": [
         15,

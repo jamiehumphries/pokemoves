@@ -1,0 +1,388 @@
+diff --git a/docs/data.json b/docs/data.json
+index 17650ad..5f2ecf1 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -7431,42 +7431,43 @@
+           "rankOne": 139.90541901976817,
+           "max": 141.16510313749313
+         },
+         "master": {
+           "rankOne": 141.16510313749313,
+           "max": 141.16510313749313
+         }
+       }
+     },
+     {
+       "name": "Cramorant",
+       "types": [
+         "flying",
+         "water"
+       ],
+       "fastMoveIds": [
+         "PECK",
+         "WATER_GUN"
+       ],
+       "chargedMoveIds": [
+-        "DRILL_PECK",
++        "DIVE",
+         "FLY",
++        "SURF",
+         "HYDRO_PUMP"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 69.12513878941533,
+           "max": 74.71908065676686
+         },
+         "great": {
+           "rankOne": 120.08685195446004,
+           "max": 129.28476230690094
+         },
+         "ultra": {
+           "rankOne": 158.9164035320282,
+           "max": 158.9164035320282
+         },
+         "master": {
+           "rankOne": 158.9164035320282,
+           "max": 158.9164035320282
+         }
+       }
+@@ -29838,40 +29839,118 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 77.90607462811877,
+           "max": 83.33236838331112
+         },
+         "great": {
+           "rankOne": 133.56629122835784,
+           "max": 144.27374410629272
+         },
+         "ultra": {
+           "rankOne": 174.1318038702011,
+           "max": 182.58480405807495
+         },
+         "master": {
+           "rankOne": 182.58480405807495,
+           "max": 182.58480405807495
+         }
+       }
+     },
++    {
++      "name": "Raichu (Mega X)",
++      "types": [
++        "electric"
++      ],
++      "fastMoveIds": [
++        "CHARM",
++        "SPARK",
++        "THUNDER_SHOCK",
++        "VOLT_SWITCH"
++      ],
++      "chargedMoveIds": [
++        "BRICK_BREAK",
++        "THUNDER_PUNCH",
++        "SURF",
++        "TRAILBLAZE",
++        "WILD_CHARGE",
++        "THUNDER",
++        "SKULL_BASH"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 84.77789463000911,
++          "max": 89.36875535004572
++        },
++        "great": {
++          "rankOne": 148.0161491632459,
++          "max": 156.03146409988378
++        },
++        "ultra": {
++          "rankOne": 191.17640383680032,
++          "max": 202.68994665145857
++        },
++        "master": {
++          "rankOne": 246.82760548591614,
++          "max": 246.82760548591614
++        }
++      }
++    },
++    {
++      "name": "Raichu (Mega Y)",
++      "types": [
++        "electric"
++      ],
++      "fastMoveIds": [
++        "CHARM",
++        "SPARK",
++        "THUNDER_SHOCK",
++        "VOLT_SWITCH"
++      ],
++      "chargedMoveIds": [
++        "BRICK_BREAK",
++        "THUNDER_PUNCH",
++        "SURF",
++        "TRAILBLAZE",
++        "WILD_CHARGE",
++        "THUNDER",
++        "SKULL_BASH"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 101.00695967674235,
++          "max": 104.67162441683436
++        },
++        "great": {
++          "rankOne": 172.44989560401328,
++          "max": 183.157457113266
++        },
++        "ultra": {
++          "rankOne": 223.16255140304563,
++          "max": 237.45282855036794
++        },
++        "master": {
++          "rankOne": 299.23620665073395,
++          "max": 299.23620665073395
++        }
++      }
++    },
+     {
+       "name": "Raikou",
+       "types": [
+         "electric"
+       ],
+       "fastMoveIds": [
+         "THUNDER_SHOCK",
+         "VOLT_SWITCH"
+       ],
+       "chargedMoveIds": [
+         "AURA_SPHERE",
+         "WILD_CHARGE",
+         "SHADOW_BALL",
+         "THUNDERBOLT",
+         "THUNDER",
+         "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.20828795260748,
+@@ -43933,40 +44012,48 @@
+       "energyGain": 0,
+       "power": 70,
+       "turns": 1
+     },
+     "DISARMING_VOICE": {
+       "name": "Disarming Voice",
+       "type": "fairy",
+       "energy": 45,
+       "energyGain": 0,
+       "power": 70,
+       "turns": 1
+     },
+     "DISCHARGE": {
+       "name": "Discharge",
+       "type": "electric",
+       "energy": 40,
+       "energyGain": 0,
+       "power": 55,
+       "turns": 1
+     },
++    "DIVE": {
++      "name": "Dive",
++      "type": "water",
++      "energy": 40,
++      "energyGain": 0,
++      "power": 50,
++      "turns": 1
++    },
+     "DOOM_DESIRE": {
+       "name": "Doom Desire",
+       "type": "steel",
+       "energy": 40,
+       "energyGain": 0,
+       "power": 80,
+       "turns": 1
+     },
+     "DOUBLE_IRON_BASH": {
+       "name": "Double Iron Bash",
+       "type": "steel",
+       "energy": 35,
+       "energyGain": 0,
+       "power": 55,
+       "turns": 1
+     },
+     "DOUBLE_KICK": {
+       "name": "Double Kick",
+       "type": "fighting",
+       "energy": 0,
+@@ -60040,40 +60127,46 @@
+         6
+       ],
+       "DARK_PULSE": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "DAZZLING_GLEAM": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "DISARMING_VOICE": [
+         6,
+         6,
+         5,
+         6
+       ],
++      "DIVE": [
++        5,
++        5,
++        5,
++        5
++      ],
+       "DRAGON_PULSE": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "DRILL_PECK": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "DRILL_RUN": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "ENERGY_BALL": [
+         6,
+@@ -60274,40 +60367,46 @@
+         6
+       ],
+       "SLUDGE_BOMB": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "SLUDGE_WAVE": [
+         9,
+         8,
+         8,
+         8
+       ],
+       "SUPER_POWER": [
+         5,
+         5,
+         5,
+         5
+       ],
++      "SURF": [
++        6,
++        6,
++        5,
++        6
++      ],
+       "SWIFT": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "THUNDERBOLT": [
+         7,
+         7,
+         7,
+         7
+       ],
+       "TRAILBLAZE": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "TWISTER": [
+         5,
+@@ -69757,70 +69856,70 @@
+         17
+       ],
+       "DIG": [
+         17,
+         17,
+         16,
+         17
+       ],
+       "DISARMING_VOICE": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "DISCHARGE": [
+         14,
+         13,
+         13,
+         14
+       ],
++      "DIVE": [
++        14,
++        13,
++        13,
++        14
++      ],
+       "DRACO_METEOR": [
+         22,
+         22,
+         21,
+         22
+       ],
+       "DRAGON_PULSE": [
+         19,
+         18,
+         18,
+         19
+       ],
+       "DRAIN_PUNCH": [
+         14,
+         13,
+         13,
+         14
+       ],
+       "DRAINING_KISS": [
+         19,
+         18,
+         18,
+         19
+       ],
+-      "DRILL_PECK": [
+-        14,
+-        13,
+-        13,
+-        14
+-      ],
+       "EARTH_POWER": [
+         17,
+         17,
+         16,
+         17
+       ],
+       "EARTHQUAKE": [
+         22,
+         22,
+         21,
+         22
+       ],
+       "ENERGY_BALL": [
+         15,
+         15,
+         15,
+         15
+       ],
+       "FELL_STINGER": [
+         12,

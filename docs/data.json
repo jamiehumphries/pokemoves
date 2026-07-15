@@ -7448,8 +7448,9 @@
         "WATER_GUN"
       ],
       "chargedMoveIds": [
-        "DRILL_PECK",
+        "DIVE",
         "FLY",
+        "SURF",
         "HYDRO_PUMP"
       ],
       "cmp": {
@@ -29856,6 +29857,84 @@
       }
     },
     {
+      "name": "Raichu (Mega X)",
+      "types": [
+        "electric"
+      ],
+      "fastMoveIds": [
+        "CHARM",
+        "SPARK",
+        "THUNDER_SHOCK",
+        "VOLT_SWITCH"
+      ],
+      "chargedMoveIds": [
+        "BRICK_BREAK",
+        "THUNDER_PUNCH",
+        "SURF",
+        "TRAILBLAZE",
+        "WILD_CHARGE",
+        "THUNDER",
+        "SKULL_BASH"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 84.77789463000911,
+          "max": 89.36875535004572
+        },
+        "great": {
+          "rankOne": 148.0161491632459,
+          "max": 156.03146409988378
+        },
+        "ultra": {
+          "rankOne": 191.17640383680032,
+          "max": 202.68994665145857
+        },
+        "master": {
+          "rankOne": 246.82760548591614,
+          "max": 246.82760548591614
+        }
+      }
+    },
+    {
+      "name": "Raichu (Mega Y)",
+      "types": [
+        "electric"
+      ],
+      "fastMoveIds": [
+        "CHARM",
+        "SPARK",
+        "THUNDER_SHOCK",
+        "VOLT_SWITCH"
+      ],
+      "chargedMoveIds": [
+        "BRICK_BREAK",
+        "THUNDER_PUNCH",
+        "SURF",
+        "TRAILBLAZE",
+        "WILD_CHARGE",
+        "THUNDER",
+        "SKULL_BASH"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 101.00695967674235,
+          "max": 104.67162441683436
+        },
+        "great": {
+          "rankOne": 172.44989560401328,
+          "max": 183.157457113266
+        },
+        "ultra": {
+          "rankOne": 223.16255140304563,
+          "max": 237.45282855036794
+        },
+        "master": {
+          "rankOne": 299.23620665073395,
+          "max": 299.23620665073395
+        }
+      }
+    },
+    {
       "name": "Raikou",
       "types": [
         "electric"
@@ -43948,6 +44027,14 @@
       "energy": 40,
       "energyGain": 0,
       "power": 55,
+      "turns": 1
+    },
+    "DIVE": {
+      "name": "Dive",
+      "type": "water",
+      "energy": 40,
+      "energyGain": 0,
+      "power": 50,
       "turns": 1
     },
     "DOOM_DESIRE": {
@@ -60057,6 +60144,12 @@
         5,
         6
       ],
+      "DIVE": [
+        5,
+        5,
+        5,
+        5
+      ],
       "DRAGON_PULSE": [
         7,
         7,
@@ -60290,6 +60383,12 @@
         5,
         5,
         5
+      ],
+      "SURF": [
+        6,
+        6,
+        5,
+        6
       ],
       "SWIFT": [
         5,
@@ -69774,6 +69873,12 @@
         13,
         14
       ],
+      "DIVE": [
+        14,
+        13,
+        13,
+        14
+      ],
       "DRACO_METEOR": [
         22,
         22,
@@ -69797,12 +69902,6 @@
         18,
         18,
         19
-      ],
-      "DRILL_PECK": [
-        14,
-        13,
-        13,
-        14
       ],
       "EARTH_POWER": [
         17,

@@ -5014,7 +5014,8 @@
         "fire"
       ],
       "fastMoveIds": [
-        "SMACK_DOWN"
+        "SMACK_DOWN",
+        "TACKLE"
       ],
       "chargedMoveIds": [
         "ROCK_BLAST",

@@ -43558,6 +43558,14 @@
       "power": 20,
       "turns": 1
     },
+    "ACID_SPRAY_PLUS": {
+      "name": "Acid Spray+",
+      "type": "poison",
+      "energy": 40,
+      "energyGain": 0,
+      "power": 20,
+      "turns": 1
+    },
     "ACROBATICS": {
       "name": "Acrobatics",
       "type": "flying",
@@ -43804,6 +43812,14 @@
       "energy": 40,
       "energyGain": 0,
       "power": 50,
+      "turns": 1
+    },
+    "BRICK_BREAK_PLUS": {
+      "name": "Brick Break+",
+      "type": "fighting",
+      "energy": 35,
+      "energyGain": 0,
+      "power": 40,
       "turns": 1
     },
     "BRINE": {
@@ -44142,6 +44158,14 @@
       "power": 70,
       "turns": 1
     },
+    "DRILL_PECK_PLUS": {
+      "name": "Drill Peck+",
+      "type": "flying",
+      "energy": 35,
+      "energyGain": 0,
+      "power": 60,
+      "turns": 1
+    },
     "DRILL_RUN": {
       "name": "Drill Run",
       "type": "ground",
@@ -44172,6 +44196,14 @@
       "energy": 45,
       "energyGain": 0,
       "power": 90,
+      "turns": 1
+    },
+    "DYNAMIC_PUNCH_PLUS": {
+      "name": "Dynamic Punch+",
+      "type": "fighting",
+      "energy": 80,
+      "energyGain": 0,
+      "power": 130,
       "turns": 1
     },
     "EARTH_POWER": {
@@ -44428,6 +44460,14 @@
       "energy": 65,
       "energyGain": 0,
       "power": 110,
+      "turns": 1
+    },
+    "FUTURE_SIGHT_PLUS": {
+      "name": "Future Sight+",
+      "type": "psychic",
+      "energy": 80,
+      "energyGain": 0,
+      "power": 130,
       "turns": 1
     },
     "GEOMANCY": {
@@ -44782,6 +44822,14 @@
       "power": 70,
       "turns": 1
     },
+    "LIQUIDATION_PLUS": {
+      "name": "Liquidation+",
+      "type": "water",
+      "energy": 40,
+      "energyGain": 0,
+      "power": 55,
+      "turns": 1
+    },
     "LOCK_ON": {
       "name": "Lock-On",
       "type": "normal",
@@ -44982,6 +45030,14 @@
       "power": 60,
       "turns": 1
     },
+    "MYSTICAL_FIRE_PLUS": {
+      "name": "Mystical Fire+",
+      "type": "fire",
+      "energy": 40,
+      "energyGain": 0,
+      "power": 50,
+      "turns": 1
+    },
     "NATURES_MADNESS": {
       "name": "Nature’s Madness",
       "type": "fairy",
@@ -45052,6 +45108,14 @@
       "energy": 60,
       "energyGain": 0,
       "power": 110,
+      "turns": 1
+    },
+    "OUTRAGE_PLUS": {
+      "name": "Outrage+",
+      "type": "dragon",
+      "energy": 50,
+      "energyGain": 0,
+      "power": 80,
       "turns": 1
     },
     "OVERHEAT": {
@@ -45204,6 +45268,14 @@
       "energy": 60,
       "energyGain": 0,
       "power": 70,
+      "turns": 1
+    },
+    "PSYBEAM_PLUS": {
+      "name": "Psybeam+",
+      "type": "psychic",
+      "energy": 45,
+      "energyGain": 0,
+      "power": 60,
       "turns": 1
     },
     "PSYCHIC": {
@@ -45460,6 +45532,14 @@
       "energy": 40,
       "energyGain": 0,
       "power": 55,
+      "turns": 1
+    },
+    "SEED_BOMB_PLUS": {
+      "name": "Seed Bomb+",
+      "type": "grass",
+      "energy": 40,
+      "energyGain": 0,
+      "power": 60,
       "turns": 1
     },
     "SEED_FLARE": {
@@ -45734,6 +45814,14 @@
       "power": 75,
       "turns": 1
     },
+    "SURF_PLUS": {
+      "name": "Surf+",
+      "type": "water",
+      "energy": 35,
+      "energyGain": 0,
+      "power": 55,
+      "turns": 1
+    },
     "SWIFT": {
       "name": "Swift",
       "type": "normal",
@@ -45950,6 +46038,14 @@
       "power": 90,
       "turns": 1
     },
+    "VOLT_TACKLE_PLUS": {
+      "name": "Volt Tackle+",
+      "type": "electric",
+      "energy": 35,
+      "energyGain": 0,
+      "power": 65,
+      "turns": 1
+    },
     "WATER_GUN": {
       "name": "Water Gun",
       "type": "water",
@@ -46084,6 +46180,14 @@
       "energy": 80,
       "energyGain": 0,
       "power": 150,
+      "turns": 1
+    },
+    "ZAP_CANNON_PLUS": {
+      "name": "Zap Cannon+",
+      "type": "electric",
+      "energy": 45,
+      "energyGain": 0,
+      "power": 70,
       "turns": 1
     },
     "ZEN_HEADBUTT": {

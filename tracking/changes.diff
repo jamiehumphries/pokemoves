@@ -1,8 +1,92 @@
 diff --git a/docs/data.json b/docs/data.json
-index bfe5432..20593bf 100644
+index bfe5432..ef54c96 100644
 --- a/docs/data.json
 +++ b/docs/data.json
-@@ -43541,40 +43541,48 @@
+@@ -36466,40 +36466,83 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.1161272435459,
+           "max": 81.55299347522775
+         },
+         "great": {
+           "rankOne": 131.57909631729115,
+           "max": 140.97760319709766
+         },
+         "ultra": {
+           "rankOne": 169.1129994392393,
+           "max": 182.3174983263015
+         },
+         "master": {
+           "rankOne": 190.1925042271614,
+           "max": 190.1925042271614
+         }
+       }
+     },
++    {
++      "name": "Starmie (Mega)",
++      "types": [
++        "water",
++        "psychic"
++      ],
++      "fastMoveIds": [
++        "HIDDEN_POWER_BUG",
++        "PSYWAVE",
++        "QUICK_ATTACK",
++        "TACKLE",
++        "WATER_GUN"
++      ],
++      "chargedMoveIds": [
++        "AQUA_JET",
++        "SURF",
++        "POWER_GEM",
++        "ICE_BEAM",
++        "PSYCHIC",
++        "PSYBEAM",
++        "THUNDER",
++        "RETURN",
++        "HYDRO_PUMP"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 84.47183724867334,
++          "max": 86.61423891802376
++        },
++        "great": {
++          "rankOne": 142.80072927474976,
++          "max": 151.47144252614274
++        },
++        "ultra": {
++          "rankOne": 184.34978413581848,
++          "max": 196.30333269362805
++        },
++        "master": {
++          "rankOne": 245.98230546712875,
++          "max": 245.98230546712875
++        }
++      }
++    },
+     {
+       "name": "Staryu",
+       "types": [
+         "water"
+       ],
+       "fastMoveIds": [
+         "QUICK_ATTACK",
+         "TACKLE",
+         "WATER_GUN"
+       ],
+       "chargedMoveIds": [
+         "SWIFT",
+         "BUBBLE_BEAM",
+         "POWER_GEM",
+         "RETURN"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 75.45859909057604,
+           "max": 83.82458991571305
+@@ -43541,40 +43584,48 @@
        }
      }
    ],
@@ -51,7 +135,7 @@ index bfe5432..20593bf 100644
        "name": "Psycho Cut",
        "type": "psychic",
        "energy": 0,
-@@ -43789,40 +43797,48 @@
+@@ -43789,40 +43840,48 @@
        "energyGain": 0,
        "power": 130,
        "turns": 1
@@ -100,7 +184,7 @@ index bfe5432..20593bf 100644
        "name": "Bubble",
        "type": "water",
        "energy": 0,
-@@ -44125,72 +44141,88 @@
+@@ -44125,72 +44184,88 @@
        "energyGain": 0,
        "power": 40,
        "turns": 1
@@ -189,7 +273,7 @@ index bfe5432..20593bf 100644
        "name": "Ember",
        "type": "fire",
        "energy": 0,
-@@ -44413,40 +44445,48 @@
+@@ -44413,40 +44488,48 @@
        "energyGain": 0,
        "power": 90,
        "turns": 1
@@ -238,7 +322,7 @@ index bfe5432..20593bf 100644
        "name": "Giga Impact",
        "type": "normal",
        "energy": 80,
-@@ -44765,40 +44805,48 @@
+@@ -44765,40 +44848,48 @@
        "energyGain": 8,
        "power": 6,
        "turns": 2
@@ -287,7 +371,7 @@ index bfe5432..20593bf 100644
        "name": "Low Sweep",
        "type": "fighting",
        "energy": 40,
-@@ -44965,40 +45013,48 @@
+@@ -44965,40 +45056,48 @@
        "energyGain": 10,
        "power": 11,
        "turns": 3
@@ -336,7 +420,7 @@ index bfe5432..20593bf 100644
        "name": "Night Slash",
        "type": "dark",
        "energy": 35,
-@@ -45037,40 +45093,48 @@
+@@ -45037,40 +45136,48 @@
        "energyGain": 0,
        "power": 45,
        "turns": 1
@@ -385,7 +469,7 @@ index bfe5432..20593bf 100644
        "name": "Payback",
        "type": "dark",
        "energy": 60,
-@@ -45189,40 +45253,48 @@
+@@ -45189,40 +45296,48 @@
        "energyGain": 0,
        "power": 130,
        "turns": 1
@@ -434,7 +518,7 @@ index bfe5432..20593bf 100644
        "name": "Psycho Boost",
        "type": "psychic",
        "energy": 35,
-@@ -45445,40 +45517,48 @@
+@@ -45445,40 +45560,48 @@
        "energyGain": 2,
        "power": 4,
        "turns": 1
@@ -483,7 +567,7 @@ index bfe5432..20593bf 100644
        "name": "Shadow Bone",
        "type": "ghost",
        "energy": 45,
-@@ -45717,40 +45797,48 @@
+@@ -45717,40 +45840,48 @@
        "energyGain": 0,
        "power": 135,
        "turns": 1
@@ -532,7 +616,7 @@ index bfe5432..20593bf 100644
        "name": "Tackle",
        "type": "normal",
        "energy": 0,
-@@ -45933,40 +46021,48 @@
+@@ -45933,40 +46064,48 @@
        "energyGain": 8,
        "power": 5,
        "turns": 2
@@ -581,7 +665,7 @@ index bfe5432..20593bf 100644
        "name": "Water Pulse",
        "type": "water",
        "energy": 50,
-@@ -46069,40 +46165,48 @@
+@@ -46069,40 +46208,48 @@
        "energyGain": 0,
        "power": 65,
        "turns": 1

@@ -36484,6 +36484,49 @@
       }
     },
     {
+      "name": "Starmie (Mega)",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "fastMoveIds": [
+        "HIDDEN_POWER_BUG",
+        "PSYWAVE",
+        "QUICK_ATTACK",
+        "TACKLE",
+        "WATER_GUN"
+      ],
+      "chargedMoveIds": [
+        "AQUA_JET",
+        "SURF",
+        "POWER_GEM",
+        "ICE_BEAM",
+        "PSYCHIC",
+        "PSYBEAM",
+        "THUNDER",
+        "RETURN",
+        "HYDRO_PUMP"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 84.47183724867334,
+          "max": 86.61423891802376
+        },
+        "great": {
+          "rankOne": 142.80072927474976,
+          "max": 151.47144252614274
+        },
+        "ultra": {
+          "rankOne": 184.34978413581848,
+          "max": 196.30333269362805
+        },
+        "master": {
+          "rankOne": 245.98230546712875,
+          "max": 245.98230546712875
+        }
+      }
+    },
+    {
       "name": "Staryu",
       "types": [
         "water"

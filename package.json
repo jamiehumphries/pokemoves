@@ -19,20 +19,20 @@
     ]
   },
   "dependencies": {
-    "serve": "14.2.4"
+    "serve": "14.2.6"
   },
   "devDependencies": {
-    "@eslint/js": "9.11.1",
-    "eslint": "9.11.1",
-    "eslint-config-prettier": "9.1.0",
-    "globals": "15.10.0",
+    "@eslint/js": "10.0.1",
+    "eslint": "10.8.1",
+    "eslint-config-prettier": "10.1.8",
+    "globals": "17.9.0",
     "html-minifier-terser": "7.2.0",
     "nunjucks": "3.2.4",
-    "prettier": "3.3.3",
-    "prettier-plugin-css-order": "2.1.2",
-    "prettier-plugin-organize-imports": "^4.1.0",
-    "prettier-plugin-packagejson": "2.5.6",
-    "sass": "1.79.4",
+    "prettier": "3.9.6",
+    "prettier-plugin-css-order": "2.2.0",
+    "prettier-plugin-organize-imports": "4.3.0",
+    "prettier-plugin-packagejson": "3.0.2",
+    "sass": "1.102.0",
     "uglify-js": "3.19.3"
   }
 }

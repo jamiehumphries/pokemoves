@@ -1,0 +1,61 @@
+diff --git a/docs/data.json b/docs/data.json
+index 14cac6b..e175dd0 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -44670,40 +44670,56 @@
+       "energyGain": 0,
+       "power": 60,
+       "turns": 1
+     },
+     "GLAIVE_RUSH": {
+       "name": "Glaive Rush",
+       "type": "dragon",
+       "energy": 40,
+       "energyGain": 0,
+       "power": 90,
+       "turns": 1
+     },
+     "GRASS_KNOT": {
+       "name": "Grass Knot",
+       "type": "grass",
+       "energy": 50,
+       "energyGain": 0,
+       "power": 90,
+       "turns": 1
+     },
++    "GULP_MISSILE_ARROKUDA": {
++      "name": "Gulp Missile (Arrokuda)",
++      "type": "water",
++      "energy": 0,
++      "energyGain": 0,
++      "power": 15,
++      "turns": 1
++    },
++    "GULP_MISSILE_PIKACHU": {
++      "name": "Gulp Missile (Pikachu)",
++      "type": "water",
++      "energy": 0,
++      "energyGain": 0,
++      "power": 15,
++      "turns": 1
++    },
+     "GUNK_SHOT": {
+       "name": "Gunk Shot",
+       "type": "poison",
+       "energy": 75,
+       "energyGain": 0,
+       "power": 130,
+       "turns": 1
+     },
+     "GUST": {
+       "name": "Gust",
+       "type": "flying",
+       "energy": 0,
+       "energyGain": 14,
+       "power": 16,
+       "turns": 4
+     },
+     "GYRO_BALL": {
+       "name": "Gyro Ball",
+       "type": "steel",
+       "energy": 50,

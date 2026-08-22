@@ -44687,6 +44687,22 @@
       "power": 90,
       "turns": 1
     },
+    "GULP_MISSILE_ARROKUDA": {
+      "name": "Gulp Missile (Arrokuda)",
+      "type": "water",
+      "energy": 0,
+      "energyGain": 0,
+      "power": 15,
+      "turns": 1
+    },
+    "GULP_MISSILE_PIKACHU": {
+      "name": "Gulp Missile (Pikachu)",
+      "type": "water",
+      "energy": 0,
+      "energyGain": 0,
+      "power": 15,
+      "turns": 1
+    },
     "GUNK_SHOT": {
       "name": "Gunk Shot",
       "type": "poison",

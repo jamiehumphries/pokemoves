@@ -44293,6 +44293,14 @@
       "power": 80,
       "turns": 1
     },
+    "DARK_PULSE_PLUS": {
+      "name": "Dark Pulse+",
+      "type": "dark",
+      "energy": 40,
+      "energyGain": 0,
+      "power": 60,
+      "turns": 1
+    },
     "DARKEST_LARIAT": {
       "name": "Darkest Lariat",
       "type": "dark",
@@ -44566,7 +44574,7 @@
       "turns": 1
     },
     "FELL_STINGER_PLUS": {
-      "name": "Fell Stinger",
+      "name": "Fell Stinger+",
       "type": "bug",
       "energy": 35,
       "energyGain": 0,

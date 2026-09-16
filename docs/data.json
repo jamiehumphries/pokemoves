@@ -44085,6 +44085,14 @@
       "power": 130,
       "turns": 1
     },
+    "BRAVE_BIRD_PLUS": {
+      "name": "Brave Bird+",
+      "type": "flying",
+      "energy": 40,
+      "energyGain": 0,
+      "power": 70,
+      "turns": 1
+    },
     "BREAKING_SWIPE": {
       "name": "Breaking Swipe",
       "type": "dragon",

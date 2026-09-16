@@ -273,7 +273,7 @@ function writeCacheBustedFiles(destDirName, files) {
   const webPath = (file) => `/${destDirName}/${file}`;
   for (const { file, data } of files) {
     const { name, ext } = parse(file);
-    const hash = createHash("md5").update(data).digest("hex");
+    const hash = createHash("sha256").update(data).digest("hex");
     const cacheBustedFile = `${name}.${hash}${ext}`;
     writeFileSync(join(destDir, cacheBustedFile), data);
     fileMap[webPath(file)] = webPath(cacheBustedFile);

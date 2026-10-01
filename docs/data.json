@@ -12789,7 +12789,8 @@
         "LEAF_BLADE",
         "ENERGY_BALL",
         "TRAILBLAZE",
-        "GRASS_KNOT"
+        "GRASS_KNOT",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -14864,7 +14865,8 @@
         "AQUA_JET",
         "X_SCISSOR",
         "AERIAL_ACE",
-        "LIQUIDATION"
+        "LIQUIDATION",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -21436,7 +21438,8 @@
         "SUPER_POWER",
         "X_SCISSOR",
         "TRAILBLAZE",
-        "LEAF_STORM"
+        "LEAF_STORM",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -26938,7 +26941,8 @@
         "SAND_TOMB",
         "EARTH_POWER",
         "SCORCHING_SANDS",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -27005,7 +27009,8 @@
       "chargedMoveIds": [
         "BODY_SLAM",
         "LOW_SWEEP",
-        "CRUNCH"
+        "CRUNCH",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -27042,7 +27047,8 @@
         "NIGHT_SLASH",
         "CLOSE_COMBAT",
         "ROCK_SLIDE",
-        "IRON_HEAD"
+        "IRON_HEAD",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -32235,7 +32241,8 @@
         "SAND_TOMB",
         "EARTH_POWER",
         "SCORCHING_SANDS",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -42142,7 +42149,8 @@
         "STRUGGLE_BUG"
       ],
       "chargedMoveIds": [
-        "BUG_BUZZ"
+        "BUG_BUZZ",
+        "RETURN"
       ],
       "cmp": {
         "little": {
@@ -43381,7 +43389,8 @@
         "FUSION_BOLT",
         "WILD_CHARGE",
         "OUTRAGE",
-        "FLASH_CANNON"
+        "FLASH_CANNON",
+        "RETURN"
       ],
       "cmp": {
         "little": {

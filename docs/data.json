@@ -14960,6 +14960,42 @@
       }
     },
     {
+      "name": "Goodra (Hisuian)",
+      "types": [
+        "dragon",
+        "steel"
+      ],
+      "fastMoveIds": [
+        "DRAGON_TAIL",
+        "IRON_TAIL",
+        "WATER_GUN"
+      ],
+      "chargedMoveIds": [
+        "HEAVY_SLAM",
+        "DRACO_METEOR",
+        "SLUDGE_WAVE",
+        "HYDRO_PUMP"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 67.74948334693906,
+          "max": 70.63927173614498
+        },
+        "great": {
+          "rankOne": 116.21725845336896,
+          "max": 123.3775634765623
+        },
+        "ultra": {
+          "rankOne": 150.47868059233494,
+          "max": 159.7558304071426
+        },
+        "master": {
+          "rankOne": 191.0378042459488,
+          "max": 191.0378042459488
+        }
+      }
+    },
+    {
       "name": "Goomy",
       "types": [
         "dragon"
@@ -35108,6 +35144,41 @@
         "master": {
           "rankOne": 147.08220326900482,
           "max": 147.08220326900482
+        }
+      }
+    },
+    {
+      "name": "Sliggoo (Hisuian)",
+      "types": [
+        "dragon",
+        "steel"
+      ],
+      "fastMoveIds": [
+        "TACKLE",
+        "WATER_GUN"
+      ],
+      "chargedMoveIds": [
+        "HEAVY_SLAM",
+        "WATER_PULSE",
+        "DRAGON_PULSE",
+        "SLUDGE_WAVE"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 64.64250218868244,
+          "max": 69.71250236034382
+        },
+        "great": {
+          "rankOne": 111.95010048151013,
+          "max": 121.89670365139646
+        },
+        "ultra": {
+          "rankOne": 142.01040315628052,
+          "max": 142.01040315628052
+        },
+        "master": {
+          "rankOne": 142.01040315628052,
+          "max": 142.01040315628052
         }
       }
     },
@@ -57449,6 +57520,12 @@
         7,
         6
       ],
+      "DRACO_METEOR": [
+        10,
+        9,
+        9,
+        10
+      ],
       "DRAGON_CLAW": [
         8,
         7,
@@ -57526,6 +57603,12 @@
         7,
         7,
         7
+      ],
+      "HYDRO_PUMP": [
+        11,
+        11,
+        11,
+        10
       ],
       "HYPER_BEAM": [
         12,

@@ -1,0 +1,48 @@
+diff --git a/docs/data.json b/docs/data.json
+index 40181fc..8e58140 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -43576,41 +43576,42 @@
+           "rankOne": 61.706901371479034,
+           "max": 61.706901371479034
+         },
+         "ultra": {
+           "rankOne": 61.706901371479034,
+           "max": 61.706901371479034
+         },
+         "master": {
+           "rankOne": 61.706901371479034,
+           "max": 61.706901371479034
+         }
+       }
+     },
+     {
+       "name": "Zoroark",
+       "types": [
+         "dark"
+       ],
+       "fastMoveIds": [
+         "SHADOW_CLAW",
+-        "SNARL"
++        "SNARL",
++        "SUCKER_PUNCH"
+       ],
+       "chargedMoveIds": [
+         "FOUL_PLAY",
+         "NIGHT_SHADE",
+         "SLUDGE_BOMB",
+         "FLAMETHROWER"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 90.6144371946975,
+           "max": 96.05130342637935
+         },
+         "great": {
+           "rankOne": 155.47043175207855,
+           "max": 167.91703313002688
+         },
+         "ultra": {
+           "rankOne": 200.87530052661884,
+           "max": 216.71800875438456
+         },

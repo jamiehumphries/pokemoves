@@ -43593,7 +43593,8 @@
       ],
       "fastMoveIds": [
         "SHADOW_CLAW",
-        "SNARL"
+        "SNARL",
+        "SUCKER_PUNCH"
       ],
       "chargedMoveIds": [
         "FOUL_PLAY",

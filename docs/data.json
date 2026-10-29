@@ -5604,6 +5604,45 @@
       }
     },
     {
+      "name": "Chandelure (Mega)",
+      "types": [
+        "ghost",
+        "fire"
+      ],
+      "fastMoveIds": [
+        "ASTONISH",
+        "FIRE_SPIN",
+        "HEX",
+        "INCINERATE"
+      ],
+      "chargedMoveIds": [
+        "ENERGY_BALL",
+        "FLAME_CHARGE",
+        "SHADOW_BALL",
+        "OVERHEAT",
+        "RETURN",
+        "POLTERGEIST"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 97.23371118307095,
+          "max": 101.5874594449995
+        },
+        "great": {
+          "rankOne": 166.8909754880627,
+          "max": 175.50210614567723
+        },
+        "ultra": {
+          "rankOne": 214.61873978376366,
+          "max": 227.08916521072385
+        },
+        "master": {
+          "rankOne": 295.8550065755844,
+          "max": 295.8550065755844
+        }
+      }
+    },
+    {
       "name": "Chansey",
       "types": [
         "normal"
@@ -45174,6 +45213,14 @@
       "power": 5,
       "turns": 2
     },
+    "KOWTOW_CLEAVE": {
+      "name": "Kowtow Cleave",
+      "type": "dark",
+      "energy": 40,
+      "energyGain": 0,
+      "power": 75,
+      "turns": 1
+    },
     "LAST_RESORT": {
       "name": "Last Resort",
       "type": "normal",
@@ -45500,6 +45547,14 @@
       "energy": 45,
       "energyGain": 0,
       "power": 45,
+      "turns": 1
+    },
+    "OMINOUS_WIND_PLUS": {
+      "name": "Ominous Wind+",
+      "type": "ghost",
+      "energy": 40,
+      "energyGain": 0,
+      "power": 50,
       "turns": 1
     },
     "ORIGIN_PULSE": {

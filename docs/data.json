@@ -6700,6 +6700,45 @@
       }
     },
     {
+      "name": "Clefable (Mega)",
+      "types": [
+        "fairy"
+      ],
+      "fastMoveIds": [
+        "CHARGE_BEAM",
+        "CHARM",
+        "FAIRY_WIND",
+        "POUND",
+        "ZEN_HEADBUTT"
+      ],
+      "chargedMoveIds": [
+        "SWIFT",
+        "METEOR_MASH",
+        "MOONBLAST",
+        "DAZZLING_GLEAM",
+        "DRAINING_KISS",
+        "PSYCHIC"
+      ],
+      "cmp": {
+        "little": {
+          "rankOne": 76.33571952581391,
+          "max": 77.78696894645677
+        },
+        "great": {
+          "rankOne": 130.90066850185394,
+          "max": 137.62678980827332
+        },
+        "ultra": {
+          "rankOne": 167.94969293070739,
+          "max": 177.67044413089752
+        },
+        "master": {
+          "rankOne": 226.54040503501892,
+          "max": 226.54040503501892
+        }
+      }
+    },
+    {
       "name": "Clefairy",
       "types": [
         "fairy"
@@ -45437,6 +45476,14 @@
       "power": 90,
       "turns": 1
     },
+    "MOONBLAST_PLUS": {
+      "name": "Moonblast+",
+      "type": "fairy",
+      "energy": 50,
+      "energyGain": 0,
+      "power": 80,
+      "turns": 1
+    },
     "MOONGEIST_BEAM": {
       "name": "Moongeist Beam",
       "type": "ghost",
@@ -46148,6 +46195,14 @@
       "energyGain": 0,
       "power": 65,
       "turns": 1
+    },
+    "SOAK": {
+      "name": "Soak",
+      "type": "water",
+      "energy": 0,
+      "energyGain": 8,
+      "power": 6,
+      "turns": 2
     },
     "SOLAR_BEAM": {
       "name": "Solar Beam",

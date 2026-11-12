@@ -1,0 +1,182 @@
+diff --git a/docs/data.json b/docs/data.json
+index eed159c..68a7754 100644
+--- a/docs/data.json
++++ b/docs/data.json
+@@ -6682,40 +6682,79 @@
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 66.79193454980837,
+           "max": 71.29476159811006
+         },
+         "great": {
+           "rankOne": 115.26941146769478,
+           "max": 123.68796399061631
+         },
+         "ultra": {
+           "rankOne": 148.6834050416946,
+           "max": 160.24789488315582
+         },
+         "master": {
+           "rankOne": 163.14290362596512,
+           "max": 163.14290362596512
+         }
+       }
+     },
++    {
++      "name": "Clefable (Mega)",
++      "types": [
++        "fairy"
++      ],
++      "fastMoveIds": [
++        "CHARGE_BEAM",
++        "CHARM",
++        "FAIRY_WIND",
++        "POUND",
++        "ZEN_HEADBUTT"
++      ],
++      "chargedMoveIds": [
++        "SWIFT",
++        "METEOR_MASH",
++        "MOONBLAST",
++        "DAZZLING_GLEAM",
++        "DRAINING_KISS",
++        "PSYCHIC"
++      ],
++      "cmp": {
++        "little": {
++          "rankOne": 76.33571952581391,
++          "max": 77.78696894645677
++        },
++        "great": {
++          "rankOne": 130.90066850185394,
++          "max": 137.62678980827332
++        },
++        "ultra": {
++          "rankOne": 167.94969293070739,
++          "max": 177.67044413089752
++        },
++        "master": {
++          "rankOne": 226.54040503501892,
++          "max": 226.54040503501892
++        }
++      }
++    },
+     {
+       "name": "Clefairy",
+       "types": [
+         "fairy"
+       ],
+       "fastMoveIds": [
+         "POUND",
+         "ZEN_HEADBUTT"
+       ],
+       "chargedMoveIds": [
+         "SWIFT",
+         "BODY_SLAM",
+         "DISARMING_VOICE",
+         "MOONBLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 59.79487413987531,
+           "max": 66.64591598510731
+         },
+@@ -45420,40 +45459,48 @@
+       "energyGain": 0,
+       "power": 35,
+       "turns": 1
+     },
+     "MIST_BALL": {
+       "name": "Mist Ball",
+       "type": "psychic",
+       "energy": 60,
+       "energyGain": 0,
+       "power": 120,
+       "turns": 1
+     },
+     "MOONBLAST": {
+       "name": "Moonblast",
+       "type": "fairy",
+       "energy": 50,
+       "energyGain": 0,
+       "power": 90,
+       "turns": 1
+     },
++    "MOONBLAST_PLUS": {
++      "name": "Moonblast+",
++      "type": "fairy",
++      "energy": 50,
++      "energyGain": 0,
++      "power": 80,
++      "turns": 1
++    },
+     "MOONGEIST_BEAM": {
+       "name": "Moongeist Beam",
+       "type": "ghost",
+       "energy": 65,
+       "energyGain": 0,
+       "power": 135,
+       "turns": 1
+     },
+     "MUD_BOMB": {
+       "name": "Mud Bomb",
+       "type": "ground",
+       "energy": 45,
+       "energyGain": 0,
+       "power": 65,
+       "turns": 1
+     },
+     "MUD_SHOT": {
+       "name": "Mud Shot",
+       "type": "ground",
+       "energy": 0,
+@@ -46132,40 +46179,48 @@
+       "energyGain": 8,
+       "power": 11,
+       "turns": 3
+     },
+     "SNARL": {
+       "name": "Snarl",
+       "type": "dark",
+       "energy": 0,
+       "energyGain": 13,
+       "power": 5,
+       "turns": 3
+     },
+     "SNIPE_SHOT": {
+       "name": "Snipe Shot",
+       "type": "water",
+       "energy": 35,
+       "energyGain": 0,
+       "power": 65,
+       "turns": 1
+     },
++    "SOAK": {
++      "name": "Soak",
++      "type": "water",
++      "energy": 0,
++      "energyGain": 8,
++      "power": 6,
++      "turns": 2
++    },
+     "SOLAR_BEAM": {
+       "name": "Solar Beam",
+       "type": "grass",
+       "energy": 80,
+       "energyGain": 0,
+       "power": 150,
+       "turns": 1
+     },
+     "SPACIAL_REND": {
+       "name": "Spacial Rend",
+       "type": "dragon",
+       "energy": 55,
+       "energyGain": 0,
+       "power": 95,
+       "turns": 1
+     },
+     "SPARK": {
+       "name": "Spark",
+       "type": "electric",
+       "energy": 0,

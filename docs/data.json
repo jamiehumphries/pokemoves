@@ -22217,6 +22217,7 @@
       ],
       "chargedMoveIds": [
         "MIRROR_SHOT",
+        "MAGNET_BOMB",
         "WILD_CHARGE",
         "FLASH_CANNON",
         "RETURN",

@@ -1,5 +1,5 @@
 diff --git a/docs/data.json b/docs/data.json
-index eed159c..68a7754 100644
+index eed159c..867ed0f 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -6682,40 +6682,79 @@
@@ -82,7 +82,49 @@ index eed159c..68a7754 100644
            "rankOne": 59.79487413987531,
            "max": 66.64591598510731
          },
-@@ -45420,40 +45459,48 @@
+@@ -22161,40 +22200,41 @@
+         "master": {
+           "rankOne": 201.1814044713974,
+           "max": 201.1814044713974
+         }
+       }
+     },
+     {
+       "name": "Magnezone",
+       "types": [
+         "electric",
+         "steel"
+       ],
+       "fastMoveIds": [
+         "CHARGE_BEAM",
+         "METAL_SOUND",
+         "SPARK",
+         "VOLT_SWITCH"
+       ],
+       "chargedMoveIds": [
+         "MIRROR_SHOT",
++        "MAGNET_BOMB",
+         "WILD_CHARGE",
+         "FLASH_CANNON",
+         "RETURN",
+         "ZAP_CANNON"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 76.7399361133575,
+           "max": 81.23516249656673
+         },
+         "great": {
+           "rankOne": 133.0016826662647,
+           "max": 141.384141657836
+         },
+         "ultra": {
+           "rankOne": 171.21698451042175,
+           "max": 182.8450554770947
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+@@ -45420,40 +45460,48 @@
        "energyGain": 0,
        "power": 35,
        "turns": 1
@@ -131,7 +173,7 @@ index eed159c..68a7754 100644
        "name": "Mud Shot",
        "type": "ground",
        "energy": 0,
-@@ -46132,40 +46179,48 @@
+@@ -46132,40 +46180,48 @@
        "energyGain": 8,
        "power": 11,
        "turns": 3

@@ -19150,6 +19150,7 @@
       ],
       "chargedMoveIds": [
         "FOUL_PLAY",
+        "KOWTOW_CLEAVE",
         "X_SCISSOR",
         "DARK_PULSE",
         "IRON_HEAD",
@@ -58856,6 +58857,12 @@
         6,
         6
       ],
+      "KOWTOW_CLEAVE": [
+        5,
+        5,
+        5,
+        5
+      ],
       "LEAF_BLADE": [
         5,
         4,
@@ -59538,6 +59545,12 @@
         7,
         7
       ],
+      "KOWTOW_CLEAVE": [
+        6,
+        6,
+        6,
+        5
+      ],
       "LIQUIDATION": [
         7,
         6,
@@ -59911,6 +59924,12 @@
         6,
         6,
         6
+      ],
+      "KOWTOW_CLEAVE": [
+        5,
+        5,
+        5,
+        5
       ],
       "MAGNET_BOMB": [
         5,
@@ -67025,6 +67044,12 @@
         4,
         4,
         4
+      ],
+      "KOWTOW_CLEAVE": [
+        4,
+        3,
+        3,
+        3
       ],
       "LAST_RESORT": [
         5,

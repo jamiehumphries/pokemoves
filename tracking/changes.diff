@@ -1,5 +1,5 @@
 diff --git a/docs/data.json b/docs/data.json
-index eed159c..867ed0f 100644
+index eed159c..4dd28ac 100644
 --- a/docs/data.json
 +++ b/docs/data.json
 @@ -6682,40 +6682,79 @@
@@ -82,7 +82,49 @@ index eed159c..867ed0f 100644
            "rankOne": 59.79487413987531,
            "max": 66.64591598510731
          },
-@@ -22161,40 +22200,41 @@
+@@ -19094,40 +19133,41 @@
+         "master": {
+           "rankOne": 199.49080443382263,
+           "max": 199.49080443382263
+         }
+       }
+     },
+     {
+       "name": "Kingambit",
+       "types": [
+         "dark",
+         "steel"
+       ],
+       "fastMoveIds": [
+         "LOW_KICK",
+         "METAL_CLAW",
+         "METAL_SOUND",
+         "SNARL"
+       ],
+       "chargedMoveIds": [
+         "FOUL_PLAY",
++        "KOWTOW_CLEAVE",
+         "X_SCISSOR",
+         "DARK_PULSE",
+         "IRON_HEAD",
+         "FOCUS_BLAST"
+       ],
+       "cmp": {
+         "little": {
+           "rankOne": 72.84165675791397,
+           "max": 76.51434533394324
+         },
+         "great": {
+           "rankOne": 125.1743170875763,
+           "max": 133.06345471914622
+         },
+         "ultra": {
+           "rankOne": 162.1172510385512,
+           "max": 171.65355992317185
+         },
+         "master": {
+           "rankOne": 213.86090475320816,
+@@ -22161,40 +22201,41 @@
          "master": {
            "rankOne": 201.1814044713974,
            "max": 201.1814044713974
@@ -124,7 +166,7 @@ index eed159c..867ed0f 100644
          },
          "master": {
            "rankOne": 213.86090475320816,
-@@ -45420,40 +45460,48 @@
+@@ -45420,40 +45461,48 @@
        "energyGain": 0,
        "power": 35,
        "turns": 1
@@ -173,7 +215,7 @@ index eed159c..867ed0f 100644
        "name": "Mud Shot",
        "type": "ground",
        "energy": 0,
-@@ -46132,40 +46180,48 @@
+@@ -46132,40 +46181,48 @@
        "energyGain": 8,
        "power": 11,
        "turns": 3
@@ -222,3 +264,191 @@ index eed159c..867ed0f 100644
        "name": "Spark",
        "type": "electric",
        "energy": 0,
+@@ -58783,40 +58840,46 @@
+         10
+       ],
+       "HYPER_FANG": [
+         7,
+         6,
+         6,
+         6
+       ],
+       "ICE_PUNCH": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "IRON_HEAD": [
+         7,
+         6,
+         6,
+         6
+       ],
++      "KOWTOW_CLEAVE": [
++        5,
++        5,
++        5,
++        5
++      ],
+       "LEAF_BLADE": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "LIQUIDATION": [
+         6,
+         6,
+         5,
+         6
+       ],
+       "LOW_SWEEP": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "LUNGE": [
+         6,
+@@ -59465,40 +59528,46 @@
+         8
+       ],
+       "ICE_PUNCH": [
+         6,
+         6,
+         6,
+         5
+       ],
+       "ICY_WIND": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "IRON_HEAD": [
+         8,
+         7,
+         7,
+         7
+       ],
++      "KOWTOW_CLEAVE": [
++        6,
++        6,
++        6,
++        5
++      ],
+       "LIQUIDATION": [
+         7,
+         6,
+         7,
+         6
+       ],
+       "MAGNET_BOMB": [
+         6,
+         6,
+         6,
+         5
+       ],
+       "MIRROR_SHOT": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "MOONBLAST": [
+         8,
+@@ -59839,40 +59908,46 @@
+         5
+       ],
+       "HYDRO_PUMP": [
+         10,
+         9,
+         10,
+         9
+       ],
+       "HYPER_BEAM": [
+         10,
+         10,
+         10,
+         10
+       ],
+       "IRON_HEAD": [
+         7,
+         6,
+         6,
+         6
+       ],
++      "KOWTOW_CLEAVE": [
++        5,
++        5,
++        5,
++        5
++      ],
+       "MAGNET_BOMB": [
+         5,
+         5,
+         5,
+         5
+       ],
+       "METEOR_BEAM": [
+         8,
+         7,
+         8,
+         7
+       ],
+       "MIRROR_SHOT": [
+         5,
+         4,
+         5,
+         4
+       ],
+       "NIGHT_SLASH": [
+         5,
+@@ -66953,40 +67028,46 @@
+         4
+       ],
+       "ICE_PUNCH": [
+         4,
+         3,
+         3,
+         3
+       ],
+       "ICY_WIND": [
+         4,
+         3,
+         4,
+         3
+       ],
+       "IRON_HEAD": [
+         4,
+         4,
+         4,
+         4
+       ],
++      "KOWTOW_CLEAVE": [
++        4,
++        3,
++        3,
++        3
++      ],
+       "LAST_RESORT": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "LEAF_BLADE": [
+         3,
+         3,
+         3,
+         2
+       ],
+       "LEAF_STORM": [
+         5,
+         4,
+         4,
+         4
+       ],
+       "LEAF_TORNADO": [
+         4,

@@ -6702,7 +6702,8 @@
     {
       "name": "Clefable (Mega)",
       "types": [
-        "fairy"
+        "fairy",
+        "flying"
       ],
       "fastMoveIds": [
         "CHARGE_BEAM",

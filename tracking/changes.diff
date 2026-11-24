@@ -1,8 +1,8 @@
 diff --git a/docs/data.json b/docs/data.json
-index eed159c..4dd28ac 100644
+index eed159c..cb27c4e 100644
 --- a/docs/data.json
 +++ b/docs/data.json
-@@ -6682,40 +6682,79 @@
+@@ -6682,40 +6682,80 @@
        ],
        "cmp": {
          "little": {
@@ -26,7 +26,8 @@ index eed159c..4dd28ac 100644
 +    {
 +      "name": "Clefable (Mega)",
 +      "types": [
-+        "fairy"
++        "fairy",
++        "flying"
 +      ],
 +      "fastMoveIds": [
 +        "CHARGE_BEAM",
@@ -82,7 +83,7 @@ index eed159c..4dd28ac 100644
            "rankOne": 59.79487413987531,
            "max": 66.64591598510731
          },
-@@ -19094,40 +19133,41 @@
+@@ -19094,40 +19134,41 @@
          "master": {
            "rankOne": 199.49080443382263,
            "max": 199.49080443382263
@@ -124,7 +125,7 @@ index eed159c..4dd28ac 100644
          },
          "master": {
            "rankOne": 213.86090475320816,
-@@ -22161,40 +22201,41 @@
+@@ -22161,40 +22202,41 @@
          "master": {
            "rankOne": 201.1814044713974,
            "max": 201.1814044713974
@@ -166,7 +167,7 @@ index eed159c..4dd28ac 100644
          },
          "master": {
            "rankOne": 213.86090475320816,
-@@ -45420,40 +45461,48 @@
+@@ -45420,40 +45462,48 @@
        "energyGain": 0,
        "power": 35,
        "turns": 1
@@ -215,7 +216,7 @@ index eed159c..4dd28ac 100644
        "name": "Mud Shot",
        "type": "ground",
        "energy": 0,
-@@ -46132,40 +46181,48 @@
+@@ -46132,40 +46182,48 @@
        "energyGain": 8,
        "power": 11,
        "turns": 3
@@ -264,7 +265,7 @@ index eed159c..4dd28ac 100644
        "name": "Spark",
        "type": "electric",
        "energy": 0,
-@@ -58783,40 +58840,46 @@
+@@ -58783,40 +58841,46 @@
          10
        ],
        "HYPER_FANG": [
@@ -311,7 +312,7 @@ index eed159c..4dd28ac 100644
        ],
        "LUNGE": [
          6,
-@@ -59465,40 +59528,46 @@
+@@ -59465,40 +59529,46 @@
          8
        ],
        "ICE_PUNCH": [
@@ -358,7 +359,7 @@ index eed159c..4dd28ac 100644
        ],
        "MOONBLAST": [
          8,
-@@ -59839,40 +59908,46 @@
+@@ -59839,40 +59909,46 @@
          5
        ],
        "HYDRO_PUMP": [
@@ -405,7 +406,7 @@ index eed159c..4dd28ac 100644
        ],
        "NIGHT_SLASH": [
          5,
-@@ -66953,40 +67028,46 @@
+@@ -66953,40 +67029,46 @@
          4
        ],
        "ICE_PUNCH": [
